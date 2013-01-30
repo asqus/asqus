@@ -7,6 +7,7 @@ Asqus::Application.routes.draw do
 
   resources :quick_poll_responses
 
+  resources :quick_poll_results
 
   resources :quick_polls
 
