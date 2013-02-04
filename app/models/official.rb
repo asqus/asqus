@@ -2,9 +2,9 @@ class Official < ActiveRecord::Base
   has_many :offices, :through => :official_tenures
   has_many :users, :through => :user_groups, :as => :group
 
-  attr_accessible :email, :name, :photo
+  attr_accessible :email, :first_name, :middle_name, :last_name, :photo
 
-  validates_presence_of :name
+  validates_presence_of :first_name, :last_name
 
   after_save :store_photo
     
@@ -29,6 +29,9 @@ class Official < ActiveRecord::Base
     "/official_photo_store/#{id}.#{photo_extension}"
   end
   
+  def name
+    self.first_name + " " + self.last_name
+  end
 
 private
 

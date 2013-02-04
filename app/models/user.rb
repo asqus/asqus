@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
   end
 
   validates :name, :presence => true, :length => { :maximum => 30 }
-  validates :email, :presence => true, :uniqueness => true, :email => true
+  validates :email, :presence => true, :uniqueness => true, :email => true, :length => { :maximum => 255 }
 
 
   def apply_omniauth(auth)

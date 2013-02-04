@@ -1,0 +1,1 @@
+psql -U postgres -d asqus_dev --file create-schema-0.1.0.sql 
