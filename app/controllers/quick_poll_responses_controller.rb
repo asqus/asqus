@@ -50,15 +50,15 @@ class QuickPollResponsesController < ApplicationController
     response[:user_id] = current_user.id
     response[:value] = params[:value]    # i have no fucking idea what's going on here and it's too fucking late to think about it
 
-    @quick_poll_response = QuickPollResponse.new(response)
+    quick_poll_response = QuickPollResponse.new(response)
 
-    if @quick_poll_response.save
+    if quick_poll_response.save
       logger.info "save succeeded"
     else
       logger.info "save failed"
     end
 
-    redirect_to "/"
+    redirect_to :action => :index, :quick_poll_id => quick_poll_response.quick_poll_id
   end
 
 
