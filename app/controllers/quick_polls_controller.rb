@@ -52,7 +52,9 @@ class QuickPollsController < ApplicationController
   def create
 
     logger.info params[:quick_poll]
-    @quick_poll = QuickPoll.new(params[:quick_poll])
+    qp = params[:quick_poll]
+    qp[:poll_workflow_state_id] = 1
+    @quick_poll = QuickPoll.new(qp)
 
     respond_to do |format|
       if @quick_poll.save

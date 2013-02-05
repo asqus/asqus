@@ -88,9 +88,9 @@ State.create([
 
 puts 'CREATING MUNICIPALITIES'
 Municipality.create([
-  { :id => 1, :name => "Detroit", :state_id => 22 },
-  { :id => 2, :name => "Ann Arbor", :state_id => 22 },
-  { :id => 3, :name => "Ypsilanti", :state_id => 22 }
+  { :name => "Detroit", :state_id => 22 },
+  { :name => "Ann Arbor", :state_id => 22 },
+  { :name => "Ypsilanti", :state_id => 22 }
 ], :without_protection => true)
 
 
@@ -164,11 +164,11 @@ Office.create([
 
 puts 'CREATING TERMS'
 Term.create([
-  { :id => 1, :name => "U.S. House of Representatives 2013-15", :office_type_id => 4, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
-  { :id => 2, :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 3, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
-  { :id => 3, :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 3, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
-  { :id => 4, :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 3, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
-  { :id => 5, :name => "Governor 2011-2015", :office_type_id => 5, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
+  { :name => "U.S. House of Representatives 2013-15", :office_type_id => 4, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 3, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 3, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
+  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 3, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
+  { :name => "Governor 2011-2015", :office_type_id => 5, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
 ], :without_protection => true)
 
 puts 'PROCESSING HOUSE MEMBER SUNLIGHT DATA'
@@ -272,8 +272,8 @@ UserGroup.create([
 puts 'CREATING ISSUES'
 
 Issue.create([
-  { :id => 1, :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id },
-  { :id => 2, :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id }
+  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id },
+  { :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id }
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL TYPES'
@@ -287,61 +287,61 @@ QuickPollType.create([
 puts 'CREATING QUICK POLLS'
 
 QuickPoll.create([
-  { :id => 1, :issue_id => 1, :quick_poll_type_id => 1, :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
+  { :issue_id => 1, :quick_poll_type_id => 1, :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2 },
-  { :id => 2, :issue_id => 2, :quick_poll_type_id => 1, :title => "Taxes and the Deficit", :body => "How much to you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
+  { :issue_id => 2, :quick_poll_type_id => 1, :title => "Taxes and the Deficit", :body => "How much to you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2 }
 ], :without_protection => true )
 
 QuickPollOption.create([
-  { :id => 1, :quick_poll_id => 1, :text => "Yes", :value => 1 },
-  { :id => 2, :quick_poll_id => 1, :text => "No", :value => 2 },
-  { :id => 3, :quick_poll_id => 2, :text => "Agree Strongly", :value => 1 },
-  { :id => 4, :quick_poll_id => 2, :text => "Agree Somewhat", :value => 2 },
-  { :id => 5, :quick_poll_id => 2, :text => "Neutral/Undecided", :value => 3 },
-  { :id => 6, :quick_poll_id => 2, :text => "Disagree Somewhat", :value => 4 },
-  { :id => 7, :quick_poll_id => 2, :text => "Disagree Strongly", :value => 5 }  
+  { :quick_poll_id => 1, :text => "Yes", :value => 1 },
+  { :quick_poll_id => 1, :text => "No", :value => 2 },
+  { :quick_poll_id => 2, :text => "Agree Strongly", :value => 1 },
+  { :quick_poll_id => 2, :text => "Agree Somewhat", :value => 2 },
+  { :quick_poll_id => 2, :text => "Neutral/Undecided", :value => 3 },
+  { :quick_poll_id => 2, :text => "Disagree Somewhat", :value => 4 },
+  { :quick_poll_id => 2, :text => "Disagree Strongly", :value => 5 }  
 ], :without_protection => true )
 
 puts 'CREATING STANDARD POLL OPTIONS'
 StandardPollOptionSet.create([
-  { :id => 1, :name => "Yes or No" },
-  { :id => 2, :name => "Degrees of Agreement" }
+  { :name => "Yes or No" },
+  { :name => "Degrees of Agreement" }
 ], :without_protection => true )
 
 StandardPollOption.create([
-  { :id => 1, :standard_poll_option_set_id => 1, :text => 'Yes', :value => 1 },
-  { :id => 2, :standard_poll_option_set_id => 1, :text => 'No', :value => 2 },
-  { :id => 3, :standard_poll_option_set_id => 2, :text => 'Agree Strongly', :value => 1 },
-  { :id => 4, :standard_poll_option_set_id => 2, :text => 'Agree Somewhat', :value => 2 },
-  { :id => 5, :standard_poll_option_set_id => 2, :text => 'Neutral/Undecided', :value => 3 },
-  { :id => 6, :standard_poll_option_set_id => 2, :text => 'Disagree Somewhat', :value => 4 },
-  { :id => 7, :standard_poll_option_set_id => 2, :text => 'Disagree Strongly', :value => 5 },
+  { :standard_poll_option_set_id => 1, :text => 'Yes', :value => 1 },
+  { :standard_poll_option_set_id => 1, :text => 'No', :value => 2 },
+  { :standard_poll_option_set_id => 2, :text => 'Agree Strongly', :value => 1 },
+  { :standard_poll_option_set_id => 2, :text => 'Agree Somewhat', :value => 2 },
+  { :standard_poll_option_set_id => 2, :text => 'Neutral/Undecided', :value => 3 },
+  { :standard_poll_option_set_id => 2, :text => 'Disagree Somewhat', :value => 4 },
+  { :standard_poll_option_set_id => 2, :text => 'Disagree Strongly', :value => 5 },
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL RESPONSES'
 
 QuickPollResponse.create([
-  { :id => 1, :quick_poll_id => 1, :user_id => 1, :value => 1 },
-  { :id => 2, :quick_poll_id => 1, :user_id => 2, :value => 1 },
-  { :id => 3, :quick_poll_id => 1, :user_id => 3, :value => 1 },
-  { :id => 4, :quick_poll_id => 1, :user_id => 4, :value => 1 },
-  { :id => 5, :quick_poll_id => 1, :user_id => 5, :value => 1 },
-  { :id => 6, :quick_poll_id => 1, :user_id => 6, :value => 1 },
-  { :id => 7, :quick_poll_id => 1, :user_id => 7, :value => 1 },
-  { :id => 8, :quick_poll_id => 1, :user_id => 8, :value => 2 }, 
-  { :id => 9, :quick_poll_id => 1, :user_id => 9, :value => 2 }, 
-  { :id => 10, :quick_poll_id => 1, :user_id => 10, :value => 2 }, 
-  { :id => 11, :quick_poll_id => 2, :user_id => 1, :value => 1 },
-  { :id => 12, :quick_poll_id => 2, :user_id => 2, :value => 2 },
-  { :id => 13, :quick_poll_id => 2, :user_id => 3, :value => 3 },
-  { :id => 14, :quick_poll_id => 2, :user_id => 4, :value => 4 },
-  { :id => 15, :quick_poll_id => 2, :user_id => 5, :value => 5 },
-  { :id => 16, :quick_poll_id => 2, :user_id => 6, :value => 2 },
-  { :id => 17, :quick_poll_id => 2, :user_id => 7, :value => 3 },
-  { :id => 18, :quick_poll_id => 2, :user_id => 8, :value => 2 }, 
-  { :id => 19, :quick_poll_id => 2, :user_id => 9, :value => 3 }, 
-  { :id => 20, :quick_poll_id => 2, :user_id => 10, :value => 5 }
+  { :quick_poll_id => 1, :user_id => 1, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 2, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 3, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 4, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 5, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 6, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 7, :value => 1 },
+  { :quick_poll_id => 1, :user_id => 8, :value => 2 }, 
+  { :quick_poll_id => 1, :user_id => 9, :value => 2 }, 
+  { :quick_poll_id => 1, :user_id => 10, :value => 2 }, 
+  { :quick_poll_id => 2, :user_id => 1, :value => 1 },
+  { :quick_poll_id => 2, :user_id => 2, :value => 2 },
+  { :quick_poll_id => 2, :user_id => 3, :value => 3 },
+  { :quick_poll_id => 2, :user_id => 4, :value => 4 },
+  { :quick_poll_id => 2, :user_id => 5, :value => 5 },
+  { :quick_poll_id => 2, :user_id => 6, :value => 2 },
+  { :quick_poll_id => 2, :user_id => 7, :value => 3 },
+  { :quick_poll_id => 2, :user_id => 8, :value => 2 }, 
+  { :quick_poll_id => 2, :user_id => 9, :value => 3 }, 
+  { :quick_poll_id => 2, :user_id => 10, :value => 5 }
 ])
   
 

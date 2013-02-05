@@ -2,14 +2,14 @@
 
 
 create table nations (
-	id	serial primary key,
+	id	integer primary key,
 	name text not null,
 	created_at timestamp not null default now(),
 	updated_at timestamp not null default now()
 );
 
 create table states (
-	id	serial primary key,
+	id	integer primary key,
 	name text not null,
 	abbreviation char(2) not null,
 	is_state boolean not null default 'true',
