@@ -36,10 +36,10 @@
 </tr>
 <% end %>
 		
-
-<% @us_senate_offices.each do |office| %>
-<% senator = incumbent_officials(office.id).first %>
-<tr>
+<% if @us_senate_offices %>
+  <% @us_senate_offices.each do |office| %>
+  <% senator = incumbent_officials(office.id).first %>
+  <tr>
 	<td><%= office %></td>
 	<td><%= link_to senator.name, senator if !senator.nil? %></td>
 	<td>
@@ -51,13 +51,15 @@
 	    <% end %>
 	  <% end %>
 	</td>	
-</tr>
+  </tr>
+  <% end %>
 <% end %>
 
-<% @us_house_offices.each do |office| %>
-<% congressperson = incumbent_officials(office.id).first %>
-<tr>
-	<td><%= office %></td>
+<% if @us_house_offices %>
+  <% @us_house_offices.each do |office| %>
+  <% congressperson = incumbent_officials(office.id).first %>
+  <tr>
+  	<td><%= office %></td>
 	<td><%= link_to congressperson.name, congressperson if !congressperson.nil? %></td>
 	<td>
 	  <% if !congressperson.nil? %>
@@ -68,7 +70,8 @@
 	    <% end %>
 	  <% end %>
 	</td>	
-</tr>
+  </tr>
+  <% end %>
 <% end %>
 
 </table>
