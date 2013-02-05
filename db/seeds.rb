@@ -21,7 +21,8 @@ OfficeType.create([
   { :id => 6, :description => 'Lieutenant Governor', :polity_type => 'State' },
   { :id => 7, :description => 'State Senator', :polity_type => 'State' },
   { :id => 8, :description => 'State Representative', :polity_type => 'State' },
-  { :id => 9, :description => 'Mayor', :polity_type => 'Municipality' }
+  { :id => 9, :description => 'Mayor', :polity_type => 'Municipality' },
+  { :id => 10, :description => 'U.S. House Delegate', :polity_type => 'State' }
 ], :without_protection => true)
 
 puts 'CREATING STATES'
@@ -76,7 +77,13 @@ State.create([
   { :id => 48, :name => 'West Virginia', :abbreviation => 'WV' },
   { :id => 49, :name => 'Wisconsin', :abbreviation => 'WI' },
   { :id => 50, :name => 'Wyoming', :abbreviation => 'WY' },
-  { :id => 51, :name => 'District of Columbia', :abbreviation => 'DC' },
+  { :id => 51, :name => 'District of Columbia', :abbreviation => 'DC', :is_state => 'false' },
+  { :id => 52, :name => 'American Somoa', :abbreviation => 'AS', :is_state => 'false' },
+  { :id => 53, :name => 'Guam', :abbreviation => 'GU', :is_state => 'false' },
+  { :id => 54, :name => 'Northern Mariana Islands', :abbreviation => 'MP', :is_state => 'false' },
+  { :id => 55, :name => 'Puerto Rico', :abbreviation => 'PR', :is_state => 'false' },
+  { :id => 56, :name => 'U.S. Minor Outlying Islands', :abbreviation => 'UM', :is_state => 'false' },
+  { :id => 57, :name => 'Virgin Islands', :abbreviation => 'VI', :is_state => 'false' }
 ], :without_protection => true)
 
 puts 'CREATING MUNICIPALITIES'
@@ -86,56 +93,74 @@ Municipality.create([
   { :id => 3, :name => "Ypsilanti", :state_id => 22 }
 ], :without_protection => true)
 
-puts 'CREATING MICHIGAN CONGRESSIONAL OFFICES'
 
-for i in 1..15 do
-  Office.create([
-    { :id => i, :office_type_id => 4, :name => "U.S. Representative", :polity_id => 22, :polity_type => "State", :seat_discriminator => i }
-  ], :without_protection => true)
+puts 'CREATING CONGRESSIONAL DISTRICTS AND OFFICES'
+
+house_districts = { :AL => 7, :AK => 1, :AZ => 9, :AR => 4, :CA => 53, 
+                    :CO => 7, :CT => 5, :DE => 1, :FL => 27, :GA => 14, 
+                    :HI => 2, :ID => 2, :IL => 18, :IN => 9, :IA => 4, 
+                    :KS => 4, :KY => 6, :LA => 6, :ME => 2, :MD => 8, 
+                    :MA => 9, :MI => 14, :MN => 8, :MS => 4, :MO => 8, 
+                    :MT => 1, :NE => 3, :NV => 4, :NH => 2, :NJ => 12, 
+                    :NM => 3, :NY => 27, :NC => 13, :ND => 1, :OH => 16, 
+                    :OK => 5, :OR => 5, :PA => 18, :RI => 2, :SC => 7, 
+                    :SD => 1, :TN => 9, :TX => 36, :UT => 4, :VT => 1, 
+                    :VA => 11, :WA => 10, :WV => 3, :WI => 8, :WY => 1,
+                    :DC => 1, :AS => 1, :GU => 1, :MP => 1, :UM => 1, :VI => 1, :PR => 1 }
+
+house_districts.each_pair do |st, num_districts|
+  state = State.find_by_abbreviation(st)
+  puts state.name
+  for i in 1..num_districts do
+    # if there is only one district in state/territory, convention is to number it zero
+    district_number = num_districts > 1 ? i : 0
+    district = CongressionalDistrict.create(
+      { :state_id => state.id, :district_number => district_number }, :without_protection => true
+    )
+    office_type_id = state.is_state ? 4 : 10
+    office_name = state.is_state ? 'U.S. Representative' : 'Delegate'
+    Office.create( 
+      { :office_type_id => office_type_id, :name => office_name, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => district_number },
+      :without_protection => true
+    )    
+  end
 end
 
-puts 'CREATING MICHIGAN CONGRESSIONAL DISTRICTS'
+senate_classes = { :AL => [2,3], :AK => [2,3], :AZ => [1,3], :AR => [2,3], :CA => [1,3], 
+                   :CO => [2,3], :CT => [1,3], :DE => [1,2], :FL => [1,3], :GA => [2,3], 
+                   :HI => [1,3], :ID => [2,3], :IL => [2,3], :IN => [1,3], :IA => [2,3], 
+                   :KS => [2,3], :KY => [2,3], :LA => [2,3], :ME => [1,2], :MD => [1,3], 
+                   :MA => [1,2], :MI => [1,2], :MN => [1,2], :MS => [1,2], :MO => [1,3], 
+                   :MT => [1,2], :NE => [1,2], :NV => [1,3], :NH => [2,3], :NJ => [1,2], 
+                   :NM => [1,2], :NY => [1,3], :NC => [2,3], :ND => [1,3], :OH => [1,3], 
+                   :OK => [2,3], :OR => [2,3], :PA => [1,3], :RI => [1,2], :SC => [2,3], 
+                   :SD => [2,3], :TN => [1,2], :TX => [1,2], :UT => [1,3], :VT => [1,3], 
+                   :VA => [1,2], :WA => [1,3], :WV => [1,2], :WI => [1,3], :WY => [1,2] }
 
-for i in 1..15 do 
-  CongressionalDistrict.create([
-    { :id => i, :state_id => 22, :district_number => i }
-  ], :without_protection => true)
-end
+puts 'CREATING US SENATE, GOVERNOR OFFICES'
 
+senate_classes.each_pair do |st, classes|
+  state = State.find_by_abbreviation(st)
+  classes.each do |class_num|
+    Office.create(
+      { :office_type_id => 3, :name => "United States Senator", :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
+      :without_protection => true
+    )
+  end
+  Office.create(
+    { :office_type_id => 5, :name => "Governor", :polity_id => state.id, :polity_type => 'State' },
+    :without_protection => true
+  )
+end  
 
 puts 'CREATING OTHER OFFICES'
 
 Office.create([
-    { :id => 16, :office_type_id => 3, :name => "Senator", :polity_id => 22, :polity_type => 'State', :seat_discriminator => 1 },
-    { :id => 17, :office_type_id => 3, :name => "Senator", :polity_id => 22, :polity_type => 'State', :seat_discriminator => 2 },
-    { :id => 18, :office_type_id => 5, :name => "Governor", :polity_id => 22, :polity_type => 'State', :seat_discriminator => 1 },
-    { :id => 19, :office_type_id => 9, :name => "Mayor", :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :id => 20, :office_type_id => 9,  :name => "Mayor", :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :id => 21, :office_type_id => 9, :name => "Mayor", :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
+    { :office_type_id => 9, :name => "Mayor", :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 9,  :name => "Mayor", :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 9, :name => "Mayor", :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
 ], :without_protection => true)
 
-
-
-Official.create([
-  { :id => 1, :first_name => "Dan", :last_name => "Benishek", :email => "benishek@house.gov" },
-  { :id => 2, :first_name => "Bill", :last_name => "Huizenga", :email => "huizenga@house.gov" },
-  { :id => 3, :first_name => "Justin", :last_name => "Amash", :email => "amash@house.gov" },
-  { :id => 4, :first_name => "David", :last_name => "Camp", :email => "camp@house.gov" },
-  { :id => 5, :first_name => "Dale", :last_name => "Kildee", :email => "kildee@house.gov" },
-  { :id => 6, :first_name => "Fred", :last_name => "Upton", :email => "upton@house.gov" },
-  { :id => 7, :first_name => "Timothy", :last_name => "Walberg", :email => "walberg@house.gov" },
-  { :id => 8, :first_name => "Mike", :last_name => "Rogers", :email => "rogers@house.gov" },
-  { :id => 9, :first_name => "Gary", :last_name =>"Peters", :email => "peters@house.gov" },
-  { :id => 10, :first_name => "Candice", :last_name => "Miller", :email => "miller@house.gov" },
-  { :id => 11, :first_name => "David", :last_name => "Curson", :email => "curson@house.gov" },
-  { :id => 12, :first_name => "Sander", :last_name =>"Levin", :email => "levin@house.gov" },
-  { :id => 13, :first_name => "Hansen", :last_name => "Clarke", :email => "clarke@house.gov" },
-  { :id => 14, :first_name => "John", :last_name => "Conyers Jr", :email => "conyers@house.gov" },
-  { :id => 15, :first_name => "John", :last_name => "Dingell", :email => "dingall@house.gov" },
-  { :id => 16, :first_name => "Carl", :last_name => "Levin", :email => "levin@senate.gov"},
-  { :id => 17, :first_name => "Debbie", :middle_name => "Ann", :last_name => "Stabenow", :email => "stabenow@senate.gov"},
-  { :id => 18, :first_name => "Richard", :last_name => "Snyner", :email => "snyder@michigan.state.us" }
-], :without_protection => true)
 
 puts 'CREATING TERMS'
 Term.create([
@@ -144,31 +169,48 @@ Term.create([
   { :id => 3, :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 3, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
   { :id => 4, :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 3, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
   { :id => 5, :name => "Governor 2011-2015", :office_type_id => 5, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
-  ])
-
-puts 'CREATING OFFICIAL TERMS'
-
-OfficialTerm.create([
-  { :id => 1, :official_id => 1, :office_id => 1, :term_id => 1 },
-  { :id => 2, :official_id => 2, :office_id => 2, :term_id => 1 },
-  { :id => 3, :official_id => 3, :office_id => 3, :term_id => 1 },
-  { :id => 4, :official_id => 4, :office_id => 4, :term_id => 1 },
-  { :id => 5, :official_id => 5, :office_id => 5, :term_id => 1 },
-  { :id => 6, :official_id => 6, :office_id => 6, :term_id => 1 },
-  { :id => 7, :official_id => 7, :office_id => 7, :term_id => 1 },
-  { :id => 8, :official_id => 8, :office_id => 8, :term_id => 1 },
-  { :id => 9, :official_id => 9, :office_id => 9, :term_id => 1 },
-  { :id => 10, :official_id => 10, :office_id => 10, :term_id => 1 },
-  { :id => 11, :official_id => 11, :office_id => 11, :term_id => 1 },
-  { :id => 12, :official_id => 12, :office_id => 12, :term_id => 1 },
-  { :id => 13, :official_id => 13, :office_id => 13, :term_id => 1 },
-  { :id => 14, :official_id => 14, :office_id => 14, :term_id => 1 },
-  { :id => 15, :official_id => 15, :office_id => 15, :term_id => 1 }, 
-  { :id => 16, :official_id => 16, :office_id => 16, :term_id => 2 },
-  { :id => 17, :official_id => 17, :office_id => 17, :term_id => 2 },
-  { :id => 18, :official_id => 18, :office_id => 18, :term_id => 5 }
 ], :without_protection => true)
 
+puts 'PROCESSING HOUSE MEMBER SUNLIGHT DATA'
+
+imps = ImportedSunlightHouseMember.find(:all)
+imps.each do |imp|
+  state = State.find_by_abbreviation(imp.state)
+  party = Party.find_by_abbreviation(imp.party)
+  # office type is 4 for representative, 10 for territorial delegate
+  office_type_id = state.is_state ? 4 : 10
+  office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.district).first
+  official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
+                              :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
+                              :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
+                              :phone => imp.phone, :fax => imp.fax, :website => imp.website, :webform => imp.webform,
+                              :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
+                              :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
+                              :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
+                              :official_rss => imp.official_rss }, :without_protection => true
+                            )                              
+  OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
+end
+
+
+puts 'PROCESSING US SENATOR SUNLIGHT DATA'
+
+imps = ImportedSunlightSenator.find(:all)
+imps.each do |imp|
+  state = State.find_by_abbreviation(imp.state)
+  party = Party.find_by_abbreviation(imp.party)
+  office = Office.where( :office_type_id => 3, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.senate_class).first
+  official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
+                              :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
+                              :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
+                              :phone => imp.phone, :fax => imp.fax, :website => imp.website, :webform => imp.webform,
+                              :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
+                              :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
+                              :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
+                              :official_rss => imp.official_rss }, :without_protection => true
+                            )                              
+  OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
+end
 
 puts 'CREATING ROLES'
 Role.create([
@@ -179,47 +221,50 @@ Role.create([
 
 
 puts 'SETTING UP DEFAULT USER LOGIN'
-user1 = User.create! :name => 'Joe Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id =>15, :municipality_id => 2 
+user1 = User.create! :name => 'Joe Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number =>14, :municipality_id => 2 
 
 puts 'New user created: ' << user1.name
 
-user2 = User.create! :name => 'Jane Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id => 15, :municipality_id => 2
+user2 = User.create! :name => 'Jane Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 13, :municipality_id => 2
 puts 'New user created: ' << user2.name
 
-user3 = User.create! :name => 'Bob User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id =>15, :municipality_id => 2 
+user3 = User.create! :name => 'Bob User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number =>12, :municipality_id => 2 
 
 puts 'New user created: ' << user3.name
 
-user4 = User.create! :name => 'Cindy User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id => 15, :municipality_id => 2
+user4 = User.create! :name => 'Cindy User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 11, :municipality_id => 2
 puts 'New user created: ' << user4.name
 
-user5 = User.create! :name => 'Jane User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id =>15, :municipality_id => 2 
+user5 = User.create! :name => 'Jane User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 10, :municipality_id => 2 
 
 puts 'New user created: ' << user5.name
 
-user6 = User.create! :name => 'Frank User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id => 15, :municipality_id => 2
+user6 = User.create! :name => 'Frank User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 9, :municipality_id => 2
 puts 'New user created: ' << user6.name
 
-user7 = User.create! :name => 'Michael User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id =>15, :municipality_id => 2 
+user7 = User.create! :name => 'Michael User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 8, :municipality_id => 2 
 
 puts 'New user created: ' << user7.name
 
-user8 = User.create! :name => 'Jill User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id => 15, :municipality_id => 2
+user8 = User.create! :name => 'Jill User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number => 7, :municipality_id => 2
 puts 'New user created: ' << user8.name
 
-user9 = User.create! :name => 'Fred User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id =>15, :municipality_id => 2 
+user9 = User.create! :name => 'Fred User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number =>6, :municipality_id => 2 
 
 puts 'New user created: ' << user9.name
 
-user10 = User.create! :name => 'Alice User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_id => 15, :municipality_id => 2
+user10 = User.create! :name => 'Alice User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 22, :congressional_district_number=> 5, :municipality_id => 2
 puts 'New user created: ' << user10.name
 
 user1.add_role :admin
 user2.add_role :VIP
  
+michigan = State.find_by_abbreviation('MI')
+admin_office = Office.where( :office_type_id => 4, :polity_id => michigan.id ).first
+ 
 UserGroup.create([
-  { :user_id => 1, :group_type => "Office", :group_id => 16, :role => 'Staff' },
-  { :user_id => 2, :group_type => "Office", :group_id => 18, :role => 'Staff' }
+  { :user_id => 1, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' },
+  { :user_id => 2, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' }
   
 ], :without_protection => true)
  
@@ -227,8 +272,8 @@ UserGroup.create([
 puts 'CREATING ISSUES'
 
 Issue.create([
-  { :id => 1, :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => 15 },
-  { :id => 2, :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => 15 }
+  { :id => 1, :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id },
+  { :id => 2, :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id }
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL TYPES'

@@ -19,15 +19,33 @@
 <table width=400>
 <tr><th>Office</th><th>Incumbent</th><th></th></tr>
 
-<% @state_offices.each do |office| %>
-<% state_officer = incumbent_officials(office.id).first %>
+<% if @governor_office %>
+<% governor = incumbent_officials(@governor_office.id) %>
+<tr>
+	<td><%= @governor_office %></td>
+	<td><%= link_to governor.name, governor if !@governor.nil? %></td>
+	<td>
+		<% if !@governor.nil? %>
+		  <% if governor.has_photo? %>
+		    <%= image_tag governor.photo_path %>
+		  <% else %>
+		    No photo.
+	      <% end %>
+	    <% end %>
+	 </td>
+</tr>
+<% end %>
+		
+
+<% @us_senate_offices.each do |office| %>
+<% senator = incumbent_officials(office.id).first %>
 <tr>
 	<td><%= office %></td>
-	<td><%= link_to state_officer.name, state_officer if !state_officer.nil? %></td>
+	<td><%= link_to senator.name, senator if !senator.nil? %></td>
 	<td>
-	  <% if !state_officer.nil? %>
-	    <% if state_officer.has_photo? %>
-	      <%= image_tag state_officer.photo_path %>
+	  <% if !senator.nil? %>
+	    <% if senator.has_photo? %>
+	      <%= image_tag senator.photo_path %>
 	    <% else %>
 	      No photo.
 	    <% end %>
@@ -36,7 +54,7 @@
 </tr>
 <% end %>
 
-<% @congressional_offices.each do |office| %>
+<% @us_house_offices.each do |office| %>
 <% congressperson = incumbent_officials(office.id).first %>
 <tr>
 	<td><%= office %></td>
@@ -50,40 +68,6 @@
 	    <% end %>
 	  <% end %>
 	</td>	
-</tr>
-<% end %>
-
-<% @county_offices.each do |office| %>
-<% county_officer = incumbent_officials(office.id).first %>
-<tr>
-	<td><%= office %></td>
-	<td><%= link_to county_officer.name, county_officer if !county_officer.nil?%></td>
-	<td>
-	  <% if !county_officer.nil? %>
-        <% if county_officer.has_photo? %>
-	      <%= image_tag county_officer.photo_path %>
-	    <% else %>
-	      No photo.
-	    <% end %>
-	  <% end %>
-	</td>
-</tr>
-<% end %>
-
-<% @municipal_offices.each do |office| %>
-<% municipal_officer = incumbent_officials(office.id).first %>
-<tr>
-	<td><%= office %></td>
-	<td><%= link_to municipal_officer.name, municipal_officer if !municipal_officer.nil?%></td>
-	<td>
-      <% if !municipal_officer.nil? %>
-	    <% if municipal_officer.has_photo? %>
-		  <%= image_tag municipal_officer.photo_path %>
-		<% else %>
-		  No photo.
-		<% end %>
-      <% end %>
-    </td>		
 </tr>
 <% end %>
 

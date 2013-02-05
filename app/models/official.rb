@@ -1,6 +1,7 @@
 class Official < ActiveRecord::Base
   has_many :offices, :through => :official_tenures
   has_many :users, :through => :user_groups, :as => :group
+  belongs_to :party
 
   attr_accessible :email, :first_name, :middle_name, :last_name, :photo
 

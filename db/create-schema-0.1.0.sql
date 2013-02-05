@@ -12,6 +12,7 @@ create table states (
 	id	serial primary key,
 	name text not null,
 	abbreviation char(2) not null,
+	is_state boolean not null default 'true',
 	created_at timestamp not null default now(),
 	updated_at timestamp not null default now()
 );
@@ -88,6 +89,8 @@ create table office_types (
 	updated_at		timestamp not null default now()
 );
 
+create unique index office_types_polity_type_idx on office_types(id, polity_type);
+	
 create table offices (
 	id				serial primary key,
 	name			varchar(64) not null,
@@ -96,7 +99,8 @@ create table offices (
 	polity_id		integer not null,
 	seat_discriminator	integer not null default 0,
 	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	updated_at		timestamp not null default now(),
+	foreign key 	(office_type_id, polity_type) references office_types(id, polity_type)
 );
 
 create unique index offices_uidx on offices(polity_type, polity_id, office_type_id, seat_discriminator);
@@ -118,10 +122,11 @@ create table officials (
 	middle_name			varchar(20),
 	last_name			varchar(20) not null,
 	nickname			varchar(20),
+	name_suffix			varchar(20),
 	birth_date			date,
 	gender				char(1),
 	party_id			integer references parties,
-	congress_address	text,
+	congress_office		text,
 	phone				varchar(20),
 	email				varchar(256),
 	website				varchar(256),
@@ -130,12 +135,13 @@ create table officials (
 	congresspedia_url	varchar(256),
 	youtube_url			varchar(256),
 	facebook_id			varchar(64),
-	fax					varchar(64),
+	fax					varchar(20),
 	votesmart_id		integer,
 	govtrack_id			integer,
-	bioguide_id			integer,
+	bioguide_id			varchar(32),
 	eventful_id			varchar(64),
 	photo_extension		varchar(20),
+	official_rss		varchar(256),
 	created_at			timestamp not null default now(),
 	updated_at			timestamp not null default now()
 );
@@ -217,8 +223,9 @@ create table users (
 	state_id				integer references states,
 	municipality_id			integer references municipalities,
 	county_id				integer references counties,
-	congressional_district_id	integer references congressional_districts,
-	state_senate_district_id	integer references state_senate_districts,
+	congressional_district_number	integer,
+	state_senate_district_number	integer, 
+	state_house_district_number		integer,
 	latitude				numeric(10,7),
 	longitude				numeric(10,7),
 	staff_official_id		integer references officials,
@@ -226,8 +233,10 @@ create table users (
 	birth_date				date,
 	sex						sex,
 	created_at				timestamp not null default now(),
-	updated_at				timestamp not null default now()
-
+	updated_at				timestamp not null default now(),
+	foreign key 	        (state_id, congressional_district_number) references congressional_districts(state_id, district_number),
+	foreign key				(state_id, state_senate_district_number) references state_senate_districts(state_id, district_number),
+	foreign key	            (state_id, state_house_district_number) references state_house_districts(state_id, district_number)
 );
 
 create unique index users_email_uidx on users(email);
@@ -389,4 +398,108 @@ create unique index user_groups_uidx on user_groups(user_id, group_type, group_i
 create index user_groups_group_idx on user_groups(group_id);
 
 
+create table sunlight_congress_import (
+	title			text,
+	firstname		text,
+	middlename		text,
+	lastname		text,
+	name_suffix		text,
+	nickname		text,
+	party			text,
+	state			text,
+	district		text,
+	in_office		integer,
+	gender			text,
+	phone			text,
+	fax				text,
+	website			text,
+	webform			text,
+	congress_office text,
+	bioguide_id		text,
+	votesmart_id	integer,
+	fec_id			text,
+	govtrack_id		integer,
+	crp_id			text,
+	twitter_id		text,
+	congresspedia_url	text,
+	youtube_url		text,
+	facebook_id		text,
+	official_rss	text,
+	senate_class	text,
+	birthdate		date
 	
+);
+	
+create view imported_sunlight_house_members as
+select 
+  firstname as first_name,
+  middlename as middle_name,
+  lastname as last_name,
+  name_suffix,
+  nickname,
+  party,
+  state,
+  cast(district as integer),
+  gender,
+  phone,
+  fax,
+  website,
+  webform,
+  congress_office,
+  bioguide_id,
+  votesmart_id,
+  fec_id,
+  govtrack_id,
+  crp_id,
+  twitter_id,
+  congresspedia_url,
+  youtube_url,
+  facebook_id,
+  official_rss,
+  birthdate as birth_date
+from
+  sunlight_congress_import
+where
+  title = 'Rep' and
+  in_office = 1;
+   
+	
+create view imported_sunlight_senators as
+select 
+  firstname as first_name,
+  middlename as middle_name,
+  lastname as last_name,
+  name_suffix,
+  nickname,
+  party,
+  state,
+  gender,
+  phone,
+  fax,
+  website,
+  webform,
+  congress_office,
+  bioguide_id,
+  votesmart_id,
+  fec_id,
+  govtrack_id,
+  crp_id,
+  twitter_id,
+  congresspedia_url,
+  youtube_url,
+  facebook_id,
+  official_rss,
+  case 
+    when senate_class = 'I' then 1
+    when senate_class = 'II' then 2
+    when senate_class = 'III' then 3
+  end as senate_class,
+  birthdate as birth_date
+from
+  sunlight_congress_import
+where
+  title = 'Sen' and
+  in_office = 1;
+
+\copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'sunlight-congress.csv'delimiters ',' CSV;
+
