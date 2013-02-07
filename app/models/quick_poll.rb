@@ -12,8 +12,11 @@ class QuickPoll < ActiveRecord::Base
 
   accepts_nested_attributes_for :quick_poll_options, :allow_destroy => true, :reject_if => lambda { |o| o[:text].blank? }
 
-  validates_presence_of :issue, :quick_poll_type, :title, :end_time, :start_time
+  validates_presence_of :issue, :quick_poll_type, :end_time, :start_time
   validates_associated :quick_poll_type, :poll_workflow_state, :issue
+  
+  validates :title, :presence => true, :length => { :minimum => 3, :maximim => 64 }
+  validates :body, :presence => true, :length => { :minimum => 3, :maximum => 256 }
 
   def to_s
     return title
