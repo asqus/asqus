@@ -7,6 +7,8 @@ class Issue < ActiveRecord::Base
   attr_accessible :poller_id, :poller_type, :title, :tag_string, :tags_attributes
   attr_accessor :tag_string
 
+  validates :title, :presence => true, :length => { :minimum => 3, :maximum => 64 }
+  
   accepts_nested_attributes_for :tags, :allow_destroy => true, :reject_if => lambda{ |t| t[:text].blank? }
 
 end

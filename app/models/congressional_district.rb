@@ -4,9 +4,10 @@ class CongressionalDistrict < ActiveRecord::Base
 
   attr_accessible :district_number, :state_id
 
-  validates_presence_of :state_id, :district_number
-  validates_numericality_of :state_id, :district_number 
+  validates :state_id, :presence => :true, :numericality => { :only_integer => true }
+  validates :district_number, :presence => :true, :numericality => { :only_integer => true }
   validates_uniqueness_of :district_number, :scope => :state_id
+  validates_associated :state
 
   def to_s
     return state.name + " District " + district_number.to_s()

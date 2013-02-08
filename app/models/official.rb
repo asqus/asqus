@@ -5,7 +5,28 @@ class Official < ActiveRecord::Base
 
   attr_accessible :email, :first_name, :middle_name, :last_name, :photo
 
-  validates_presence_of :first_name, :last_name
+  validates :first_name, :presence => true, :length => { :minimum => 1, :maximum => 20 } 
+  validates :last_name, :presence => true, :length => { :minimum => 1, :maximum => 20 }  
+  validates :middle_name, :length => { :maximum => 20 }
+  validates :nickname, :length => { :maximum => 20 }
+  validates :name_suffix, :length => { :maximum => 20 }
+  validates :gender, :length => { :maximum => 1 }
+  validates :phone, :length => { :maximum => 20 }
+  validates :email, :length => { :maximum => 256 } 
+  validates :website, :length => { :maximum => 256 } 
+  validates :webform, :length => { :maximum => 256 } 
+  validates :twitter_id, :length => { :maximum => 64 } 
+  validates :congresspedia_url, :length => { :maximum => 256 } 
+  validates :youtube_url, :length => { :maximum => 256 } 
+  validates :facebook_id, :length => { :maximum => 64 } 
+  validates :fax, :length => { :maximum => 20 } 
+  validates :votesmart_id, :numericality => { :only_integer => :true }
+  validates :govtrack_id, :numericality => { :only_integer => :true }
+  validates :bioguide_id, :length => { :maximum => 32 } 
+  validates :eventful_id, :length => { :maximum => 32 } 
+  validates :official_rss, :length => { :maximum => 256 } 
+  validates :photo_extension, :length => { :maximum => 20 } 
+
 
   after_save :store_photo
     

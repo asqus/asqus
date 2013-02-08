@@ -4,4 +4,5 @@ class StandardPollOptionSet < ActiveRecord::Base
   attr_accessible :standard_poll_options_attributes
   accepts_nested_attributes_for :standard_poll_options, :allow_destroy => true, :reject_if => lambda { |o| o[:text].blank? }
 
+  validates :name, :presence => true, :length => { :maximum => 32 }
 end

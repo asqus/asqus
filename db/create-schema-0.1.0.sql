@@ -32,7 +32,7 @@ create unique index congressional_districts_uidx on congressional_districts( sta
 	
 create table counties (
 	id 				serial primary key,
-	name			text not null,
+	name			varchar(32) not null,
 	state_id		integer not null references states,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now()
@@ -42,7 +42,7 @@ create unique index counties_uidx on counties(state_id, name);
 	
 create table municipalities (
 	id				serial primary key,
-	name			text not null,
+	name			varchar(32) not null,
     state_id		integer not null references states,
 	created_at		timestamp not null default now(),
 	updated_at 		timestamp not null default now()
@@ -83,7 +83,7 @@ create unique index state_senate_districts_uidx on state_senate_districts(state_
 		
 create table office_types (
 	id				serial primary key,
-	description		text not null,
+	description		varchar(32) not null,
 	polity_type		text not null,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now()
@@ -107,9 +107,9 @@ create unique index offices_uidx on offices(polity_type, polity_id, office_type_
 	
 create table parties (
 	id					integer primary key,
-	name				text not null,
-	member_noun			text not null,
-	abbreviation		text not null
+	name				varchar(32) not null,
+	member_noun			varchar(32) not null,
+	abbreviation		varchar(1) not null
 );
 
 insert into parties(id, name, member_noun, abbreviation ) values (0, 'Independent', 'Independent', 'I');
@@ -371,7 +371,7 @@ create unique index standard_poll_options_value_uidx on standard_poll_options(st
 
 
 create table tags (
-	id				integer primary key,
+	id				serial primary key,
 	tag				varchar(32) not null,
 	context			varchar(32) not null default 'main',
 	taggable_type	text not null,

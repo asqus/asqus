@@ -68,6 +68,7 @@ class IssuesController < ApplicationController
 
     logger.debug issue_hash
 
+    logger.info "new issue: " + issue_hash.to_s
     @issue = Issue.new(issue_hash)
 
     tags = issue_hash[:tag_string].split(' ')
@@ -75,11 +76,14 @@ class IssuesController < ApplicationController
       @issue.tags.build( :tag => tag )
     end 
 
+    logger.info "trying to save issue: " + @issue.to_s
     respond_to do |format|
-      if @issue.save
+      if @issue.save!
+        logger.info "saving issue " + @issue.to_s
         format.html { redirect_to @issue, notice: 'Issue was successfully created.' }
         format.json { render json: @issue, status: :created, location: @issue }
       else
+        logger.info @issue.errors.to_s 
         format.html { render action: "new" }
         format.json { render json: @issue.errors, status: :unprocessable_entity }
       end

@@ -8,5 +8,5 @@ class OfficialTerm < ActiveRecord::Base
   validates :office_id, :presence => :true
   validates :official_id, :presence => :true
   validates :term_id, :presence => :true
-
+  
 end

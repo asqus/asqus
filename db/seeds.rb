@@ -179,7 +179,9 @@ imps.each do |imp|
   party = Party.find_by_abbreviation(imp.party)
   # office type is 4 for representative, 10 for territorial delegate
   office_type_id = state.is_state ? 4 : 10
+  puts 'Office.where'
   office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.district).first
+  puts 'Official.create'
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -188,7 +190,8 @@ imps.each do |imp|
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
                               :official_rss => imp.official_rss }, :without_protection => true
-                            )                              
+                            )                             
+  puts 'OfficialTerm.create' 
   OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
 end
 
