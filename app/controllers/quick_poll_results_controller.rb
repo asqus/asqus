@@ -8,12 +8,23 @@ class QuickPollResultsController < ApplicationController
     # todo: replace this demo data
     
     @quick_poll = QuickPoll.find(params[:id])
-    @results = [ { :name => "Agree Strongly", :value => 1, :count => 231}, 
-                 { :name => "Agree Somewhat", :value => 2, :count => 342},
-                 { :name => "Neutral/Undecided", :value => 3, :count => 453},
-                 { :name => "Disagree Somewhat", :value => 4, :count => 676},
-                 { :name => "Disagree Strongly", :value => 5, :count => 301} ]
 
+    @results = QuickPollResponse.find_by_sql([
+                "select 
+                   o.text as name, r.value as value, count(*) as count
+                 from
+                   quick_poll_responses r,
+                   quick_poll_options o
+                 where
+                   r.quick_poll_id = o.quick_poll_id and
+                   r.value = o.value and
+                   r.quick_poll_id = ?
+                 group by 
+                   o.text, r.value
+                 ", params[:id]])
+    
+  
+    
     @response = { :poll => @quick_poll, :results => @results }
 
     respond_to do |format|
