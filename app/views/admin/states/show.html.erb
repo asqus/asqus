@@ -1,24 +1,25 @@
 <p id="notice"><%= notice %></p>
+[
+<% @states.each do |s| %>
+<%= link_to s.abbreviation, admin_state_path( s.id) %>
+<% end %>
+]
+<h3><%= @state.name %></h3>
 
-<h3>State of <%= @state.name %></h3>
 
-<ul>
-<li><%= link_to "Municipalities", municipalities_path( :state_id => @state.id ) %></li>
-<li><%= link_to "Counties", counties_path( :state_id => @state.id ) %></li>
-</ul>
 
 <p>
-<h4>State Offices</h4>
+<h4>United States Senators</h4>
 
 <table width=400>
   <tr>
     <th>Office</th><th>Incumbent</th>
   </tr>
 
-<% @state.offices.each do |office| %>
+<% @us_senator_offices.each do |office| %>
   <% incumbent = incumbent_officials(office.id).first %>
   <tr>
-    <td><%= office %></td>
+    <td><%= office.office_type.description %></td>
     <td><%= if !incumbent.nil?
               link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
             end            
@@ -28,22 +29,38 @@
 <% end %>
 </table>
 
-<h4>Congressional Districts</h4>
+<h4>United States Representatives</h4>
 
 <table width=400>
-<tr><th>District</th><th>Office</th><th>Incumbent</th>
-<% @state.congressional_offices.each do |office| %>
-   <% incumbent = incumbent_officials(office.id).first %>
-   <tr><td><%= office.polity %></td><td><%= office %></td>
-     <td>
-       <%= if !incumbent.nil?
-         link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
-         end
-       %> 
-     </td>
-   </tr>
-<% end %> 
+  <tr>
+    <th>Office</th><th>Incumbent</th>
+  </tr>
+<% @us_rep_offices.each do |office| %>
+  <% incumbent = incumbent_officials(office.id).first %>
+  <tr>
+	<% if office.seat_discriminator > 0 %>
+	  <td><%= office.office_type.name + ", District " + office.seat_discriminator.to_s %></td>
+	<% else %> 
+	  <td><%= office.office_type.name + " at Large" %><td>
+	<% end %>
+    <td><%= if incumbent
+              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
+            end            
+         %>
+   </td>
+  </tr>
+<% end %>
 </table>
+
+
+<p>
+<ul>
+<li><%= link_to "Municipalities", municipalities_path( :state_id => @state.id ) %></li>
+<li><%= link_to "Counties", counties_path( :state_id => @state.id ) %></li>
+</ul>
+
+
+
 
 <h4>To do: something for state legislative offices</h4>
 

@@ -14,8 +14,22 @@ class Admin::StatesController < ApplicationController
   # GET /states/1
   # GET /states/1.json
   def show
+    
+    @states = State.find(:all)
     @state = State.find(params[:id])
-
+    @us_senator_offices = []
+    @us_rep_offices = []
+    @state.offices.each do |o|
+      case o.office_type.handle
+        when 'US_SENATOR'
+          @us_senator_offices.push(o)
+        when 'US_REP'
+          @us_rep_offices.push(o)
+        when 'HOUSE_DELEGATE'
+          @us_rep_offices.push(o)
+      end
+    end
+      
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @state }

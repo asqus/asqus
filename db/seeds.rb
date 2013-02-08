@@ -13,16 +13,16 @@ PollWorkflowState.create([
 
 puts 'CREATING OFFICE TYPES'
 OfficeType.create([
-  { :id => 1, :description => 'President', :polity_type => 'Country' },
-  { :id => 2, :description => 'Vice President', :polity_type => 'Country' },
-  { :id => 3, :description => 'United States Senator', :polity_type => 'State' },
-  { :id => 4, :description => 'United States Representative', :polity_type => 'State' },
-  { :id => 5, :description => 'Governor', :polity_type => 'State' },
-  { :id => 6, :description => 'Lieutenant Governor', :polity_type => 'State' },
-  { :id => 7, :description => 'State Senator', :polity_type => 'State' },
-  { :id => 8, :description => 'State Representative', :polity_type => 'State' },
-  { :id => 9, :description => 'Mayor', :polity_type => 'Municipality' },
-  { :id => 10, :description => 'U.S. House Delegate', :polity_type => 'State' }
+  { :id => 1, :handle => 'POTUS', :name => 'President', :polity_type => 'Nation',  },
+  { :id => 2, :handle => 'VPOTUS', :name => 'Vice President', :polity_type => 'Nation' },
+  { :id => 3, :handle => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => 'State' },
+  { :id => 4, :handle => 'US_REP', :name => 'U.S. Representative', :polity_type => 'State' },
+  { :id => 5, :handle => 'GOVERNOR', :name => 'Governor', :polity_type => 'State' },
+  { :id => 6, :handle => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => 'State' },
+  { :id => 7, :handle => 'STATE_SENATOR', :name => 'State Senator', :polity_type => 'State' },
+  { :id => 8, :handle => 'STATE_REP', :name => 'State Representative', :polity_type => 'State' },
+  { :id => 9, :handle => 'MAYOR', :name => 'Mayor', :polity_type => 'Municipality' },
+  { :id => 10, :handle => 'HOUSE_DELEGATE', :name => 'U.S. House Delegate', :polity_type => 'State' }
 ], :without_protection => true)
 
 puts 'CREATING STATES'
@@ -118,9 +118,8 @@ house_districts.each_pair do |st, num_districts|
       { :state_id => state.id, :district_number => district_number }, :without_protection => true
     )
     office_type_id = state.is_state ? 4 : 10
-    office_name = state.is_state ? 'U.S. Representative' : 'Delegate'
     Office.create( 
-      { :office_type_id => office_type_id, :name => office_name, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => district_number },
+      { :office_type_id => office_type_id, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => district_number },
       :without_protection => true
     )    
   end
@@ -143,12 +142,12 @@ senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
     Office.create(
-      { :office_type_id => 3, :name => "United States Senator", :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
+      { :office_type_id => 3, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
       :without_protection => true
     )
   end
   Office.create(
-    { :office_type_id => 5, :name => "Governor", :polity_id => state.id, :polity_type => 'State' },
+    { :office_type_id => 5, :polity_id => state.id, :polity_type => 'State' },
     :without_protection => true
   )
 end  
@@ -156,9 +155,9 @@ end
 puts 'CREATING OTHER OFFICES'
 
 Office.create([
-    { :office_type_id => 9, :name => "Mayor", :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 9,  :name => "Mayor", :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 9, :name => "Mayor", :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
+    { :office_type_id => 9, :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 9, :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 9, :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
 ], :without_protection => true)
 
 
@@ -179,9 +178,7 @@ imps.each do |imp|
   party = Party.find_by_abbreviation(imp.party)
   # office type is 4 for representative, 10 for territorial delegate
   office_type_id = state.is_state ? 4 : 10
-  puts 'Office.where'
   office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.district).first
-  puts 'Official.create'
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -191,7 +188,6 @@ imps.each do |imp|
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
                               :official_rss => imp.official_rss }, :without_protection => true
                             )                             
-  puts 'OfficialTerm.create' 
   OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
 end
 
@@ -282,9 +278,9 @@ Issue.create([
 puts 'CREATING QUICK POLL TYPES'
 
 QuickPollType.create([
-  { :id => 1, :name => "Public" },
-  { :id => 2, :name => "Private" },
-  { :id => 3, :name => "Anonymous" }
+  { :id => 1, :name => "Public", :handle => 'PUBLIC' },
+  { :id => 2, :name => "Private", :handle => 'PRIVATE' },
+  { :id => 3, :name => "Anonymous", :handle => 'ANONYMOUS' }
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLLS'

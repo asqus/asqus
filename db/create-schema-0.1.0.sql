@@ -1,5 +1,18 @@
 
+create table polity_types (
+	type varchar(32) primary key
+);
 
+insert into polity_types(type) values ('Nation');
+insert into polity_types(type) values ('State');
+insert into polity_types(type) values ('County');
+insert into polity_types(type) values ('Municipality');
+
+create table taggable_types (
+	type varchar(32) primary key
+);
+
+insert into taggable_types(type) values ('Issue');		
 
 create table nations (
 	id	integer primary key,
@@ -83,19 +96,20 @@ create unique index state_senate_districts_uidx on state_senate_districts(state_
 		
 create table office_types (
 	id				serial primary key,
-	description		varchar(32) not null,
-	polity_type		text not null,
+	name		    varchar(32) not null,
+	handle			varchar(20) not null,
+	polity_type		text not null references polity_types,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now()
 );
 
-create unique index office_types_polity_type_idx on office_types(id, polity_type);
-	
+create unique index office_types_polity_type_uidx on office_types(id, polity_type);
+create unique index office_types_handle_uidx on office_types(handle);
+		
 create table offices (
 	id				serial primary key,
-	name			varchar(64) not null,
 	office_type_id	integer not null references office_types,
-	polity_type		text not null,
+	polity_type		text not null references polity_types,
 	polity_id		integer not null,
 	seat_discriminator	integer not null default 0,
 	created_at		timestamp not null default now(),
@@ -295,11 +309,12 @@ create unique index issues_uidx on issues(poller_type, poller_id, title);
 
 create table quick_poll_types (
 	id				serial primary key,
-	name			varchar(32) not null
+	name			varchar(32) not null,
+	handle			varchar(20) not null
 );
 
-insert into quick_poll_types( id, name ) values (1, 'Public');
-insert into quick_poll_types( id, name ) values (2, 'Private');
+insert into quick_poll_types( id, name, handle ) values (1, 'Public', 'PUBLIC');
+insert into quick_poll_types( id, name, handle ) values (2, 'Private', 'PRIVATE');
 	
 		
 create table poll_workflow_states (
@@ -374,7 +389,7 @@ create table tags (
 	id				serial primary key,
 	tag				varchar(32) not null,
 	context			varchar(32) not null default 'main',
-	taggable_type	text not null,
+	taggable_type	varchar(32) not null references taggable_types,
 	taggable_id		integer not null,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now()
