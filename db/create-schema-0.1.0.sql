@@ -196,22 +196,7 @@ create index official_terms_office_idx on official_terms(office_id);
 create index official_terms_term_idx on official_terms(term_id);
 
 
-create view incumbent_officials as
-	select
-	    official_terms.id as official_term_id,
-	    offices.id as office_id,
-	    officials.id as official_id
-	from
-		official_terms,
-		officials,
-		terms,
-		offices
-	where
-	    official_terms.official_id = officials.id and
-	    official_terms.office_id = offices.id and
-	    official_terms.term_id = terms.id and
-	    terms.from_date <= now() and
-	    terms.to_date >= now();
+
 
 
 create type sex as enum ('Male','Female');
@@ -412,7 +397,63 @@ create table user_groups (
 create unique index user_groups_uidx on user_groups(user_id, group_type, group_id, role);
 create index user_groups_group_idx on user_groups(group_id);
 
+create table official_issue_comments
+(
+	id			serial primary key,
+	official_id	integer not null references officials,
+	issue_id	integer not null references issues,
+	comment		varchar(256 not null)
+);
 
+
+create table joined_official_terms
+(
+	official_term_id			integer primary key,
+	office_id					integer,
+	official_id					integer,
+	term_id						integer,
+	office_type_id				integer,
+	party_id					integer,
+	office_polity_type 			varchar(32),
+	office_polity_id			integer,
+	office_seat_discriminator	integer,
+	term_from_date				date,
+	term_to_date				date,
+	office_type_name			varchar(32),
+	office_type_handle			varchar(20),
+	party_name					varchar(32),
+	party_member_noun			varchar(32),
+	party_abbreviation			varchar(1),
+	official_first_name			varchar(20),
+	official_middle_name		varchar(20),
+	official_last_name			varchar(20),
+	official_nickname			varchar(20),
+	official_name_suffix		varchar(20),
+	official_birth_date			date,
+	official_gender				char(1),
+	official_congress_office	text,
+	official_phone				varchar(20),
+	official_email				varchar(256),
+	official_website			varchar(256),
+	official_webform			varchar(256),
+	official_twitter_id			varchar(64),
+	official_congresspedia_url	varchar(256),
+	official_youtube_url		varchar(256),
+	official_facebook_id		varchar(64),
+	official_fax				varchar(20),
+	official_votesmart_id		integer,
+	official_govtrack_id		integer,
+	official_bioguide_id		varchar(32),
+	official_eventful_id		varchar(64),
+	official_photo_extension	varchar(20),
+	official_official_rss		varchar(256)
+);
+	
+create index joined_official_terms_office_idx on joined_official_terms(office_id);
+create index joined_official_terms_official_idx on joined_official_terms(official_id);
+create index joined_official_terms_office_type_idx on joined_official_terms(office_type_id);
+create index joined_official_terms_polity_idx on joined_official_terms(office_polity_type, office_polity_id);
+	
 create table sunlight_congress_import (
 	title			text,
 	firstname		text,
@@ -444,6 +485,8 @@ create table sunlight_congress_import (
 	birthdate		date
 	
 );
+
+
 	
 create view imported_sunlight_house_members as
 select 
@@ -515,6 +558,8 @@ from
 where
   title = 'Sen' and
   in_office = 1;
+
+
 
 \copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'sunlight-congress.csv'delimiters ',' CSV;
 
