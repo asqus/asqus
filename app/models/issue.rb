@@ -4,7 +4,7 @@ class Issue < ActiveRecord::Base
   has_many :quick_polls
   has_many :tags, :as => :taggable
 
-  attr_accessible :poller_id, :poller_type, :title, :tag_string, :tags_attributes
+  attr_accessible :poller_id, :poller_type, :title, :tag_string, :tags_attributes, :comment
   attr_accessor :tag_string
 
   validates :title, :presence => true, :length => { :minimum => 3, :maximum => 64 }

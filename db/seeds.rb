@@ -13,16 +13,16 @@ PollWorkflowState.create([
 
 puts 'CREATING OFFICE TYPES'
 OfficeType.create([
-  { :id => 1, :handle => 'POTUS', :name => 'President', :polity_type => 'Nation',  },
-  { :id => 2, :handle => 'VPOTUS', :name => 'Vice President', :polity_type => 'Nation' },
-  { :id => 3, :handle => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => 'State' },
-  { :id => 4, :handle => 'US_REP', :name => 'U.S. Representative', :polity_type => 'State' },
-  { :id => 5, :handle => 'GOVERNOR', :name => 'Governor', :polity_type => 'State' },
-  { :id => 6, :handle => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => 'State' },
-  { :id => 7, :handle => 'STATE_SENATOR', :name => 'State Senator', :polity_type => 'State' },
-  { :id => 8, :handle => 'STATE_REP', :name => 'State Representative', :polity_type => 'State' },
-  { :id => 9, :handle => 'MAYOR', :name => 'Mayor', :polity_type => 'Municipality' },
-  { :id => 10, :handle => 'HOUSE_DELEGATE', :name => 'U.S. House Delegate', :polity_type => 'State' }
+  { :id => 1, :handle => 'POTUS', :name => 'President', :polity_type => 'Nation', :title => 'President',:abbreviated_title => 'President' },
+  { :id => 2, :handle => 'VPOTUS', :name => 'Vice President', :polity_type => 'Nation', :title => 'Vice President', :abbreviated_title => 'V.P.' },
+  { :id => 3, :handle => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => 'State', :title => 'Senator', :abbreviated_title => 'Sen.' },
+  { :id => 4, :handle => 'US_REP', :name => 'U.S. Representative', :polity_type => 'State', :title => 'Representative', :abbreviated_title => 'Rep.' },
+  { :id => 5, :handle => 'GOVERNOR', :name => 'Governor', :polity_type => 'State', :title => 'Governor', :abbreviated_title => 'Gov.' },
+  { :id => 6, :handle => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => 'State', :title => 'Lieutenant Governor', :abbreviated_title => "Lt. Gov." },
+  { :id => 7, :handle => 'STATE_SENATOR', :name => 'State Senator', :polity_type => 'State', :title => 'Senator', :abbreviated_title => 'Sen.' },
+  { :id => 8, :handle => 'STATE_REP', :name => 'State Representative', :polity_type => 'State', :title => 'Representative', :abbreviated_title => 'Rep.' },
+  { :id => 9, :handle => 'MAYOR', :name => 'Mayor', :polity_type => 'Municipality', :title => 'Mayor', :abbreviated_title => 'Mayor' },
+  { :id => 10, :handle => 'HOUSE_DELEGATE', :name => 'U.S. House Delegate', :polity_type => 'State', :title => 'Delegate', :abbreviated_title => 'Del.' }
 ], :without_protection => true)
 
 puts 'CREATING STATES'
@@ -271,8 +271,8 @@ UserGroup.create([
 puts 'CREATING ISSUES'
 
 Issue.create([
-  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id },
-  { :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id }
+  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal to build a bridge to Canada blah blah blah...' },
+  { :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'Scary fiscal cliff is scary blah blah blah...' }
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL TYPES'
@@ -343,100 +343,6 @@ QuickPollResponse.create([
   { :quick_poll_id => 2, :user_id => 10, :value => 5 }
 ])
   
-puts 'CREATED JOINED_OFFICIALS MATERIALIZED VIEW'
-
-ActiveRecord::Base.connection.execute(
-  "insert into 
-     joined_official_terms ( 
-       official_term_id,
-       office_id,
-       official_id,
-       term_id,
-       office_type_id,
-       party_id,
-       office_polity_type,
-       office_polity_id,
-       office_seat_discriminator,
-       term_from_date,
-       term_to_date,
-       office_type_name,
-       office_type_handle,
-       party_name,
-       party_member_noun,
-       party_abbreviation,
-       official_first_name,
-       official_middle_name,
-       official_last_name,
-       official_nickname,
-       official_name_suffix,
-       official_birth_date,
-       official_gender,
-       official_congress_office,
-       official_phone,
-     	 official_email,
-     	 official_website,
-     	 official_webform,
-     	 official_twitter_id,
-     	 official_congresspedia_url,
-     	 official_youtube_url,
-     	 official_facebook_id,
-     	 official_fax,
-     	 official_votesmart_id,
-     	 official_govtrack_id,
-     	 official_bioguide_id,
-     	 official_eventful_id,
-     	 official_photo_extension,
-     	 official_official_rss      
-       ) 
-   select
-       official_terms.id,
-       offices.id,
-       officials.id,
-       terms.id,
-       office_types.id,
-       parties.id,
-       offices.polity_type,
-       offices.polity_id,
-       offices.seat_discriminator,
-       terms.from_date,
-       terms.to_date,
-       office_types.name,
-       office_types.handle,
-       parties.name,
-       parties.member_noun,
-       parties.abbreviation,
-       officials.first_name,
-     	 officials.middle_name,
-     	 officials.last_name,
-     	 officials.nickname,
-     	 officials.name_suffix,
-     	 officials.birth_date,
-     	 officials.gender,
-     	 officials.congress_office,
-     	 officials.phone,
-     	 officials.email,
-     	 officials.website,
-     	 officials.webform,
-     	 officials.twitter_id,
-     	 officials.congresspedia_url,
-     	 officials.youtube_url,
-     	 officials.facebook_id,
-     	 officials.fax,
-     	 officials.votesmart_id,
-     	 officials.govtrack_id,
-     	 officials.bioguide_id,
-     	 officials.eventful_id,
-     	 officials.photo_extension,
-     	 officials.official_rss
-   from 
-     official_terms, officials, offices, office_types, terms, parties 
-   where
-     official_terms.official_id = officials.id and
-     official_terms.office_id = offices.id and
-     official_terms.term_id = terms.id and
-     offices.office_type_id = office_types.id and
-     officials.party_id = parties.id"
-)
 
 
   

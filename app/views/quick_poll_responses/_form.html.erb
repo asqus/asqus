@@ -10,7 +10,7 @@
   <% if @quick_poll.issue.poller_type == 'Office' %>
     <% official = incumbent_officials(@quick_poll.issue.poller_id).first %>
     <% unless official.nil? %>
-      (Asqed by <%= official.name %>)
+      (Asqed by <%= link_to official.name, official %>)
     <% end %>
   <% end %>
 

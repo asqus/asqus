@@ -98,34 +98,25 @@ $(function () {
 
 </script>
 
+<h5>Issue: <%= @quick_poll.issue.title %></h5>
 
-<h3>Quick Poll Responses</h3>
+<% if @jot %>
+
+Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jot.official_id) %>
+<p>
+<% if @jot.has_photo? %>
+	<%= image_tag @jot.photo_path, :length => 125, :width => 100 %>
+<% else %>
+<%= @jot.photo_filename %>
+<% end %>
+<%= @quick_poll.issue.comment %>
+<% end %>
 
 <hr/>
-Todo: summarize this data rather than present it raw, obviously.
+
 <div id="container" style="min-width: 400px; height: 400px; margin:0 auto"></div>
 <hr/>
-
-<p>
-<b><%= @quick_poll.title %></b>
-
-
-
-<p>
-<table width=400>
-  <tr>
-    <th>User</th>
-    <th>Response Value</th>
-  </tr>
-
-<% @quick_poll_responses.each do |quick_poll_response| %>
-  <tr>
-    <td><%= quick_poll_response.user_id %></td>
-    <td><%= quick_poll_response.value %></td>
-  </tr>
-<% end %>
-</table>
+<%= @quick_poll.body %>
 
 <br />
-
 

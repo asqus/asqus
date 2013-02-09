@@ -6,6 +6,10 @@ class QuickPollResponsesController < ApplicationController
     @quick_poll = QuickPoll.find(params[:quick_poll_id])
     @quick_poll_responses = QuickPollResponse.where(:quick_poll_id => params[:quick_poll_id])
 
+    if @quick_poll.issue.poller_type == 'Office'
+      @jot = JoinedOfficialTerm.find_by_office_id(@quick_poll.issue.poller_id)
+    end
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @quick_poll_responses }

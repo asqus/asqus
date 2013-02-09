@@ -95,9 +95,11 @@ create unique index state_senate_districts_uidx on state_senate_districts(state_
 	
 		
 create table office_types (
-	id				serial primary key,
-	name		    varchar(32) not null,
-	handle			varchar(20) not null,
+	id				  serial primary key,
+	name		      varchar(32) not null,
+	handle			  varchar(20) not null,
+	title			  varchar(20) not null,
+	abbreviated_title varchar(20) not null,
 	polity_type		text not null references polity_types,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now()
@@ -283,6 +285,7 @@ create index authentications_user_id_idx on authentications(user_id);
 create table issues (
 	id				serial primary key,
 	title			varchar(64) not null,
+	comment			text,
 	poller_type		text not null,
 	poller_id		integer not null,
 	created_at		timestamp not null default now(),
@@ -397,56 +400,49 @@ create table user_groups (
 create unique index user_groups_uidx on user_groups(user_id, group_type, group_id, role);
 create index user_groups_group_idx on user_groups(group_id);
 
-create table official_issue_comments
-(
-	id			serial primary key,
-	official_id	integer not null references officials,
-	issue_id	integer not null references issues,
-	comment		varchar(256 not null)
-);
-
-
 create table joined_official_terms
 (
-	official_term_id			integer primary key,
-	office_id					integer,
-	official_id					integer,
-	term_id						integer,
-	office_type_id				integer,
-	party_id					integer,
-	office_polity_type 			varchar(32),
-	office_polity_id			integer,
-	office_seat_discriminator	integer,
-	term_from_date				date,
-	term_to_date				date,
-	office_type_name			varchar(32),
-	office_type_handle			varchar(20),
-	party_name					varchar(32),
-	party_member_noun			varchar(32),
-	party_abbreviation			varchar(1),
-	official_first_name			varchar(20),
-	official_middle_name		varchar(20),
-	official_last_name			varchar(20),
-	official_nickname			varchar(20),
-	official_name_suffix		varchar(20),
-	official_birth_date			date,
-	official_gender				char(1),
-	official_congress_office	text,
-	official_phone				varchar(20),
-	official_email				varchar(256),
-	official_website			varchar(256),
-	official_webform			varchar(256),
-	official_twitter_id			varchar(64),
-	official_congresspedia_url	varchar(256),
-	official_youtube_url		varchar(256),
-	official_facebook_id		varchar(64),
-	official_fax				varchar(20),
-	official_votesmart_id		integer,
-	official_govtrack_id		integer,
-	official_bioguide_id		varchar(32),
-	official_eventful_id		varchar(64),
-	official_photo_extension	varchar(20),
-	official_official_rss		varchar(256)
+	official_term_id				integer primary key,
+	office_id						integer,
+	official_id						integer,
+	term_id							integer,
+	office_type_id					integer,
+	party_id						integer,
+	office_polity_type 				varchar(32),
+	office_polity_id				integer,
+	office_seat_discriminator		integer,
+	term_from_date					date,
+	term_to_date					date,
+	office_type_name				varchar(32),
+	office_type_handle				varchar(20),
+	office_type_title				varchar(20),
+	office_type_abbreviated_title 	varchar(20),
+	party_name						varchar(32),
+	party_member_noun				varchar(32),
+	party_abbreviation				varchar(1),
+	official_first_name				varchar(20),
+	official_middle_name			varchar(20),
+	official_last_name				varchar(20),
+	official_nickname				varchar(20),
+	official_name_suffix			varchar(20),
+	official_birth_date				date,
+	official_gender					char(1),
+	official_congress_office		text,
+	official_phone					varchar(20),
+	official_email					varchar(256),
+	official_website				varchar(256),
+	official_webform				varchar(256),
+	official_twitter_id				varchar(64),
+	official_congresspedia_url		varchar(256),
+	official_youtube_url			varchar(256),
+	official_facebook_id			varchar(64),
+	official_fax					varchar(20),
+	official_votesmart_id			integer,
+	official_govtrack_id			integer,
+	official_bioguide_id			varchar(32),
+	official_eventful_id			varchar(64),
+	official_photo_extension		varchar(20),
+	official_official_rss			varchar(256)
 );
 	
 create index joined_official_terms_office_idx on joined_official_terms(office_id);
