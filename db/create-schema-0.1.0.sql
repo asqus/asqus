@@ -1,3 +1,11 @@
+create table sessions
+(
+	id			serial primary key,
+	session_id  text,
+	data		text
+
+);
+
 
 create table polity_types (
 	type varchar(32) primary key
@@ -349,6 +357,15 @@ create table quick_poll_responses (
 );
 
 create index quick_poll_responses_user_idx on quick_poll_responses(user_id);
+
+
+create table quick_poll_unregistered_responses (
+	quick_poll_id	integer not null references quick_polls,
+	value			smallint not null,
+	uid				text,
+	primary key		(quick_poll_id,uid),
+	foreign key		(quick_poll_id, value) references quick_poll_options(quick_poll_id,value)	
+);
 
 
 create table standard_poll_option_sets (

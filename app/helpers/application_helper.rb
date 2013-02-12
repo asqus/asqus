@@ -5,9 +5,10 @@ module ApplicationHelper
   end
   
   def offices_for_user(user_id)
-    logger.info "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& called offices_for_user"
     return Office.where("id in (select group_id from user_groups where group_type = 'Office' and user_id = ?)", user_id)
   end
-    
+
+
+      
 
 end

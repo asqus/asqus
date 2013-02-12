@@ -51,19 +51,23 @@ class QuickPollResponsesController < ApplicationController
   def create
 
     response = params[:quick_poll_response]
-    response[:user_id] = current_user.id
-    response[:value] = params[:value]    # i have no fucking idea what's going on here and it's too fucking late to think about it
-
-    quick_poll_response = QuickPollResponse.new(response)
-
-    if quick_poll_response.save
-      logger.info "save succeeded"
+    if (current_user)
+      response[:user_id] = current_user.id
+      quick_poll_response = QuickPollResponse.new(response)
+      quick_poll_response.save
     else
-      logger.info "save failed"
+      response[:uid] = get_poll_uid()      
+      if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)
+        qp_unregistered_response = QuickPollUnregisteredResponse.new(response)
+        qp_unregistered_response.save
+      end        
     end
 
-    redirect_to :action => :index, :quick_poll_id => quick_poll_response.quick_poll_id
+    redirect_to :action => :index, :quick_poll_id => response[:quick_poll_id]
   end
+
+
+
 
 
 end

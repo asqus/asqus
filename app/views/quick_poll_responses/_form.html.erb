@@ -20,8 +20,8 @@
   <table>
   <% @quick_poll.quick_poll_options.each do |option| %>
     <tr>
-    <td><%= radio_button_tag :value, option.value %></td>
-    <td><%= label_tag :value, option.text %></td>
+    <td><%= f.radio_button :value, option.value %></td>
+    <td><%= f.label :value, option.text %></td>
     </tr>
   <% end %>
   </table>  
