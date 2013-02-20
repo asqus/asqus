@@ -37,5 +37,8 @@ class User < ActiveRecord::Base
     authentications.build(:provider => auth['provider'], :uid => auth['uid'], :token => auth['credentials']['token'])
   end  
 
+   def get_offices
+    return Office.where("id in (select group_id from user_groups where group_type = 'Office' and user_id = ?)", id)
+  end
 
 end

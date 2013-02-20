@@ -1,6 +1,6 @@
 puts 'POPULATING OFFICIAL PHOTOS'
 
-from_folder = Rails.root.join( 'db','official-photos-bioguide')
+from_folder = Rails.root.join( 'db','data','official-photos-bioguide')
 to_folder = Rails.root.join('public','official_photo_store')
 
 Dir.glob(from_folder.to_s + "/*").sort.each do |f|

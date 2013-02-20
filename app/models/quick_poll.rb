@@ -24,13 +24,6 @@ class QuickPoll < ActiveRecord::Base
 
 public
  
-  def self.get_poll_uid
-    if (cookies[:poll_uid])
-      cookies[:poll_uid]
-    else
-      plain = request.headers['REMOTE_ADDR'] + Time.now.to_s
-      cookies[:poll_uid] = plain
-    end
-  end
+
 
 end

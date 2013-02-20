@@ -1,5 +1,5 @@
 
-<% user_office = offices_for_user(current_user.id).first %>
+<% user_office = current_user.get_offices.first %>
 <% if !user_office.nil? %>
 <b>Administration: <%= user_office.full_name %></b>
 <ul>
@@ -20,7 +20,7 @@
 <tr><th>Office</th><th>Incumbent</th><th></th></tr>
 
 <% if @governor_office %>
-<% governor = incumbent_officials(@governor_office.id) %>
+<% governor = Office.incumbent_officials(@governor_office.id) %>
 <tr>
 	<td>Governor</td>
 	<td><%= link_to governor.name, governor if !@governor.nil? %></td>
@@ -38,7 +38,7 @@
 
 <% if @us_senate_offices %>
   <% @us_senate_offices.each do |office| %>
-  <% senator = incumbent_officials(office.id).first %>
+  <% senator = Office.incumbent_officials(office.id).first %>
   <tr>
 	<td><%= office.office_type.name %></td>
 	<td><%= link_to senator.name, senator if !senator.nil? %></td>
@@ -57,7 +57,7 @@
 
 <% if @us_house_offices %>
   <% @us_house_offices.each do |office| %>
-  <% congressperson = incumbent_officials(office.id).first %>
+  <% congressperson = Office.incumbent_officials(office.id).first %>
   <tr>
   	<td><%= office.office_type.name %></td>
 	<td><%= link_to congressperson.name, congressperson if !congressperson.nil? %></td>

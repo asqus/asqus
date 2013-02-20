@@ -88,12 +88,11 @@ ActiveRecord::Base.connection.execute(
      	 officials.photo_extension,
      	 officials.official_rss
    from 
-     official_terms, officials, offices, office_types, terms, parties 
-   where
-     official_terms.official_id = officials.id and
-     official_terms.office_id = offices.id and
-     official_terms.term_id = terms.id and
-     offices.office_type_id = office_types.id and
-     officials.party_id = parties.id"
+       official_terms join officials on official_terms.official_id = officials.id
+                      join terms on official_terms.term_id = terms.id
+                      join offices on official_terms.office_id = offices.id
+                      join parties on officials.party_id = parties.id
+                      join office_types on offices.office_type_id = office_types.id"
+
 )
 

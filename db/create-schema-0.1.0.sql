@@ -53,6 +53,7 @@ create unique index congressional_districts_uidx on congressional_districts( sta
 	
 create table counties (
 	id 				serial primary key,
+	ansi_code		integer primary key,
 	name			varchar(32) not null,
 	state_id		integer not null references states,
 	created_at		timestamp not null default now(),
@@ -60,9 +61,11 @@ create table counties (
 );
 
 create unique index counties_uidx on counties(state_id, name);
+create unique index counties_ansi_uidx on counties(state_id,ansi_code);
 	
 create table municipalities (
 	id				serial primary key,
+	ansi_code		integer not null,
 	name			varchar(32) not null,
     state_id		integer not null references states,
 	created_at		timestamp not null default now(),
@@ -70,6 +73,7 @@ create table municipalities (
 );
 
 create unique index municipalities_uidx on municipalities(state_id, name);
+create unique index municipalities_ansi_uidx on municipalities(ansi_code);
 
 create table wards (
 	id				serial primary key,
@@ -323,7 +327,7 @@ create table quick_polls (
 	title			varchar(64) not null,
 	body			text not null,
 	quick_poll_type_id integer not null references quick_poll_types,
-	poll_workflow_state_id	integer not null references poll_workflow_states,
+	poll_workflow_state_id	integer not null references _workflow_states,
 	issue_id		integer not null references issues,
 	start_time		timestamp not null,
 	end_time		timestamp not null,
@@ -499,7 +503,15 @@ create table sunlight_congress_import (
 	
 );
 
-
+create table census_national_place_import (
+  state_abbreviation	text,
+  state_id				integer,
+  place_id			integer,
+  place_name			text,
+  place_type			text,
+  status				char(1),
+  county				text
+);
 	
 create view imported_sunlight_house_members as
 select 
@@ -574,5 +586,7 @@ where
 
 
 
-\copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'sunlight-congress.csv'delimiters ',' CSV;
+
+
+\copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'data/sunlight-congress.csv' delimiters ',' CSV;
 

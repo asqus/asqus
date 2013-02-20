@@ -1,4 +1,4 @@
-class Admin::StatesController < ApplicationController
+class Admin::StatesController < Admin::BaseController
   
   # GET /states
   # GET /states.json

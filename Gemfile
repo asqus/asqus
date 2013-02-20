@@ -27,3 +27,4 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem "bcrypt-ruby", :require => "bcrypt"
 gem "highcharts-rails", "~> 2.3.0"
+gem "httparty"

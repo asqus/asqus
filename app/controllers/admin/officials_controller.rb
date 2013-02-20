@@ -1,4 +1,4 @@
-class Admin::OfficialsController < ApplicationController
+class Admin::OfficialsController < Admin::BaseController
   # GET /officials
   # GET /officials.json
   def index
