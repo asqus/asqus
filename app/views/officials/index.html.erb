@@ -3,7 +3,6 @@
 <table width=500>
   <tr>
     <th>Name</th>
-    <th>Email</th>
     <th></th>
     <th></th>
     <th></th>
@@ -12,7 +11,6 @@
 <% @officials.each do |official| %>
   <tr>
     <td><%= official.name %></td>
-    <td><%= official.email %></td>
     <td><%= link_to 'Show', official %></td>
   </tr>
 <% end %>

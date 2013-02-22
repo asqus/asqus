@@ -13,8 +13,8 @@
   <tr>
     <td><%= county.name %></td>
     <td><%= county.state.name %></td>
-    <td><%= link_to 'Show', county %></td>
-    <td><%= link_to 'Edit', edit_county_path(county) %></td>
+    <td><%= link_to 'Show', admin_county_path(county) %></td>
+    <td><%= link_to 'Edit', edit_admin_county_path(county) %></td>
     <td><%= link_to 'Destroy', county, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
@@ -22,4 +22,4 @@
 
 <br />
 
-<%= link_to 'New County', new_county_path %>
+<%= link_to 'New County', admin_new_county_path %>

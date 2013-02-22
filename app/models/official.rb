@@ -4,7 +4,12 @@ class Official < ActiveRecord::Base
   has_many :official_issue_comments
   belongs_to :party
 
-  attr_accessible :email, :first_name, :middle_name, :last_name, :photo
+  attr_accessible :first_name, :middle_name, :last_name, :nickname, :name_suffix, :as => :admin
+  attr_accessible :gender, :phone, :email, :website, :webform, :twitter_id, :congresspedia_url, :as => :admin
+  attr_accessible :youtube_url, :facebook_id, :fax, :bioguide_id, :eventful_id, :rss, :as => :admin
+  attr_accessible :congress_office, :votesmart_id, :govtrack_id, :as => :admin
+  attr_accessible :photo_extension, :birth_date, :party_id, :as => :admin
+  attr_accessible :photo, :as => :admin
 
   validates :first_name, :presence => true, :length => { :minimum => 1, :maximum => 20 } 
   validates :last_name, :presence => true, :length => { :minimum => 1, :maximum => 20 }  
@@ -21,11 +26,9 @@ class Official < ActiveRecord::Base
   validates :youtube_url, :length => { :maximum => 256 } 
   validates :facebook_id, :length => { :maximum => 64 } 
   validates :fax, :length => { :maximum => 20 } 
-  validates :votesmart_id, :numericality => { :only_integer => :true }
-  validates :govtrack_id, :numericality => { :only_integer => :true }
   validates :bioguide_id, :length => { :maximum => 32 } 
   validates :eventful_id, :length => { :maximum => 32 } 
-  validates :official_rss, :length => { :maximum => 256 } 
+  validates :rss, :length => { :maximum => 256 } 
   validates :photo_extension, :length => { :maximum => 20 } 
 
 

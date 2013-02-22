@@ -3,10 +3,37 @@
 
   <div class="form-inputs">
     <%= f.input :first_name %>
+    <%= f.input :middle_name %>
     <%= f.input :last_name %>
+    <%= f.input :nickname %>
+    <%= f.input :name_suffix %>
+    <%= f.input :birth_date %>
+    <%= f.input :gender %>
+    <%= f.association :party %>
+    <%= f.input :congress_office %>
+    <%= f.input :phone %>
+    <%= f.input :website %>
+    <%= f.input :webform %>
+    <%= f.input :twitter_id %>
+    <%= f.input :congresspedia_url %>
+    <%= f.input :youtube_url %>
+    <%= f.input :facebook_id %>
+    <%= f.input :fax %>
+    <%= f.input :votesmart_id %>
+    <%= f.input :govtrack_id %>
+    <%= f.input :bioguide_id %>
+    <%= f.input :eventful_id %>
+    <%= f.input :rss %>
+
     <%= f.input :state_id, :as => :hidden, :input_html => { :value => params[:state_id] }%>
   </div>
-
+  <div>
+	  <% if @official.has_photo? %>
+	    <%= image_tag @official.photo_path %>
+	  <% else %>
+	    No photo.
+	  <% end %>	
+  </div>
   <div class="field">
 	<%= f.label :photo %><br />
 	<%= f.file_field :photo %>

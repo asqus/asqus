@@ -40,7 +40,7 @@ class Admin::OfficialsController < Admin::BaseController
   # POST /officials
   # POST /officials.json
   def create
-    @official = Official.new(params[:official])
+    @official = Official.new(params[:official],:as => :admin)
 
     respond_to do |format|
       if @official.save
@@ -61,10 +61,8 @@ class Admin::OfficialsController < Admin::BaseController
     @state_id = @official_params[:state_id]
     @official_params.delete(:state_id)    
     params.delete(:state_id)
-    logger.info "****** updating official *******"
     respond_to do |format|
-      if @official.update_attributes(@official_params)
-        logger.info "******** official updated ********"
+      if @official.update_attributes(@official_params, :as => :admin)
         format.html { redirect_to admin_official_url(@official, :state_id => @state_id), notice: 'Official was successfully updated.' }
         format.json { head :no_content }
       else

@@ -53,7 +53,7 @@ create unique index congressional_districts_uidx on congressional_districts( sta
 	
 create table counties (
 	id 				serial primary key,
-	ansi_code		integer primary key,
+	ansi_code		integer not null,
 	name			varchar(32) not null,
 	state_id		integer not null references states,
 	created_at		timestamp not null default now(),
@@ -169,7 +169,7 @@ create table officials (
 	bioguide_id			varchar(32),
 	eventful_id			varchar(64),
 	photo_extension		varchar(20),
-	official_rss		varchar(256),
+	rss					varchar(256),
 	created_at			timestamp not null default now(),
 	updated_at			timestamp not null default now()
 );
@@ -327,7 +327,7 @@ create table quick_polls (
 	title			varchar(64) not null,
 	body			text not null,
 	quick_poll_type_id integer not null references quick_poll_types,
-	poll_workflow_state_id	integer not null references _workflow_states,
+	poll_workflow_state_id	integer not null references poll_workflow_states,
 	issue_id		integer not null references issues,
 	start_time		timestamp not null,
 	end_time		timestamp not null,
@@ -421,55 +421,196 @@ create table user_groups (
 create unique index user_groups_uidx on user_groups(user_id, group_type, group_id, role);
 create index user_groups_group_idx on user_groups(group_id);
 
-create table joined_official_terms
-(
-	official_term_id				integer primary key,
-	office_id						integer,
-	official_id						integer,
-	term_id							integer,
-	office_type_id					integer,
-	party_id						integer,
-	office_polity_type 				varchar(32),
-	office_polity_id				integer,
-	office_seat_discriminator		integer,
-	term_from_date					date,
-	term_to_date					date,
-	office_type_name				varchar(32),
-	office_type_handle				varchar(20),
-	office_type_title				varchar(20),
-	office_type_abbreviated_title 	varchar(20),
-	party_name						varchar(32),
-	party_member_noun				varchar(32),
-	party_abbreviation				varchar(1),
-	official_first_name				varchar(20),
-	official_middle_name			varchar(20),
-	official_last_name				varchar(20),
-	official_nickname				varchar(20),
-	official_name_suffix			varchar(20),
-	official_birth_date				date,
-	official_gender					char(1),
-	official_congress_office		text,
-	official_phone					varchar(20),
-	official_email					varchar(256),
-	official_website				varchar(256),
-	official_webform				varchar(256),
-	official_twitter_id				varchar(64),
-	official_congresspedia_url		varchar(256),
-	official_youtube_url			varchar(256),
-	official_facebook_id			varchar(64),
-	official_fax					varchar(20),
-	official_votesmart_id			integer,
-	official_govtrack_id			integer,
-	official_bioguide_id			varchar(32),
-	official_eventful_id			varchar(64),
-	official_photo_extension		varchar(20),
-	official_official_rss			varchar(256)
-);
+create view joined_official_terms_view as
+	   select
+	       	official_terms.id as official_term_id,
+	       	offices.id as office_id,
+	       	officials.id as official_id,
+	       	terms.id as term_id,
+	       	office_types.id as office_type_id,
+	       	parties.id as party_id,
+	       	offices.polity_type,
+	       	offices.polity_id,
+	       	offices.seat_discriminator as seat_discriminator,
+	       	terms.from_date as from_date,
+	       	terms.to_date as to_date,
+	       	office_types.name as office_type_name,
+	       	office_types.handle as office_type_handle,
+	       	office_types.title as office_type_title,
+	       	office_types.abbreviated_title as office_type_abbreviated_title,
+	       	parties.name as party_name,
+	       	parties.member_noun as party_member_noun,
+	       	parties.abbreviation as party_abbreviation,
+	       	officials.first_name as official_first_name,
+			officials.middle_name as official_middle_name,
+	     	officials.last_name as official_last_name,
+	     	officials.nickname as official_nickname,
+	     	officials.name_suffix as official_name_suffix,
+	     	officials.birth_date as official_birth_date,
+	     	officials.gender as official_gender,
+	     	officials.congress_office as official_congress_office,
+	     	officials.phone as official_phone,
+	     	officials.website as official_website,
+	     	officials.webform as official_webform,
+	     	officials.twitter_id as official_twitter_id,
+	     	officials.congresspedia_url as official_congresspedia_url,
+	     	officials.youtube_url as official_youtube_url,
+	     	officials.facebook_id as official_facebook_id,
+	     	officials.fax as official_fax,
+	     	officials.votesmart_id as official_votesmart_id,
+	     	officials.govtrack_id as official_govtrack_id,
+	     	officials.bioguide_id as official_bioguide_id,
+	     	officials.eventful_id as official_eventful_id,
+	     	officials.photo_extension as official_photo_extension,
+	     	officials.rss as official_rss,
+	        states.id as state_id,
+	        states.name as state_name,
+	        states.abbreviation as state_abbreviation,
+	        null::integer as municipality_id,
+	        null::text as municipality_name,
+	        null::integer county_id,
+	        null::text county_name
+	   from 
+	       official_terms join officials on official_terms.official_id = officials.id
+	                      join terms on official_terms.term_id = terms.id
+	                      join offices on official_terms.office_id = offices.id
+	                      join parties on officials.party_id = parties.id
+	                      join office_types on offices.office_type_id = office_types.id
+			      		  join states on offices.polity_id = states.id
+	   where
+	        offices.polity_type = 'State'
+	union all
+	   select
+	       	official_terms.id as official_term_id,
+	       	offices.id as office_id,
+	       	officials.id as official_id,
+	       	terms.id as term_id,
+	       	office_types.id as office_type_id,
+	       	parties.id as party_id,
+	       	offices.polity_type,
+	       	offices.polity_id,
+	       	offices.seat_discriminator as seat_discriminator,
+	       	terms.from_date as from_date,
+	       	terms.to_date as to_date,
+	       	office_types.name as office_type_name,
+	       	office_types.handle as office_type_handle,
+	       	office_types.title as office_type_title,
+	       	office_types.abbreviated_title as office_type_abbreviated_title,
+	       	parties.name as party_name,
+	       	parties.member_noun as party_member_noun,
+	       	parties.abbreviation as party_abbreviation,
+	       	officials.first_name as official_first_name,
+			officials.middle_name as official_middle_name,
+	     	officials.last_name as official_last_name,
+	     	officials.nickname as official_nickname,
+	     	officials.name_suffix as official_name_suffix,
+	     	officials.birth_date as official_birth_date,
+	     	officials.gender as official_gender,
+	     	officials.congress_office as official_congress_office,
+	     	officials.phone as official_phone,
+	     	officials.website as official_website,
+	     	officials.webform as official_webform,
+	     	officials.twitter_id as official_twitter_id,
+	     	officials.congresspedia_url as official_congresspedia_url,
+	     	officials.youtube_url as official_youtube_url,
+	     	officials.facebook_id as official_facebook_id,
+	     	officials.fax as official_fax,
+	     	officials.votesmart_id as official_votesmart_id,
+	     	officials.govtrack_id as official_govtrack_id,
+	     	officials.bioguide_id as official_bioguide_id,
+	     	officials.eventful_id as official_eventful_id,
+	     	officials.photo_extension as official_photo_extension,
+	     	officials.rss as official_official_rss,
+	        states.id as state_id,
+	        states.name as state_name,
+			states.abbreviation as state_abbreviation,
+	        municipalities.id as municipality_id,
+	        municipalities.name as municipality_name,
+		    null as county_id,
+		    null as county_name
+	   from 
+	       official_terms join officials on official_terms.official_id = officials.id
+	                      join terms on official_terms.term_id = terms.id
+	                      join offices on official_terms.office_id = offices.id
+	                      join parties on officials.party_id = parties.id
+	                      join office_types on offices.office_type_id = office_types.id
+			              join municipalities on offices.polity_id = municipalities.id
+						  join states on municipalities.state_id = states.id
+	   where
+	        offices.polity_type = 'Municipality'
+	union all
+	   select
+		    official_terms.id as official_term_id,
+		    offices.id as office_id,
+		    officials.id as official_id,
+		    terms.id as term_id,
+		    office_types.id as office_type_id,
+		    parties.id as party_id,
+		    offices.polity_type,
+		    offices.polity_id,
+		    offices.seat_discriminator as seat_discriminator,
+		    terms.from_date as from_date,
+		    terms.to_date as to_date,
+		    office_types.name as office_type_name,
+		    office_types.handle as office_type_handle,
+		    office_types.title as office_type_title,
+		    office_types.abbreviated_title as office_type_abbreviated_title,
+		    parties.name as party_name,
+		    parties.member_noun as party_member_noun,
+		    parties.abbreviation as party_abbreviation,
+		    officials.first_name as official_first_name,
+		    officials.middle_name as official_middle_name,
+		    officials.last_name as official_last_name,
+		    officials.nickname as official_nickname,
+		    officials.name_suffix as official_name_suffix,
+		    officials.birth_date as official_birth_date,
+		    officials.gender as official_gender,
+		    officials.congress_office as official_congress_office,
+		    officials.phone as official_phone,
+		    officials.website as official_website,
+		    officials.webform as official_webform,
+		    officials.twitter_id as official_twitter_id,
+		    officials.congresspedia_url as official_congresspedia_url,
+		    officials.youtube_url as official_youtube_url,
+		    officials.facebook_id as official_facebook_id,
+		    officials.fax as official_fax,
+		    officials.votesmart_id as official_votesmart_id,
+		    officials.govtrack_id as official_govtrack_id,
+		    officials.bioguide_id as official_bioguide_id,
+		    officials.eventful_id as official_eventful_id,
+		    officials.photo_extension as official_photo_extension,
+		    officials.rss as official_official_rss,
+		    states.id as state_id,
+		    states.name as state_name,
+		    states.abbreviation as state_abbreviation,
+		    null as municipality_id,
+		    null as municipality_name,
+		    counties.id as county_id,
+		    counties.name as county_name
+		 from 
+		    official_terms 	join officials on official_terms.official_id = officials.id
+		                   	join terms on official_terms.term_id = terms.id
+		                   	join offices on official_terms.office_id = offices.id
+		                   	join parties on officials.party_id = parties.id
+		                   	join office_types on offices.office_type_id = office_types.id
+							join counties on offices.polity_id = counties.id
+							join states on counties.state_id = states.id
+		 where
+		    offices.polity_type = 'County';
+	
+create table joined_official_terms as
+  select 
+    *,
+    false as dirty
+  from
+    joined_official_terms_view;
+
+
 	
 create index joined_official_terms_office_idx on joined_official_terms(office_id);
 create index joined_official_terms_official_idx on joined_official_terms(official_id);
 create index joined_official_terms_office_type_idx on joined_official_terms(office_type_id);
-create index joined_official_terms_polity_idx on joined_official_terms(office_polity_type, office_polity_id);
+create index joined_official_terms_polity_idx on joined_official_terms(polity_type, polity_id);
 	
 create table sunlight_congress_import (
 	title			text,
