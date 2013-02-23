@@ -1,4 +1,4 @@
-class JoinedOffices < ActiveRecord::Base
+class JoinedOfficialTerms < ActiveRecord::Base
 
 
 def official_name

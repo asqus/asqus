@@ -598,19 +598,7 @@ create view joined_official_terms_view as
 		 where
 		    offices.polity_type = 'County';
 	
-create table joined_official_terms as
-  select 
-    *,
-    false as dirty
-  from
-    joined_official_terms_view;
 
-
-	
-create index joined_official_terms_office_idx on joined_official_terms(office_id);
-create index joined_official_terms_official_idx on joined_official_terms(official_id);
-create index joined_official_terms_office_type_idx on joined_official_terms(office_type_id);
-create index joined_official_terms_polity_idx on joined_official_terms(polity_type, polity_id);
 	
 create table sunlight_congress_import (
 	title			text,
