@@ -7,7 +7,7 @@ class Office < ActiveRecord::Base
 
   attr_accessible :name, :office_type_id, :polity_id, :polity_type, :timestamps
 
-  validates :office_type_id,:presence => true, :numericality => { :only_integer => true }
+  validates :office_type_id,:presence => true 
   validates :polity_type, :presence => true
   validates :polity_id, :presence => true, :numericality => { :only_integer => true }
 

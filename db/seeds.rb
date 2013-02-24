@@ -12,18 +12,39 @@ PollWorkflowState.create([
 ], :without_protection => true)
 
 puts 'CREATING OFFICE TYPES'
-OfficeType.create([
-  { :id => 1, :handle => 'POTUS', :name => 'President', :polity_type => 'Nation', :title => 'President',:abbreviated_title => 'President' },
-  { :id => 2, :handle => 'VPOTUS', :name => 'Vice President', :polity_type => 'Nation', :title => 'Vice President', :abbreviated_title => 'V.P.' },
-  { :id => 3, :handle => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => 'State', :title => 'Senator', :abbreviated_title => 'Sen.' },
-  { :id => 4, :handle => 'US_REP', :name => 'U.S. Representative', :polity_type => 'State', :title => 'Representative', :abbreviated_title => 'Rep.' },
-  { :id => 5, :handle => 'GOVERNOR', :name => 'Governor', :polity_type => 'State', :title => 'Governor', :abbreviated_title => 'Gov.' },
-  { :id => 6, :handle => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => 'State', :title => 'Lieutenant Governor', :abbreviated_title => "Lt. Gov." },
-  { :id => 7, :handle => 'STATE_SENATOR', :name => 'State Senator', :polity_type => 'State', :title => 'Senator', :abbreviated_title => 'Sen.' },
-  { :id => 8, :handle => 'STATE_REP', :name => 'State Representative', :polity_type => 'State', :title => 'Representative', :abbreviated_title => 'Rep.' },
-  { :id => 9, :handle => 'MAYOR', :name => 'Mayor', :polity_type => 'Municipality', :title => 'Mayor', :abbreviated_title => 'Mayor' },
-  { :id => 10, :handle => 'HOUSE_DELEGATE', :name => 'U.S. House Delegate', :polity_type => 'State', :title => 'Delegate', :abbreviated_title => 'Del.' }
-], :without_protection => true)
+
+
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('POTUS','President','Nation','President','President')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('VPOTUS','Vice President','Nation','Vice President','V.P.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_SENATOR','U.S. Senator','State','Senator','Sen.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','State','Senator','Rep.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('GOVERNOR','Governor','State','Governor','Gov.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('LT_GOVERNOR','Lieutenant Governor','State','Lieutenant Governor','Lt. Gov.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_SENATOR','State Senator','State','Senator','Sen.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_REP','State Representative','State','Representative','Rep.')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('MAYOR','Mayor','Municipality','Mayor','Mayor')"
+)
+ActiveRecord::Base.connection.execute(
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_HOUSE_DELEGATE','U.S. House Delegate','State','Delegate','Del.')"
+)
+
 
 puts 'CREATING STATES'
 State.create([
@@ -111,7 +132,7 @@ house_districts.each_pair do |st, num_districts|
     district = CongressionalDistrict.create(
       { :state_id => state.id, :district_number => district_number }, :without_protection => true
     )
-    office_type_id = state.is_state ? 4 : 10
+    office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
     Office.create( 
       { :office_type_id => office_type_id, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => district_number },
       :without_protection => true
@@ -135,33 +156,29 @@ puts 'CREATING US SENATE, GOVERNOR OFFICES'
 senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
-    Office.create(
-      { :office_type_id => 3, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
+    office = Office.create(
+      { :office_type_id => 'US_SENATOR', :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
       :without_protection => true
     )
   end
-  Office.create(
-    { :office_type_id => 5, :polity_id => state.id, :polity_type => 'State' },
-    :without_protection => true
-  )
 end  
 
 puts 'CREATING OTHER OFFICES'
 
 Office.create([
-    { :office_type_id => 9, :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 9, :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 9, :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
+    { :office_type_id => 'MAYOR', :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 'MAYOR', :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
+    { :office_type_id => 'MAYOR', :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
 ], :without_protection => true)
 
 
 puts 'CREATING TERMS'
 Term.create([
-  { :name => "U.S. House of Representatives 2013-15", :office_type_id => 4, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 3, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 3, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
-  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 3, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
-  { :name => "Governor 2011-2015", :office_type_id => 5, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
+  { :name => "U.S. House of Representatives 2013-15", :office_type_id => 'US_REP', :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 'US_SENATOR', :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 'US_SENATOR', :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
+  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 'US_SENATOR', :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
+  { :name => "Governor 2011-2015", :office_type_id => 'GOVERNOR', :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
 ], :without_protection => true)
 
 
@@ -171,8 +188,7 @@ imps = ImportedSunlightHouseMember.find(:all)
 imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
-  # office type is 4 for representative, 10 for territorial delegate
-  office_type_id = state.is_state ? 4 : 10
+  office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
   office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.district).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
@@ -193,7 +209,7 @@ imps = ImportedSunlightSenator.find(:all)
 imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
-  office = Office.where( :office_type_id => 3, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.senate_class).first
+  office = Office.where( :office_type_id => 'US_SENATOR', :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.senate_class).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -202,8 +218,7 @@ imps.each do |imp|
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
                               :rss => imp.official_rss }, :without_protection => true)
-  if (official) 
-    puts official.first_name + " " + official.last_name + ' CREATED. CREATING TERM'                                                      
+  if (official)                                                    
     OfficialTerm.create( {:official_id => official.id, :term_id => 2, :office_id => office.id}, :without_protection => true )
   else
     puts 'ERROR CREATING OFFICIAL ' + imp.first_name + ' ' + imp.last_name
@@ -254,7 +269,7 @@ user1.add_role :admin
 user2.add_role :VIP
  
 michigan = State.find_by_abbreviation('MI')
-admin_office = Office.where( :office_type_id => 4, :polity_id => michigan.id ).first
+admin_office = Office.where( :office_type_id => 'US_REP', :polity_id => michigan.id ).first
  
 UserGroup.create([
   { :user_id => 1, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' },
@@ -272,18 +287,23 @@ Issue.create([
 
 puts 'CREATING QUICK POLL TYPES'
 
-QuickPollType.create([
-  { :id => 1, :name => "Public", :handle => 'PUBLIC' },
-  { :id => 2, :name => "Private", :handle => 'PRIVATE' },
-  { :id => 3, :name => "Anonymous", :handle => 'ANONYMOUS' }
-], :without_protection => true )
+ActiveRecord::Base.connection.execute(
+  "insert into quick_poll_types( id, name) values ('PUBLIC','Public')"
+)  
+ActiveRecord::Base.connection.execute(
+  "insert into quick_poll_types( id, name) values ('PRIVATE','Private')"
+)  
+ActiveRecord::Base.connection.execute(
+  "insert into quick_poll_types( id, name) values ('ANONYMOUS','Anonymous')"
+)  
+
 
 puts 'CREATING QUICK POLLS'
 
 QuickPoll.create([
-  { :issue_id => 1, :quick_poll_type_id => 1, :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
+  { :issue_id => 1, :quick_poll_type_id => 'PUBLIC', :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2 },
-  { :issue_id => 2, :quick_poll_type_id => 1, :title => "Taxes and the Deficit", :body => "How much to you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
+  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Taxes and the Deficit", :body => "How much to you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2 }
 ], :without_protection => true )
 
@@ -338,6 +358,27 @@ QuickPollResponse.create([
   { :quick_poll_id => 2, :user_id => 10, :value => 5 }
 ])
 
+puts 'POPULATING OFFICIAL PHOTOS'
+
+from_folder = Rails.root.join( 'db','data','official-photos-bioguide')
+to_folder = Rails.root.join('public','official_photo_store')
+
+Dir.glob(from_folder.to_s + "/*").sort.each do |f|
+  file_extension = File.extname(f)
+  from_filename = File.basename(f,File.extname(f))
+  official = Official.find_by_bioguide_id(from_filename)
+  if (official)
+    from_file = from_folder.join(from_filename+file_extension)
+    to_file = to_folder.join(official.id.to_s+file_extension) 
+    FileUtils.cp( from_file, to_file)
+    official.photo_extension = file_extension[1..file_extension.length-1]
+    official.save
+  end
+end 
+
+puts 'CREATING MATERIALIZED VIEWS'
+
+
 
 ActiveRecord::Base.connection.execute(
 "create table joined_official_terms as
@@ -361,7 +402,7 @@ ActiveRecord::Base.connection.execute(
 )
 
 ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_polity_idx on joined_official_terms(polity_type, polity_id"
+"create index joined_official_terms_polity_idx on joined_official_terms(polity_type, polity_id)"
 )
 
 ActiveRecord::Base.connection.execute(

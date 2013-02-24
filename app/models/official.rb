@@ -47,12 +47,20 @@ class Official < ActiveRecord::Base
 
   OFFICIAL_PHOTO_STORE = File.join Rails.root, 'public', 'official_photo_store'
   
+  def self.photo_filename( id, photo_extension )
+     File.join OFFICIAL_PHOTO_STORE, "#{id}.#{photo_extension}" 
+  end
+   
   def photo_filename
-    File.join OFFICIAL_PHOTO_STORE, "#{id}.#{photo_extension}"
+    Official::photo_filename(id, photo_extension)
+  end
+  
+  def self.photo_path(id, photo_extension)
+    "/official_photo_store/#{id}.#{photo_extension}"
   end
   
   def photo_path
-    "/official_photo_store/#{id}.#{photo_extension}"
+    Official::photo_path(id, photo_extension)
   end
   
   def name

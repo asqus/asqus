@@ -1,2 +1,2 @@
 bundle exec rails runner "eval(File.read 'db/seeds.rb')"
-bundle exec rails runner "eval(File.read 'db/populate-photos.rb')"
+

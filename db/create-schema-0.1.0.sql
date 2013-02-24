@@ -107,9 +107,8 @@ create unique index state_senate_districts_uidx on state_senate_districts(state_
 	
 		
 create table office_types (
-	id				  serial primary key,
+	id				  varchar(20) primary key,
 	name		      varchar(32) not null,
-	handle			  varchar(20) not null,
 	title			  varchar(20) not null,
 	abbreviated_title varchar(20) not null,
 	polity_type		text not null references polity_types,
@@ -118,11 +117,10 @@ create table office_types (
 );
 
 create unique index office_types_polity_type_uidx on office_types(id, polity_type);
-create unique index office_types_handle_uidx on office_types(handle);
 		
 create table offices (
 	id				serial primary key,
-	office_type_id	integer not null references office_types,
+	office_type_id	varchar(20) not null references office_types,
 	polity_type		text not null references polity_types,
 	polity_id		integer not null,
 	seat_discriminator	integer not null default 0,
@@ -185,7 +183,7 @@ create table terms (
 	from_date		date not null,
 	to_date			date not null,
 	standard		boolean not null,
-	office_type_id	integer references office_types,
+	office_type_id	varchar(20) references office_types,
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now(),
 	check			(to_date >= from_date)
@@ -208,9 +206,6 @@ create table official_terms (
 create index official_terms_official_idx on official_terms(official_id);
 create index official_terms_office_idx on official_terms(office_id);
 create index official_terms_term_idx on official_terms(term_id);
-
-
-
 
 
 create type sex as enum ('Male','Female');
@@ -307,15 +302,11 @@ create table issues (
 create unique index issues_uidx on issues(poller_type, poller_id, title);
 
 
-create table quick_poll_types (
-	id				serial primary key,
-	name			varchar(32) not null,
-	handle			varchar(20) not null
-);
 
-insert into quick_poll_types( id, name, handle ) values (1, 'Public', 'PUBLIC');
-insert into quick_poll_types( id, name, handle ) values (2, 'Private', 'PRIVATE');
-	
+create table quick_poll_types (
+	id				varchar(32) primary key,
+	name			varchar(32) not null
+);
 		
 create table poll_workflow_states (
 	id				serial primary key,
@@ -326,7 +317,7 @@ create table quick_polls (
 	id				serial primary key,
 	title			varchar(64) not null,
 	body			text not null,
-	quick_poll_type_id integer not null references quick_poll_types,
+	quick_poll_type_id varchar(32) not null references quick_poll_types,
 	poll_workflow_state_id	integer not null references poll_workflow_states,
 	issue_id		integer not null references issues,
 	start_time		timestamp not null,
@@ -435,7 +426,6 @@ create view joined_official_terms_view as
 	       	terms.from_date as from_date,
 	       	terms.to_date as to_date,
 	       	office_types.name as office_type_name,
-	       	office_types.handle as office_type_handle,
 	       	office_types.title as office_type_title,
 	       	office_types.abbreviated_title as office_type_abbreviated_title,
 	       	parties.name as party_name,
@@ -493,7 +483,6 @@ create view joined_official_terms_view as
 	       	terms.from_date as from_date,
 	       	terms.to_date as to_date,
 	       	office_types.name as office_type_name,
-	       	office_types.handle as office_type_handle,
 	       	office_types.title as office_type_title,
 	       	office_types.abbreviated_title as office_type_abbreviated_title,
 	       	parties.name as party_name,
@@ -552,7 +541,6 @@ create view joined_official_terms_view as
 		    terms.from_date as from_date,
 		    terms.to_date as to_date,
 		    office_types.name as office_type_name,
-		    office_types.handle as office_type_handle,
 		    office_types.title as office_type_title,
 		    office_types.abbreviated_title as office_type_abbreviated_title,
 		    parties.name as party_name,

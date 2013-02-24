@@ -1,4 +1,4 @@
-class JoinedOfficialTerms < ActiveRecord::Base
+class JoinedOfficialTerm < ActiveRecord::Base
 
 
 def official_name
@@ -18,12 +18,15 @@ def official_name_with_abbreviated_title
 end
 
 def photo_filename
-  File.join Official::OFFICIAL_PHOTO_STORE, "#{official_id}.#{official_photo_extension}"
+  Official::photo_filename(official_id,official_photo_extension)
 end
 
+
 def photo_path
-  "/official_photo_store/#{official_id}.#{official_photo_extension}"
+  Official::photo_path(official_id, official_photo_extension)
 end
+
+
 
 def has_photo?
   File.exists? photo_filename

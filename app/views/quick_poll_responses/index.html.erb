@@ -107,8 +107,9 @@ Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jo
 <% if @jot.has_photo? %>
 	<%= image_tag @jot.photo_path, :length => 125, :width => 100 %>
 <% else %>
-<%= @jot.photo_filename %>
+    <%= @jot.photo_filename %>
 <% end %>
+
 <%= @quick_poll.issue.comment %>
 <% end %>
 
