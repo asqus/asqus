@@ -197,7 +197,7 @@ imps.each do |imp|
                               :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss, :photo_extension => '.jpg' }, :without_protection => true
+                              :rss => imp.official_rss, :photo_extension => 'jpg' }, :without_protection => true
                             )                             
   OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
 end
@@ -217,7 +217,7 @@ imps.each do |imp|
                               :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss, :photo_extension => '.jpg' }, :without_protection => true)
+                              :rss => imp.official_rss, :photo_extension => 'jpg' }, :without_protection => true)
   if (official)                                                    
     OfficialTerm.create( {:official_id => official.id, :term_id => 2, :office_id => office.id}, :without_protection => true )
   else
