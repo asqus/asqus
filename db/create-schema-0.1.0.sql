@@ -24,18 +24,14 @@ insert into taggable_types(type) values ('Issue');
 
 create table nations (
 	id	integer primary key,
-	name text not null,
-	created_at timestamp not null default now(),
-	updated_at timestamp not null default now()
+	name text not null
 );
 
 create table states (
 	id	integer primary key,
 	name text not null,
 	abbreviation char(2) not null,
-	is_state boolean not null default 'true',
-	created_at timestamp not null default now(),
-	updated_at timestamp not null default now()
+	is_state boolean not null default 'true'
 );
 
 create unique index states_name_uidx on states(name);
@@ -313,6 +309,15 @@ create table poll_workflow_states (
 	name			varchar(32) not null
 );
 
+create table graph_types (
+	id				varchar(32) primary key,
+	name			varchar(32) not null	
+);
+
+insert into graph_types(id, name) values ('PIE_CHART', 'Pie Chart');
+insert into graph_types(id, name) values ('BAR_CHART', 'Bar Chart');
+	
+
 create table quick_polls (
 	id				serial primary key,
 	title			varchar(64) not null,
@@ -320,6 +325,7 @@ create table quick_polls (
 	quick_poll_type_id varchar(32) not null references quick_poll_types,
 	poll_workflow_state_id	integer not null references poll_workflow_states,
 	issue_id		integer not null references issues,
+	graph_type_id	varchar(32) not null references graph_types,
 	start_time		timestamp not null,
 	end_time		timestamp not null,
 	created_at		timestamp not null default now(),

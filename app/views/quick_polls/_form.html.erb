@@ -11,6 +11,7 @@
     <%= f.input :poll_workflow_state_id, :as => :hidden, :input_html => { :value => 0 } %>
     <%= f.input :poller_type, :as => :hidden, :input_html => { :value => @poller_type } %>
     <%= f.input :poller_id, :as => :hidden, :input_html => { :value => @poller_id } %>
+    <%= f.association :graph_type, :selected => GraphType::PIE_CHART.id %>
     <p><b>Answer Options</b> (to do: javascript for standard options )<p> 
     <% i = 1 %>
     <%= f.fields_for :quick_poll_options do |builder| %>
