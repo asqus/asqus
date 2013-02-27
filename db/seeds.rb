@@ -197,7 +197,7 @@ imps.each do |imp|
                               :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss }, :without_protection => true
+                              :rss => imp.official_rss, :photo_extension => '.jpg' }, :without_protection => true
                             )                             
   OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
 end
@@ -217,7 +217,7 @@ imps.each do |imp|
                               :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
                               :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
                               :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss }, :without_protection => true)
+                              :rss => imp.official_rss, :photo_extension => '.jpg' }, :without_protection => true)
   if (official)                                                    
     OfficialTerm.create( {:official_id => official.id, :term_id => 2, :office_id => office.id}, :without_protection => true )
   else
@@ -358,26 +358,8 @@ QuickPollResponse.create([
   { :quick_poll_id => 2, :user_id => 10, :value => 5 }
 ])
 
-puts 'POPULATING OFFICIAL PHOTOS'
-
-from_folder = Rails.root.join( 'db','data','official-photos-bioguide')
-to_folder = Rails.root.join('public','official_photo_store')
-
-Dir.glob(from_folder.to_s + "/*").sort.each do |f|
-  file_extension = File.extname(f)
-  from_filename = File.basename(f,File.extname(f))
-  official = Official.find_by_bioguide_id(from_filename)
-  if (official)
-    from_file = from_folder.join(from_filename+file_extension)
-    to_file = to_folder.join(official.id.to_s+file_extension) 
-    FileUtils.cp( from_file, to_file)
-    official.photo_extension = file_extension[1..file_extension.length-1]
-    official.save
-  end
-end 
 
 puts 'CREATING MATERIALIZED VIEWS'
-
 
 
 ActiveRecord::Base.connection.execute(
@@ -415,7 +397,6 @@ begin
   insert into joined_official_terms select *, false, null from joined_official_terms_view jot where jot.id = id; 
   end 
 $$")
-
 
 
 
