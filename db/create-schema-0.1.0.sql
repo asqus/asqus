@@ -138,8 +138,16 @@ insert into parties(id, name, member_noun, abbreviation ) values (0, 'Independen
 insert into parties(id, name, member_noun, abbreviation ) values (1, 'Democratic', 'Democrat', 'D');
 insert into parties(id, name, member_noun, abbreviation ) values (2, 'Republican', 'Republican', 'R');
 	
+CREATE SEQUENCE officials_id_seq
+	START WITH 1000
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;	
+	
+	
 create table officials (
-	id					serial primary key,
+	id					integer primary key default nextval('officials_id_seq'),
 	first_name			varchar(20) not null,
 	middle_name			varchar(20),
 	last_name			varchar(20) not null,
