@@ -20,7 +20,7 @@ class Admin::StatesController < Admin::BaseController
     @us_senator_offices = []
     @us_rep_offices = []
     @state.offices.each do |o|
-      case o.office_type.handle
+      case o.office_type.id
         when 'US_SENATOR'
           @us_senator_offices.push(o)
         when 'US_REP'
