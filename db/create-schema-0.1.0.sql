@@ -593,7 +593,31 @@ create view joined_official_terms_view as
 		    offices.polity_type = 'County';
 	
 
-	
+create table questions (
+	id			serial primary key,
+	official_id	integer not null references officials,
+	user_id		integer not null references users,
+	title		text not null,
+	body		text not null,
+	answer		text,
+	up_cache	integer not null default 0,
+	down_cache	integer not null default 0,
+	created_at	timestamp not null default now(),
+	updated_at	timestamp not null default now()
+);
+
+create table question_votes (
+	id			serial primary key,
+	question_id	integer not null references questions,
+	user_id		integer not null references users,
+	direction	smallint not null,
+	created_at	timestamp not null default now(),
+	updated_at	timestamp not null default now(),
+	check		(direction in (-1, 1))
+);
+
+create unique index question_votes_uidx on question_votes(question_id,user_id);
+
 create table sunlight_congress_import (
 	title			text,
 	firstname		text,
