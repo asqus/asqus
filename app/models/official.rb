@@ -3,6 +3,8 @@ class Official < ActiveRecord::Base
   has_many :users, :through => :user_groups, :as => :group
   has_many :official_issue_comments
   belongs_to :party
+  
+  resourcify  #rolify 
 
   attr_accessible :first_name, :middle_name, :last_name, :nickname, :name_suffix, :as => :admin
   attr_accessible :gender, :phone, :email, :website, :webform, :twitter_id, :congresspedia_url, :as => :admin

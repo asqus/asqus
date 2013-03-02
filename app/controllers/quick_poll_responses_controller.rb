@@ -51,16 +51,29 @@ class QuickPollResponsesController < ApplicationController
   def create
 
     response = params[:quick_poll_response]
-    if (current_user)
-      response[:user_id] = current_user.id
-      quick_poll_response = QuickPollResponse.new(response)
-      quick_poll_response.save
-    else
-      response[:uid] = get_poll_uid()      
-      if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)
-        qp_unregistered_response = QuickPollUnregisteredResponse.new(response)
-        qp_unregistered_response.save
-      end        
+    quick_poll_id = response[:quick_poll_id]
+    
+    options = QuickPollOption.find_all_by_quick_poll_id(quick_poll_id)
+    value = nil
+    options.each do |option|
+      if params[option.value.to_s]
+        value = option.value
+      end
+    end
+    
+    if (value)
+      response[:value] = value
+      if (current_user)
+        response[:user_id] = current_user.id
+        quick_poll_response = QuickPollResponse.new(response)
+        quick_poll_response.save
+      else
+        response[:uid] = get_poll_uid()      
+        if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)
+          qp_unregistered_response = QuickPollUnregisteredResponse.new(response)
+          qp_unregistered_response.save
+        end        
+      end
     end
 
     redirect_to :action => :index, :quick_poll_id => response[:quick_poll_id]

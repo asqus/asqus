@@ -16,19 +16,12 @@
 
 
   <p>
-  <div class="form-inputs">
-  <table>
-  <% @quick_poll.quick_poll_options.each do |option| %>
-    <tr>
-    <td><%= f.radio_button :value, option.value %></td>
-    <td><%= f.label :value, option.text %></td>
-    </tr>
-  <% end %>
-  </table>  
-
+  <div class="form-actions">
+  <div class="btn-group btn-group-vertical">
+    <% @quick_poll.quick_poll_options.each do |option| %>
+      <input type=submit class="btn btn-small" value= <%= option.text %> name = <%= option.value %> style="width: 100px;" >
+    <% end %>
+ </div>
  </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, 'Submit' %>
-  </div>
 <% end %>

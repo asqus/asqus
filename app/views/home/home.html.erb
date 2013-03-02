@@ -1,4 +1,7 @@
-
+<ul class="breadcrumb">
+	<li><class="active">Home</li>
+</ul>	
+	
 <% user_office = current_user.get_offices.first %>
 <% if !user_office.nil? %>
 <b>Administration: <%= user_office.full_name %></b>

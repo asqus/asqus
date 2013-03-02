@@ -278,6 +278,9 @@ UserGroup.create([
 ], :without_protection => true)
  
  
+official = Official.find(1000)
+user2.add_role :staff, official
+
 puts 'CREATING ISSUES'
 
 Issue.create([

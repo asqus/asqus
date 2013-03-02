@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
 protected
 
   def before_all
+    logger.info "************** before_all called **************"
     if user_signed_in?
       @current_user_groups = UserGroup.where( :user_id => current_user.id )
     end
