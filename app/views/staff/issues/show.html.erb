@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @issue.title %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <% comma = "" %>
+  <% @issue.tags.each do |tag| %>
+  <%= comma + tag.tag %>
+  <% comma = ", " %>
+  <% end %>
+
+</p>
+
+
+<%= link_to 'Edit', edit_staff_issue_path(@issue) %> |
+<%= link_to 'Back', staff_issues_path %>
