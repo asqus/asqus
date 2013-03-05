@@ -1,4 +1,4 @@
-class CountiesController < ApplicationController
+class Admin::CountiesController < Admin::BaseController
 
   # GET /counties
   # GET /counties.json

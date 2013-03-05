@@ -1,0 +1,1117 @@
+state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+oh,129,upper,SB 17,OHV00000303,lower,Motion to Table Amendment,2011-06-15 00:00:00,other,62,34,0
+oh,129,upper,SB 315,OHV00000844,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,56,39,0
+oh,129,lower,HB 45,OHV00000192,lower,Motion to Table Amendment,2011-05-11 00:00:00,other,59,39,0
+oh,129,upper,SB 37,OHV00000937,lower,Third Consideration,2012-12-12 00:00:00,other,95,0,0
+oh,129,upper,SB 37,OHV00000938,lower,Amendment,2012-12-12 00:00:00,other,95,0,0
+oh,129,upper,SB 40,OHV00000939,lower,Third Consideration,2012-11-27 00:00:00,other,95,0,0
+oh,129,upper,SB 70,OHV00000940,lower,Third Consideration,2012-11-28 00:00:00,other,93,2,0
+oh,129,upper,SB 70,OHV00000941,lower,Amendment,2012-11-28 00:00:00,other,92,3,0
+oh,129,upper,SB 70,OHV00000942,lower,Motion to Table Amendment,2012-11-28 00:00:00,other,57,37,0
+oh,129,upper,SB 70,OHV00000943,lower,Amendment,2012-11-28 00:00:00,other,95,0,0
+oh,129,upper,SB 70,OHV00000946,lower,Conference Committee Report,2012-12-13 00:00:00,other,91,0,0
+oh,129,upper,SB 114,OHV00000947,lower,Third Consideration,2012-12-12 00:00:00,other,86,8,0
+oh,129,upper,SB 130,OHV00000949,lower,Third Consideration,2012-11-14 00:00:00,other,93,5,0
+oh,129,upper,SB 135,OHV00000951,lower,Third Consideration,2012-11-27 00:00:00,other,94,0,0
+oh,129,upper,SB 139,OHV00000952,lower,Third Consideration,2012-12-11 00:00:00,other,94,0,0
+oh,129,upper,SB 139,OHV00000953,lower,Motion to Table Amendment,2012-12-11 00:00:00,other,58,37,0
+oh,129,upper,SB 141,OHV00000955,lower,Third Consideration,2012-11-27 00:00:00,other,95,0,0
+oh,129,upper,SB 160,OHV00000957,lower,Third Consideration,2012-12-13 00:00:00,other,91,0,0
+oh,129,upper,SB 160,OHV00000958,lower,Amendment,2012-12-13 00:00:00,other,89,0,0
+oh,129,upper,SB 199,OHV00000960,lower,Third Consideration,2012-11-27 00:00:00,other,95,0,0
+oh,129,upper,SB 222,OHV00000962,lower,Third Consideration,2012-12-12 00:00:00,other,94,0,0
+oh,129,upper,SB 287,OHV00000963,lower,Third Consideration,2012-11-29 00:00:00,other,84,0,0
+oh,129,upper,SB 298,OHV00000966,lower,Third Consideration,2012-12-12 00:00:00,other,91,2,0
+oh,129,upper,SB 300,OHV00000968,lower,Third Consideration,2012-11-14 00:00:00,other,98,0,0
+oh,129,upper,SB 301,OHV00000970,lower,Third Consideration,2012-11-14 00:00:00,other,98,0,0
+oh,129,upper,SB 304,OHV00000972,lower,Third Consideration,2012-12-11 00:00:00,other,92,0,0
+oh,129,upper,SB 333,OHV00000975,lower,Third Consideration,2012-12-04 00:00:00,other,92,1,0
+oh,129,upper,SB 333,OHV00000976,lower,Motion to Table Amendment,2012-12-04 00:00:00,other,56,37,0
+oh,129,upper,SCR 15,OHV00000981,lower,Resolution Adoption,2012-12-11 00:00:00,other,95,0,0
+oh,129,lower,HB 27,OHV00000982,lower,Third Consideration,2012-11-28 00:00:00,other,95,0,0
+oh,129,lower,HB 50,OHV00000985,lower,Senate Amendments,2012-12-13 00:00:00,other,88,3,0
+oh,129,lower,HB 62,OHV00000987,lower,Senate Amendments,2012-11-29 00:00:00,other,84,3,0
+oh,129,lower,HB 143,OHV00000989,lower,Senate Amendments,2012-12-05 00:00:00,other,93,2,0
+oh,129,lower,HB 153,OHV00000385,lower,Conference Committee Report,2011-06-29 00:00:00,other,60,41,0
+oh,129,lower,HB 191,OHV00000991,lower,Third Consideration,2012-11-28 00:00:00,other,54,39,0
+oh,129,lower,HB 197,OHV00000992,lower,Third Consideration,2012-11-27 00:00:00,other,84,11,0
+oh,129,lower,HB 197,OHV00000993,lower,Amendment,2012-11-27 00:00:00,other,95,0,0
+oh,129,lower,HB 197,OHV00000994,lower,Amendment,2012-11-27 00:00:00,other,95,0,0
+oh,129,lower,HB 197,OHV00000995,lower,Amendment,2012-11-27 00:00:00,other,95,0,0
+oh,129,lower,HB 197,OHV00000997,lower,Senate Amendments,2012-12-13 00:00:00,other,86,5,0
+oh,129,lower,HB 247,OHV00000998,lower,Senate Amendments,2012-12-13 00:00:00,other,90,0,0
+oh,129,lower,HB 251,OHV00001002,lower,Senate Amendments,2012-12-12 00:00:00,other,95,0,0
+oh,129,lower,HB 274,OHV00001003,lower,Third Consideration,2012-11-27 00:00:00,other,94,0,0
+oh,129,lower,HB 274,OHV00001005,lower,Senate Amendments,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 278,OHV00001006,lower,Third Consideration,2012-12-04 00:00:00,other,87,7,0
+oh,129,lower,HB 278,OHV00001007,lower,Senate Amendments,2012-12-13 00:00:00,other,86,4,0
+oh,129,lower,HB 279,OHV00001009,lower,Third Consideration,2012-11-14 00:00:00,other,96,2,0
+oh,129,lower,HB 279,OHV00001010,lower,Amendment,2012-11-14 00:00:00,other,96,0,0
+oh,129,lower,HB 279,OHV00001013,lower,Senate Amendments,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 279,OHV00001014,lower,Senate Amendments,2012-12-13 00:00:00,other,89,2,0
+oh,129,lower,HB 280,OHV00001016,lower,Senate Amendments,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 284,OHV00001017,lower,Third Consideration,2012-11-28 00:00:00,other,92,3,0
+oh,129,lower,HB 284,OHV00001019,lower,Senate Amendments,2012-12-13 00:00:00,other,66,25,0
+oh,129,lower,HB 303,OHV00001022,lower,Senate Amendments,2012-12-12 00:00:00,other,78,17,0
+oh,129,lower,HB 303,OHV00001023,lower,Senate Amendments,2012-12-12 00:00:00,other,88,7,0
+oh,129,lower,HB 325,OHV00001025,lower,Senate Amendments,2012-12-05 00:00:00,other,95,0,0
+oh,129,lower,HB 334,OHV00001028,lower,Senate Amendments,2012-12-05 00:00:00,other,96,0,0
+oh,129,lower,HB 334,OHV00001029,lower,Senate Amendments,2012-12-05 00:00:00,other,95,0,0
+oh,129,lower,HB 347,OHV00001031,lower,Senate Amendments,2012-12-12 00:00:00,other,94,0,0
+oh,129,lower,HB 360,OHV00001034,lower,Senate Amendments,2012-12-11 00:00:00,other,90,4,0
+oh,129,lower,HB 360,OHV00001035,lower,Senate Amendments,2012-12-11 00:00:00,other,86,8,0
+oh,129,lower,HB 367,OHV00001039,lower,Senate Amendments,2012-11-29 00:00:00,other,2,86,0
+oh,129,lower,HB 367,OHV00001040,lower,Senate Amendments,2012-11-29 00:00:00,other,70,17,0
+oh,129,lower,HB 380,OHV00001045,lower,Senate Amendments,2012-12-11 00:00:00,other,58,36,0
+oh,129,lower,HB 387,OHV00001046,lower,Third Consideration,2012-11-27 00:00:00,other,86,7,0
+oh,129,lower,HB 387,OHV00001047,lower,Amendment,2012-11-27 00:00:00,other,92,1,0
+oh,129,lower,HB 387,OHV00001048,lower,Amendment,2012-11-27 00:00:00,other,66,29,0
+oh,129,lower,HB 393,OHV00001049,lower,Third Consideration,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 414,OHV00001050,lower,Third Consideration,2012-11-14 00:00:00,other,85,12,0
+oh,129,lower,HB 417,OHV00001052,lower,Senate Amendments,2012-12-11 00:00:00,other,95,0,0
+oh,129,lower,HB 420,OHV00001054,lower,Senate Amendments,2012-12-11 00:00:00,other,92,3,0
+oh,129,lower,HB 458,OHV00001056,lower,Third Consideration,2012-12-05 00:00:00,other,91,0,0
+oh,129,lower,HB 461,OHV00001060,lower,Senate Amendments,2012-12-04 00:00:00,other,90,2,0
+oh,129,lower,HB 462,OHV00001061,lower,Third Consideration,2012-12-05 00:00:00,other,92,0,0
+oh,129,lower,HB 472,OHV00001064,lower,Senate Amendments,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 472,OHV00001065,lower,Senate Amendments,2012-12-13 00:00:00,other,88,0,0
+oh,129,lower,HB 479,OHV00001067,lower,Senate Amendments,2012-12-12 00:00:00,other,95,0,0
+oh,129,lower,HB 481,OHV00001069,lower,Senate Amendments,2012-12-12 00:00:00,other,95,0,0
+oh,129,lower,HB 492,OHV00001071,lower,Senate Amendments,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 495,OHV00001072,lower,Senate Amendments,2012-12-13 00:00:00,other,67,24,0
+oh,129,lower,HB 496,OHV00001074,lower,Third Consideration,2012-12-04 00:00:00,other,94,0,0
+oh,129,lower,HB 501,OHV00001075,lower,Third Consideration,2012-11-28 00:00:00,other,95,0,0
+oh,129,lower,HB 510,OHV00001077,lower,Senate Amendments,2012-12-11 00:00:00,other,78,17,0
+oh,129,lower,HB 532,OHV00001078,lower,Third Consideration,2012-11-29 00:00:00,other,87,0,0
+oh,129,lower,HB 532,OHV00001079,lower,Motion to Table Amendment,2012-11-29 00:00:00,other,56,32,0
+oh,129,lower,HB 532,OHV00001081,lower,Senate Amendments,2012-12-13 00:00:00,other,90,0,0
+oh,129,lower,HB 555,OHV00001083,lower,Third Consideration,2012-11-29 00:00:00,other,60,27,0
+oh,129,lower,HB 555,OHV00001084,lower,Motion to Table Amendment,2012-11-29 00:00:00,other,57,30,0
+oh,129,lower,HB 555,OHV00001085,lower,Motion to Table Amendment,2012-11-29 00:00:00,other,56,31,0
+oh,129,lower,HB 555,OHV00001086,lower,Motion to Table Amendment,2012-11-29 00:00:00,other,58,29,0
+oh,129,lower,HB 555,OHV00001088,lower,Senate Amendments,2012-12-13 00:00:00,other,59,32,0
+oh,129,lower,HB 567,OHV00001089,lower,Third Consideration,2012-12-04 00:00:00,other,93,1,0
+oh,129,lower,HB 605,OHV00001090,lower,Third Consideration,2012-12-05 00:00:00,other,65,30,0
+oh,129,lower,HB 606,OHV00001091,lower,Third Consideration,2012-12-05 00:00:00,other,79,12,0
+oh,129,lower,HB 606,OHV00001093,lower,Senate Amendments,2012-12-13 00:00:00,other,74,16,0
+oh,129,lower,HB 613,OHV00001094,lower,Third Consideration,2012-12-05 00:00:00,other,57,34,0
+oh,129,lower,HB 613,OHV00001095,lower,Motion to Table Amendment,2012-12-05 00:00:00,other,56,35,0
+oh,129,lower,HCR 21,OHV00001096,lower,Resolution Adoption,2012-12-13 00:00:00,other,91,0,0
+oh,129,lower,HCR 56,OHV00001097,lower,Resolution Adoption,2012-11-27 00:00:00,other,95,0,0
+oh,129,upper,SB 2,OHV00000036,upper,Third Consideration,2011-02-23 00:00:00,other,32,1,0
+oh,129,upper,SB 2,OHV00000037,upper,House Amendments,2011-03-02 00:00:00,other,31,1,0
+oh,129,upper,SB 2,OHV00000038,lower,Third Consideration,2011-03-02 00:00:00,other,82,15,0
+oh,129,upper,SB 2,OHV00000039,lower,Amendment,2011-03-02 00:00:00,other,39,58,0
+oh,129,upper,SB 2,OHV00000040,lower,Amendment,2011-03-02 00:00:00,other,40,57,0
+oh,129,upper,SB 4,OHV00000041,upper,Third Consideration,2011-02-23 00:00:00,other,33,0,0
+oh,129,upper,SB 4,OHV00000087,lower,Third Consideration,2011-03-23 00:00:00,other,98,0,0
+oh,129,upper,SB 4,OHV00000108,upper,House Amendments,2011-03-30 00:00:00,other,33,0,0
+oh,129,upper,SB 5,OHV00000043,upper,Amendment,2011-03-02 00:00:00,other,19,14,0
+oh,129,upper,SB 5,OHV00000044,upper,Motion to Table Amendment,2011-03-02 00:00:00,other,15,18,0
+oh,129,upper,SB 5,OHV00000109,upper,House Amendments,2011-03-30 00:00:00,other,17,16,0
+oh,129,upper,SB 5,OHV00000106,lower,Third Consideration,2011-03-30 00:00:00,other,54,45,0
+oh,129,upper,SB 5,OHV00000107,lower,Amendment,2011-03-30 00:00:00,other,59,40,0
+oh,129,upper,SB 9,OHV00000047,upper,Third Consideration,2011-03-09 00:00:00,other,23,10,0
+oh,129,upper,SB 15,OHV00000888,upper,Third Consideration,2012-06-13 00:00:00,other,32,0,0
+oh,129,upper,SB 17,OHV00000128,upper,Third Consideration,2011-04-13 00:00:00,other,25,7,0
+oh,129,upper,SB 17,OHV00000297,upper,House Amendments,2011-06-15 00:00:00,other,25,7,0
+oh,129,upper,SB 17,OHV00000298,lower,Third Consideration,2011-06-15 00:00:00,other,57,39,0
+oh,129,upper,SB 17,OHV00000299,lower,Motion to Table Amendment,2011-06-15 00:00:00,other,62,34,0
+oh,129,upper,SB 17,OHV00000300,lower,Motion to Table Amendment,2011-06-15 00:00:00,other,62,34,0
+oh,129,upper,SB 17,OHV00000301,lower,Motion to Table Amendment,2011-06-15 00:00:00,other,63,33,0
+oh,129,upper,SB 17,OHV00000302,lower,Amendment,2011-06-15 00:00:00,other,37,59,0
+oh,129,upper,SB 19,OHV00000463,upper,Third Consideration,2011-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 19,OHV00000864,lower,Third Consideration,2012-06-12 00:00:00,other,87,9,0
+oh,129,upper,SB 19,OHV00000889,upper,House Amendments,2012-06-13 00:00:00,other,30,2,0
+oh,129,upper,SB 21,OHV00000129,upper,Third Consideration,2011-04-13 00:00:00,other,32,0,0
+oh,129,upper,SB 21,OHV00000130,upper,Third Consideration,2011-04-13 00:00:00,other,30,2,0
+oh,129,upper,SB 22,OHV00000048,upper,Third Consideration,2011-03-09 00:00:00,other,33,0,0
+oh,129,upper,SB 22,OHV00000242,lower,Third Consideration,2011-06-07 00:00:00,other,97,0,0
+oh,129,upper,SB 22,OHV00000304,upper,House Amendments,2011-06-15 00:00:00,other,33,0,0
+oh,129,upper,SB 37,OHV00000529,upper,Third Consideration,2012-01-18 00:00:00,other,32,0,0
+oh,129,upper,SB 38,OHV00000131,upper,Third Consideration,2011-04-13 00:00:00,other,31,0,0
+oh,129,upper,SB 38,OHV00000419,lower,Third Consideration,2011-09-27 00:00:00,other,97,0,0
+oh,129,upper,SB 38,OHV00000420,upper,House Amendments,2011-09-27 00:00:00,other,31,0,0
+oh,129,upper,SB 40,OHV00000444,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,upper,SB 61,OHV00000132,upper,Third Consideration,2011-04-13 00:00:00,other,27,5,0
+oh,129,upper,SB 70,OHV00000650,upper,Third Consideration,2012-04-18 00:00:00,other,33,0,0
+oh,129,upper,SB 71,OHV00000071,upper,Third Consideration,2011-03-16 00:00:00,other,29,3,0
+oh,129,upper,SB 71,OHV00000072,upper,Motion to Table Amendment,2011-03-16 00:00:00,other,23,9,0
+oh,129,upper,SB 71,OHV00000210,lower,Third Consideration,2011-05-24 00:00:00,other,80,17,0
+oh,129,upper,SB 71,OHV00000243,upper,House Amendments,2011-06-07 00:00:00,other,30,3,0
+oh,129,upper,SB 72,OHV00000116,upper,Third Consideration,2011-04-06 00:00:00,other,24,8,0
+oh,129,upper,SB 73,OHV00000049,upper,Third Consideration,2011-03-09 00:00:00,other,33,0,0
+oh,129,upper,SB 73,OHV00000117,lower,Third Consideration,2011-04-06 00:00:00,other,97,0,0
+oh,129,upper,SB 80,OHV00000063,upper,Third Consideration,2011-03-15 00:00:00,other,33,0,0
+oh,129,upper,SB 80,OHV00000103,lower,Third Consideration,2011-03-29 00:00:00,other,98,0,0
+oh,129,upper,SB 81,OHV00000078,upper,Third Consideration,2011-03-22 00:00:00,other,25,8,0
+oh,129,upper,SB 81,OHV00000079,upper,Motion to Table Amendment,2011-03-22 00:00:00,other,23,10,0
+oh,129,upper,SB 83,OHV00000359,upper,Third Consideration,2011-06-28 00:00:00,other,32,1,0
+oh,129,upper,SB 83,OHV00000568,lower,Third Consideration,2012-02-14 00:00:00,other,93,3,0
+oh,129,upper,SB 83,OHV00000569,lower,Amendment,2012-02-14 00:00:00,other,97,0,0
+oh,129,upper,SB 83,OHV00000575,upper,House Amendments,2012-02-15 00:00:00,other,32,1,0
+oh,129,upper,SB 84,OHV00000118,upper,Third Consideration,2011-04-06 00:00:00,other,32,0,0
+oh,129,upper,SB 84,OHV00000311,lower,Third Consideration,2011-06-21 00:00:00,other,94,4,0
+oh,129,upper,SB 86,OHV00000119,upper,Third Consideration,2011-04-06 00:00:00,other,31,1,0
+oh,129,upper,SB 86,OHV00000120,upper,Third Consideration,2011-04-06 00:00:00,other,31,1,0
+oh,129,upper,SB 101,OHV00000194,upper,Third Consideration,2011-05-17 00:00:00,other,29,0,0
+oh,129,upper,SB 101,OHV00000409,lower,Third Consideration,2011-09-21 00:00:00,other,98,0,0
+oh,129,upper,SB 109,OHV00000629,upper,Third Consideration,2012-03-28 00:00:00,other,33,0,0
+oh,129,upper,SB 114,OHV00000421,upper,Third Consideration,2011-09-27 00:00:00,other,31,0,0
+oh,129,upper,SB 117,OHV00000312,upper,Third Consideration,2011-06-21 00:00:00,other,32,0,0
+oh,129,upper,SB 117,OHV00000313,upper,Third Consideration,2011-06-21 00:00:00,other,32,0,0
+oh,129,upper,SB 117,OHV00000435,lower,Third Consideration,2011-11-15 00:00:00,other,97,0,0
+oh,129,upper,SB 117,OHV00000445,upper,House Amendments,2011-11-30 00:00:00,other,30,0,0
+oh,129,upper,SB 118,OHV00000195,upper,Third Consideration,2011-05-17 00:00:00,other,20,10,0
+oh,129,upper,SB 120,OHV00000133,upper,Third Consideration,2011-04-13 00:00:00,other,32,0,0
+oh,129,upper,SB 120,OHV00000292,lower,Third Consideration,2011-06-14 00:00:00,other,96,0,0
+oh,129,upper,SB 122,OHV00000211,upper,Third Consideration,2011-05-24 00:00:00,other,33,0,0
+oh,129,upper,SB 122,OHV00000212,upper,Third Consideration,2011-05-24 00:00:00,other,33,0,0
+oh,129,upper,SB 122,OHV00000340,lower,Third Consideration,2011-06-23 00:00:00,other,98,0,0
+oh,129,upper,SB 122,OHV00000341,lower,Third Consideration,2011-06-23 00:00:00,other,94,4,0
+oh,129,upper,SB 124,OHV00000213,upper,Third Consideration,2011-05-24 00:00:00,other,33,0,0
+oh,129,upper,SB 124,OHV00000422,upper,House Amendments,2011-09-27 00:00:00,other,31,0,0
+oh,129,upper,SB 124,OHV00000423,lower,Third Consideration,2011-09-27 00:00:00,other,93,3,0
+oh,129,upper,SB 124,OHV00000424,lower,Amendment,2011-09-27 00:00:00,other,63,33,0
+oh,129,upper,SB 130,OHV00000552,upper,Third Consideration,2012-02-01 00:00:00,other,30,0,0
+oh,129,upper,SB 132,OHV00000110,upper,Third Consideration,2011-03-30 00:00:00,other,33,0,0
+oh,129,upper,SB 132,OHV00000236,lower,Third Consideration,2011-06-01 00:00:00,other,90,9,0
+oh,129,upper,SB 134,OHV00000597,upper,Third Consideration,2012-03-14 00:00:00,other,31,0,0
+oh,129,upper,SB 134,OHV00000598,upper,Third Consideration,2012-03-14 00:00:00,other,31,0,0
+oh,129,upper,SB 134,OHV00000638,lower,Third Consideration,2012-03-28 00:00:00,other,92,0,0
+oh,129,upper,SB 134,OHV00000639,lower,Third Consideration,2012-03-28 00:00:00,other,88,0,0
+oh,129,upper,SB 135,OHV00000734,upper,Third Consideration,2012-05-15 00:00:00,other,33,0,0
+oh,129,upper,SB 139,OHV00000446,upper,Third Consideration,2011-11-30 00:00:00,other,27,4,0
+oh,129,upper,SB 141,OHV00000360,upper,Third Consideration,2011-06-28 00:00:00,other,33,0,0
+oh,129,upper,SB 148,OHV00000214,upper,Third Consideration,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 148,OHV00000215,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 148,OHV00000216,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 148,OHV00000217,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 148,OHV00000218,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,21,12,0
+oh,129,upper,SB 148,OHV00000219,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 148,OHV00000220,upper,Motion to Table Amendment,2011-05-24 00:00:00,other,23,10,0
+oh,129,upper,SB 155,OHV00000436,upper,Third Consideration,2011-11-15 00:00:00,other,31,0,0
+oh,129,upper,SB 155,OHV00000464,lower,Third Consideration,2011-12-13 00:00:00,other,94,0,0
+oh,129,upper,SB 155,OHV00000465,lower,Third Consideration,2011-12-13 00:00:00,other,85,9,0
+oh,129,upper,SB 155,OHV00000483,upper,House Amendments,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 155,OHV00000484,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 160,OHV00000702,upper,Third Consideration,2012-05-03 00:00:00,other,33,0,0
+oh,129,upper,SB 165,OHV00000387,upper,Third Consideration,2011-07-13 00:00:00,other,29,0,0
+oh,129,upper,SB 165,OHV00000388,upper,Motion to Table Amendment,2011-07-13 00:00:00,other,21,8,0
+oh,129,upper,SB 165,OHV00000389,upper,Motion to Table Amendment,2011-07-13 00:00:00,other,21,8,0
+oh,129,upper,SB 165,OHV00000390,upper,Motion to Table Amendment,2011-07-13 00:00:00,other,21,8,0
+oh,129,upper,SB 165,OHV00000466,lower,Third Consideration,2011-12-13 00:00:00,other,63,32,0
+oh,129,upper,SB 165,OHV00000467,lower,Motion to Table Amendment,2011-12-13 00:00:00,other,56,39,0
+oh,129,upper,SB 165,OHV00000468,lower,Amendment,2011-12-13 00:00:00,other,54,41,0
+oh,129,upper,SB 165,OHV00000469,lower,Motion to Table Amendment,2011-12-13 00:00:00,other,39,56,0
+oh,129,upper,SB 165,OHV00000522,upper,House Amendments,2012-01-10 00:00:00,other,0,31,0
+oh,129,upper,SB 165,OHV00000640,lower,Conference Committee Report,2012-03-28 00:00:00,other,64,29,0
+oh,129,upper,SB 165,OHV00000630,upper,Conference Committee Report,2012-03-28 00:00:00,other,32,1,0
+oh,129,upper,SB 171,OHV00000314,upper,Third Consideration,2011-06-21 00:00:00,other,33,0,0
+oh,129,upper,SB 171,OHV00000315,upper,Third Consideration,2011-06-21 00:00:00,other,33,0,0
+oh,129,upper,SB 171,OHV00000342,lower,Third Consideration,2011-06-23 00:00:00,other,97,1,0
+oh,129,upper,SB 171,OHV00000343,lower,Third Consideration,2011-06-23 00:00:00,other,90,8,0
+oh,129,upper,SB 171,OHV00000344,upper,House Amendments,2011-06-23 00:00:00,other,32,1,0
+oh,129,upper,SB 171,OHV00000345,upper,Third Consideration,2011-06-23 00:00:00,other,32,1,0
+oh,129,upper,SB 179,OHV00000533,upper,Third Consideration,2012-01-24 00:00:00,other,31,0,0
+oh,129,upper,SB 179,OHV00000599,lower,Third Consideration,2012-03-14 00:00:00,other,99,0,0
+oh,129,upper,SB 179,OHV00000600,upper,House Amendments,2012-03-21 00:00:00,other,33,0,0
+oh,129,upper,SB 181,OHV00000470,upper,Third Consideration,2011-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 187,OHV00000323,upper,Third Consideration,2011-06-22 00:00:00,other,33,0,0
+oh,129,upper,SB 187,OHV00000391,upper,House Amendments,2011-07-13 00:00:00,other,29,0,0
+oh,129,upper,SB 187,OHV00000392,upper,Third Consideration,2011-07-13 00:00:00,other,29,0,0
+oh,129,upper,SB 187,OHV00000393,lower,Third Consideration,2011-07-13 00:00:00,other,94,0,0
+oh,129,upper,SB 187,OHV00000394,lower,Third Consideration,2011-07-13 00:00:00,other,91,3,0
+oh,129,upper,SB 193,OHV00000601,upper,Third Consideration,2012-03-14 00:00:00,other,31,0,0
+oh,129,upper,SB 193,OHV00000865,lower,Third Consideration,2012-06-12 00:00:00,other,84,10,0
+oh,129,upper,SB 193,OHV00000866,lower,Amendment,2012-06-12 00:00:00,other,95,0,0
+oh,129,upper,SB 193,OHV00000890,upper,House Amendments,2012-06-13 00:00:00,other,32,0,0
+oh,129,upper,SB 196,OHV00000523,upper,Third Consideration,2012-01-10 00:00:00,other,31,0,0
+oh,129,upper,SB 196,OHV00000834,lower,Third Consideration,2012-05-24 00:00:00,other,93,0,0
+oh,129,upper,SB 196,OHV00000867,upper,House Amendments,2012-06-12 00:00:00,other,32,1,0
+oh,129,upper,SB 199,OHV00000777,upper,Third Consideration,2012-05-22 00:00:00,other,31,0,0
+oh,129,upper,SB 202,OHV00000553,upper,Third Consideration,2012-02-01 00:00:00,other,26,4,0
+oh,129,upper,SB 202,OHV00000754,lower,Third Consideration,2012-05-16 00:00:00,other,63,36,0
+oh,129,upper,SB 202,OHV00000778,upper,House Amendments,2012-05-22 00:00:00,other,25,7,0
+oh,129,upper,SB 208,OHV00000471,upper,Third Consideration,2011-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 208,OHV00000641,lower,Third Consideration,2012-03-28 00:00:00,other,89,0,0
+oh,129,upper,SB 208,OHV00000631,upper,House Amendments,2012-03-28 00:00:00,other,33,0,0
+oh,129,upper,SB 222,OHV00000485,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 223,OHV00000447,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,upper,SB 223,OHV00000545,lower,Third Consideration,2012-01-31 00:00:00,other,85,10,0
+oh,129,upper,SB 223,OHV00000554,upper,House Amendments,2012-02-01 00:00:00,other,9,21,0
+oh,129,upper,SB 223,OHV00000576,lower,Conference Committee Report,2012-02-15 00:00:00,other,93,0,0
+oh,129,upper,SB 223,OHV00000577,upper,Conference Committee Report,2012-02-15 00:00:00,other,32,0,0
+oh,129,upper,SB 224,OHV00000717,upper,Third Consideration,2012-05-09 00:00:00,other,32,0,0
+oh,129,upper,SB 224,OHV00000835,lower,Third Consideration,2012-05-24 00:00:00,other,93,0,0
+oh,129,upper,SB 224,OHV00000868,upper,House Amendments,2012-06-12 00:00:00,other,33,0,0
+oh,129,upper,SB 238,OHV00000613,upper,Third Consideration,2012-03-27 00:00:00,other,31,2,0
+oh,129,upper,SB 243,OHV00000524,upper,Third Consideration,2012-01-10 00:00:00,other,31,0,0
+oh,129,upper,SB 243,OHV00000614,lower,Third Consideration,2012-03-27 00:00:00,other,93,0,0
+oh,129,upper,SB 243,OHV00000615,lower,Amendment,2012-03-27 00:00:00,other,80,13,0
+oh,129,upper,SB 243,OHV00000616,lower,Amendment,2012-03-27 00:00:00,other,92,1,0
+oh,129,upper,SB 243,OHV00000617,lower,Amendment,2012-03-27 00:00:00,other,92,1,0
+oh,129,upper,SB 243,OHV00000632,upper,House Amendments,2012-03-28 00:00:00,other,33,0,0
+oh,129,upper,SB 245,OHV00000486,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 245,OHV00000836,lower,Third Consideration,2012-05-24 00:00:00,other,65,29,0
+oh,129,upper,SB 247,OHV00000525,upper,Third Consideration,2012-01-10 00:00:00,other,31,0,0
+oh,129,upper,SB 247,OHV00000578,lower,Third Consideration,2012-02-15 00:00:00,other,92,0,0
+oh,129,upper,SB 248,OHV00000487,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 252,OHV00000488,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 258,OHV00000489,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 258,OHV00000579,lower,Third Consideration,2012-02-15 00:00:00,other,92,0,0
+oh,129,upper,SB 259,OHV00000490,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 260,OHV00000555,upper,Third Consideration,2012-02-01 00:00:00,other,30,0,0
+oh,129,upper,SB 260,OHV00000661,lower,Third Consideration,2012-04-24 00:00:00,other,96,0,0
+oh,129,upper,SB 263,OHV00000580,upper,Third Consideration,2012-02-15 00:00:00,other,33,0,0
+oh,129,upper,SB 264,OHV00000451,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,upper,SB 264,OHV00000452,upper,Motion to Table Amendment,2011-11-30 00:00:00,other,23,8,0
+oh,129,upper,SB 264,OHV00000491,lower,Third Consideration,2011-12-14 00:00:00,other,96,0,0
+oh,129,upper,SB 264,OHV00000492,upper,House Amendments,2011-12-14 00:00:00,other,33,0,0
+oh,129,upper,SB 268,OHV00000556,upper,Third Consideration,2012-02-01 00:00:00,other,30,0,0
+oh,129,upper,SB 268,OHV00000651,lower,Third Consideration,2012-04-18 00:00:00,other,89,4,0
+oh,129,upper,SB 271,OHV00000581,upper,Third Consideration,2012-02-15 00:00:00,other,30,3,0
+oh,129,upper,SB 273,OHV00000652,upper,Third Consideration,2012-04-18 00:00:00,other,30,3,0
+oh,129,upper,SB 275,OHV00000570,upper,Third Consideration,2012-02-14 00:00:00,other,33,0,0
+oh,129,upper,SB 275,OHV00000800,lower,Third Consideration,2012-05-23 00:00:00,other,97,0,0
+oh,129,upper,SB 275,OHV00000801,lower,Amendment,2012-05-23 00:00:00,other,97,0,0
+oh,129,upper,SB 275,OHV00000802,lower,Third Consideration,2012-05-23 00:00:00,other,90,4,0
+oh,129,upper,SB 275,OHV00000822,upper,House Amendments,2012-05-24 00:00:00,other,31,0,0
+oh,129,upper,SB 275,OHV00000823,upper,Third Consideration,2012-05-24 00:00:00,other,31,0,0
+oh,129,upper,SB 279,OHV00000618,upper,Third Consideration,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SB 280,OHV00000735,upper,Third Consideration,2012-05-15 00:00:00,other,23,10,0
+oh,129,upper,SB 281,OHV00000582,upper,Third Consideration,2012-02-15 00:00:00,other,33,0,0
+oh,129,upper,SB 287,OHV00000653,upper,Third Consideration,2012-04-18 00:00:00,other,33,0,0
+oh,129,upper,SB 288,OHV00000662,upper,Third Consideration,2012-04-24 00:00:00,other,31,0,0
+oh,129,upper,SB 289,OHV00000602,upper,Third Consideration,2012-03-21 00:00:00,other,30,3,0
+oh,129,upper,SB 289,OHV00000642,lower,Third Consideration,2012-03-28 00:00:00,other,80,9,0
+oh,129,upper,SB 289,OHV00000643,lower,Motion to Table Amendment,2012-03-28 00:00:00,other,55,33,0
+oh,129,upper,SB 294,OHV00000663,upper,Third Consideration,2012-04-24 00:00:00,other,30,1,0
+oh,129,upper,SB 294,OHV00000803,lower,Third Consideration,2012-05-23 00:00:00,other,97,0,0
+oh,129,upper,SB 294,OHV00000824,upper,House Amendments,2012-05-24 00:00:00,other,29,2,0
+oh,129,upper,SB 295,OHV00000633,upper,Third Consideration,2012-03-28 00:00:00,other,23,10,0
+oh,129,upper,SB 295,OHV00000634,upper,Motion to Table Amendment,2012-03-28 00:00:00,other,23,10,0
+oh,129,upper,SB 295,OHV00000711,lower,Third Consideration,2012-05-08 00:00:00,other,55,43,0
+oh,129,upper,SB 295,OHV00000712,lower,Motion to Table Amendment,2012-05-08 00:00:00,other,58,40,0
+oh,129,upper,SB 297,OHV00000619,upper,Third Consideration,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SB 297,OHV00000620,upper,Third Consideration,2012-03-27 00:00:00,other,31,2,0
+oh,129,upper,SB 300,OHV00000621,upper,Third Consideration,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SB 301,OHV00000703,upper,Third Consideration,2012-05-03 00:00:00,other,32,0,0
+oh,129,upper,SB 302,OHV00000664,upper,Third Consideration,2012-04-24 00:00:00,other,31,0,0
+oh,129,upper,SB 302,OHV00000837,lower,Third Consideration,2012-05-24 00:00:00,other,94,0,0
+oh,129,upper,SB 303,OHV00000622,upper,Third Consideration,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SB 304,OHV00000736,upper,Third Consideration,2012-05-15 00:00:00,other,33,0,0
+oh,129,upper,SB 305,OHV00000704,upper,Third Consideration,2012-05-03 00:00:00,other,30,2,0
+oh,129,upper,SB 305,OHV00000869,lower,Third Consideration,2012-06-12 00:00:00,other,79,17,0
+oh,129,upper,SB 305,OHV00000870,lower,Amendment,2012-06-12 00:00:00,other,94,2,0
+oh,129,upper,SB 305,OHV00000891,upper,House Amendments,2012-06-13 00:00:00,other,30,2,0
+oh,129,upper,SB 309,OHV00000654,upper,Third Consideration,2012-04-18 00:00:00,other,33,0,0
+oh,129,upper,SB 309,OHV00000892,lower,Third Consideration,2012-06-13 00:00:00,other,89,0,0
+oh,129,upper,SB 309,OHV00000924,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 310,OHV00000670,upper,Third Consideration,2012-04-25 00:00:00,other,30,1,0
+oh,129,upper,SB 310,OHV00000923,lower,Third Consideration,2012-05-22 00:00:00,other,90,10,0
+oh,129,upper,SB 310,OHV00000780,upper,House Amendments,2012-05-22 00:00:00,other,31,1,0
+oh,129,upper,SB 311,OHV00000623,upper,Third Consideration,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SB 312,OHV00000603,upper,Third Consideration,2012-03-21 00:00:00,other,33,0,0
+oh,129,upper,SB 312,OHV00000644,lower,Third Consideration,2012-03-28 00:00:00,other,93,0,0
+oh,129,upper,SB 312,OHV00000635,upper,House Amendments,2012-03-28 00:00:00,other,33,0,0
+oh,129,upper,SB 314,OHV00000696,upper,Third Consideration,2012-05-01 00:00:00,other,31,2,0
+oh,129,upper,SB 314,OHV00000697,upper,Motion to Table Amendment,2012-05-01 00:00:00,other,23,10,0
+oh,129,upper,SB 314,OHV00000698,upper,Motion to Table Amendment,2012-05-01 00:00:00,other,23,10,0
+oh,129,upper,SB 314,OHV00000699,upper,Motion to Table Amendment,2012-05-01 00:00:00,other,23,10,0
+oh,129,upper,SB 314,OHV00000893,upper,House Amendments,2012-06-13 00:00:00,other,30,1,0
+oh,129,upper,SB 314,OHV00000894,lower,Third Consideration,2012-06-13 00:00:00,other,86,6,0
+oh,129,upper,SB 314,OHV00000895,lower,Motion to Table Amendment,2012-06-13 00:00:00,other,56,35,0
+oh,129,upper,SB 314,OHV00000896,lower,Amendment,2012-06-13 00:00:00,other,90,0,0
+oh,129,upper,SB 315,OHV00000737,upper,Third Consideration,2012-05-15 00:00:00,other,27,6,0
+oh,129,upper,SB 315,OHV00000738,upper,Motion to Table Amendment,2012-05-15 00:00:00,other,23,10,0
+oh,129,upper,SB 315,OHV00000739,upper,Motion to Table Amendment,2012-05-15 00:00:00,other,23,10,0
+oh,129,upper,SB 315,OHV00000740,upper,Motion to Table Amendment,2012-05-15 00:00:00,other,23,10,0
+oh,129,upper,SB 315,OHV00000741,upper,Motion to Table Amendment,2012-05-15 00:00:00,other,23,10,0
+oh,129,upper,SB 315,OHV00000825,upper,House Amendments,2012-05-24 00:00:00,other,21,8,0
+oh,129,upper,SB 315,OHV00000838,lower,Third Consideration,2012-05-24 00:00:00,other,76,21,0
+oh,129,upper,SB 315,OHV00000839,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,55,39,0
+oh,129,upper,SB 315,OHV00000840,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,57,39,0
+oh,129,upper,SB 315,OHV00000841,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,53,40,0
+oh,129,upper,SB 315,OHV00000842,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,56,39,0
+oh,129,upper,SB 315,OHV00000843,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,54,40,0
+oh,129,upper,SB 315,OHV00000845,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,56,37,0
+oh,129,upper,SB 315,OHV00000846,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,54,40,0
+oh,129,upper,SB 315,OHV00000847,lower,Amendment,2012-05-24 00:00:00,other,90,4,0
+oh,129,upper,SB 315,OHV00000848,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,54,39,0
+oh,129,upper,SB 316,OHV00000718,upper,Third Consideration,2012-05-09 00:00:00,other,30,2,0
+oh,129,upper,SB 316,OHV00000719,upper,Motion to Table Amendment,2012-05-09 00:00:00,other,21,11,0
+oh,129,upper,SB 316,OHV00000720,upper,Motion to Table Amendment,2012-05-09 00:00:00,other,23,9,0
+oh,129,upper,SB 316,OHV00000721,upper,Motion to Table Amendment,2012-05-09 00:00:00,other,20,12,0
+oh,129,upper,SB 316,OHV00000722,upper,Motion to Table Amendment,2012-05-09 00:00:00,other,19,13,0
+oh,129,upper,SB 316,OHV00000723,upper,Motion to Table Amendment,2012-05-09 00:00:00,other,21,11,0
+oh,129,upper,SB 316,OHV00000897,upper,House Amendments,2012-06-13 00:00:00,other,23,8,0
+oh,129,upper,SB 316,OHV00000898,lower,Third Consideration,2012-06-13 00:00:00,other,57,36,0
+oh,129,upper,SB 316,OHV00000899,lower,Motion to Table Amendment,2012-06-13 00:00:00,other,56,37,0
+oh,129,upper,SB 316,OHV00000900,lower,Motion to Table Amendment,2012-06-13 00:00:00,other,55,38,0
+oh,129,upper,SB 316,OHV00000901,lower,Motion to Table Amendment,2012-06-13 00:00:00,other,57,36,0
+oh,129,upper,SB 316,OHV00000902,lower,Amendment,2012-06-13 00:00:00,other,90,3,0
+oh,129,upper,SB 320,OHV00000742,upper,Third Consideration,2012-05-15 00:00:00,other,33,0,0
+oh,129,upper,SB 321,OHV00000743,upper,Third Consideration,2012-05-15 00:00:00,other,33,0,0
+oh,129,upper,SB 321,OHV00000744,upper,Third Consideration,2012-05-15 00:00:00,other,31,2,0
+oh,129,upper,SB 321,OHV00000903,lower,Third Consideration,2012-06-13 00:00:00,other,89,0,0
+oh,129,upper,SB 321,OHV00000904,lower,Third Consideration,2012-06-13 00:00:00,other,85,4,0
+oh,129,upper,SB 328,OHV00000781,upper,Third Consideration,2012-05-22 00:00:00,other,30,1,0
+oh,129,upper,SB 331,OHV00000705,upper,Third Consideration,2012-05-03 00:00:00,other,29,3,0
+oh,129,upper,SB 333,OHV00000782,upper,Third Consideration,2012-05-22 00:00:00,other,32,0,0
+oh,129,upper,SB 335,OHV00000871,upper,Third Consideration,2012-06-12 00:00:00,other,27,4,0
+oh,129,upper,SB 335,OHV00000872,upper,Motion to Table Amendment,2012-06-12 00:00:00,other,24,7,0
+oh,129,upper,SB 335,OHV00000873,upper,Motion to Table Amendment,2012-06-12 00:00:00,other,24,7,0
+oh,129,upper,SB 335,OHV00000874,upper,Motion to Table Amendment,2012-06-12 00:00:00,other,23,8,0
+oh,129,upper,SB 335,OHV00000875,upper,Motion to Table Amendment,2012-06-12 00:00:00,other,24,7,0
+oh,129,upper,SB 337,OHV00000826,upper,Third Consideration,2012-05-24 00:00:00,other,27,4,0
+oh,129,upper,SB 337,OHV00000905,lower,Third Consideration,2012-06-13 00:00:00,other,91,0,0
+oh,129,upper,SB 338,OHV00000906,upper,Third Consideration,2012-06-13 00:00:00,other,32,0,0
+oh,129,upper,SB 340,OHV00000755,upper,Third Consideration,2012-05-16 00:00:00,other,30,3,0
+oh,129,upper,SB 340,OHV00000926,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 340,OHV00000925,lower,Third Consideration,2012-09-12 00:00:00,other,96,0,0
+oh,129,upper,SB 341,OHV00000756,upper,Third Consideration,2012-05-16 00:00:00,other,33,0,0
+oh,129,upper,SB 341,OHV00000928,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 341,OHV00000927,lower,Third Consideration,2012-09-12 00:00:00,other,96,0,0
+oh,129,upper,SB 342,OHV00000757,upper,Third Consideration,2012-05-16 00:00:00,other,31,2,0
+oh,129,upper,SB 342,OHV00000930,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 342,OHV00000929,lower,Third Consideration,2012-09-12 00:00:00,other,95,1,0
+oh,129,upper,SB 343,OHV00000758,upper,Third Consideration,2012-05-16 00:00:00,other,33,0,0
+oh,129,upper,SB 343,OHV00000932,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 343,OHV00000931,lower,Third Consideration,2012-09-12 00:00:00,other,96,0,0
+oh,129,upper,SB 345,OHV00000804,upper,Third Consideration,2012-05-23 00:00:00,other,31,0,0
+oh,129,upper,SB 345,OHV00000934,upper,House Amendments,2012-09-12 00:00:00,other,32,0,0
+oh,129,upper,SB 345,OHV00000933,lower,Third Consideration,2012-09-12 00:00:00,other,96,0,0
+oh,129,upper,SJR 1,OHV00000305,upper,Resolution Adoption,2011-06-15 00:00:00,other,24,9,0
+oh,129,upper,SJR 1,OHV00000324,lower,Resolution Adoption,2011-06-22 00:00:00,other,60,40,0
+oh,129,upper,SCR 1,OHV00000045,lower,Resolution Adoption,2011-01-03 00:00:00,other,94,0,0
+oh,129,upper,SCR 2,OHV00000046,upper,Resolution Adoption,2011-02-23 00:00:00,other,33,0,0
+oh,129,upper,SCR 2,OHV00000064,lower,Resolution Adoption,2011-03-15 00:00:00,other,99,0,0
+oh,129,upper,SCR 4,OHV00000111,upper,Resolution Adoption,2011-03-30 00:00:00,other,31,2,0
+oh,129,upper,SCR 4,OHV00000306,lower,Resolution Adoption,2011-06-15 00:00:00,other,89,6,0
+oh,129,upper,SCR 6,OHV00000134,upper,Resolution Adoption,2011-04-13 00:00:00,other,32,0,0
+oh,129,upper,SCR 7,OHV00000395,upper,Resolution Adoption,2011-07-13 00:00:00,other,29,0,0
+oh,129,upper,SCR 11,OHV00000316,upper,Resolution Adoption,2011-06-21 00:00:00,other,33,0,0
+oh,129,upper,SCR 11,OHV00000559,lower,Resolution Adoption,2012-02-08 00:00:00,other,63,36,0
+oh,129,upper,SCR 14,OHV00000706,upper,Resolution Adoption,2012-05-03 00:00:00,other,33,0,0
+oh,129,upper,SCR 14,OHV00000849,lower,Resolution Adoption,2012-05-24 00:00:00,other,88,0,0
+oh,129,upper,SCR 15,OHV00000472,upper,Resolution Adoption,2011-12-13 00:00:00,other,33,0,0
+oh,129,upper,SCR 16,OHV00000624,upper,Resolution Adoption,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SCR 19,OHV00000546,upper,Resolution Adoption,2012-01-31 00:00:00,other,32,0,0
+oh,129,upper,SCR 19,OHV00000604,lower,Resolution Adoption,2012-03-22 00:00:00,other,93,2,0
+oh,129,upper,SCR 19,OHV00000625,upper,House Amendments,2012-03-27 00:00:00,other,33,0,0
+oh,129,upper,SCR 22,OHV00000443,upper,Resolution Adoption,2011-11-15 00:00:00,other,31,0,0
+oh,129,upper,SCR 23,OHV00000700,upper,Resolution Adoption,2012-05-01 00:00:00,other,33,0,0
+oh,129,upper,SCR 29,OHV00000701,upper,Resolution Adoption,2012-05-01 00:00:00,other,33,0,0
+oh,129,upper,SCR 30,OHV00000759,upper,Resolution Adoption,2012-05-16 00:00:00,other,33,0,0
+oh,129,upper,SCR 30,OHV00000907,lower,Resolution Adoption,2012-06-13 00:00:00,other,88,1,0
+oh,129,lower,HB 1,OHV00000001,lower,Third Consideration,2011-02-01 00:00:00,other,59,37,0
+oh,129,lower,HB 1,OHV00000002,lower,Amendment,2011-02-01 00:00:00,other,40,56,0
+oh,129,lower,HB 1,OHV00000003,lower,Amendment,2011-02-01 00:00:00,other,38,58,0
+oh,129,lower,HB 1,OHV00000004,lower,Amendment,2011-02-01 00:00:00,other,38,58,0
+oh,129,lower,HB 1,OHV00000005,lower,Amendment,2011-02-01 00:00:00,other,38,57,0
+oh,129,lower,HB 1,OHV00000006,lower,Amendment,2011-02-01 00:00:00,other,38,58,0
+oh,129,lower,HB 1,OHV00000007,lower,Amendment,2011-02-01 00:00:00,other,38,58,0
+oh,129,lower,HB 1,OHV00000008,lower,Amendment,2011-02-01 00:00:00,other,38,58,0
+oh,129,lower,HB 1,OHV00000009,lower,Amendment,2011-02-01 00:00:00,other,36,60,0
+oh,129,lower,HB 1,OHV00000010,lower,Senate Amendments,2011-02-16 00:00:00,other,60,35,0
+oh,129,lower,HB 1,OHV00000011,upper,Third Consideration,2011-02-16 00:00:00,other,31,2,0
+oh,129,lower,HB 1,OHV00000012,upper,Motion to Table Amendment,2011-02-16 00:00:00,other,23,10,0
+oh,129,lower,HB 1,OHV00000013,upper,Motion to Table Amendment,2011-02-16 00:00:00,other,23,10,0
+oh,129,lower,HB 2,OHV00000014,lower,Third Consideration,2011-02-23 00:00:00,other,97,0,0
+oh,129,lower,HB 2,OHV00000015,lower,Amendment,2011-02-23 00:00:00,other,39,58,0
+oh,129,lower,HB 5,OHV00000104,lower,Third Consideration,2011-03-29 00:00:00,other,97,1,0
+oh,129,lower,HB 5,OHV00000105,lower,Amendment,2011-03-29 00:00:00,other,98,0,0
+oh,129,lower,HB 5,OHV00000244,upper,Third Consideration,2011-06-07 00:00:00,other,33,0,0
+oh,129,lower,HB 5,OHV00000291,lower,Senate Amendments,2011-06-08 00:00:00,other,97,2,0
+oh,129,lower,HB 9,OHV00000032,lower,Third Consideration,2011-02-08 00:00:00,other,98,0,0
+oh,129,lower,HB 9,OHV00000080,upper,Third Consideration,2011-03-22 00:00:00,other,33,0,0
+oh,129,lower,HB 14,OHV00000361,lower,Third Consideration,2011-06-28 00:00:00,other,70,30,0
+oh,129,lower,HB 14,OHV00000547,upper,Third Consideration,2012-01-31 00:00:00,other,27,5,0
+oh,129,lower,HB 14,OHV00000560,lower,Senate Amendments,2012-02-08 00:00:00,other,68,31,0
+oh,129,lower,HB 18,OHV00000493,lower,Third Consideration,2011-12-14 00:00:00,other,83,13,0
+oh,129,lower,HB 18,OHV00000494,lower,Motion to Table Amendment,2011-12-14 00:00:00,other,55,41,0
+oh,129,lower,HB 18,OHV00000636,upper,Third Consideration,2012-03-28 00:00:00,other,33,0,0
+oh,129,lower,HB 18,OHV00000655,lower,Senate Amendments,2012-04-18 00:00:00,other,83,8,0
+oh,129,lower,HB 20,OHV00000073,lower,Third Consideration,2011-03-16 00:00:00,other,98,0,0
+oh,129,lower,HB 20,OHV00000571,upper,Third Consideration,2012-02-14 00:00:00,other,33,0,0
+oh,129,lower,HB 20,OHV00000583,lower,Senate Amendments,2012-02-15 00:00:00,other,93,0,0
+oh,129,lower,HB 21,OHV00000081,lower,Third Consideration,2011-03-22 00:00:00,other,66,33,0
+oh,129,lower,HB 21,OHV00000082,lower,Amendment,2011-03-22 00:00:00,other,38,60,0
+oh,129,lower,HB 21,OHV00000083,lower,Amendment,2011-03-22 00:00:00,other,40,59,0
+oh,129,lower,HB 21,OHV00000135,upper,Third Consideration,2011-04-13 00:00:00,other,26,6,0
+oh,129,lower,HB 21,OHV00000136,lower,Senate Amendments,2011-04-13 00:00:00,other,76,23,0
+oh,129,lower,HB 22,OHV00000016,lower,Third Consideration,2011-03-01 00:00:00,other,96,0,0
+oh,129,lower,HB 22,OHV00000245,upper,Third Consideration,2011-06-07 00:00:00,other,33,0,0
+oh,129,lower,HB 24,OHV00000473,lower,Third Consideration,2011-12-13 00:00:00,other,94,0,0
+oh,129,lower,HB 25,OHV00000317,lower,Third Consideration,2011-06-21 00:00:00,other,91,7,0
+oh,129,lower,HB 29,OHV00000017,lower,Third Consideration,2011-02-02 00:00:00,other,94,2,0
+oh,129,lower,HB 29,OHV00000018,lower,Third Consideration,2011-02-02 00:00:00,other,84,12,0
+oh,129,lower,HB 29,OHV00000019,lower,Amendment,2011-02-02 00:00:00,other,37,59,0
+oh,129,lower,HB 29,OHV00000050,upper,Third Consideration,2011-03-09 00:00:00,other,33,0,0
+oh,129,lower,HB 29,OHV00000051,upper,Third Consideration,2011-03-09 00:00:00,other,33,0,0
+oh,129,lower,HB 30,OHV00000020,lower,Third Consideration,2011-02-16 00:00:00,other,59,36,0
+oh,129,lower,HB 30,OHV00000021,lower,Amendment,2011-02-16 00:00:00,other,37,58,0
+oh,129,lower,HB 30,OHV00000022,lower,Amendment,2011-02-16 00:00:00,other,39,55,0
+oh,129,lower,HB 30,OHV00000023,lower,Amendment,2011-02-16 00:00:00,other,36,59,0
+oh,129,lower,HB 30,OHV00000065,upper,Third Consideration,2011-03-15 00:00:00,other,25,8,0
+oh,129,lower,HB 30,OHV00000074,lower,Senate Amendments,2011-03-16 00:00:00,other,60,38,0
+oh,129,lower,HB 32,OHV00000293,lower,Third Consideration,2011-06-14 00:00:00,other,94,2,0
+oh,129,lower,HB 32,OHV00000557,upper,Third Consideration,2012-02-01 00:00:00,other,26,3,0
+oh,129,lower,HB 32,OHV00000561,lower,Senate Amendments,2012-02-08 00:00:00,other,99,0,0
+oh,129,lower,HB 36,OHV00000052,lower,Third Consideration,2011-03-09 00:00:00,other,94,5,0
+oh,129,lower,HB 36,OHV00000053,lower,Amendment,2011-03-09 00:00:00,other,38,61,0
+oh,129,lower,HB 36,OHV00000054,lower,Third Consideration,2011-03-09 00:00:00,other,87,12,0
+oh,129,lower,HB 36,OHV00000084,upper,Third Consideration,2011-03-22 00:00:00,other,32,1,0
+oh,129,lower,HB 36,OHV00000085,upper,Third Consideration,2011-03-22 00:00:00,other,28,5,0
+oh,129,lower,HB 36,OHV00000112,lower,Senate Amendments,2011-04-05 00:00:00,other,0,99,0
+oh,129,lower,HB 45,OHV00000186,lower,Third Consideration,2011-05-11 00:00:00,other,57,41,0
+oh,129,lower,HB 45,OHV00000187,lower,Motion to Table Amendment,2011-05-11 00:00:00,other,65,33,0
+oh,129,lower,HB 45,OHV00000188,lower,Motion to Table Amendment,2011-05-11 00:00:00,other,62,35,0
+oh,129,lower,HB 45,OHV00000189,lower,Amendment,2011-05-11 00:00:00,other,33,65,0
+oh,129,lower,HB 45,OHV00000190,lower,Amendment,2011-05-11 00:00:00,other,24,73,0
+oh,129,lower,HB 45,OHV00000191,lower,Motion to Table Amendment,2011-05-11 00:00:00,other,63,35,0
+oh,129,lower,HB 48,OHV00000199,lower,Third Consideration,2011-05-17 00:00:00,other,69,26,0
+oh,129,lower,HB 48,OHV00000495,upper,Third Consideration,2011-12-14 00:00:00,other,26,7,0
+oh,129,lower,HB 48,OHV00000534,lower,Senate Amendments,2012-01-24 00:00:00,other,75,21,0
+oh,129,lower,HB 50,OHV00000783,lower,Third Consideration,2012-05-22 00:00:00,other,97,3,0
+oh,129,lower,HB 54,OHV00000193,lower,Third Consideration,2011-05-11 00:00:00,other,79,19,0
+oh,129,lower,HB 54,OHV00000307,upper,Third Consideration,2011-06-15 00:00:00,other,24,9,0
+oh,129,lower,HB 58,OHV00000024,lower,Third Consideration,2011-02-15 00:00:00,other,89,7,0
+oh,129,lower,HB 58,OHV00000025,lower,Third Consideration,2011-02-15 00:00:00,other,88,8,0
+oh,129,lower,HB 58,OHV00000026,upper,Third Consideration,2011-02-23 00:00:00,other,32,0,0
+oh,129,lower,HB 58,OHV00000027,upper,Third Consideration,2011-02-23 00:00:00,other,31,1,0
+oh,129,lower,HB 58,OHV00000028,lower,Senate Amendments,2011-03-02 00:00:00,other,94,3,0
+oh,129,lower,HB 58,OHV00000029,lower,Senate Amendments,2011-03-02 00:00:00,other,90,7,0
+oh,129,lower,HB 62,OHV00000237,lower,Third Consideration,2011-06-01 00:00:00,other,87,12,0
+oh,129,lower,HB 63,OHV00000066,lower,Third Consideration,2011-03-15 00:00:00,other,65,34,0
+oh,129,lower,HB 63,OHV00000067,lower,Motion to Table Amendment,2011-03-15 00:00:00,other,56,43,0
+oh,129,lower,HB 63,OHV00000068,lower,Amendment,2011-03-15 00:00:00,other,36,63,0
+oh,129,lower,HB 63,OHV00000069,lower,Amendment,2011-03-15 00:00:00,other,40,59,0
+oh,129,lower,HB 63,OHV00000070,lower,Amendment,2011-03-15 00:00:00,other,27,72,0
+oh,129,lower,HB 63,OHV00000425,upper,Third Consideration,2011-09-27 00:00:00,other,23,8,0
+oh,129,lower,HB 63,OHV00000433,lower,Senate Amendments,2011-10-21 00:00:00,other,63,30,0
+oh,129,lower,HB 64,OHV00000075,lower,Third Consideration,2011-03-16 00:00:00,other,97,1,0
+oh,129,lower,HB 64,OHV00000363,upper,Third Consideration,2011-06-28 00:00:00,other,33,0,0
+oh,129,lower,HB 64,OHV00000362,lower,Senate Amendments,2011-06-28 00:00:00,other,99,1,0
+oh,129,lower,HB 65,OHV00000113,lower,Third Consideration,2011-04-05 00:00:00,other,99,0,0
+oh,129,lower,HB 65,OHV00000248,upper,Third Consideration,2011-06-08 00:00:00,other,33,0,0
+oh,129,lower,HB 65,OHV00000294,lower,Senate Amendments,2011-06-14 00:00:00,other,96,0,0
+oh,129,lower,HB 66,OHV00000086,lower,Third Consideration,2011-03-22 00:00:00,other,99,0,0
+oh,129,lower,HB 66,OHV00000530,upper,Third Consideration,2012-01-18 00:00:00,other,32,0,0
+oh,129,lower,HB 66,OHV00000539,lower,Senate Amendments,2012-01-25 00:00:00,other,97,0,0
+oh,129,lower,HB 78,OHV00000364,lower,Third Consideration,2011-06-28 00:00:00,other,66,34,0
+oh,129,lower,HB 78,OHV00000365,lower,Motion to Table Amendment,2011-06-28 00:00:00,other,60,40,0
+oh,129,lower,HB 78,OHV00000396,upper,Third Consideration,2011-07-13 00:00:00,other,22,7,0
+oh,129,lower,HB 79,OHV00000366,lower,Third Consideration,2011-06-28 00:00:00,other,63,37,0
+oh,129,lower,HB 79,OHV00000367,lower,Motion to Table Amendment,2011-06-28 00:00:00,other,60,40,0
+oh,129,lower,HB 79,OHV00000496,upper,Third Consideration,2011-12-14 00:00:00,other,23,10,0
+oh,129,lower,HB 86,OHV00000144,lower,Third Consideration,2011-05-04 00:00:00,other,98,2,0
+oh,129,lower,HB 86,OHV00000145,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,60,40,0
+oh,129,lower,HB 86,OHV00000146,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,59,40,0
+oh,129,lower,HB 86,OHV00000147,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,58,40,0
+oh,129,lower,HB 86,OHV00000148,lower,Amendment,2011-05-04 00:00:00,other,39,59,0
+oh,129,lower,HB 86,OHV00000149,lower,Amendment,2011-05-04 00:00:00,other,37,62,0
+oh,129,lower,HB 86,OHV00000150,lower,Amendment,2011-05-04 00:00:00,other,80,20,0
+oh,129,lower,HB 86,OHV00000325,upper,Third Consideration,2011-06-22 00:00:00,other,30,3,0
+oh,129,lower,HB 86,OHV00000418,lower,Senate Amendments,2011-06-23 00:00:00,other,88,10,0
+oh,129,lower,HB 89,OHV00000030,lower,Third Consideration,2011-02-16 00:00:00,other,95,0,0
+oh,129,lower,HB 89,OHV00000031,upper,Third Consideration,2011-03-02 00:00:00,other,33,0,0
+oh,129,lower,HB 92,OHV00000114,lower,Third Consideration,2011-04-05 00:00:00,other,99,0,0
+oh,129,lower,HB 92,OHV00000115,lower,Amendment,2011-04-05 00:00:00,other,99,0,0
+oh,129,lower,HB 92,OHV00000326,upper,Third Consideration,2011-06-22 00:00:00,other,33,0,0
+oh,129,lower,HB 93,OHV00000055,lower,Third Consideration,2011-03-09 00:00:00,other,99,0,0
+oh,129,lower,HB 93,OHV00000056,lower,Third Consideration,2011-03-09 00:00:00,other,94,5,0
+oh,129,lower,HB 93,OHV00000196,upper,Third Consideration,2011-05-17 00:00:00,other,30,0,0
+oh,129,lower,HB 93,OHV00000197,upper,Third Consideration,2011-05-17 00:00:00,other,29,1,0
+oh,129,lower,HB 93,OHV00000200,lower,Senate Amendments,2011-05-18 00:00:00,other,95,0,0
+oh,129,lower,HB 93,OHV00000201,lower,Senate Amendments,2011-05-18 00:00:00,other,92,2,0
+oh,129,lower,HB 95,OHV00000151,lower,Third Consideration,2011-05-04 00:00:00,other,67,33,0
+oh,129,lower,HB 95,OHV00000152,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,59,40,0
+oh,129,lower,HB 95,OHV00000153,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,58,42,0
+oh,129,lower,HB 95,OHV00000154,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,58,40,0
+oh,129,lower,HB 95,OHV00000155,lower,Motion to Table Amendment,2011-05-04 00:00:00,other,55,43,0
+oh,129,lower,HB 95,OHV00000222,lower,Senate Amendments,2011-05-25 00:00:00,other,69,28,0
+oh,129,lower,HB 95,OHV00000235,upper,Third Consideration,2011-05-25 00:00:00,other,28,4,0
+oh,129,lower,HB 96,OHV00000221,lower,Third Consideration,2011-05-24 00:00:00,other,96,1,0
+oh,129,lower,HB 96,OHV00000497,lower,Senate Amendments,2011-12-14 00:00:00,other,92,0,0
+oh,129,lower,HB 96,OHV00000498,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HB 97,OHV00000407,lower,Third Consideration,2011-09-20 00:00:00,other,94,5,0
+oh,129,lower,HB 99,OHV00000368,lower,Third Consideration,2011-06-28 00:00:00,other,90,10,0
+oh,129,lower,HB 99,OHV00000369,lower,Amendment,2011-06-28 00:00:00,other,100,0,0
+oh,129,lower,HB 99,OHV00000707,upper,Third Consideration,2012-05-03 00:00:00,other,25,8,0
+oh,129,lower,HB 99,OHV00000708,upper,Motion to Table Amendment,2012-05-03 00:00:00,other,23,10,0
+oh,129,lower,HB 99,OHV00000709,upper,Motion to Table Amendment,2012-05-03 00:00:00,other,22,11,0
+oh,129,lower,HB 99,OHV00000710,upper,Motion to Table Amendment,2012-05-03 00:00:00,other,22,11,0
+oh,129,lower,HB 99,OHV00000745,lower,Senate Amendments,2012-05-15 00:00:00,other,86,12,0
+oh,129,lower,HB 108,OHV00000584,lower,Third Consideration,2012-02-15 00:00:00,other,83,11,0
+oh,129,lower,HB 114,OHV00000058,lower,Third Consideration,2011-03-10 00:00:00,other,97,0,0
+oh,129,lower,HB 114,OHV00000059,lower,Amendment,2011-03-10 00:00:00,other,38,59,0
+oh,129,lower,HB 114,OHV00000060,lower,Amendment,2011-03-10 00:00:00,other,38,59,0
+oh,129,lower,HB 114,OHV00000061,lower,Amendment,2011-03-10 00:00:00,other,39,58,0
+oh,129,lower,HB 114,OHV00000062,lower,Motion to Table Amendment,2011-03-10 00:00:00,other,60,37,0
+oh,129,lower,HB 114,OHV00000088,lower,Senate Amendments,2011-03-23 00:00:00,other,57,39,0
+oh,129,lower,HB 114,OHV00000089,upper,Third Consideration,2011-03-23 00:00:00,other,33,0,0
+oh,129,lower,HB 114,OHV00000090,upper,Motion to Table Amendment,2011-03-23 00:00:00,other,23,10,0
+oh,129,lower,HB 114,OHV00000091,upper,Motion to Table Amendment,2011-03-23 00:00:00,other,23,10,0
+oh,129,lower,HB 114,OHV00000092,upper,Motion to Table Amendment,2011-03-23 00:00:00,other,23,10,0
+oh,129,lower,HB 114,OHV00000093,upper,Motion to Table Amendment,2011-03-23 00:00:00,other,23,10,0
+oh,129,lower,HB 116,OHV00000318,lower,Third Consideration,2011-06-21 00:00:00,other,86,12,0
+oh,129,lower,HB 116,OHV00000531,upper,Third Consideration,2012-01-18 00:00:00,other,31,1,0
+oh,129,lower,HB 116,OHV00000532,upper,Motion to Table Amendment,2012-01-18 00:00:00,other,22,10,0
+oh,129,lower,HB 116,OHV00000540,lower,Senate Amendments,2012-01-25 00:00:00,other,93,4,0
+oh,129,lower,HB 118,OHV00000713,lower,Third Consideration,2012-05-08 00:00:00,other,79,18,0
+oh,129,lower,HB 120,OHV00000327,lower,Third Consideration,2011-06-22 00:00:00,other,100,0,0
+oh,129,lower,HB 121,OHV00000185,lower,Third Consideration,2011-05-10 00:00:00,other,98,0,0
+oh,129,lower,HB 121,OHV00000223,upper,Third Consideration,2011-05-25 00:00:00,other,33,0,0
+oh,129,lower,HB 121,OHV00000224,upper,Third Consideration,2011-05-25 00:00:00,other,32,0,0
+oh,129,lower,HB 121,OHV00000238,lower,Senate Amendments,2011-06-01 00:00:00,other,99,0,0
+oh,129,lower,HB 121,OHV00000239,lower,Senate Amendments,2011-06-01 00:00:00,other,98,1,0
+oh,129,lower,HB 122,OHV00000057,lower,Third Consideration,2011-03-09 00:00:00,other,99,0,0
+oh,129,lower,HB 122,OHV00000076,upper,Third Consideration,2011-03-16 00:00:00,other,32,0,0
+oh,129,lower,HB 122,OHV00000077,lower,Senate Amendments,2011-03-16 00:00:00,other,98,0,0
+oh,129,lower,HB 123,OHV00000094,lower,Third Consideration,2011-03-23 00:00:00,other,98,0,0
+oh,129,lower,HB 123,OHV00000121,upper,Third Consideration,2011-04-06 00:00:00,other,28,4,0
+oh,129,lower,HB 123,OHV00000122,upper,Motion to Table Amendment,2011-04-06 00:00:00,other,27,5,0
+oh,129,lower,HB 123,OHV00000137,lower,Senate Amendments,2011-04-13 00:00:00,other,95,4,0
+oh,129,lower,HB 124,OHV00000095,lower,Third Consideration,2011-03-23 00:00:00,other,98,0,0
+oh,129,lower,HB 124,OHV00000123,upper,Third Consideration,2011-04-06 00:00:00,other,32,0,0
+oh,129,lower,HB 125,OHV00000370,lower,Third Consideration,2011-06-28 00:00:00,other,55,45,0
+oh,129,lower,HB 125,OHV00000371,lower,Amendment,2011-06-28 00:00:00,other,62,37,0
+oh,129,lower,HB 128,OHV00000138,lower,Third Consideration,2011-04-13 00:00:00,other,98,0,0
+oh,129,lower,HB 128,OHV00000249,upper,Third Consideration,2011-06-08 00:00:00,other,33,0,0
+oh,129,lower,HB 128,OHV00000295,lower,Senate Amendments,2011-06-14 00:00:00,other,91,3,0
+oh,129,lower,HB 133,OHV00000227,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,56,41,0
+oh,129,lower,HB 133,OHV00000228,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,57,39,0
+oh,129,lower,HB 133,OHV00000229,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,57,40,0
+oh,129,lower,HB 133,OHV00000230,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,55,39,0
+oh,129,lower,HB 133,OHV00000231,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,57,40,0
+oh,129,lower,HB 133,OHV00000232,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,57,39,0
+oh,129,lower,HB 133,OHV00000233,lower,Motion to Table Amendment,2011-05-25 00:00:00,other,57,38,0
+oh,129,lower,HB 133,OHV00000234,lower,Amendment,2011-05-25 00:00:00,other,96,0,0
+oh,129,lower,HB 133,OHV00000308,upper,Third Consideration,2011-06-15 00:00:00,other,22,10,0
+oh,129,lower,HB 133,OHV00000309,upper,Motion to Table Amendment,2011-06-15 00:00:00,other,19,13,0
+oh,129,lower,HB 133,OHV00000319,lower,Senate Amendments,2011-06-21 00:00:00,other,58,40,0
+oh,129,lower,HB 138,OHV00000246,lower,Third Consideration,2011-06-07 00:00:00,other,89,8,0
+oh,129,lower,HB 139,OHV00000124,lower,Third Consideration,2011-04-06 00:00:00,other,96,1,0
+oh,129,lower,HB 139,OHV00000125,lower,Third Consideration,2011-04-06 00:00:00,other,91,6,0
+oh,129,lower,HB 139,OHV00000139,upper,Third Consideration,2011-04-13 00:00:00,other,32,0,0
+oh,129,lower,HB 139,OHV00000140,upper,Third Consideration,2011-04-13 00:00:00,other,32,0,0
+oh,129,lower,HB 143,OHV00000908,lower,Third Consideration,2012-06-13 00:00:00,other,86,4,0
+oh,129,lower,HB 145,OHV00000141,lower,Third Consideration,2011-04-13 00:00:00,other,92,7,0
+oh,129,lower,HB 148,OHV00000142,lower,Third Consideration,2011-04-13 00:00:00,other,99,0,0
+oh,129,lower,HB 148,OHV00000572,upper,Third Consideration,2012-02-14 00:00:00,other,33,0,0
+oh,129,lower,HB 148,OHV00000585,lower,Senate Amendments,2012-02-15 00:00:00,other,94,0,0
+oh,129,lower,HB 152,OHV00000156,lower,Third Consideration,2011-05-04 00:00:00,other,100,0,0
+oh,129,lower,HB 152,OHV00000656,upper,Third Consideration,2012-04-18 00:00:00,other,33,0,0
+oh,129,lower,HB 153,OHV00000157,lower,Third Consideration,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000159,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000160,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000163,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000162,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,55,46,0
+oh,129,lower,HB 153,OHV00000158,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000164,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000165,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,40,0
+oh,129,lower,HB 153,OHV00000166,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000167,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,61,40,0
+oh,129,lower,HB 153,OHV00000168,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,59,42,0
+oh,129,lower,HB 153,OHV00000169,lower,Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000170,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,59,42,0
+oh,129,lower,HB 153,OHV00000171,lower,Amendment,2011-05-05 00:00:00,other,100,1,0
+oh,129,lower,HB 153,OHV00000172,lower,Amendment,2011-05-05 00:00:00,other,87,14,0
+oh,129,lower,HB 153,OHV00000173,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,59,42,0
+oh,129,lower,HB 153,OHV00000174,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000175,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000176,lower,Amendment,2011-05-05 00:00:00,other,99,2,0
+oh,129,lower,HB 153,OHV00000177,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,82,19,0
+oh,129,lower,HB 153,OHV00000178,lower,Amendment,2011-05-05 00:00:00,other,101,0,0
+oh,129,lower,HB 153,OHV00000179,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000180,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,58,43,0
+oh,129,lower,HB 153,OHV00000181,lower,Amendment,2011-05-05 00:00:00,other,56,45,0
+oh,129,lower,HB 153,OHV00000182,lower,Amendment,2011-05-05 00:00:00,other,101,0,0
+oh,129,lower,HB 153,OHV00000183,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,60,41,0
+oh,129,lower,HB 153,OHV00000250,lower,Senate Amendments,2011-06-08 00:00:00,other,0,100,0
+oh,129,lower,HB 153,OHV00000251,upper,Third Consideration,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000252,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000253,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,21,12,0
+oh,129,lower,HB 153,OHV00000254,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,11,0
+oh,129,lower,HB 153,OHV00000255,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000256,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000257,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,11,0
+oh,129,lower,HB 153,OHV00000258,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000259,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000260,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000261,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000262,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000263,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000264,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,10,0
+oh,129,lower,HB 153,OHV00000265,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000266,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000267,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000268,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000269,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000270,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,11,0
+oh,129,lower,HB 153,OHV00000271,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000272,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,21,12,0
+oh,129,lower,HB 153,OHV00000273,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,11,0
+oh,129,lower,HB 153,OHV00000274,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000275,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,24,9,0
+oh,129,lower,HB 153,OHV00000276,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,20,13,0
+oh,129,lower,HB 153,OHV00000277,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000278,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000279,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000280,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,22,11,0
+oh,129,lower,HB 153,OHV00000281,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000282,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000283,upper,Motion to Table Amendment,2011-06-08 00:00:00,other,23,10,0
+oh,129,lower,HB 153,OHV00000372,upper,Conference Committee Report,2011-06-28 00:00:00,other,22,11,0
+oh,129,lower,HB 157,OHV00000328,lower,Third Consideration,2011-06-22 00:00:00,other,99,0,0
+oh,129,lower,HB 157,OHV00000474,upper,Third Consideration,2011-12-13 00:00:00,other,33,0,0
+oh,129,lower,HB 157,OHV00000475,upper,Third Consideration,2011-12-13 00:00:00,other,31,2,0
+oh,129,lower,HB 157,OHV00000499,lower,Senate Amendments,2011-12-14 00:00:00,other,92,1,0
+oh,129,lower,HB 157,OHV00000500,lower,Senate Amendments,2011-12-14 00:00:00,other,87,4,0
+oh,129,lower,HB 158,OHV00000247,lower,Third Consideration,2011-06-07 00:00:00,other,94,3,0
+oh,129,lower,HB 158,OHV00000665,upper,Third Consideration,2012-04-24 00:00:00,other,31,0,0
+oh,129,lower,HB 158,OHV00000714,lower,Senate Amendments,2012-05-08 00:00:00,other,94,3,0
+oh,129,lower,HB 159,OHV00000096,lower,Third Consideration,2011-03-23 00:00:00,other,58,39,0
+oh,129,lower,HB 159,OHV00000097,lower,Motion to Table Amendment,2011-03-23 00:00:00,other,59,39,0
+oh,129,lower,HB 159,OHV00000098,lower,Amendment,2011-03-23 00:00:00,other,39,59,0
+oh,129,lower,HB 159,OHV00000099,lower,Amendment,2011-03-23 00:00:00,other,95,1,0
+oh,129,lower,HB 159,OHV00000596,lower,Amendment,2011-03-23 00:00:00,other,39,59,0
+oh,129,lower,HB 159,OHV00000101,lower,Motion to Table Amendment,2011-03-23 00:00:00,other,59,39,0
+oh,129,lower,HB 162,OHV00000347,lower,Third Consideration,2011-06-23 00:00:00,other,98,0,0
+oh,129,lower,HB 163,OHV00000284,lower,Third Consideration,2011-06-08 00:00:00,other,100,0,0
+oh,129,lower,HB 163,OHV00000285,lower,Amendment,2011-06-08 00:00:00,other,96,1,0
+oh,129,lower,HB 163,OHV00000320,upper,Third Consideration,2011-06-21 00:00:00,other,33,0,0
+oh,129,lower,HB 167,OHV00000321,lower,Third Consideration,2011-06-21 00:00:00,other,98,0,0
+oh,129,lower,HB 167,OHV00000437,upper,Third Consideration,2011-11-15 00:00:00,other,31,0,0
+oh,129,lower,HB 167,OHV00000438,upper,Third Consideration,2011-11-15 00:00:00,other,31,0,0
+oh,129,lower,HB 167,OHV00000440,lower,Senate Amendments,2011-11-16 00:00:00,other,98,0,0
+oh,129,lower,HB 167,OHV00000441,lower,Senate Amendments,2011-11-16 00:00:00,other,96,2,0
+oh,129,lower,HB 170,OHV00000348,lower,Third Consideration,2011-06-23 00:00:00,other,89,9,0
+oh,129,lower,HB 174,OHV00000143,lower,Third Consideration,2011-04-13 00:00:00,other,93,6,0
+oh,129,lower,HB 184,OHV00000715,lower,Third Consideration,2012-05-08 00:00:00,other,96,0,0
+oh,129,lower,HB 185,OHV00000240,lower,Third Consideration,2011-06-01 00:00:00,other,99,0,0
+oh,129,lower,HB 185,OHV00000548,upper,Third Consideration,2012-01-31 00:00:00,other,31,0,0
+oh,129,lower,HB 185,OHV00000562,lower,Senate Amendments,2012-02-08 00:00:00,other,99,0,0
+oh,129,lower,HB 188,OHV00000286,lower,Third Consideration,2011-06-08 00:00:00,other,99,1,0
+oh,129,lower,HB 188,OHV00000287,lower,Motion to Table Amendment,2011-06-08 00:00:00,other,59,41,0
+oh,129,lower,HB 188,OHV00000288,lower,Amendment,2011-06-08 00:00:00,other,100,0,0
+oh,129,lower,HB 188,OHV00000373,upper,Third Consideration,2011-06-28 00:00:00,other,32,1,0
+oh,129,lower,HB 194,OHV00000202,lower,Third Consideration,2011-05-18 00:00:00,other,55,41,0
+oh,129,lower,HB 194,OHV00000204,lower,Motion to Table Amendment,2011-05-18 00:00:00,other,55,41,0
+oh,129,lower,HB 194,OHV00000205,lower,Motion to Table Amendment,2011-05-18 00:00:00,other,54,41,0
+oh,129,lower,HB 194,OHV00000206,lower,Motion to Table Amendment,2011-05-18 00:00:00,other,55,40,0
+oh,129,lower,HB 194,OHV00000207,lower,Motion to Table Amendment,2011-05-18 00:00:00,other,55,41,0
+oh,129,lower,HB 194,OHV00000208,lower,Motion to Table Amendment,2011-05-18 00:00:00,other,55,40,0
+oh,129,lower,HB 194,OHV00000209,lower,Amendment,2011-05-18 00:00:00,other,40,56,0
+oh,129,lower,HB 194,OHV00000349,upper,Third Consideration,2011-06-23 00:00:00,other,23,10,0
+oh,129,lower,HB 194,OHV00000350,upper,Motion to Table Amendment,2011-06-23 00:00:00,other,22,11,0
+oh,129,lower,HB 194,OHV00000351,upper,Motion to Table Amendment,2011-06-23 00:00:00,other,23,10,0
+oh,129,lower,HB 194,OHV00000386,lower,Senate Amendments,2011-06-29 00:00:00,other,60,41,0
+oh,129,lower,HB 207,OHV00000476,lower,Third Consideration,2011-12-13 00:00:00,other,95,0,0
+oh,129,lower,HB 207,OHV00000784,upper,Third Consideration,2012-05-22 00:00:00,other,32,0,0
+oh,129,lower,HB 209,OHV00000296,lower,Third Consideration,2011-06-14 00:00:00,other,96,0,0
+oh,129,lower,HB 209,OHV00000448,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,lower,HB 209,OHV00000453,lower,Senate Amendments,2011-12-06 00:00:00,other,94,0,0
+oh,129,lower,HB 212,OHV00000410,lower,Third Consideration,2011-09-21 00:00:00,other,98,0,0
+oh,129,lower,HB 212,OHV00000549,upper,Third Consideration,2012-01-31 00:00:00,other,31,0,0
+oh,129,lower,HB 215,OHV00000241,lower,Third Consideration,2011-06-01 00:00:00,other,94,5,0
+oh,129,lower,HB 215,OHV00000535,upper,Third Consideration,2012-01-24 00:00:00,other,31,0,0
+oh,129,lower,HB 215,OHV00000550,lower,Senate Amendments,2012-01-31 00:00:00,other,93,1,0
+oh,129,lower,HB 218,OHV00000329,lower,Third Consideration,2011-06-22 00:00:00,other,99,0,0
+oh,129,lower,HB 218,OHV00000408,upper,Third Consideration,2011-09-20 00:00:00,other,31,0,0
+oh,129,lower,HB 218,OHV00000411,lower,Senate Amendments,2011-09-21 00:00:00,other,98,0,0
+oh,129,lower,HB 224,OHV00000352,lower,Third Consideration,2011-06-23 00:00:00,other,98,0,0
+oh,129,lower,HB 224,OHV00000353,lower,Motion to Table Amendment,2011-06-23 00:00:00,other,60,38,0
+oh,129,lower,HB 224,OHV00000397,upper,Third Consideration,2011-07-13 00:00:00,other,29,0,0
+oh,129,lower,HB 224,OHV00000398,upper,Motion to Table Amendment,2011-07-13 00:00:00,other,21,8,0
+oh,129,lower,HB 224,OHV00000399,upper,Third Consideration,2011-07-13 00:00:00,other,29,0,0
+oh,129,lower,HB 224,OHV00000400,lower,Senate Amendments,2011-07-13 00:00:00,other,94,0,0
+oh,129,lower,HB 224,OHV00000401,lower,Senate Amendments,2011-07-13 00:00:00,other,94,0,0
+oh,129,lower,HB 225,OHV00000354,lower,Third Consideration,2011-06-23 00:00:00,other,97,1,0
+oh,129,lower,HB 225,OHV00000477,upper,Third Consideration,2011-12-13 00:00:00,other,23,10,0
+oh,129,lower,HB 225,OHV00000478,upper,Motion to Table Amendment,2011-12-13 00:00:00,other,23,10,0
+oh,129,lower,HB 225,OHV00000501,lower,Senate Amendments,2011-12-14 00:00:00,other,57,34,0
+oh,129,lower,HB 229,OHV00000310,lower,Third Consideration,2011-06-15 00:00:00,other,89,6,0
+oh,129,lower,HB 229,OHV00000374,upper,Third Consideration,2011-06-28 00:00:00,other,31,2,0
+oh,129,lower,HB 229,OHV00000375,upper,Motion to Table Amendment,2011-06-28 00:00:00,other,22,11,0
+oh,129,lower,HB 231,OHV00000330,lower,Third Consideration,2011-06-22 00:00:00,other,61,40,0
+oh,129,lower,HB 231,OHV00000331,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,60,40,0
+oh,129,lower,HB 231,OHV00000332,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,59,40,0
+oh,129,lower,HB 231,OHV00000333,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,60,40,0
+oh,129,lower,HB 231,OHV00000334,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,59,40,0
+oh,129,lower,HB 231,OHV00000335,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,60,40,0
+oh,129,lower,HB 231,OHV00000336,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,60,39,0
+oh,129,lower,HB 231,OHV00000337,lower,Motion to Table Amendment,2011-06-22 00:00:00,other,59,39,0
+oh,129,lower,HB 231,OHV00000376,upper,Third Consideration,2011-06-28 00:00:00,other,25,8,0
+oh,129,lower,HB 231,OHV00000377,upper,Motion to Table Amendment,2011-06-28 00:00:00,other,23,10,0
+oh,129,lower,HB 231,OHV00000378,upper,Motion to Table Amendment,2011-06-28 00:00:00,other,23,10,0
+oh,129,lower,HB 231,OHV00000379,upper,Motion to Table Amendment,2011-06-28 00:00:00,other,23,10,0
+oh,129,lower,HB 231,OHV00000380,upper,Motion to Table Amendment,2011-06-28 00:00:00,other,23,10,0
+oh,129,lower,HB 232,OHV00000439,lower,Third Consideration,2011-11-15 00:00:00,other,97,0,0
+oh,129,lower,HB 239,OHV00000724,lower,Third Consideration,2012-05-09 00:00:00,other,99,0,0
+oh,129,lower,HB 243,OHV00000355,lower,Third Consideration,2011-06-23 00:00:00,other,98,0,0
+oh,129,lower,HB 243,OHV00000502,lower,Senate Amendments,2011-12-14 00:00:00,other,91,1,0
+oh,129,lower,HB 243,OHV00000503,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HB 244,OHV00000536,lower,Third Consideration,2012-01-24 00:00:00,other,96,0,0
+oh,129,lower,HB 244,OHV00000671,upper,Third Consideration,2012-04-25 00:00:00,other,31,0,0
+oh,129,lower,HB 245,OHV00000338,lower,Third Consideration,2011-06-22 00:00:00,other,99,0,0
+oh,129,lower,HB 247,OHV00000454,lower,Third Consideration,2011-12-06 00:00:00,other,94,0,0
+oh,129,lower,HB 250,OHV00000442,lower,Third Consideration,2011-11-16 00:00:00,other,96,2,0
+oh,129,lower,HB 250,OHV00000504,lower,Senate Amendments,2011-12-14 00:00:00,other,90,1,0
+oh,129,lower,HB 250,OHV00000505,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HB 251,OHV00000805,lower,Third Consideration,2012-05-23 00:00:00,other,98,0,0
+oh,129,lower,HB 259,OHV00000850,lower,Third Consideration,2012-05-24 00:00:00,other,68,29,0
+oh,129,lower,HB 262,OHV00000785,lower,Third Consideration,2012-05-22 00:00:00,other,100,0,0
+oh,129,lower,HB 262,OHV00000786,lower,Third Consideration,2012-05-22 00:00:00,other,97,3,0
+oh,129,lower,HB 262,OHV00000876,upper,Third Consideration,2012-06-12 00:00:00,other,32,0,0
+oh,129,lower,HB 262,OHV00000877,upper,Third Consideration,2012-06-12 00:00:00,other,32,0,0
+oh,129,lower,HB 262,OHV00000878,upper,Motion to Table Amendment,2012-06-12 00:00:00,other,23,9,0
+oh,129,lower,HB 262,OHV00000909,lower,Senate Amendments,2012-06-13 00:00:00,other,90,0,0
+oh,129,lower,HB 262,OHV00000910,lower,Third Consideration,2012-06-13 00:00:00,other,87,0,0
+oh,129,lower,HB 265,OHV00000645,lower,Third Consideration,2012-03-28 00:00:00,other,51,42,0
+oh,129,lower,HB 265,OHV00000646,lower,Motion to Table Amendment,2012-03-28 00:00:00,other,55,37,0
+oh,129,lower,HB 267,OHV00000426,lower,Third Consideration,2011-09-27 00:00:00,other,96,0,0
+oh,129,lower,HB 267,OHV00000551,upper,Third Consideration,2012-01-31 00:00:00,other,31,0,0
+oh,129,lower,HB 267,OHV00000563,lower,Senate Amendments,2012-02-08 00:00:00,other,99,0,0
+oh,129,lower,HB 268,OHV00000459,lower,Third Consideration,2011-12-07 00:00:00,other,92,0,0
+oh,129,lower,HB 268,OHV00000558,upper,Third Consideration,2012-02-01 00:00:00,other,30,0,0
+oh,129,lower,HB 268,OHV00000564,lower,Senate Amendments,2012-02-08 00:00:00,other,98,0,0
+oh,129,lower,HB 275,OHV00000506,lower,Third Consideration,2011-12-14 00:00:00,other,58,38,0
+oh,129,lower,HB 275,OHV00000507,lower,Motion to Table Amendment,2011-12-14 00:00:00,other,58,38,0
+oh,129,lower,HB 275,OHV00000508,lower,Motion to Table Amendment,2011-12-14 00:00:00,other,56,40,0
+oh,129,lower,HB 275,OHV00000509,lower,Motion to Table Amendment,2011-12-14 00:00:00,other,52,44,0
+oh,129,lower,HB 275,OHV00000510,lower,Motion to Table Amendment,2011-12-14 00:00:00,other,57,39,0
+oh,129,lower,HB 275,OHV00000605,upper,Third Consideration,2012-03-21 00:00:00,other,23,10,0
+oh,129,lower,HB 275,OHV00000626,lower,Senate Amendments,2012-03-27 00:00:00,other,58,35,0
+oh,129,lower,HB 276,OHV00000479,lower,Third Consideration,2011-12-13 00:00:00,other,94,0,0
+oh,129,lower,HB 276,OHV00000573,upper,Third Consideration,2012-02-14 00:00:00,other,33,0,0
+oh,129,lower,HB 276,OHV00000574,upper,Third Consideration,2012-02-14 00:00:00,other,33,0,0
+oh,129,lower,HB 276,OHV00000586,lower,Senate Amendments,2012-02-15 00:00:00,other,93,0,0
+oh,129,lower,HB 276,OHV00000587,lower,Senate Amendments,2012-02-15 00:00:00,other,90,2,0
+oh,129,lower,HB 277,OHV00000357,lower,Third Consideration,2011-06-23 00:00:00,other,79,17,0
+oh,129,lower,HB 277,OHV00000358,lower,Amendment,2011-06-23 00:00:00,other,96,1,0
+oh,129,lower,HB 277,OHV00000382,upper,Third Consideration,2011-06-28 00:00:00,other,27,6,0
+oh,129,lower,HB 277,OHV00000381,lower,Senate Amendments,2011-06-28 00:00:00,other,66,33,0
+oh,129,lower,HB 280,OHV00000627,lower,Third Consideration,2012-03-27 00:00:00,other,93,0,0
+oh,129,lower,HB 285,OHV00000412,lower,Third Consideration,2011-09-21 00:00:00,other,98,0,0
+oh,129,lower,HB 292,OHV00000565,lower,Third Consideration,2012-02-08 00:00:00,other,99,0,0
+oh,129,lower,HB 292,OHV00000806,upper,Third Consideration,2012-05-23 00:00:00,other,32,0,0
+oh,129,lower,HB 292,OHV00000807,upper,Third Consideration,2012-05-23 00:00:00,other,30,2,0
+oh,129,lower,HB 292,OHV00000851,lower,Third Consideration,2012-05-24 00:00:00,other,94,0,0
+oh,129,lower,HB 292,OHV00000852,lower,Third Consideration,2012-05-24 00:00:00,other,82,8,0
+oh,129,lower,HB 302,OHV00000427,lower,Third Consideration,2011-09-27 00:00:00,other,97,0,0
+oh,129,lower,HB 302,OHV00000428,lower,Third Consideration,2011-09-27 00:00:00,other,96,1,0
+oh,129,lower,HB 302,OHV00000449,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,lower,HB 302,OHV00000450,upper,Third Consideration,2011-11-30 00:00:00,other,31,0,0
+oh,129,lower,HB 303,OHV00000746,lower,Third Consideration,2012-05-15 00:00:00,other,97,0,0
+oh,129,lower,HB 318,OHV00000402,lower,Third Consideration,2011-09-15 00:00:00,other,64,30,0
+oh,129,lower,HB 318,OHV00000403,lower,Amendment,2011-09-15 00:00:00,other,64,30,0
+oh,129,lower,HB 318,OHV00000404,lower,Third Consideration,2011-09-15 00:00:00,other,61,33,0
+oh,129,lower,HB 318,OHV00000429,upper,Third Consideration,2011-10-20 00:00:00,other,20,10,0
+oh,129,lower,HB 318,OHV00000430,upper,Motion to Table Amendment,2011-10-20 00:00:00,other,20,10,0
+oh,129,lower,HB 318,OHV00000431,upper,Motion to Table Amendment,2011-10-20 00:00:00,other,20,10,0
+oh,129,lower,HB 318,OHV00000432,upper,Motion to Table Amendment,2011-10-20 00:00:00,other,20,10,0
+oh,129,lower,HB 318,OHV00000434,lower,Senate Amendments,2011-10-21 00:00:00,other,56,38,0
+oh,129,lower,HB 319,OHV00000405,lower,Third Consideration,2011-09-15 00:00:00,other,57,37,0
+oh,129,lower,HB 319,OHV00000406,lower,Motion to Table Amendment,2011-09-15 00:00:00,other,59,35,0
+oh,129,lower,HB 319,OHV00000413,lower,Senate Amendments,2011-09-21 00:00:00,other,61,36,0
+oh,129,lower,HB 319,OHV00000414,upper,Third Consideration,2011-09-21 00:00:00,other,24,7,0
+oh,129,lower,HB 319,OHV00000415,upper,Motion to Table Amendment,2011-09-21 00:00:00,other,22,9,0
+oh,129,lower,HB 319,OHV00000416,upper,Motion to Table Amendment,2011-09-21 00:00:00,other,22,9,0
+oh,129,lower,HB 322,OHV00000647,lower,Third Consideration,2012-03-28 00:00:00,other,58,31,0
+oh,129,lower,HB 322,OHV00000760,upper,Third Consideration,2012-05-16 00:00:00,other,19,14,0
+oh,129,lower,HB 322,OHV00000787,lower,Senate Amendments,2012-05-22 00:00:00,other,69,31,0
+oh,129,lower,HB 325,OHV00000761,lower,Third Consideration,2012-05-16 00:00:00,other,100,0,0
+oh,129,lower,HB 325,OHV00000762,lower,Amendment,2012-05-16 00:00:00,other,99,0,0
+oh,129,lower,HB 326,OHV00000455,lower,Third Consideration,2011-12-06 00:00:00,other,92,2,0
+oh,129,lower,HB 326,OHV00000456,lower,Motion to Table Amendment,2011-12-06 00:00:00,other,57,37,0
+oh,129,lower,HB 326,OHV00000457,lower,Amendment,2011-12-06 00:00:00,other,94,0,0
+oh,129,lower,HB 326,OHV00000747,upper,Third Consideration,2012-05-15 00:00:00,other,33,0,0
+oh,129,lower,HB 326,OHV00000788,lower,Senate Amendments,2012-05-22 00:00:00,other,99,1,0
+oh,129,lower,HB 327,OHV00000657,lower,Third Consideration,2012-04-18 00:00:00,other,92,0,0
+oh,129,lower,HB 327,OHV00000827,upper,Third Consideration,2012-05-24 00:00:00,other,28,3,0
+oh,129,lower,HB 331,OHV00000606,lower,Third Consideration,2012-03-13 00:00:00,other,99,0,0
+oh,129,lower,HB 331,OHV00000828,upper,Third Consideration,2012-05-24 00:00:00,other,31,0,0
+oh,129,lower,HB 331,OHV00000879,lower,Senate Amendments,2012-06-12 00:00:00,other,94,0,0
+oh,129,lower,HB 334,OHV00000725,lower,Third Consideration,2012-05-09 00:00:00,other,100,0,0
+oh,129,lower,HB 337,OHV00000460,lower,Third Consideration,2011-12-07 00:00:00,other,90,3,0
+oh,129,lower,HB 337,OHV00000461,lower,Third Consideration,2011-12-07 00:00:00,other,83,10,0
+oh,129,lower,HB 337,OHV00000526,upper,Third Consideration,2012-01-10 00:00:00,other,30,1,0
+oh,129,lower,HB 337,OHV00000527,upper,Third Consideration,2012-01-10 00:00:00,other,30,1,0
+oh,129,lower,HB 337,OHV00000537,lower,Senate Amendments,2012-01-24 00:00:00,other,85,9,0
+oh,129,lower,HB 337,OHV00000538,lower,Senate Amendments,2012-01-24 00:00:00,other,83,11,0
+oh,129,lower,HB 339,OHV00000748,lower,Third Consideration,2012-05-15 00:00:00,other,98,0,0
+oh,129,lower,HB 339,OHV00000749,lower,Amendment,2012-05-15 00:00:00,other,98,0,0
+oh,129,lower,HB 341,OHV00000588,lower,Third Consideration,2012-02-15 00:00:00,other,92,0,0
+oh,129,lower,HB 341,OHV00000789,upper,Third Consideration,2012-05-22 00:00:00,other,32,0,0
+oh,129,lower,HB 341,OHV00000808,lower,Senate Amendments,2012-05-23 00:00:00,other,96,0,0
+oh,129,lower,HB 347,OHV00000607,lower,Third Consideration,2012-03-14 00:00:00,other,99,0,0
+oh,129,lower,HB 349,OHV00000480,lower,Third Consideration,2011-12-13 00:00:00,other,92,2,0
+oh,129,lower,HB 349,OHV00000481,lower,Amendment,2011-12-13 00:00:00,other,91,0,0
+oh,129,lower,HB 349,OHV00000528,upper,Third Consideration,2012-01-10 00:00:00,other,31,0,0
+oh,129,lower,HB 360,OHV00000750,lower,Third Consideration,2012-05-15 00:00:00,other,98,0,0
+oh,129,lower,HB 364,OHV00000511,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HB 364,OHV00000512,lower,Senate Amendments,2011-12-14 00:00:00,other,86,0,0
+oh,129,lower,HB 364,OHV00000513,lower,Third Consideration,2011-12-14 00:00:00,other,89,0,0
+oh,129,lower,HB 364,OHV00000514,lower,Amendment,2011-12-14 00:00:00,other,88,0,0
+oh,129,lower,HB 365,OHV00000566,lower,Third Consideration,2012-02-08 00:00:00,other,90,9,0
+oh,129,lower,HB 365,OHV00000567,lower,Motion to Table Amendment,2012-02-08 00:00:00,other,59,40,0
+oh,129,lower,HB 367,OHV00000628,lower,Third Consideration,2012-03-27 00:00:00,other,92,0,0
+oh,129,lower,HB 369,OHV00000515,lower,Third Consideration,2011-12-14 00:00:00,other,78,18,0
+oh,129,lower,HB 369,OHV00000516,lower,Third Consideration,2011-12-14 00:00:00,other,79,17,0
+oh,129,lower,HB 369,OHV00000517,upper,Third Consideration,2011-12-14 00:00:00,other,27,6,0
+oh,129,lower,HB 369,OHV00000518,upper,Third Consideration,2011-12-14 00:00:00,other,29,4,0
+oh,129,lower,HB 371,OHV00000462,lower,Third Consideration,2011-12-07 00:00:00,other,89,4,0
+oh,129,lower,HB 371,OHV00000519,upper,Third Consideration,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HB 375,OHV00000666,lower,Third Consideration,2012-04-24 00:00:00,other,79,18,0
+oh,129,lower,HB 375,OHV00000829,upper,Third Consideration,2012-05-24 00:00:00,other,27,4,0
+oh,129,lower,HB 375,OHV00000880,lower,Senate Amendments,2012-06-12 00:00:00,other,5,89,0
+oh,129,lower,HB 377,OHV00000790,lower,Third Consideration,2012-05-22 00:00:00,other,81,19,0
+oh,129,lower,HB 377,OHV00000791,lower,Amendment,2012-05-22 00:00:00,other,97,3,0
+oh,129,lower,HB 379,OHV00000726,lower,Third Consideration,2012-05-09 00:00:00,other,77,22,0
+oh,129,lower,HB 380,OHV00000541,lower,Third Consideration,2012-01-25 00:00:00,other,56,42,0
+oh,129,lower,HB 380,OHV00000542,lower,Amendment,2012-01-25 00:00:00,other,98,0,0
+oh,129,lower,HB 383,OHV00000589,lower,Third Consideration,2012-02-15 00:00:00,other,91,3,0
+oh,129,lower,HB 383,OHV00000727,upper,Third Consideration,2012-05-09 00:00:00,other,31,0,0
+oh,129,lower,HB 383,OHV00000763,lower,Senate Amendments,2012-05-16 00:00:00,other,97,2,0
+oh,129,lower,HB 386,OHV00000590,lower,Third Consideration,2012-02-15 00:00:00,other,69,25,0
+oh,129,lower,HB 386,OHV00000591,lower,Third Consideration,2012-02-15 00:00:00,other,74,20,0
+oh,129,lower,HB 386,OHV00000728,lower,Senate Amendments,2012-05-09 00:00:00,other,0,96,0
+oh,129,lower,HB 386,OHV00000729,upper,Third Consideration,2012-05-09 00:00:00,other,29,3,0
+oh,129,lower,HB 386,OHV00000730,upper,Third Consideration,2012-05-09 00:00:00,other,28,4,0
+oh,129,lower,HB 386,OHV00000853,lower,Conference Committee Report,2012-05-24 00:00:00,other,72,24,0
+oh,129,lower,HB 386,OHV00000854,lower,Conference Committee Report,2012-05-24 00:00:00,other,72,24,0
+oh,129,lower,HB 386,OHV00000830,upper,Conference Committee Report,2012-05-24 00:00:00,other,26,3,0
+oh,129,lower,HB 386,OHV00000831,upper,Conference Committee Report,2012-05-24 00:00:00,other,23,6,0
+oh,129,lower,HB 389,OHV00000520,lower,Third Consideration,2011-12-14 00:00:00,other,96,0,0
+oh,129,lower,HB 389,OHV00000608,upper,Third Consideration,2012-03-14 00:00:00,other,31,0,0
+oh,129,lower,HB 396,OHV00000658,lower,Third Consideration,2012-04-18 00:00:00,other,93,0,0
+oh,129,lower,HB 396,OHV00000659,lower,Third Consideration,2012-04-18 00:00:00,other,82,11,0
+oh,129,lower,HB 405,OHV00000672,lower,Third Consideration,2012-04-25 00:00:00,other,99,0,0
+oh,129,lower,HB 408,OHV00000764,lower,Third Consideration,2012-05-16 00:00:00,other,62,33,0
+oh,129,lower,HB 408,OHV00000765,lower,Motion to Table Amendment,2012-05-16 00:00:00,other,57,39,0
+oh,129,lower,HB 408,OHV00000766,lower,Amendment,2012-05-16 00:00:00,other,94,0,0
+oh,129,lower,HB 408,OHV00000809,upper,Third Consideration,2012-05-23 00:00:00,other,21,10,0
+oh,129,lower,HB 415,OHV00000609,lower,Third Consideration,2012-03-13 00:00:00,other,99,0,0
+oh,129,lower,HB 415,OHV00000911,upper,Third Consideration,2012-06-13 00:00:00,other,32,0,0
+oh,129,lower,HB 417,OHV00000731,lower,Third Consideration,2012-05-09 00:00:00,other,99,1,0
+oh,129,lower,HB 420,OHV00000855,lower,Third Consideration,2012-05-24 00:00:00,other,75,23,0
+oh,129,lower,HB 423,OHV00000667,lower,Third Consideration,2012-04-24 00:00:00,other,96,0,0
+oh,129,lower,HB 426,OHV00000792,lower,Third Consideration,2012-05-22 00:00:00,other,99,0,0
+oh,129,lower,HB 433,OHV00000751,lower,Third Consideration,2012-05-15 00:00:00,other,98,0,0
+oh,129,lower,HB 433,OHV00000832,upper,Third Consideration,2012-05-24 00:00:00,other,31,0,0
+oh,129,lower,HB 433,OHV00000881,lower,Senate Amendments,2012-06-12 00:00:00,other,0,94,0
+oh,129,lower,HB 436,OHV00000648,lower,Third Consideration,2012-03-28 00:00:00,other,93,0,0
+oh,129,lower,HB 436,OHV00000833,upper,Third Consideration,2012-05-24 00:00:00,other,31,0,0
+oh,129,lower,HB 437,OHV00000673,lower,Third Consideration,2012-04-25 00:00:00,other,99,0,0
+oh,129,lower,HB 437,OHV00000912,upper,Third Consideration,2012-06-13 00:00:00,other,32,0,0
+oh,129,lower,HB 438,OHV00000592,lower,Third Consideration,2012-02-15 00:00:00,other,94,0,0
+oh,129,lower,HB 438,OHV00000593,lower,Third Consideration,2012-02-15 00:00:00,other,87,4,0
+oh,129,lower,HB 453,OHV00000793,lower,Third Consideration,2012-05-22 00:00:00,other,96,4,0
+oh,129,lower,HB 459,OHV00000810,lower,Third Consideration,2012-05-23 00:00:00,other,97,0,0
+oh,129,lower,HB 461,OHV00000856,lower,Third Consideration,2012-05-24 00:00:00,other,97,0,0
+oh,129,lower,HB 472,OHV00000752,lower,Third Consideration,2012-05-15 00:00:00,other,98,0,0
+oh,129,lower,HB 472,OHV00000753,lower,Third Consideration,2012-05-15 00:00:00,other,95,3,0
+oh,129,lower,HB 473,OHV00000674,lower,Third Consideration,2012-04-25 00:00:00,other,60,39,0
+oh,129,lower,HB 473,OHV00000675,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,60,38,0
+oh,129,lower,HB 473,OHV00000676,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,60,38,0
+oh,129,lower,HB 473,OHV00000677,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,59,39,0
+oh,129,lower,HB 473,OHV00000678,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,59,39,0
+oh,129,lower,HB 473,OHV00000679,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,59,38,0
+oh,129,lower,HB 473,OHV00000680,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,59,38,0
+oh,129,lower,HB 473,OHV00000794,upper,Third Consideration,2012-05-22 00:00:00,other,20,12,0
+oh,129,lower,HB 473,OHV00000795,upper,Motion to Table Amendment,2012-05-22 00:00:00,other,19,13,0
+oh,129,lower,HB 473,OHV00000796,upper,Motion to Table Amendment,2012-05-22 00:00:00,other,20,12,0
+oh,129,lower,HB 479,OHV00000913,lower,Third Consideration,2012-06-13 00:00:00,other,88,0,0
+oh,129,lower,HB 479,OHV00000914,lower,Amendment,2012-06-13 00:00:00,other,88,1,0
+oh,129,lower,HB 481,OHV00000797,lower,Third Consideration,2012-05-22 00:00:00,other,100,0,0
+oh,129,lower,HB 482,OHV00000610,lower,Third Consideration,2012-03-22 00:00:00,other,94,2,0
+oh,129,lower,HB 482,OHV00000611,lower,Motion to Table Amendment,2012-03-22 00:00:00,other,58,38,0
+oh,129,lower,HB 482,OHV00000612,lower,Motion to Table Amendment,2012-03-22 00:00:00,other,58,38,0
+oh,129,lower,HB 482,OHV00000649,lower,Senate Amendments,2012-03-28 00:00:00,other,90,0,0
+oh,129,lower,HB 482,OHV00000637,upper,Third Consideration,2012-03-28 00:00:00,other,33,0,0
+oh,129,lower,HB 484,OHV00000857,lower,Third Consideration,2012-05-24 00:00:00,other,82,16,0
+oh,129,lower,HB 484,OHV00000858,lower,Motion to Table Amendment,2012-05-24 00:00:00,other,59,38,0
+oh,129,lower,HB 487,OHV00000681,lower,Third Consideration,2012-04-25 00:00:00,other,63,35,0
+oh,129,lower,HB 487,OHV00000682,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,58,35,0
+oh,129,lower,HB 487,OHV00000683,lower,Amendment,2012-04-25 00:00:00,other,95,0,0
+oh,129,lower,HB 487,OHV00000684,lower,Amendment,2012-04-25 00:00:00,other,96,0,0
+oh,129,lower,HB 487,OHV00000685,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,57,40,0
+oh,129,lower,HB 487,OHV00000686,lower,Amendment,2012-04-25 00:00:00,other,95,1,0
+oh,129,lower,HB 487,OHV00000687,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,58,38,0
+oh,129,lower,HB 487,OHV00000688,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,56,37,0
+oh,129,lower,HB 487,OHV00000689,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,54,40,0
+oh,129,lower,HB 487,OHV00000690,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,58,38,0
+oh,129,lower,HB 487,OHV00000767,lower,Senate Amendments,2012-05-16 00:00:00,other,0,93,0
+oh,129,lower,HB 487,OHV00000768,upper,Third Consideration,2012-05-16 00:00:00,other,25,8,0
+oh,129,lower,HB 487,OHV00000769,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,23,10,0
+oh,129,lower,HB 487,OHV00000770,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,20,13,0
+oh,129,lower,HB 487,OHV00000771,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,23,10,0
+oh,129,lower,HB 487,OHV00000772,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,23,10,0
+oh,129,lower,HB 487,OHV00000773,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,22,11,0
+oh,129,lower,HB 487,OHV00000774,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,23,10,0
+oh,129,lower,HB 487,OHV00000775,upper,Motion to Table Amendment,2012-05-16 00:00:00,other,23,10,0
+oh,129,lower,HB 487,OHV00000811,lower,Conference Committee Report,2012-05-23 00:00:00,other,59,39,0
+oh,129,lower,HB 487,OHV00000812,upper,Conference Committee Report,2012-05-23 00:00:00,other,24,8,0
+oh,129,lower,HB 489,OHV00000691,lower,Third Consideration,2012-04-25 00:00:00,other,92,6,0
+oh,129,lower,HB 489,OHV00000692,lower,Amendment,2012-04-25 00:00:00,other,94,0,0
+oh,129,lower,HB 490,OHV00000668,lower,Third Consideration,2012-04-24 00:00:00,other,97,0,0
+oh,129,lower,HB 490,OHV00000813,upper,Third Consideration,2012-05-23 00:00:00,other,31,0,0
+oh,129,lower,HB 490,OHV00000882,upper,Third Consideration,2012-06-12 00:00:00,other,32,0,0
+oh,129,lower,HB 490,OHV00000915,lower,Senate Amendments,2012-06-13 00:00:00,other,90,0,0
+oh,129,lower,HB 491,OHV00000669,lower,Third Consideration,2012-04-24 00:00:00,other,96,0,0
+oh,129,lower,HB 491,OHV00000798,upper,Third Consideration,2012-05-22 00:00:00,other,31,0,0
+oh,129,lower,HB 491,OHV00000814,lower,Senate Amendments,2012-05-23 00:00:00,other,93,4,0
+oh,129,lower,HB 492,OHV00000732,lower,Third Consideration,2012-05-09 00:00:00,other,98,1,0
+oh,129,lower,HB 495,OHV00000916,lower,Third Consideration,2012-06-13 00:00:00,other,60,29,0
+oh,129,lower,HB 495,OHV00000917,lower,Motion to Table Amendment,2012-06-13 00:00:00,other,56,34,0
+oh,129,lower,HB 508,OHV00000693,lower,Third Consideration,2012-04-25 00:00:00,other,93,5,0
+oh,129,lower,HB 508,OHV00000694,lower,Motion to Table Amendment,2012-04-25 00:00:00,other,58,40,0
+oh,129,lower,HB 508,OHV00000799,upper,Third Consideration,2012-05-22 00:00:00,other,29,2,0
+oh,129,lower,HB 508,OHV00000859,lower,Senate Amendments,2012-05-24 00:00:00,other,98,0,0
+oh,129,lower,HB 509,OHV00000695,lower,Third Consideration,2012-04-25 00:00:00,other,90,8,0
+oh,129,lower,HB 509,OHV00000815,upper,Motion to Table Amendment,2012-05-23 00:00:00,other,20,11,0
+oh,129,lower,HB 509,OHV00000883,upper,Third Consideration,2012-06-12 00:00:00,other,32,0,0
+oh,129,lower,HB 509,OHV00000884,upper,Third Consideration,2012-06-12 00:00:00,other,31,1,0
+oh,129,lower,HB 509,OHV00000918,lower,Senate Amendments,2012-06-13 00:00:00,other,90,0,0
+oh,129,lower,HB 509,OHV00000919,lower,Third Consideration,2012-06-13 00:00:00,other,89,0,0
+oh,129,lower,HB 510,OHV00000776,lower,Third Consideration,2012-05-16 00:00:00,other,76,24,0
+oh,129,lower,HB 511,OHV00000816,lower,Third Consideration,2012-05-23 00:00:00,other,92,7,0
+oh,129,lower,HB 511,OHV00000817,lower,Motion to Table Amendment,2012-05-23 00:00:00,other,54,43,0
+oh,129,lower,HB 511,OHV00000818,lower,Motion to Table Amendment,2012-05-23 00:00:00,other,57,40,0
+oh,129,lower,HB 514,OHV00000819,lower,Third Consideration,2012-05-23 00:00:00,other,83,15,0
+oh,129,lower,HB 514,OHV00000820,lower,Motion to Table Amendment,2012-05-23 00:00:00,other,56,42,0
+oh,129,lower,HB 521,OHV00000733,lower,Third Consideration,2012-05-09 00:00:00,other,96,3,0
+oh,129,lower,HB 524,OHV00000860,lower,Third Consideration,2012-05-24 00:00:00,other,98,1,0
+oh,129,lower,HB 524,OHV00000861,lower,Amendment,2012-05-24 00:00:00,other,99,0,0
+oh,129,lower,HB 525,OHV00000885,lower,Third Consideration,2012-06-12 00:00:00,other,79,17,0
+oh,129,lower,HB 525,OHV00000886,lower,Motion to Table Amendment,2012-06-12 00:00:00,other,58,37,0
+oh,129,lower,HB 525,OHV00000920,upper,Third Consideration,2012-06-13 00:00:00,other,27,4,0
+oh,129,lower,HB 535,OHV00000921,lower,Third Consideration,2012-06-13 00:00:00,other,89,0,0
+oh,129,lower,HB 543,OHV00000862,lower,Third Consideration,2012-05-24 00:00:00,other,99,0,0
+oh,129,lower,HJR 1,OHV00000127,lower,Resolution Adoption,2011-04-12 00:00:00,other,71,27,0
+oh,129,lower,HJR 1,OHV00000384,upper,Resolution Adoption,2011-06-28 00:00:00,other,32,0,0
+oh,129,lower,HJR 1,OHV00000383,lower,Senate Amendments,2011-06-28 00:00:00,other,70,28,0
+oh,129,lower,HJR 4,OHV00000544,lower,Resolution Adoption,2012-01-24 00:00:00,other,52,44,0
+oh,129,lower,HJR 4,OHV00000543,upper,Resolution Adoption,2012-01-24 00:00:00,other,24,7,0
+oh,129,lower,HCR 1,OHV00000033,lower,Resolution Adoption,2011-01-03 00:00:00,other,94,0,0
+oh,129,lower,HCR 2,OHV00000034,lower,Resolution Adoption,2011-01-03 00:00:00,other,94,0,0
+oh,129,lower,HCR 4,OHV00000126,lower,Resolution Adoption,2011-04-06 00:00:00,other,90,7,0
+oh,129,lower,HCR 5,OHV00000035,lower,Resolution Adoption,2011-02-23 00:00:00,other,97,0,0
+oh,129,lower,HCR 8,OHV00000102,lower,Resolution Adoption,2011-03-23 00:00:00,other,97,0,0
+oh,129,lower,HCR 12,OHV00000289,lower,Resolution Adoption,2011-06-08 00:00:00,other,68,32,0
+oh,129,lower,HCR 12,OHV00000290,lower,Motion to Table Amendment,2011-06-08 00:00:00,other,59,41,0
+oh,129,lower,HCR 13,OHV00000339,lower,Resolution Adoption,2011-06-22 00:00:00,other,99,0,0
+oh,129,lower,HCR 13,OHV00000482,upper,Resolution Adoption,2011-12-13 00:00:00,other,33,0,0
+oh,129,lower,HCR 14,OHV00000184,lower,Resolution Adoption,2011-05-03 00:00:00,other,100,0,0
+oh,129,lower,HCR 14,OHV00000198,upper,Resolution Adoption,2011-05-17 00:00:00,other,30,0,0
+oh,129,lower,HCR 16,OHV00000322,lower,Resolution Adoption,2011-06-21 00:00:00,other,98,0,0
+oh,129,lower,HCR 20,OHV00000356,lower,Resolution Adoption,2011-06-23 00:00:00,other,89,8,0
+oh,129,lower,HCR 29,OHV00000458,lower,Resolution Adoption,2011-12-06 00:00:00,other,94,0,0
+oh,129,lower,HCR 29,OHV00000521,upper,Resolution Adoption,2011-12-14 00:00:00,other,33,0,0
+oh,129,lower,HCR 31,OHV00000716,lower,Resolution Adoption,2012-05-08 00:00:00,other,98,0,0
+oh,129,lower,HCR 33,OHV00000660,lower,Resolution Adoption,2012-04-18 00:00:00,other,93,0,0
+oh,129,lower,HCR 35,OHV00000594,lower,Resolution Adoption,2012-02-15 00:00:00,other,57,38,0
+oh,129,lower,HCR 43,OHV00000821,lower,Resolution Adoption,2012-05-23 00:00:00,other,97,0,0
+oh,129,lower,HCR 44,OHV00000863,lower,Resolution Adoption,2012-05-24 00:00:00,other,89,0,0
+oh,129,lower,HCR 51,OHV00000887,lower,Resolution Adoption,2012-06-12 00:00:00,other,93,0,0
+oh,129,upper,SB 70,OHV00000944,upper,House Amendments,2012-12-05 00:00:00,other,10,23,0
+oh,129,upper,SB 70,OHV00000945,upper,Conference Committee Report,2012-12-12 00:00:00,other,33,0,0
+oh,129,upper,SB 114,OHV00000948,upper,House Amendments,2012-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 130,OHV00000950,upper,House Amendments,2012-11-27 00:00:00,other,32,1,0
+oh,129,upper,SB 139,OHV00000954,upper,House Amendments,2012-12-12 00:00:00,other,29,4,0
+oh,129,upper,SB 141,OHV00000956,upper,House Amendments,2012-12-04 00:00:00,other,32,0,0
+oh,129,upper,SB 160,OHV00000959,upper,House Amendments,2012-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 207,OHV00000961,upper,Third Consideration,2012-12-04 00:00:00,other,33,0,0
+oh,129,upper,SB 287,OHV00000964,upper,House Amendments,2012-12-05 00:00:00,other,1,32,0
+oh,129,upper,SB 298,OHV00000965,upper,Third Consideration,2012-11-28 00:00:00,other,33,0,0
+oh,129,upper,SB 298,OHV00000967,upper,House Amendments,2012-12-13 00:00:00,other,33,0,0
+oh,129,upper,SB 300,OHV00000969,upper,House Amendments,2012-11-27 00:00:00,other,33,0,0
+oh,129,upper,SB 301,OHV00000971,upper,House Amendments,2012-11-27 00:00:00,other,33,0,0
+oh,129,upper,SB 327,OHV00000973,upper,Third Consideration,2012-12-05 00:00:00,other,31,2,0
+oh,129,upper,SB 330,OHV00000974,upper,Third Consideration,2012-12-05 00:00:00,other,33,0,0
+oh,129,upper,SB 333,OHV00000977,upper,House Amendments,2012-12-05 00:00:00,other,33,0,0
+oh,129,upper,SB 334,OHV00000978,upper,Third Consideration,2012-12-11 00:00:00,other,33,0,0
+oh,129,upper,SB 390,OHV00000979,upper,Third Consideration,2012-12-11 00:00:00,other,33,0,0
+oh,129,upper,SJR 5,OHV00000980,upper,Resolution Adoption,2012-12-13 00:00:00,other,32,1,0
+oh,129,lower,HB 27,OHV00000983,upper,Third Consideration,2012-12-13 00:00:00,other,33,0,0
+oh,129,lower,HB 50,OHV00000984,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 62,OHV00000986,upper,Third Consideration,2012-11-27 00:00:00,other,33,0,0
+oh,129,lower,HB 133,OHV00000226,lower,Third Consideration,2011-05-25 00:00:00,other,55,42,0
+oh,129,lower,HB 143,OHV00000988,upper,Third Consideration,2012-12-04 00:00:00,other,32,0,0
+oh,129,lower,HB 153,OHV00000161,lower,Motion to Table Amendment,2011-05-05 00:00:00,other,57,44,0
+oh,129,lower,HB 184,OHV00000990,upper,Third Consideration,2012-11-28 00:00:00,other,33,0,0
+oh,129,lower,HB 194,OHV00000203,lower,Amendment,2011-05-18 00:00:00,other,96,0,0
+oh,129,lower,HB 197,OHV00000996,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 247,OHV00000999,upper,Third Consideration,2012-12-13 00:00:00,other,32,1,0
+oh,129,lower,HB 247,OHV00001000,upper,Motion to Table Amendment,2012-12-13 00:00:00,other,23,10,0
+oh,129,lower,HB 251,OHV00001001,upper,Third Consideration,2012-12-11 00:00:00,other,32,1,0
+oh,129,lower,HB 274,OHV00001004,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 278,OHV00001008,upper,Third Consideration,2012-12-13 00:00:00,other,33,0,0
+oh,129,lower,HB 279,OHV00001011,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 279,OHV00001012,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 280,OHV00001015,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 284,OHV00001018,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 303,OHV00001020,upper,Third Consideration,2012-12-11 00:00:00,other,33,0,0
+oh,129,lower,HB 303,OHV00001021,upper,Third Consideration,2012-12-11 00:00:00,other,31,1,0
+oh,129,lower,HB 325,OHV00001024,upper,Third Consideration,2012-12-04 00:00:00,other,33,0,0
+oh,129,lower,HB 334,OHV00001026,upper,Third Consideration,2012-12-04 00:00:00,other,33,0,0
+oh,129,lower,HB 334,OHV00001027,upper,Third Consideration,2012-12-04 00:00:00,other,33,0,0
+oh,129,lower,HB 347,OHV00001030,upper,Third Consideration,2012-12-11 00:00:00,other,33,0,0
+oh,129,lower,HB 360,OHV00001032,upper,Third Consideration,2012-12-05 00:00:00,other,28,5,0
+oh,129,lower,HB 360,OHV00001033,upper,Third Consideration,2012-12-05 00:00:00,other,26,7,0
+oh,129,lower,HB 365,OHV00001036,upper,Third Consideration,2012-11-14 00:00:00,other,33,0,0
+oh,129,lower,HB 367,OHV00001037,upper,Third Consideration,2012-11-27 00:00:00,other,33,0,0
+oh,129,lower,HB 367,OHV00001038,upper,Third Consideration,2012-11-27 00:00:00,other,31,2,0
+oh,129,lower,HB 379,OHV00001041,upper,Third Consideration,2012-12-05 00:00:00,other,31,2,0
+oh,129,lower,HB 380,OHV00001042,upper,Third Consideration,2012-12-05 00:00:00,other,19,14,0
+oh,129,lower,HB 380,OHV00001043,upper,Motion to Table Amendment,2012-12-05 00:00:00,other,19,14,0
+oh,129,lower,HB 380,OHV00001044,upper,Motion to Table Amendment,2012-12-05 00:00:00,other,20,13,0
+oh,129,lower,HB 417,OHV00001051,upper,Third Consideration,2012-12-05 00:00:00,other,33,0,0
+oh,129,lower,HB 420,OHV00001053,upper,Third Consideration,2012-12-05 00:00:00,other,33,0,0
+oh,129,lower,HB 423,OHV00001055,upper,Third Consideration,2012-11-14 00:00:00,other,33,0,0
+oh,129,lower,HB 458,OHV00001057,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 459,OHV00001058,upper,Third Consideration,2012-12-13 00:00:00,other,33,0,0
+oh,129,lower,HB 461,OHV00001059,upper,Third Consideration,2012-11-28 00:00:00,other,33,0,0
+oh,129,lower,HB 472,OHV00001062,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 472,OHV00001063,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 479,OHV00001066,upper,Third Consideration,2012-12-11 00:00:00,other,32,0,0
+oh,129,lower,HB 481,OHV00001068,upper,Third Consideration,2012-12-11 00:00:00,other,32,1,0
+oh,129,lower,HB 492,OHV00001070,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 495,OHV00001073,upper,Third Consideration,2012-12-13 00:00:00,other,26,7,0
+oh,129,lower,HB 510,OHV00001076,upper,Third Consideration,2012-12-05 00:00:00,other,25,8,0
+oh,129,lower,HB 532,OHV00001080,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 543,OHV00001082,upper,Third Consideration,2012-12-12 00:00:00,other,33,0,0
+oh,129,lower,HB 555,OHV00001087,upper,Third Consideration,2012-12-12 00:00:00,other,27,6,0
+oh,129,lower,HB 606,OHV00001092,upper,Third Consideration,2012-12-12 00:00:00,other,26,6,0
+oh,130,lower,HJR 1,OHV00001098,upper,Resolution Adoption,2013-01-30 00:00:00,other,24,9,0
+oh,130,lower,HJR 1,OHV00001099,lower,Resolution was adopted (Vote),2013-01-30 00:00:00,other,82,16,0
+oh,130,lower,HCR 1,OHV00000935,lower,Resolution was adopted (Vote),2013-01-07 00:00:00,other,99,0,0
+oh,130,lower,HCR 2,OHV00000936,lower,Resolution was adopted (Vote),2013-01-07 00:00:00,other,99,0,0
+oh,130,upper,SB 10,OHV00001101,upper,Third Consideration,2013-02-27 00:00:00,other,32,0,0
+oh,130,upper,SB 21,OHV00001102,upper,Third Consideration,2013-02-27 00:00:00,other,30,1,0
+oh,130,upper,SB 21,OHV00001103,upper,Third Consideration,2013-02-27 00:00:00,other,32,0,0
+oh,130,upper,SCR 2,OHV00001104,upper,Resolution Adoption,2013-02-27 00:00:00,other,32,0,0
+oh,130,lower,HB 27,OHV00001105,lower,Bill Passed (Vote),2013-02-27 00:00:00,other,98,0,0
+oh,130,lower,HB 33,OHV00001108,lower,Bill Passed (Vote),2013-02-28 00:00:00,other,99,0,0
+oh,130,lower,HB 34,OHV00001109,lower,Bill Passed (Vote),2013-02-28 00:00:00,other,99,0,0
+oh,130,lower,HB 35,OHV00001110,lower,Bill Passed (Vote),2013-02-28 00:00:00,other,63,32,0
+oh,130,lower,HB 35,OHV00001111,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,60,35,0
+oh,130,lower,HB 35,OHV00001112,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,57,40,0
+oh,130,lower,HB 35,OHV00001113,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,58,39,0
+oh,130,lower,HB 35,OHV00001114,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,60,37,0
+oh,130,lower,HB 35,OHV00001115,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,59,36,0
+oh,130,lower,HB 35,OHV00001116,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,59,35,0
+oh,130,lower,HB 35,OHV00001117,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,58,37,0
+oh,130,lower,HB 51,OHV00001118,lower,Bill Passed (Vote),2013-02-28 00:00:00,other,59,37,0
+oh,130,lower,HB 51,OHV00001119,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,61,35,0
+oh,130,lower,HB 51,OHV00001120,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,61,35,0
+oh,130,lower,HB 51,OHV00001121,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,60,35,0
+oh,130,lower,HB 51,OHV00001122,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,60,36,0
+oh,130,lower,HB 51,OHV00001123,lower,Motion laid on table (Vote),2013-02-28 00:00:00,other,61,36,0
+oh,130,lower,HB 51,OHV00001124,lower,Motion agreed to and so amended (Vote),2013-02-28 00:00:00,other,62,34,0
+oh,130,lower,HB 67,OHV00001106,lower,Passed as emergency measure,2013-02-27 00:00:00,other,98,0,0
+oh,130,lower,HB 67,OHV00001107,lower,Emergency clause stood,2013-02-27 00:00:00,other,98,0,0
+oh,130,lower,HCR 4,OHV00001100,lower,Resolution was adopted (Vote),2013-02-20 00:00:00,other,97,0,0

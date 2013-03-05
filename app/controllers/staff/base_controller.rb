@@ -5,8 +5,7 @@ before_filter :staff_before
 protected:
 
 def staff_before
-  
-  logger.info "*********************** staff_before called ****************"
+  authenticate_user!
   
 end
 

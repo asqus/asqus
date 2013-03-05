@@ -1,0 +1,173 @@
+leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
+SDL000139,Tad Perry,Tad,,Perry,,,False,sd,,,,a4e69af276bc4e36bea13dd210bf627e,http://legis.state.sd.us/sessions/2011/perry.jpg,2011-01-14 22:24:08.362000,2013-01-09 00:48:35.330000
+SDL000113,Elizabeth Kraus,Elizabeth,,Kraus,,,False,sd,,,,c42e9a1228534479adacaa47da4068ea,http://legis.state.sd.us/sessions/2011/kraus.jpg,2011-01-14 22:24:08.377000,2013-01-09 00:48:35.379000
+SDL000078,Eldon E Nygaard,Eldon,E,Nygaard,,,False,sd,,,,360ab15bf1fa4828bbed0ff8c249013b,http://legis.state.sd.us/sessions/2009/Nygaard.jpg,2010-07-31 03:33:51.846000,2013-01-09 00:48:35.376000
+SDL000083,J.E. Putnam,J.E.,,Putnam,,Jim,False,sd,,,,b61e1cbe6cb94897b6dfa53be1d3a2aa,http://legis.state.sd.us/sessions/2009/Putnamj.jpg,2010-07-31 03:33:51.886000,2013-01-09 00:48:35.375000
+SDL000036,Susy Blake,Susy,,Blake,,,False,sd,,,,b1affee834a8499b84bf9cb2fea01d96,http://legis.state.sd.us/sessions/2011/blake.jpg,2010-07-31 03:33:51.441000,2013-01-09 00:48:35.351000
+SDL000125,Bob Deelstra,Bob,,Deelstra,,,False,sd,,,,72c2f82dec1c40d6877bd080efc1c530,http://legis.state.sd.us/sessions/2011/deelstra.jpg,2011-01-14 22:24:08.368000,2013-01-09 00:48:35.340000
+SDL000131,Lora L Hubbel,Lora,L,Hubbel,,,False,sd,,,,93e3357753ba4e2fa0bec4381bf35192,http://legis.state.sd.us/sessions/2011/hubbel.jpg,2011-01-14 22:24:08.140000,2013-01-09 00:48:35.344000
+SDL000134,Brian C Liss,Brian,C,Liss,,,False,sd,,,,26de785444d6453ab975dee36a93f2b8,http://legis.state.sd.us/sessions/2011/liss.jpg,2011-01-14 22:24:08.358000,2013-01-09 00:48:35.347000
+SDL000142,David Sigdestad,David,,Sigdestad,,,False,sd,,,,e1b46967e22d41b3b042bd0e8429a9aa,http://legis.state.sd.us/sessions/2011/sigdestad.jpg,2011-01-14 22:24:08.139000,2013-01-09 00:48:35.342000
+SDL000143,Patricia K Stricherz,Patricia,K,Stricherz,,,False,sd,,,,048b12efdbe34ceca1e8ce1b2176fb0e,http://legis.state.sd.us/sessions/2011/stricherz.jpg,2011-01-14 22:24:08.367000,2013-01-09 00:48:35.349000
+SDL000144,R. Shawn Tornow,R. Shawn,,Tornow,,,False,sd,,,,44c6ebf3fe7744f3955ace58658337ba,http://legis.state.sd.us/sessions/2011/tornow.jpg,2011-01-14 22:24:08.358000,2013-01-09 00:48:35.335000
+SDL000099,Charles M Turbiville,Charles,M,Turbiville,,,False,sd,,,,59dc25e6d1064c12ad21f72474fb053a,http://legis.state.sd.us/sessions/2011/turbivillec.jpg,2010-07-31 03:33:52.038000,2013-01-09 00:48:35.337000
+SDL000146,Edward E Van Gerpen,Edward,E,Van Gerpen,,,False,sd,,,,12752ef5967a4aae997ff51e0e539e78,http://legis.state.sd.us/sessions/2011/vangerpen.jpg,2011-01-14 22:24:08.360000,2013-01-09 00:48:35.352000
+SDL000150,Mark K Willadsen,Mark,K,Willadsen,,,False,sd,,,,1d056ebd46554780a00b46e6e9242df4,http://legis.state.sd.us/sessions/2011/willadsenm.jpg,2011-01-14 22:24:08.140000,2013-01-09 00:48:35.333000
+SDL000051,Mitch Fargen,Mitch,,Fargen,,,False,sd,,,,8820d821f03045d8b93fb60c89d24725,http://legis.state.sd.us/sessions/2011/fargen.jpg,2010-07-31 03:33:51.609000,2013-01-09 00:48:35.336000
+SDL000008,Art Fryslie,Art,,Fryslie,,,False,sd,,,,9e76d7b3ed8e4cfc8ac6de146a857f61,http://legis.state.sd.us/sessions/2011/Fryslie.jpg,2010-07-31 03:33:51.092000,2013-01-09 00:48:35.373000
+SDL000015,Jeffrey K Haverly,Jeffrey,K,Haverly,,,False,sd,,,,163f0b8acfa74f38b0ce5ec5f08af724,http://legis.state.sd.us/sessions/2011/haverlyj.jpg,2010-07-31 03:33:51.154000,2013-01-09 00:48:35.374000
+SDL000003,Dan P Ahlers,Dan,P,Ahlers,,,False,sd,,,,77179ecaece642ff8fafabeb06964311,http://legis.state.sd.us/sessions/2010/ahlersd.jpg,2010-07-31 03:33:51.045000,2011-01-11 16:28:13.345000
+SDL000007,Thomas A Dempster,Thomas,A,Dempster,,,False,sd,,,,5bcb061f6c544afbb6c8d09a60d5269e,http://legis.state.sd.us/sessions/2010/Dempster.jpg,2010-07-31 03:33:51.085000,2011-01-11 16:28:13.348000
+SDL000009,Jason M Gant,Jason,M,Gant,,,False,sd,,,,4ad71432b31e461ea9dcce2308b12d12,http://legis.state.sd.us/sessions/2010/gantj.jpg,2010-07-31 03:33:51.098000,2011-01-11 16:28:13.342000
+SDL000011,Margaret V Gillespie,Margaret,V,Gillespie,,,False,sd,,,,a34217dbfe804e5d90597e2b91de07d7,http://legis.state.sd.us/sessions/2010/Gillespi.jpg,2010-07-31 03:33:51.127000,2011-01-11 16:28:13.344000
+SDL000014,Gary D Hanson,Gary,D,Hanson,,,False,sd,,,,34856bf4ef344451af07cd38db1415e1,http://legis.state.sd.us/sessions/2010/hansong.jpg,2010-07-31 03:33:51.147000,2011-01-11 16:28:13.342000
+SDL000016,Scott N Heidepriem,Scott,N,Heidepriem,,,False,sd,,,,dfabbc47caa04792bb4e1bfc05dd1ad6,http://legis.state.sd.us/sessions/2010/heidepriem.jpg,2010-07-31 03:33:51.161000,2011-01-11 16:28:13.343000
+SDL000017,Gordon K Howie,Gordon,K,Howie,,,False,sd,,,,f7dc5724ee16405c962a011c0154141f,http://legis.state.sd.us/sessions/2010/howieg.jpg,2010-07-31 03:33:51.168000,2011-01-11 16:28:13.346000
+SDL000020,Sandy Jerstad,Sandy,,Jerstad,,,False,sd,,,,52565a34b0be47938150f9d99ddb3bd2,http://legis.state.sd.us/sessions/2010/Jerstads.jpg,2010-07-31 03:33:51.196000,2011-01-11 16:28:13.343000
+SDL000022,Dave Knudson,Dave,,Knudson,,,False,sd,,,,afe1ef7ddb674fb78240ee8b3ca178a5,http://legis.state.sd.us/sessions/2010/Knudsond.jpg,2010-07-31 03:33:51.210000,2011-01-11 16:28:13.343000
+SDL000024,Pam Merchant,Pam,,Merchant,,,False,sd,,,,5560849bca76475c8fc5376c73c017e8,http://legis.state.sd.us/sessions/2010/Merchant.jpg,2010-07-31 03:33:51.223000,2011-01-11 16:28:13.347000
+SDL000025,Kathy Miles,Kathy,,Miles,,,False,sd,,,,09f0eae243734364858fbb7a158299b8,http://legis.state.sd.us/sessions/2010/milesk.jpg,2010-07-31 03:33:51.230000,2011-01-11 16:28:13.344000
+SDL000027,Ben Nesselhuf,Ben,,Nesselhuf,,,False,sd,,,,55116033be8644dea3ce6cdd7d1ace9e,http://legis.state.sd.us/sessions/2010/Nesselhufb.jpg,2010-07-31 03:33:51.260000,2011-01-11 16:28:13.344000
+SDL000032,Dennis Schmidt,Dennis,,Schmidt,,,False,sd,,,,dfd2573c8b3b4b258e8e3f70c5f99d80,,2010-07-31 03:33:51.403000,2011-01-11 16:28:13.346000
+SDL000034,Nancy Turbak Berry,Nancy,,Turbak Berry,,,False,sd,,,,0d23bccd0e0f4c43920a802bb14faf52,http://legis.state.sd.us/sessions/2010/Turbak.jpg,2010-07-31 03:33:51.417000,2011-01-11 16:28:13.347000
+SDL000040,Quinten L Burg,Quinten,L,Burg,,,False,sd,,,,02caf1858e184e9fb7a9c7db69467aa6,http://legis.state.sd.us/sessions/2009/Burg.jpg,2010-07-31 03:33:51.512000,2011-01-11 16:28:13.327000
+SDL000044,R. Blake Curd,R. Blake,,Curd,,,False,sd,,,,30ec009e04074a6c845bed30ada0b171,http://legis.state.sd.us/sessions/2009/curd.jpg,2010-07-31 03:33:51.544000,2011-01-11 16:28:13.323000
+SDL000046,Thomas J Deadrick,Thomas,J,Deadrick,,,False,sd,,,,cb50246622774b1aa0656ddc525967c8,http://legis.state.sd.us/sessions/2009/deadrick.jpg,2010-07-31 03:33:51.559000,2011-01-11 16:28:13.326000
+SDL000049,Richard Engels,Richard,,Engels,,,False,sd,,,,15132e94d1db4a16a0776570947e2977,http://legis.state.sd.us/sessions/2009/Engels.jpg,2010-07-31 03:33:51.593000,2011-01-11 16:28:13.341000
+SDL000050,Bob Faehn,Bob,,Faehn,,,False,sd,,,,ec5f7b162ec1488c81769288d159e25f,http://legis.state.sd.us/sessions/2009/faehnb.jpg,2010-07-31 03:33:51.600000,2011-01-11 16:28:13.339000
+SDL000058,Noel Hamiel,Noel,,Hamiel,,,False,sd,,,,dfa1e8609df142cc9e31a601e9aba1f4,http://legis.state.sd.us/sessions/2009/Hamiel.jpg,2010-07-31 03:33:51.662000,2011-01-11 16:28:13.326000
+SDL000070,Gerald Lange,Gerald,,Lange,,,False,sd,,,,1b0acf2b85e14f5ca5faf0b94915814d,http://legis.state.sd.us/sessions/2009/Lange.jpg,2010-07-31 03:33:51.775000,2011-01-11 16:28:13.340000
+SDL000074,Ed McLaughlin,Ed,,McLaughlin,,,False,sd,,,,ad73476ed3bf422c8fe7b0b008d7bffb,http://legis.state.sd.us/sessions/2009/mclaughl.jpg,2010-07-31 03:33:51.814000,2011-01-11 16:28:13.339000
+SDL000076,Kristi Noem,Kristi,,Noem,,,False,sd,,,,86069856654b48eda1c53eceb2f9c21a,http://legis.state.sd.us/sessions/2009/noem.jpg,2010-07-31 03:33:51.831000,2011-01-11 16:28:13.339000
+SDL000080,Ryan P Olson,Ryan,P,Olson,,,False,sd,,,,af7209012bcf41df9fed73256a16e546,http://legis.state.sd.us/sessions/2009/olsonr.jpg,2010-07-31 03:33:51.862000,2011-01-11 16:28:13.327000
+SDL000082,Carol A Pitts,Carol,A,Pitts,,,False,sd,,,,981f64a7eb554fe8be7330d0d55c40d8,http://legis.state.sd.us/sessions/2009/pitts.jpg,2010-07-31 03:33:51.877000,2011-01-11 16:28:13.340000
+SDL000092,Darrell D Solberg,Darrell,D,Solberg,,,False,sd,,,,7ef72cf343d8477c9c6f522d866ef150,http://legis.state.sd.us/sessions/2009/solberg.jpg,2010-07-31 03:33:51.957000,2011-01-11 16:28:13.323000
+SDL000094,Oran A Sorenson,Oran,A,Sorenson,,,False,sd,,,,4f4fcad7b3414b81aabf0b21ab3cff8b,http://legis.state.sd.us/sessions/2009/Sorenson.jpg,2010-07-31 03:33:51.999000,2011-01-11 16:28:13.328000
+SDL000097,Bill Thompson,Bill,,Thompson,,,False,sd,,,,7ee77d17a3494a4881f849f181366de8,http://legis.state.sd.us/sessions/2009/Thompson.jpg,2010-07-31 03:33:52.023000,2011-01-11 16:28:13.323000
+SDL000101,Martha Vanderlinde,Martha,,Vanderlinde,,,False,sd,,,,ef8cd8cf646d432082c7747c1354b92e,http://legis.state.sd.us/sessions/2009/Vanderlinde.jpg,2010-07-31 03:33:52.054000,2011-01-11 16:28:13.324000
+SDL000039,Thomas J Brunner,Thomas,J,Brunner,,,False,sd,,,,32118a282b8440bb9c7ed9211bec930f,http://legis.state.sd.us/sessions/2011/Brunnert.jpg,2010-07-31 03:33:51.496000,2013-01-09 00:48:35.369000
+SDL000048,Elaine M Elliott,Elaine,M,Elliott,,,False,sd,,,,22da5a78c87d4872ae8beb5c63d03b51,http://legis.state.sd.us/sessions/2011/ElliottE.jpg,2010-07-31 03:33:51.575000,2013-01-09 00:48:35.370000
+SDL000061,Roger W Hunt,Roger,W,Hunt,,,False,sd,,,,53fcd187719744eba63572b81edd30f8,http://legis.state.sd.us/sessions/2011/huntr.jpg,2010-07-31 03:33:51.686000,2013-01-09 00:48:35.371000
+SDL000062,Ed Iron Cloud III,Ed,,Iron Cloud,III,,False,sd,,,,e33927a6e8a4453eb6d25cb55b66bfcf,http://legis.state.sd.us/sessions/2011/IronCloudIII.jpg,2010-07-31 03:33:51.694000,2013-01-09 00:48:35.359000
+SDL000064,Kent Juhnke,Kent,,Juhnke,,,False,sd,,,,b01cc74e60b7483b9aa70f0dc5f556fa,http://legis.state.sd.us/sessions/2011/Juhnke.jpg,2010-07-31 03:33:51.709000,2013-01-09 00:48:35.354000
+SDL000021,Frank J Kloucek,Frank,J,Kloucek,,,False,sd,,,,6f13ec33cb844c21bdee70c2d0f513c9,http://legis.state.sd.us/sessions/2010/Kloucekf.jpg,2010-07-31 03:33:51.203000,2013-01-09 00:48:35.362000
+SDL000075,Nick G Moser,Nick,G,Moser,,,False,sd,,,,9d65281f3d22402bab5f9189571befb1,http://legis.state.sd.us/sessions/2011/moser.jpg,2010-07-31 03:33:51.823000,2013-01-09 00:48:35.356000
+SDL000084,Val Rausch,Val,,Rausch,,,False,sd,,,,691b016bacc2425f9dee1a3853a1f916,http://legis.state.sd.us/sessions/2011/rauschv.jpg,2010-07-31 03:33:51.894000,2013-01-09 00:48:35.365000
+SDL000096,Steve Street,Steve,,Street,,,False,sd,,,,063aee5c0b7b495097645ffbb11e7208,http://legis.state.sd.us/sessions/2011/streets.jpg,2010-07-31 03:33:52.015000,2013-01-09 00:48:35.372000
+SDL000102,Kim Vanneman,Kim,,Vanneman,,,False,sd,,,,0ff6be2093d94913b592ec997583393d,http://legis.state.sd.us/sessions/2011/vanneman.jpg,2010-07-31 03:33:52.061000,2013-01-09 00:48:35.366000
+SDL000147,Mark E Venner,Mark,E,Venner,,,False,sd,,,,5e5786ea5b9440b08a15b0341d25406b,http://legis.state.sd.us/sessions/2011/venner.jpg,2011-01-14 22:24:08.363000,2013-01-09 00:48:35.363000
+SDL000018,Jim Hundstad,Jim,,Hundstad,,,False,sd,,,,49058d4ad9884e1a941d0079648cdacb,http://legis.state.sd.us/sessions/2011/Hundstadj.jpg,2010-07-31 03:33:51.175000,2013-01-09 00:48:35.381000
+SDL000010,Cooper Garnos,Cooper,,Garnos,,,False,sd,,,,099421034c7041deb216a41a128c8b15,http://legis.state.sd.us/sessions/2011/Garnosc.jpg,2010-07-31 03:33:51.105000,2013-01-09 00:48:35.382000
+SDL000026,Tom Nelson,Tom,R,Nelson,,,False,sd,,,,31d5fb24f9334bc3b31f50212d4c0094,http://legis.state.sd.us/sessions/2010/Nelson.jpg,2010-07-31 03:33:51.254000,2013-01-09 00:48:35.383000
+SDL000045,Joni M Cutler,Joni,M,Cutler,,,False,sd,,,,aa1ae87de0ea449e90b521d1884a063d,http://legis.state.sd.us/sessions/2009/cutlerj.jpg,2010-07-31 03:33:51.552000,2013-01-09 00:48:35.385000
+SDL000089,Todd Schlekeway,Todd,,Schlekeway,,,False,sd,,,,cb8a24a8c74a4658af57a4851c74c665,http://legis.state.sd.us/sessions/2011/schlekeway.jpg,2010-07-31 03:33:51.933000,2013-01-09 00:48:35.386000
+SDL000013,Tom Hansen,Tom,,Hansen,,,False,sd,,,,88d9dfc024594d70b6ea450bc62aef5c,http://legis.state.sd.us/sessions/2011/hansent.jpg,2010-07-31 03:33:51.140000,2013-01-09 00:48:35.387000
+SDL000012,Bob Gray,Bob,,Gray,,,False,sd,,,,d3b7184fa15d4a92bc7d7301caefdcc4,http://legis.state.sd.us/sessions/2011/grayb.jpg,2010-07-31 03:33:51.134000,2013-01-09 00:48:35.380000
+SDL000001,Gene G Abdallah,Gene,G,Abdallah,,,False,sd,,,,f200f8afac9c482c81aca6c861bd0293,http://legis.state.sd.us/sessions/2011/abdallah.jpg,2010-07-31 03:33:51.032000,2013-01-09 00:48:35.368000
+SDL000038,Jamie Boomgarden,Jamie,,Boomgarden,,,False,sd,,,,7b5830321c3040e1a9ab3d80d625522b,http://legis.state.sd.us/sessions/2011/Boomgardenj.jpg,2010-07-31 03:33:51.457000,2013-01-09 00:48:35.338000
+SDL000047,H. Paul Dennert,H. Paul,,Dennert,,,False,sd,,,,65ddd32ca8d6403b926e3953a2082e2c,http://legis.state.sd.us/sessions/2011/Dennertp.jpg,2010-07-31 03:33:51.567000,2013-01-09 00:48:35.332000
+SDL000086,Fred W Romkema,Fred,W,Romkema,,,True,sd,lower,31,Republican,ea8c8c83fc514850930a6161971345b2,http://legis.state.sd.us/sessions/2013/Romkema.jpg,2010-07-31 03:33:51.910000,2013-03-01 05:57:57.816000
+SDL000127,Jenna Haggar,Jenna,,Haggar,,,True,sd,lower,10,Republican,9d9368f52ae744bab8dc1cd2eb7c393d,http://legis.state.sd.us/sessions/2013/haggar.jpg,2011-01-14 22:24:08.141000,2013-03-01 05:57:57.818000
+SDL000175,Don Haggar,Don,,Haggar,,,True,sd,lower,10,Republican,,http://legis.state.sd.us/sessions/2013/haggarD.jpg,2013-01-09 00:48:34.780000,2013-03-01 05:57:57.820000
+SDL000188,Scott Parsley,Scott,,Parsley,,,True,sd,lower,8,Democratic,,http://legis.state.sd.us/sessions/2013/parsleyS.jpg,2013-01-09 00:48:34.989000,2013-03-01 05:57:57.822000
+SDL000198,Mike Stevens,Mike,,Stevens,,,True,sd,lower,18,Republican,486c57da5e2e4472bb923e6fa5cdce13,http://legis.state.sd.us/sessions/2013/stevensM.jpg,2013-01-09 00:48:35.118000,2013-03-01 05:57:57.824000
+SDL000200,Kathy Tyler,Kathy,,Tyler,,,True,sd,lower,4,Democratic,,http://legis.state.sd.us/sessions/2013/tylerK.jpg,2013-01-09 00:48:35.136000,2013-03-01 05:57:57.826000
+SDL000041,Lance Carson,Lance,,Carson,,,True,sd,lower,20,Republican,60b3c0d5e4c54ad090c887972e709280,http://legis.state.sd.us/sessions/2013/carson.jpg,2010-07-31 03:33:51.520000,2013-03-01 05:57:57.829000
+SDL000043,Justin R Cronin,Justin,R,Cronin,,,True,sd,lower,23,Republican,2f62f60e69514fffa33da4406f97e3cc,http://legis.state.sd.us/sessions/2013/Cronin.jpg,2010-07-31 03:33:51.536000,2013-03-01 05:57:57.831000
+SDL000171,Scott W. Ecklund,Scott,W.,Ecklund,,,True,sd,lower,25,Republican,,http://legis.state.sd.us/sessions/2013/ecklundS.jpg,2013-01-09 00:48:34.710000,2013-03-01 05:57:57.833000
+SDL000053,Marc S Feinstein,Marc,S,Feinstein,,,True,sd,lower,14,Democratic,45ce5e5e67be44289c0d22642655b22d,http://legis.state.sd.us/sessions/2013/Feinstein.jpg,2010-07-31 03:33:51.624000,2013-03-01 05:57:57.835000
+SDL000055,Peggy Gibson,Peggy,,Gibson,,,True,sd,lower,22,Democratic,e41ec3597d3f47c791072ab111f674fc,http://legis.state.sd.us/sessions/2013/Gibson.jpg,2010-07-31 03:33:51.640000,2013-03-01 05:57:57.837000
+SDL000056,Brian G Gosch,Brian,G,Gosch,,,True,sd,lower,32,Republican,0c97e89113a84782b4a3d4ebf885a84b,http://legis.state.sd.us/sessions/2013/gosch.jpg,2010-07-31 03:33:51.647000,2013-03-01 05:57:57.825000
+SDL000128,Jon Hansen,Jon,,Hansen,,,True,sd,lower,25,Republican,3c56cd6564f341fab027c8521cf5f226,http://legis.state.sd.us/sessions/2013/hansenj.jpg,2011-01-14 22:24:08.364000,2013-03-01 05:57:57.848000
+SDL000129,Spencer Hawley,Spencer,,Hawley,,,True,sd,lower,7,Democratic,12463d80a282479cb458a6f453c73f72,http://legis.state.sd.us/sessions/2013/hawley.jpg,2011-01-14 22:24:08.366000,2013-03-01 05:57:57.851000
+SDL000130,Steve Hickey,Steve,,Hickey,,,True,sd,lower,9,Republican,0fe2a2263b4541b386aca23be0e9ed16,http://legis.state.sd.us/sessions/2013/hickey.jpg,2011-01-14 22:24:08.368000,2013-03-01 05:57:57.853000
+SDL000059,Charles B Hoffman,Charles,B,Hoffman,,,True,sd,lower,23,Republican,0d526f09773a46efa660daf07e16d0f8,http://legis.state.sd.us/sessions/2013/hoffman.jpg,2010-07-31 03:33:51.671000,2013-03-01 05:57:57.832000
+SDL000060,Bernie Hunhoff,Bernie,,Hunhoff,,,True,sd,lower,18,Democratic,8de76715f01a4e91a0972032337323ce,http://legis.state.sd.us/sessions/2013/hunhoffb.jpg,2010-07-31 03:33:51.678000,2013-03-01 05:57:57.819000
+SDL000065,Kevin Killer,Kevin,,Killer,,,True,sd,lower,27,Democratic,4decfb5971d34e9e9a3474eaedf4db03,http://legis.state.sd.us/sessions/2013/Killer.jpg,2010-07-31 03:33:51.717000,2013-03-01 05:57:57.857000
+SDL000183,Isaac Latterell,Isaac,,Latterell,,,True,sd,lower,6,Republican,,http://legis.state.sd.us/sessions/2013/latterellI.jpg,2013-01-09 00:48:34.903000,2013-03-01 05:57:57.858000
+SDL000073,David Lust,David,,Lust,,,True,sd,lower,34,Republican,a93ede89bc1c4afe9488e389af7c680b,http://legis.state.sd.us/sessions/2013/lustd.jpg,2010-07-31 03:33:51.806000,2013-03-01 05:57:57.847000
+SDL000135,Melissa Magstadt,Melissa,,Magstadt,,,True,sd,lower,5,Republican,5d7e4960990a4d8cac856e37454fb00d,http://legis.state.sd.us/sessions/2013/magstadt.jpg,2011-01-14 22:24:08.365000,2013-03-01 05:57:57.861000
+SDL000136,Patty Miller,Patty,,Miller,,,True,sd,lower,16,Republican,2b8942911b8645dd85e04e1e3ff6eb10,http://legis.state.sd.us/sessions/2013/miller.jpg,2011-01-14 22:24:08.286000,2013-03-01 05:57:57.862000
+SDL000077,David Novstrup,David,,Novstrup,,,True,sd,lower,3,Republican,1416cbb0fb8e4ba49fb2f51850881063,http://legis.state.sd.us/sessions/2013/Novstrupd.JPG,2010-07-31 03:33:51.838000,2013-03-01 05:57:57.849000
+SDL000192,Ray Ring,Ray,,Ring,,,True,sd,lower,17,Democratic,,http://legis.state.sd.us/sessions/2013/ringr.jpg,2013-01-09 00:48:35.018000,2013-03-01 05:57:57.866000
+SDL000140,Tona Rozum,Tona,,Rozum,,,True,sd,lower,20,Republican,ce16b896355a43e6986667aa4271c2a6,http://legis.state.sd.us/sessions/2013/rozum.jpg,2011-01-14 22:24:08.360000,2013-03-01 05:57:57.868000
+SDL000184,Elizabeth May,Elizabeth,,May,,,True,sd,lower,27,Republican,456fab5c6c2546ff9289c0e4b020f104,http://legis.state.sd.us/sessions/2013/mayE.jpg,2013-01-09 00:48:34.927000,2013-03-01 05:57:57.860000
+SDL000181,Timothy R. Johns,Timothy,R.,Johns,,,True,sd,lower,31,Republican,e1cfb988b0d54304975d2fb730d26126,http://legis.state.sd.us/sessions/2013/johnsT.jpg,2013-01-09 00:48:34.861000,2013-03-01 05:57:57.870000
+SDL000166,Gary L. Cammack,Gary,L.,Cammack,,,True,sd,lower,29,Republican,dbc4796f648b4092bfb40b7f09ab8c81,http://legis.state.sd.us/sessions/2013/cammackG.jpg,2013-01-09 00:48:34.654000,2013-03-01 05:57:57.865000
+SDL000167,Blaine B. Campbell,Blaine,B.,Campbell,,,True,sd,lower,35,Republican,,http://legis.state.sd.us/sessions/2013/campbellB.jpg,2013-01-09 00:48:34.663000,2013-03-01 05:57:57.823000
+SDL000169,Scott W. Craig,Scott,W.,Craig,,,True,sd,lower,33,Republican,,http://legis.state.sd.us/sessions/2013/craigS.jpg,2013-01-09 00:48:34.683000,2013-03-01 05:57:57.873000
+SDL000178,Paula Hawks,Paula,,Hawks,,,True,sd,lower,9,Democratic,,http://legis.state.sd.us/sessions/2013/hawksP.jpg,2013-01-09 00:48:34.811000,2013-03-01 05:57:57.875000
+SDL000179,Leslie J. Heinemann,Leslie,J.,Heinemann,,,True,sd,lower,8,Republican,,http://legis.state.sd.us/sessions/2013/heinemannL.jpg,2013-01-09 00:48:34.825000,2013-03-01 05:57:57.877000
+SDL000037,Jim Bolin,Jim,,Bolin,,,True,sd,lower,16,Republican,ffe5a37dc9ce48d9978cbf6662dc6cf1,http://legis.state.sd.us/sessions/2013/Bolin.jpg,2010-07-31 03:33:51.449000,2013-03-01 05:57:57.874000
+SDL000126,Dan Dryden,Dan,,Dryden,,,True,sd,lower,34,Republican,1831bd9b255247f181261b4bbd5326fd,http://legis.state.sd.us/sessions/2013/dryden.jpg,2011-01-14 22:24:08.364000,2013-03-01 05:57:57.836000
+SDL000137,Scott Munsterman,Scott,,Munsterman,,,True,sd,lower,7,Republican,0548d42e2c4441bdb7405d14392b1e6f,http://legis.state.sd.us/sessions/2013/munsterman.jpg,2011-01-14 22:24:08.367000,2013-03-01 05:57:57.880000
+SDL000138,Stace Nelson,Stace,,Nelson,,,True,sd,lower,19,Republican,99beeab502c3496fbfab571d75f62d12,http://legis.state.sd.us/sessions/2013/nelsons.jpg,2011-01-14 22:24:08.363000,2013-03-01 05:57:57.881000
+SDL000197,Jim Stalzer,Jim,,Stalzer,,,True,sd,lower,11,Republican,8b4e607aeb5b42b993ac1158aa7f4a95,http://legis.state.sd.us/sessions/2013/stalzerJ.jpg,2013-01-09 00:48:35.103000,2013-03-01 05:57:57.878000
+SDL000201,Dick Werner,Dick,,Werner,,,True,sd,lower,22,Republican,bada5261e8ec4d8d839e602d8cc757b2,http://legis.state.sd.us/sessions/2013/wernerD.jpg,2013-01-09 00:48:35.151000,2013-03-01 05:57:57.856000
+SDL000170,Mary Duvall,Mary,,Duvall,,,True,sd,lower,24,Republican,b7cd4f6d018447f098041865abadf5a8,http://legis.state.sd.us/sessions/2013/duvallM.jpg,2013-01-09 00:48:34.703000,2013-03-01 05:57:57.883000
+SDL000182,Dan Kaiser,Dan,,Kaiser,,,True,sd,lower,3,Republican,,http://legis.state.sd.us/sessions/2013/KaiserD.jpg,2013-01-09 00:48:34.868000,2013-03-01 05:57:57.838000
+SDL000185,G. Mark Mickelson,G.,Mark,Mickelson,,,True,sd,lower,13,Republican,bceda68a1ca14463ab2b7f63875c7d15,http://legis.state.sd.us/sessions/2013/mickelsonM.jpg,2013-01-09 00:48:34.934000,2013-03-01 05:57:57.864000
+SDL000202,Steven Westra,Steven,,Westra,,,True,sd,lower,13,Republican,,http://legis.state.sd.us/sessions/2013/westraS.jpg,2013-01-09 00:48:35.158000,2013-03-01 05:57:57.887000
+SDL000067,Patrick A Kirschman,Patrick,A,Kirschman,,,True,sd,lower,15,Democratic,b747a262c3d44a06a45c3c7e8425a8d8,http://legis.state.sd.us/sessions/2013/kirschman.jpg,2010-07-31 03:33:51.732000,2013-03-01 05:57:57.889000
+SDL000068,Don Kopp,Don,,Kopp,,,True,sd,lower,35,Republican,b3dd16074fe54222b38a4b091916ca82,http://legis.state.sd.us/sessions/2013/Kopp.JPG,2010-07-31 03:33:51.740000,2013-03-01 05:57:57.859000
+SDL000088,Lance S Russell,Lance,S,Russell,,,True,sd,lower,30,Republican,83d7562846de428ba332cb057d436c9b,http://legis.state.sd.us/sessions/2013/Russell.jpg,2010-07-31 03:33:51.925000,2013-03-01 05:57:57.888000
+SDL000090,Dean Schrempp,Dean,,Schrempp,,,True,sd,lower,28A,Democratic,8459237be23b43638cdeff22eed35b2d,http://legis.state.sd.us/sessions/2013/Schrempp.jpg,2010-07-31 03:33:51.941000,2013-03-01 05:57:57.852000
+SDL000091,Jacqueline Sly,Jacqueline,,Sly,,,True,sd,lower,33,Republican,7ca8de6e667448a89498193d7f5a6fc0,http://legis.state.sd.us/sessions/2013/sly.jpg,2010-07-31 03:33:51.949000,2013-03-01 05:57:57.871000
+SDL000093,Roger D Solum,Roger,D,Solum,,,True,sd,lower,5,Republican,ff45e15f99db4ab9a24f9fc285a67b4b,http://legis.state.sd.us/sessions/2013/solum.jpg,2010-07-31 03:33:51.991000,2013-03-01 05:57:57.892000
+SDL000095,Manny Steele,Manny,,Steele,,,True,sd,lower,12,Republican,d707d6e1fa8845508918440cec4dcb68,http://legis.state.sd.us/sessions/2013/steele.jpg,2010-07-31 03:33:52.007000,2013-03-01 05:57:57.891000
+SDL000149,Hal G Wick,Hal,G,Wick,,,True,sd,lower,12,Republican,c0f572dd00e6403894833c658c0a7d0a,http://legis.state.sd.us/sessions/2013/wick.jpg,2011-01-14 22:24:08.357000,2013-03-01 05:57:57.867000
+SDL000104,Dean Wink,Dean,,Wink,,,True,sd,lower,29,Republican,d8e669a2402a4d45a0c4d71f8e046f2a,http://legis.state.sd.us/sessions/2013/wink.jpg,2010-07-31 03:33:52.077000,2013-03-01 05:57:57.854000
+SDL000105,Susan Wismer,Susan,,Wismer,,,True,sd,lower,1,Democratic,315208510b684c17a092fe07338a0198,http://legis.state.sd.us/sessions/2013/wismer.jpg,2010-07-31 03:33:52.105000,2013-03-01 05:57:57.895000
+SDL000079,Betty Olson,Betty,,Olson,,,True,sd,lower,28B,Republican,5dbd268e85a04f35a041e61d9dd94a84,http://legis.state.sd.us/sessions/2013/olsonb.jpg,2010-07-31 03:33:51.854000,2013-03-01 05:57:57.821000
+SDL000196,Karen L. Soli,Karen,L.,Soli,,,True,sd,lower,15,Democratic,8c821e05856a4058b2b20a72df614f3f,http://legis.state.sd.us/sessions/2013/soliK.jpg,2013-01-09 00:48:35.087000,2013-03-01 05:57:57.882000
+SDL000145,Burt E Tulson,Burt,E,Tulson,,,True,sd,lower,2,Republican,12463d80a282479cb458a6f453c73f72,http://legis.state.sd.us/sessions/2013/tulson.jpg,2011-01-14 22:24:08.365000,2013-03-01 05:57:57.830000
+SDL000180,Troy Heinert,Troy,,Heinert,,,True,sd,lower,26A,Democratic,,http://legis.state.sd.us/sessions/2013/heinertT.jpg,2013-01-09 00:48:34.831000,2013-03-01 05:57:57.896000
+SDL000191,Nancy Rasmussen,Nancy,,Rasmussen,,,True,sd,lower,17,Republican,,http://legis.state.sd.us/sessions/2013/rasmussenN.jpg,2013-01-09 00:48:35.010000,2013-03-01 05:57:57.894000
+SDL000103,Mike Verchio,Mike,,Verchio,,,True,sd,lower,30,Republican,4427406070a2402687b0ae6e602dca49,http://legis.state.sd.us/sessions/2013/Verchio.jpg,2010-07-31 03:33:52.069000,2013-03-01 05:57:57.893000
+SDL000187,Herman Otten,Herman,,Otten,,,True,sd,lower,6,Republican,8f84c0893b1744f38457d80233ac19f3,http://legis.state.sd.us/sessions/2013/ottenH.jpg,2013-01-09 00:48:34.982000,2013-03-01 05:57:57.869000
+SDL000190,Lee Qualm,Lee,,Qualm,,,True,sd,lower,21,Republican,4b7c9c6f6447415ab328a03b5abea292,http://legis.state.sd.us/sessions/2013/qualmL.jpg,2013-01-09 00:48:35.003000,2013-03-01 05:57:57.890000
+SDL000195,Kyle Schoenfish,Kyle,,Schoenfish,,,True,sd,lower,19,Republican,541f1862e2e74618a0b96845ff1f028a,http://legis.state.sd.us/sessions/2013/schoenfishk.jpg,2013-01-09 00:48:35.062000,2013-03-01 05:57:57.886000
+SDL000172,Christine M. Erickson,Christine,M.,Erickson,,,True,sd,lower,11,Republican,838c40daa1f54d39baabad752699aa48,http://legis.state.sd.us/sessions/2013/ericksonC.jpg,2013-01-09 00:48:34.716000,2013-03-01 05:57:57.834000
+SDL000177,Anne C. Hajek,Anne,C.,Hajek,,,True,sd,lower,14,Republican,cab173f005ff41298a2cdf2b29a87168,http://legis.state.sd.us/sessions/2013/anneHajek.jpg,2013-01-09 00:48:34.796000,2013-03-01 05:57:57.817000
+SDL000030,Jim Peterson,Jim,,Peterson,,,True,sd,lower,4,Democratic,8ab5d840b66342898a3392af4199c053,http://legis.state.sd.us/sessions/2010/petersonj.jpg,2010-07-31 03:33:51.389000,2013-03-01 05:57:57.876000
+SDL000087,Tim Rounds,Tim,,Rounds,,,True,sd,lower,24,Republican,9316cd9ff10445b0b25dcdc3a954ac60,http://legis.state.sd.us/sessions/2009/roundst.jpg,2010-07-31 03:33:51.917000,2013-03-01 05:57:57.897000
+SDL000042,Kristin A Conzet,Kristin,A,Conzet,,,True,sd,lower,32,Republican,dea40fe2dc4148888e6156af80ef2615,http://legis.state.sd.us/sessions/2013/Conzet.jpg,2010-07-31 03:33:51.528000,2013-03-01 05:57:57.884000
+SDL000052,Dennis Feickert,Dennis,,Feickert,,,True,sd,lower,1,Democratic,052f3ef8180d4b20aecdc9b7b92a8c99,http://legis.state.sd.us/sessions/2013/Feickert.jpg,2010-07-31 03:33:51.617000,2013-03-01 05:57:57.855000
+SDL000057,Brock L Greenfield,Brock,L,Greenfield,,,True,sd,lower,2,Republican,fe89846b19f84e48befdb6ffcee0212c,http://legis.state.sd.us/sessions/2013/greenfield.jpg,2010-07-31 03:33:51.655000,2013-03-01 05:57:57.827000
+SDL000141,James G Schaefer,James,G,Schaefer,,,True,sd,lower,26B,Republican,39fdeacc34d04241b4171236f503953c,http://legis.state.sd.us/sessions/2013/schaefer.jpg,2011-01-14 22:24:08.361000,2013-03-01 05:57:57.872000
+SDL000004,Julie Bartling,Julie,,Bartling,,,True,sd,lower,21,Democratic,f4844738ce1b40a598882c9b07d030fa,http://legis.state.sd.us/sessions/2010/Bartling.jpg,2010-07-31 03:33:51.052000,2013-03-01 05:57:57.879000
+SDL000132,Tom Jones,Tom,,Jones,,,True,sd,upper,17,Democratic,287768587a804f69b767a141ff46e46c,http://legis.state.sd.us/sessions/2013/jones.jpg,2011-01-14 22:24:08.142000,2013-03-01 05:57:57.898000
+SDL000002,Stanford M Adelstein,Stanford,M,Adelstein,,,True,sd,upper,32,Republican,1da856c990ec4e05bc21c2fbe140ae24,http://legis.state.sd.us/sessions/2013/adelstein.jpg,2010-07-31 03:33:51.039000,2013-03-01 05:57:57.913000
+SDL000106,Tim Begalka,Tim,,Begalka,,,True,sd,upper,4,Republican,da77f53fefac4b7ea123c480a14b13cc,http://legis.state.sd.us/sessions/2013/begalka.jpg,2011-01-14 22:24:08.377000,2013-03-01 05:57:57.922000
+SDL000005,Jim Bradford,Jim,,Bradford,,,True,sd,upper,27,Democratic,a368f75fab76412f9885b3c0eba1d7ef,http://legis.state.sd.us/sessions/2013/bradford.jpg,2010-07-31 03:33:51.071000,2013-03-01 05:57:57.924000
+SDL000107,Angie Buhl,Angie,,Buhl,,,True,sd,upper,15,Democratic,2fc7bc15cdc44bff90a4ddace8b68ee9,http://legis.state.sd.us/sessions/2013/buhl.jpg,2011-01-14 22:24:08.373000,2013-03-01 05:57:57.921000
+SDL000054,Jason Frerichs,Jason,,Frerichs,,,True,sd,upper,1,Democratic,3d92109b555f4894a659ac9cc041c160,http://legis.state.sd.us/sessions/2011/Frerichs.jpg,2010-07-31 03:33:51.632000,2013-03-01 05:57:57.928000
+SDL000110,Phyllis M Heineman,Phyllis,M,Heineman,,,True,sd,upper,13,Republican,22d2ce58b7a14c0795cbef54b779b63d,http://legis.state.sd.us/sessions/2013/heineman.jpg,2011-01-14 22:24:08.371000,2013-03-01 05:57:57.930000
+SDL000111,Ried S Holien,Ried,S,Holien,,,True,sd,upper,5,Republican,3fc3702df7d04939b8dc96a106668610,http://legis.state.sd.us/sessions/2013/holien.jpg,2011-01-14 22:24:08.378000,2013-03-01 05:57:57.932000
+SDL000019,Jean M Hunhoff,Jean,M,Hunhoff,,,True,sd,upper,18,Republican,0a3a23b9f94e4f5fb2c790dcbdf24fdc,http://legis.state.sd.us/sessions/2013/hunhoffj.jpg,2010-07-31 03:33:51.190000,2013-03-01 05:57:57.934000
+SDL000069,Shantel Krebs,Shantel,,Krebs,,,True,sd,upper,10,Republican,0ac8ab08ae104a0f9b031de31bc762ec,http://legis.state.sd.us/sessions/2011/krebss.jpg,2010-07-31 03:33:51.747000,2013-03-01 05:57:57.937000
+SDL000023,Ryan Maher,Ryan,,Maher,,,True,sd,upper,28,Republican,0e7d54f4f69845989dbf5ac93647c107,http://legis.state.sd.us/sessions/2013/maherr.jpg,2010-07-31 03:33:51.217000,2013-03-01 05:57:57.939000
+SDL000028,Al Novstrup,Al,,Novstrup,,,True,sd,upper,3,Republican,76d07227658745e7b5f1c1f0bf542291,http://legis.state.sd.us/sessions/2013/Novstrupa.jpg,2010-07-31 03:33:51.291000,2013-03-01 05:57:57.912000
+SDL000081,Deb Peters,Deb,,Peters,,,True,sd,upper,9,Republican,edbf373d25c44b68b61037aaf1e7c394,http://legis.state.sd.us/sessions/2009/petersd.jpg,2010-07-31 03:33:51.869000,2013-03-01 05:57:57.941000
+SDL000119,Bruce E Rampelberg,Bruce,E,Rampelberg,,,True,sd,upper,30,Republican,623c1c2d98774dd8a03f5a0483440e64,http://legis.state.sd.us/sessions/2013/rampelberg.jpg,2011-01-14 22:24:08.376000,2013-03-01 05:57:57.929000
+SDL000085,Timothy A Rave,Timothy,A,Rave,,,True,sd,upper,25,Republican,6325297da28540f287079439cd5bd8b4,http://legis.state.sd.us/sessions/2009/ravet.jpg,2010-07-31 03:33:51.902000,2013-03-01 05:57:57.944000
+SDL000098,Larry Tidemann,Larry,,Tidemann,,,True,sd,upper,7,Republican,639fc8c4ad2a4b81b794fb82e9123014,http://legis.state.sd.us/sessions/2009/TidemannL.jpg,2010-07-31 03:33:52.030000,2013-03-01 05:57:57.947000
+SDL000033,Craig Tieszen,Craig,,Tieszen,,,True,sd,upper,34,Republican,e8bb7639cc7843ce8240e4249cdc9342,http://legis.state.sd.us/sessions/2013/Tieszen.jpg,2010-07-31 03:33:51.410000,2013-03-01 05:57:57.936000
+SDL000035,Mike Vehle,Mike,,Vehle,,,True,sd,upper,20,Republican,f81571fcd6c64960a9cc905c77cefdfa,http://legis.state.sd.us/sessions/2013/Vehlem.jpg,2010-07-31 03:33:51.433000,2013-03-01 05:57:57.948000
+SDL000158,David M. Omdahl,David,M.,Omdahl,,,True,sd,upper,11,Republican,,http://legis.state.sd.us/sessions/2013/omdahlD.jpg,2013-01-09 00:48:34.544000,2013-03-01 05:57:57.940000
+SDL000072,Larry Lucas,Larry,,Lucas,,,True,sd,upper,26,Democratic,0cfdde86e1574c3ca3ac29d1068ea753,http://legis.state.sd.us/sessions/2013/lucasl.jpg,2010-07-31 03:33:51.799000,2013-03-01 05:57:57.953000
+SDL000163,Chuck Welke,Chuck,,Welke,,,True,sd,upper,2,Democratic,,http://legis.state.sd.us/sessions/2013/welkec.jpg,2013-01-09 00:48:34.628000,2013-03-01 05:57:57.931000
+SDL000112,J. Mark Johnston,J. Mark,,Johnston,,,True,sd,upper,12,Republican,8724d1928519456aa5e84eaa678cce33,http://legis.state.sd.us/sessions/2013/johnston.jpg,2011-01-14 22:24:08.371000,2013-03-01 05:57:57.945000
+SDL000029,Russell Olson,Russell,,Olson,,,True,sd,upper,8,Republican,fd777f0eb6944089b074424d0d40a679,http://legis.state.sd.us/sessions/2013/olsonr.jpg,2010-07-31 03:33:51.363000,2013-03-01 05:57:57.958000
+SDL000031,Larry Rhoden,Larry,,Rhoden,,,True,sd,upper,29,Republican,b08b770efc54463e9a0ab7114c5b1126,http://legis.state.sd.us/sessions/2013/Rhodenl.jpg,2010-07-31 03:33:51.396000,2013-03-01 05:57:57.957000
+SDL000157,Jeff Monroe,Jeff,,Monroe,,,True,sd,upper,24,Republican,1e2fd3527df74ba8b4dc01558fff6917,http://legis.state.sd.us/sessions/2013/monroeJ.jpg,2013-01-09 00:48:34.524000,2013-03-01 05:57:57.949000
+SDL000148,Jim White,Jim,,White,,,True,sd,upper,22,Republican,b73f622d6aa04487a870e7a90f688853,http://legis.state.sd.us/sessions/2013/white.jpg,2011-01-14 22:24:08.361000,2013-03-01 05:57:57.954000
+SDL000152,Bob Ewing,Bob,,Ewing,,,True,sd,upper,31,Republican,7e79a2b669f5414ea3d6b6c4c93ca701,http://legis.state.sd.us/sessions/2013/ewingB.jpg,2013-01-09 00:48:34.423000,2013-03-01 05:57:57.927000
+SDL000071,Dan Lederman,Dan,,Lederman,,,True,sd,upper,16,Republican,a67efd3b3ade4bd4be2e4e034801c6a3,http://legis.state.sd.us/sessions/2009/Lederman.JPG,2010-07-31 03:33:51.791000,2013-03-01 05:57:57.938000
+SDL000006,Corey Brown,Corey,,Brown,,,True,sd,upper,23,Republican,83126d6157ab4159ae38306fa8fb996a,http://legis.state.sd.us/sessions/2013/brown.jpg,2010-07-31 03:33:51.078000,2013-03-01 05:57:57.933000
+SDL000159,Ernie Otten,Ernie,,Otten,,,True,sd,upper,6,Republican,33cc1c58f3544a1ba254549164519c95,http://legis.state.sd.us/sessions/2013/ottenE.jpg,2013-01-09 00:48:34.550000,2013-03-01 05:57:57.943000
+SDL000160,Deb Soholt,Deb,,Soholt,,,True,sd,upper,14,Republican,48e831309ed148d88522d7cf7bcf3914,http://legis.state.sd.us/sessions/2013/soholtD.jpg,2013-01-09 00:48:34.585000,2013-03-01 05:57:57.942000
+SDL000122,Billie H Sutton,Billie,H,Sutton,,,True,sd,upper,21,Democratic,75fc1435486d446e97cae60887e1b9cf,http://legis.state.sd.us/sessions/2013/sutton.jpg,2011-01-14 22:24:08.375000,2013-03-01 05:57:57.926000
+SDL000100,Bill Van Gerpen,Bill,,Van Gerpen,,,True,sd,upper,19,Republican,12752ef5967a4aae997ff51e0e539e78,http://legis.state.sd.us/sessions/2009/VanGerpen.jpg,2010-07-31 03:33:52.046000,2013-03-01 05:57:57.923000
+SDL000066,Mark Kirkeby,Mark,,Kirkeby,,,True,sd,upper,35,Republican,bb32b3cb1b3246bda3a1f3092bc07fc6,http://legis.state.sd.us/sessions/2013/Kirkeby.jpg,2010-07-31 03:33:51.724000,2013-03-01 05:57:57.959000
+SDL000063,Phil Jensen,Phil,,Jensen,,,True,sd,upper,33,Republican,df9370ac430f4cff8b3cb6d802ada12f,http://legis.state.sd.us/sessions/2013/Jensen.JPG,2010-07-31 03:33:51.701000,2013-03-01 05:57:57.960000

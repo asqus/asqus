@@ -1,0 +1,52 @@
+id,state,chamber,committee,subcommittee,parent_id
+MNC000031,mn,lower,Ethics,,
+MNC000077,mn,lower,Jobs and Economic Development Finance and Policy,,
+MNC000067,mn,lower,Early Childhood and Youth Development Policy,,
+MNC000038,mn,lower,Taxes,,
+MNC000069,mn,lower,Elections,,
+MNC000084,mn,lower,Transportation Policy,,
+MNC000051,mn,lower,Education Finance,,
+MNC000068,mn,lower,Education Policy,,
+MNC000070,mn,lower,Energy Policy,,
+MNC000072,mn,lower,"Environment, Natural Resources and Agriculture Finance",,
+MNC000074,mn,lower,Health and Human Services Policy,,
+MNC000083,mn,lower,Transportation Finance,,
+MNC000075,mn,lower,Higher Education Finance and Policy,,
+MNC000078,mn,lower,Judiciary Finance and Policy,,
+MNC000079,mn,lower,"Labor, Workplace and Regulated Industries",,
+MNC000081,mn,lower,Public Safety Finance and Policy,,
+MNC000082,mn,lower,State Government Finance and Veterans Affairs,,
+MNC000085,mn,lower,Environment and Natural Resources Policy,,
+MNC000049,mn,lower,Civil Law,,
+MNC000076,mn,lower,Housing Finance and Policy,,
+MNC000073,mn,lower,Government Operations,,
+MNC000036,mn,lower,Rules and Legislative Administration,,
+MNC000039,mn,lower,Ways and Means,,
+MNC000080,mn,lower,Legacy,,
+MNC000066,mn,lower,Commerce and Consumer Protection Finance and Policy,,
+MNC000048,mn,lower,Capital Investment,,
+MNC000055,mn,lower,Health and Human Services Finance,,
+MNC000065,mn,lower,Agriculture Policy,,
+MNC000088,mn,upper,Education Committee,,
+MNC000089,mn,upper,Environment and Energy Committee,,
+MNC000090,mn,upper,Finance Committee,,
+MNC000091,mn,upper,Finance Committee,E-12 Division,MNC000090
+MNC000092,mn,upper,Finance Committee,"Environment, Economic Development and Agriculture Division",MNC000090
+MNC000093,mn,upper,Finance Committee,Health and Human Services Division,MNC000090
+MNC000094,mn,upper,Finance Committee,Higher Education and Workforce Development Division,MNC000090
+MNC000095,mn,upper,Finance Committee,Judiciary Division,MNC000090
+MNC000096,mn,upper,Finance Committee,State Departments and Veterans Division,MNC000090
+MNC000098,mn,upper,Finance Committee,Transportation and Public Safety Division,MNC000090
+MNC000099,mn,upper,"Health, Human Services and Housing Committee",,
+MNC000100,mn,upper,Higher Education and Workforce Development Committee,,
+MNC000101,mn,upper,"Jobs, Agriculture and Rural Development Committee",,
+MNC000108,mn,upper,Transportation and Public Safety Committee,,
+MNC000087,mn,upper,Commerce Committee,,
+MNC000097,mn,upper,Finance Committee,Subcommittee on Legacy,MNC000090
+MNC000102,mn,upper,Judiciary Committee,,
+MNC000103,mn,upper,Rules and Administration Committee,,
+MNC000104,mn,upper,Rules and Administration Committee,Rules and Administration Subcommittee on Elections,MNC000103
+MNC000105,mn,upper,State and Local Government Committee,,
+MNC000106,mn,upper,Taxes Committee,,
+MNC000107,mn,upper,Taxes Committee,Tax Reform Division,MNC000106
+MNC000086,mn,upper,Capital Investment Committee,,

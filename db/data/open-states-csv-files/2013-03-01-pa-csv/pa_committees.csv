@@ -1,0 +1,96 @@
+id,state,chamber,committee,subcommittee,parent_id
+PAC000294,pa,lower,Urban Affairs,"Subcommittee on Cities, Counties - First Class",PAC000246
+PAC000004,pa,lower,Judiciary,,
+PAC000215,pa,lower,Tourism & Recreational Development,,
+PAC000277,pa,lower,Aging & Older Adult Services,Subcommittee on Care and Services,PAC000035
+PAC000264,pa,lower,Labor & Industry,,
+PAC000271,pa,lower,Environmental Resources & Energy,Subcommittee on Energy,PAC000010
+PAC000285,pa,lower,Transportation,Subcommittee on Aviation,PAC000001
+PAC000284,pa,lower,Veterans Affairs & Emergency Preparedness,Subcommittee on Security and Emergency Response,PAC000005
+PAC000273,pa,lower,Judiciary,Subcommittee on Family Law,PAC000004
+PAC000278,pa,lower,Tourism & Recreational Development,Subcommittee on Arts and Entertainment,PAC000215
+PAC000015,pa,lower,Agriculture & Rural Affairs,,
+PAC000016,pa,lower,Finance,,
+PAC000129,pa,lower,Insurance,,
+PAC000152,pa,lower,Committee On Ethics,,
+PAC000077,pa,lower,Committee On Committees,,
+PAC000165,pa,lower,Rules,,
+PAC000267,pa,lower,Tourism & Recreational Development,Subcommittee on Recreation,PAC000215
+PAC000269,pa,lower,Transportation,Subcommittee on Transportation Safety,PAC000001
+PAC000283,pa,lower,Environmental Resources & Energy,Subcommittee on Parks and Forests,PAC000010
+PAC000288,pa,lower,Aging & Older Adult Services,Subcommittee on Programs and Benefits,PAC000035
+PAC000291,pa,lower,Education,Subcommittee on Special Education,PAC000017
+PAC000292,pa,lower,Transportation,Subcommittee on Public Transportation,PAC000001
+PAC000296,pa,lower,Health,Subcommittee on Health Facilities,PAC000263
+PAC000298,pa,lower,Appropriations,Subcommittee on Criminal Justice,PAC000008
+PAC000306,pa,lower,Transportation,Subcommittee on Railroads,PAC000001
+PAC000310,pa,lower,Consumer Affairs,Subcommittee on Telecommunications,PAC000141
+PAC000312,pa,lower,Commerce,Subcommittee on Small Business,PAC000190
+PAC000304,pa,lower,Liquor Control,Subcommittee on Marketing,PAC000040
+PAC000268,pa,lower,Human Services,Subcommittee on Drugs and Alcohol,PAC000265
+PAC000309,pa,lower,Appropriations,Subcommittee on Education,PAC000008
+PAC000274,pa,lower,Liquor Control,Subcommittee on Licensing,PAC000040
+PAC000275,pa,lower,Appropriations,Subcommittee on Economic Impact and Infrastructure,PAC000008
+PAC000295,pa,lower,Appropriations,Subcommittee on Fiscal Policy,PAC000008
+PAC000287,pa,lower,Tourism & Recreational Development,"Subcommittee on Travel Promotion, History and Heritage",PAC000215
+PAC000276,pa,lower,Transportation,Subcommittee on Highways,PAC000001
+PAC000281,pa,lower,Urban Affairs,"Subcommittee on Cities, Third Class",PAC000246
+PAC000290,pa,lower,Education,Subcommittee on Higher Education,PAC000017
+PAC000272,pa,lower,Local Government,Subcommittee on Counties,PAC000007
+PAC000301,pa,lower,Appropriations,Subcommittee on Health and Welfare,PAC000008
+PAC000229,pa,lower,Professional Licensure,,
+PAC000019,pa,lower,Game & Fisheries,,
+PAC000099,pa,lower,Children & Youth,,
+PAC000008,pa,lower,Appropriations,,
+PAC000035,pa,lower,Aging & Older Adult Services,,
+PAC000001,pa,lower,Transportation,,
+PAC000010,pa,lower,Environmental Resources & Energy,,
+PAC000263,pa,lower,Health,,
+PAC000005,pa,lower,Veterans Affairs & Emergency Preparedness,,
+PAC000246,pa,lower,Urban Affairs,,
+PAC000190,pa,lower,Commerce,,
+PAC000141,pa,lower,Consumer Affairs,,
+PAC000007,pa,lower,Local Government,,
+PAC000012,pa,lower,State Government,,
+PAC000265,pa,lower,Human Services,,
+PAC000040,pa,lower,Liquor Control,,
+PAC000017,pa,lower,Education,,
+PAC000280,pa,lower,Consumer Affairs,Subcommittee on Public Utilities,PAC000141
+PAC000282,pa,lower,Human Services,Subcommittee on Mental Health,PAC000265
+PAC000244,pa,lower,Gaming Oversight,,
+PAC000286,pa,lower,Education,Subcommittee on Basic Education,PAC000017
+PAC000293,pa,lower,Environmental Resources & Energy,Subcommittee on Mining,PAC000010
+PAC000300,pa,lower,Judiciary,Subcommittee on Crime and Corrections,PAC000004
+PAC000302,pa,lower,State Government,Subcommittee on Federal-State Relations,PAC000012
+PAC000305,pa,lower,Veterans Affairs & Emergency Preparedness,Subcommittee on Military and Veterans Facilities,PAC000005
+PAC000307,pa,lower,Local Government,Subcommittee on Townships,PAC000007
+PAC000308,pa,lower,Urban Affairs,"Subcommittee on Cities, Counties - Second Class",PAC000246
+PAC000311,pa,lower,Commerce,Subcommittee on Economic Development,PAC000190
+PAC000279,pa,lower,Commerce,Subcommittee on Financial Services and Banking,PAC000190
+PAC000289,pa,lower,Local Government,Subcommittee on Boroughs,PAC000007
+PAC000297,pa,lower,Commerce,Subcommittee on Housing,PAC000190
+PAC000299,pa,lower,Judiciary,Subcommittee on Courts,PAC000004
+PAC000270,pa,lower,Health,Subcommittee on Health Care,PAC000263
+PAC000303,pa,lower,State Government,Subcommittee on Government Operations,PAC000012
+PAC000258,pa,upper,State Government,,
+PAC000261,pa,upper,Education,,
+PAC000022,pa,upper,Urban Affairs & Housing,,
+PAC000257,pa,upper,Environmental Resources & Energy,,
+PAC000014,pa,upper,"Community, Economic & Recreational Development",,
+PAC000021,pa,upper,Communications & Technology,,
+PAC000002,pa,upper,Aging & Youth,,
+PAC000259,pa,upper,Agriculture & Rural Affairs,,
+PAC000013,pa,upper,Labor & Industry,,
+PAC000260,pa,upper,Finance,,
+PAC000262,pa,upper,Game & Fisheries,,
+PAC000018,pa,upper,Banking & Insurance,,
+PAC000020,pa,upper,Law & Justice,,
+PAC000252,pa,upper,Transportation,,
+PAC000253,pa,upper,Judiciary,,
+PAC000255,pa,upper,Local Government,,
+PAC000266,pa,upper,Intergovernmental Operations,,
+PAC000254,pa,upper,Veterans Affairs & Emergency Preparedness,,
+PAC000006,pa,upper,Public Health & Welfare,,
+PAC000009,pa,upper,Consumer Protection & Professional Licensure,,
+PAC000256,pa,upper,Appropriations,,
+PAC000011,pa,upper,Rules & Executive Nominations,,

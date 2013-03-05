@@ -1,5 +1,4 @@
 class Admin::OfficesController < Admin::BaseController
-  class OfficesController < ApplicationController
 
     def find_polity  
       params.each do |name, value|  

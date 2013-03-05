@@ -172,6 +172,9 @@ create table officials (
 	eventful_id			varchar(64),
 	photo_extension		varchar(20),
 	rss					varchar(256),
+	open_states_leg_id	varchar(20),
+	external_photo_url	varchar(255),
+	transparencydata_id varchar(20),
 	created_at			timestamp not null default now(),
 	updated_at			timestamp not null default now()
 );
@@ -180,6 +183,8 @@ create index officials_name_idx on officials(last_name, first_name, middle_name 
 create unique index officials_bioguide_uidx on officials(bioguide_id);
 create unique index officials_votesmart_uidx on officials(votesmart_id);
 create unique index officials_facebook_uidx on officials(facebook_id);
+create unique index officials_open_states_leg_uidx on officials(open_states_leg_id);
+create unique index officials_transparencydata_uidx on officials(transparencydata_id);	
 			
 create table terms (
 	id				serial primary key,
@@ -216,7 +221,7 @@ create type sex as enum ('Male','Female');
 	
 create table users (
 	id						serial primary key,
-	email					varchar(255),
+	email					varchar(255) not null,
 	encrypted_password		text,
 	reset_password_token	text,
 	reset_password_sent_at	timestamp,
@@ -226,7 +231,8 @@ create table users (
 	current_sign_in_ip		varchar(40),
 	last_sign_in_at			timestamp,
 	last_sign_in_ip			varchar(40),
-	name					varchar(40),
+	first_name				varchar(20) not null,
+	last_name				varchar(20) not null,
 	address1				varchar(128),
 	address2				varchar(128),
 	city					varchar(32),

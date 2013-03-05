@@ -1,2 +1,0 @@
-class OfficeTypesController < ApplicationController
-end

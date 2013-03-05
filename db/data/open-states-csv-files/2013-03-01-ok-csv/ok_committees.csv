@@ -1,0 +1,53 @@
+id,state,chamber,committee,subcommittee,parent_id
+OKC000031,ok,lower,General Government,,
+OKC000032,ok,lower,Government Modernization,,
+OKC000034,ok,lower,Human Services,,
+OKC000035,ok,lower,Insurance,,
+OKC000038,ok,lower,Public Health,,
+OKC000046,ok,lower,Rules,,
+OKC000047,ok,lower,Transportation,,
+OKC000052,ok,lower,Pension Oversight Committee,,
+OKC000057,ok,lower,Tax Credit & Economic Incentive Oversight Committee,,
+OKC000060,ok,lower,"Admin Rules, Government Oversight and Repealer",,
+OKC000061,ok,lower,Agriculture and Wildlife,,
+OKC000062,ok,lower,Appropriations and Budget,,
+OKC000063,ok,lower,Appropriations and Budget,CareerTech,OKC000062
+OKC000064,ok,lower,Appropriations and Budget,Common Education,OKC000062
+OKC000067,ok,lower,Appropriations and Budget,Human Services,OKC000062
+OKC000069,ok,lower,Appropriations and Budget,Natural Resources and Regulatory Services,OKC000062
+OKC000070,ok,lower,Appropriations and Budget,Non-Appropriated,OKC000062
+OKC000073,ok,lower,Appropriations and Budget,Revenue and Tax,OKC000062
+OKC000074,ok,lower,Appropriations and Budget,Transportation,OKC000062
+OKC000028,ok,lower,Common Education,,
+OKC000075,ok,lower,Economic Development and Financial Services,,
+OKC000036,ok,lower,Judiciary,,
+OKC000078,ok,lower,Long-term Care and Senior Services,,
+OKC000080,ok,lower,Tourism and International Relations,,
+OKC000081,ok,lower,Utility and Environmental Regulation,,
+OKC000082,ok,lower,Veterans and Military Affairs,,
+OKC000065,ok,lower,Appropriations and Budget,General Government,OKC000062
+OKC000066,ok,lower,Appropriations and Budget,Higher Education,OKC000062
+OKC000084,ok,lower,Calendar,,
+OKC000039,ok,lower,Public Safety,,
+OKC000068,ok,lower,Appropriations and Budget,Judiciary,OKC000062
+OKC000071,ok,lower,Appropriations and Budget,Public Health and Social Services,OKC000062
+OKC000072,ok,lower,Appropriations and Budget,Public Safety,OKC000062
+OKC000076,ok,lower,Energy and Aerospace,,
+OKC000077,ok,lower,Higher Education and CareerTech,,
+OKC000079,ok,lower,States' Rights,,
+OKC000001,ok,upper,Agriculture and Rural Development,,
+OKC000004,ok,upper,Business and Commerce,,
+OKC000005,ok,upper,Education,,
+OKC000007,ok,upper,Finance,,
+OKC000010,ok,upper,Judiciary,,
+OKC000011,ok,upper,Public Safety,,
+OKC000008,ok,upper,General Government,,
+OKC000009,ok,upper,Health and Human Services,,
+OKC000014,ok,upper,Tourism and Wildlife,,
+OKC000056,ok,upper,GCCA,,
+OKC000006,ok,upper,Energy,,
+OKC000059,ok,upper,Insurance,,
+OKC000013,ok,upper,Rules,,
+OKC000016,ok,upper,Veterans and Military Affairs,,
+OKC000058,ok,upper,Pension,,
+OKC000015,ok,upper,Transportation,,

@@ -1,0 +1,44 @@
+id,state,chamber,committee,subcommittee,parent_id
+TNC000017,tn,joint,TACIR,,
+TNC000015,tn,joint,Government Operations,,
+TNC000016,tn,joint,Pensions and Insurance,,
+TNC000014,tn,joint,Fiscal Review,,
+TNC000053,tn,lower,Business and Utilities,Subcommittee,TNC000052
+TNC000021,tn,lower,Calendar and Rules,,
+TNC000035,tn,lower,Government Operations,,
+TNC000050,tn,lower,Agriculture and Natural Resources,,
+TNC000051,tn,lower,Agriculture and Natural Resources,Subcommittee,TNC000050
+TNC000052,tn,lower,Business and Utilities,,
+TNC000054,tn,lower,Civil Justice,,
+TNC000055,tn,lower,Civil Justice,Subcommittee,TNC000054
+TNC000056,tn,lower,Consumer and Human Resources,,
+TNC000057,tn,lower,Consumer and Human Resources,Subcommittee,TNC000056
+TNC000058,tn,lower,Criminal Justice,,
+TNC000059,tn,lower,Criminal Justice,Subcommittee,TNC000058
+TNC000060,tn,lower,Education,,
+TNC000061,tn,lower,Education,Subcommittee,TNC000060
+TNC000062,tn,lower,"Finance, Ways & Means",,
+TNC000063,tn,lower,"Finance, Ways & Means",Subcommittee,TNC000062
+TNC000064,tn,lower,Health,,
+TNC000065,tn,lower,Health,Subcommittee,TNC000064
+TNC000066,tn,lower,Insurance and Banking,,
+TNC000067,tn,lower,Insurance and Banking,Subcommittee,TNC000066
+TNC000068,tn,lower,Local Government,,
+TNC000069,tn,lower,Local Government,Subcommittee,TNC000068
+TNC000070,tn,lower,State  Government,,
+TNC000072,tn,lower,Transportation,,
+TNC000073,tn,lower,Transportation,Subcommittee,TNC000072
+TNC000071,tn,lower,State Government,Subcommittee,
+TNC000049,tn,upper,Calendar ,,
+TNC000011,tn,upper,Delayed Bills,,
+TNC000046,tn,upper,Commerce and Labor,,
+TNC000047,tn,upper,"Energy, Agriculture and Natural Resources",,
+TNC000004,tn,upper,"Finance, Ways and Means",,
+TNC000006,tn,upper,Government Operations,,
+TNC000048,tn,upper,Health and Welfare,,
+TNC000007,tn,upper,Judiciary,,
+TNC000008,tn,upper,State & Local Government,,
+TNC000012,tn,upper,Ethics,,
+TNC000002,tn,upper,Education,,
+TNC000009,tn,upper,Transportation and Safety,,
+TNC000013,tn,upper,Rules,,

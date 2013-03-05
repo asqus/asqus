@@ -19,7 +19,7 @@
   <div class="form-actions">
   <div class="btn-group btn-group-vertical">
     <% @quick_poll.quick_poll_options.each do |option| %>
-      <input type=submit class="btn btn-small" value= <%= option.text %> name = <%= option.value %> style="width: 100px;" >
+      <input type=submit class="btn btn-small" value='<%= option.text %>' name = <%= option.value %> style="width: 100px;" >
     <% end %>
  </div>
  </div>

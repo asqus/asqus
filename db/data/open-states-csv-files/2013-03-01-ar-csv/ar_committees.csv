@@ -1,0 +1,75 @@
+id,state,chamber,committee,subcommittee,parent_id
+ARC000247,ar,joint,Desegregation Litigation Oversight Subcommittee,,
+ARC000244,ar,joint,Academic Facilities Oversight Committee,,
+ARC000245,ar,joint,Arkansas State Game & Fish Commission Oversight Committee,,
+ARC000253,ar,joint,Rural Fire Departments Study Committee,,
+ARC000248,ar,joint,Economic And Tax Policy,,
+ARC000242,ar,joint,Arkansas Lottery Commission Legislative Oversight Committee,,
+ARC000211,ar,joint,Advanced Communications And Information Technology - Joint,,
+ARC000212,ar,joint,Energy - Joint,,
+ARC000213,ar,joint,Joint Budget Committee,,
+ARC000214,ar,joint,Joint Performance Review  (Jpr),,
+ARC000215,ar,joint,Legislative Facilities,,
+ARC000216,ar,joint,Legislative Joint Auditing,,
+ARC000217,ar,joint,Public Retirement & Social Security Programs-Joint,,
+ARC000210,ar,joint,Arkansas Legislative Council (Alc),,
+ARC000249,ar,joint,Joint Budget Committee,CLAIMS,ARC000213
+ARC000250,ar,joint,Joint Budget Committee,-PEER REVIEW,ARC000213
+ARC000251,ar,joint,Joint Budget Committee,PERSONNEL,ARC000213
+ARC000252,ar,joint,Joint Budget Committee,SPECIAL LANGUAGE,ARC000213
+ARC000246,ar,joint,Code Revision Commission,,
+ARC000243,ar,joint,Arkansas Legislative Council (Alc),ALC/EXECUTIVE SUBCOMMITTEE,ARC000210
+ARC000265,ar,lower,Education Committee,"K-12, VOCATIONAL-TECHNICAL INSTITUTIONS SUBCOMMITTEE",ARC000221
+ARC000270,ar,lower,Judiciary Committee,COURTS & CIVIL LAW SUBCOMMITTEE,ARC000225
+ARC000272,ar,lower,"Public Health, Welfare And Labor Committee",HEALTH SERVICES SUBCOMMITTEE,ARC000226
+ARC000273,ar,lower,"Public Health, Welfare And Labor Committee",HUMAN SERVICES SUBCOMMITTEE,ARC000226
+ARC000277,ar,lower,Public Transportation,WATERWAYS & AERONAUTICS SUBCOM.,ARC000227
+ARC000255,ar,lower,"Aging, Children And Youth, Legislative & Military Affairs",AGING SUBCOMMITTEE,ARC000218
+ARC000256,ar,lower,"Aging, Children And Youth, Legislative & Military Affairs",CHILDREN & YOUTH SUBCOM.,ARC000218
+ARC000258,ar,lower,"Agriculture, Forestry & Economic Development","AGRICULTURE, FORESTRY & NATURAL RESOURCES SUBCOM.",ARC000219
+ARC000260,ar,lower,"City, County & Local Affairs Committee",FINANCE SUBCOMMITTEE,ARC000220
+ARC000264,ar,lower,Education Committee,HIGHER EDUCATION SUBCOMMITTEE,ARC000221
+ARC000271,ar,lower,Judiciary Committee,JUVENILE JUSTICE & CHILD SUPPORT SUBCOMMITTEE,ARC000225
+ARC000275,ar,lower,Public Transportation,MOTOR VEHICLE & HIGHWAYS SUBCOM.,ARC000227
+ARC000278,ar,lower,Revenue & Taxation,COMPLAINTS AND REMEDIATION SUBCOM.,ARC000228
+ARC000279,ar,lower,Revenue & Taxation,INCOME TAXES-PERSONAL & CORPORATE SUBCOM.,ARC000228
+ARC000280,ar,lower,Revenue & Taxation,"SALES, USE, MISC. TAXES & EXEMPTIONS SUBCOM.",ARC000228
+ARC000281,ar,lower,State Agencies & Govt'L Affairs,CONSTITUTIONAL ISSUES SUBCOMMITTEE,ARC000229
+ARC000282,ar,lower,State Agencies & Govt'L Affairs,ELECTIONS SUBCOMMITTEE,ARC000229
+ARC000283,ar,lower,State Agencies & Govt'L Affairs,STATE AGENCIES & REORGAN. SUBCOM,ARC000229
+ARC000269,ar,lower,Judiciary Committee,CORRECTIONS & CRIMINAL LAW SUBCOMMITTEE,ARC000225
+ARC000259,ar,lower,"Agriculture, Forestry & Economic Development",PARKS & TOURISM SUBCOMMITTEE,ARC000219
+ARC000266,ar,lower,Insurance & Commerce,FINANCIAL INSTITUTIONS SUBCOMMITTEE,ARC000224
+ARC000267,ar,lower,Insurance & Commerce,INSURANCE SUBCOMMITTEE,ARC000224
+ARC000262,ar,lower,"City, County & Local Affairs Committee",PLANNING SUBCOMMITTEE,ARC000220
+ARC000261,ar,lower,"City, County & Local Affairs Committee",LOCAL GOVERNMENT PERSONNEL SUBCOMMITTEE,ARC000220
+ARC000218,ar,lower,"Aging, Children And Youth, Legislative & Military Affairs",,
+ARC000219,ar,lower,"Agriculture, Forestry & Economic Development",,
+ARC000220,ar,lower,"City, County & Local Affairs Committee",,
+ARC000221,ar,lower,Education Committee,,
+ARC000222,ar,lower,House Management,,
+ARC000223,ar,lower,House Rules,,
+ARC000224,ar,lower,Insurance & Commerce,,
+ARC000225,ar,lower,Judiciary Committee,,
+ARC000226,ar,lower,"Public Health, Welfare And Labor Committee",,
+ARC000227,ar,lower,Public Transportation,,
+ARC000228,ar,lower,Revenue & Taxation,,
+ARC000229,ar,lower,State Agencies & Govt'L Affairs,,
+ARC000257,ar,lower,"Aging, Children And Youth, Legislative & Military Affairs","LEG., MILITARY & VETERANS  AFFAIRS",ARC000218
+ARC000263,ar,lower,Education Committee,EARLY CHILDHOOD SUBCOMMITTEE,ARC000221
+ARC000268,ar,lower,Insurance & Commerce,UTILITIES SUBCOMMITTEE,ARC000224
+ARC000274,ar,lower,"Public Health, Welfare And Labor Committee",LABOR & ENVIRONMENT  SUBCOMMITTEE,ARC000226
+ARC000276,ar,lower,Public Transportation,PUBLIC TRANSPORTATION AND RAIL SUBCOMMITTEE,ARC000227
+ARC000254,ar,lower,Advanced Communications And Information Technology,,
+ARC000230,ar,upper,Children And Youth Committee,,
+ARC000235,ar,upper,"Agriculture, Forestry & Economic Development",,
+ARC000237,ar,upper,Education Committee,,
+ARC000238,ar,upper,Insurance & Commerce,,
+ARC000239,ar,upper,Judiciary Committee,,
+ARC000240,ar,upper,"Public Health, Welfare And Labor Committee",,
+ARC000241,ar,upper,State Agencies & Govt'L Affairs,,
+ARC000236,ar,upper,"City, County & Local Affairs Committee",,
+ARC000231,ar,upper,Revenue & Tax,,
+ARC000232,ar,upper,Senate Efficiency,,
+ARC000233,ar,upper,"Senate Rules, Resolutions & Memorials",,
+ARC000234,ar,upper,"Transportation, Technology & Legislative Affairs",,

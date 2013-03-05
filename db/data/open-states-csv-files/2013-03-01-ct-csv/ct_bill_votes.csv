@@ -1,0 +1,1607 @@
+state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+ct,2011,upper,SB 714,CTV00000001,upper,Senate Roll Call Vote 81,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SB 495,CTV00000002,upper,Senate Roll Call Vote 68,2011-04-13 00:00:00,other,28,7,1
+ct,2011,upper,SB 1238,CTV00000003,upper,Senate Roll Call Vote 54 PASS     EMERGENCY CERTIFICATION,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SB 1238,CTV00000004,lower,House Roll Call Vote 38 EMERGENCY CERTIFI,2011-04-13 00:00:00,other,144,0,6
+ct,2011,upper,SR 16,CTV00000005,upper,Senate Roll Call Vote 16,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 38,CTV00000006,upper,Senate Roll Call Vote 56,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SB 828,CTV00000007,upper,Senate Roll Call Vote 80,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SJ 39,CTV00000009,upper,Senate Roll Call Vote 57,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SB 869,CTV00000010,upper,Senate Roll Call Vote 79,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SJ 26,CTV00000011,upper,Senate Roll Call Vote 38,2011-02-16 00:00:00,other,32,0,1
+ct,2011,upper,SJ 35,CTV00000012,upper,Senate Roll Call Vote 66,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SJ 34,CTV00000013,upper,Senate Roll Call Vote 65,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SJ 33,CTV00000014,upper,Senate Roll Call Vote 64,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SJ 32,CTV00000015,upper,Senate Roll Call Vote 61,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SB 980,CTV00000016,upper,Senate Roll Call Vote 70,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SJ 24,CTV00000017,upper,Senate Roll Call Vote 10 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 24,CTV00000018,upper,Senate Roll Call Vote 2 ADOPT,2011-02-04 00:00:00,other,31,1,1
+ct,2011,upper,SJ 24,CTV00000019,lower,House Roll Call Vote 16,2011-02-04 00:00:00,other,132,0,13
+ct,2011,upper,SJ 17,CTV00000021,upper,Senate Roll Call Vote 3 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 17,CTV00000022,lower,House Roll Call Vote 9,2011-02-04 00:00:00,other,134,0,11
+ct,2011,upper,SR 14,CTV00000023,upper,Senate Roll Call Vote 14,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 20,CTV00000024,upper,Senate Roll Call Vote 6 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 20,CTV00000025,lower,House Roll Call Vote 12,2011-02-04 00:00:00,other,136,0,9
+ct,2011,upper,SR 17,CTV00000026,upper,Senate Roll Call Vote 11,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SB 1194,CTV00000027,lower,House Roll Call Vote 23 EMERGENCY CERTIFI,2011-03-16 00:00:00,other,121,22,7
+ct,2011,upper,SB 1194,CTV00000028,upper,Senate Roll Call Vote 40 EMERGENCY CERTIFICATION,2011-03-16 00:00:00,other,32,0,4
+ct,2011,upper,SB 859,CTV00000029,upper,Senate Roll Call Vote 78,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SR 20,CTV00000030,upper,Senate Roll Call Vote 55,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SR 22,CTV00000031,upper,Senate Roll Call Vote 62,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SR 23,CTV00000032,upper,Senate Roll Call Vote 63,2011-04-13 00:00:00,other,36,0,0
+ct,2011,upper,SJ 23,CTV00000033,upper,Senate Roll Call Vote 9 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 23,CTV00000034,lower,House Roll Call Vote 15,2011-02-04 00:00:00,other,133,0,12
+ct,2011,upper,SJ 21,CTV00000035,upper,Senate Roll Call Vote 7 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 21,CTV00000036,lower,House Roll Call Vote 13,2011-02-04 00:00:00,other,136,0,9
+ct,2011,upper,SJ 22,CTV00000037,upper,Senate Roll Call Vote 8 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 22,CTV00000038,lower,House Roll Call Vote 14,2011-02-04 00:00:00,other,132,0,13
+ct,2011,upper,SJ 31,CTV00000039,upper,Senate Roll Call Vote 44,2011-03-16 00:00:00,other,32,0,4
+ct,2011,upper,SJ 29,CTV00000040,upper,Senate Roll Call Vote 41,2011-03-16 00:00:00,other,32,0,4
+ct,2011,upper,SR 15,CTV00000041,upper,Senate Roll Call Vote 15,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SB 837,CTV00000042,upper,Senate Roll Call Vote 69,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SJ 19,CTV00000043,upper,Senate Roll Call Vote 5 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 19,CTV00000044,lower,House Roll Call Vote 11,2011-02-04 00:00:00,other,135,0,10
+ct,2011,upper,SJ 18,CTV00000045,upper,Senate Roll Call Vote 4 ADOPT,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 18,CTV00000046,lower,House Roll Call Vote 10,2011-02-04 00:00:00,other,135,0,10
+ct,2011,upper,SR 13,CTV00000047,upper,Senate Roll Call Vote 13,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SR 19,CTV00000048,upper,Senate Roll Call Vote 45,2011-03-16 00:00:00,other,32,0,4
+ct,2011,upper,SR 18,CTV00000049,upper,Senate Roll Call Vote 39,2011-02-16 00:00:00,other,32,0,1
+ct,2011,upper,SR 12,CTV00000050,upper,Senate Roll Call Vote 12,2011-02-04 00:00:00,other,32,0,1
+ct,2011,upper,SJ 30,CTV00000051,upper,Senate Roll Call Vote 42,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HB 6358,CTV00000052,lower,House Roll Call Vote 36,2011-04-13 00:00:00,other,143,0,7
+ct,2011,lower,HJ 89,CTV00000053,upper,Senate Roll Call Vote 33,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 89,CTV00000054,upper,Senate Roll Call Vote 29,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HB 6297,CTV00000055,lower,House Roll Call Vote 29 AS AMENDED,2011-04-13 00:00:00,other,146,0,4
+ct,2011,lower,HB 6292,CTV00000056,upper,Senate Roll Call Vote 77,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HB 6292,CTV00000057,lower,House Roll Call Vote 41,2011-04-13 00:00:00,other,140,0,10
+ct,2011,lower,HB 6290,CTV00000058,lower,House Roll Call Vote 35,2011-04-13 00:00:00,other,144,0,6
+ct,2011,lower,HJ 96,CTV00000059,upper,Senate Roll Call Vote 49,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HJ 97,CTV00000060,upper,Senate Roll Call Vote 50,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HJ 94,CTV00000061,upper,Senate Roll Call Vote 47,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HJ 95,CTV00000062,upper,Senate Roll Call Vote 48,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HJ 92,CTV00000063,upper,Senate Roll Call Vote 37,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 93,CTV00000064,upper,Senate Roll Call Vote 31,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 90,CTV00000065,upper,Senate Roll Call Vote 36,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 90,CTV00000066,upper,Senate Roll Call Vote 32,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 91,CTV00000067,upper,Senate Roll Call Vote 34,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 91,CTV00000068,upper,Senate Roll Call Vote 30,2011-02-16 00:00:00,other,32,0,1
+ct,2011,lower,HJ 98,CTV00000069,upper,Senate Roll Call Vote 51,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HJ 99,CTV00000070,upper,Senate Roll Call Vote 52,2011-03-16 00:00:00,other,32,0,4
+ct,2011,lower,HB 6371,CTV00000071,lower,House Roll Call Vote 20 AS AMENDED,2011-03-16 00:00:00,other,143,0,7
+ct,2011,lower,HB 6373,CTV00000072,lower,House Roll Call Vote 33,2011-04-13 00:00:00,other,146,0,4
+ct,2011,lower,HB 5697,CTV00000073,lower,House Roll Call Vote 28,2011-04-13 00:00:00,other,146,0,4
+ct,2011,lower,HB 6176,CTV00000074,lower,House Roll Call Vote 25,2011-03-16 00:00:00,other,143,0,7
+ct,2011,lower,HB 6319,CTV00000076,lower,House Roll Call Vote 31,2011-04-13 00:00:00,other,144,0,6
+ct,2011,lower,HB 6096,CTV00000077,lower,House Roll Call Vote 24,2011-03-16 00:00:00,other,143,0,7
+ct,2011,lower,HB 6545,CTV00000078,lower,House Roll Call Vote 39,2011-04-13 00:00:00,other,142,0,8
+ct,2011,lower,HJ 110,CTV00000079,upper,Senate Roll Call Vote 60,2011-04-13 00:00:00,other,36,0,0
+ct,2011,lower,HB 6232,CTV00000083,lower,House Roll Call Vote 21 AS AMENDED,2011-03-16 00:00:00,other,107,38,5
+ct,2011,lower,HB 6445,CTV00000085,lower,House Roll Call Vote 32 AS AMENDED,2011-04-13 00:00:00,other,107,38,5
+ct,2011,lower,HB 6444,CTV00000086,lower,House Roll Call Vote 40,2011-04-13 00:00:00,other,140,0,10
+ct,2011,lower,HJ 108,CTV00000093,upper,Senate Roll Call Vote 58,2011-04-13 00:00:00,other,36,0,0
+ct,2011,lower,HJ 109,CTV00000094,upper,Senate Roll Call Vote 59,2011-04-13 00:00:00,other,36,0,0
+ct,2011,lower,HB 6330,CTV00000095,lower,House Roll Call Vote 34 AS AMENDED,2011-04-13 00:00:00,other,144,0,6
+ct,2011,lower,HB 5956,CTV00000103,lower,House Roll Call Vote 30,2011-04-13 00:00:00,other,143,0,7
+ct,2011,lower,HB 6278,CTV00000107,lower,House Roll Call Vote 37,2011-04-13 00:00:00,other,144,0,6
+ct,2011,lower,HB 6484,CTV00000108,lower,House Roll Call Vote 27,2011-04-13 00:00:00,other,128,0,22
+ct,2011,lower,HB 6258,CTV00000109,lower,House Roll Call Vote 19,2011-03-16 00:00:00,other,145,0,5
+ct,2011,lower,HJ 100,CTV00000110,lower,House Roll Call Vote 22,2011-03-16 00:00:00,other,140,0,10
+ct,2011,lower,HJ 100,CTV00000111,upper,Senate Roll Call Vote 53 ADOPT,2011-03-16 00:00:00,other,31,0,5
+ct,2011,lower,HJ 101,CTV00000112,lower,House Roll Call Vote 17,2011-03-16 00:00:00,other,124,16,10
+ct,2011,lower,HJ 101,CTV00000113,upper,Senate Roll Call Vote 46 ADOPT,2011-03-16 00:00:00,other,24,7,5
+ct,2011,lower,HJ 102,CTV00000114,upper,Senate Roll Call Vote 72,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HJ 103,CTV00000115,upper,Senate Roll Call Vote 75,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HJ 104,CTV00000116,upper,Senate Roll Call Vote 73,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HJ 105,CTV00000117,upper,Senate Roll Call Vote 76,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HJ 106,CTV00000118,upper,Senate Roll Call Vote 74,2011-04-13 00:00:00,other,35,0,1
+ct,2011,lower,HJ 106,CTV00000119,upper,Senate Roll Call Vote 71,2011-04-13 00:00:00,other,35,0,1
+ct,2011,upper,SB 1025,CTV00000120,upper,Senate Roll Call Vote 86,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 861,CTV00000123,upper,Senate Roll Call Vote 100,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 911,CTV00000124,upper,Senate Roll Call Vote 101,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 462,CTV00000125,upper,Senate Roll Call Vote 88,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SR 25,CTV00000126,upper,Senate Roll Call Vote 82 ADOPT,2011-04-27 00:00:00,other,33,0,3
+ct,2011,upper,SB 851,CTV00000127,upper,Senate Roll Call Vote 95,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 853,CTV00000128,upper,Senate Roll Call Vote 85,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 859,CTV00000129,lower,House Roll Call Vote 49 AS AMENDED,2011-04-27 00:00:00,other,142,5,4
+ct,2011,upper,SB 1092,CTV00000130,upper,Senate Roll Call Vote 90,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 1109,CTV00000131,upper,Senate Roll Call Vote 102,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 933,CTV00000132,upper,Senate Roll Call Vote 98,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 889,CTV00000133,upper,Senate Roll Call Vote 97,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 849,CTV00000134,upper,Senate Roll Call Vote 96,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SJ 40,CTV00000135,upper,Senate Roll Call Vote 83,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SJ 41,CTV00000136,upper,Senate Roll Call Vote 84,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 885,CTV00000137,upper,Senate Roll Call Vote 99,2011-04-27 00:00:00,other,34,0,2
+ct,2011,upper,SB 883,CTV00000138,upper,Senate Roll Call Vote 87,2011-04-27 00:00:00,other,34,0,2
+ct,2011,lower,HB 6286,CTV00000139,lower,House Roll Call Vote 42,2011-04-27 00:00:00,other,135,0,16
+ct,2011,lower,HB 6299,CTV00000140,lower,House Roll Call Vote 47,2011-04-27 00:00:00,other,146,0,5
+ct,2011,lower,HB 6345,CTV00000141,lower,House Roll Call Vote 52,2011-04-27 00:00:00,other,147,0,4
+ct,2011,lower,HB 6370,CTV00000142,lower,House Roll Call Vote 58 CONSENT CALENDAR,2011-04-27 00:00:00,other,145,0,6
+ct,2011,lower,HB 6462,CTV00000143,lower,House Roll Call Vote 45,2011-04-27 00:00:00,other,122,22,7
+ct,2011,lower,HB 6419,CTV00000144,lower,House Roll Call Vote 48 AS AMENDED,2011-04-27 00:00:00,other,147,0,4
+ct,2011,lower,HB 6310,CTV00000145,lower,House Roll Call Vote 56 AS AMENDED,2011-04-27 00:00:00,other,144,0,7
+ct,2011,lower,HB 6545,CTV00000146,upper,Senate Roll Call Vote 94,2011-04-27 00:00:00,other,34,0,2
+ct,2011,lower,HB 6306,CTV00000147,lower,House Roll Call Vote 54,2011-04-27 00:00:00,other,114,31,6
+ct,2011,lower,HB 6233,CTV00000148,lower,House Roll Call Vote 57 AS AMENDED,2011-04-27 00:00:00,other,148,0,3
+ct,2011,lower,HB 6448,CTV00000149,lower,House Roll Call Vote 50,2011-04-27 00:00:00,other,146,0,5
+ct,2011,lower,HB 5956,CTV00000150,upper,Senate Roll Call Vote 93,2011-04-27 00:00:00,other,34,0,2
+ct,2011,lower,HB 5558,CTV00000151,lower,House Roll Call Vote 55,2011-04-27 00:00:00,other,143,2,6
+ct,2011,lower,HB 6126,CTV00000154,lower,House Roll Call Vote 44 AS AMENDED,2011-04-27 00:00:00,other,142,0,9
+ct,2011,lower,HB 6278,CTV00000155,upper,Senate Roll Call Vote 92,2011-04-27 00:00:00,other,34,0,2
+ct,2011,lower,HB 6270,CTV00000156,lower,House Roll Call Vote 46,2011-04-27 00:00:00,other,144,0,7
+ct,2011,lower,HB 6276,CTV00000157,lower,House Roll Call Vote 53,2011-04-27 00:00:00,other,146,0,5
+ct,2011,upper,SB 1239,CTV00000158,lower,House Roll Call Vote 72 AS AMENDED,2011-05-03 00:00:00,other,83,67,1
+ct,2011,upper,SB 1239,CTV00000159,lower,House Roll Call Vote 71 LCO # 5863,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000160,lower,House Roll Call Vote 70 LCO # 5769,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000161,lower,House Roll Call Vote 69 LCO # 5766,2011-05-03 00:00:00,other,52,97,2
+ct,2011,upper,SB 1239,CTV00000162,lower,House Roll Call Vote 68 LCO # 5763,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000163,lower,House Roll Call Vote 67 LCO # 5791,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000164,lower,House Roll Call Vote 66 LCO # 5788,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000165,lower,House Roll Call Vote 65 LCO # 5774,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000166,lower,House Roll Call Vote 64 LCO # 5767,2011-05-03 00:00:00,other,52,96,3
+ct,2011,upper,SB 1239,CTV00000167,lower,House Roll Call Vote 63 LCO # 5785,2011-05-03 00:00:00,other,52,97,2
+ct,2011,upper,SB 1239,CTV00000168,lower,House Roll Call Vote 62 LCO # 5777,2011-05-03 00:00:00,other,52,98,1
+ct,2011,upper,SB 1239,CTV00000169,lower,House Roll Call Vote 61 LCO # 5764,2011-05-03 00:00:00,other,52,97,2
+ct,2011,upper,SB 1239,CTV00000170,lower,House Roll Call Vote 60 LCO # 5848,2011-05-03 00:00:00,other,52,97,2
+ct,2011,upper,SB 1239,CTV00000171,upper,Senate Roll Call Vote 122 PASS     AS AMENDED BY SEN A,2011-05-03 00:00:00,other,19,17,0
+ct,2011,upper,SB 1239,CTV00000172,upper,Senate Roll Call Vote 121 ADOPT    SENATE AMD S  LCO 5826,2011-05-03 00:00:00,other,12,22,2
+ct,2011,upper,SB 1239,CTV00000173,upper,Senate Roll Call Vote 120 ADOPT    SENATE AMD Q  LCO 5737,2011-05-03 00:00:00,other,14,21,1
+ct,2011,upper,SB 1239,CTV00000174,upper,Senate Roll Call Vote 119 ADOPT    SENATE AMD P  LCO 5710,2011-05-03 00:00:00,other,14,21,1
+ct,2011,upper,SB 1239,CTV00000175,upper,Senate Roll Call Vote 118 ADOPT    SENATE AMD O  LCO 5780,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000176,upper,Senate Roll Call Vote 117 ADOPT    SENATE AMD N  LCO 5749,2011-05-03 00:00:00,other,14,20,2
+ct,2011,upper,SB 1239,CTV00000177,upper,Senate Roll Call Vote 116 ADOPT    SENATE AMD M  LCO 5664,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000178,upper,Senate Roll Call Vote 115 ADOPT    SENATE AMD L  LCO 5666,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000179,upper,Senate Roll Call Vote 114 ADOPT    SENATE AMD K  LCO 5747,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000180,upper,Senate Roll Call Vote 113 ADOPT    SENATE AMD J  LCO 5746,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000181,upper,Senate Roll Call Vote 112 ADOPT    SENATE AMD I  LCO 5669,2011-05-03 00:00:00,other,14,21,1
+ct,2011,upper,SB 1239,CTV00000182,upper,Senate Roll Call Vote 111 ADOPT    SENATE AMD H  LCO 5670,2011-05-03 00:00:00,other,13,22,1
+ct,2011,upper,SB 1239,CTV00000183,upper,Senate Roll Call Vote 110 ADOPT    SENATE AMD G  LCO 5688,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000184,upper,Senate Roll Call Vote 109 PASS     SENATE AMD F  LCO 5731,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000185,upper,Senate Roll Call Vote 108 ADOPT    SENATE AMD E  LCO 5733,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000186,upper,Senate Roll Call Vote 107 ADOPT    SENATE AMD D  LCO 5724,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000187,upper,Senate Roll Call Vote 106 ADOPT    SENATE AMD C  LCO 5704,2011-05-03 00:00:00,other,13,22,1
+ct,2011,upper,SB 1239,CTV00000188,upper,Senate Roll Call Vote 105 ADOPT    SENATE AMD B  LCO 5811,2011-05-03 00:00:00,other,14,22,0
+ct,2011,upper,SB 1239,CTV00000189,upper,Senate Roll Call Vote 104 RECONS   SENATE AMD    LCO 5751A,2011-05-02 00:00:00,other,21,14,1
+ct,2011,upper,SB 1239,CTV00000190,upper,Senate Roll Call Vote 103 SENATE AMD    LCO 5751A,2011-05-02 00:00:00,other,20,15,1
+ct,2011,lower,HB 6279,CTV00000191,lower,House Roll Call Vote 59,2011-05-03 00:00:00,other,138,0,13
+ct,2011,upper,SB 1047,CTV00000192,upper,Senate Roll Call Vote 176,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 1100,CTV00000193,upper,Senate Roll Call Vote 155,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1021,CTV00000194,upper,Senate Roll Call Vote 159,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 518,CTV00000195,upper,Senate Roll Call Vote 167,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SJ 47,CTV00000196,upper,Senate Roll Call Vote 163,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SJ 47,CTV00000197,lower,House Roll Call Vote 107,2011-05-12 00:00:00,other,137,0,14
+ct,2011,upper,SB 942,CTV00000198,upper,Senate Roll Call Vote 185 PASS,2011-05-12 00:00:00,other,34,0,2
+ct,2011,upper,SB 944,CTV00000199,upper,Senate Roll Call Vote 139,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SJ 44,CTV00000200,upper,Senate Roll Call Vote 127,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1069,CTV00000201,upper,Senate Roll Call Vote 190,2011-05-12 00:00:00,other,34,0,2
+ct,2011,upper,SB 1068,CTV00000202,upper,Senate Roll Call Vote 149,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1062,CTV00000203,upper,Senate Roll Call Vote 178,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 868,CTV00000204,upper,Senate Roll Call Vote 147,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 861,CTV00000205,lower,House Roll Call Vote 87,2011-05-11 00:00:00,other,136,0,15
+ct,2011,upper,SB 866,CTV00000206,upper,Senate Roll Call Vote 161 ON CONSENT 1,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1041,CTV00000207,upper,Senate Roll Call Vote 146,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1209,CTV00000208,upper,Senate Roll Call Vote 169,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 985,CTV00000209,upper,Senate Roll Call Vote 148,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 983,CTV00000210,upper,Senate Roll Call Vote 137,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1053,CTV00000211,upper,Senate Roll Call Vote 154,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 480,CTV00000212,upper,Senate Roll Call Vote 175,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 1150,CTV00000214,upper,Senate Roll Call Vote 166,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 464,CTV00000215,upper,Senate Roll Call Vote 158,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SJ 46,CTV00000216,upper,Senate Roll Call Vote 130,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1064,CTV00000217,upper,Senate Roll Call Vote 165,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SJ 45,CTV00000218,upper,Senate Roll Call Vote 128,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1078,CTV00000219,upper,Senate Roll Call Vote 189,2011-05-12 00:00:00,other,34,0,2
+ct,2011,upper,SB 1110,CTV00000221,upper,Senate Roll Call Vote 136,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 737,CTV00000222,upper,Senate Roll Call Vote 162 PASS,2011-05-12 00:00:00,other,30,6,0
+ct,2011,upper,SJ 43,CTV00000223,upper,Senate Roll Call Vote 126,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 923,CTV00000224,upper,Senate Roll Call Vote 181 ADOPT    SENATE AMD A  LCO 6045,2011-05-12 00:00:00,other,26,10,0
+ct,2011,upper,SR 26,CTV00000225,upper,Senate Roll Call Vote 129,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1092,CTV00000226,lower,House Roll Call Vote 85,2011-05-11 00:00:00,other,136,0,15
+ct,2011,upper,SB 1099,CTV00000227,upper,Senate Roll Call Vote 186 PASS     AS AMENDED BY SEN A,2011-05-12 00:00:00,other,29,5,2
+ct,2011,upper,SB 458,CTV00000228,upper,Senate Roll Call Vote 145,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 897,CTV00000229,upper,Senate Roll Call Vote 138,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SJ 42,CTV00000230,upper,Senate Roll Call Vote 123,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 799,CTV00000231,upper,Senate Roll Call Vote 160,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 835,CTV00000232,upper,Senate Roll Call Vote 177,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 889,CTV00000233,lower,House Roll Call Vote 89,2011-05-11 00:00:00,other,141,0,10
+ct,2011,upper,SB 849,CTV00000234,lower,House Roll Call Vote 100 AS AMENDED,2011-05-12 00:00:00,other,130,0,21
+ct,2011,upper,SB 888,CTV00000235,upper,Senate Roll Call Vote 143,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1157,CTV00000236,upper,Senate Roll Call Vote 152 PASS     AS AMENDED BY SENATE A,2011-05-11 00:00:00,other,33,3,0
+ct,2011,upper,SB 1157,CTV00000237,upper,Senate Roll Call Vote 151 ADOPT    SENATE AMD A  LCO 5879,2011-05-11 00:00:00,other,32,3,1
+ct,2011,upper,SB 1157,CTV00000238,upper,Senate Roll Call Vote 150 MOTION TO TABLE,2011-05-11 00:00:00,other,13,20,3
+ct,2011,upper,SB 1155,CTV00000239,upper,Senate Roll Call Vote 142,2011-05-11 00:00:00,other,36,0,0
+ct,2011,upper,SB 1153,CTV00000240,upper,Senate Roll Call Vote 164,2011-05-12 00:00:00,other,36,0,0
+ct,2011,upper,SB 1089,CTV00000243,upper,Senate Roll Call Vote 184 ADOPT    AS AMENDED BY SEN A,2011-05-12 00:00:00,other,31,4,1
+ct,2011,upper,SB 1089,CTV00000244,upper,Senate Roll Call Vote 183 ADOPT    SENATE AMD A  LCO 6072,2011-05-12 00:00:00,other,30,4,2
+ct,2011,upper,SB 930,CTV00000245,upper,Senate Roll Call Vote 182 PASS,2011-05-12 00:00:00,other,34,1,1
+ct,2011,upper,SB 958,CTV00000246,upper,Senate Roll Call Vote 195,2011-05-12 00:00:00,other,34,0,2
+ct,2011,lower,HB 6514,CTV00000247,lower,House Roll Call Vote 80 AS AMENDED,2011-05-05 00:00:00,other,142,0,9
+ct,2011,lower,HB 6358,CTV00000248,upper,Senate Roll Call Vote 141,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HB 6614,CTV00000250,lower,House Roll Call Vote 86,2011-05-11 00:00:00,other,136,0,15
+ct,2011,lower,HB 6297,CTV00000251,upper,Senate Roll Call Vote 140,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HB 6295,CTV00000252,lower,House Roll Call Vote 99 AS AMENDED,2011-05-12 00:00:00,other,124,0,27
+ct,2011,lower,HB 6340,CTV00000253,lower,House Roll Call Vote 79,2011-05-05 00:00:00,other,143,0,8
+ct,2011,lower,HB 6371,CTV00000254,upper,Senate Roll Call Vote 153,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HB 6370,CTV00000255,upper,Senate Roll Call Vote 170,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6176,CTV00000258,upper,Senate Roll Call Vote 187,2011-05-12 00:00:00,other,34,0,2
+ct,2011,lower,HB 6319,CTV00000270,upper,Senate Roll Call Vote 157,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HB 6222,CTV00000271,lower,House Roll Call Vote 101 AS AMENDED,2011-05-12 00:00:00,other,130,0,21
+ct,2011,lower,HJ 113,CTV00000272,upper,Senate Roll Call Vote 131,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 112,CTV00000273,upper,Senate Roll Call Vote 125,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 111,CTV00000274,upper,Senate Roll Call Vote 124,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 117,CTV00000275,upper,Senate Roll Call Vote 135,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 116,CTV00000276,upper,Senate Roll Call Vote 134,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 115,CTV00000277,upper,Senate Roll Call Vote 133,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HJ 114,CTV00000278,upper,Senate Roll Call Vote 132,2011-05-11 00:00:00,other,36,0,0
+ct,2011,lower,HB 6445,CTV00000279,upper,Senate Roll Call Vote 191,2011-05-12 00:00:00,other,34,0,2
+ct,2011,lower,HB 6444,CTV00000280,upper,Senate Roll Call Vote 168,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6330,CTV00000281,upper,Senate Roll Call Vote 180,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6333,CTV00000282,lower,House Roll Call Vote 81 AS AMENDED,2011-05-05 00:00:00,other,100,44,7
+ct,2011,lower,HB 6461,CTV00000283,lower,House Roll Call Vote 83 AS AMENDED,2011-05-05 00:00:00,other,104,37,10
+ct,2011,lower,HB 6461,CTV00000284,lower,House Roll Call Vote 82 LCO # 5967,2011-05-05 00:00:00,other,49,93,9
+ct,2011,lower,HB 6279,CTV00000285,upper,Senate Roll Call Vote 174,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6270,CTV00000286,upper,Senate Roll Call Vote 173,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6274,CTV00000287,lower,House Roll Call Vote 77,2011-05-05 00:00:00,other,143,0,8
+ct,2011,lower,HB 6275,CTV00000288,upper,Senate Roll Call Vote 171,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6276,CTV00000289,upper,Senate Roll Call Vote 172,2011-05-12 00:00:00,other,36,0,0
+ct,2011,lower,HB 6484,CTV00000290,upper,Senate Roll Call Vote 192,2011-05-12 00:00:00,other,34,0,2
+ct,2011,lower,HB 6481,CTV00000291,upper,Senate Roll Call Vote 194,2011-05-12 00:00:00,other,34,0,2
+ct,2011,lower,HB 6481,CTV00000292,lower,House Roll Call Vote 75 AS AMENDED,2011-05-05 00:00:00,other,141,0,10
+ct,2011,lower,HB 6646,CTV00000293,lower,House Roll Call Vote 78,2011-05-05 00:00:00,other,120,20,11
+ct,2011,lower,HB 6390,CTV00000294,lower,House Roll Call Vote 106,2011-05-12 00:00:00,other,77,63,11
+ct,2011,lower,HB 6390,CTV00000295,lower,House Roll Call Vote 105 LCO # 5939,2011-05-12 00:00:00,other,50,86,15
+ct,2011,lower,HB 6390,CTV00000296,lower,House Roll Call Vote 104 LCO # 5868,2011-05-12 00:00:00,other,50,84,17
+ct,2011,lower,HB 6390,CTV00000297,lower,House Roll Call Vote 103 LCO # 5893,2011-05-12 00:00:00,other,51,85,15
+ct,2011,lower,HB 6390,CTV00000298,lower,House Roll Call Vote 102 LCO # 6226,2011-05-12 00:00:00,other,50,82,19
+ct,2011,lower,HB 6638,CTV00000299,lower,House Roll Call Vote 90 AS AMENDED,2011-05-11 00:00:00,other,142,0,9
+ct,2011,upper,SB 851,CTV00000300,lower,House Roll Call Vote 136,2011-05-18 00:00:00,other,140,0,11
+ct,2011,upper,SB 1155,CTV00000301,lower,House Roll Call Vote 124,2011-05-18 00:00:00,other,134,0,17
+ct,2011,upper,SB 885,CTV00000302,lower,House Roll Call Vote 128,2011-05-18 00:00:00,other,139,0,12
+ct,2011,lower,HB 6513,CTV00000303,lower,House Roll Call Vote 126,2011-05-18 00:00:00,other,136,0,15
+ct,2011,lower,HB 6356,CTV00000304,lower,House Roll Call Vote 115,2011-05-17 00:00:00,other,141,0,10
+ct,2011,lower,HB 6352,CTV00000305,lower,House Roll Call Vote 135,2011-05-18 00:00:00,other,142,0,9
+ct,2011,lower,HB 6350,CTV00000306,lower,House Roll Call Vote 110,2011-05-17 00:00:00,other,129,11,11
+ct,2011,lower,HB 6342,CTV00000307,lower,House Roll Call Vote 139,2011-05-18 00:00:00,other,91,51,9
+ct,2011,lower,HB 6561,CTV00000308,lower,House Roll Call Vote 123 AS AMENDED,2011-05-18 00:00:00,other,133,0,18
+ct,2011,lower,HB 5866,CTV00000309,lower,House Roll Call Vote 134 AS AMENDED,2011-05-18 00:00:00,other,94,47,10
+ct,2011,lower,HB 5866,CTV00000310,lower,House Roll Call Vote 130 LCO # 6515,2011-05-18 00:00:00,other,50,92,9
+ct,2011,lower,HB 5866,CTV00000311,lower,House Roll Call Vote 129 LCO # 6480,2011-05-18 00:00:00,other,49,91,11
+ct,2011,lower,HB 6557,CTV00000312,lower,House Roll Call Vote 121,2011-05-17 00:00:00,other,142,1,8
+ct,2011,lower,HB 6422,CTV00000313,lower,House Roll Call Vote 122 CONSENT CALENDAR,2011-05-17 00:00:00,other,144,0,7
+ct,2011,lower,HB 6312,CTV00000314,lower,House Roll Call Vote 131 AS AMENDED,2011-05-18 00:00:00,other,143,0,8
+ct,2011,lower,HB 6226,CTV00000315,lower,House Roll Call Vote 137 AS AMENDED,2011-05-18 00:00:00,other,127,12,12
+ct,2011,lower,HB 6221,CTV00000316,lower,House Roll Call Vote 113,2011-05-17 00:00:00,other,138,0,13
+ct,2011,lower,HB 6303,CTV00000318,lower,House Roll Call Vote 111 AS AMENDED,2011-05-17 00:00:00,other,141,0,10
+ct,2011,lower,HB 6338,CTV00000319,lower,House Roll Call Vote 140 AS AMENDED,2011-05-18 00:00:00,other,142,0,9
+ct,2011,lower,HB 5780,CTV00000321,lower,House Roll Call Vote 141 AS AMENDED,2011-05-18 00:00:00,other,142,0,9
+ct,2011,lower,HB 6455,CTV00000322,lower,House Roll Call Vote 114 AS AMENDED,2011-05-17 00:00:00,other,137,0,14
+ct,2011,lower,HB 6325,CTV00000323,lower,House Roll Call Vote 132,2011-05-18 00:00:00,other,141,0,10
+ct,2011,lower,HB 6590,CTV00000324,lower,House Roll Call Vote 108,2011-05-17 00:00:00,other,141,0,10
+ct,2011,lower,HB 6472,CTV00000327,lower,House Roll Call Vote 117 AS AMENDED,2011-05-17 00:00:00,other,101,41,9
+ct,2011,lower,HB 6472,CTV00000328,lower,House Roll Call Vote 116 LCO # 5836,2011-05-17 00:00:00,other,94,49,8
+ct,2011,lower,HB 6474,CTV00000329,lower,House Roll Call Vote 120 AS AMENDED,2011-05-17 00:00:00,other,93,51,7
+ct,2011,lower,HB 6113,CTV00000330,lower,House Roll Call Vote 118 AS AMENDED,2011-05-17 00:00:00,other,144,0,7
+ct,2011,lower,HB 6499,CTV00000331,lower,House Roll Call Vote 109 AS AMENDED,2011-05-17 00:00:00,other,119,23,9
+ct,2011,lower,HB 6490,CTV00000332,lower,House Roll Call Vote 119 AS AMENDED,2011-05-17 00:00:00,other,144,0,7
+ct,2011,lower,HB 6532,CTV00000333,lower,House Roll Call Vote 138 AS AMENDED,2011-05-18 00:00:00,other,136,0,15
+ct,2011,upper,SR 28,CTV00000334,upper,Senate Roll Call Vote 200,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SB 828,CTV00000335,lower,House Roll Call Vote 144,2011-05-19 00:00:00,other,143,0,8
+ct,2011,upper,SJ 49,CTV00000337,upper,Senate Roll Call Vote 199,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SB 993,CTV00000338,upper,Senate Roll Call Vote 205,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SR 27,CTV00000339,upper,Senate Roll Call Vote 197,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SJ 48,CTV00000340,upper,Senate Roll Call Vote 198,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SJ 50,CTV00000341,upper,Senate Roll Call Vote 201,2011-05-19 00:00:00,other,35,0,1
+ct,2011,upper,SB 933,CTV00000342,lower,House Roll Call Vote 149,2011-05-19 00:00:00,other,142,2,7
+ct,2011,upper,SB 1116,CTV00000343,upper,Senate Roll Call Vote 196 PASS,2011-05-19 00:00:00,other,25,10,1
+ct,2011,lower,HB 6508,CTV00000344,lower,House Roll Call Vote 152 AS AMENDED,2011-05-19 00:00:00,other,142,0,9
+ct,2011,lower,HB 6412,CTV00000345,lower,House Roll Call Vote 142 AS AMENDED,2011-05-19 00:00:00,other,142,0,9
+ct,2011,lower,HB 6413,CTV00000346,lower,House Roll Call Vote 143,2011-05-19 00:00:00,other,142,0,9
+ct,2011,lower,HB 6227,CTV00000347,lower,House Roll Call Vote 151,2011-05-19 00:00:00,other,142,0,9
+ct,2011,lower,HB 6433,CTV00000348,lower,House Roll Call Vote 148,2011-05-19 00:00:00,other,135,6,10
+ct,2011,lower,HJ 119,CTV00000349,upper,Senate Roll Call Vote 203,2011-05-19 00:00:00,other,35,0,1
+ct,2011,lower,HJ 118,CTV00000350,upper,Senate Roll Call Vote 202,2011-05-19 00:00:00,other,35,0,1
+ct,2011,lower,HB 6440,CTV00000351,lower,House Roll Call Vote 147 AS AMENDED,2011-05-19 00:00:00,other,143,0,8
+ct,2011,lower,HB 6599,CTV00000352,lower,House Roll Call Vote 157 AS AMENDED,2011-05-19 00:00:00,other,77,62,12
+ct,2011,lower,HB 6599,CTV00000353,lower,House Roll Call Vote 156 LCO # 6533,2011-05-19 00:00:00,other,48,87,16
+ct,2011,lower,HB 6599,CTV00000354,lower,House Roll Call Vote 155 LCO # 6516,2011-05-19 00:00:00,other,62,67,22
+ct,2011,lower,HB 6471,CTV00000356,lower,House Roll Call Vote 154 AS AMENDED,2011-05-19 00:00:00,other,140,0,11
+ct,2011,lower,HB 5802,CTV00000357,lower,House Roll Call Vote 145 AS AMENDED,2011-05-19 00:00:00,other,144,0,7
+ct,2011,lower,HB 6484,CTV00000358,lower,House Roll Call Vote 150 AS AMENDED,2011-05-19 00:00:00,other,143,0,8
+ct,2011,lower,HB 6538,CTV00000359,lower,House Roll Call Vote 146 AS AMENDED,2011-05-19 00:00:00,other,144,0,7
+ct,2011,upper,SB 951,CTV00000360,upper,Senate Roll Call Vote 207,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 1040,CTV00000361,upper,Senate Roll Call Vote 233,2011-05-20 00:00:00,other,33,0,3
+ct,2011,upper,SB 1207,CTV00000362,upper,Senate Roll Call Vote 230,2011-05-20 00:00:00,other,33,0,3
+ct,2011,upper,SB 912,CTV00000363,upper,Senate Roll Call Vote 217,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 1039,CTV00000364,upper,Senate Roll Call Vote 225,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 1192,CTV00000366,upper,Senate Roll Call Vote 222,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 1173,CTV00000367,upper,Senate Roll Call Vote 228 PASS,2011-05-20 00:00:00,other,34,0,2
+ct,2011,upper,SB 852,CTV00000368,upper,Senate Roll Call Vote 224,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 957,CTV00000370,upper,Senate Roll Call Vote 218,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 844,CTV00000372,upper,Senate Roll Call Vote 226,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SB 1057,CTV00000374,upper,Senate Roll Call Vote 229 PASS,2011-05-20 00:00:00,other,31,2,3
+ct,2011,upper,SB 1115,CTV00000375,upper,Senate Roll Call Vote 227,2011-05-20 00:00:00,other,36,0,0
+ct,2011,upper,SR 29,CTV00000376,upper,Senate Roll Call Vote 237 ADOPT,2011-05-24 00:00:00,other,29,0,7
+ct,2011,upper,SB 942,CTV00000377,lower,House Roll Call Vote 175,2011-05-25 00:00:00,other,117,26,8
+ct,2011,upper,SB 1240,CTV00000378,upper,Senate Roll Call Vote 257 PASS     EMERGENCY CERTIFICATION,2011-05-24 00:00:00,other,19,15,2
+ct,2011,upper,SB 1240,CTV00000379,upper,Senate Roll Call Vote 256 ADOPT    SENATE AMD F  LCO 6967,2011-05-24 00:00:00,other,13,20,3
+ct,2011,upper,SB 1240,CTV00000380,upper,Senate Roll Call Vote 255 ADOPT    SENATE AMD E  LCO 6965,2011-05-24 00:00:00,other,13,20,3
+ct,2011,upper,SB 1240,CTV00000381,upper,Senate Roll Call Vote 254 ADOPT    SENATE AMD D  LCO 7018,2011-05-24 00:00:00,other,13,21,2
+ct,2011,upper,SB 1240,CTV00000382,upper,Senate Roll Call Vote 253 ADOPT    SENATE AMD C  LCO 6987,2011-05-24 00:00:00,other,13,21,2
+ct,2011,upper,SB 1240,CTV00000383,upper,Senate Roll Call Vote 252 ADOPT    SENATE AMD B  LCO 7021,2011-05-24 00:00:00,other,13,21,2
+ct,2011,upper,SB 1240,CTV00000384,upper,Senate Roll Call Vote 251 ADOPT    SENATE AMD A  LCO 6996,2011-05-24 00:00:00,other,13,21,2
+ct,2011,upper,SB 913,CTV00000385,upper,Senate Roll Call Vote 267 PASS     AS AMENDED BY SEN A,2011-05-25 00:00:00,other,18,17,1
+ct,2011,upper,SB 913,CTV00000386,upper,Senate Roll Call Vote 266 ADOPT    SENATE AMD H  LCO 7108,2011-05-25 00:00:00,other,13,22,1
+ct,2011,upper,SB 913,CTV00000387,upper,Senate Roll Call Vote 265 ADOPT    SENATE AMD G  LCO 7208,2011-05-25 00:00:00,other,12,22,2
+ct,2011,upper,SB 913,CTV00000388,upper,Senate Roll Call Vote 264 ADOPT    SENATE AMD F  LCO 7120,2011-05-25 00:00:00,other,12,23,1
+ct,2011,upper,SB 913,CTV00000389,upper,Senate Roll Call Vote 263 ADOPT    SENATE AMD E  LCO 7131,2011-05-25 00:00:00,other,12,22,2
+ct,2011,upper,SB 913,CTV00000390,upper,Senate Roll Call Vote 262 ADOPT    SENATE AMD D  LCO 7174,2011-05-25 00:00:00,other,12,23,1
+ct,2011,upper,SB 913,CTV00000391,upper,Senate Roll Call Vote 261 ADOPT    SENATE AMD C  LCO 7087,2011-05-25 00:00:00,other,13,22,1
+ct,2011,upper,SB 913,CTV00000392,upper,Senate Roll Call Vote 260 ADOPT    SENATE AMD B  LCO 7206,2011-05-25 00:00:00,other,12,22,2
+ct,2011,upper,SB 913,CTV00000393,upper,Senate Roll Call Vote 259 REFER TO Public Health,2011-05-25 00:00:00,other,13,21,2
+ct,2011,upper,SB 913,CTV00000394,upper,Senate Roll Call Vote 258 ADOPT    SENATE AMD A  LCO 7200,2011-05-25 00:00:00,other,18,17,1
+ct,2011,upper,SR 30,CTV00000395,upper,Senate Roll Call Vote 236 ADOPT,2011-05-24 00:00:00,other,28,0,8
+ct,2011,upper,SB 1099,CTV00000396,lower,House Roll Call Vote 178 AS AMENDED,2011-05-25 00:00:00,other,140,0,11
+ct,2011,upper,SJ 51,CTV00000397,upper,Senate Roll Call Vote 239 ADOPT,2011-05-24 00:00:00,other,34,0,2
+ct,2011,upper,SR 31,CTV00000398,upper,Senate Roll Call Vote 238 ADOPT,2011-05-24 00:00:00,other,30,0,6
+ct,2011,lower,HB 6600,CTV00000399,lower,House Roll Call Vote 177 AS AMENDED,2011-05-25 00:00:00,other,134,0,17
+ct,2011,lower,HB 6286,CTV00000400,upper,Senate Roll Call Vote 213,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6299,CTV00000402,upper,Senate Roll Call Vote 208,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6345,CTV00000403,upper,Senate Roll Call Vote 209,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6373,CTV00000404,upper,Senate Roll Call Vote 221,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6462,CTV00000405,upper,Senate Roll Call Vote 210,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6565,CTV00000408,lower,House Roll Call Vote 159,2011-05-24 00:00:00,other,138,0,13
+ct,2011,lower,HB 6419,CTV00000409,upper,Senate Roll Call Vote 212,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6318,CTV00000413,lower,House Roll Call Vote 161 AS AMENDED,2011-05-24 00:00:00,other,141,0,10
+ct,2011,lower,HB 6310,CTV00000414,upper,Senate Roll Call Vote 211,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6096,CTV00000415,upper,Senate Roll Call Vote 219,2011-05-20 00:00:00,other,36,0,0
+ct,2011,lower,HB 6238,CTV00000416,lower,House Roll Call Vote 172 AS AMENDED,2011-05-25 00:00:00,other,95,51,5
+ct,2011,lower,HB 6157,CTV00000417,lower,House Roll Call Vote 174,2011-05-25 00:00:00,other,144,0,7
+ct,2011,lower,HB 6336,CTV00000418,lower,House Roll Call Vote 179,2011-05-25 00:00:00,other,136,0,15
+ct,2011,lower,HB 6598,CTV00000419,lower,House Roll Call Vote 171 AS AMENDED,2011-05-25 00:00:00,other,144,0,7
+ct,2011,lower,HB 5816,CTV00000421,lower,House Roll Call Vote 180,2011-05-25 00:00:00,other,139,0,12
+ct,2011,lower,HJ 120,CTV00000422,upper,Senate Roll Call Vote 234 ADOPT,2011-05-24 00:00:00,other,25,0,11
+ct,2011,lower,HJ 121,CTV00000423,upper,Senate Roll Call Vote 235 ADOPT,2011-05-24 00:00:00,other,27,0,9
+ct,2011,lower,HB 5585,CTV00000425,lower,House Roll Call Vote 169,2011-05-25 00:00:00,other,145,0,6
+ct,2011,lower,HB 6249,CTV00000426,lower,House Roll Call Vote 158 AS AMENDED,2011-05-24 00:00:00,other,132,6,13
+ct,2011,lower,HB 6103,CTV00000427,lower,House Roll Call Vote 168,2011-05-25 00:00:00,other,142,0,9
+ct,2011,lower,HB 6650,CTV00000428,lower,House Roll Call Vote 167 EMERGENCY CERTIFI,2011-05-24 00:00:00,other,93,52,6
+ct,2011,lower,HB 6650,CTV00000429,lower,House Roll Call Vote 166 LCO # 7090,2011-05-24 00:00:00,other,56,86,9
+ct,2011,lower,HB 6650,CTV00000430,lower,House Roll Call Vote 165 LCO # 7109,2011-05-24 00:00:00,other,64,79,8
+ct,2011,lower,HB 6650,CTV00000431,lower,House Roll Call Vote 164 LCO # 7088,2011-05-24 00:00:00,other,52,93,6
+ct,2011,lower,HB 6259,CTV00000432,lower,House Roll Call Vote 162,2011-05-24 00:00:00,other,144,0,7
+ct,2011,lower,HB 6390,CTV00000433,upper,Senate Roll Call Vote 250 PASS,2011-05-24 00:00:00,other,21,14,1
+ct,2011,lower,HB 6390,CTV00000434,upper,Senate Roll Call Vote 249 ADOPT    SENATE AMD J  LCO 6869,2011-05-24 00:00:00,other,14,21,1
+ct,2011,lower,HB 6390,CTV00000435,upper,Senate Roll Call Vote 248 ADOPT    SENATE AMD I  LCO 6926,2011-05-24 00:00:00,other,13,22,1
+ct,2011,lower,HB 6390,CTV00000436,upper,Senate Roll Call Vote 247 ADOPT    SENATE AMD H  LCO 6980,2011-05-24 00:00:00,other,13,22,1
+ct,2011,lower,HB 6390,CTV00000437,upper,Senate Roll Call Vote 246 ADOPT    SENATE AMD G  LCO 6927,2011-05-24 00:00:00,other,11,24,1
+ct,2011,lower,HB 6390,CTV00000438,upper,Senate Roll Call Vote 245 ADOPT    SENATE AMD F  LCO 6937,2011-05-24 00:00:00,other,14,21,1
+ct,2011,lower,HB 6390,CTV00000439,upper,Senate Roll Call Vote 244 ADOPT    SENATE AMD E  LCO 6888,2011-05-24 00:00:00,other,12,23,1
+ct,2011,lower,HB 6390,CTV00000440,upper,Senate Roll Call Vote 243 ADOPT    SENATE AMD D  LCO 6897,2011-05-24 00:00:00,other,14,21,1
+ct,2011,lower,HB 6390,CTV00000441,upper,Senate Roll Call Vote 242 ADOPT    SENATE AMD C  LCO 6930,2011-05-24 00:00:00,other,15,19,2
+ct,2011,lower,HB 6390,CTV00000442,upper,Senate Roll Call Vote 241 ADOPT    SENATE AMD B  LCO 6896,2011-05-24 00:00:00,other,14,20,2
+ct,2011,lower,HB 6390,CTV00000443,upper,Senate Roll Call Vote 240 ADOPT    SENATE AMD A  LCO 6895,2011-05-24 00:00:00,other,12,23,1
+ct,2011,lower,HB 6636,CTV00000444,lower,House Roll Call Vote 160,2011-05-24 00:00:00,other,142,0,9
+ct,2011,upper,SB 1045,CTV00000445,upper,Senate Roll Call Vote 280 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,31,5,0
+ct,2011,upper,SB 1104,CTV00000446,upper,Senate Roll Call Vote 270 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,33,2,1
+ct,2011,upper,SB 1240,CTV00000447,lower,House Roll Call Vote 186,2011-05-26 00:00:00,other,87,55,9
+ct,2011,upper,SB 1240,CTV00000448,lower,House Roll Call Vote 185 LCO # 7274,2011-05-26 00:00:00,other,49,91,11
+ct,2011,upper,SB 1240,CTV00000449,lower,House Roll Call Vote 184 LCO # 7266,2011-05-26 00:00:00,other,49,92,10
+ct,2011,upper,SB 1240,CTV00000450,lower,House Roll Call Vote 183 LCO # 7329,2011-05-26 00:00:00,other,49,93,9
+ct,2011,upper,SB 1240,CTV00000451,lower,House Roll Call Vote 182 LCO # 7273,2011-05-26 00:00:00,other,49,92,10
+ct,2011,upper,SB 862,CTV00000453,upper,Senate Roll Call Vote 279 ADOPT    SENATE AMD A  LCO 6247,2011-05-26 00:00:00,other,33,3,0
+ct,2011,upper,SB 1201,CTV00000457,upper,Senate Roll Call Vote 283 PASS,2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 1072,CTV00000458,upper,Senate Roll Call Vote 281,2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 1075,CTV00000459,upper,Senate Roll Call Vote 275 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,35,0,1
+ct,2011,upper,SB 1075,CTV00000460,upper,Senate Roll Call Vote 274 ADOPT    SENATE AMD B  LCO 6749,2011-05-26 00:00:00,other,13,18,5
+ct,2011,upper,SB 1076,CTV00000461,upper,"Senate Roll Call Vote 278 RECONS   AS AMENDED BY SEN A, B",2011-05-26 00:00:00,other,35,1,0
+ct,2011,upper,SB 1076,CTV00000462,upper,"Senate Roll Call Vote 277 PASS     AS AMENDED BY SEN A, B",2011-05-26 00:00:00,other,35,1,0
+ct,2011,upper,SB 1076,CTV00000463,upper,Senate Roll Call Vote 276 ADOPT    SENATE AMD B  LCO 6627,2011-05-26 00:00:00,other,35,0,1
+ct,2011,upper,SB 1138,CTV00000464,upper,Senate Roll Call Vote 282,2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 1096,CTV00000468,upper,Senate Roll Call Vote 269 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,21,13,2
+ct,2011,upper,SB 1096,CTV00000469,upper,Senate Roll Call Vote 268 ADOPT    SENATE AMD B  LCO 6617,2011-05-26 00:00:00,other,13,22,1
+ct,2011,upper,SB 936,CTV00000470,upper,Senate Roll Call Vote 273 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,34,0,2
+ct,2011,upper,SB 879,CTV00000471,upper,Senate Roll Call Vote 271 PASS,2011-05-26 00:00:00,other,22,13,1
+ct,2011,upper,SB 1083,CTV00000472,upper,Senate Roll Call Vote 272 PASS,2011-05-26 00:00:00,other,27,8,1
+ct,2011,lower,HB 6605,CTV00000473,lower,House Roll Call Vote 197,2011-05-26 00:00:00,other,135,2,14
+ct,2011,lower,HB 6354,CTV00000474,lower,House Roll Call Vote 198,2011-05-26 00:00:00,other,137,0,14
+ct,2011,lower,HJ 80,CTV00000475,lower,House Roll Call Vote 206,2011-05-27 00:00:00,other,125,0,26
+ct,2011,lower,HB 6410,CTV00000476,lower,House Roll Call Vote 194 AS AMENDED,2011-05-26 00:00:00,other,137,1,13
+ct,2011,lower,HB 6558,CTV00000477,lower,House Roll Call Vote 195,2011-05-26 00:00:00,other,138,0,13
+ct,2011,lower,HB 6434,CTV00000478,lower,House Roll Call Vote 189 AS AMENDED,2011-05-26 00:00:00,other,139,0,12
+ct,2011,lower,HB 6308,CTV00000479,lower,House Roll Call Vote 210 AS AMENDED,2011-05-27 00:00:00,other,88,48,15
+ct,2011,lower,HB 6308,CTV00000480,lower,House Roll Call Vote 209 LCO # 7743,2011-05-27 00:00:00,other,52,81,18
+ct,2011,lower,HB 6308,CTV00000481,lower,House Roll Call Vote 208 LCO # 7611,2011-05-27 00:00:00,other,48,85,18
+ct,2011,lower,HB 6159,CTV00000482,lower,House Roll Call Vote 193 AS AMENDED,2011-05-26 00:00:00,other,138,0,13
+ct,2011,lower,HB 6156,CTV00000483,lower,House Roll Call Vote 181 AS AMENDED,2011-05-26 00:00:00,other,136,0,15
+ct,2011,lower,HB 6452,CTV00000487,lower,House Roll Call Vote 196 AS AMENDED,2011-05-26 00:00:00,other,94,45,12
+ct,2011,lower,HB 5795,CTV00000488,lower,House Roll Call Vote 190 AS AMENDED,2011-05-26 00:00:00,other,140,0,11
+ct,2011,lower,HB 6263,CTV00000489,lower,House Roll Call Vote 200 AS AMENDED,2011-05-27 00:00:00,other,125,0,26
+ct,2011,lower,HJ 66,CTV00000491,lower,House Roll Call Vote 205,2011-05-27 00:00:00,other,124,0,27
+ct,2011,lower,HB 6487,CTV00000493,lower,House Roll Call Vote 188 AS AMENDED,2011-05-26 00:00:00,other,87,51,13
+ct,2011,lower,HB 6487,CTV00000494,lower,House Roll Call Vote 187 LCO # 7298,2011-05-26 00:00:00,other,88,53,10
+ct,2011,lower,HB 6250,CTV00000510,lower,House Roll Call Vote 192 AS AMENDED,2011-05-26 00:00:00,other,128,10,13
+ct,2011,upper,SB 1103,CTV00000512,upper,Senate Roll Call Vote 349,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1104,CTV00000513,lower,House Roll Call Vote 268 AS AMENDED,2011-06-03 00:00:00,other,142,2,7
+ct,2011,upper,SB 1069,CTV00000515,lower,House Roll Call Vote 263,2011-06-02 00:00:00,other,144,1,6
+ct,2011,upper,SB 1068,CTV00000516,lower,House Roll Call Vote 265,2011-06-02 00:00:00,other,140,2,9
+ct,2011,upper,SB 1065,CTV00000517,upper,Senate Roll Call Vote 327 PASS,2011-06-02 00:00:00,other,34,2,0
+ct,2011,upper,SB 1044,CTV00000519,upper,Senate Roll Call Vote 356,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 860,CTV00000520,upper,Senate Roll Call Vote 339,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 862,CTV00000521,upper,"Senate Roll Call Vote 286 PASS     AS AMENDED BY SEN A,B,",2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 863,CTV00000522,upper,Senate Roll Call Vote 344,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 867,CTV00000523,upper,Senate Roll Call Vote 285 PASS,2011-05-26 00:00:00,other,28,7,1
+ct,2011,upper,SB 1108,CTV00000525,upper,Senate Roll Call Vote 370 PASS     AS AMENDED BY SEN B,2011-06-03 00:00:00,other,33,2,1
+ct,2011,upper,SB 984,CTV00000526,upper,Senate Roll Call Vote 364 PASS,2011-06-03 00:00:00,other,23,13,0
+ct,2011,upper,SB 982,CTV00000527,upper,Senate Roll Call Vote 315,2011-05-31 00:00:00,other,35,0,1
+ct,2011,upper,SB 1219,CTV00000528,upper,Senate Roll Call Vote 358,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1038,CTV00000529,upper,Senate Roll Call Vote 345,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 764,CTV00000530,upper,Senate Roll Call Vote 350,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 999,CTV00000532,upper,Senate Roll Call Vote 335,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 955,CTV00000533,upper,Senate Roll Call Vote 309,2011-05-31 00:00:00,other,36,0,0
+ct,2011,upper,SB 1199,CTV00000534,upper,"Senate Roll Call Vote 288 PASS     AS AMENDED BY SEN A,B,",2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 469,CTV00000535,upper,Senate Roll Call Vote 287 PASS     AS AMENDED BY SEN A,2011-05-26 00:00:00,other,36,0,0
+ct,2011,upper,SB 1206,CTV00000536,upper,Senate Roll Call Vote 332 PASS     AS AMENDED BY SEN A,2011-06-02 00:00:00,other,22,14,0
+ct,2011,upper,SJ 52,CTV00000538,upper,Senate Roll Call Vote 334,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1151,CTV00000540,upper,Senate Roll Call Vote 312 PASS,2011-05-31 00:00:00,other,19,16,1
+ct,2011,upper,SB 921,CTV00000541,upper,Senate Roll Call Vote 305 PASS    AS AMENDED BY SEN A,2011-05-31 00:00:00,other,23,13,0
+ct,2011,upper,SB 921,CTV00000542,upper,Senate Roll Call Vote 304 ADOPT    SENATE AMD A  LCO 7830,2011-05-31 00:00:00,other,23,13,0
+ct,2011,upper,SB 923,CTV00000543,upper,Senate Roll Call Vote 331 PASS,2011-06-02 00:00:00,other,31,4,1
+ct,2011,upper,SB 927,CTV00000544,upper,Senate Roll Call Vote 341,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 858,CTV00000545,upper,Senate Roll Call Vote 336,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1001,CTV00000546,upper,Senate Roll Call Vote 360 PASS     AS AMENDED BY SEN A,2011-06-03 00:00:00,other,32,4,0
+ct,2011,upper,SB 1001,CTV00000547,upper,Senate Roll Call Vote 359 ADOPT    SENATE AMD B  LCO 8116,2011-06-03 00:00:00,other,13,23,0
+ct,2011,upper,SB 939,CTV00000551,upper,Senate Roll Call Vote 354,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1109,CTV00000552,lower,House Roll Call Vote 264,2011-06-02 00:00:00,other,144,0,7
+ct,2011,upper,SB 964,CTV00000555,upper,Senate Roll Call Vote 314,2011-05-31 00:00:00,other,35,0,1
+ct,2011,upper,SB 988,CTV00000556,upper,Senate Roll Call Vote 363 PASS     AS AMENDED BY SEN A,2011-06-03 00:00:00,other,27,9,0
+ct,2011,upper,SB 988,CTV00000557,upper,Senate Roll Call Vote 362 ADOPT    SENATE AMD A  LCO 6983,2011-06-03 00:00:00,other,36,0,0
+ct,2011,upper,SB 881,CTV00000558,upper,Senate Roll Call Vote 343,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1148,CTV00000559,upper,Senate Roll Call Vote 365 PASS,2011-06-03 00:00:00,other,22,14,0
+ct,2011,upper,SB 973,CTV00000561,upper,Senate Roll Call Vote 366,2011-06-03 00:00:00,other,36,0,0
+ct,2011,upper,SB 1216,CTV00000562,upper,Senate Roll Call Vote 340,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1224,CTV00000563,upper,Senate Roll Call Vote 355,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 843,CTV00000564,upper,Senate Roll Call Vote 351,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1152,CTV00000565,upper,Senate Roll Call Vote 325 PASS,2011-06-01 00:00:00,other,24,11,1
+ct,2011,upper,SB 887,CTV00000569,upper,Senate Roll Call Vote 310,2011-05-31 00:00:00,other,36,0,0
+ct,2011,upper,SB 882,CTV00000570,upper,Senate Roll Call Vote 353,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1217,CTV00000571,upper,Senate Roll Call Vote 352,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 1112,CTV00000572,upper,Senate Roll Call Vote 368,2011-06-03 00:00:00,other,36,0,0
+ct,2011,upper,SB 1111,CTV00000573,upper,Senate Roll Call Vote 348,2011-06-02 00:00:00,other,36,0,0
+ct,2011,upper,SB 970,CTV00000574,upper,Senate Roll Call Vote 369,2011-06-03 00:00:00,other,36,0,0
+ct,2011,lower,HB 6282,CTV00000575,lower,House Roll Call Vote 230,2011-06-01 00:00:00,other,148,0,3
+ct,2011,lower,HB 6284,CTV00000576,lower,House Roll Call Vote 228 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6357,CTV00000577,lower,House Roll Call Vote 262 AS AMENDED,2011-06-02 00:00:00,other,146,0,5
+ct,2011,lower,HB 6351,CTV00000578,lower,House Roll Call Vote 269 AS AMENDED,2011-06-03 00:00:00,other,122,17,12
+ct,2011,lower,HB 6501,CTV00000579,lower,House Roll Call Vote 238 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HJ 81,CTV00000580,lower,House Roll Call Vote 253,2011-06-02 00:00:00,other,143,0,8
+ct,2011,lower,HJ 84,CTV00000581,lower,House Roll Call Vote 254,2011-06-02 00:00:00,other,145,0,6
+ct,2011,lower,HB 6341,CTV00000582,lower,House Roll Call Vote 231 AS AMENDED,2011-06-01 00:00:00,other,133,15,3
+ct,2011,lower,HB 6564,CTV00000585,lower,House Roll Call Vote 241 AS AMENDED,2011-06-01 00:00:00,other,143,3,5
+ct,2011,lower,HB 6554,CTV00000588,lower,House Roll Call Vote 270 AS AMENDED,2011-06-03 00:00:00,other,132,1,18
+ct,2011,lower,HB 6559,CTV00000589,lower,House Roll Call Vote 271 AS AMENDED,2011-06-03 00:00:00,other,132,6,13
+ct,2011,lower,HB 6314,CTV00000590,lower,House Roll Call Vote 240 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6224,CTV00000591,lower,House Roll Call Vote 224 AS AMENDED,2011-06-01 00:00:00,other,148,0,3
+ct,2011,lower,HB 6549,CTV00000592,lower,House Roll Call Vote 221 AS AMENDED,2011-06-01 00:00:00,other,142,3,6
+ct,2011,lower,HB 6438,CTV00000593,lower,House Roll Call Vote 220 AS AMENDED,2011-05-31 00:00:00,other,143,0,8
+ct,2011,lower,HB 6234,CTV00000594,lower,House Roll Call Vote 227 AS AMENDED,2011-06-01 00:00:00,other,143,5,3
+ct,2011,lower,HB 6200,CTV00000597,lower,House Roll Call Vote 246 AS AMENDED,2011-06-02 00:00:00,other,76,60,15
+ct,2011,lower,HB 6200,CTV00000598,lower,House Roll Call Vote 245 LCO # 7828,2011-06-01 00:00:00,other,51,87,13
+ct,2011,lower,HB 6453,CTV00000599,lower,House Roll Call Vote 235 AS AMENDED,2011-06-01 00:00:00,other,146,0,5
+ct,2011,lower,HB 6599,CTV00000601,upper,Senate Roll Call Vote 377 PASS,2011-06-04 00:00:00,other,20,16,0
+ct,2011,lower,HB 6599,CTV00000602,upper,Senate Roll Call Vote 376 ADOPT    SENATE AMD E  LCO 7378,2011-06-04 00:00:00,other,8,26,2
+ct,2011,lower,HB 6599,CTV00000603,upper,Senate Roll Call Vote 375 ADOPT    SENATE AMD D  LCO 7440,2011-06-04 00:00:00,other,15,19,2
+ct,2011,lower,HB 6599,CTV00000604,upper,Senate Roll Call Vote 374 ADOPT    SENATE AMD C  LCO 6901,2011-06-03 00:00:00,other,14,20,2
+ct,2011,lower,HB 6599,CTV00000605,upper,Senate Roll Call Vote 373 ADOPT    SENATE AMD B  LCO 6899,2011-06-03 00:00:00,other,16,20,0
+ct,2011,lower,HB 6599,CTV00000606,upper,Senate Roll Call Vote 372 ADOPT    SENATE AMD A  LCO 6902,2011-06-03 00:00:00,other,15,21,0
+ct,2011,lower,HB 6596,CTV00000607,lower,House Roll Call Vote 247,2011-06-02 00:00:00,other,145,0,6
+ct,2011,lower,HB 6466,CTV00000608,lower,House Roll Call Vote 237,2011-06-01 00:00:00,other,134,12,5
+ct,2011,lower,HJ 122,CTV00000609,upper,Senate Roll Call Vote 333,2011-06-02 00:00:00,other,36,0,0
+ct,2011,lower,HB 6050,CTV00000610,lower,House Roll Call Vote 256 AS AMENDED,2011-06-02 00:00:00,other,112,33,6
+ct,2011,lower,HJ 69,CTV00000611,lower,House Roll Call Vote 251,2011-06-02 00:00:00,other,142,1,8
+ct,2011,lower,HJ 68,CTV00000612,lower,House Roll Call Vote 250,2011-06-02 00:00:00,other,144,0,7
+ct,2011,lower,HB 6489,CTV00000613,lower,House Roll Call Vote 267 AS AMENDED,2011-06-02 00:00:00,other,127,20,4
+ct,2011,lower,HB 6485,CTV00000614,lower,House Roll Call Vote 229 AS AMENDED,2011-06-01 00:00:00,other,149,0,2
+ct,2011,lower,HB 6642,CTV00000615,lower,House Roll Call Vote 266 AS AMENDED,2011-06-02 00:00:00,other,142,0,9
+ct,2011,lower,HJ 73,CTV00000616,lower,House Roll Call Vote 252,2011-06-02 00:00:00,other,134,10,7
+ct,2011,lower,HB 6100,CTV00000617,lower,House Roll Call Vote 257 AS AMENDED,2011-06-02 00:00:00,other,141,0,10
+ct,2011,lower,HB 6498,CTV00000618,lower,House Roll Call Vote 234 AS AMENDED,2011-06-01 00:00:00,other,139,9,3
+ct,2011,lower,HB 6650,CTV00000619,upper,Senate Roll Call Vote 303 PASS     AS AMENDED BY SEN A,2011-05-27 00:00:00,other,21,14,1
+ct,2011,lower,HB 6650,CTV00000620,upper,Senate Roll Call Vote 302 ADOPT    SENATE AMD N  LCO 7757,2011-05-27 00:00:00,other,13,22,1
+ct,2011,lower,HB 6650,CTV00000621,upper,Senate Roll Call Vote 301 ADOPT    SENATE AMD M  LCO 7687,2011-05-27 00:00:00,other,13,22,1
+ct,2011,lower,HB 6650,CTV00000622,upper,Senate Roll Call Vote 300 ADOPT    SENATE AMD L  LCO 7443,2011-05-27 00:00:00,other,13,22,1
+ct,2011,lower,HB 6650,CTV00000623,upper,Senate Roll Call Vote 299 ADOPT    SENATE AMD K  LCO 7588,2011-05-27 00:00:00,other,13,21,2
+ct,2011,lower,HB 6650,CTV00000624,upper,Senate Roll Call Vote 298 ADOPT    SENATE AMD J  LCO 7383,2011-05-27 00:00:00,other,14,21,1
+ct,2011,lower,HB 6650,CTV00000625,upper,Senate Roll Call Vote 297 ADOPT    SENATE AMD I  LCO 7456,2011-05-27 00:00:00,other,13,22,1
+ct,2011,lower,HB 6650,CTV00000626,upper,Senate Roll Call Vote 296 ADOPT    SENATE AMD H  LCO 7624,2011-05-27 00:00:00,other,14,21,1
+ct,2011,lower,HB 6650,CTV00000627,upper,Senate Roll Call Vote 295 ADOPT    SENATE AMD G  LCO 7562,2011-05-27 00:00:00,other,14,20,2
+ct,2011,lower,HB 6650,CTV00000628,upper,Senate Roll Call Vote 294 SENATE AMD F  LCO 7573,2011-05-27 00:00:00,other,14,21,1
+ct,2011,lower,HB 6650,CTV00000629,upper,Senate Roll Call Vote 293 ADOPT    SENATE AMD E  LCO 7530,2011-05-27 00:00:00,other,14,20,2
+ct,2011,lower,HB 6650,CTV00000630,upper,Senate Roll Call Vote 292 ADOPT    SENATE AMD D  LCO 7558,2011-05-27 00:00:00,other,14,20,2
+ct,2011,lower,HB 6650,CTV00000631,upper,Senate Roll Call Vote 291 ADOPT    SENATE AMD C  LCO 7559,2011-05-27 00:00:00,other,14,19,3
+ct,2011,lower,HB 6650,CTV00000632,upper,Senate Roll Call Vote 290 ADOPT    SENATE AMD B  LCO 7563,2011-05-27 00:00:00,other,14,19,3
+ct,2011,lower,HB 6650,CTV00000633,upper,Senate Roll Call Vote 289 ADOPT    SENATE AMD A  LCO 7534,2011-05-27 00:00:00,other,20,14,2
+ct,2011,lower,HB 6650,CTV00000634,lower,House Roll Call Vote 215 AS AMENDED,2011-05-31 00:00:00,other,90,56,5
+ct,2011,lower,HB 6650,CTV00000635,lower,House Roll Call Vote 214 LCO # 7762,2011-05-31 00:00:00,other,63,83,5
+ct,2011,lower,HB 6650,CTV00000636,lower,House Roll Call Vote 213 LCO # 7760,2011-05-31 00:00:00,other,63,84,4
+ct,2011,lower,HB 6650,CTV00000637,lower,House Roll Call Vote 212 LCO # 7769,2011-05-31 00:00:00,other,63,84,4
+ct,2011,lower,HB 6650,CTV00000638,lower,House Roll Call Vote 211 LCO # 7534,2011-05-31 00:00:00,other,92,54,5
+ct,2011,lower,HB 6651,CTV00000639,upper,Senate Roll Call Vote 324 PASS     EMERGENCY CERTIFICATION,2011-06-01 00:00:00,other,21,14,1
+ct,2011,lower,HB 6651,CTV00000640,upper,Senate Roll Call Vote 323 ADOPT    SENATE AMD F  LCO 7902,2011-06-01 00:00:00,other,14,21,1
+ct,2011,lower,HB 6651,CTV00000641,upper,Senate Roll Call Vote 322 ADOPT    SENATE AMD E  LCO 7988,2011-06-01 00:00:00,other,13,21,2
+ct,2011,lower,HB 6651,CTV00000642,upper,Senate Roll Call Vote 321 ADOPT    SENATE AMD D  LCO 7994,2011-06-01 00:00:00,other,11,24,1
+ct,2011,lower,HB 6651,CTV00000643,upper,Senate Roll Call Vote 320 ADOPT    SENATE AMD C  LCO 7939,2011-06-01 00:00:00,other,13,22,1
+ct,2011,lower,HB 6651,CTV00000644,upper,Senate Roll Call Vote 319 ADOPT    SENATE AMD B  LCO 7986,2011-06-01 00:00:00,other,15,20,1
+ct,2011,lower,HB 6651,CTV00000645,upper,Senate Roll Call Vote 318 ADOPT    SENATE AMD A  LCO 7968,2011-06-01 00:00:00,other,15,20,1
+ct,2011,lower,HB 6651,CTV00000646,lower,House Roll Call Vote 219 EMERGENCY CERTIFI,2011-05-31 00:00:00,other,91,54,6
+ct,2011,lower,HB 6651,CTV00000647,lower,House Roll Call Vote 218 LCO # 7825,2011-05-31 00:00:00,other,57,85,9
+ct,2011,lower,HB 6651,CTV00000648,lower,House Roll Call Vote 217 LCO # 7809,2011-05-31 00:00:00,other,51,92,8
+ct,2011,lower,HB 6651,CTV00000649,lower,House Roll Call Vote 216 LCO # 7895,2011-05-31 00:00:00,other,51,91,9
+ct,2011,lower,HB 5634,CTV00000650,lower,House Roll Call Vote 260 AS AMENDED,2011-06-02 00:00:00,other,145,0,6
+ct,2011,lower,HB 6629,CTV00000653,lower,House Roll Call Vote 242 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6581,CTV00000654,lower,House Roll Call Vote 244 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6639,CTV00000656,lower,House Roll Call Vote 233 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6631,CTV00000657,lower,House Roll Call Vote 261 AS AMENDED,2011-06-02 00:00:00,other,146,0,5
+ct,2011,lower,HB 6634,CTV00000658,lower,House Roll Call Vote 236 AS AMENDED,2011-06-01 00:00:00,other,147,0,4
+ct,2011,lower,HB 6525,CTV00000659,lower,House Roll Call Vote 255 AS AMENDED,2011-06-02 00:00:00,other,144,0,7
+ct,2011,lower,HB 6526,CTV00000660,lower,House Roll Call Vote 223 AS AMENDED,2011-06-01 00:00:00,other,146,0,5
+ct,2011,lower,HB 6529,CTV00000661,lower,House Roll Call Vote 243 AS AMENDED,2011-06-01 00:00:00,other,145,1,5
+ct,2011,upper,SB 1242,CTV00000662,lower,House Roll Call Vote 288 EMERGENCY CERTIFI,2011-06-04 00:00:00,other,121,11,19
+ct,2011,upper,SB 1242,CTV00000663,lower,House Roll Call Vote 287 LCO # 8377,2011-06-04 00:00:00,other,48,85,18
+ct,2011,upper,SB 1242,CTV00000664,upper,Senate Roll Call Vote 378 PASS     EMERGENCY CERTIFICATION,2011-06-04 00:00:00,other,23,13,0
+ct,2011,upper,SB 913,CTV00000666,lower,House Roll Call Vote 273 AS AMENDED,2011-06-04 00:00:00,other,76,65,10
+ct,2011,upper,SB 913,CTV00000667,lower,House Roll Call Vote 272 LCO # 7200,2011-06-04 00:00:00,other,77,64,10
+ct,2011,upper,SB 918,CTV00000668,upper,Senate Roll Call Vote 380,2011-06-04 00:00:00,other,36,0,0
+ct,2011,upper,SB 954,CTV00000669,upper,"Senate Roll Call Vote 371 PASS     AS AMENDED BY SEN A,B,",2011-06-03 00:00:00,other,24,9,3
+ct,2011,upper,SB 921,CTV00000670,lower,House Roll Call Vote 280 AS AMENDED,2011-06-04 00:00:00,other,108,30,13
+ct,2011,upper,SB 927,CTV00000671,lower,House Roll Call Vote 284 AS AMENDED,2011-06-04 00:00:00,other,134,0,17
+ct,2011,upper,SB 929,CTV00000672,upper,Senate Roll Call Vote 367,2011-06-03 00:00:00,other,36,0,0
+ct,2011,upper,SB 929,CTV00000673,upper,Senate Roll Call Vote 361 ADOPT    SENATE AMD A  LCO 7652,2011-06-03 00:00:00,other,30,6,0
+ct,2011,upper,SB 1003,CTV00000674,upper,Senate Roll Call Vote 381,2011-06-04 00:00:00,other,36,0,0
+ct,2011,upper,SB 1014,CTV00000675,upper,"Senate Roll Call Vote 379 PASS     AS AMENDED BY SEN A,B,",2011-06-04 00:00:00,other,18,18,0
+ct,2011,lower,HB 6344,CTV00000676,lower,House Roll Call Vote 282 AS AMENDED,2011-06-04 00:00:00,other,132,0,19
+ct,2011,lower,HB 6552,CTV00000677,lower,House Roll Call Vote 283 AS AMENDED,2011-06-04 00:00:00,other,133,0,18
+ct,2011,lower,HB 6540,CTV00000679,lower,House Roll Call Vote 289 AS AMENDED,2011-06-04 00:00:00,other,132,0,19
+ct,2011,lower,HB 6458,CTV00000680,lower,House Roll Call Vote 281 AS AMENDED,2011-06-04 00:00:00,other,136,0,15
+ct,2011,lower,HB 6327,CTV00000681,lower,House Roll Call Vote 277 AS AMENDED,2011-06-04 00:00:00,other,132,0,19
+ct,2011,lower,HB 6591,CTV00000682,lower,House Roll Call Vote 278,2011-06-04 00:00:00,other,134,0,17
+ct,2011,lower,HB 6595,CTV00000683,lower,House Roll Call Vote 279 AS AMENDED,2011-06-04 00:00:00,other,138,0,13
+ct,2011,lower,HB 6260,CTV00000684,lower,House Roll Call Vote 275 AS AMENDED,2011-06-04 00:00:00,other,124,0,27
+ct,2011,lower,HB 6267,CTV00000685,lower,House Roll Call Vote 285 AS AMENDED,2011-06-04 00:00:00,other,134,0,17
+ct,2011,lower,HB 5567,CTV00000686,lower,House Roll Call Vote 276 AS AMENDED,2011-06-04 00:00:00,other,101,22,28
+ct,2011,upper,SB 1024,CTV00000687,upper,Senate Roll Call Vote 495 PASS     AS AMENDED BY SEN A,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1104,CTV00000689,upper,Senate Roll Call Vote 412,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1098,CTV00000690,upper,Senate Roll Call Vote 404 PASS,2011-06-06 00:00:00,other,36,0,0
+ct,2011,upper,SB 1043,CTV00000693,upper,Senate Roll Call Vote 490,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1034,CTV00000694,upper,Senate Roll Call Vote 408 PASS     AS AMENDED BY SEN A,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1243,CTV00000695,upper,Senate Roll Call Vote 383 PASS     AS AMENDED BY SEN A,2011-06-06 00:00:00,other,36,0,0
+ct,2011,upper,SB 1243,CTV00000696,upper,Senate Roll Call Vote 382 ADOPT    SENATE AMD B  LCO 8439,2011-06-06 00:00:00,other,14,20,2
+ct,2011,upper,SB 1139,CTV00000698,upper,Senate Roll Call Vote 410,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 963,CTV00000699,upper,Senate Roll Call Vote 407 PASS     AS AMENDED BY SEN A,2011-06-06 00:00:00,other,36,0,0
+ct,2011,upper,SB 1160,CTV00000700,upper,Senate Roll Call Vote 500,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1149,CTV00000701,upper,Senate Roll Call Vote 422,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6600,CTV00000708,upper,Senate Roll Call Vote 463,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6513,CTV00000709,upper,Senate Roll Call Vote 440,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6515,CTV00000710,lower,House Roll Call Vote 295 AS AMENDED,2011-06-06 00:00:00,other,143,0,8
+ct,2011,lower,HB 6282,CTV00000711,upper,Senate Roll Call Vote 471,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6284,CTV00000712,upper,Senate Roll Call Vote 478,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6357,CTV00000713,upper,Senate Roll Call Vote 485,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6356,CTV00000714,upper,Senate Roll Call Vote 429,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6354,CTV00000715,upper,Senate Roll Call Vote 470,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6352,CTV00000716,upper,Senate Roll Call Vote 447,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6350,CTV00000717,upper,Senate Roll Call Vote 434,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6612,CTV00000719,lower,House Roll Call Vote 294 AS AMENDED,2011-06-06 00:00:00,other,145,0,6
+ct,2011,lower,HB 6614,CTV00000720,upper,Senate Roll Call Vote 427,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6618,CTV00000721,lower,House Roll Call Vote 293 AS AMENDED,2011-06-06 00:00:00,other,134,11,6
+ct,2011,lower,HB 6508,CTV00000722,upper,Senate Roll Call Vote 450,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6295,CTV00000723,upper,Senate Roll Call Vote 496,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6407,CTV00000724,lower,House Roll Call Vote 323 AS AMENDED,2011-06-07 00:00:00,other,139,4,8
+ct,2011,lower,HB 5697,CTV00000725,upper,Senate Roll Call Vote 420,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6561,CTV00000726,upper,Senate Roll Call Vote 442,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6565,CTV00000727,upper,Senate Roll Call Vote 461,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6412,CTV00000728,upper,Senate Roll Call Vote 451,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6413,CTV00000729,upper,Senate Roll Call Vote 457,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6364,CTV00000730,lower,House Roll Call Vote 297 AS AMENDED,2011-06-06 00:00:00,other,146,0,5
+ct,2011,lower,HB 6422,CTV00000731,upper,Senate Roll Call Vote 430,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6318,CTV00000732,upper,Senate Roll Call Vote 460,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6312,CTV00000733,upper,Senate Roll Call Vote 443,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6314,CTV00000734,upper,Senate Roll Call Vote 473,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6227,CTV00000735,upper,Senate Roll Call Vote 458,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6222,CTV00000736,upper,Senate Roll Call Vote 428,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6221,CTV00000737,upper,Senate Roll Call Vote 432,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6438,CTV00000739,upper,Senate Roll Call Vote 475,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6434,CTV00000740,upper,Senate Roll Call Vote 468,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6433,CTV00000741,upper,Senate Roll Call Vote 456,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6308,CTV00000742,upper,Senate Roll Call Vote 396 PASS     Order of the Day,2011-06-06 00:00:00,other,22,14,0
+ct,2011,lower,HB 6308,CTV00000743,upper,Senate Roll Call Vote 395 ADOPT    SENATE AMD L  LCO 8501,2011-06-06 00:00:00,other,15,20,1
+ct,2011,lower,HB 6308,CTV00000744,upper,Senate Roll Call Vote 394 ADOPT    SENATE AMD K  LCO 8462,2011-06-06 00:00:00,other,14,21,1
+ct,2011,lower,HB 6308,CTV00000745,upper,Senate Roll Call Vote 393 ADOPT    SENATE AMD J  LCO 8495,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000746,upper,Senate Roll Call Vote 392 ADOPT    SENATE AMD I  LCO 8470,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000747,upper,Senate Roll Call Vote 391 ADOPT    SENATE AMD H  LCO 8486,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000748,upper,Senate Roll Call Vote 390 ADOPT    SENATE AMD G  LCO 8453,2011-06-06 00:00:00,other,14,21,1
+ct,2011,lower,HB 6308,CTV00000749,upper,Senate Roll Call Vote 389 ADOPT    SENATE AMD F  LCO 8484,2011-06-06 00:00:00,other,15,21,0
+ct,2011,lower,HB 6308,CTV00000750,upper,Senate Roll Call Vote 388 ADOPT    SENATE AMD E  LCO 8452,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000751,upper,Senate Roll Call Vote 387 ADOPT    SENATE AMD D  LCO 8457,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000752,upper,Senate Roll Call Vote 386 ADOPT    SENATE AMD C  LCO 8493,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6308,CTV00000753,upper,Senate Roll Call Vote 385 ADOPT    SENATE AMD B  LCO 8460,2011-06-06 00:00:00,other,14,20,2
+ct,2011,lower,HB 6308,CTV00000754,upper,Senate Roll Call Vote 384 ADOPT    SENATE AMD A  LCO 8469,2011-06-06 00:00:00,other,14,22,0
+ct,2011,lower,HB 6303,CTV00000755,upper,Senate Roll Call Vote 436,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6233,CTV00000756,upper,Senate Roll Call Vote 491,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6159,CTV00000757,upper,Senate Roll Call Vote 409,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6449,CTV00000758,lower,House Roll Call Vote 299 AS AMENDED,2011-06-06 00:00:00,other,148,0,3
+ct,2011,lower,HB 6448,CTV00000759,upper,Senate Roll Call Vote 493,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6440,CTV00000760,upper,Senate Roll Call Vote 453,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6336,CTV00000761,upper,Senate Roll Call Vote 467,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6338,CTV00000762,upper,Senate Roll Call Vote 445,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 5780,CTV00000764,upper,Senate Roll Call Vote 439,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6455,CTV00000765,upper,Senate Roll Call Vote 433,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6325,CTV00000766,upper,Senate Roll Call Vote 446,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 5795,CTV00000767,upper,Senate Roll Call Vote 469,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6598,CTV00000768,upper,Senate Roll Call Vote 464,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6590,CTV00000769,upper,Senate Roll Call Vote 431,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6596,CTV00000770,upper,Senate Roll Call Vote 482,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 5816,CTV00000774,upper,Senate Roll Call Vote 498,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6262,CTV00000775,lower,House Roll Call Vote 296 AS AMENDED,2011-06-06 00:00:00,other,145,0,6
+ct,2011,lower,HB 6126,CTV00000776,upper,Senate Roll Call Vote 421,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6585,CTV00000778,lower,House Roll Call Vote 291 AS AMENDED,2011-06-06 00:00:00,other,95,49,7
+ct,2011,lower,HB 6585,CTV00000779,lower,House Roll Call Vote 290 LCO # 6737,2011-06-06 00:00:00,other,92,42,17
+ct,2011,lower,HB 6471,CTV00000780,upper,Senate Roll Call Vote 454,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 5585,CTV00000781,upper,Senate Roll Call Vote 465,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 5802,CTV00000782,upper,Senate Roll Call Vote 455,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6274,CTV00000783,upper,Senate Roll Call Vote 424,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6113,CTV00000784,upper,Senate Roll Call Vote 494,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6485,CTV00000785,upper,Senate Roll Call Vote 479,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6642,CTV00000786,upper,Senate Roll Call Vote 486,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6249,CTV00000787,upper,Senate Roll Call Vote 497,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6103,CTV00000788,upper,Senate Roll Call Vote 466,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6100,CTV00000789,upper,Senate Roll Call Vote 488,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6498,CTV00000791,upper,Senate Roll Call Vote 480,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6499,CTV00000792,upper,Senate Roll Call Vote 437,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6497,CTV00000793,lower,House Roll Call Vote 292 AS AMENDED,2011-06-06 00:00:00,other,144,0,7
+ct,2011,lower,HB 6490,CTV00000794,upper,Senate Roll Call Vote 438,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6652,CTV00000795,upper,Senate Roll Call Vote 419 PASS     EMERGENCY CERTIFICATION,2011-06-07 00:00:00,other,20,16,0
+ct,2011,lower,HB 6652,CTV00000796,upper,Senate Roll Call Vote 418 ADOPT    SENATE AMD F  LCO 8589,2011-06-07 00:00:00,other,14,22,0
+ct,2011,lower,HB 6652,CTV00000797,upper,Senate Roll Call Vote 417 ADOPT    SENATE AMD E  LCO 8586,2011-06-07 00:00:00,other,14,22,0
+ct,2011,lower,HB 6652,CTV00000798,upper,Senate Roll Call Vote 416 ADOPT    SENATE AMD D  LCO 8593,2011-06-07 00:00:00,other,14,22,0
+ct,2011,lower,HB 6652,CTV00000799,upper,Senate Roll Call Vote 415 ADOPT    SENATE AMD C  LCO 8584,2011-06-07 00:00:00,other,13,23,0
+ct,2011,lower,HB 6652,CTV00000800,upper,Senate Roll Call Vote 414 ADOPT    SENATE AMD B  LCO 8602,2011-06-07 00:00:00,other,14,22,0
+ct,2011,lower,HB 6652,CTV00000801,upper,Senate Roll Call Vote 413 ADOPT    SENATE AMD A  LCO 8583,2011-06-07 00:00:00,other,14,21,1
+ct,2011,lower,HB 6652,CTV00000802,lower,House Roll Call Vote 312 AS AMENDED,2011-06-07 00:00:00,other,83,63,5
+ct,2011,lower,HB 6652,CTV00000803,lower,House Roll Call Vote 311 LCO # 8558,2011-06-07 00:00:00,other,54,90,7
+ct,2011,lower,HB 6652,CTV00000804,lower,House Roll Call Vote 310 LCO # 8562,2011-06-07 00:00:00,other,52,93,6
+ct,2011,lower,HB 6652,CTV00000805,lower,House Roll Call Vote 309 LCO # 8505,2011-06-06 00:00:00,other,56,89,6
+ct,2011,lower,HB 6652,CTV00000806,lower,House Roll Call Vote 308 LCO # 8555,2011-06-06 00:00:00,other,51,94,6
+ct,2011,lower,HB 6652,CTV00000807,lower,House Roll Call Vote 307 LCO # 8490,2011-06-06 00:00:00,other,51,95,5
+ct,2011,lower,HB 6652,CTV00000808,lower,House Roll Call Vote 306 LCO # 8516,2011-06-06 00:00:00,other,52,93,6
+ct,2011,lower,HB 6652,CTV00000809,lower,House Roll Call Vote 305 LCO # 8508,2011-06-06 00:00:00,other,61,83,7
+ct,2011,lower,HB 6652,CTV00000810,lower,House Roll Call Vote 304 LCO # 8426,2011-06-06 00:00:00,other,50,96,5
+ct,2011,lower,HB 6652,CTV00000811,lower,House Roll Call Vote 303 LCO # 8498,2011-06-06 00:00:00,other,52,95,4
+ct,2011,lower,HB 6652,CTV00000812,lower,House Roll Call Vote 302 LCO # 8530,2011-06-06 00:00:00,other,58,89,4
+ct,2011,lower,HB 6652,CTV00000813,lower,House Roll Call Vote 301 LCO # 8514,2011-06-06 00:00:00,other,50,93,8
+ct,2011,lower,HB 6652,CTV00000814,lower,House Roll Call Vote 300 LCO # 8445,2011-06-06 00:00:00,other,51,95,5
+ct,2011,lower,HB 5634,CTV00000815,upper,Senate Roll Call Vote 483,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6250,CTV00000816,upper,Senate Roll Call Vote 499,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6629,CTV00000817,upper,Senate Roll Call Vote 472,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6532,CTV00000818,upper,Senate Roll Call Vote 441,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6538,CTV00000819,upper,Senate Roll Call Vote 452,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6638,CTV00000821,upper,Senate Roll Call Vote 426,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6639,CTV00000822,upper,Senate Roll Call Vote 476,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6631,CTV00000823,upper,Senate Roll Call Vote 484,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6634,CTV00000824,upper,Senate Roll Call Vote 481,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6635,CTV00000825,upper,Senate Roll Call Vote 425,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6636,CTV00000826,upper,Senate Roll Call Vote 462,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6525,CTV00000827,upper,Senate Roll Call Vote 489,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6526,CTV00000828,upper,Senate Roll Call Vote 477,2011-06-07 00:00:00,other,36,0,0
+ct,2011,lower,HB 6529,CTV00000829,upper,Senate Roll Call Vote 474,2011-06-07 00:00:00,other,36,0,0
+ct,2011,upper,SB 1047,CTV00000830,lower,House Roll Call Vote 373,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1181,CTV00000831,lower,House Roll Call Vote 375,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1181,CTV00000832,upper,Senate Roll Call Vote 548,2011-06-08 00:00:00,other,36,0,0
+ct,2011,upper,SB 1103,CTV00000833,lower,House Roll Call Vote 352 AS AMENDED,2011-06-08 00:00:00,other,130,16,5
+ct,2011,upper,SB 1044,CTV00000834,lower,House Roll Call Vote 372 AS AMENDED,2011-06-08 00:00:00,other,145,0,6
+ct,2011,upper,SB 860,CTV00000835,lower,House Roll Call Vote 330 AS AMENDED,2011-06-08 00:00:00,other,98,42,11
+ct,2011,upper,SB 1207,CTV00000836,lower,House Roll Call Vote 326 AS AMENDED,2011-06-08 00:00:00,other,111,29,11
+ct,2011,upper,SB 1043,CTV00000837,lower,House Roll Call Vote 371,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 912,CTV00000838,lower,House Roll Call Vote 328 AS AMENDED,2011-06-08 00:00:00,other,136,5,10
+ct,2011,upper,SB 983,CTV00000839,lower,House Roll Call Vote 313,2011-06-07 00:00:00,other,125,1,25
+ct,2011,upper,SB 982,CTV00000840,lower,House Roll Call Vote 374 AS AMENDED,2011-06-08 00:00:00,other,146,0,5
+ct,2011,upper,SB 1162,CTV00000841,lower,House Roll Call Vote 357 AS AMENDED,2011-06-08 00:00:00,other,148,0,3
+ct,2011,upper,SB 1162,CTV00000842,upper,Senate Roll Call Vote 508 PASS     AS AMENDED BY SEN A,2011-06-08 00:00:00,other,36,0,0
+ct,2011,upper,SB 1039,CTV00000843,lower,House Roll Call Vote 376 AS AMENDED,2011-06-09 00:00:00,other,142,0,9
+ct,2011,upper,SB 480,CTV00000844,lower,House Roll Call Vote 322,2011-06-07 00:00:00,other,145,0,6
+ct,2011,upper,SB 999,CTV00000845,lower,House Roll Call Vote 338 AS AMENDED,2011-06-08 00:00:00,other,143,0,8
+ct,2011,upper,SB 1243,CTV00000846,lower,House Roll Call Vote 320 AS AMENDED,2011-06-07 00:00:00,other,139,8,4
+ct,2011,upper,SB 1243,CTV00000847,lower,House Roll Call Vote 319 LCO # 8619,2011-06-07 00:00:00,other,52,92,7
+ct,2011,upper,SB 1243,CTV00000848,lower,House Roll Call Vote 318 LCO # 8436,2011-06-07 00:00:00,other,49,90,12
+ct,2011,upper,SB 1196,CTV00000849,lower,House Roll Call Vote 358 AS AMENDED,2011-06-08 00:00:00,other,90,58,3
+ct,2011,upper,SB 1196,CTV00000850,upper,Senate Roll Call Vote 507 PASS     AS AMENDED BY SEN A,2011-06-08 00:00:00,other,31,5,0
+ct,2011,upper,SB 1196,CTV00000851,upper,Senate Roll Call Vote 506 ADOPT    SENATE AMD B  LCO 8706,2011-06-08 00:00:00,other,11,25,0
+ct,2011,upper,SB 1196,CTV00000852,upper,Senate Roll Call Vote 505 ADOPT    SENATE AMD A  LCO 8697,2011-06-08 00:00:00,other,29,7,0
+ct,2011,upper,SB 952,CTV00000853,upper,Senate Roll Call Vote 576,2011-06-08 00:00:00,other,36,0,0
+ct,2011,upper,SB 954,CTV00000854,lower,House Roll Call Vote 359 AS AMENDED,2011-06-08 00:00:00,other,92,56,3
+ct,2011,upper,SB 954,CTV00000855,upper,Senate Roll Call Vote 565 PASS,2011-06-08 00:00:00,other,25,11,0
+ct,2011,upper,SB 1202,CTV00000856,lower,House Roll Call Vote 370 AS AMENDED,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1202,CTV00000857,upper,Senate Roll Call Vote 515 ADOPT    AS AMENDED BY SEN A,2011-06-08 00:00:00,other,36,0,0
+ct,2011,upper,SB 1173,CTV00000858,lower,House Roll Call Vote 337,2011-06-08 00:00:00,other,143,0,8
+ct,2011,upper,SB 923,CTV00000860,lower,House Roll Call Vote 327 AS AMENDED,2011-06-08 00:00:00,other,99,43,9
+ct,2011,upper,SB 929,CTV00000861,lower,House Roll Call Vote 317 AS AMENDED,2011-06-07 00:00:00,other,146,0,5
+ct,2011,upper,SB 929,CTV00000862,lower,House Roll Call Vote 316 LCO # 8635,2011-06-07 00:00:00,other,46,98,7
+ct,2011,upper,SB 1001,CTV00000863,lower,House Roll Call Vote 325 AS AMENDED,2011-06-08 00:00:00,other,116,26,9
+ct,2011,upper,SB 939,CTV00000864,lower,House Roll Call Vote 340 AS AMENDED,2011-06-08 00:00:00,other,142,1,8
+ct,2011,upper,SB 936,CTV00000865,lower,House Roll Call Vote 321 AS AMENDED,2011-06-07 00:00:00,other,123,21,7
+ct,2011,upper,SB 1153,CTV00000866,lower,House Roll Call Vote 350,2011-06-08 00:00:00,other,135,12,4
+ct,2011,upper,SB 1152,CTV00000867,lower,House Roll Call Vote 324,2011-06-08 00:00:00,other,97,45,9
+ct,2011,upper,SB 1014,CTV00000868,lower,House Roll Call Vote 315 AS AMENDED,2011-06-07 00:00:00,other,90,57,4
+ct,2011,upper,SB 1014,CTV00000869,lower,House Roll Call Vote 314 LCO # 8580,2011-06-07 00:00:00,other,52,94,5
+ct,2011,upper,SB 958,CTV00000871,lower,House Roll Call Vote 355,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1111,CTV00000872,lower,House Roll Call Vote 342 AS AMENDED,2011-06-08 00:00:00,other,144,0,7
+ct,2011,upper,SB 1127,CTV00000873,lower,House Roll Call Vote 356 AS AMENDED,2011-06-08 00:00:00,other,141,6,4
+ct,2011,upper,SB 1127,CTV00000874,upper,"Senate Roll Call Vote 510 PASS     AS AMENDED BY SEN A,B",2011-06-08 00:00:00,other,29,7,0
+ct,2011,upper,SB 970,CTV00000875,lower,House Roll Call Vote 341 AS AMENDED,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1083,CTV00000876,lower,House Roll Call Vote 351,2011-06-08 00:00:00,other,100,45,6
+ct,2011,lower,HB 6515,CTV00000877,upper,Senate Roll Call Vote 573,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6514,CTV00000878,upper,Senate Roll Call Vote 567,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6351,CTV00000879,upper,Senate Roll Call Vote 536,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6612,CTV00000881,upper,Senate Roll Call Vote 572,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6618,CTV00000882,upper,Senate Roll Call Vote 514 PASS,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6501,CTV00000883,upper,Senate Roll Call Vote 530,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 81,CTV00000884,upper,Senate Roll Call Vote 562,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 80,CTV00000885,upper,Senate Roll Call Vote 554,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 84,CTV00000886,upper,Senate Roll Call Vote 563,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6295,CTV00000887,lower,House Roll Call Vote 334 AS AMENDED,2011-06-08 00:00:00,other,137,1,13
+ct,2011,lower,HB 6344,CTV00000888,upper,Senate Roll Call Vote 541,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6341,CTV00000889,upper,Senate Roll Call Vote 512 PASS,2011-06-08 00:00:00,other,31,3,2
+ct,2011,lower,HB 6376,CTV00000891,lower,House Roll Call Vote 363,2011-06-08 00:00:00,other,136,10,5
+ct,2011,lower,HB 6410,CTV00000895,upper,Senate Roll Call Vote 524,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6364,CTV00000896,upper,Senate Roll Call Vote 545,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6554,CTV00000899,upper,Senate Roll Call Vote 568,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6557,CTV00000900,upper,Senate Roll Call Vote 519,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6552,CTV00000901,upper,Senate Roll Call Vote 571,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6559,CTV00000902,upper,Senate Roll Call Vote 537,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6429,CTV00000903,lower,House Roll Call Vote 353 CONSENT CALENDAR,2011-06-08 00:00:00,other,148,0,3
+ct,2011,lower,HB 6226,CTV00000904,upper,Senate Roll Call Vote 520,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6224,CTV00000905,upper,Senate Roll Call Vote 531,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6540,CTV00000907,upper,Senate Roll Call Vote 542,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6549,CTV00000908,upper,Senate Roll Call Vote 513 PASS,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6306,CTV00000909,upper,Senate Roll Call Vote 564,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6234,CTV00000910,upper,Senate Roll Call Vote 504 PASS,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6238,CTV00000911,upper,Senate Roll Call Vote 502 PASS,2011-06-08 00:00:00,other,23,13,0
+ct,2011,lower,HB 6157,CTV00000912,upper,Senate Roll Call Vote 523,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6156,CTV00000913,upper,Senate Roll Call Vote 525,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6449,CTV00000915,upper,Senate Roll Call Vote 547,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6453,CTV00000918,upper,Senate Roll Call Vote 532,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6215,CTV00000919,lower,House Roll Call Vote 354,2011-06-08 00:00:00,other,135,13,3
+ct,2011,lower,HB 6215,CTV00000920,upper,Senate Roll Call Vote 574,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6591,CTV00000922,upper,Senate Roll Call Vote 569,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6595,CTV00000923,upper,Senate Roll Call Vote 538,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6461,CTV00000924,upper,Senate Roll Call Vote 501 PASS,2011-06-08 00:00:00,other,23,11,2
+ct,2011,lower,HB 6263,CTV00000926,upper,Senate Roll Call Vote 526,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6262,CTV00000927,upper,Senate Roll Call Vote 544,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6267,CTV00000928,upper,Senate Roll Call Vote 539,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 5567,CTV00000929,upper,Senate Roll Call Vote 570,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6472,CTV00000931,upper,Senate Roll Call Vote 503 PASS,2011-06-08 00:00:00,other,26,8,2
+ct,2011,lower,HB 6474,CTV00000932,upper,Senate Roll Call Vote 511 PASS,2011-06-08 00:00:00,other,25,11,0
+ct,2011,lower,HJ 69,CTV00000933,upper,Senate Roll Call Vote 560,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 68,CTV00000934,upper,Senate Roll Call Vote 559,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 66,CTV00000936,upper,Senate Roll Call Vote 553,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6489,CTV00000938,upper,Senate Roll Call Vote 535,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6488,CTV00000939,upper,Senate Roll Call Vote 517,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HJ 73,CTV00000940,upper,Senate Roll Call Vote 561,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6249,CTV00000941,lower,House Roll Call Vote 361 AS AMENDED,2011-06-08 00:00:00,other,131,16,4
+ct,2011,lower,HB 6497,CTV00000942,upper,Senate Roll Call Vote 543,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6259,CTV00000945,upper,Senate Roll Call Vote 521,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6399,CTV00000946,lower,House Roll Call Vote 364 AS AMENDED,2011-06-08 00:00:00,other,148,0,3
+ct,2011,lower,HB 6399,CTV00000947,upper,Senate Roll Call Vote 575,2011-06-08 00:00:00,other,36,0,0
+ct,2011,lower,HB 6581,CTV00000949,upper,Senate Roll Call Vote 529,2011-06-08 00:00:00,other,36,0,0
+ct,2011,upper,SB 911,CTV00000953,lower,House Roll Call Vote 362 AS AMENDED,2011-06-08 00:00:00,other,146,1,4
+ct,2011,upper,SB 764,CTV00000954,lower,House Roll Call Vote 333 AS AMENDED,2011-06-08 00:00:00,other,137,0,14
+ct,2011,upper,SB 464,CTV00000956,lower,House Roll Call Vote 367 AS AMENDED,2011-06-08 00:00:00,other,141,5,5
+ct,2011,upper,SB 462,CTV00000957,lower,House Roll Call Vote 368,2011-06-08 00:00:00,other,143,3,5
+ct,2011,upper,SB 458,CTV00000961,lower,House Roll Call Vote 369 AS AMENDED,2011-06-08 00:00:00,other,117,30,4
+ct,2011,upper,SB 882,CTV00000968,lower,House Roll Call Vote 360 AS AMENDED,2011-06-08 00:00:00,other,147,0,4
+ct,2011,upper,SB 1301,CTV00000969,upper,Senate Roll Call Vote 580 PASS     AS AMENDED BY SEN A,2011-06-30 00:00:00,other,30,6,0
+ct,2011,upper,SB 1301,CTV00000970,upper,Senate Roll Call Vote 579 ADOPT    SENATE AMD C  LCO 8752,2011-06-30 00:00:00,other,12,24,0
+ct,2011,upper,SB 1301,CTV00000971,upper,Senate Roll Call Vote 578 ADOPT    SENATE AMD B  LCO 8759,2011-06-30 00:00:00,other,14,20,2
+ct,2011,upper,SB 1301,CTV00000972,upper,Senate Roll Call Vote 577 ADOPT    SENATE AMD A  LCO 8746,2011-06-30 00:00:00,other,32,4,0
+ct,2011,lower,HB 6701,CTV00000973,upper,Senate Roll Call Vote 583 PASS     EMERGENCY CERTIFICATION,2011-07-01 00:00:00,other,21,14,1
+ct,2011,lower,HB 6701,CTV00000974,upper,Senate Roll Call Vote 582 ADOPT    SENATE AMD B  LCO 8775,2011-07-01 00:00:00,other,14,21,1
+ct,2011,lower,HB 6701,CTV00000975,upper,Senate Roll Call Vote 581 ADOPT    SENATE AMD A  LCO 8773,2011-07-01 00:00:00,other,14,21,1
+ct,2011,lower,HB 6701,CTV00000976,lower,House Roll Call Vote 381 EMERGENCY CERTIFI,2011-07-01 00:00:00,other,78,56,17
+ct,2011,lower,HB 6701,CTV00000977,lower,House Roll Call Vote 380 LCO # 8772,2011-06-30 00:00:00,other,47,87,17
+ct,2011,lower,HB 6701,CTV00000978,lower,House Roll Call Vote 379 LCO # 8769,2011-06-30 00:00:00,other,50,84,17
+ct,2011,lower,HB 6701,CTV00000979,lower,House Roll Call Vote 378 LCO # 8771,2011-06-30 00:00:00,other,46,87,18
+ct,2011,lower,HB 6701,CTV00000980,lower,House Roll Call Vote 377 LCO # 8767,2011-06-30 00:00:00,other,49,82,20
+ct,2011,upper,SB 1401,CTV00000981,lower,House Roll Call Vote 383,2011-10-26 00:00:00,other,101,41,9
+ct,2011,upper,SB 1401,CTV00000982,upper,Senate Roll Call Vote 584 PASS     EMERGENCY CERTIFICATION,2011-10-26 00:00:00,other,21,14,1
+ct,2011,lower,HB 6801,CTV00000983,lower,House Roll Call Vote 382 AS AMENDED,2011-10-26 00:00:00,other,147,1,3
+ct,2011,lower,HB 6801,CTV00000984,upper,Senate Roll Call Vote 585 PASS     AS AMENDED BY HOUSE A,2011-10-26 00:00:00,other,34,1,1
+ct,2012,lower,HB 5308,CTV00001664,lower,House Roll Call Vote 291 CONSENT CALENDAR,2012-05-09 00:00:00,other,150,0,1
+ct,2012,lower,HB 5301,CTV00000988,upper,Senate Roll Call Vote 8,2012-02-29 00:00:00,other,34,0,2
+ct,2012,lower,HB 5301,CTV00000989,lower,House Roll Call Vote 18 EMERGENCY CERTIFI,2012-02-23 00:00:00,other,137,0,14
+ct,2012,lower,HB 5303,CTV00000990,upper,Senate Roll Call Vote 4 PASS     AS AMENDED BY House A,2012-02-29 00:00:00,other,34,0,2
+ct,2012,lower,HB 5303,CTV00000991,lower,House Roll Call Vote 19 AS AMENDED,2012-02-23 00:00:00,other,120,11,20
+ct,2012,lower,HB 5302,CTV00000992,upper,Senate Roll Call Vote 3 PASS     EMERGENCY CERTIFICATION,2012-02-29 00:00:00,other,22,12,2
+ct,2012,lower,HB 5302,CTV00000993,upper,Senate Roll Call Vote 2 ADOPT    AS AMENDED BY LCO 1761,2012-02-29 00:00:00,other,14,21,1
+ct,2012,lower,HB 5302,CTV00000994,upper,Senate Roll Call Vote 1 ADOPT    AS AMENDED BY LCO 1777,2012-02-29 00:00:00,other,13,22,1
+ct,2012,lower,HB 5302,CTV00000995,lower,House Roll Call Vote 21,2012-02-23 00:00:00,other,120,8,23
+ct,2012,lower,HB 5302,CTV00000996,lower,House Roll Call Vote 20 LCO # 1456,2012-02-23 00:00:00,other,47,83,21
+ct,2012,lower,HB 5304,CTV00001742,upper,Senate Roll Call Vote 458,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5307,CTV00001665,upper,Senate Roll Call Vote 412,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5307,CTV00001198,lower,House Roll Call Vote 94 AS AMENDED,2012-04-18 00:00:00,other,140,0,11
+ct,2012,upper,SB 354,CTV00001560,upper,Senate Roll Call Vote 328 ADOPT    SENATE AMD A  LCO 4662,2012-05-07 00:00:00,other,34,0,2
+ct,2012,upper,SB 350,CTV00001496,lower,House Roll Call Vote 238 AS AMENDED,2012-05-04 00:00:00,other,139,2,10
+ct,2012,upper,SB 350,CTV00001188,upper,Senate Roll Call Vote 152,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 55,CTV00001309,upper,Senate Roll Call Vote 213,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 57,CTV00001393,upper,Senate Roll Call Vote 234 PASS     AS AMENDED BY SEN A,2012-05-02 00:00:00,other,34,1,1
+ct,2012,upper,SB 56,CTV00001290,lower,House Roll Call Vote 133 AS AMENDED,2012-04-26 00:00:00,other,140,0,11
+ct,2012,upper,SB 56,CTV00001225,upper,Senate Roll Call Vote 140,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SJ 11,CTV00001060,upper,Senate Roll Call Vote 51,2012-03-28 00:00:00,other,36,0,0
+ct,2012,lower,HB 5237,CTV00001613,upper,Senate Roll Call Vote 376,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5237,CTV00001432,lower,House Roll Call Vote 203 AS AMENDED,2012-05-03 00:00:00,other,142,0,9
+ct,2012,lower,HB 5236,CTV00001258,lower,House Roll Call Vote 104 AS AMENDED,2012-04-19 00:00:00,other,146,0,5
+ct,2012,lower,HB 5231,CTV00001433,lower,House Roll Call Vote 191 AS AMENDED,2012-05-02 00:00:00,other,113,25,13
+ct,2012,lower,HB 5230,CTV00001666,upper,Senate Roll Call Vote 414,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5230,CTV00001199,lower,House Roll Call Vote 89 AS AMENDED,2012-04-18 00:00:00,other,145,0,6
+ct,2012,lower,HB 5233,CTV00001667,upper,Senate Roll Call Vote 427,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5233,CTV00001434,lower,House Roll Call Vote 183,2012-05-02 00:00:00,other,141,3,7
+ct,2012,lower,HB 5011,CTV00001668,upper,Senate Roll Call Vote 408,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5011,CTV00001169,lower,House Roll Call Vote 63,2012-04-17 00:00:00,other,143,0,8
+ct,2012,lower,HB 5010,CTV00001170,lower,House Roll Call Vote 62,2012-04-17 00:00:00,other,143,0,8
+ct,2012,lower,HB 5013,CTV00001292,lower,House Roll Call Vote 124 AS AMENDED,2012-04-25 00:00:00,other,146,0,5
+ct,2012,lower,HB 5548,CTV00001614,upper,Senate Roll Call Vote 370,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5548,CTV00001348,lower,House Roll Call Vote 153 AS AMENDED,2012-04-30 00:00:00,other,147,0,4
+ct,2012,upper,SJ 19,CTV00001103,upper,Senate Roll Call Vote 78 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HB 5428,CTV00001171,lower,House Roll Call Vote 80,2012-04-17 00:00:00,other,145,0,6
+ct,2012,lower,HB 5397,CTV00001349,lower,House Roll Call Vote 141 AS AMENDED,2012-04-30 00:00:00,other,124,21,6
+ct,2012,lower,HB 5394,CTV00001669,upper,Senate Roll Call Vote 403,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5394,CTV00001670,upper,Senate Roll Call Vote 396,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5395,CTV00001615,upper,Senate Roll Call Vote 368,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5395,CTV00001350,lower,House Roll Call Vote 142 AS AMENDED,2012-04-30 00:00:00,other,143,0,8
+ct,2012,lower,HJ 78,CTV00001200,upper,Senate Roll Call Vote 136,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HJ 79,CTV00001201,upper,Senate Roll Call Vote 137,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HJ 70,CTV00001114,upper,Senate Roll Call Vote 90 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 71,CTV00001160,upper,Senate Roll Call Vote 100,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 72,CTV00001161,upper,Senate Roll Call Vote 101,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 73,CTV00001162,upper,Senate Roll Call Vote 102,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 74,CTV00001163,upper,Senate Roll Call Vote 103,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 75,CTV00001164,upper,Senate Roll Call Vote 104,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 76,CTV00001165,upper,Senate Roll Call Vote 105,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 77,CTV00001166,upper,Senate Roll Call Vote 106,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5319,CTV00001671,upper,Senate Roll Call Vote 437,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5319,CTV00001529,lower,House Roll Call Vote 219 AS AMENDED,2012-05-04 00:00:00,other,129,13,9
+ct,2012,upper,SB 353,CTV00001464,upper,Senate Roll Call Vote 297,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 337,CTV00001509,lower,House Roll Call Vote 228,2012-05-04 00:00:00,other,140,0,11
+ct,2012,upper,SB 337,CTV00001192,upper,Senate Roll Call Vote 157,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HB 5164,CTV00001616,upper,Senate Roll Call Vote 374,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5164,CTV00001435,lower,House Roll Call Vote 182 AS AMENDED,2012-05-02 00:00:00,other,142,0,9
+ct,2012,upper,SB 408,CTV00001190,upper,Senate Roll Call Vote 144,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HB 5491,CTV00001259,lower,House Roll Call Vote 116,2012-04-20 00:00:00,other,139,0,12
+ct,2012,lower,HB 5495,CTV00001672,upper,Senate Roll Call Vote 419,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5495,CTV00001293,lower,House Roll Call Vote 125,2012-04-25 00:00:00,other,147,0,4
+ct,2012,lower,HB 5497,CTV00001617,upper,Senate Roll Call Vote 378,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5497,CTV00001530,lower,House Roll Call Vote 217 AS AMENDED,2012-05-04 00:00:00,other,142,0,9
+ct,2012,lower,HB 5496,CTV00001673,upper,Senate Roll Call Vote 456,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5496,CTV00001436,lower,House Roll Call Vote 186,2012-05-02 00:00:00,other,145,3,3
+ct,2012,lower,HB 5499,CTV00001674,upper,Senate Roll Call Vote 388 PASS     AS AMENDED BY HOUSE A,2012-05-09 00:00:00,other,33,3,0
+ct,2012,lower,HB 5499,CTV00001260,lower,House Roll Call Vote 106 AS AMENDED,2012-04-19 00:00:00,other,149,0,2
+ct,2012,lower,HB 5498,CTV00001475,upper,Senate Roll Call Vote 292,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5498,CTV00001261,lower,House Roll Call Vote 108 AS AMENDED,2012-04-19 00:00:00,other,146,0,5
+ct,2012,lower,HB 5312,CTV00001476,upper,Senate Roll Call Vote 283 PASS     AS AMENDED BY HOUSE A&B,2012-05-03 00:00:00,other,22,14,0
+ct,2012,lower,HB 5312,CTV00001477,upper,Senate Roll Call Vote 282 ADOPT    SENATE AMD K  LCO 4152,2012-05-03 00:00:00,other,14,21,1
+ct,2012,lower,HB 5312,CTV00001478,upper,Senate Roll Call Vote 281 ADOPT    SENATE AMD J  LCO 4764,2012-05-03 00:00:00,other,14,20,2
+ct,2012,lower,HB 5312,CTV00001479,upper,Senate Roll Call Vote 280 ADOPT    SENATE AMD I  LCO 4757,2012-05-03 00:00:00,other,15,19,2
+ct,2012,lower,HB 5312,CTV00001480,upper,Senate Roll Call Vote 279 ADOPT    SENATE AMD H  LCO 4151,2012-05-03 00:00:00,other,11,23,2
+ct,2012,lower,HB 5312,CTV00001481,upper,Senate Roll Call Vote 278 ADOPT    SENATE AMD G  LCO 4386,2012-05-03 00:00:00,other,12,22,2
+ct,2012,lower,HB 5312,CTV00001482,upper,Senate Roll Call Vote 277 ADOPT    SENATE AMD F  LCO 4233,2012-05-03 00:00:00,other,9,25,2
+ct,2012,lower,HB 5312,CTV00001483,upper,Senate Roll Call Vote 276 ADOPT    SENATE AMD E  LCO 4145,2012-05-03 00:00:00,other,9,24,3
+ct,2012,lower,HB 5312,CTV00001484,upper,Senate Roll Call Vote 275 ADOPT    SENATE AMD D  LCO 4155,2012-05-03 00:00:00,other,15,19,2
+ct,2012,lower,HB 5312,CTV00001485,upper,Senate Roll Call Vote 274 ADOPT    SENATE AMD C  LCO 4143,2012-05-03 00:00:00,other,14,19,3
+ct,2012,lower,HB 5312,CTV00001486,upper,Senate Roll Call Vote 273 ADOPT    SENATE AMD B  LCO 4142,2012-05-03 00:00:00,other,14,20,2
+ct,2012,lower,HB 5312,CTV00001487,upper,Senate Roll Call Vote 272 ADOPT    SENATE AMD A  LCO 4726,2012-05-03 00:00:00,other,14,20,2
+ct,2012,lower,HB 5312,CTV00001262,lower,House Roll Call Vote 121 AS AMENDED,2012-04-20 00:00:00,other,84,57,10
+ct,2012,lower,HB 5312,CTV00001263,lower,House Roll Call Vote 120 LCO # 3674,2012-04-20 00:00:00,other,48,89,14
+ct,2012,lower,HB 5348,CTV00001675,upper,Senate Roll Call Vote 386 PASS     AS AMENDED BY HOUSE A&B,2012-05-09 00:00:00,other,32,3,1
+ct,2012,lower,HB 5348,CTV00001437,lower,House Roll Call Vote 192 AS AMENDED,2012-05-03 00:00:00,other,124,2,25
+ct,2012,upper,SB 384,CTV00001469,upper,Senate Roll Call Vote 294,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 276,CTV00001465,lower,House Roll Call Vote 213 AS AMENDED,2012-05-03 00:00:00,other,140,0,11
+ct,2012,upper,SB 276,CTV00001226,upper,Senate Roll Call Vote 141,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 270,CTV00001602,upper,Senate Roll Call Vote 345 PASS     AS AMENDED BY SEN A,2012-05-08 00:00:00,other,35,1,0
+ct,2012,lower,HB 5346,CTV00001488,upper,Senate Roll Call Vote 288,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5346,CTV00001172,lower,House Roll Call Vote 73 AS AMENDED,2012-04-17 00:00:00,other,145,0,6
+ct,2012,upper,SB 427,CTV00001653,upper,Senate Roll Call Vote 383 PASS,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5343,CTV00001676,upper,Senate Roll Call Vote 444,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5343,CTV00001585,lower,House Roll Call Vote 263 AS AMENDED,2012-05-07 00:00:00,other,139,3,9
+ct,2012,upper,SJ 8,CTV00001048,upper,Senate Roll Call Vote 48,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 6,CTV00001086,lower,House Roll Call Vote 35,2012-04-04 00:00:00,other,134,0,17
+ct,2012,upper,SJ 6,CTV00001050,upper,Senate Roll Call Vote 46,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 7,CTV00001087,lower,House Roll Call Vote 37 CONSENT CALENDAR,2012-04-04 00:00:00,other,139,0,12
+ct,2012,upper,SJ 7,CTV00001051,upper,Senate Roll Call Vote 47,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 4,CTV00001052,upper,Senate Roll Call Vote 53,2012-03-28 00:00:00,other,36,0,0
+ct,2012,lower,HB 5269,CTV00001351,lower,House Roll Call Vote 169 AS AMENDED,2012-05-01 00:00:00,other,142,1,8
+ct,2012,upper,SR 6,CTV00000985,upper,Senate Roll Call Vote 6,2012-02-29 00:00:00,other,34,0,2
+ct,2012,upper,SR 7,CTV00000986,upper,Senate Roll Call Vote 7,2012-02-29 00:00:00,other,34,0,2
+ct,2012,upper,SR 5,CTV00000987,upper,Senate Roll Call Vote 5,2012-02-29 00:00:00,other,34,0,2
+ct,2012,upper,SB 418,CTV00001660,upper,Senate Roll Call Vote 446,2012-05-09 00:00:00,other,36,0,0
+ct,2012,upper,SR 8,CTV00001054,upper,Senate Roll Call Vote 52,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SR 9,CTV00001055,upper,Senate Roll Call Vote 58,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SR 11,CTV00001125,upper,Senate Roll Call Vote 96,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 310,CTV00001650,lower,House Roll Call Vote 300 AS AMENDED,2012-05-09 00:00:00,other,143,3,5
+ct,2012,upper,SB 310,CTV00001424,upper,Senate Roll Call Vote 266 PASS     AS AMENDED BY SEN A,2012-05-02 00:00:00,other,23,13,0
+ct,2012,upper,SB 310,CTV00001425,upper,Senate Roll Call Vote 265 ADOPT    SENATE AMD B  LCO 4667,2012-05-02 00:00:00,other,14,19,3
+ct,2012,upper,SB 310,CTV00001426,upper,Senate Roll Call Vote 264 ADOPT    SENATE AMD A  LCO 4550,2012-05-02 00:00:00,other,20,14,2
+ct,2012,upper,SB 311,CTV00001561,upper,Senate Roll Call Vote 335,2012-05-07 00:00:00,other,35,0,1
+ct,2012,upper,SB 316,CTV00001466,upper,Senate Roll Call Vote 284,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 307,CTV00001197,upper,Senate Roll Call Vote 156,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 315,CTV00001394,upper,Senate Roll Call Vote 256,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 294,CTV00001514,lower,House Roll Call Vote 253,2012-05-05 00:00:00,other,134,0,17
+ct,2012,upper,SB 294,CTV00001248,upper,Senate Roll Call Vote 154,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 194,CTV00001507,lower,House Roll Call Vote 234 AS AMENDED,2012-05-04 00:00:00,other,140,0,11
+ct,2012,upper,SB 194,CTV00001318,upper,Senate Roll Call Vote 210,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SR 12,CTV00001126,upper,Senate Roll Call Vote 97,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5170,CTV00001677,upper,Senate Roll Call Vote 440,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5170,CTV00001531,lower,House Roll Call Vote 244 AS AMENDED,2012-05-05 00:00:00,other,137,3,11
+ct,2012,upper,SB 405,CTV00001601,upper,Senate Roll Call Vote 346 PASS     AS AMENDED BY SEN A,2012-05-08 00:00:00,other,36,0,0
+ct,2012,upper,SB 191,CTV00001245,lower,House Roll Call Vote 111,2012-04-19 00:00:00,other,146,0,5
+ct,2012,upper,SB 191,CTV00001131,upper,Senate Roll Call Vote 119,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5462,CTV00001678,upper,Senate Roll Call Vote 402,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5464,CTV00001438,lower,House Roll Call Vote 214 AS AMENDED,2012-05-03 00:00:00,other,138,3,10
+ct,2012,lower,HB 5465,CTV00001532,lower,House Roll Call Vote 220,2012-05-04 00:00:00,other,113,32,6
+ct,2012,lower,HB 5467,CTV00001679,upper,Senate Roll Call Vote 448,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5467,CTV00001533,lower,House Roll Call Vote 241 AS AMENDED,2012-05-04 00:00:00,other,140,1,10
+ct,2012,lower,HB 5299,CTV00001618,upper,Senate Roll Call Vote 360,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5299,CTV00001202,lower,House Roll Call Vote 83 AS AMENDED,2012-04-18 00:00:00,other,139,0,12
+ct,2012,lower,HB 5298,CTV00001680,upper,Senate Roll Call Vote 443,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5298,CTV00001586,lower,House Roll Call Vote 264 AS AMENDED,2012-05-07 00:00:00,other,147,0,4
+ct,2012,upper,SB 1,CTV00001344,upper,Senate Roll Call Vote 221,2012-04-30 00:00:00,other,11,15,10
+ct,2012,upper,SB 1,CTV00001310,upper,Senate Roll Call Vote 220 PASS     AS AMENDED BY SEN A,2012-04-27 00:00:00,other,32,2,2
+ct,2012,upper,SB 1,CTV00001311,upper,Senate Roll Call Vote 219 ADOPT    SENATE AMD B  LCO 4115,2012-04-27 00:00:00,other,12,22,2
+ct,2012,upper,SB 1,CTV00001312,upper,Senate Roll Call Vote 218 ADOPT    SENATE AMD A  LCO 4139,2012-04-27 00:00:00,other,32,3,1
+ct,2012,lower,HB 5291,CTV00001294,lower,House Roll Call Vote 136 AS AMENDED,2012-04-26 00:00:00,other,88,62,1
+ct,2012,lower,HB 5291,CTV00001295,lower,House Roll Call Vote 135 LCO # 4029,2012-04-26 00:00:00,other,54,96,1
+ct,2012,lower,HB 5291,CTV00001296,lower,House Roll Call Vote 134 LCO # 3963,2012-04-26 00:00:00,other,92,52,7
+ct,2012,lower,HB 5290,CTV00001681,upper,Senate Roll Call Vote 411,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5290,CTV00001203,lower,House Roll Call Vote 81,2012-04-18 00:00:00,other,137,0,14
+ct,2012,lower,HB 5294,CTV00001204,lower,House Roll Call Vote 82,2012-04-18 00:00:00,other,140,1,10
+ct,2012,upper,SB 146,CTV00001138,upper,Senate Roll Call Vote 94 PASS,2012-04-11 00:00:00,other,26,10,0
+ct,2012,upper,SB 402,CTV00001275,upper,Senate Roll Call Vote 181,2012-04-25 00:00:00,other,36,0,0
+ct,2012,upper,SB 368,CTV00001497,upper,Senate Roll Call Vote 306,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 367,CTV00001467,upper,Senate Roll Call Vote 286,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 366,CTV00001313,upper,Senate Roll Call Vote 211,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 364,CTV00001562,lower,House Roll Call Vote 257 AS AMENDED,2012-05-07 00:00:00,other,142,1,8
+ct,2012,upper,SB 364,CTV00001227,upper,Senate Roll Call Vote 167 PASS     AS AMENDED BY SEN A,2012-04-19 00:00:00,other,31,3,2
+ct,2012,upper,SB 364,CTV00001228,upper,Senate Roll Call Vote 166 ADOPT    SENATE AMD H  LCO 3556,2012-04-19 00:00:00,other,14,20,2
+ct,2012,upper,SB 364,CTV00001229,upper,Senate Roll Call Vote 165 ADOPT    SENATE AMD D  LCO 3392,2012-04-19 00:00:00,other,14,20,2
+ct,2012,upper,SB 364,CTV00001230,upper,Senate Roll Call Vote 164 ADOPT    SENATE AMD C  LCO 3388,2012-04-19 00:00:00,other,9,25,2
+ct,2012,upper,SB 364,CTV00001231,upper,Senate Roll Call Vote 163 ADOPT    SENATE AMD B  LCO 3383,2012-04-19 00:00:00,other,13,20,3
+ct,2012,upper,SB 360,CTV00001498,upper,Senate Roll Call Vote 304,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 360,CTV00001499,upper,Senate Roll Call Vote 298 ADOPT    SENATE AMD B  LCO 4918,2012-05-04 00:00:00,other,14,20,2
+ct,2012,lower,HB 5262,CTV00001534,lower,House Roll Call Vote 254 AS AMENDED,2012-05-05 00:00:00,other,132,4,15
+ct,2012,lower,HB 5263,CTV00001619,upper,Senate Roll Call Vote 375,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5263,CTV00001439,lower,House Roll Call Vote 194,2012-05-03 00:00:00,other,127,0,24
+ct,2012,lower,HB 5260,CTV00001587,lower,House Roll Call Vote 268 AS AMENDED,2012-05-07 00:00:00,other,130,16,5
+ct,2012,lower,HB 5345,CTV00001205,lower,House Roll Call Vote 91,2012-04-18 00:00:00,other,90,52,9
+ct,2012,lower,HB 5344,CTV00001682,upper,Senate Roll Call Vote 425,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5344,CTV00001440,lower,House Roll Call Vote 184 AS AMENDED,2012-05-02 00:00:00,other,136,9,6
+ct,2012,lower,HB 5347,CTV00001620,upper,Senate Roll Call Vote 363,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5347,CTV00001352,lower,House Roll Call Vote 174 AS AMENDED,2012-05-01 00:00:00,other,142,0,9
+ct,2012,lower,HB 5232,CTV00001683,upper,Senate Roll Call Vote 420,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5232,CTV00001353,lower,House Roll Call Vote 163 AS AMENDED,2012-05-01 00:00:00,other,138,11,2
+ct,2012,lower,HB 5342,CTV00001743,upper,Senate Roll Call Vote 459,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5124,CTV00001354,upper,Senate Roll Call Vote 226,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5124,CTV00001173,lower,House Roll Call Vote 77,2012-04-17 00:00:00,other,146,0,5
+ct,2012,lower,HB 5123,CTV00001417,upper,Senate Roll Call Vote 247,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5123,CTV00001206,lower,House Roll Call Vote 100,2012-04-18 00:00:00,other,142,0,9
+ct,2012,lower,HB 5514,CTV00001684,lower,House Roll Call Vote 289 AS AMENDED,2012-05-09 00:00:00,other,150,0,1
+ct,2012,lower,HB 5514,CTV00001685,upper,Senate Roll Call Vote 450,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5540,CTV00001686,upper,Senate Roll Call Vote 441,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5540,CTV00001535,lower,House Roll Call Vote 247 AS AMENDED,2012-05-05 00:00:00,other,134,0,17
+ct,2012,lower,HB 5519,CTV00001687,lower,House Roll Call Vote 285 AS AMENDED,2012-05-09 00:00:00,other,142,0,9
+ct,2012,lower,HJ 3,CTV00000997,upper,Senate Roll Call Vote 11,2012-02-29 00:00:00,other,33,0,3
+ct,2012,lower,HJ 3,CTV00000998,lower,House Roll Call Vote 2,2012-02-23 00:00:00,other,139,0,12
+ct,2012,lower,HJ 5,CTV00000999,upper,Senate Roll Call Vote 13,2012-02-29 00:00:00,other,33,0,3
+ct,2012,lower,HB 5545,CTV00001688,upper,Senate Roll Call Vote 385 PASS,2012-05-09 00:00:00,other,28,8,0
+ct,2012,lower,HB 5545,CTV00001441,lower,House Roll Call Vote 211 AS AMENDED,2012-05-03 00:00:00,other,105,37,9
+ct,2012,lower,HJ 7,CTV00001000,upper,Senate Roll Call Vote 15,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 7,CTV00001001,lower,House Roll Call Vote 4,2012-02-23 00:00:00,other,139,1,11
+ct,2012,lower,HJ 6,CTV00001002,upper,Senate Roll Call Vote 14,2012-02-29 00:00:00,other,33,0,3
+ct,2012,lower,HJ 6,CTV00001003,lower,House Roll Call Vote 3,2012-02-23 00:00:00,other,140,1,10
+ct,2012,lower,HJ 9,CTV00001004,upper,Senate Roll Call Vote 17,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HB 5511,CTV00001689,upper,Senate Roll Call Vote 404,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HJ 2,CTV00001207,upper,Senate Roll Call Vote 127 ADOPT,2012-04-18 00:00:00,other,21,14,1
+ct,2012,lower,HJ 2,CTV00001208,upper,Senate Roll Call Vote 126 ADOPT    SENATE AMD C  LCO 3416,2012-04-18 00:00:00,other,12,21,3
+ct,2012,lower,HJ 2,CTV00001209,upper,Senate Roll Call Vote 125 ADOPT    SENATE AMD B  LCO 3349,2012-04-18 00:00:00,other,14,20,2
+ct,2012,lower,HJ 2,CTV00001210,upper,Senate Roll Call Vote 124 ADOPT    SENATE AMD A  LCO 3317,2012-04-18 00:00:00,other,14,21,1
+ct,2012,lower,HJ 2,CTV00001089,lower,House Roll Call Vote 47,2012-04-04 00:00:00,other,97,50,4
+ct,2012,lower,HJ 2,CTV00001090,lower,House Roll Call Vote 46 LCO # 3038,2012-04-04 00:00:00,other,51,96,4
+ct,2012,lower,HJ 4,CTV00001005,upper,Senate Roll Call Vote 12,2012-02-29 00:00:00,other,33,0,3
+ct,2012,lower,HJ 4,CTV00001006,lower,House Roll Call Vote 1 CONSENT CALENDAR,2012-02-23 00:00:00,other,141,0,10
+ct,2012,upper,SB 291,CTV00001577,upper,Senate Roll Call Vote 339,2012-05-07 00:00:00,other,35,0,1
+ct,2012,upper,SB 186,CTV00001500,lower,House Roll Call Vote 245 AS AMENDED,2012-05-05 00:00:00,other,126,0,25
+ct,2012,upper,SB 186,CTV00001232,upper,Senate Roll Call Vote 147,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 184,CTV00001233,upper,Senate Roll Call Vote 142,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HJ 8,CTV00001007,upper,Senate Roll Call Vote 16,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 8,CTV00001008,lower,House Roll Call Vote 5,2012-02-23 00:00:00,other,137,0,14
+ct,2012,upper,SB 188,CTV00001395,upper,Senate Roll Call Vote 253,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5543,CTV00001690,upper,Senate Roll Call Vote 422,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5543,CTV00001355,lower,House Roll Call Vote 168,2012-05-01 00:00:00,other,146,0,5
+ct,2012,lower,HB 5424,CTV00001621,upper,Senate Roll Call Vote 380,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5424,CTV00001536,lower,House Roll Call Vote 250,2012-05-05 00:00:00,other,132,2,17
+ct,2012,lower,HB 5425,CTV00001691,upper,Senate Roll Call Vote 451,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5425,CTV00001356,lower,House Roll Call Vote 173,2012-05-01 00:00:00,other,144,0,7
+ct,2012,lower,HB 5542,CTV00001692,lower,House Roll Call Vote 297 AS AMENDED,2012-05-09 00:00:00,other,104,44,3
+ct,2012,lower,HB 5542,CTV00001693,lower,House Roll Call Vote 296 LCO # 5390,2012-05-09 00:00:00,other,103,44,4
+ct,2012,upper,SB 226,CTV00001276,upper,Senate Roll Call Vote 179,2012-04-25 00:00:00,other,36,0,0
+ct,2012,upper,SB 222,CTV00001277,upper,Senate Roll Call Vote 173 PASS,2012-04-25 00:00:00,other,35,1,0
+ct,2012,upper,SB 220,CTV00001566,upper,Senate Roll Call Vote 336,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HB 5421,CTV00001694,upper,Senate Roll Call Vote 429,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5421,CTV00001442,lower,House Roll Call Vote 180,2012-05-02 00:00:00,other,147,0,4
+ct,2012,lower,HB 5422,CTV00001357,lower,House Roll Call Vote 145,2012-04-30 00:00:00,other,144,0,7
+ct,2012,lower,HB 5259,CTV00001695,upper,Senate Roll Call Vote 455,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5259,CTV00001264,lower,House Roll Call Vote 114 AS AMENDED,2012-04-20 00:00:00,other,139,0,12
+ct,2012,lower,HB 5258,CTV00001696,upper,Senate Roll Call Vote 431,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5258,CTV00001489,lower,House Roll Call Vote 212 AS AMENDED,2012-05-03 00:00:00,other,129,12,10
+ct,2012,lower,HB 5252,CTV00001091,lower,House Roll Call Vote 40,2012-04-04 00:00:00,other,143,0,8
+ct,2012,lower,HB 5250,CTV00001537,lower,House Roll Call Vote 222 AS AMENDED,2012-05-04 00:00:00,other,144,0,7
+ct,2012,lower,HB 5250,CTV00001211,upper,Senate Roll Call Vote 148,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HB 5250,CTV00001092,lower,House Roll Call Vote 42,2012-04-04 00:00:00,other,144,0,7
+ct,2012,upper,SB 323,CTV00001396,upper,Senate Roll Call Vote 240,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 324,CTV00001397,upper,Senate Roll Call Vote 237 ADOPT    SENATE AMD A  LCO 3458,2012-05-02 00:00:00,other,32,2,2
+ct,2012,upper,SB 42,CTV00001234,lower,House Roll Call Vote 110,2012-04-19 00:00:00,other,146,0,5
+ct,2012,upper,SB 42,CTV00001127,upper,Senate Roll Call Vote 113,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 43,CTV00001398,upper,Senate Roll Call Vote 239,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 40,CTV00001501,lower,House Roll Call Vote 237 AS AMENDED,2012-05-04 00:00:00,other,127,12,12
+ct,2012,upper,SB 40,CTV00001278,upper,Senate Roll Call Vote 175 PASS     AS AMENDED BY SEN A&B,2012-04-25 00:00:00,other,33,3,0
+ct,2012,upper,SB 41,CTV00001279,upper,Senate Roll Call Vote 184,2012-04-25 00:00:00,other,36,0,0
+ct,2012,lower,HB 5229,CTV00001358,lower,House Roll Call Vote 143 AS AMENDED,2012-04-30 00:00:00,other,144,0,7
+ct,2012,lower,HB 5224,CTV00001538,lower,House Roll Call Vote 236 AS AMENDED,2012-05-04 00:00:00,other,141,0,10
+ct,2012,lower,HB 5225,CTV00001418,upper,Senate Roll Call Vote 244,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5225,CTV00001167,lower,House Roll Call Vote 48,2012-04-11 00:00:00,other,136,0,15
+ct,2012,lower,HJ 40,CTV00001588,upper,Senate Roll Call Vote 330,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HJ 40,CTV00001443,lower,House Roll Call Vote 206,2012-05-03 00:00:00,other,141,1,9
+ct,2012,lower,HB 5412,CTV00001697,upper,Senate Roll Call Vote 436,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5412,CTV00001539,lower,House Roll Call Vote 221,2012-05-04 00:00:00,other,143,1,7
+ct,2012,lower,HB 5415,CTV00001540,lower,House Roll Call Vote 248,2012-05-05 00:00:00,other,133,0,18
+ct,2012,lower,HB 5414,CTV00001622,upper,Senate Roll Call Vote 369,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5414,CTV00001359,lower,House Roll Call Vote 152 AS AMENDED,2012-04-30 00:00:00,other,141,7,3
+ct,2012,upper,SB 227,CTV00001565,lower,House Roll Call Vote 272,2012-05-07 00:00:00,other,146,3,2
+ct,2012,upper,SB 227,CTV00001314,upper,Senate Roll Call Vote 206,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 39,CTV00001502,lower,House Roll Call Vote 226 AS AMENDED,2012-05-04 00:00:00,other,139,0,12
+ct,2012,upper,SB 39,CTV00001280,upper,Senate Roll Call Vote 182,2012-04-25 00:00:00,other,36,0,0
+ct,2012,upper,SB 38,CTV00001236,upper,Senate Roll Call Vote 128 PASS,2012-04-18 00:00:00,other,25,10,1
+ct,2012,upper,SB 37,CTV00001237,upper,Senate Roll Call Vote 138,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 36,CTV00001238,upper,Senate Roll Call Vote 135 PASS,2012-04-18 00:00:00,other,32,3,1
+ct,2012,upper,SB 36,CTV00001239,upper,Senate Roll Call Vote 134 ADOPT    SENATE AMD A  LCO 3454,2012-04-18 00:00:00,other,14,20,2
+ct,2012,upper,SB 33,CTV00001567,lower,House Roll Call Vote 262 AS AMENDED,2012-05-07 00:00:00,other,109,37,5
+ct,2012,upper,SB 33,CTV00001568,lower,House Roll Call Vote 261 LCO # 5195,2012-05-07 00:00:00,other,53,93,5
+ct,2012,upper,SB 33,CTV00001569,lower,House Roll Call Vote 260 LCO # 5193,2012-05-07 00:00:00,other,53,94,4
+ct,2012,upper,SB 33,CTV00001570,lower,House Roll Call Vote 259 LCO # 5194,2012-05-07 00:00:00,other,64,82,5
+ct,2012,upper,SB 33,CTV00001571,lower,House Roll Call Vote 258 LCO # 4658,2012-05-07 00:00:00,other,102,42,7
+ct,2012,upper,SB 33,CTV00001427,upper,Senate Roll Call Vote 269 PASS     AS AMENDED BY SEN A,2012-05-02 00:00:00,other,32,3,1
+ct,2012,upper,SB 33,CTV00001428,upper,Senate Roll Call Vote 268 ADOPT    SENATE AMD C  LCO 4646,2012-05-02 00:00:00,other,9,25,2
+ct,2012,upper,SB 33,CTV00001429,upper,Senate Roll Call Vote 267 ADOPT    SENATE AMD B  LCO 4676,2012-05-02 00:00:00,other,11,22,3
+ct,2012,upper,SB 31,CTV00001430,upper,Senate Roll Call Vote 270 PASS     AS AMENDED BY SEN A,2012-05-03 00:00:00,other,34,1,1
+ct,2012,lower,HB 5317,CTV00001541,lower,House Roll Call Vote 233 AS AMENDED,2012-05-04 00:00:00,other,137,4,10
+ct,2012,lower,HB 5314,CTV00001360,upper,Senate Roll Call Vote 229,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5314,CTV00001174,lower,House Roll Call Vote 66,2012-04-17 00:00:00,other,147,0,4
+ct,2012,lower,HB 5315,CTV00001361,upper,Senate Roll Call Vote 225,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5315,CTV00001093,lower,House Roll Call Vote 38,2012-04-04 00:00:00,other,140,0,11
+ct,2012,lower,HB 5313,CTV00001362,lower,House Roll Call Vote 177 AS AMENDED,2012-05-01 00:00:00,other,75,61,15
+ct,2012,lower,HB 5313,CTV00001363,lower,House Roll Call Vote 176 LCO # 4235,2012-05-01 00:00:00,other,80,61,10
+ct,2012,lower,HB 5095,CTV00001698,upper,Senate Roll Call Vote 387 PASS,2012-05-09 00:00:00,other,21,15,0
+ct,2012,lower,HB 5095,CTV00001212,lower,House Roll Call Vote 92,2012-04-18 00:00:00,other,130,13,8
+ct,2012,lower,HB 5094,CTV00001419,upper,Senate Roll Call Vote 245,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5094,CTV00001175,lower,House Roll Call Vote 65,2012-04-17 00:00:00,other,147,0,4
+ct,2012,lower,HB 5096,CTV00001364,lower,House Roll Call Vote 161 AS AMENDED,2012-05-01 00:00:00,other,137,0,14
+ct,2012,lower,HB 5096,CTV00001342,upper,Senate Roll Call Vote 192,2012-04-26 00:00:00,other,35,0,1
+ct,2012,lower,HB 5096,CTV00001094,lower,House Roll Call Vote 43,2012-04-04 00:00:00,other,146,0,5
+ct,2012,lower,HB 5318,CTV00001490,upper,Senate Roll Call Vote 289,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5318,CTV00001213,lower,House Roll Call Vote 86,2012-04-18 00:00:00,other,137,5,9
+ct,2012,lower,HB 5446,CTV00001623,upper,Senate Roll Call Vote 358,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5446,CTV00001214,lower,House Roll Call Vote 90,2012-04-18 00:00:00,other,144,0,7
+ct,2012,lower,HB 5447,CTV00001699,upper,Senate Roll Call Vote 421,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5447,CTV00001365,lower,House Roll Call Vote 148 AS AMENDED,2012-04-30 00:00:00,other,145,0,6
+ct,2012,lower,HB 5073,CTV00001491,upper,Senate Roll Call Vote 287,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5073,CTV00001176,lower,House Roll Call Vote 70,2012-04-17 00:00:00,other,147,0,4
+ct,2012,lower,HB 5173,CTV00001700,upper,Senate Roll Call Vote 393 PASS     AS AMENDED BY SEN A,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5173,CTV00001366,lower,House Roll Call Vote 170,2012-05-01 00:00:00,other,138,3,10
+ct,2012,lower,HB 5489,CTV00001367,lower,House Roll Call Vote 162 AS AMENDED,2012-05-01 00:00:00,other,131,18,2
+ct,2012,lower,HB 5484,CTV00001701,upper,Senate Roll Call Vote 418,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5484,CTV00001492,upper,Senate Roll Call Vote 291,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5484,CTV00001265,lower,House Roll Call Vote 103 AS AMENDED,2012-04-19 00:00:00,other,144,0,7
+ct,2012,lower,HB 5483,CTV00001624,upper,Senate Roll Call Vote 359,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5483,CTV00001215,lower,House Roll Call Vote 88 AS AMENDED,2012-04-18 00:00:00,other,146,0,5
+ct,2012,upper,SB 13,CTV00001336,upper,Senate Roll Call Vote 204 PASS,2012-04-27 00:00:00,other,31,1,4
+ct,2012,upper,SB 12,CTV00001524,lower,House Roll Call Vote 249 AS AMENDED,2012-05-05 00:00:00,other,135,0,16
+ct,2012,upper,SB 12,CTV00001337,upper,Senate Roll Call Vote 191,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 157,CTV00001255,upper,Senate Roll Call Vote 150,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 177,CTV00001604,upper,Senate Roll Call Vote 344 PASS     AS AMENDED BY SEN A,2012-05-08 00:00:00,other,35,0,1
+ct,2012,upper,SB 268,CTV00001240,upper,Senate Roll Call Vote 133 PASS,2012-04-18 00:00:00,other,24,11,1
+ct,2012,upper,SB 116,CTV00001330,upper,Senate Roll Call Vote 194,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 501,CTV00001744,upper,Senate Roll Call Vote 461 PASS     EMERGENCY CERTIFICATION,2012-06-12 00:00:00,other,22,14,0
+ct,2012,upper,SB 501,CTV00001745,lower,House Roll Call Vote 304 EMERGENCY CERTIFI,2012-06-12 00:00:00,other,84,46,21
+ct,2012,upper,SB 501,CTV00001746,lower,House Roll Call Vote 303 MOTION TO DIVIDE,2012-06-12 00:00:00,other,47,85,19
+ct,2012,upper,SB 79,CTV00001345,upper,Senate Roll Call Vote 223 PASS,2012-05-01 00:00:00,other,30,5,1
+ct,2012,upper,SB 79,CTV00001346,upper,Senate Roll Call Vote 222 ADOPT    SENATE AMD A  LCO 4385,2012-05-01 00:00:00,other,14,21,1
+ct,2012,upper,SB 78,CTV00001573,lower,House Roll Call Vote 270 AS AMENDED,2012-05-07 00:00:00,other,145,1,5
+ct,2012,upper,SB 78,CTV00001505,upper,Senate Roll Call Vote 302,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 78,CTV00001400,upper,Senate Roll Call Vote 233 ADOPT    SENATE AMD A  LCO 4408,2012-05-02 00:00:00,other,25,11,0
+ct,2012,upper,SB 411,CTV00001196,upper,Senate Roll Call Vote 146,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HB 6001,CTV00001749,upper,Senate Roll Call Vote 465 PASS     EMERGENCY CERTIFICATION,2012-06-13 00:00:00,other,22,14,0
+ct,2012,lower,HB 6001,CTV00001750,upper,Senate Roll Call Vote 464 ADOPT    SENATE AMD C  LCO 5820,2012-06-12 00:00:00,other,14,22,0
+ct,2012,lower,HB 6001,CTV00001751,upper,Senate Roll Call Vote 463 ADOPT    SENATE AMD B  LCO 5822,2012-06-12 00:00:00,other,14,22,0
+ct,2012,lower,HB 6001,CTV00001752,upper,Senate Roll Call Vote 462 ADOPT    SENATE AMD A  LCO 5823,2012-06-12 00:00:00,other,14,22,0
+ct,2012,lower,HB 6001,CTV00001753,lower,House Roll Call Vote 302 AS AMENDED,2012-06-12 00:00:00,other,88,53,10
+ct,2012,upper,SB 214,CTV00001504,lower,House Roll Call Vote 256,2012-05-05 00:00:00,other,136,0,15
+ct,2012,upper,SB 214,CTV00001241,upper,Senate Roll Call Vote 131 PASS,2012-04-18 00:00:00,other,32,3,1
+ct,2012,upper,SB 214,CTV00001242,upper,Senate Roll Call Vote 130 ADOPT    SENATE AMD B  LCO 3404,2012-04-18 00:00:00,other,14,20,2
+ct,2012,upper,SB 214,CTV00001243,upper,Senate Roll Call Vote 129 ADOPT    SENATE AMD A  LCO 3165,2012-04-18 00:00:00,other,14,20,2
+ct,2012,upper,SB 213,CTV00001399,upper,Senate Roll Call Vote 232 PASS,2012-05-02 00:00:00,other,26,10,0
+ct,2012,upper,SB 218,CTV00001316,upper,Senate Roll Call Vote 214,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 111,CTV00001410,upper,Senate Roll Call Vote 243,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 111,CTV00001411,upper,Senate Roll Call Vote 235 ADOPT    SENATE AMD B  LCO 4536,2012-05-02 00:00:00,other,13,21,2
+ct,2012,upper,SB 207,CTV00001406,upper,Senate Roll Call Vote 254,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5329,CTV00001368,upper,Senate Roll Call Vote 230,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5329,CTV00001177,lower,House Roll Call Vote 76,2012-04-17 00:00:00,other,147,0,4
+ct,2012,lower,HB 5328,CTV00001702,upper,Senate Roll Call Vote 438,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5328,CTV00001542,lower,House Roll Call Vote 218 AS AMENDED,2012-05-04 00:00:00,other,144,0,7
+ct,2012,lower,HB 5326,CTV00001703,upper,Senate Roll Call Vote 397,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5321,CTV00001704,upper,Senate Roll Call Vote 434,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5321,CTV00001444,lower,House Roll Call Vote 200 AS AMENDED,2012-05-03 00:00:00,other,141,0,10
+ct,2012,lower,HB 5320,CTV00001705,upper,Senate Roll Call Vote 401,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5289,CTV00001625,upper,Senate Roll Call Vote 381,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5289,CTV00001589,lower,House Roll Call Vote 271,2012-05-07 00:00:00,other,147,0,4
+ct,2012,upper,SB 71,CTV00001347,lower,House Roll Call Vote 150 AS AMENDED,2012-04-30 00:00:00,other,116,31,4
+ct,2012,upper,SB 71,CTV00001142,upper,Senate Roll Call Vote 110,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 75,CTV00001603,upper,Senate Roll Call Vote 353 PASS     AS AMENDED BY SEN A&B,2012-05-08 00:00:00,other,35,0,1
+ct,2012,lower,HB 5283,CTV00001706,upper,Senate Roll Call Vote 405,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5283,CTV00001095,lower,House Roll Call Vote 44,2012-04-04 00:00:00,other,126,19,6
+ct,2012,lower,HB 5285,CTV00001626,upper,Senate Roll Call Vote 371,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5285,CTV00001369,lower,House Roll Call Vote 172,2012-05-01 00:00:00,other,143,0,8
+ct,2012,lower,HB 5287,CTV00001420,upper,Senate Roll Call Vote 246,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5287,CTV00001178,lower,House Roll Call Vote 64,2012-04-17 00:00:00,other,144,0,7
+ct,2012,upper,SB 374,CTV00001652,upper,Senate Roll Call Vote 407,2012-05-09 00:00:00,other,36,0,0
+ct,2012,upper,SB 376,CTV00001506,upper,Senate Roll Call Vote 305,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 371,CTV00001401,upper,Senate Roll Call Vote 258,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5217,CTV00001627,upper,Senate Roll Call Vote 373,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5217,CTV00001445,lower,House Roll Call Vote 179 AS AMENDED,2012-05-02 00:00:00,other,145,0,6
+ct,2012,lower,HB 5214,CTV00001096,lower,House Roll Call Vote 45,2012-04-04 00:00:00,other,143,0,8
+ct,2012,lower,HB 5353,CTV00001707,upper,Senate Roll Call Vote 423,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5353,CTV00001370,lower,House Roll Call Vote 166,2012-05-01 00:00:00,other,149,0,2
+ct,2012,lower,HB 5353,CTV00001371,lower,House Roll Call Vote 165 LCO # 3873,2012-05-01 00:00:00,other,52,98,1
+ct,2012,lower,HB 5219,CTV00001179,lower,House Roll Call Vote 74,2012-04-17 00:00:00,other,115,32,4
+ct,2012,lower,HB 5355,CTV00001708,upper,Senate Roll Call Vote 433,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5355,CTV00001446,lower,House Roll Call Vote 197 AS AMENDED,2012-05-03 00:00:00,other,139,0,12
+ct,2012,lower,HB 5130,CTV00001709,lower,House Roll Call Vote 292 AS AMENDED,2012-05-09 00:00:00,other,146,1,4
+ct,2012,lower,HB 5038,CTV00001710,upper,Senate Roll Call Vote 426,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5038,CTV00001447,lower,House Roll Call Vote 189 AS AMENDED,2012-05-02 00:00:00,other,93,46,12
+ct,2012,lower,HB 5038,CTV00001448,lower,House Roll Call Vote 188 LCO # 4622,2012-05-02 00:00:00,other,52,87,12
+ct,2012,lower,HB 5038,CTV00001449,lower,House Roll Call Vote 187 LCO # 4420,2012-05-02 00:00:00,other,49,94,8
+ct,2012,lower,HB 5032,CTV00001711,upper,Senate Roll Call Vote 413,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5032,CTV00001216,lower,House Roll Call Vote 84 AS AMENDED,2012-04-18 00:00:00,other,141,0,10
+ct,2012,lower,HB 5031,CTV00001628,upper,Senate Roll Call Vote 372,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5031,CTV00001372,lower,House Roll Call Vote 167,2012-05-01 00:00:00,other,146,0,5
+ct,2012,lower,HB 5030,CTV00001493,upper,Senate Roll Call Vote 285,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5030,CTV00001097,lower,House Roll Call Vote 39 AS AMENDED,2012-04-04 00:00:00,other,142,0,9
+ct,2012,lower,HB 5037,CTV00001712,upper,Senate Roll Call Vote 447,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5037,CTV00001373,lower,House Roll Call Vote 149 AS AMENDED,2012-04-30 00:00:00,other,145,0,6
+ct,2012,lower,HB 5035,CTV00001713,upper,Senate Roll Call Vote 390 PASS,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5035,CTV00001297,lower,House Roll Call Vote 127,2012-04-25 00:00:00,other,113,35,3
+ct,2012,lower,HB 5034,CTV00001450,lower,House Roll Call Vote 193 AS AMENDED,2012-05-03 00:00:00,other,126,0,25
+ct,2012,lower,HJ 18,CTV00001009,upper,Senate Roll Call Vote 25,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 16,CTV00001010,upper,Senate Roll Call Vote 23,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 17,CTV00001011,upper,Senate Roll Call Vote 24,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 14,CTV00001012,upper,Senate Roll Call Vote 9 ADOPT,2012-02-29 00:00:00,other,31,1,4
+ct,2012,lower,HJ 14,CTV00001013,lower,House Roll Call Vote 8,2012-02-23 00:00:00,other,131,8,12
+ct,2012,lower,HJ 15,CTV00001014,upper,Senate Roll Call Vote 22,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 12,CTV00001015,upper,Senate Roll Call Vote 20,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 13,CTV00001016,upper,Senate Roll Call Vote 21,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 13,CTV00001017,lower,House Roll Call Vote 7,2012-02-23 00:00:00,other,137,1,13
+ct,2012,lower,HJ 10,CTV00001018,upper,Senate Roll Call Vote 18,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 11,CTV00001019,upper,Senate Roll Call Vote 19,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 11,CTV00001020,lower,House Roll Call Vote 6,2012-02-23 00:00:00,other,136,1,14
+ct,2012,lower,HB 5147,CTV00001451,lower,House Roll Call Vote 190 AS AMENDED,2012-05-02 00:00:00,other,142,0,9
+ct,2012,lower,HB 5145,CTV00001629,upper,Senate Roll Call Vote 367,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5145,CTV00001374,lower,House Roll Call Vote 140 AS AMENDED,2012-04-30 00:00:00,other,142,0,9
+ct,2012,lower,HB 5143,CTV00001714,upper,Senate Roll Call Vote 452,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5143,CTV00001452,lower,House Roll Call Vote 210 AS AMENDED,2012-05-03 00:00:00,other,142,1,8
+ct,2012,lower,HB 5148,CTV00001715,upper,Senate Roll Call Vote 395,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5148,CTV00001630,lower,House Roll Call Vote 284 CONSENT CALENDAR,2012-05-09 00:00:00,other,144,0,7
+ct,2012,lower,HB 5504,CTV00001716,upper,Senate Roll Call Vote 445,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5504,CTV00001590,lower,House Roll Call Vote 273,2012-05-07 00:00:00,other,149,0,2
+ct,2012,upper,SB 426,CTV00001402,upper,Senate Roll Call Vote 262,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 159,CTV00001286,upper,Senate Roll Call Vote 172 PASS,2012-04-25 00:00:00,other,25,11,0
+ct,2012,upper,SB 195,CTV00001403,upper,Senate Roll Call Vote 252,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 196,CTV00001319,upper,Senate Roll Call Vote 197,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 190,CTV00001320,upper,Senate Roll Call Vote 202,2012-04-26 00:00:00,other,35,0,1
+ct,2012,lower,HB 5501,CTV00001631,upper,Senate Roll Call Vote 365,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5501,CTV00001375,lower,House Roll Call Vote 164 AS AMENDED,2012-05-01 00:00:00,other,148,0,3
+ct,2012,lower,HB 5500,CTV00001717,upper,Senate Roll Call Vote 430,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5500,CTV00001453,lower,House Roll Call Vote 181,2012-05-02 00:00:00,other,142,0,9
+ct,2012,upper,SB 198,CTV00001468,lower,House Roll Call Vote 205,2012-05-03 00:00:00,other,142,0,9
+ct,2012,upper,SB 198,CTV00001321,upper,Senate Roll Call Vote 196,2012-04-26 00:00:00,other,35,0,1
+ct,2012,lower,HB 5515,CTV00001494,upper,Senate Roll Call Vote 290,2012-05-03 00:00:00,other,36,0,0
+ct,2012,lower,HB 5515,CTV00001217,lower,House Roll Call Vote 87 AS AMENDED,2012-04-18 00:00:00,other,142,0,9
+ct,2012,upper,SB 114,CTV00001518,lower,House Roll Call Vote 232,2012-05-04 00:00:00,other,143,0,8
+ct,2012,upper,SB 114,CTV00001329,upper,Senate Roll Call Vote 193,2012-04-26 00:00:00,other,35,0,1
+ct,2012,lower,HJ 35,CTV00001021,upper,Senate Roll Call Vote 41,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 35,CTV00001022,lower,House Roll Call Vote 15,2012-02-23 00:00:00,other,135,0,16
+ct,2012,upper,SB 88,CTV00001256,lower,House Roll Call Vote 113 AS AMENDED,2012-04-19 00:00:00,other,146,0,5
+ct,2012,upper,SB 88,CTV00001147,upper,Senate Roll Call Vote 118,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SJ 9,CTV00001085,lower,House Roll Call Vote 36,2012-04-04 00:00:00,other,136,0,15
+ct,2012,upper,SJ 9,CTV00001049,upper,Senate Roll Call Vote 49,2012-03-28 00:00:00,other,36,0,0
+ct,2012,lower,HB 5516,CTV00001421,upper,Senate Roll Call Vote 248,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5516,CTV00001218,lower,House Roll Call Vote 98 AS AMENDED,2012-04-18 00:00:00,other,144,0,7
+ct,2012,upper,SB 258,CTV00001508,lower,House Roll Call Vote 224,2012-05-04 00:00:00,other,92,46,13
+ct,2012,upper,SB 258,CTV00001132,upper,Senate Roll Call Vote 95 PASS,2012-04-11 00:00:00,other,26,8,2
+ct,2012,upper,SB 252,CTV00001246,lower,House Roll Call Vote 119 AS AMENDED,2012-04-20 00:00:00,other,142,0,9
+ct,2012,upper,SB 252,CTV00001133,upper,Senate Roll Call Vote 114,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 255,CTV00001654,upper,Senate Roll Call Vote 384 PASS,2012-05-09 00:00:00,other,35,0,1
+ct,2012,upper,SB 254,CTV00001605,upper,Senate Roll Call Vote 352 PASS     AS AMENDED BY SEN A,2012-05-08 00:00:00,other,36,0,0
+ct,2012,upper,SJ 24,CTV00001134,upper,Senate Roll Call Vote 98,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SJ 26,CTV00001136,upper,Senate Roll Call Vote 107,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SJ 27,CTV00001137,upper,Senate Roll Call Vote 108,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SJ 20,CTV00001099,upper,Senate Roll Call Vote 79 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,upper,SJ 21,CTV00001100,upper,Senate Roll Call Vote 91 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,upper,SJ 22,CTV00001101,upper,Senate Roll Call Vote 92 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,upper,SJ 23,CTV00001102,upper,Senate Roll Call Vote 93 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,upper,SB 328,CTV00001145,upper,Senate Roll Call Vote 115,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5248,CTV00001718,upper,Senate Roll Call Vote 435,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5248,CTV00001454,lower,House Roll Call Vote 199 AS AMENDED,2012-05-03 00:00:00,other,126,0,25
+ct,2012,lower,HB 5244,CTV00001067,lower,House Roll Call Vote 23,2012-03-28 00:00:00,other,134,13,4
+ct,2012,lower,HB 5245,CTV00001266,lower,House Roll Call Vote 118,2012-04-20 00:00:00,other,141,0,10
+ct,2012,lower,HB 5246,CTV00001219,lower,House Roll Call Vote 93,2012-04-18 00:00:00,other,135,5,11
+ct,2012,lower,HB 5241,CTV00001719,upper,Senate Roll Call Vote 415,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5241,CTV00001220,lower,House Roll Call Vote 95 AS AMENDED,2012-04-18 00:00:00,other,144,0,7
+ct,2012,lower,HB 5389,CTV00001543,upper,Senate Roll Call Vote 312 PASS     AS AMENDED BY HOUSE A,2012-05-05 00:00:00,other,21,13,2
+ct,2012,lower,HB 5389,CTV00001544,upper,Senate Roll Call Vote 311 ADOPT    SENATE AMD G  LCO 5048,2012-05-05 00:00:00,other,12,22,2
+ct,2012,lower,HB 5389,CTV00001545,upper,Senate Roll Call Vote 310 ADOPT    SENATE AMD F  LCO 4815,2012-05-05 00:00:00,other,14,20,2
+ct,2012,lower,HB 5389,CTV00001546,upper,Senate Roll Call Vote 309 ADOPT    SENATE AMD B  LCO 4184,2012-05-04 00:00:00,other,10,24,2
+ct,2012,lower,HB 5389,CTV00001547,upper,Senate Roll Call Vote 308 ADOPT    SENATE AMD A  LCO 4520,2012-05-04 00:00:00,other,11,23,2
+ct,2012,lower,HB 5389,CTV00001298,lower,House Roll Call Vote 132 AS AMENDED,2012-04-25 00:00:00,other,96,51,4
+ct,2012,lower,HB 5389,CTV00001299,lower,House Roll Call Vote 131 LCO # 3972,2012-04-25 00:00:00,other,50,96,5
+ct,2012,lower,HB 5389,CTV00001300,lower,House Roll Call Vote 130 LCO # 3426,2012-04-25 00:00:00,other,51,92,8
+ct,2012,lower,HB 5389,CTV00001301,lower,House Roll Call Vote 129 LCO # 3891,2012-04-25 00:00:00,other,99,47,5
+ct,2012,upper,SB 335,CTV00001655,lower,House Roll Call Vote 293,2012-05-09 00:00:00,other,145,0,6
+ct,2012,upper,SB 335,CTV00001574,upper,Senate Roll Call Vote 334,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HB 5388,CTV00001632,upper,Senate Roll Call Vote 364,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5388,CTV00001376,lower,House Roll Call Vote 175 AS AMENDED,2012-05-01 00:00:00,other,133,12,6
+ct,2012,upper,SB 339,CTV00001193,upper,Senate Roll Call Vote 145,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SJ 25,CTV00001135,upper,Senate Roll Call Vote 99,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5431,CTV00001377,lower,House Roll Call Vote 147 AS AMENDED,2012-04-30 00:00:00,other,143,0,8
+ct,2012,upper,SB 286,CTV00001528,upper,Senate Roll Call Vote 307,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 89,CTV00001414,upper,Senate Roll Call Vote 236 PASS     AS AMENDED BY SEN C,2012-05-02 00:00:00,other,32,4,0
+ct,2012,lower,HB 5408,CTV00001180,lower,House Roll Call Vote 67,2012-04-17 00:00:00,other,148,0,3
+ct,2012,lower,HB 5409,CTV00001633,upper,Senate Roll Call Vote 379,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5409,CTV00001548,lower,House Roll Call Vote 231 AS AMENDED,2012-05-04 00:00:00,other,142,0,9
+ct,2012,lower,HJ 52,CTV00001115,upper,Senate Roll Call Vote 80 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 53,CTV00001116,upper,Senate Roll Call Vote 81 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 51,CTV00001591,upper,Senate Roll Call Vote 331,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HJ 51,CTV00001455,lower,House Roll Call Vote 207,2012-05-03 00:00:00,other,141,0,10
+ct,2012,lower,HJ 56,CTV00001068,lower,House Roll Call Vote 25,2012-03-28 00:00:00,other,144,0,7
+ct,2012,lower,HJ 56,CTV00001069,upper,Senate Roll Call Vote 62,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 57,CTV00001070,lower,House Roll Call Vote 26,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HJ 57,CTV00001071,upper,Senate Roll Call Vote 61,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HB 5512,CTV00001634,upper,Senate Roll Call Vote 377,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5512,CTV00001549,lower,House Roll Call Vote 240,2012-05-04 00:00:00,other,140,0,11
+ct,2012,lower,HJ 55,CTV00001072,lower,House Roll Call Vote 24,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HJ 55,CTV00001073,upper,Senate Roll Call Vote 60,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 58,CTV00001074,lower,House Roll Call Vote 27,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HJ 58,CTV00001075,upper,Senate Roll Call Vote 63,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 59,CTV00001076,lower,House Roll Call Vote 28,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HJ 59,CTV00001077,upper,Senate Roll Call Vote 64,2012-03-28 00:00:00,other,34,0,2
+ct,2012,upper,SB 84,CTV00001525,upper,Senate Roll Call Vote 300,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 84,CTV00001526,upper,Senate Roll Call Vote 299 ADOPT    SENATE AMD A  LCO 4924,2012-05-04 00:00:00,other,34,0,2
+ct,2012,upper,SB 143,CTV00001322,upper,Senate Roll Call Vote 195,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 85,CTV00001584,upper,Senate Roll Call Vote 327 PASS     AS AMENDED BY SEN A,2012-05-07 00:00:00,other,30,3,3
+ct,2012,upper,SB 29,CTV00001575,upper,Senate Roll Call Vote 337,2012-05-07 00:00:00,other,35,0,1
+ct,2012,upper,SB 383,CTV00001470,upper,Senate Roll Call Vote 295,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 25,CTV00001656,lower,House Roll Call Vote 299 AS AMENDED,2012-05-09 00:00:00,other,126,13,12
+ct,2012,upper,SB 25,CTV00001657,upper,Senate Roll Call Vote 391 ADOPT    SENATE AMD A  LCO 5456,2012-05-09 00:00:00,other,36,0,0
+ct,2012,upper,SB 27,CTV00001323,upper,Senate Roll Call Vote 215,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 20,CTV00001140,upper,Senate Roll Call Vote 109,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 22,CTV00001658,lower,House Roll Call Vote 287 AS AMENDED,2012-05-09 00:00:00,other,139,11,1
+ct,2012,upper,SB 22,CTV00001576,upper,Senate Roll Call Vote 320 PASS     AS AMENDED BY SEN A,2012-05-07 00:00:00,other,34,1,1
+ct,2012,upper,SB 23,CTV00001659,lower,House Roll Call Vote 290 AS AMENDED,2012-05-09 00:00:00,other,148,0,3
+ct,2012,upper,SB 23,CTV00001511,upper,Senate Roll Call Vote 314 PASS     AS AMENDED BY SEN A,2012-05-05 00:00:00,other,34,0,2
+ct,2012,upper,SB 23,CTV00001512,upper,Senate Roll Call Vote 313 ADOPT    SENATE AMD A  LCO 5079,2012-05-05 00:00:00,other,32,0,4
+ct,2012,lower,HB 5363,CTV00001378,lower,House Roll Call Vote 144,2012-04-30 00:00:00,other,144,0,7
+ct,2012,lower,HB 5088,CTV00001221,lower,House Roll Call Vote 99 AS AMENDED,2012-04-18 00:00:00,other,136,2,13
+ct,2012,lower,HB 5089,CTV00001635,upper,Senate Roll Call Vote 356,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5089,CTV00001181,lower,House Roll Call Vote 75,2012-04-17 00:00:00,other,138,10,3
+ct,2012,lower,HB 5367,CTV00001302,lower,House Roll Call Vote 123,2012-04-25 00:00:00,other,146,0,5
+ct,2012,lower,HB 5365,CTV00001720,upper,Senate Roll Call Vote 439,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5365,CTV00001550,lower,House Roll Call Vote 216 AS AMENDED,2012-05-04 00:00:00,other,140,0,11
+ct,2012,lower,HB 5364,CTV00001379,upper,Senate Roll Call Vote 231,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5364,CTV00001182,lower,House Roll Call Vote 79 AS AMENDED,2012-04-17 00:00:00,other,146,0,5
+ct,2012,lower,HB 5087,CTV00001721,upper,Senate Roll Call Vote 416,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5087,CTV00001267,lower,House Roll Call Vote 101 AS AMENDED,2012-04-19 00:00:00,other,140,0,11
+ct,2012,lower,HB 5443,CTV00001636,upper,Senate Roll Call Vote 362,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5443,CTV00001303,lower,House Roll Call Vote 128,2012-04-25 00:00:00,other,150,0,1
+ct,2012,lower,HJ 54,CTV00001117,upper,Senate Roll Call Vote 82 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 66,CTV00001118,upper,Senate Roll Call Vote 86 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HB 5064,CTV00001078,lower,House Roll Call Vote 22,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HB 5063,CTV00001722,upper,Senate Roll Call Vote 389 PASS,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5063,CTV00001268,lower,House Roll Call Vote 117,2012-04-20 00:00:00,other,141,0,10
+ct,2012,lower,HB 5107,CTV00001422,upper,Senate Roll Call Vote 249,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5107,CTV00001269,lower,House Roll Call Vote 107,2012-04-19 00:00:00,other,149,0,2
+ct,2012,lower,HB 5106,CTV00001723,upper,Senate Roll Call Vote 432,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5106,CTV00001495,lower,House Roll Call Vote 204 AS AMENDED,2012-05-03 00:00:00,other,144,0,7
+ct,2012,lower,HB 5440,CTV00001724,upper,Senate Roll Call Vote 409,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5440,CTV00001183,lower,House Roll Call Vote 72,2012-04-17 00:00:00,other,146,0,5
+ct,2012,lower,HJ 26,CTV00001023,upper,Senate Roll Call Vote 33,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 26,CTV00001024,lower,House Roll Call Vote 11,2012-02-23 00:00:00,other,125,10,16
+ct,2012,lower,HJ 25,CTV00001025,upper,Senate Roll Call Vote 32,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 24,CTV00001026,upper,Senate Roll Call Vote 31,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 23,CTV00001027,upper,Senate Roll Call Vote 30,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 22,CTV00001028,upper,Senate Roll Call Vote 29,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 21,CTV00001029,upper,Senate Roll Call Vote 28,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 21,CTV00001030,lower,House Roll Call Vote 10,2012-02-23 00:00:00,other,134,0,17
+ct,2012,lower,HJ 20,CTV00001031,upper,Senate Roll Call Vote 27,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 20,CTV00001032,lower,House Roll Call Vote 9,2012-02-23 00:00:00,other,136,0,15
+ct,2012,lower,HJ 29,CTV00001033,upper,Senate Roll Call Vote 36,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 29,CTV00001034,lower,House Roll Call Vote 13,2012-02-23 00:00:00,other,132,3,16
+ct,2012,lower,HJ 28,CTV00001035,upper,Senate Roll Call Vote 35,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HB 5455,CTV00001592,upper,Senate Roll Call Vote 340,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HB 5455,CTV00001222,lower,House Roll Call Vote 96 AS AMENDED,2012-04-18 00:00:00,other,144,0,7
+ct,2012,upper,SB 94,CTV00001513,lower,House Roll Call Vote 230,2012-05-04 00:00:00,other,126,17,8
+ct,2012,upper,SB 94,CTV00001324,upper,Senate Roll Call Vote 201,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 97,CTV00001404,upper,Senate Roll Call Vote 250,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 99,CTV00001291,lower,House Roll Call Vote 122,2012-04-25 00:00:00,other,143,0,8
+ct,2012,upper,SB 99,CTV00001141,upper,Senate Roll Call Vote 123,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 98,CTV00001325,upper,Senate Roll Call Vote 189 PASS     AS AMENDED BY SEN A,2012-04-26 00:00:00,other,33,2,1
+ct,2012,upper,SB 176,CTV00001244,upper,Senate Roll Call Vote 151,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 299,CTV00001405,upper,Senate Roll Call Vote 260,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 28,CTV00001247,lower,House Roll Call Vote 109 AS AMENDED,2012-04-19 00:00:00,other,147,0,4
+ct,2012,upper,SB 28,CTV00001139,upper,Senate Roll Call Vote 120,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 293,CTV00001515,lower,House Roll Call Vote 223 AS AMENDED,2012-05-04 00:00:00,other,145,0,6
+ct,2012,upper,SB 293,CTV00001249,upper,Senate Roll Call Vote 153,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 263,CTV00001503,lower,House Roll Call Vote 227,2012-05-04 00:00:00,other,134,0,17
+ct,2012,upper,SB 263,CTV00001315,upper,Senate Roll Call Vote 198,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 457,CTV00001056,lower,House Roll Call Vote 33,2012-03-28 00:00:00,other,146,0,5
+ct,2012,upper,SB 457,CTV00001057,lower,House Roll Call Vote 32 LCO # 2911,2012-03-28 00:00:00,other,53,94,4
+ct,2012,upper,SB 457,CTV00001058,upper,Senate Roll Call Vote 44 PASS     EMERGENCY CERTIFICATION,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SB 457,CTV00001059,upper,Senate Roll Call Vote 43 ADOPT    SENATE AMD A  LCO 2908,2012-03-28 00:00:00,other,14,22,0
+ct,2012,upper,SB 458,CTV00001606,lower,House Roll Call Vote 280,2012-05-08 00:00:00,other,149,0,2
+ct,2012,upper,SB 458,CTV00001607,lower,House Roll Call Vote 279 LCO # 5426,2012-05-08 00:00:00,other,51,96,4
+ct,2012,upper,SB 458,CTV00001578,upper,Senate Roll Call Vote 341 PASS,2012-05-08 00:00:00,other,28,7,1
+ct,2012,upper,SB 382,CTV00001510,lower,House Roll Call Vote 255 AS AMENDED,2012-05-05 00:00:00,other,136,0,15
+ct,2012,upper,SB 382,CTV00001281,upper,Senate Roll Call Vote 176 PASS     AS AMENDED BY SEN A,2012-04-25 00:00:00,other,28,8,0
+ct,2012,upper,SB 106,CTV00001129,upper,Senate Roll Call Vote 117,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 289,CTV00001339,upper,Senate Roll Call Vote 187 PASS,2012-04-26 00:00:00,other,22,14,0
+ct,2012,upper,SB 289,CTV00001340,upper,Senate Roll Call Vote 186 ADOPT    SENATE AMD B  LCO 3613,2012-04-26 00:00:00,other,15,19,2
+ct,2012,upper,SB 289,CTV00001341,upper,Senate Roll Call Vote 185 ADOPT    SENATE AMD A  LCO 3576,2012-04-26 00:00:00,other,14,21,1
+ct,2012,lower,HJ 81,CTV00001270,upper,Senate Roll Call Vote 168,2012-04-19 00:00:00,other,34,0,2
+ct,2012,lower,HJ 80,CTV00001223,upper,Senate Roll Call Vote 139,2012-04-18 00:00:00,other,35,0,1
+ct,2012,lower,HJ 83,CTV00001593,upper,Senate Roll Call Vote 332,2012-05-07 00:00:00,other,35,0,1
+ct,2012,upper,SB 205,CTV00001516,lower,House Roll Call Vote 225,2012-05-04 00:00:00,other,135,0,16
+ct,2012,upper,SB 205,CTV00001143,upper,Senate Roll Call Vote 116,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 206,CTV00001579,upper,Senate Roll Call Vote 324 PASS,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HJ 82,CTV00001271,upper,Senate Roll Call Vote 169,2012-04-19 00:00:00,other,34,0,2
+ct,2012,upper,SB 200,CTV00001250,lower,House Roll Call Vote 112,2012-04-19 00:00:00,other,145,0,6
+ct,2012,upper,SB 200,CTV00001144,upper,Senate Roll Call Vote 112,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HJ 85,CTV00001725,lower,House Roll Call Vote 298 EMERGENCY CERTIFI,2012-05-09 00:00:00,other,98,51,2
+ct,2012,lower,HJ 85,CTV00001726,upper,Senate Roll Call Vote 449,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HJ 84,CTV00001594,upper,Senate Roll Call Vote 333,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HB 5360,CTV00001727,upper,Senate Roll Call Vote 457,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5360,CTV00001551,lower,House Roll Call Vote 252 AS AMENDED,2012-05-05 00:00:00,other,135,0,16
+ct,2012,lower,HB 5445,CTV00001304,lower,House Roll Call Vote 139 AS AMENDED,2012-04-26 00:00:00,other,144,0,7
+ct,2012,lower,HB 5445,CTV00001343,upper,Senate Roll Call Vote 190,2012-04-26 00:00:00,other,35,0,1
+ct,2012,lower,HB 5334,CTV00001637,lower,House Roll Call Vote 281 AS AMENDED,2012-05-08 00:00:00,other,145,1,5
+ct,2012,lower,HB 5335,CTV00001552,lower,House Roll Call Vote 242 AS AMENDED,2012-05-04 00:00:00,other,141,0,10
+ct,2012,lower,HB 5330,CTV00001380,lower,House Roll Call Vote 146,2012-04-30 00:00:00,other,144,0,7
+ct,2012,upper,SB 60,CTV00001282,upper,Senate Roll Call Vote 171 PASS,2012-04-25 00:00:00,other,33,3,0
+ct,2012,upper,SB 60,CTV00001283,upper,Senate Roll Call Vote 170 ADOPT    SENATE AMD A  LCO 3905,2012-04-25 00:00:00,other,12,21,3
+ct,2012,upper,SB 61,CTV00001471,upper,Senate Roll Call Vote 293,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 62,CTV00001326,upper,Senate Roll Call Vote 199,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 63,CTV00001407,upper,Senate Roll Call Vote 251,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 63,CTV00001408,upper,Senate Roll Call Vote 238 ADOPT    SENATE AMD A  LCO 3943,2012-05-02 00:00:00,other,35,0,1
+ct,2012,upper,SB 64,CTV00001327,upper,Senate Roll Call Vote 200,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 67,CTV00001284,upper,Senate Roll Call Vote 183,2012-04-25 00:00:00,other,36,0,0
+ct,2012,upper,SB 414,CTV00001331,upper,Senate Roll Call Vote 208,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 341,CTV00001328,upper,Senate Roll Call Vote 209,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 340,CTV00001194,upper,Senate Roll Call Vote 149,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 342,CTV00001580,upper,Senate Roll Call Vote 326 PASS     AS AMENDED BY SEN A,2012-05-07 00:00:00,other,31,4,1
+ct,2012,upper,SB 342,CTV00001581,upper,Senate Roll Call Vote 325 ADOPT    SENATE AMD A  LCO 5316,2012-05-07 00:00:00,other,30,4,2
+ct,2012,upper,SB 345,CTV00001472,upper,Senate Roll Call Vote 296,2012-05-03 00:00:00,other,36,0,0
+ct,2012,upper,SB 347,CTV00001409,upper,Senate Roll Call Vote 257,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 410,CTV00001332,upper,Senate Roll Call Vote 207,2012-04-27 00:00:00,other,35,0,1
+ct,2012,lower,HB 5536,CTV00001638,upper,Senate Roll Call Vote 366,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5536,CTV00001381,lower,House Roll Call Vote 171 AS AMENDED,2012-05-01 00:00:00,other,138,5,8
+ct,2012,lower,HB 5534,CTV00001728,upper,Senate Roll Call Vote 399,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5532,CTV00001553,lower,House Roll Call Vote 215,2012-05-04 00:00:00,other,111,30,10
+ct,2012,lower,HB 5533,CTV00001456,lower,House Roll Call Vote 208 AS AMENDED,2012-05-03 00:00:00,other,121,23,7
+ct,2012,lower,HB 5538,CTV00001639,lower,House Roll Call Vote 282 AS AMENDED,2012-05-08 00:00:00,other,147,0,4
+ct,2012,lower,HB 5539,CTV00001729,upper,Senate Roll Call Vote 400,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5386,CTV00001224,lower,House Roll Call Vote 97 AS AMENDED,2012-04-18 00:00:00,other,100,38,13
+ct,2012,lower,HB 5021,CTV00001382,upper,Senate Roll Call Vote 224 PASS     AS AMENDED BY HOUSE A,2012-05-01 00:00:00,other,28,6,2
+ct,2012,lower,HB 5021,CTV00001305,lower,House Roll Call Vote 138 AS AMENDED,2012-04-26 00:00:00,other,116,27,8
+ct,2012,lower,HB 5022,CTV00001730,upper,Senate Roll Call Vote 454,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5024,CTV00001554,upper,Senate Roll Call Vote 319 PASS     AS AMENDED BY HOUSE A,2012-05-05 00:00:00,other,19,16,1
+ct,2012,lower,HB 5024,CTV00001555,upper,Senate Roll Call Vote 318 ADOPT    SENATE AMD D  LCO 5120,2012-05-05 00:00:00,other,14,20,2
+ct,2012,lower,HB 5024,CTV00001556,upper,Senate Roll Call Vote 317 ADOPT    SENATE AMD C  LCO 5106,2012-05-05 00:00:00,other,14,20,2
+ct,2012,lower,HB 5024,CTV00001557,upper,Senate Roll Call Vote 316 ADOPT    SENATE AMD B  LCO 5117,2012-05-05 00:00:00,other,14,20,2
+ct,2012,lower,HB 5024,CTV00001558,upper,Senate Roll Call Vote 315 ADOPT    SENATE AMD A  LCO 5121,2012-05-05 00:00:00,other,14,20,2
+ct,2012,lower,HB 5024,CTV00001383,lower,House Roll Call Vote 160 AS AMENDED,2012-04-30 00:00:00,other,83,59,9
+ct,2012,lower,HB 5024,CTV00001384,lower,House Roll Call Vote 159 LCO # 4271,2012-04-30 00:00:00,other,52,88,11
+ct,2012,lower,HB 5024,CTV00001385,lower,House Roll Call Vote 158 LCO # 4261,2012-04-30 00:00:00,other,51,90,10
+ct,2012,lower,HB 5024,CTV00001386,lower,House Roll Call Vote 157 LCO # 3875,2012-04-30 00:00:00,other,50,91,10
+ct,2012,lower,HB 5024,CTV00001387,lower,House Roll Call Vote 156 LCO # 3887,2012-04-30 00:00:00,other,53,89,9
+ct,2012,lower,HB 5024,CTV00001388,lower,House Roll Call Vote 155 LCO # 4266,2012-04-30 00:00:00,other,52,88,11
+ct,2012,lower,HB 5024,CTV00001389,lower,House Roll Call Vote 154 LCO # 3775,2012-04-30 00:00:00,other,86,59,6
+ct,2012,lower,HB 5025,CTV00001731,upper,Senate Roll Call Vote 398,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5026,CTV00001457,lower,House Roll Call Vote 185,2012-05-02 00:00:00,other,145,0,6
+ct,2012,lower,HB 5027,CTV00001595,lower,House Roll Call Vote 269 AS AMENDED,2012-05-07 00:00:00,other,147,0,4
+ct,2012,lower,HJ 69,CTV00001119,upper,Senate Roll Call Vote 89 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 68,CTV00001120,upper,Senate Roll Call Vote 88 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 63,CTV00001121,upper,Senate Roll Call Vote 83 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 62,CTV00001079,lower,House Roll Call Vote 31,2012-03-28 00:00:00,other,146,0,5
+ct,2012,lower,HJ 62,CTV00001080,upper,Senate Roll Call Vote 67,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 61,CTV00001081,lower,House Roll Call Vote 30,2012-03-28 00:00:00,other,145,0,6
+ct,2012,lower,HJ 61,CTV00001082,upper,Senate Roll Call Vote 66,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 60,CTV00001083,lower,House Roll Call Vote 29,2012-03-28 00:00:00,other,147,0,4
+ct,2012,lower,HJ 60,CTV00001084,upper,Senate Roll Call Vote 65,2012-03-28 00:00:00,other,34,0,2
+ct,2012,lower,HJ 67,CTV00001122,upper,Senate Roll Call Vote 87 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HB 5358,CTV00001732,lower,House Roll Call Vote 286 AS AMENDED,2012-05-09 00:00:00,other,143,0,8
+ct,2012,lower,HB 5358,CTV00001733,upper,Senate Roll Call Vote 394,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HJ 65,CTV00001123,upper,Senate Roll Call Vote 85 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HJ 27,CTV00001036,upper,Senate Roll Call Vote 34,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 27,CTV00001037,lower,House Roll Call Vote 12,2012-02-23 00:00:00,other,134,1,16
+ct,2012,lower,HJ 64,CTV00001124,upper,Senate Roll Call Vote 84 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,upper,SB 399,CTV00001572,upper,Senate Roll Call Vote 323 PASS     AS AMENDED BY SEN A,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HB 5154,CTV00001458,lower,House Roll Call Vote 202 AS AMENDED,2012-05-03 00:00:00,other,117,27,7
+ct,2012,lower,HB 5154,CTV00001459,lower,House Roll Call Vote 201 LCO # 4763,2012-05-03 00:00:00,other,52,92,7
+ct,2012,lower,HB 5150,CTV00001390,upper,Senate Roll Call Vote 227,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5150,CTV00001184,lower,House Roll Call Vote 71,2012-04-17 00:00:00,other,146,0,5
+ct,2012,lower,HB 5159,CTV00001460,lower,House Roll Call Vote 178,2012-05-02 00:00:00,other,142,0,9
+ct,2012,upper,SB 351,CTV00001308,upper,Senate Roll Call Vote 203,2012-04-26 00:00:00,other,35,0,1
+ct,2012,upper,SB 320,CTV00001517,lower,House Roll Call Vote 246,2012-05-05 00:00:00,other,129,0,22
+ct,2012,upper,SB 320,CTV00001195,upper,Senate Roll Call Vote 143,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 248,CTV00001519,lower,House Roll Call Vote 235,2012-05-04 00:00:00,other,139,0,12
+ct,2012,upper,SB 248,CTV00001333,upper,Senate Roll Call Vote 216,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 391,CTV00001413,upper,Senate Roll Call Vote 259,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 243,CTV00001474,lower,House Roll Call Vote 209 LCO # 4063,2012-05-03 00:00:00,other,69,74,8
+ct,2012,upper,SB 243,CTV00001334,upper,Senate Roll Call Vote 205 PASS     AS AMENDED BY SEN A,2012-04-27 00:00:00,other,32,3,1
+ct,2012,upper,SB 245,CTV00001251,upper,Senate Roll Call Vote 162 PASS,2012-04-19 00:00:00,other,24,11,1
+ct,2012,upper,SB 245,CTV00001252,upper,Senate Roll Call Vote 161 ADOPT    SENATE AMD C  LCO 3551,2012-04-19 00:00:00,other,14,20,2
+ct,2012,upper,SB 245,CTV00001253,upper,Senate Roll Call Vote 160 ADOPT    SENATE AMD B  LCO 3540,2012-04-19 00:00:00,other,13,21,2
+ct,2012,upper,SB 245,CTV00001254,upper,Senate Roll Call Vote 159 ADOPT    SENATE AMD A  LCO 3441,2012-04-19 00:00:00,other,14,18,4
+ct,2012,upper,SJ 5,CTV00001088,lower,House Roll Call Vote 34,2012-04-04 00:00:00,other,132,0,19
+ct,2012,upper,SJ 5,CTV00001053,upper,Senate Roll Call Vote 45 ADOPT,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 10,CTV00001061,upper,Senate Roll Call Vote 50,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 13,CTV00001062,upper,Senate Roll Call Vote 54,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 15,CTV00001063,upper,Senate Roll Call Vote 56,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 14,CTV00001064,upper,Senate Roll Call Vote 55,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 17,CTV00001065,upper,Senate Roll Call Vote 59,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 16,CTV00001066,upper,Senate Roll Call Vote 57,2012-03-28 00:00:00,other,36,0,0
+ct,2012,upper,SJ 18,CTV00001104,upper,Senate Roll Call Vote 77 PASS,2012-04-05 00:00:00,other,36,0,0
+ct,2012,lower,HB 5279,CTV00001734,upper,Senate Roll Call Vote 410,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5279,CTV00001185,lower,House Roll Call Vote 68 AS AMENDED,2012-04-17 00:00:00,other,147,0,4
+ct,2012,lower,HB 5271,CTV00001735,upper,Senate Roll Call Vote 424,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5271,CTV00001391,lower,House Roll Call Vote 151,2012-04-30 00:00:00,other,147,0,4
+ct,2012,lower,HB 5276,CTV00001736,upper,Senate Roll Call Vote 417,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5276,CTV00001272,lower,House Roll Call Vote 115 AS AMENDED,2012-04-20 00:00:00,other,140,0,11
+ct,2012,upper,SB 309,CTV00001582,lower,House Roll Call Vote 265,2012-05-07 00:00:00,other,147,0,4
+ct,2012,upper,SB 309,CTV00001431,upper,Senate Roll Call Vote 263 PASS,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 308,CTV00001583,upper,Senate Roll Call Vote 322 PASS,2012-05-07 00:00:00,other,21,14,1
+ct,2012,upper,SB 302,CTV00001521,lower,House Roll Call Vote 251,2012-05-05 00:00:00,other,136,0,15
+ct,2012,upper,SB 302,CTV00001285,upper,Senate Roll Call Vote 180,2012-04-25 00:00:00,other,36,0,0
+ct,2012,upper,SB 404,CTV00001189,upper,Senate Roll Call Vote 155,2012-04-18 00:00:00,other,35,0,1
+ct,2012,upper,SB 419,CTV00001473,upper,Senate Roll Call Vote 271 PASS     AS AMENDED BY SEN A,2012-05-03 00:00:00,other,24,12,0
+ct,2012,lower,HB 5473,CTV00001273,lower,House Roll Call Vote 105,2012-04-19 00:00:00,other,147,0,4
+ct,2012,lower,HB 5472,CTV00001596,lower,House Roll Call Vote 266 AS AMENDED,2012-05-07 00:00:00,other,147,0,4
+ct,2012,lower,HB 5476,CTV00001640,upper,Senate Roll Call Vote 361,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5476,CTV00001306,lower,House Roll Call Vote 126,2012-04-25 00:00:00,other,149,0,2
+ct,2012,upper,SB 150,CTV00001522,lower,House Roll Call Vote 239,2012-05-04 00:00:00,other,132,9,10
+ct,2012,upper,SB 150,CTV00001335,upper,Senate Roll Call Vote 212,2012-04-27 00:00:00,other,35,0,1
+ct,2012,lower,HB 5521,CTV00001737,upper,Senate Roll Call Vote 442,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5521,CTV00001597,lower,House Roll Call Vote 267 AS AMENDED,2012-05-07 00:00:00,other,143,3,5
+ct,2012,lower,HB 5553,CTV00001738,upper,Senate Roll Call Vote 453,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5553,CTV00001559,lower,House Roll Call Vote 243 AS AMENDED,2012-05-04 00:00:00,other,141,0,10
+ct,2012,upper,SB 156,CTV00001412,upper,Senate Roll Call Vote 261,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5554,CTV00001641,upper,Senate Roll Call Vote 357,2012-05-09 00:00:00,other,35,0,1
+ct,2012,lower,HB 5554,CTV00001186,lower,House Roll Call Vote 78 AS AMENDED,2012-04-17 00:00:00,other,146,0,5
+ct,2012,lower,HB 5556,CTV00001642,lower,House Roll Call Vote 278 AS AMENDED,2012-05-08 00:00:00,other,94,54,3
+ct,2012,lower,HB 5556,CTV00001643,lower,House Roll Call Vote 277 LCO # 5375,2012-05-08 00:00:00,other,54,94,3
+ct,2012,lower,HB 5556,CTV00001644,lower,House Roll Call Vote 276 LCO # 5275,2012-05-08 00:00:00,other,101,47,3
+ct,2012,lower,HB 5556,CTV00001645,upper,Senate Roll Call Vote 355 PASS,2012-05-09 00:00:00,other,20,15,1
+ct,2012,lower,HB 5556,CTV00001646,upper,Senate Roll Call Vote 354 ADOPT    SENATE AMD A  LCO 5170,2012-05-09 00:00:00,other,15,19,2
+ct,2012,upper,SB 394,CTV00001523,upper,Senate Roll Call Vote 301,2012-05-04 00:00:00,other,35,0,1
+ct,2012,lower,HB 5557,CTV00001647,upper,Senate Roll Call Vote 349 PASS,2012-05-08 00:00:00,other,22,13,1
+ct,2012,lower,HB 5557,CTV00001648,upper,Senate Roll Call Vote 348 ADOPT    SENATE AMD B  LCO 5399,2012-05-08 00:00:00,other,14,21,1
+ct,2012,lower,HB 5557,CTV00001649,upper,Senate Roll Call Vote 347 ADOPT    SENATE AMD A  LCO 5383,2012-05-08 00:00:00,other,14,21,1
+ct,2012,lower,HB 5557,CTV00001598,lower,House Roll Call Vote 275 EMERGENCY CERTIFI,2012-05-08 00:00:00,other,95,49,7
+ct,2012,lower,HB 5557,CTV00001599,lower,House Roll Call Vote 274 LCO # 5240,2012-05-08 00:00:00,other,49,94,8
+ct,2012,upper,SB 14,CTV00001338,upper,Senate Roll Call Vote 188 PASS,2012-04-26 00:00:00,other,33,2,1
+ct,2012,lower,HB 5378,CTV00001739,upper,Senate Roll Call Vote 392 PASS,2012-05-09 00:00:00,other,35,1,0
+ct,2012,lower,HB 5378,CTV00001307,lower,House Roll Call Vote 137,2012-04-26 00:00:00,other,144,0,7
+ct,2012,lower,HB 5054,CTV00001461,lower,House Roll Call Vote 195 AS AMENDED,2012-05-03 00:00:00,other,126,0,25
+ct,2012,lower,HB 5057,CTV00001423,upper,Senate Roll Call Vote 242,2012-05-02 00:00:00,other,36,0,0
+ct,2012,lower,HB 5057,CTV00001098,lower,House Roll Call Vote 41,2012-04-04 00:00:00,other,142,0,9
+ct,2012,lower,HB 5056,CTV00001274,lower,House Roll Call Vote 102,2012-04-19 00:00:00,other,141,0,10
+ct,2012,lower,HJ 36,CTV00001038,upper,Senate Roll Call Vote 42,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 36,CTV00001039,lower,House Roll Call Vote 16,2012-02-23 00:00:00,other,134,1,16
+ct,2012,lower,HJ 37,CTV00001040,upper,Senate Roll Call Vote 10 ADOPT,2012-02-29 00:00:00,other,30,3,3
+ct,2012,lower,HJ 37,CTV00001041,lower,House Roll Call Vote 17,2012-02-23 00:00:00,other,129,10,12
+ct,2012,lower,HJ 30,CTV00001042,upper,Senate Roll Call Vote 37,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 31,CTV00001043,upper,Senate Roll Call Vote 38,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 32,CTV00001044,upper,Senate Roll Call Vote 39,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 33,CTV00001045,upper,Senate Roll Call Vote 40,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 33,CTV00001046,lower,House Roll Call Vote 14,2012-02-23 00:00:00,other,134,1,16
+ct,2012,lower,HJ 19,CTV00001047,upper,Senate Roll Call Vote 26,2012-02-29 00:00:00,other,31,0,5
+ct,2012,lower,HJ 39,CTV00001600,upper,Senate Roll Call Vote 329,2012-05-07 00:00:00,other,35,0,1
+ct,2012,lower,HJ 39,CTV00001462,lower,House Roll Call Vote 198,2012-05-03 00:00:00,other,137,0,14
+ct,2012,lower,HB 5182,CTV00001392,upper,Senate Roll Call Vote 228,2012-05-01 00:00:00,other,34,0,2
+ct,2012,lower,HB 5182,CTV00001187,lower,House Roll Call Vote 69,2012-04-17 00:00:00,other,147,0,4
+ct,2012,upper,SB 80,CTV00001608,lower,House Roll Call Vote 283 AS AMENDED,2012-05-08 00:00:00,other,144,0,7
+ct,2012,upper,SB 80,CTV00001527,upper,Senate Roll Call Vote 303,2012-05-04 00:00:00,other,35,0,1
+ct,2012,upper,SB 101,CTV00001317,upper,Senate Roll Call Vote 217,2012-04-27 00:00:00,other,35,0,1
+ct,2012,upper,SB 285,CTV00001661,lower,House Roll Call Vote 294,2012-05-09 00:00:00,other,137,12,2
+ct,2012,upper,SB 285,CTV00001287,upper,Senate Roll Call Vote 178 PASS,2012-04-25 00:00:00,other,24,12,0
+ct,2012,upper,SB 285,CTV00001288,upper,Senate Roll Call Vote 177 ADOPT    SENATE AMD A  LCO 3849,2012-04-25 00:00:00,other,15,21,0
+ct,2012,lower,HB 5550,CTV00001740,upper,Senate Roll Call Vote 428,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5550,CTV00001463,lower,House Roll Call Vote 196,2012-05-03 00:00:00,other,126,0,25
+ct,2012,upper,SB 280,CTV00001148,lower,House Roll Call Vote 61 AS AMENDED,2012-04-11 00:00:00,other,86,62,3
+ct,2012,upper,SB 280,CTV00001149,lower,House Roll Call Vote 60 LCO # 3172,2012-04-11 00:00:00,other,54,93,4
+ct,2012,upper,SB 280,CTV00001150,lower,House Roll Call Vote 59 LCO # 3127,2012-04-11 00:00:00,other,58,89,4
+ct,2012,upper,SB 280,CTV00001151,lower,House Roll Call Vote 58 LCO # 3126,2012-04-11 00:00:00,other,51,95,5
+ct,2012,upper,SB 280,CTV00001152,lower,House Roll Call Vote 57 LCO # 3129,2012-04-11 00:00:00,other,51,95,5
+ct,2012,upper,SB 280,CTV00001153,lower,House Roll Call Vote 56 LCO # 3124,2012-04-11 00:00:00,other,50,91,10
+ct,2012,upper,SB 280,CTV00001154,lower,House Roll Call Vote 55 LCO # 3179,2012-04-11 00:00:00,other,64,75,12
+ct,2012,upper,SB 280,CTV00001155,lower,House Roll Call Vote 54 LCO # 3175,2012-04-11 00:00:00,other,54,83,14
+ct,2012,upper,SB 280,CTV00001156,lower,House Roll Call Vote 53 LCO # 3155,2012-04-11 00:00:00,other,60,83,8
+ct,2012,upper,SB 280,CTV00001157,lower,House Roll Call Vote 52 LCO # 3122,2012-04-11 00:00:00,other,53,89,9
+ct,2012,upper,SB 280,CTV00001158,lower,House Roll Call Vote 51 LCO # 3121,2012-04-11 00:00:00,other,57,85,9
+ct,2012,upper,SB 280,CTV00001159,lower,House Roll Call Vote 50 LCO # 3120,2012-04-11 00:00:00,other,54,88,9
+ct,2012,upper,SB 280,CTV00001105,upper,Senate Roll Call Vote 76 PASS     AS AMENDED BY A & I,2012-04-05 00:00:00,other,20,16,0
+ct,2012,upper,SB 280,CTV00001106,upper,Senate Roll Call Vote 75 ADOPT    SENATE AMD H  LCO 3034,2012-04-04 00:00:00,other,15,20,1
+ct,2012,upper,SB 280,CTV00001107,upper,Senate Roll Call Vote 74 ADOPT    SENATE AMD G  LCO 3048,2012-04-04 00:00:00,other,15,20,1
+ct,2012,upper,SB 280,CTV00001108,upper,Senate Roll Call Vote 73 ADOPT    SENATE AMD F  LCO 3030,2012-04-04 00:00:00,other,13,21,2
+ct,2012,upper,SB 280,CTV00001109,upper,Senate Roll Call Vote 72 ADOPT    SENATE AMD E  LCO 3065,2012-04-04 00:00:00,other,14,21,1
+ct,2012,upper,SB 280,CTV00001110,upper,Senate Roll Call Vote 71 ADOPT    SENATE AMD D  LCO 3058,2012-04-04 00:00:00,other,15,20,1
+ct,2012,upper,SB 280,CTV00001111,upper,Senate Roll Call Vote 70 ADOPT    SENATE AMD B  LCO 3051,2012-04-04 00:00:00,other,14,21,1
+ct,2012,upper,SB 280,CTV00001112,upper,Senate Roll Call Vote 69 APPEAL THE RULING OF THE CHAIR,2012-04-04 00:00:00,other,21,13,2
+ct,2012,upper,SB 280,CTV00001113,upper,Senate Roll Call Vote 68 ADOPT    SENATE AMD A  LCO 3027,2012-04-04 00:00:00,other,21,14,1
+ct,2012,upper,SB 282,CTV00001609,upper,Senate Roll Call Vote 351 ADOPT    AS AMENDED BY SEN A&B,2012-05-08 00:00:00,other,36,0,0
+ct,2012,upper,SB 282,CTV00001610,upper,Senate Roll Call Vote 350 ADOPT    SENATE AMD B  LCO 5429,2012-05-08 00:00:00,other,35,0,1
+ct,2012,upper,SJ 54,CTV00001747,upper,Senate Roll Call Vote 460 ADOPT,2012-06-12 00:00:00,other,21,14,1
+ct,2012,upper,SJ 54,CTV00001748,lower,House Roll Call Vote 301 EMERGENCY CERTIFI,2012-06-12 00:00:00,other,87,48,16
+ct,2012,upper,SB 441,CTV00001663,upper,Senate Roll Call Vote 382 PASS,2012-05-09 00:00:00,other,36,0,0
+ct,2012,upper,SB 440,CTV00001662,lower,House Roll Call Vote 288 AS AMENDED,2012-05-09 00:00:00,other,150,0,1
+ct,2012,upper,SB 440,CTV00001611,upper,Senate Roll Call Vote 343 PASS     AS AMENDED BY SEN B,2012-05-08 00:00:00,other,36,0,0
+ct,2012,upper,SB 440,CTV00001612,upper,Senate Roll Call Vote 342 ADOPT    SENATE AMD C  LCO 5395,2012-05-08 00:00:00,other,15,20,1
+ct,2012,upper,SB 138,CTV00001651,lower,House Roll Call Vote 295 AS AMENDED,2012-05-09 00:00:00,other,148,0,3
+ct,2012,upper,SB 138,CTV00001235,upper,Senate Roll Call Vote 158 PASS     AS AMENDED BY A,2012-04-19 00:00:00,other,35,0,1
+ct,2012,upper,SB 139,CTV00001191,lower,House Roll Call Vote 85,2012-04-18 00:00:00,other,139,0,12
+ct,2012,upper,SB 139,CTV00001128,upper,Senate Roll Call Vote 122,2012-04-11 00:00:00,other,36,0,0
+ct,2012,lower,HB 5437,CTV00001741,upper,Senate Roll Call Vote 406,2012-05-09 00:00:00,other,36,0,0
+ct,2012,lower,HB 5437,CTV00001168,lower,House Roll Call Vote 49,2012-04-11 00:00:00,other,137,0,14
+ct,2012,upper,SB 105,CTV00001130,upper,Senate Roll Call Vote 111,2012-04-11 00:00:00,other,36,0,0
+ct,2012,upper,SB 232,CTV00001257,upper,Senate Roll Call Vote 132 PASS     AS AMENDED BY SEN A,2012-04-18 00:00:00,other,24,11,1
+ct,2012,upper,SB 234,CTV00001415,upper,Senate Roll Call Vote 255,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 237,CTV00001416,upper,Senate Roll Call Vote 241,2012-05-02 00:00:00,other,36,0,0
+ct,2012,upper,SB 239,CTV00001289,upper,Senate Roll Call Vote 174 PASS,2012-04-25 00:00:00,other,35,1,0
+ct,2012,upper,SB 436,CTV00001563,upper,Senate Roll Call Vote 338,2012-05-07 00:00:00,other,35,0,1
+ct,2012,upper,SB 436,CTV00001564,upper,Senate Roll Call Vote 321 ADOPT    SENATE AMD A  LCO 4794,2012-05-07 00:00:00,other,13,21,2
+ct,2012,upper,SB 241,CTV00001520,lower,House Roll Call Vote 229 AS AMENDED,2012-05-04 00:00:00,other,140,0,11
+ct,2012,upper,SB 241,CTV00001146,upper,Senate Roll Call Vote 121,2012-04-11 00:00:00,other,36,0,0
+ct,2013,upper,SJ 9,CTV00001765,upper,Senate Roll Call Vote 2 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 11,CTV00001754,upper,Senate Roll Call Vote 4 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 10,CTV00001755,upper,Senate Roll Call Vote 3 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 13,CTV00001756,upper,Senate Roll Call Vote 6 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 15,CTV00001758,upper,Senate Roll Call Vote 7 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 14,CTV00001760,upper,Senate Roll Call Vote 9 ADOPT,2013-01-23 00:00:00,other,30,3,3
+ct,2013,upper,SJ 16,CTV00001761,upper,Senate Roll Call Vote 8 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 8,CTV00001763,upper,Senate Roll Call Vote 1 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,lower,HJ 5,CTV00001766,upper,Senate Roll Call Vote 13 PASS,2013-01-23 00:00:00,other,33,0,3
+ct,2013,lower,HJ 4,CTV00001768,upper,Senate Roll Call Vote 10 ADOPT,2013-01-23 00:00:00,other,32,0,4
+ct,2013,lower,HJ 7,CTV00001770,upper,Senate Roll Call Vote 14 PASS,2013-01-23 00:00:00,other,33,0,3
+ct,2013,lower,HJ 6,CTV00001772,upper,Senate Roll Call Vote 11 ADOPT,2013-01-23 00:00:00,other,32,0,4
+ct,2013,lower,HJ 9,CTV00001773,upper,Senate Roll Call Vote 12 ADOPT,2013-01-23 00:00:00,other,32,0,4
+ct,2013,lower,HJ 8,CTV00001774,upper,Senate Roll Call Vote 15 PASS,2013-01-23 00:00:00,other,33,0,3
+ct,2013,lower,HJ 10,CTV00001776,upper,Senate Roll Call Vote 16 PASS,2013-01-23 00:00:00,other,33,0,3
+ct,2013,lower,HJ 11,CTV00001777,upper,Senate Roll Call Vote 17 PASS,2013-01-23 00:00:00,other,33,0,3
+ct,2013,upper,SJ 12,CTV00001757,upper,Senate Roll Call Vote 5 PASS,2013-01-23 00:00:00,other,32,0,4
+ct,2013,upper,SJ 9,CTV00001764,lower,House Roll Call Vote 5,2013-01-23 00:00:00,other,145,0,6
+ct,2013,upper,SJ 14,CTV00001759,lower,House Roll Call Vote 6,2013-01-23 00:00:00,other,125,20,6
+ct,2013,upper,SJ 8,CTV00001762,lower,House Roll Call Vote 7 CONSENT CALENDAR,2013-01-23 00:00:00,other,146,0,5
+ct,2013,lower,HJ 4,CTV00001767,lower,House Roll Call Vote 1,2013-01-23 00:00:00,other,141,0,10
+ct,2013,lower,HJ 7,CTV00001769,lower,House Roll Call Vote 4 CONSENT CALENDAR,2013-01-23 00:00:00,other,146,0,5
+ct,2013,lower,HJ 6,CTV00001771,lower,House Roll Call Vote 2,2013-01-23 00:00:00,other,142,0,9
+ct,2013,lower,HJ 10,CTV00001775,lower,House Roll Call Vote 3,2013-01-23 00:00:00,other,145,0,6

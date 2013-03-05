@@ -2,14 +2,13 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :before_all
 
-  rescue_from CanCan::AccessDenied do |exception|
-    redirect_to root_path, :alert => exception.message
-  end
+  #rescue_from CanCan::AccessDenied do |exception|
+  #  redirect_to root_path, :alert => exception.message
+  #end
 
 protected
 
   def before_all
-    logger.info "************** before_all called **************"
     if user_signed_in?
       @current_user_groups = UserGroup.where( :user_id => current_user.id )
     end
@@ -34,6 +33,8 @@ private
   end
   
   def get_poll_uid
+    # Temporary hack to generate a unique cookie to identify a browser for unregistered
+    # poll responses. todo: replace with something that can't be so trivially defeated
     if (cookies[:poll_uid])
       cookies[:poll_uid]
     else

@@ -235,34 +235,34 @@ Role.create([
 
 puts 'SETTING UP DEFAULT USER LOGIN'
 
-user1 = User.create! :name => 'Joe Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>14
+user1 = User.create! :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>14
 puts 'New user created: ' << user1.name
 
-user2 = User.create! :name => 'Jane Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 13
+user2 = User.create! :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 13
 puts 'New user created: ' << user2.name
 
-user3 = User.create! :name => 'Bob User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>12
+user3 = User.create! :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>12
 puts 'New user created: ' << user3.name
 
-user4 = User.create! :name => 'Cindy User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 11
+user4 = User.create! :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 11
 puts 'New user created: ' << user4.name
 
-user5 = User.create! :name => 'Jane User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 10
+user5 = User.create! :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 10
 puts 'New user created: ' << user5.name
 
-user6 = User.create! :name => 'Frank User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 9
+user6 = User.create! :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 9
 puts 'New user created: ' << user6.name
 
-user7 = User.create! :name => 'Michael User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 8
+user7 = User.create! :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 8
 puts 'New user created: ' << user7.name
 
-user8 = User.create! :name => 'Jill User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 7
+user8 = User.create! :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 7
 puts 'New user created: ' << user8.name
 
-user9 = User.create! :name => 'Fred User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>6
+user9 = User.create! :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>6
 puts 'New user created: ' << user9.name
 
-user10 = User.create! :name => 'Alice User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number=> 5
+user10 = User.create! :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number=> 5
 puts 'New user created: ' << user10.name
 
 user1.add_role :admin

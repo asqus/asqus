@@ -5,14 +5,13 @@ class QuickPollResultsController < ApplicationController
   # GET /quick_poll_results/1.json
   def show
     
-    # todo: replace this demo data
     
     @quick_poll = QuickPoll.find(params[:id])
     quick_poll_id = @quick_poll.id
     
-    # todo: for some reason I the fucking exec_query won't accept the binds parameter without
-    # a syntax error, so fix that fucking shit or else sanitize the fucking quick_poll_id variable
-    # fucking fuck
+    # todo: for some reason I the exec_query won't accept the binds parameter without
+    # a syntax error, so fix that fucking shit or else sanitize the quick_poll_id variable
+
     
     @results = ActiveRecord::Base.connection.exec_query(
        "select text as name, value, sum(count), 0 as percentage from ( 

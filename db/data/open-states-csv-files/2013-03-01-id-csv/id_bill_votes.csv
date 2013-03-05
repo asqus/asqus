@@ -1,0 +1,1815 @@
+state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+id,2011,upper,S 1001,IDV00000001,upper,  3rd rdg as amen - ,2011-03-29 00:00:00,other,26,9,0
+id,2011,upper,S 1001,IDV00000002,lower,  Rls susp - ,2011-04-06 00:00:00,other,41,27,2
+id,2011,upper,S 1003,IDV00000003,upper,  3rd rdg - ,2011-02-01 00:00:00,other,32,0,2
+id,2011,upper,S 1003,IDV00000004,lower,  3rd rdg - ,2011-02-10 00:00:00,other,66,0,4
+id,2011,upper,S 1004,IDV00000005,upper,  3rd rdg - ,2011-02-01 00:00:00,other,28,6,0
+id,2011,upper,S 1006,IDV00000006,upper,  3rd rdg - ,2011-02-01 00:00:00,other,27,7,0
+id,2011,upper,S 1006,IDV00000007,lower,  3rd rdg - ,2011-02-22 00:00:00,other,55,14,1
+id,2011,upper,S 1007,IDV00000008,upper,  3rd rdg - ,2011-02-04 00:00:00,other,25,8,2
+id,2011,upper,S 1007,IDV00000009,lower,  3rd rdg - ,2011-02-22 00:00:00,other,55,15,0
+id,2011,upper,S 1008,IDV00000010,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1008,IDV00000011,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,upper,S 1009,IDV00000012,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1009,IDV00000013,lower,  3rd rdg - ,2011-02-21 00:00:00,other,68,0,2
+id,2011,upper,S 1010,IDV00000014,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1010,IDV00000015,lower,  3rd rdg - ,2011-02-23 00:00:00,other,69,0,1
+id,2011,upper,S 1011,IDV00000016,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1011,IDV00000017,lower,  3rd rdg - ,2011-02-18 00:00:00,other,62,0,8
+id,2011,upper,S 1012,IDV00000018,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1012,IDV00000019,lower,  3rd rdg - ,2011-02-23 00:00:00,other,68,0,2
+id,2011,upper,S 1014,IDV00000020,upper,  3rd rdg - ,2011-02-03 00:00:00,other,32,0,2
+id,2011,upper,S 1014,IDV00000021,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,upper,S 1017,IDV00000022,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1017,IDV00000023,lower,  3rd rdg - ,2011-03-10 00:00:00,other,67,0,3
+id,2011,upper,S 1018,IDV00000024,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1018,IDV00000025,lower,  3rd rdg - ,2011-03-14 00:00:00,other,66,1,3
+id,2011,upper,S 1019,IDV00000026,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1019,IDV00000027,lower,  3rd rdg - ,2011-03-14 00:00:00,other,69,0,1
+id,2011,upper,S 1020,IDV00000028,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1020,IDV00000029,lower,  3rd rdg - ,2011-03-14 00:00:00,other,69,0,1
+id,2011,upper,S 1021,IDV00000030,upper,  3rd rdg as amen - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1021,IDV00000031,lower,  3rd rdg - ,2011-04-05 00:00:00,other,68,1,1
+id,2011,upper,S 1022,IDV00000032,upper,  3rd rdg - ,2011-03-01 00:00:00,other,34,0,1
+id,2011,upper,S 1022,IDV00000033,lower,  3rd rdg - ,2011-03-23 00:00:00,other,70,0,0
+id,2011,upper,S 1023,IDV00000034,upper,  3rd rdg - ,2011-02-02 00:00:00,other,22,12,0
+id,2011,upper,S 1026,IDV00000035,upper,  3rd rdg as amen - ,2011-03-18 00:00:00,other,32,0,3
+id,2011,upper,S 1026,IDV00000036,lower,  3rd rdg - ,2011-04-05 00:00:00,other,68,0,2
+id,2011,upper,S 1029,IDV00000037,upper,  3rd rdg - ,2011-02-03 00:00:00,other,32,0,2
+id,2011,upper,S 1029,IDV00000038,lower,  3rd rdg - ,2011-02-21 00:00:00,other,68,1,1
+id,2011,upper,S 1030,IDV00000039,upper,  3rd rdg - ,2011-02-03 00:00:00,other,32,0,2
+id,2011,upper,S 1030,IDV00000040,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,upper,S 1031,IDV00000041,upper,  3rd rdg - ,2011-02-03 00:00:00,other,32,0,2
+id,2011,upper,S 1031,IDV00000042,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,upper,S 1041,IDV00000043,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1041,IDV00000044,lower,  3rd rdg - ,2011-03-23 00:00:00,other,70,0,0
+id,2011,upper,S 1042,IDV00000045,upper,  3rd rdg - ,2011-02-15 00:00:00,other,35,0,0
+id,2011,upper,S 1042,IDV00000046,lower,  3rd rdg - ,2011-03-23 00:00:00,other,69,0,1
+id,2011,upper,S 1043,IDV00000047,upper,  3rd rdg - ,2011-02-11 00:00:00,other,33,1,1
+id,2011,upper,S 1043,IDV00000048,lower,  3rd rdg - ,2011-03-23 00:00:00,other,66,1,3
+id,2011,upper,S 1044,IDV00000049,upper,  3rd rdg as amen - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,upper,S 1044,IDV00000050,lower,  3rd rdg - ,2011-03-04 00:00:00,other,64,0,6
+id,2011,upper,S 1045,IDV00000051,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1045,IDV00000052,lower,  3rd rdg - ,2011-02-23 00:00:00,other,67,0,3
+id,2011,upper,S 1048,IDV00000053,upper,  3rd rdg - ,2011-02-02 00:00:00,other,34,0,0
+id,2011,upper,S 1048,IDV00000054,lower,  3rd rdg - ,2011-02-10 00:00:00,other,66,0,4
+id,2011,upper,S 1049,IDV00000055,upper,  3rd rdg - ,2011-02-23 00:00:00,other,34,0,1
+id,2011,upper,S 1049,IDV00000056,lower,  3rd rdg - ,2011-03-28 00:00:00,other,70,0,0
+id,2011,upper,S 1050,IDV00000057,upper,  3rd rdg - ,2011-02-11 00:00:00,other,33,1,1
+id,2011,upper,S 1050,IDV00000058,lower,  3rd rdg - ,2011-02-28 00:00:00,other,68,0,2
+id,2011,upper,S 1052,IDV00000059,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,upper,S 1052,IDV00000060,lower,  3rd rdg - ,2011-02-18 00:00:00,other,62,0,8
+id,2011,upper,S 1053,IDV00000061,upper,  3rd rdg as amen - ,2011-02-18 00:00:00,other,26,8,1
+id,2011,upper,S 1055,IDV00000062,upper,  3rd rdg - ,2011-02-11 00:00:00,other,34,0,1
+id,2011,upper,S 1055,IDV00000063,lower,  3rd rdg - ,2011-03-10 00:00:00,other,67,0,3
+id,2011,upper,S 1056,IDV00000064,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,upper,S 1056,IDV00000065,lower,  3rd rdg - ,2011-02-23 00:00:00,other,69,0,1
+id,2011,upper,S 1057,IDV00000066,upper,  3rd rdg as amen - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,upper,S 1057,IDV00000067,lower,  3rd rdg - ,2011-03-04 00:00:00,other,65,0,5
+id,2011,upper,S 1058,IDV00000068,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,upper,S 1058,IDV00000069,lower,  3rd rdg - ,2011-02-25 00:00:00,other,57,9,4
+id,2011,upper,S 1059,IDV00000070,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,upper,S 1059,IDV00000071,lower,  3rd rdg - ,2011-03-03 00:00:00,other,63,1,6
+id,2011,upper,S 1060,IDV00000072,upper,  3rd rdg - ,2011-02-11 00:00:00,other,34,0,1
+id,2011,upper,S 1060,IDV00000073,lower,  3rd rdg - ,2011-02-23 00:00:00,other,56,11,3
+id,2011,upper,S 1061,IDV00000074,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,upper,S 1061,IDV00000075,lower,  3rd rdg - ,2011-03-04 00:00:00,other,68,0,2
+id,2011,upper,S 1062,IDV00000076,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,upper,S 1062,IDV00000077,lower,  3rd rdg - ,2011-03-04 00:00:00,other,67,0,3
+id,2011,upper,S 1063,IDV00000078,upper,  3rd rdg - ,2011-02-23 00:00:00,other,32,3,0
+id,2011,upper,S 1063,IDV00000079,lower,  3rd rdg - ,2011-03-04 00:00:00,other,49,17,4
+id,2011,upper,S 1066,IDV00000080,upper,  3rd rdg - ,2011-02-23 00:00:00,other,34,0,1
+id,2011,upper,S 1066,IDV00000081,lower,  3rd rdg - ,2011-03-14 00:00:00,other,62,7,1
+id,2011,upper,S 1067,IDV00000082,upper,  3rd rdg - ,2011-03-14 00:00:00,other,35,0,0
+id,2011,upper,S 1067,IDV00000083,lower,  3rd rdg - ,2011-03-25 00:00:00,other,68,0,2
+id,2011,upper,S 1070,IDV00000084,upper,  3rd rdg as amen - ,2011-03-11 00:00:00,other,31,2,2
+id,2011,upper,S 1070,IDV00000085,lower,  3rd rdg - ,2011-03-28 00:00:00,other,61,8,1
+id,2011,upper,S 1071,IDV00000086,upper,  3rd rdg as amen - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1071,IDV00000087,lower,  3rd rdg - ,2011-03-23 00:00:00,other,60,10,0
+id,2011,upper,S 1073,IDV00000088,upper,  3rd rdg - ,2011-02-18 00:00:00,other,26,8,1
+id,2011,upper,S 1073,IDV00000089,lower,  3rd rdg - ,2011-03-04 00:00:00,other,56,11,3
+id,2011,upper,S 1074,IDV00000090,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,upper,S 1074,IDV00000091,lower,  3rd rdg - ,2011-03-14 00:00:00,other,68,0,2
+id,2011,upper,S 1075,IDV00000092,upper,  3rd rdg as amen - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1075,IDV00000093,lower,  3rd rdg - ,2011-04-05 00:00:00,other,69,0,1
+id,2011,upper,S 1076,IDV00000094,upper,  3rd rdg - ,2011-03-03 00:00:00,other,28,3,4
+id,2011,upper,S 1076,IDV00000095,lower,  3rd rdg - ,2011-03-23 00:00:00,other,61,9,0
+id,2011,upper,S 1077,IDV00000096,upper,  3rd rdg - ,2011-02-23 00:00:00,other,34,0,1
+id,2011,upper,S 1077,IDV00000097,lower,  3rd rdg as amen - ,2011-03-23 00:00:00,other,66,0,4
+id,2011,upper,S 1077,IDV00000098,upper,  3rd rdg as amen - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,upper,S 1079,IDV00000099,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,upper,S 1079,IDV00000100,lower,  3rd rdg - ,2011-03-02 00:00:00,other,70,0,0
+id,2011,upper,S 1080,IDV00000101,upper,  Rls susp - ,2011-03-07 00:00:00,other,27,8,0
+id,2011,upper,S 1080,IDV00000102,lower,  3rd rdg - ,2011-03-30 00:00:00,other,15,52,3
+id,2011,upper,S 1081,IDV00000103,upper,  3rd rdg - ,2011-02-28 00:00:00,other,32,1,2
+id,2011,upper,S 1081,IDV00000104,lower,  3rd rdg - ,2011-03-14 00:00:00,other,63,4,3
+id,2011,upper,S 1082,IDV00000105,upper,  3rd rdg - ,2011-02-28 00:00:00,other,33,0,2
+id,2011,upper,S 1082,IDV00000106,lower,  3rd rdg - ,2011-03-14 00:00:00,other,67,1,2
+id,2011,upper,S 1083,IDV00000107,upper,  3rd rdg - ,2011-02-28 00:00:00,other,33,0,2
+id,2011,upper,S 1083,IDV00000108,lower,  3rd rdg - ,2011-03-14 00:00:00,other,26,44,0
+id,2011,upper,S 1085,IDV00000109,upper,  3rd rdg - ,2011-03-21 00:00:00,other,25,9,1
+id,2011,upper,S 1087,IDV00000110,upper,  3rd rdg - ,2011-02-23 00:00:00,other,34,0,1
+id,2011,upper,S 1087,IDV00000111,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,1,0
+id,2011,upper,S 1088,IDV00000112,upper,  Rls susp - ,2011-03-07 00:00:00,other,26,9,0
+id,2011,upper,S 1088,IDV00000113,lower,  3rd rdg as amen - ,2011-04-05 00:00:00,other,69,0,1
+id,2011,upper,S 1088,IDV00000114,upper,  Rls susp - ,2011-04-06 00:00:00,other,32,1,2
+id,2011,upper,S 1089,IDV00000115,upper,  3rd rdg as amen - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,upper,S 1089,IDV00000116,lower,  3rd rdg - ,2011-03-23 00:00:00,other,69,0,1
+id,2011,upper,S 1090,IDV00000117,upper,  3rd rdg - ,2011-02-23 00:00:00,other,34,0,1
+id,2011,upper,S 1090,IDV00000118,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,0,1
+id,2011,upper,S 1094,IDV00000119,upper,  3rd rdg - ,2011-02-28 00:00:00,other,33,0,2
+id,2011,upper,S 1094,IDV00000120,lower,  3rd rdg - ,2011-04-06 00:00:00,other,65,0,5
+id,2011,upper,S 1096,IDV00000121,upper,  3rd rdg - ,2011-03-01 00:00:00,other,34,0,1
+id,2011,upper,S 1096,IDV00000122,lower,  3rd rdg - ,2011-03-14 00:00:00,other,67,1,2
+id,2011,upper,S 1097,IDV00000123,upper,  3rd rdg - ,2011-02-23 00:00:00,other,31,3,1
+id,2011,upper,S 1097,IDV00000124,lower,  3rd rdg - ,2011-03-07 00:00:00,other,45,21,4
+id,2011,upper,S 1098,IDV00000125,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,upper,S 1100,IDV00000126,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1100,IDV00000127,lower,  3rd rdg - ,2011-03-31 00:00:00,other,44,20,6
+id,2011,upper,S 1101,IDV00000128,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1101,IDV00000129,lower,  3rd rdg - ,2011-03-15 00:00:00,other,67,2,1
+id,2011,upper,S 1102,IDV00000130,upper,  3rd rdg - ,2011-03-01 00:00:00,other,33,0,2
+id,2011,upper,S 1102,IDV00000131,lower,  3rd rdg - ,2011-03-23 00:00:00,other,70,0,0
+id,2011,upper,S 1103,IDV00000132,upper,  3rd rdg - ,2011-03-01 00:00:00,other,34,0,1
+id,2011,upper,S 1103,IDV00000133,lower,  3rd rdg - ,2011-03-15 00:00:00,other,61,8,1
+id,2011,upper,S 1105,IDV00000134,upper,  3rd rdg as amen - ,2011-03-08 00:00:00,other,32,3,0
+id,2011,upper,S 1106,IDV00000135,upper,  3rd rdg - ,2011-03-01 00:00:00,other,9,25,1
+id,2011,upper,S 1107,IDV00000136,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,upper,S 1107,IDV00000137,lower,  3rd rdg - ,2011-03-23 00:00:00,other,70,0,0
+id,2011,upper,S 1108,IDV00000138,upper,  3rd rdg - ,2011-02-24 00:00:00,other,20,15,0
+id,2011,upper,S 1108,IDV00000139,lower,  3rd rdg - ,2011-03-08 00:00:00,other,48,22,0
+id,2011,upper,S 1110,IDV00000140,upper,  3rd rdg - ,2011-02-24 00:00:00,other,20,15,0
+id,2011,upper,S 1110,IDV00000141,lower,  3rd rdg - ,2011-03-09 00:00:00,other,44,26,0
+id,2011,upper,S 1111,IDV00000142,upper,  3rd rdg - ,2011-03-01 00:00:00,other,25,9,1
+id,2011,upper,S 1111,IDV00000143,lower,  3rd rdg as amen - ,2011-04-06 00:00:00,other,30,39,1
+id,2011,upper,S 1114,IDV00000144,upper,  3rd rdg - ,2011-03-01 00:00:00,other,34,0,1
+id,2011,upper,S 1114,IDV00000145,lower,  3rd rdg - ,2011-03-17 00:00:00,other,68,0,2
+id,2011,upper,S 1115,IDV00000146,upper,  3rd rdg - ,2011-03-01 00:00:00,other,27,7,1
+id,2011,upper,S 1115,IDV00000147,lower,  3rd rdg - ,2011-03-23 00:00:00,other,56,13,1
+id,2011,upper,S 1116,IDV00000148,upper,  3rd rdg - ,2011-03-02 00:00:00,other,33,0,2
+id,2011,upper,S 1116,IDV00000149,lower,  3rd rdg - ,2011-03-14 00:00:00,other,41,28,1
+id,2011,upper,S 1117,IDV00000150,upper,  3rd rdg - ,2011-02-22 00:00:00,other,35,0,0
+id,2011,upper,S 1117,IDV00000151,lower,  3rd rdg - ,2011-03-07 00:00:00,other,66,0,4
+id,2011,upper,S 1118,IDV00000152,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,upper,S 1118,IDV00000153,lower,  3rd rdg - ,2011-03-15 00:00:00,other,68,1,1
+id,2011,upper,S 1120,IDV00000154,upper,  3rd rdg - ,2011-03-02 00:00:00,other,34,1,0
+id,2011,upper,S 1120,IDV00000155,lower,  3rd rdg - ,2011-04-05 00:00:00,other,65,4,1
+id,2011,upper,S 1121,IDV00000156,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,upper,S 1121,IDV00000157,lower,  3rd rdg - ,2011-03-15 00:00:00,other,69,0,1
+id,2011,upper,S 1122,IDV00000158,upper,  3rd rdg - ,2011-03-01 00:00:00,other,34,0,1
+id,2011,upper,S 1123,IDV00000159,upper,  Rls susp - ,2011-03-07 00:00:00,other,35,0,0
+id,2011,upper,S 1123,IDV00000160,lower,  3rd rdg - ,2011-03-15 00:00:00,other,69,0,1
+id,2011,upper,S 1127,IDV00000161,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,upper,S 1127,IDV00000162,lower,  3rd rdg - ,2011-03-15 00:00:00,other,66,3,1
+id,2011,upper,S 1129,IDV00000163,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1129,IDV00000164,lower,  3rd rdg - ,2011-03-28 00:00:00,other,54,16,0
+id,2011,upper,S 1130,IDV00000165,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1130,IDV00000166,lower,  3rd rdg - ,2011-03-28 00:00:00,other,70,0,0
+id,2011,upper,S 1132,IDV00000167,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1132,IDV00000168,lower,  3rd rdg - ,2011-03-28 00:00:00,other,67,1,2
+id,2011,upper,S 1133,IDV00000169,upper,  Rls susp - ,2011-03-24 00:00:00,other,27,6,2
+id,2011,upper,S 1133,IDV00000170,lower,  3rd rdg - ,2011-04-05 00:00:00,other,56,13,1
+id,2011,upper,S 1137,IDV00000171,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,upper,S 1137,IDV00000172,lower,  3rd rdg - ,2011-04-05 00:00:00,other,54,12,4
+id,2011,upper,S 1138,IDV00000173,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,upper,S 1138,IDV00000174,lower,  3rd rdg - ,2011-04-05 00:00:00,other,55,11,4
+id,2011,upper,S 1139,IDV00000175,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1139,IDV00000176,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,0,1
+id,2011,upper,S 1140,IDV00000177,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1140,IDV00000178,lower,  3rd rdg - ,2011-03-17 00:00:00,other,68,1,1
+id,2011,upper,S 1141,IDV00000179,upper,  3rd rdg - ,2011-03-11 00:00:00,other,30,4,1
+id,2011,upper,S 1141,IDV00000180,lower,  3rd rdg - ,2011-03-17 00:00:00,other,60,9,1
+id,2011,upper,S 1142,IDV00000181,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1142,IDV00000182,lower,  3rd rdg - ,2011-03-21 00:00:00,other,66,1,3
+id,2011,upper,S 1143,IDV00000183,upper,  3rd rdg as amen - ,2011-03-21 00:00:00,other,34,0,1
+id,2011,upper,S 1144,IDV00000184,upper,  3rd rdg - ,2011-03-22 00:00:00,other,32,0,3
+id,2011,upper,S 1144,IDV00000185,lower,  3rd rdg - ,2011-04-05 00:00:00,other,65,3,2
+id,2011,upper,S 1145,IDV00000186,upper,  3rd rdg - ,2011-03-21 00:00:00,other,18,16,1
+id,2011,upper,S 1147,IDV00000187,upper,  3rd rdg - ,2011-03-18 00:00:00,other,32,0,3
+id,2011,upper,S 1147,IDV00000188,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,0,1
+id,2011,upper,S 1149,IDV00000189,upper,  3rd rdg - ,2011-03-22 00:00:00,other,32,1,2
+id,2011,upper,S 1149,IDV00000190,lower,  3rd rdg - ,2011-04-05 00:00:00,other,66,0,4
+id,2011,upper,S 1150,IDV00000191,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1150,IDV00000192,lower,  3rd rdg - ,2011-03-23 00:00:00,other,70,0,0
+id,2011,upper,S 1151,IDV00000193,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1151,IDV00000194,lower,  3rd rdg - ,2011-03-23 00:00:00,other,67,3,0
+id,2011,upper,S 1152,IDV00000195,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1152,IDV00000196,lower,  3rd rdg - ,2011-03-23 00:00:00,other,68,1,1
+id,2011,upper,S 1153,IDV00000197,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,upper,S 1153,IDV00000198,lower,  3rd rdg - ,2011-03-23 00:00:00,other,68,0,2
+id,2011,upper,S 1154,IDV00000199,upper,  3rd rdg as amen - ,2011-03-25 00:00:00,other,34,0,1
+id,2011,upper,S 1154,IDV00000200,lower,  3rd rdg - ,2011-03-31 00:00:00,other,63,0,7
+id,2011,upper,S 1156,IDV00000201,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,upper,S 1156,IDV00000202,lower,  3rd rdg - ,2011-04-06 00:00:00,other,58,8,4
+id,2011,upper,S 1157,IDV00000203,upper,  3rd rdg - ,2011-03-16 00:00:00,other,35,0,0
+id,2011,upper,S 1157,IDV00000204,lower,  3rd rdg - ,2011-03-23 00:00:00,other,65,2,3
+id,2011,upper,S 1158,IDV00000205,upper,  3rd rdg - ,2011-03-16 00:00:00,other,20,15,0
+id,2011,upper,S 1160,IDV00000206,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,upper,S 1160,IDV00000207,lower,  3rd rdg - ,2011-03-25 00:00:00,other,54,14,2
+id,2011,upper,S 1161,IDV00000208,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,upper,S 1161,IDV00000209,lower,  3rd rdg - ,2011-03-25 00:00:00,other,65,3,2
+id,2011,upper,S 1162,IDV00000210,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,upper,S 1162,IDV00000211,lower,  3rd rdg - ,2011-03-25 00:00:00,other,68,0,2
+id,2011,upper,S 1163,IDV00000212,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,upper,S 1163,IDV00000213,lower,  3rd rdg - ,2011-03-25 00:00:00,other,64,2,4
+id,2011,upper,S 1164,IDV00000214,upper,  3rd rdg - ,2011-03-22 00:00:00,other,32,1,2
+id,2011,upper,S 1164,IDV00000215,lower,  3rd rdg - ,2011-03-28 00:00:00,other,52,17,1
+id,2011,upper,S 1165,IDV00000216,upper,  3rd rdg - ,2011-03-23 00:00:00,other,24,10,1
+id,2011,upper,S 1165,IDV00000217,lower,  3rd rdg - ,2011-04-05 00:00:00,other,54,14,2
+id,2011,upper,S 1166,IDV00000218,upper,  Rls susp - ,2011-03-28 00:00:00,other,35,0,0
+id,2011,upper,S 1167,IDV00000219,upper,  3rd rdg - ,2011-03-23 00:00:00,other,33,2,0
+id,2011,upper,S 1167,IDV00000220,lower,  3rd rdg - ,2011-03-28 00:00:00,other,42,28,0
+id,2011,upper,S 1168,IDV00000221,upper,  3rd rdg - ,2011-03-23 00:00:00,other,30,5,0
+id,2011,upper,S 1168,IDV00000222,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,1,0
+id,2011,upper,S 1169,IDV00000223,upper,  3rd rdg - ,2011-03-23 00:00:00,other,33,2,0
+id,2011,upper,S 1169,IDV00000224,lower,  3rd rdg - ,2011-03-28 00:00:00,other,70,0,0
+id,2011,upper,S 1170,IDV00000225,upper,  3rd rdg - ,2011-03-23 00:00:00,other,35,0,0
+id,2011,upper,S 1170,IDV00000226,lower,  3rd rdg - ,2011-03-28 00:00:00,other,70,0,0
+id,2011,upper,S 1171,IDV00000227,upper,  3rd rdg - ,2011-03-23 00:00:00,other,35,0,0
+id,2011,upper,S 1171,IDV00000228,lower,  3rd rdg - ,2011-03-28 00:00:00,other,65,5,0
+id,2011,upper,S 1172,IDV00000229,upper,  3rd rdg - ,2011-03-23 00:00:00,other,35,0,0
+id,2011,upper,S 1172,IDV00000230,lower,  3rd rdg - ,2011-03-28 00:00:00,other,69,1,0
+id,2011,upper,S 1173,IDV00000231,upper,  3rd rdg - ,2011-03-23 00:00:00,other,30,5,0
+id,2011,upper,S 1173,IDV00000232,lower,  3rd rdg - ,2011-03-28 00:00:00,other,44,26,0
+id,2011,upper,S 1174,IDV00000233,upper,  3rd rdg - ,2011-03-23 00:00:00,other,30,5,0
+id,2011,upper,S 1174,IDV00000234,lower,  3rd rdg - ,2011-03-28 00:00:00,other,59,11,0
+id,2011,upper,S 1175,IDV00000235,upper,  3rd rdg - ,2011-03-23 00:00:00,other,30,5,0
+id,2011,upper,S 1175,IDV00000236,lower,  3rd rdg - ,2011-03-28 00:00:00,other,52,18,0
+id,2011,upper,S 1176,IDV00000237,upper,  3rd rdg - ,2011-03-23 00:00:00,other,35,0,0
+id,2011,upper,S 1176,IDV00000238,lower,  3rd rdg - ,2011-03-28 00:00:00,other,61,9,0
+id,2011,upper,S 1179,IDV00000239,upper,  3rd rdg - ,2011-03-25 00:00:00,other,31,3,1
+id,2011,upper,S 1179,IDV00000240,lower,  3rd rdg - ,2011-04-05 00:00:00,other,21,47,2
+id,2011,upper,S 1180,IDV00000241,upper,  3rd rdg - ,2011-03-24 00:00:00,other,28,7,0
+id,2011,upper,S 1180,IDV00000242,lower,  3rd rdg - ,2011-03-31 00:00:00,other,53,14,3
+id,2011,upper,S 1181,IDV00000243,upper,  3rd rdg - ,2011-03-24 00:00:00,other,28,7,0
+id,2011,upper,S 1181,IDV00000244,lower,  3rd rdg - ,2011-03-31 00:00:00,other,47,21,2
+id,2011,upper,S 1182,IDV00000245,upper,  3rd rdg - ,2011-03-24 00:00:00,other,27,8,0
+id,2011,upper,S 1182,IDV00000246,lower,  3rd rdg - ,2011-03-31 00:00:00,other,38,30,2
+id,2011,upper,S 1183,IDV00000247,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,upper,S 1183,IDV00000248,lower,  3rd rdg - ,2011-03-31 00:00:00,other,63,4,3
+id,2011,upper,S 1184,IDV00000249,upper,  Rls susp - ,2011-03-24 00:00:00,other,20,15,0
+id,2011,upper,S 1184,IDV00000250,lower,  3rd rdg - ,2011-04-01 00:00:00,other,44,26,0
+id,2011,upper,S 1185,IDV00000251,upper,  Rls susp - ,2011-03-30 00:00:00,other,33,1,1
+id,2011,upper,S 1186,IDV00000252,upper,  Rls susp - ,2011-03-28 00:00:00,other,35,0,0
+id,2011,upper,S 1186,IDV00000253,lower,  3rd rdg - ,2011-04-06 00:00:00,other,67,0,3
+id,2011,upper,S 1187,IDV00000254,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,upper,S 1187,IDV00000255,lower,  Rls susp - ,2011-04-05 00:00:00,other,67,0,3
+id,2011,upper,S 1189,IDV00000256,upper,  3rd rdg - ,2011-03-30 00:00:00,other,35,0,0
+id,2011,upper,S 1189,IDV00000257,lower,  3rd rdg - ,2011-04-04 00:00:00,other,69,1,0
+id,2011,upper,S 1190,IDV00000258,upper,  3rd rdg - ,2011-03-30 00:00:00,other,35,0,0
+id,2011,upper,S 1190,IDV00000259,lower,  3rd rdg - ,2011-04-04 00:00:00,other,70,0,0
+id,2011,upper,S 1193,IDV00000260,upper,  3rd rdg - ,2011-03-31 00:00:00,other,33,0,2
+id,2011,upper,S 1193,IDV00000261,lower,  Rls susp - ,2011-04-07 00:00:00,other,66,0,4
+id,2011,upper,S 1195,IDV00000262,upper,  3rd rdg - ,2011-03-31 00:00:00,other,26,7,2
+id,2011,upper,S 1195,IDV00000263,lower,  Rls susp - ,2011-04-04 00:00:00,other,57,12,1
+id,2011,upper,S 1196,IDV00000264,upper,  3rd rdg - ,2011-03-31 00:00:00,other,28,6,1
+id,2011,upper,S 1196,IDV00000265,lower,  Rls susp - ,2011-04-04 00:00:00,other,58,11,1
+id,2011,upper,S 1197,IDV00000266,upper,  Rls susp - ,2011-03-30 00:00:00,other,35,0,0
+id,2011,upper,S 1197,IDV00000267,lower,  Rls susp - ,2011-04-05 00:00:00,other,69,0,1
+id,2011,upper,S 1198,IDV00000268,upper,  Rls susp - ,2011-03-30 00:00:00,other,28,7,0
+id,2011,upper,S 1199,IDV00000269,upper,  Rls susp - ,2011-03-30 00:00:00,other,35,0,0
+id,2011,upper,S 1199,IDV00000270,lower,  Rls susp - ,2011-04-05 00:00:00,other,68,0,2
+id,2011,upper,S 1200,IDV00000271,upper,  3rd rdg - ,2011-04-01 00:00:00,other,34,0,1
+id,2011,upper,S 1200,IDV00000272,lower,  Rls susp - ,2011-04-05 00:00:00,other,63,1,6
+id,2011,upper,S 1201,IDV00000273,upper,  3rd rdg - ,2011-04-01 00:00:00,other,34,0,1
+id,2011,upper,S 1201,IDV00000274,lower,  Rls susp - ,2011-04-05 00:00:00,other,65,3,2
+id,2011,upper,S 1202,IDV00000275,upper,  3rd rdg - ,2011-04-04 00:00:00,other,25,10,0
+id,2011,upper,S 1202,IDV00000276,lower,  Rls susp - ,2011-04-06 00:00:00,other,44,22,4
+id,2011,upper,S 1203,IDV00000277,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,upper,S 1203,IDV00000278,lower,  Rls susp - ,2011-04-05 00:00:00,other,61,7,2
+id,2011,upper,S 1204,IDV00000279,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,upper,S 1204,IDV00000280,lower,  Rls susp - ,2011-04-05 00:00:00,other,68,0,2
+id,2011,upper,S 1205,IDV00000281,upper,  3rd rdg - ,2011-04-05 00:00:00,other,33,2,0
+id,2011,upper,S 1205,IDV00000282,lower,  Rls susp - ,2011-04-07 00:00:00,other,34,32,4
+id,2011,upper,S 1206,IDV00000283,upper,  Rls susp - ,2011-04-05 00:00:00,other,27,7,1
+id,2011,upper,S 1206,IDV00000284,lower,  Rls susp - ,2011-04-07 00:00:00,other,53,17,0
+id,2011,upper,S 1207,IDV00000285,upper,  Rls susp - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,upper,S 1207,IDV00000286,lower,  Rls susp - ,2011-04-07 00:00:00,other,67,0,3
+id,2011,upper,S 1208,IDV00000287,upper,  Rls susp - ,2011-04-05 00:00:00,other,32,2,1
+id,2011,upper,S 1208,IDV00000288,lower,  Rls susp - ,2011-04-07 00:00:00,other,58,10,2
+id,2011,upper,SCR 105,IDV00000289,lower,  3rd rdg - ,2011-04-06 00:00:00,other,62,5,3
+id,2011,upper,SCR 107,IDV00000290,lower,  Rls susp - ,2011-04-07 00:00:00,other,65,1,4
+id,2011,upper,SCR 108,IDV00000291,lower,  3rd rdg - ,2011-04-07 00:00:00,other,67,0,3
+id,2011,upper,SR 101,IDV00000292,upper,  10th Ord - ,2011-02-16 00:00:00,other,35,0,0
+id,2011,lower,H 2,IDV00000293,lower,  3rd rdg - ,2011-03-04 00:00:00,other,67,0,3
+id,2011,lower,H 2,IDV00000294,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 3,IDV00000295,lower,  3rd rdg - ,2011-03-04 00:00:00,other,67,0,3
+id,2011,lower,H 3,IDV00000296,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 4,IDV00000297,lower,  3rd rdg - ,2011-03-04 00:00:00,other,65,1,4
+id,2011,lower,H 4,IDV00000298,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 5,IDV00000299,lower,  3rd rdg - ,2011-03-17 00:00:00,other,62,1,7
+id,2011,lower,H 5,IDV00000300,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 6,IDV00000301,lower,  3rd rdg - ,2011-01-25 00:00:00,other,70,0,0
+id,2011,lower,H 7,IDV00000302,lower,  3rd rdg - ,2011-01-24 00:00:00,other,65,2,3
+id,2011,lower,H 7,IDV00000303,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,lower,H 8,IDV00000304,lower,  3rd rdg - ,2011-01-24 00:00:00,other,67,0,3
+id,2011,lower,H 8,IDV00000305,upper,  3rd rdg - ,2011-02-08 00:00:00,other,30,5,0
+id,2011,lower,H 10,IDV00000306,lower,  3rd rdg - ,2011-01-24 00:00:00,other,67,0,3
+id,2011,lower,H 10,IDV00000307,upper,  3rd rdg - ,2011-02-08 00:00:00,other,35,0,0
+id,2011,lower,H 11,IDV00000308,lower,  3rd rdg - ,2011-01-26 00:00:00,other,69,0,1
+id,2011,lower,H 11,IDV00000309,upper,  3rd rdg - ,2011-02-09 00:00:00,other,35,0,0
+id,2011,lower,H 12,IDV00000310,lower,  3rd rdg - ,2011-01-26 00:00:00,other,69,0,1
+id,2011,lower,H 12,IDV00000311,upper,  3rd rdg - ,2011-02-10 00:00:00,other,33,0,2
+id,2011,lower,H 13,IDV00000312,lower,  3rd rdg - ,2011-01-26 00:00:00,other,69,0,1
+id,2011,lower,H 13,IDV00000313,upper,  3rd rdg - ,2011-02-15 00:00:00,other,32,3,0
+id,2011,lower,H 15,IDV00000314,lower,  3rd rdg - ,2011-02-01 00:00:00,other,65,1,4
+id,2011,lower,H 17,IDV00000315,lower,  3rd rdg - ,2011-02-08 00:00:00,other,52,14,4
+id,2011,lower,H 17,IDV00000316,upper,  3rd rdg - ,2011-03-02 00:00:00,other,28,6,1
+id,2011,lower,H 20,IDV00000317,lower,  3rd rdg - ,2011-02-01 00:00:00,other,60,5,5
+id,2011,lower,H 20,IDV00000318,upper,  3rd rdg - ,2011-03-02 00:00:00,other,34,1,0
+id,2011,lower,H 21,IDV00000319,lower,  3rd rdg - ,2011-02-01 00:00:00,other,64,0,6
+id,2011,lower,H 21,IDV00000320,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 22,IDV00000321,lower,  3rd rdg - ,2011-03-02 00:00:00,other,69,1,0
+id,2011,lower,H 22,IDV00000322,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 23,IDV00000323,lower,  3rd rdg - ,2011-03-02 00:00:00,other,52,18,0
+id,2011,lower,H 24,IDV00000324,lower,  3rd rdg - ,2011-03-02 00:00:00,other,70,0,0
+id,2011,lower,H 24,IDV00000325,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 25,IDV00000326,lower,  3rd rdg - ,2011-03-02 00:00:00,other,63,7,0
+id,2011,lower,H 25,IDV00000327,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 26,IDV00000328,lower,  3rd rdg - ,2011-02-01 00:00:00,other,31,35,4
+id,2011,lower,H 27,IDV00000329,lower,  3rd rdg - ,2011-02-01 00:00:00,other,66,0,4
+id,2011,lower,H 27,IDV00000330,upper,  3rd rdg - ,2011-02-15 00:00:00,other,23,12,0
+id,2011,lower,H 30,IDV00000331,lower,  3rd rdg - ,2011-02-01 00:00:00,other,65,0,5
+id,2011,lower,H 31,IDV00000332,lower,  3rd rdg - ,2011-03-02 00:00:00,other,47,23,0
+id,2011,lower,H 31,IDV00000333,upper,  3rd rdg - ,2011-03-29 00:00:00,other,33,2,0
+id,2011,lower,H 34,IDV00000334,lower,  3rd rdg - ,2011-02-01 00:00:00,other,66,0,4
+id,2011,lower,H 34,IDV00000335,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,lower,H 38,IDV00000336,lower,  3rd rdg - ,2011-02-18 00:00:00,other,57,0,13
+id,2011,lower,H 38,IDV00000337,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 39,IDV00000338,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,lower,H 39,IDV00000339,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 40,IDV00000340,lower,  3rd rdg - ,2011-02-08 00:00:00,other,66,0,4
+id,2011,lower,H 40,IDV00000341,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 41,IDV00000342,lower,  3rd rdg - ,2011-02-08 00:00:00,other,59,8,3
+id,2011,lower,H 41,IDV00000343,upper,  3rd rdg - ,2011-03-02 00:00:00,other,34,1,0
+id,2011,lower,H 43,IDV00000344,lower,  3rd rdg - ,2011-02-11 00:00:00,other,62,2,6
+id,2011,lower,H 43,IDV00000345,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 44,IDV00000346,lower,  3rd rdg - ,2011-02-11 00:00:00,other,64,0,6
+id,2011,lower,H 44,IDV00000347,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 45,IDV00000348,lower,  3rd rdg - ,2011-02-08 00:00:00,other,52,15,3
+id,2011,lower,H 45,IDV00000349,upper,  3rd rdg - ,2011-02-18 00:00:00,other,22,12,1
+id,2011,lower,H 46,IDV00000350,lower,  3rd rdg - ,2011-02-23 00:00:00,other,70,0,0
+id,2011,lower,H 46,IDV00000351,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 47,IDV00000352,lower,  3rd rdg - ,2011-02-23 00:00:00,other,68,1,1
+id,2011,lower,H 47,IDV00000353,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 48,IDV00000354,lower,  3rd rdg - ,2011-02-23 00:00:00,other,70,0,0
+id,2011,lower,H 48,IDV00000355,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 49,IDV00000356,lower,  3rd rdg - ,2011-02-23 00:00:00,other,70,0,0
+id,2011,lower,H 49,IDV00000357,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 51,IDV00000358,lower,  3rd rdg - ,2011-02-08 00:00:00,other,66,0,4
+id,2011,lower,H 51,IDV00000359,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 52,IDV00000360,lower,  3rd rdg - ,2011-02-18 00:00:00,other,60,0,10
+id,2011,lower,H 52,IDV00000361,upper,  3rd rdg - ,2011-03-03 00:00:00,other,32,0,3
+id,2011,lower,H 53,IDV00000362,lower,  3rd rdg - ,2011-02-18 00:00:00,other,60,0,10
+id,2011,lower,H 53,IDV00000363,upper,  3rd rdg - ,2011-03-03 00:00:00,other,32,0,3
+id,2011,lower,H 54,IDV00000364,lower,  3rd rdg - ,2011-02-18 00:00:00,other,60,0,10
+id,2011,lower,H 54,IDV00000365,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 56,IDV00000366,lower,  3rd rdg - ,2011-02-21 00:00:00,other,68,0,2
+id,2011,lower,H 56,IDV00000367,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 58,IDV00000368,lower,  3rd rdg - ,2011-02-24 00:00:00,other,28,40,2
+id,2011,lower,H 60,IDV00000369,lower,  3rd rdg - ,2011-02-03 00:00:00,other,67,0,3
+id,2011,lower,H 60,IDV00000370,upper,  3rd rdg - ,2011-02-16 00:00:00,other,35,0,0
+id,2011,lower,H 61,IDV00000371,lower,  3rd rdg - ,2011-02-08 00:00:00,other,64,2,4
+id,2011,lower,H 61,IDV00000372,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,lower,H 62,IDV00000373,lower,  3rd rdg - ,2011-02-15 00:00:00,other,70,0,0
+id,2011,lower,H 62,IDV00000374,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 63,IDV00000375,lower,  3rd rdg - ,2011-02-15 00:00:00,other,70,0,0
+id,2011,lower,H 63,IDV00000376,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 64,IDV00000377,lower,  3rd rdg - ,2011-02-15 00:00:00,other,69,0,1
+id,2011,lower,H 64,IDV00000378,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 65,IDV00000379,lower,  3rd rdg - ,2011-02-15 00:00:00,other,70,0,0
+id,2011,lower,H 65,IDV00000380,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 67,IDV00000381,lower,  3rd rdg - ,2011-02-08 00:00:00,other,60,6,4
+id,2011,lower,H 67,IDV00000382,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,lower,H 68,IDV00000383,lower,  3rd rdg - ,2011-02-08 00:00:00,other,65,1,4
+id,2011,lower,H 68,IDV00000384,upper,  3rd rdg - ,2011-02-17 00:00:00,other,33,0,2
+id,2011,lower,H 70,IDV00000385,lower,  3rd rdg - ,2011-02-08 00:00:00,other,63,3,4
+id,2011,lower,H 70,IDV00000386,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 71,IDV00000387,lower,  3rd rdg - ,2011-02-08 00:00:00,other,67,0,3
+id,2011,lower,H 71,IDV00000388,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 72,IDV00000389,lower,  3rd rdg - ,2011-02-08 00:00:00,other,68,0,2
+id,2011,lower,H 72,IDV00000390,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 74,IDV00000391,lower,  3rd rdg - ,2011-02-08 00:00:00,other,68,0,2
+id,2011,lower,H 74,IDV00000392,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 76,IDV00000393,lower,  3rd rdg - ,2011-02-15 00:00:00,other,68,0,2
+id,2011,lower,H 76,IDV00000394,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 78,IDV00000395,lower,  3rd rdg - ,2011-02-10 00:00:00,other,66,0,4
+id,2011,lower,H 78,IDV00000396,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,lower,H 79,IDV00000397,lower,  3rd rdg - ,2011-02-18 00:00:00,other,60,0,10
+id,2011,lower,H 79,IDV00000398,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,lower,H 80,IDV00000399,lower,  3rd rdg - ,2011-02-18 00:00:00,other,55,7,8
+id,2011,lower,H 80,IDV00000400,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 81,IDV00000401,lower,  3rd rdg - ,2011-02-25 00:00:00,other,64,1,5
+id,2011,lower,H 81,IDV00000402,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 82,IDV00000403,lower,  3rd rdg - ,2011-02-25 00:00:00,other,50,16,4
+id,2011,lower,H 82,IDV00000404,upper,  3rd rdg - ,2011-03-08 00:00:00,other,27,7,1
+id,2011,lower,H 83,IDV00000405,lower,  3rd rdg - ,2011-02-25 00:00:00,other,61,6,3
+id,2011,lower,H 83,IDV00000406,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 84,IDV00000407,lower,  3rd rdg - ,2011-02-23 00:00:00,other,47,22,1
+id,2011,lower,H 85,IDV00000408,lower,  3rd rdg - ,2011-02-25 00:00:00,other,52,13,5
+id,2011,lower,H 85,IDV00000409,upper,  3rd rdg - ,2011-03-11 00:00:00,other,31,1,3
+id,2011,lower,H 87,IDV00000410,lower,  3rd rdg - ,2011-02-10 00:00:00,other,65,1,4
+id,2011,lower,H 87,IDV00000411,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 88,IDV00000412,lower,  3rd rdg - ,2011-03-10 00:00:00,other,64,0,6
+id,2011,lower,H 88,IDV00000413,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 89,IDV00000414,lower,  3rd rdg - ,2011-02-10 00:00:00,other,66,0,4
+id,2011,lower,H 89,IDV00000415,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 90,IDV00000416,lower,  3rd rdg - ,2011-02-10 00:00:00,other,66,0,4
+id,2011,lower,H 90,IDV00000417,upper,  3rd rdg - ,2011-02-18 00:00:00,other,34,0,1
+id,2011,lower,H 91,IDV00000418,lower,  3rd rdg as amen - ,2011-03-29 00:00:00,other,62,6,2
+id,2011,lower,H 91,IDV00000419,upper,  Rls susp - ,2011-04-04 00:00:00,other,19,16,0
+id,2011,lower,H 93,IDV00000420,lower,  3rd rdg - ,2011-02-11 00:00:00,other,62,1,7
+id,2011,lower,H 93,IDV00000421,upper,  3rd rdg - ,2011-02-28 00:00:00,other,33,0,2
+id,2011,lower,H 94,IDV00000422,lower,  3rd rdg - ,2011-02-25 00:00:00,other,62,3,5
+id,2011,lower,H 94,IDV00000423,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,lower,H 95,IDV00000424,lower,  3rd rdg as amen - ,2011-03-01 00:00:00,other,68,0,2
+id,2011,lower,H 95,IDV00000425,upper,  3rd rdg as amen - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 95,IDV00000426,lower,  3rd rdg as amen - ,2011-04-04 00:00:00,other,64,6,0
+id,2011,lower,H 96,IDV00000427,lower,  3rd rdg - ,2011-03-01 00:00:00,other,43,27,0
+id,2011,lower,H 97,IDV00000428,lower,  3rd rdg - ,2011-03-01 00:00:00,other,43,26,1
+id,2011,lower,H 99,IDV00000429,lower,  3rd rdg as amen - ,2011-03-01 00:00:00,other,20,49,1
+id,2011,lower,H 100,IDV00000430,lower,  3rd rdg - ,2011-02-08 00:00:00,other,66,0,4
+id,2011,lower,H 100,IDV00000431,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 101,IDV00000432,lower,  3rd rdg - ,2011-02-18 00:00:00,other,51,10,9
+id,2011,lower,H 101,IDV00000433,upper,  3rd rdg - ,2011-03-03 00:00:00,other,29,5,1
+id,2011,lower,H 102,IDV00000434,lower,  Rls susp - ,2011-02-04 00:00:00,other,65,0,5
+id,2011,lower,H 102,IDV00000435,upper,  Rls susp - ,2011-02-09 00:00:00,other,35,0,0
+id,2011,lower,H 104,IDV00000436,lower,  3rd rdg as amen - ,2011-03-04 00:00:00,other,55,14,1
+id,2011,lower,H 105,IDV00000437,lower,  3rd rdg - ,2011-02-15 00:00:00,other,70,0,0
+id,2011,lower,H 105,IDV00000438,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 108,IDV00000439,lower,  3rd rdg - ,2011-03-04 00:00:00,other,61,4,5
+id,2011,lower,H 108,IDV00000440,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,lower,H 109,IDV00000441,lower,  3rd rdg - ,2011-03-02 00:00:00,other,41,28,1
+id,2011,lower,H 109,IDV00000442,upper,  3rd rdg - ,2011-03-11 00:00:00,other,24,7,4
+id,2011,lower,H 110,IDV00000443,lower,  3rd rdg - ,2011-03-01 00:00:00,other,67,0,3
+id,2011,lower,H 111,IDV00000444,lower,  3rd rdg - ,2011-02-17 00:00:00,other,34,35,1
+id,2011,lower,H 112,IDV00000445,lower,  3rd rdg - ,2011-02-18 00:00:00,other,58,0,12
+id,2011,lower,H 112,IDV00000446,upper,  3rd rdg - ,2011-03-02 00:00:00,other,35,0,0
+id,2011,lower,H 113,IDV00000447,lower,  3rd rdg - ,2011-02-15 00:00:00,other,66,1,3
+id,2011,lower,H 113,IDV00000448,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 114,IDV00000449,lower,  3rd rdg - ,2011-03-01 00:00:00,other,27,43,0
+id,2011,lower,H 115,IDV00000450,lower,  3rd rdg - ,2011-03-04 00:00:00,other,35,31,4
+id,2011,lower,H 115,IDV00000451,upper,  3rd rdg - ,2011-03-16 00:00:00,other,34,1,0
+id,2011,lower,H 117,IDV00000452,lower,  3rd rdg - ,2011-02-16 00:00:00,other,49,20,1
+id,2011,lower,H 119,IDV00000453,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,lower,H 119,IDV00000454,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,lower,H 121,IDV00000455,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,lower,H 121,IDV00000456,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 122,IDV00000457,lower,  3rd rdg - ,2011-03-03 00:00:00,other,59,9,2
+id,2011,lower,H 122,IDV00000458,upper,  3rd rdg - ,2011-03-14 00:00:00,other,34,1,0
+id,2011,lower,H 124,IDV00000459,lower,  3rd rdg - ,2011-02-18 00:00:00,other,59,0,11
+id,2011,lower,H 124,IDV00000460,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 126,IDV00000461,lower,  3rd rdg - ,2011-02-15 00:00:00,other,64,3,3
+id,2011,lower,H 129,IDV00000462,lower,  3rd rdg - ,2011-03-03 00:00:00,other,56,13,1
+id,2011,lower,H 129,IDV00000463,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 129,IDV00000464,lower,  Rls susp - ,2011-04-07 00:00:00,other,59,8,3
+id,2011,lower,H 130,IDV00000465,lower,  3rd rdg - ,2011-03-03 00:00:00,other,59,6,5
+id,2011,lower,H 130,IDV00000466,upper,  3rd rdg - ,2011-03-16 00:00:00,other,35,0,0
+id,2011,lower,H 131,IDV00000467,lower,  3rd rdg - ,2011-03-03 00:00:00,other,64,0,6
+id,2011,lower,H 131,IDV00000468,upper,  3rd rdg - ,2011-03-16 00:00:00,other,35,0,0
+id,2011,lower,H 132,IDV00000469,lower,  3rd rdg - ,2011-03-03 00:00:00,other,62,1,7
+id,2011,lower,H 132,IDV00000470,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 135,IDV00000471,lower,  3rd rdg - ,2011-02-23 00:00:00,other,69,0,1
+id,2011,lower,H 135,IDV00000472,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 136,IDV00000473,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 136,IDV00000474,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 137,IDV00000475,lower,  3rd rdg as amen - ,2011-03-04 00:00:00,other,56,11,3
+id,2011,lower,H 137,IDV00000476,upper,  3rd rdg as amen - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 137,IDV00000477,lower,  Rls susp - ,2011-04-05 00:00:00,other,67,0,3
+id,2011,lower,H 138,IDV00000478,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 138,IDV00000479,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 139,IDV00000480,lower,  3rd rdg - ,2011-02-21 00:00:00,other,69,0,1
+id,2011,lower,H 139,IDV00000481,upper,  3rd rdg - ,2011-03-04 00:00:00,other,35,0,0
+id,2011,lower,H 140,IDV00000482,lower,  3rd rdg - ,2011-02-23 00:00:00,other,68,1,1
+id,2011,lower,H 140,IDV00000483,upper,  3rd rdg as amen - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 140,IDV00000484,lower,  3rd rdg as amen - ,2011-03-30 00:00:00,other,60,7,3
+id,2011,lower,H 141,IDV00000485,lower,  3rd rdg as amen - ,2011-03-29 00:00:00,other,21,48,1
+id,2011,lower,H 142,IDV00000486,lower,  3rd rdg - ,2011-02-18 00:00:00,other,60,0,10
+id,2011,lower,H 142,IDV00000487,upper,  3rd rdg as amen - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 142,IDV00000488,lower,  3rd rdg as amen - ,2011-03-14 00:00:00,other,69,0,1
+id,2011,lower,H 143,IDV00000489,lower,  3rd rdg - ,2011-02-23 00:00:00,other,70,0,0
+id,2011,lower,H 143,IDV00000490,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 144,IDV00000491,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 144,IDV00000492,upper,  3rd rdg - ,2011-03-03 00:00:00,other,31,0,4
+id,2011,lower,H 145,IDV00000493,lower,  3rd rdg as amen - ,2011-03-04 00:00:00,other,67,0,3
+id,2011,lower,H 145,IDV00000494,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 147,IDV00000495,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 147,IDV00000496,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 147,IDV00000497,upper,  3rd rdg as amen - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 147,IDV00000498,lower,  Rls susp - ,2011-03-30 00:00:00,other,64,0,6
+id,2011,lower,H 148,IDV00000499,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 148,IDV00000500,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 150,IDV00000501,lower,  3rd rdg as amen - ,2011-03-04 00:00:00,other,64,1,5
+id,2011,lower,H 150,IDV00000502,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 151,IDV00000503,lower,  3rd rdg - ,2011-03-04 00:00:00,other,65,0,5
+id,2011,lower,H 151,IDV00000504,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 152,IDV00000505,lower,  3rd rdg - ,2011-02-25 00:00:00,other,55,10,5
+id,2011,lower,H 152,IDV00000506,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,lower,H 153,IDV00000507,lower,  3rd rdg - ,2011-02-23 00:00:00,other,54,14,2
+id,2011,lower,H 153,IDV00000508,upper,  3rd rdg - ,2011-03-11 00:00:00,other,26,6,3
+id,2011,lower,H 154,IDV00000509,lower,  3rd rdg - ,2011-03-03 00:00:00,other,66,0,4
+id,2011,lower,H 154,IDV00000510,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,lower,H 155,IDV00000511,lower,  3rd rdg - ,2011-02-18 00:00:00,other,62,0,8
+id,2011,lower,H 155,IDV00000512,upper,  3rd rdg - ,2011-03-03 00:00:00,other,34,0,1
+id,2011,lower,H 157,IDV00000513,lower,  3rd rdg - ,2011-02-28 00:00:00,other,69,0,1
+id,2011,lower,H 157,IDV00000514,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 158,IDV00000515,lower,  3rd rdg - ,2011-03-02 00:00:00,other,68,0,2
+id,2011,lower,H 158,IDV00000516,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,lower,H 159,IDV00000517,lower,  3rd rdg - ,2011-03-02 00:00:00,other,69,0,1
+id,2011,lower,H 159,IDV00000518,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 160,IDV00000519,lower,  3rd rdg - ,2011-03-03 00:00:00,other,63,1,6
+id,2011,lower,H 160,IDV00000520,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,lower,H 162,IDV00000521,lower,  3rd rdg - ,2011-03-10 00:00:00,other,38,30,2
+id,2011,lower,H 162,IDV00000522,upper,  3rd rdg - ,2011-03-30 00:00:00,other,14,21,0
+id,2011,lower,H 163,IDV00000523,lower,  3rd rdg - ,2011-02-25 00:00:00,other,64,0,6
+id,2011,lower,H 163,IDV00000524,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 164,IDV00000525,lower,  3rd rdg - ,2011-02-25 00:00:00,other,61,2,7
+id,2011,lower,H 164,IDV00000526,upper,  3rd rdg - ,2011-03-16 00:00:00,other,35,0,0
+id,2011,lower,H 165,IDV00000527,lower,  3rd rdg - ,2011-02-25 00:00:00,other,64,0,6
+id,2011,lower,H 165,IDV00000528,upper,  3rd rdg - ,2011-03-29 00:00:00,other,33,1,1
+id,2011,lower,H 167,IDV00000529,lower,  3rd rdg - ,2011-02-25 00:00:00,other,66,0,4
+id,2011,lower,H 167,IDV00000530,upper,  3rd rdg - ,2011-03-08 00:00:00,other,35,0,0
+id,2011,lower,H 172,IDV00000531,lower,  3rd rdg - ,2011-02-25 00:00:00,other,67,0,3
+id,2011,lower,H 174,IDV00000532,lower,  3rd rdg - ,2011-03-02 00:00:00,other,52,18,0
+id,2011,lower,H 174,IDV00000533,upper,  3rd rdg - ,2011-03-16 00:00:00,other,35,0,0
+id,2011,lower,H 175,IDV00000534,lower,  3rd rdg - ,2011-03-02 00:00:00,other,70,0,0
+id,2011,lower,H 175,IDV00000535,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 178,IDV00000536,lower,  3rd rdg - ,2011-02-25 00:00:00,other,62,4,4
+id,2011,lower,H 178,IDV00000537,upper,  3rd rdg - ,2011-03-15 00:00:00,other,35,0,0
+id,2011,lower,H 179,IDV00000538,lower,  3rd rdg - ,2011-03-11 00:00:00,other,67,0,3
+id,2011,lower,H 179,IDV00000539,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 181,IDV00000540,lower,  3rd rdg as amen - ,2011-03-21 00:00:00,other,65,1,4
+id,2011,lower,H 181,IDV00000541,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 182,IDV00000542,lower,  3rd rdg - ,2011-03-04 00:00:00,other,66,0,4
+id,2011,lower,H 183,IDV00000543,lower,  3rd rdg - ,2011-03-07 00:00:00,other,65,1,4
+id,2011,lower,H 183,IDV00000544,upper,  3rd rdg as amen - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 183,IDV00000545,lower,  3rd rdg as amen - ,2011-03-30 00:00:00,other,68,0,2
+id,2011,lower,H 187,IDV00000546,lower,  3rd rdg - ,2011-03-07 00:00:00,other,51,17,2
+id,2011,lower,H 187,IDV00000547,upper,  3rd rdg - ,2011-03-29 00:00:00,other,21,13,1
+id,2011,lower,H 191,IDV00000548,lower,  3rd rdg - ,2011-03-17 00:00:00,other,40,29,1
+id,2011,lower,H 191,IDV00000549,upper,  Rls susp - ,2011-04-05 00:00:00,other,26,9,0
+id,2011,lower,H 193,IDV00000550,lower,  3rd rdg as amen - ,2011-03-21 00:00:00,other,53,16,1
+id,2011,lower,H 193,IDV00000551,upper,  Rls susp - ,2011-04-04 00:00:00,other,27,8,0
+id,2011,lower,H 193,IDV00000552,lower,  Rls susp - ,2011-04-07 00:00:00,other,55,12,3
+id,2011,lower,H 194,IDV00000553,lower,  3rd rdg - ,2011-03-07 00:00:00,other,50,16,4
+id,2011,lower,H 194,IDV00000554,upper,  3rd rdg - ,2011-03-31 00:00:00,other,27,7,1
+id,2011,lower,H 195,IDV00000555,lower,  3rd rdg - ,2011-03-11 00:00:00,other,62,5,3
+id,2011,lower,H 195,IDV00000556,upper,  Rls susp - ,2011-04-05 00:00:00,other,33,0,2
+id,2011,lower,H 195,IDV00000557,lower,  Rls susp - ,2011-04-07 00:00:00,other,65,2,3
+id,2011,lower,H 197,IDV00000558,lower,  3rd rdg - ,2011-03-07 00:00:00,other,53,14,3
+id,2011,lower,H 201,IDV00000559,lower,  3rd rdg - ,2011-03-17 00:00:00,other,56,14,0
+id,2011,lower,H 201,IDV00000560,upper,  3rd rdg - ,2011-04-04 00:00:00,other,21,13,1
+id,2011,lower,H 203,IDV00000561,lower,  3rd rdg - ,2011-03-04 00:00:00,other,66,0,4
+id,2011,lower,H 203,IDV00000562,upper,  3rd rdg - ,2011-03-11 00:00:00,other,34,0,1
+id,2011,lower,H 204,IDV00000563,lower,  3rd rdg - ,2011-03-11 00:00:00,other,54,13,3
+id,2011,lower,H 204,IDV00000564,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 205,IDV00000565,lower,  3rd rdg - ,2011-03-14 00:00:00,other,63,7,0
+id,2011,lower,H 205,IDV00000566,upper,  3rd rdg as amen - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 205,IDV00000567,lower,  Rls susp - ,2011-04-05 00:00:00,other,69,0,1
+id,2011,lower,H 206,IDV00000568,lower,  3rd rdg - ,2011-03-11 00:00:00,other,64,0,6
+id,2011,lower,H 206,IDV00000569,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 207,IDV00000570,lower,  3rd rdg as amen - ,2011-03-21 00:00:00,other,53,14,3
+id,2011,lower,H 207,IDV00000571,upper,  3rd rdg - ,2011-03-31 00:00:00,other,30,4,1
+id,2011,lower,H 209,IDV00000572,lower,  3rd rdg - ,2011-03-11 00:00:00,other,67,0,3
+id,2011,lower,H 210,IDV00000573,lower,  3rd rdg - ,2011-03-10 00:00:00,other,57,11,2
+id,2011,lower,H 210,IDV00000574,upper,  3rd rdg - ,2011-03-31 00:00:00,other,32,2,1
+id,2011,lower,H 213,IDV00000575,lower,  3rd rdg - ,2011-03-10 00:00:00,other,65,0,5
+id,2011,lower,H 213,IDV00000576,upper,  3rd rdg - ,2011-03-31 00:00:00,other,31,0,4
+id,2011,lower,H 214,IDV00000577,lower,  3rd rdg - ,2011-03-10 00:00:00,other,65,0,5
+id,2011,lower,H 214,IDV00000578,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 217,IDV00000579,lower,  3rd rdg - ,2011-03-11 00:00:00,other,66,1,3
+id,2011,lower,H 217,IDV00000580,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 218,IDV00000581,lower,  3rd rdg - ,2011-03-17 00:00:00,other,64,0,6
+id,2011,lower,H 218,IDV00000582,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 222,IDV00000583,lower,  3rd rdg - ,2011-03-16 00:00:00,other,41,28,1
+id,2011,lower,H 224,IDV00000584,lower,  3rd rdg - ,2011-03-17 00:00:00,other,62,1,7
+id,2011,lower,H 224,IDV00000585,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 225,IDV00000586,lower,  3rd rdg - ,2011-03-14 00:00:00,other,69,1,0
+id,2011,lower,H 225,IDV00000587,upper,  3rd rdg - ,2011-03-29 00:00:00,other,34,0,1
+id,2011,lower,H 226,IDV00000588,lower,  3rd rdg - ,2011-03-14 00:00:00,other,70,0,0
+id,2011,lower,H 226,IDV00000589,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 227,IDV00000590,lower,  3rd rdg as amen - ,2011-03-21 00:00:00,other,68,0,2
+id,2011,lower,H 227,IDV00000591,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 228,IDV00000592,lower,  3rd rdg - ,2011-03-15 00:00:00,other,69,0,1
+id,2011,lower,H 228,IDV00000593,upper,  3rd rdg - ,2011-03-31 00:00:00,other,21,13,1
+id,2011,lower,H 230,IDV00000594,lower,  Rls susp - ,2011-03-25 00:00:00,other,64,3,3
+id,2011,lower,H 230,IDV00000595,upper,  ,2011-04-07 00:00:00,other,30,4,1
+id,2011,lower,H 231,IDV00000596,lower,  Rls susp - ,2011-03-30 00:00:00,other,64,0,6
+id,2011,lower,H 231,IDV00000597,upper,  Rls susp - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,lower,H 232,IDV00000598,lower,  3rd rdg - ,2011-03-22 00:00:00,other,67,0,3
+id,2011,lower,H 232,IDV00000599,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 233,IDV00000600,lower,  3rd rdg - ,2011-03-21 00:00:00,other,70,0,0
+id,2011,lower,H 233,IDV00000601,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 234,IDV00000602,lower,  3rd rdg - ,2011-03-21 00:00:00,other,66,3,1
+id,2011,lower,H 234,IDV00000603,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 235,IDV00000604,lower,  3rd rdg - ,2011-03-14 00:00:00,other,69,0,1
+id,2011,lower,H 235,IDV00000605,upper,  3rd rdg - ,2011-03-29 00:00:00,other,34,1,0
+id,2011,lower,H 236,IDV00000606,lower,  3rd rdg - ,2011-03-14 00:00:00,other,62,7,1
+id,2011,lower,H 236,IDV00000607,upper,  ,2011-03-30 00:00:00,other,34,1,0
+id,2011,lower,H 237,IDV00000608,lower,  3rd rdg - ,2011-03-11 00:00:00,other,61,5,4
+id,2011,lower,H 237,IDV00000609,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 238,IDV00000610,lower,  3rd rdg - ,2011-03-11 00:00:00,other,67,0,3
+id,2011,lower,H 238,IDV00000611,upper,  3rd rdg - ,2011-03-17 00:00:00,other,35,0,0
+id,2011,lower,H 239,IDV00000612,lower,  3rd rdg - ,2011-03-18 00:00:00,other,54,8,8
+id,2011,lower,H 239,IDV00000613,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 240,IDV00000614,lower,  3rd rdg - ,2011-03-22 00:00:00,other,66,0,4
+id,2011,lower,H 240,IDV00000615,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 242,IDV00000616,lower,  3rd rdg as amen - ,2011-03-21 00:00:00,other,56,14,0
+id,2011,lower,H 244,IDV00000617,lower,  3rd rdg - ,2011-03-14 00:00:00,other,59,11,0
+id,2011,lower,H 244,IDV00000618,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 245,IDV00000619,lower,  3rd rdg - ,2011-03-14 00:00:00,other,56,12,2
+id,2011,lower,H 245,IDV00000620,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 247,IDV00000621,lower,  3rd rdg as amen - ,2011-03-29 00:00:00,other,52,15,3
+id,2011,lower,H 248,IDV00000622,lower,  3rd rdg - ,2011-03-15 00:00:00,other,67,1,2
+id,2011,lower,H 248,IDV00000623,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 249,IDV00000624,lower,  3rd rdg - ,2011-03-15 00:00:00,other,69,0,1
+id,2011,lower,H 249,IDV00000625,upper,  3rd rdg - ,2011-03-24 00:00:00,other,35,0,0
+id,2011,lower,H 251,IDV00000626,lower,  Rls susp - ,2011-03-15 00:00:00,other,54,12,4
+id,2011,lower,H 251,IDV00000627,upper,  3rd rdg - ,2011-03-25 00:00:00,other,34,0,1
+id,2011,lower,H 252,IDV00000628,lower,  Rls susp - ,2011-03-15 00:00:00,other,67,2,1
+id,2011,lower,H 252,IDV00000629,upper,  3rd rdg - ,2011-03-25 00:00:00,other,34,0,1
+id,2011,lower,H 253,IDV00000630,lower,  Rls susp - ,2011-03-15 00:00:00,other,48,21,1
+id,2011,lower,H 253,IDV00000631,upper,  3rd rdg - ,2011-03-25 00:00:00,other,34,0,1
+id,2011,lower,H 254,IDV00000632,lower,  Rls susp - ,2011-03-15 00:00:00,other,59,9,2
+id,2011,lower,H 254,IDV00000633,upper,  3rd rdg - ,2011-03-25 00:00:00,other,34,1,0
+id,2011,lower,H 256,IDV00000634,lower,  3rd rdg - ,2011-03-22 00:00:00,other,66,1,3
+id,2011,lower,H 257,IDV00000635,lower,  Rls susp - ,2011-03-15 00:00:00,other,54,14,2
+id,2011,lower,H 257,IDV00000636,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 258,IDV00000637,lower,  Rls susp - ,2011-03-15 00:00:00,other,55,12,3
+id,2011,lower,H 258,IDV00000638,upper,  3rd rdg - ,2011-03-29 00:00:00,other,34,0,1
+id,2011,lower,H 259,IDV00000639,lower,  3rd rdg - ,2011-03-16 00:00:00,other,50,19,1
+id,2011,lower,H 259,IDV00000640,upper,  3rd rdg - ,2011-03-29 00:00:00,other,28,7,0
+id,2011,lower,H 260,IDV00000641,lower,  3rd rdg - ,2011-03-17 00:00:00,other,56,14,0
+id,2011,lower,H 260,IDV00000642,upper,  3rd rdg - ,2011-03-28 00:00:00,other,27,8,0
+id,2011,lower,H 262,IDV00000643,lower,  3rd rdg - ,2011-03-22 00:00:00,other,68,0,2
+id,2011,lower,H 262,IDV00000644,upper,  3rd rdg - ,2011-04-01 00:00:00,other,29,6,0
+id,2011,lower,H 264,IDV00000645,lower,  3rd rdg - ,2011-03-29 00:00:00,other,67,0,3
+id,2011,lower,H 264,IDV00000646,upper,  Rls susp - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,lower,H 266,IDV00000647,lower,  3rd rdg - ,2011-03-22 00:00:00,other,45,22,3
+id,2011,lower,H 268,IDV00000648,lower,  3rd rdg - ,2011-03-22 00:00:00,other,65,2,3
+id,2011,lower,H 269,IDV00000649,lower,  3rd rdg - ,2011-03-21 00:00:00,other,61,7,2
+id,2011,lower,H 269,IDV00000650,upper,  3rd rdg - ,2011-03-31 00:00:00,other,31,2,2
+id,2011,lower,H 270,IDV00000651,lower,  3rd rdg - ,2011-03-21 00:00:00,other,69,0,1
+id,2011,lower,H 270,IDV00000652,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 272,IDV00000653,lower,  3rd rdg - ,2011-03-21 00:00:00,other,55,11,4
+id,2011,lower,H 272,IDV00000654,upper,  3rd rdg - ,2011-04-01 00:00:00,other,32,3,0
+id,2011,lower,H 275,IDV00000655,lower,  3rd rdg as amen - ,2011-03-29 00:00:00,other,65,2,3
+id,2011,lower,H 275,IDV00000656,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 276,IDV00000657,lower,  3rd rdg - ,2011-03-18 00:00:00,other,59,7,4
+id,2011,lower,H 276,IDV00000658,upper,  3rd rdg - ,2011-03-29 00:00:00,other,33,2,0
+id,2011,lower,H 277,IDV00000659,lower,  3rd rdg - ,2011-03-25 00:00:00,other,67,1,2
+id,2011,lower,H 277,IDV00000660,upper,  Rls susp - ,2011-04-05 00:00:00,other,11,24,0
+id,2011,lower,H 280,IDV00000661,lower,  3rd rdg - ,2011-03-22 00:00:00,other,60,7,3
+id,2011,lower,H 280,IDV00000662,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 283,IDV00000663,lower,  3rd rdg - ,2011-03-25 00:00:00,other,66,2,2
+id,2011,lower,H 283,IDV00000664,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 284,IDV00000665,lower,  Rls susp - ,2011-03-21 00:00:00,other,64,6,0
+id,2011,lower,H 284,IDV00000666,upper,  3rd rdg - ,2011-03-29 00:00:00,other,35,0,0
+id,2011,lower,H 285,IDV00000667,lower,  Rls susp - ,2011-03-21 00:00:00,other,42,28,0
+id,2011,lower,H 285,IDV00000668,upper,  3rd rdg - ,2011-03-29 00:00:00,other,26,9,0
+id,2011,lower,H 286,IDV00000669,lower,  3rd rdg - ,2011-03-22 00:00:00,other,68,0,2
+id,2011,lower,H 286,IDV00000670,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 287,IDV00000671,lower,  3rd rdg - ,2011-03-22 00:00:00,other,48,20,2
+id,2011,lower,H 287,IDV00000672,upper,  3rd rdg - ,2011-03-31 00:00:00,other,31,3,1
+id,2011,lower,H 288,IDV00000673,lower,  3rd rdg - ,2011-03-22 00:00:00,other,67,0,3
+id,2011,lower,H 288,IDV00000674,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 289,IDV00000675,lower,  3rd rdg - ,2011-03-22 00:00:00,other,65,3,2
+id,2011,lower,H 289,IDV00000676,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 290,IDV00000677,lower,  3rd rdg - ,2011-03-22 00:00:00,other,52,16,2
+id,2011,lower,H 290,IDV00000678,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 291,IDV00000679,lower,  3rd rdg - ,2011-03-22 00:00:00,other,53,15,2
+id,2011,lower,H 291,IDV00000680,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 292,IDV00000681,lower,  3rd rdg - ,2011-03-22 00:00:00,other,64,4,2
+id,2011,lower,H 292,IDV00000682,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 293,IDV00000683,lower,  Rls susp - ,2011-03-22 00:00:00,other,61,7,2
+id,2011,lower,H 293,IDV00000684,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 294,IDV00000685,lower,  Rls susp - ,2011-03-22 00:00:00,other,67,0,3
+id,2011,lower,H 294,IDV00000686,upper,  3rd rdg - ,2011-03-31 00:00:00,other,34,0,1
+id,2011,lower,H 296,IDV00000687,lower,  Rls susp - ,2011-03-23 00:00:00,other,69,0,1
+id,2011,lower,H 296,IDV00000688,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 297,IDV00000689,lower,  Rls susp - ,2011-03-23 00:00:00,other,60,9,1
+id,2011,lower,H 297,IDV00000690,upper,  Rls susp - ,2011-04-05 00:00:00,other,30,5,0
+id,2011,lower,H 297,IDV00000691,lower,  Rls susp - ,2011-04-07 00:00:00,other,62,5,3
+id,2011,lower,H 298,IDV00000692,lower,  Rls susp - ,2011-03-30 00:00:00,other,50,17,3
+id,2011,lower,H 298,IDV00000693,upper,  Rls susp - ,2011-04-05 00:00:00,other,24,11,0
+id,2011,lower,H 299,IDV00000694,lower,  3rd rdg - ,2011-03-30 00:00:00,other,62,0,8
+id,2011,lower,H 299,IDV00000695,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 300,IDV00000696,lower,  Rls susp - ,2011-04-04 00:00:00,other,38,32,0
+id,2011,lower,H 301,IDV00000697,lower,  Rls susp - ,2011-03-25 00:00:00,other,68,0,2
+id,2011,lower,H 301,IDV00000698,upper,  3rd rdg - ,2011-04-01 00:00:00,other,35,0,0
+id,2011,lower,H 304,IDV00000699,lower,  3rd rdg - ,2011-03-29 00:00:00,other,67,0,3
+id,2011,lower,H 304,IDV00000700,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 305,IDV00000701,lower,  3rd rdg - ,2011-03-29 00:00:00,other,67,0,3
+id,2011,lower,H 305,IDV00000702,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 306,IDV00000703,lower,  3rd rdg - ,2011-03-29 00:00:00,other,59,8,3
+id,2011,lower,H 306,IDV00000704,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 308,IDV00000705,lower,  3rd rdg - ,2011-04-04 00:00:00,other,67,3,0
+id,2011,lower,H 309,IDV00000706,lower,  3rd rdg - ,2011-03-30 00:00:00,other,65,3,2
+id,2011,lower,H 309,IDV00000707,upper,  3rd rdg - ,2011-04-04 00:00:00,other,34,0,1
+id,2011,lower,H 310,IDV00000708,lower,  3rd rdg - ,2011-03-30 00:00:00,other,67,0,3
+id,2011,lower,H 310,IDV00000709,upper,  Rls susp - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,lower,H 310,IDV00000710,lower,  Rls susp - ,2011-04-07 00:00:00,other,67,0,3
+id,2011,lower,H 315,IDV00000711,lower,  Rls susp - ,2011-04-05 00:00:00,other,42,26,2
+id,2011,lower,H 315,IDV00000712,upper,  Rls susp - ,2011-04-07 00:00:00,other,33,2,0
+id,2011,lower,H 316,IDV00000713,lower,  3rd rdg - ,2011-04-04 00:00:00,other,70,0,0
+id,2011,lower,H 318,IDV00000714,lower,  3rd rdg - ,2011-03-31 00:00:00,other,67,0,3
+id,2011,lower,H 318,IDV00000715,upper,  Rls susp - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,lower,H 323,IDV00000716,lower,  Rls susp - ,2011-03-30 00:00:00,other,67,0,3
+id,2011,lower,H 323,IDV00000717,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 324,IDV00000718,lower,  Rls susp - ,2011-03-30 00:00:00,other,53,15,2
+id,2011,lower,H 324,IDV00000719,upper,  Rls susp - ,2011-04-04 00:00:00,other,32,2,1
+id,2011,lower,H 325,IDV00000720,lower,  Rls susp - ,2011-03-30 00:00:00,other,67,0,3
+id,2011,lower,H 325,IDV00000721,upper,  Rls susp - ,2011-04-04 00:00:00,other,35,0,0
+id,2011,lower,H 326,IDV00000722,lower,  Rls susp - ,2011-03-30 00:00:00,other,57,10,3
+id,2011,lower,H 326,IDV00000723,upper,  Rls susp - ,2011-04-06 00:00:00,other,31,4,0
+id,2011,lower,H 328,IDV00000724,lower,  Rls susp - ,2011-03-30 00:00:00,other,67,0,3
+id,2011,lower,H 328,IDV00000725,upper,  3rd rdg - ,2011-04-04 00:00:00,other,31,2,2
+id,2011,lower,H 329,IDV00000726,lower,  Rls susp - ,2011-03-31 00:00:00,other,63,5,2
+id,2011,lower,H 329,IDV00000727,upper,  3rd rdg - ,2011-04-05 00:00:00,other,34,0,1
+id,2011,lower,H 330,IDV00000728,lower,  Rls susp - ,2011-03-31 00:00:00,other,66,1,3
+id,2011,lower,H 330,IDV00000729,upper,  3rd rdg - ,2011-04-05 00:00:00,other,35,0,0
+id,2011,lower,H 331,IDV00000730,lower,  Rls susp - ,2011-03-31 00:00:00,other,64,0,6
+id,2011,lower,H 331,IDV00000731,upper,  Rls susp - ,2011-04-06 00:00:00,other,35,0,0
+id,2011,lower,H 333,IDV00000732,lower,  Rls susp - ,2011-04-06 00:00:00,other,68,0,2
+id,2011,lower,H 334,IDV00000733,lower,  Rls susp - ,2011-04-06 00:00:00,other,59,10,1
+id,2011,lower,H 335,IDV00000734,lower,  Rls susp - ,2011-04-05 00:00:00,other,58,10,2
+id,2011,lower,H 335,IDV00000735,upper,  Rls susp - ,2011-04-07 00:00:00,other,21,14,0
+id,2011,lower,H 336,IDV00000736,lower,  Rls susp - ,2011-04-05 00:00:00,other,47,22,1
+id,2011,lower,H 336,IDV00000737,upper,  Rls susp - ,2011-04-07 00:00:00,other,19,16,0
+id,2011,lower,H 337,IDV00000738,lower,  Rls susp - ,2011-03-31 00:00:00,other,41,25,4
+id,2011,lower,H 338,IDV00000739,lower,  Rls susp - ,2011-04-04 00:00:00,other,64,4,2
+id,2011,lower,H 338,IDV00000740,upper,  Rls susp - ,2011-04-05 00:00:00,other,28,6,1
+id,2011,lower,H 340,IDV00000741,lower,  Rls susp - ,2011-04-06 00:00:00,other,69,1,0
+id,2011,lower,H 341,IDV00000742,lower,  Rls susp - ,2011-04-04 00:00:00,other,49,20,1
+id,2011,lower,H 341,IDV00000743,upper,  3rd rdg - ,2011-04-06 00:00:00,other,22,11,2
+id,2011,lower,H 343,IDV00000744,lower,  Rls susp - ,2011-04-05 00:00:00,other,64,5,1
+id,2011,lower,H 343,IDV00000745,upper,  Rls susp - ,2011-04-06 00:00:00,other,27,8,0
+id,2011,lower,H 344,IDV00000746,lower,  Rls susp - ,2011-04-06 00:00:00,other,68,1,1
+id,2011,lower,H 344,IDV00000747,upper,  Rls susp - ,2011-04-07 00:00:00,other,35,0,0
+id,2011,lower,H 345,IDV00000748,lower,  Rls susp - ,2011-04-05 00:00:00,other,50,18,2
+id,2011,lower,H 345,IDV00000749,upper,  Rls susp - ,2011-04-07 00:00:00,other,19,16,0
+id,2011,lower,H 347,IDV00000750,lower,  Rls susp - ,2011-04-05 00:00:00,other,40,29,1
+id,2011,lower,H 347,IDV00000751,upper,  Rls susp - ,2011-04-07 00:00:00,other,17,18,0
+id,2011,lower,H 348,IDV00000752,lower,  Rls susp - ,2011-04-05 00:00:00,other,67,2,1
+id,2011,lower,H 351,IDV00000753,lower,  Rls susp - ,2011-04-06 00:00:00,other,51,16,3
+id,2011,lower,H 351,IDV00000754,upper,  Rls susp - ,2011-04-06 00:00:00,other,28,7,0
+id,2011,lower,H 353,IDV00000755,lower,  Rls susp - ,2011-04-07 00:00:00,other,39,29,2
+id,2011,lower,HCR 2,IDV00000756,lower,  3rd rdg - ,2011-01-20 00:00:00,other,70,0,0
+id,2011,lower,HCR 3,IDV00000757,lower,  3rd rdg - ,2011-02-01 00:00:00,other,65,0,5
+id,2011,lower,HCR 3,IDV00000758,upper,  10th Ord - ,2011-03-30 00:00:00,other,33,0,2
+id,2011,lower,HCR 4,IDV00000759,lower,  3rd rdg - ,2011-02-08 00:00:00,other,66,0,4
+id,2011,lower,HCR 4,IDV00000760,upper,  10th Ord - ,2011-02-15 00:00:00,other,35,0,0
+id,2011,lower,HCR 5,IDV00000761,lower,  3rd rdg - ,2011-03-04 00:00:00,other,65,0,5
+id,2011,lower,HCR 6,IDV00000762,lower,  3rd rdg - ,2011-02-18 00:00:00,other,57,0,13
+id,2011,lower,HCR 6,IDV00000763,upper,  10th Ord - ,2011-02-25 00:00:00,other,34,0,1
+id,2011,lower,HCR 7,IDV00000764,lower,  3rd rdg - ,2011-02-18 00:00:00,other,59,0,11
+id,2011,lower,HCR 7,IDV00000765,upper,  10th Ord - ,2011-02-25 00:00:00,other,34,0,1
+id,2011,lower,HCR 9,IDV00000766,lower,  3rd rdg - ,2011-02-28 00:00:00,other,45,24,1
+id,2011,lower,HCR 10,IDV00000767,lower,  3rd rdg - ,2011-02-23 00:00:00,other,70,0,0
+id,2011,lower,HCR 11,IDV00000768,lower,  3rd rdg - ,2011-02-23 00:00:00,other,65,5,0
+id,2011,lower,HCR 12,IDV00000769,lower,  3rd rdg - ,2011-02-24 00:00:00,other,67,0,3
+id,2011,lower,HCR 13,IDV00000770,lower,  3rd rdg - ,2011-02-24 00:00:00,other,67,0,3
+id,2011,lower,HCR 14,IDV00000771,lower,  3rd rdg - ,2011-02-24 00:00:00,other,67,0,3
+id,2011,lower,HCR 15,IDV00000772,lower,  3rd rdg - ,2011-03-04 00:00:00,other,64,0,6
+id,2011,lower,HCR 16,IDV00000773,lower,  3rd rdg - ,2011-03-02 00:00:00,other,57,12,1
+id,2011,lower,HCR 16,IDV00000774,upper,  10th Ord - ,2011-03-18 00:00:00,other,26,6,3
+id,2011,lower,HCR 20,IDV00000775,lower,  3rd rdg - ,2011-03-11 00:00:00,other,60,4,6
+id,2011,lower,HCR 21,IDV00000776,lower,  3rd rdg - ,2011-03-14 00:00:00,other,67,1,2
+id,2011,lower,HCR 22,IDV00000777,lower,  3rd rdg - ,2011-03-22 00:00:00,other,68,0,2
+id,2011,lower,HCR 23,IDV00000778,lower,  3rd rdg - ,2011-03-15 00:00:00,other,55,14,1
+id,2011,lower,HCR 24,IDV00000779,lower,  3rd rdg - ,2011-03-17 00:00:00,other,68,0,2
+id,2011,lower,HCR 25,IDV00000780,lower,  3rd rdg - ,2011-03-18 00:00:00,other,55,10,5
+id,2011,lower,HCR 25,IDV00000781,upper,  10th Ord - ,2011-03-25 00:00:00,other,29,5,1
+id,2011,lower,HJM 1,IDV00000782,lower,  3rd rdg - ,2011-02-07 00:00:00,other,49,20,1
+id,2011,lower,HJM 2,IDV00000783,lower,  3rd rdg - ,2011-02-21 00:00:00,other,56,13,1
+id,2011,lower,HJM 2,IDV00000784,upper,  10th Ord - ,2011-03-04 00:00:00,other,28,7,0
+id,2011,lower,HJM 3,IDV00000785,lower,  3rd rdg - ,2011-03-11 00:00:00,other,63,1,6
+id,2011,lower,HR 1,IDV00000786,lower,  3rd rdg - ,2011-01-13 00:00:00,other,67,0,3
+id,2011,lower,HR 2,IDV00000787,lower,  3rd rdg - ,2011-02-15 00:00:00,other,70,0,0
+id,2012,upper,S 1213,IDV00000788,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1213,IDV00000789,lower,  3rd rdg - ,2012-02-13 00:00:00,other,65,0,5
+id,2012,upper,S 1214,IDV00000790,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1215,IDV00000792,upper,  3rd rdg as amen - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1219,IDV00000794,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1222,IDV00000796,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1223,IDV00000798,upper,  3rd rdg - ,2012-01-25 00:00:00,other,35,0,0
+id,2012,upper,S 1224,IDV00000800,upper,  3rd rdg - ,2012-01-25 00:00:00,other,35,0,0
+id,2012,upper,S 1225,IDV00000802,upper,  3rd rdg - ,2012-02-01 00:00:00,other,27,7,1
+id,2012,upper,S 1226,IDV00000804,upper,  3rd rdg - ,2012-02-03 00:00:00,other,33,0,2
+id,2012,upper,S 1227,IDV00000806,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1228,IDV00000808,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1231,IDV00000810,upper,  3rd rdg as amen - ,2012-03-01 00:00:00,other,32,1,1
+id,2012,upper,S 1232,IDV00000811,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1233,IDV00000813,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1236,IDV00000814,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1237,IDV00000816,upper,  3rd rdg - ,2012-01-30 00:00:00,other,33,0,2
+id,2012,upper,S 1243,IDV00000818,upper,  3rd rdg - ,2012-02-03 00:00:00,other,31,2,2
+id,2012,upper,S 1243,IDV00001466,upper,  3rd rdg as amen - ,2012-03-23 00:00:00,other,30,1,4
+id,2012,upper,S 1253,IDV00000819,upper,  3rd rdg - ,2012-02-06 00:00:00,other,33,0,2
+id,2012,upper,S 1255,IDV00000821,upper,  3rd rdg as amen - ,2012-03-01 00:00:00,other,32,1,1
+id,2012,upper,S 1256,IDV00000822,upper,  3rd rdg - ,2012-02-24 00:00:00,other,17,16,1
+id,2012,upper,S 1256,IDV00001550,upper,  3rd rdg as amen - ,2012-03-28 00:00:00,other,19,16,0
+id,2012,upper,S 1257,IDV00000823,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1258,IDV00000825,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1259,IDV00000827,upper,  3rd rdg - ,2012-02-14 00:00:00,other,31,4,0
+id,2012,upper,S 1260,IDV00000829,upper,  3rd rdg - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1261,IDV00000830,upper,  3rd rdg - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1262,IDV00000831,upper,  3rd rdg - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1263,IDV00000832,upper,  3rd rdg - ,2012-02-15 00:00:00,other,30,5,0
+id,2012,upper,S 1265,IDV00000833,upper,  3rd rdg - ,2012-02-13 00:00:00,other,35,0,0
+id,2012,upper,S 1266,IDV00000835,upper,  3rd rdg - ,2012-02-13 00:00:00,other,32,3,0
+id,2012,upper,S 1267,IDV00000837,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,upper,S 1268,IDV00000839,upper,  3rd rdg - ,2012-02-17 00:00:00,other,34,1,0
+id,2012,upper,S 1269,IDV00000841,upper,  3rd rdg - ,2012-02-06 00:00:00,other,33,0,2
+id,2012,upper,S 1270,IDV00000842,upper,  3rd rdg - ,2012-02-07 00:00:00,other,34,0,1
+id,2012,upper,S 1271,IDV00000843,upper,  3rd rdg - ,2012-03-08 00:00:00,other,31,0,4
+id,2012,upper,S 1272,IDV00000844,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1273,IDV00000846,upper,  3rd rdg - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1274,IDV00000847,upper,  3rd rdg - ,2012-02-21 00:00:00,other,29,6,0
+id,2012,upper,S 1274,IDV00001467,upper,  3rd rdg as amen - ,2012-03-23 00:00:00,other,29,5,1
+id,2012,upper,S 1275,IDV00000848,upper,  3rd rdg - ,2012-03-01 00:00:00,other,31,0,3
+id,2012,upper,S 1277,IDV00000849,upper,  3rd rdg as amen - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,upper,S 1278,IDV00000851,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1279,IDV00000853,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1280,IDV00000854,upper,  3rd rdg - ,2012-02-14 00:00:00,other,35,0,0
+id,2012,upper,S 1283,IDV00000855,upper,  3rd rdg - ,2012-02-22 00:00:00,other,17,17,1
+id,2012,upper,S 1285,IDV00000856,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,upper,S 1286,IDV00000857,upper,  3rd rdg - ,2012-02-24 00:00:00,other,27,4,3
+id,2012,upper,S 1289,IDV00000858,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,upper,S 1290,IDV00000859,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,upper,S 1291,IDV00000860,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1292,IDV00000861,upper,  3rd rdg - ,2012-02-21 00:00:00,other,32,1,2
+id,2012,upper,S 1293,IDV00000863,upper,  3rd rdg - ,2012-03-05 00:00:00,other,34,0,1
+id,2012,upper,S 1294,IDV00000864,upper,  3rd rdg as amen - ,2012-03-01 00:00:00,other,33,0,1
+id,2012,upper,S 1295,IDV00000865,upper,  Rls susp - ,2012-03-14 00:00:00,other,28,6,1
+id,2012,upper,S 1298,IDV00000866,upper,  3rd rdg - ,2012-02-21 00:00:00,other,33,0,2
+id,2012,upper,S 1299,IDV00000867,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,upper,S 1301,IDV00000868,upper,  3rd rdg - ,2012-02-21 00:00:00,other,27,6,2
+id,2012,upper,S 1302,IDV00000870,upper,  3rd rdg - ,2012-02-22 00:00:00,other,34,0,1
+id,2012,upper,S 1303,IDV00000871,upper,  3rd rdg - ,2012-02-23 00:00:00,other,31,1,2
+id,2012,upper,S 1303,IDV00001576,upper,  Rls susp - ,2012-03-29 00:00:00,other,24,11,0
+id,2012,upper,S 1304,IDV00000872,upper,  3rd rdg - ,2012-03-02 00:00:00,other,26,6,3
+id,2012,upper,S 1307,IDV00000873,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1308,IDV00000874,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1309,IDV00000876,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,upper,S 1310,IDV00000877,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1312,IDV00000878,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,upper,S 1313,IDV00000880,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1314,IDV00000881,upper,  3rd rdg - ,2012-02-21 00:00:00,other,34,0,1
+id,2012,upper,S 1316,IDV00000882,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,upper,S 1317,IDV00000883,upper,  3rd rdg as amen - ,2012-03-01 00:00:00,other,19,14,1
+id,2012,upper,S 1319,IDV00000884,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,upper,S 1321,IDV00000885,upper,  3rd rdg as amen - ,2012-03-08 00:00:00,other,25,8,2
+id,2012,upper,S 1323,IDV00000886,upper,  3rd rdg as amen - ,2012-03-01 00:00:00,other,33,0,1
+id,2012,upper,S 1324,IDV00000887,upper,  3rd rdg - ,2012-02-27 00:00:00,other,34,0,0
+id,2012,upper,S 1326,IDV00000889,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,upper,S 1327,IDV00000890,upper,  3rd rdg - ,2012-02-23 00:00:00,other,26,6,2
+id,2012,upper,S 1328,IDV00000891,upper,  3rd rdg - ,2012-02-23 00:00:00,other,30,2,2
+id,2012,upper,S 1329,IDV00000892,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,upper,S 1330,IDV00000893,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1331,IDV00000894,upper,  3rd rdg - ,2012-03-01 00:00:00,other,32,0,2
+id,2012,upper,S 1332,IDV00000895,upper,  3rd rdg - ,2012-03-01 00:00:00,other,32,0,2
+id,2012,upper,S 1333,IDV00000896,upper,  3rd rdg - ,2012-02-24 00:00:00,other,25,6,3
+id,2012,upper,S 1335,IDV00000898,upper,  Rls susp - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,upper,S 1336,IDV00000899,upper,  3rd rdg as amen - ,2012-03-12 00:00:00,other,23,10,2
+id,2012,upper,S 1337,IDV00000900,upper,  Rls susp - ,2012-03-06 00:00:00,other,31,0,4
+id,2012,upper,S 1338,IDV00000901,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1340,IDV00000902,upper,  3rd rdg - ,2012-03-01 00:00:00,other,32,0,2
+id,2012,upper,S 1341,IDV00000903,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1343,IDV00000904,upper,  Rls susp - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,upper,S 1344,IDV00000905,upper,  3rd rdg - ,2012-03-01 00:00:00,other,33,0,1
+id,2012,upper,S 1346,IDV00000906,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,upper,S 1348,IDV00001315,upper,  3rd rdg as amen - ,2012-03-19 00:00:00,other,24,10,1
+id,2012,upper,S 1350,IDV00000907,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1351,IDV00000909,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1352,IDV00000911,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1353,IDV00000913,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1354,IDV00000915,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,upper,S 1356,IDV00000917,upper,  Rls susp - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,upper,S 1357,IDV00000918,upper,  Rls susp - ,2012-03-14 00:00:00,other,34,0,1
+id,2012,upper,S 1358,IDV00000919,upper,  3rd rdg as amen - ,2012-03-15 00:00:00,other,25,8,2
+id,2012,upper,S 1359,IDV00000920,upper,  3rd rdg - ,2012-03-07 00:00:00,other,33,0,2
+id,2012,upper,S 1360,IDV00000922,upper,  3rd rdg - ,2012-03-13 00:00:00,other,32,0,3
+id,2012,upper,S 1361,IDV00000923,upper,  3rd rdg - ,2012-03-07 00:00:00,other,33,0,2
+id,2012,upper,S 1362,IDV00000925,upper,  Rls susp - ,2012-03-14 00:00:00,other,13,21,1
+id,2012,upper,S 1363,IDV00000926,upper,  3rd rdg - ,2012-03-07 00:00:00,other,33,0,2
+id,2012,upper,S 1365,IDV00000927,upper,  3rd rdg - ,2012-03-07 00:00:00,other,33,0,2
+id,2012,upper,S 1366,IDV00000928,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1367,IDV00000929,upper,  3rd rdg - ,2012-03-07 00:00:00,other,33,0,2
+id,2012,upper,S 1368,IDV00000931,upper,  3rd rdg - ,2012-03-07 00:00:00,other,32,0,3
+id,2012,upper,S 1369,IDV00000932,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1370,IDV00000933,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1371,IDV00000934,upper,  Rls susp - ,2012-03-05 00:00:00,other,32,0,3
+id,2012,upper,S 1372,IDV00001384,upper,  Rls susp - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1373,IDV00000936,upper,  3rd rdg - ,2012-03-14 00:00:00,other,26,8,1
+id,2012,upper,S 1375,IDV00000937,upper,  3rd rdg - ,2012-03-08 00:00:00,other,31,0,4
+id,2012,upper,S 1376,IDV00000938,upper,  3rd rdg - ,2012-03-13 00:00:00,other,33,0,2
+id,2012,upper,S 1377,IDV00000939,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1380,IDV00001317,upper,  3rd rdg as amen - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,upper,S 1381,IDV00000940,upper,  3rd rdg - ,2012-03-13 00:00:00,other,32,2,1
+id,2012,upper,S 1382,IDV00000941,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,upper,S 1383,IDV00001432,upper,  Rls susp - ,2012-03-22 00:00:00,other,26,7,2
+id,2012,upper,S 1384,IDV00000942,upper,  3rd rdg - ,2012-03-14 00:00:00,other,34,0,1
+id,2012,upper,S 1386,IDV00001468,upper,  Rls susp - ,2012-03-23 00:00:00,other,34,0,1
+id,2012,upper,S 1387,IDV00001294,upper,  3rd rdg - ,2012-03-19 00:00:00,other,23,12,0
+id,2012,upper,S 1388,IDV00000943,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,upper,S 1389,IDV00000944,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,upper,S 1390,IDV00001387,upper,  Rls susp - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1391,IDV00000945,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,upper,S 1392,IDV00000946,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,upper,S 1393,IDV00001390,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1394,IDV00001391,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1395,IDV00001497,upper,  Rls susp - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1396,IDV00001393,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1397,IDV00001394,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1398,IDV00001395,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1399,IDV00001396,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1400,IDV00001397,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,upper,S 1401,IDV00001433,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,upper,S 1402,IDV00001434,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,upper,S 1403,IDV00001435,upper,  3rd rdg - ,2012-03-22 00:00:00,other,31,0,4
+id,2012,upper,S 1404,IDV00001436,upper,  Rls susp - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,upper,S 1405,IDV00001437,upper,  Rls susp - ,2012-03-22 00:00:00,other,30,3,2
+id,2012,upper,S 1406,IDV00001476,upper,  3rd rdg - ,2012-03-23 00:00:00,other,34,0,1
+id,2012,upper,S 1407,IDV00001503,upper,  Rls susp - ,2012-03-20 00:00:00,other,35,0,0
+id,2012,upper,S 1408,IDV00001504,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,upper,S 1409,IDV00001505,upper,  3rd rdg - ,2012-03-26 00:00:00,other,34,1,0
+id,2012,upper,S 1410,IDV00001506,upper,  3rd rdg - ,2012-03-26 00:00:00,other,31,4,0
+id,2012,upper,S 1412,IDV00001555,upper,  3rd rdg - ,2012-03-28 00:00:00,other,34,1,0
+id,2012,upper,S 1413,IDV00001557,upper,  3rd rdg - ,2012-03-28 00:00:00,other,28,7,0
+id,2012,upper,S 1414,IDV00001559,upper,  3rd rdg - ,2012-03-28 00:00:00,other,35,0,0
+id,2012,upper,S 1415,IDV00001561,upper,  Rls susp - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,upper,S 1416,IDV00001562,upper,  Rls susp - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,upper,SCR 117,IDV00000947,upper,  10th Ord - ,2012-02-20 00:00:00,other,28,7,0
+id,2012,upper,SCR 123,IDV00000948,upper,  10th Ord - ,2012-03-01 00:00:00,other,33,0,1
+id,2012,upper,SCR 131,IDV00000949,upper,  10th Ord - ,2012-03-15 00:00:00,other,29,0,6
+id,2012,upper,SCR 133,IDV00000950,upper,  10th Ord - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,upper,SJR 102,IDV00000951,upper,  3rd rdg - ,2012-01-23 00:00:00,other,34,0,1
+id,2012,upper,SJR 106,IDV00000953,upper,  3rd rdg - ,2012-02-27 00:00:00,other,34,0,0
+id,2012,upper,SR 103,IDV00000954,upper,  10th Ord - ,2012-01-24 00:00:00,other,35,0,0
+id,2012,upper,SR 105,IDV00001585,upper,  Rls susp - ,2012-03-29 00:00:00,other,35,0,0
+id,2012,upper,SR 106,IDV00001586,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,upper,SR 107,IDV00001587,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,lower,H 355,IDV00000956,upper,  3rd rdg - ,2012-01-27 00:00:00,other,32,0,3
+id,2012,lower,H 356,IDV00000958,upper,  3rd rdg - ,2012-02-01 00:00:00,other,34,0,1
+id,2012,lower,H 357,IDV00000960,upper,  3rd rdg - ,2012-02-03 00:00:00,other,32,0,3
+id,2012,lower,H 358,IDV00000962,upper,  3rd rdg as amen - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 360,IDV00000965,upper,  3rd rdg - ,2012-01-31 00:00:00,other,33,0,2
+id,2012,lower,H 361,IDV00000967,upper,  3rd rdg - ,2012-01-31 00:00:00,other,33,0,2
+id,2012,lower,H 362,IDV00001598,upper,  3rd rdg - ,2012-01-31 00:00:00,other,24,10,1
+id,2012,lower,H 363,IDV00000971,upper,  3rd rdg - ,2012-02-03 00:00:00,other,32,0,3
+id,2012,lower,H 364,IDV00001599,upper,  3rd rdg - ,2012-02-06 00:00:00,other,33,0,2
+id,2012,lower,H 365,IDV00000975,upper,  3rd rdg - ,2012-02-07 00:00:00,other,34,0,1
+id,2012,lower,H 367,IDV00000977,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 368,IDV00001439,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 369,IDV00000980,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 372,IDV00001536,upper,  3rd rdg - ,2012-03-27 00:00:00,other,34,0,1
+id,2012,lower,H 374,IDV00000984,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 375,IDV00000986,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 376,IDV00001319,upper,  3rd rdg - ,2012-03-20 00:00:00,other,19,15,1
+id,2012,lower,H 379,IDV00000989,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 382,IDV00000991,upper,  ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 383,IDV00000993,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 384,IDV00000995,upper,  3rd rdg - ,2012-02-13 00:00:00,other,35,0,0
+id,2012,lower,H 385,IDV00000997,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 386,IDV00001320,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 389,IDV00001003,upper,  3rd rdg - ,2012-02-29 00:00:00,other,34,0,0
+id,2012,lower,H 391,IDV00001005,upper,  3rd rdg - ,2012-02-23 00:00:00,other,16,16,2
+id,2012,lower,H 393,IDV00001007,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,lower,H 394,IDV00001009,upper,  3rd rdg - ,2012-02-27 00:00:00,other,34,0,0
+id,2012,lower,H 395,IDV00001011,upper,  3rd rdg - ,2012-02-02 00:00:00,other,33,0,2
+id,2012,lower,H 396,IDV00001013,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 397,IDV00001015,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 399,IDV00001018,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 400,IDV00001020,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 401,IDV00001022,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 402,IDV00001024,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 403,IDV00001026,upper,  3rd rdg - ,2012-03-13 00:00:00,other,19,15,1
+id,2012,lower,H 404,IDV00001028,upper,  3rd rdg as amen - ,2012-02-14 00:00:00,other,26,9,0
+id,2012,lower,H 405,IDV00001031,upper,  3rd rdg - ,2012-02-27 00:00:00,other,34,0,0
+id,2012,lower,H 407,IDV00001033,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 408,IDV00001035,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 409,IDV00001037,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 412,IDV00001039,upper,  3rd rdg - ,2012-02-23 00:00:00,other,32,0,2
+id,2012,lower,H 414,IDV00001507,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 417,IDV00001041,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,lower,H 418,IDV00001043,upper,  3rd rdg - ,2012-02-23 00:00:00,other,20,12,2
+id,2012,lower,H 419,IDV00001045,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 420,IDV00001047,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,lower,H 421,IDV00001321,upper,  3rd rdg - ,2012-03-19 00:00:00,other,34,0,1
+id,2012,lower,H 422,IDV00001322,upper,  3rd rdg - ,2012-03-19 00:00:00,other,34,0,1
+id,2012,lower,H 426,IDV00001323,upper,  3rd rdg as amen - ,2012-03-19 00:00:00,other,28,7,0
+id,2012,lower,H 438,IDV00001053,upper,  3rd rdg - ,2012-02-27 00:00:00,other,34,0,0
+id,2012,lower,H 439,IDV00001409,upper,  3rd rdg as amen - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 441,IDV00001057,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 442,IDV00001059,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 443,IDV00001509,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 446,IDV00001062,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,lower,H 448,IDV00001324,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 450,IDV00001067,upper,  Rls susp - ,2012-03-14 00:00:00,other,32,1,2
+id,2012,lower,H 452,IDV00001440,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 455,IDV00001070,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,lower,H 457,IDV00001072,upper,  3rd rdg as amen - ,2012-03-15 00:00:00,other,34,0,1
+id,2012,lower,H 458,IDV00001510,upper,  3rd rdg - ,2012-03-26 00:00:00,other,34,0,1
+id,2012,lower,H 459,IDV00001075,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,lower,H 460,IDV00001077,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 461,IDV00001079,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,lower,H 462,IDV00001081,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 463,IDV00001083,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 464,IDV00001085,upper,  3rd rdg - ,2012-03-14 00:00:00,other,24,10,1
+id,2012,lower,H 465,IDV00001087,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 466,IDV00001089,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 467,IDV00001091,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 468,IDV00001093,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 469,IDV00001095,upper,  3rd rdg - ,2012-02-27 00:00:00,other,28,5,1
+id,2012,lower,H 472,IDV00001097,upper,  3rd rdg - ,2012-03-06 00:00:00,other,22,9,4
+id,2012,lower,H 473,IDV00001099,upper,  3rd rdg - ,2012-02-24 00:00:00,other,31,0,3
+id,2012,lower,H 475,IDV00001101,upper,  3rd rdg - ,2012-02-28 00:00:00,other,33,0,1
+id,2012,lower,H 479,IDV00001511,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 481,IDV00001106,upper,  3rd rdg - ,2012-03-15 00:00:00,other,22,12,1
+id,2012,lower,H 482,IDV00001108,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 484,IDV00001110,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,lower,H 485,IDV00001512,upper,  3rd rdg - ,2012-03-26 00:00:00,other,31,4,0
+id,2012,lower,H 487,IDV00001412,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 489,IDV00001115,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,lower,H 490,IDV00001327,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 491,IDV00001328,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 492,IDV00001119,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 494,IDV00001441,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 497,IDV00001124,upper,  3rd rdg as amen - ,2012-03-15 00:00:00,other,34,0,1
+id,2012,lower,H 498,IDV00001126,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 499,IDV00001128,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 500,IDV00001130,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 501,IDV00001132,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 502,IDV00001329,upper,  3rd rdg - ,2012-03-20 00:00:00,other,35,0,0
+id,2012,lower,H 503,IDV00001330,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 511,IDV00001138,upper,  3rd rdg as amen - ,2012-03-15 00:00:00,other,34,0,1
+id,2012,lower,H 512,IDV00001140,upper,  3rd rdg - ,2012-03-15 00:00:00,other,34,0,1
+id,2012,lower,H 513,IDV00001142,upper,  3rd rdg - ,2012-03-15 00:00:00,other,32,0,3
+id,2012,lower,H 514,IDV00001332,upper,  3rd rdg - ,2012-03-20 00:00:00,other,12,22,1
+id,2012,lower,H 515,IDV00001481,upper,  3rd rdg - ,2012-03-23 00:00:00,other,35,0,0
+id,2012,lower,H 516,IDV00001146,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 517,IDV00001148,upper,  3rd rdg - ,2012-03-05 00:00:00,other,35,0,0
+id,2012,lower,H 518,IDV00001442,upper,  3rd rdg - ,2012-03-22 00:00:00,other,30,3,2
+id,2012,lower,H 519,IDV00001414,upper,  3rd rdg - ,2012-03-20 00:00:00,other,28,7,0
+id,2012,lower,H 521,IDV00001153,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 522,IDV00001333,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 523,IDV00001334,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 525,IDV00001157,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,lower,H 526,IDV00001159,upper,  3rd rdg - ,2012-03-08 00:00:00,other,27,5,3
+id,2012,lower,H 532,IDV00001335,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 534,IDV00001162,upper,  3rd rdg - ,2012-03-06 00:00:00,other,33,0,2
+id,2012,lower,H 536,IDV00001443,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 539,IDV00001444,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 540,IDV00001166,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,lower,H 541,IDV00001168,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,lower,H 542,IDV00001513,upper,  3rd rdg - ,2012-03-26 00:00:00,other,15,20,0
+id,2012,lower,H 543,IDV00001171,upper,  3rd rdg - ,2012-03-13 00:00:00,other,34,0,1
+id,2012,lower,H 546,IDV00001173,upper,  3rd rdg - ,2012-03-06 00:00:00,other,30,4,1
+id,2012,lower,H 549,IDV00001336,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 550,IDV00001337,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 551,IDV00001482,upper,  3rd rdg - ,2012-03-23 00:00:00,other,27,6,2
+id,2012,lower,H 553,IDV00001445,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 556,IDV00001180,upper,  3rd rdg - ,2012-03-15 00:00:00,other,34,0,1
+id,2012,lower,H 558,IDV00001338,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 563,IDV00001588,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,lower,H 564,IDV00001446,upper,  Rls susp - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 569,IDV00001339,upper,  3rd rdg - ,2012-03-20 00:00:00,other,35,0,0
+id,2012,lower,H 570,IDV00001340,upper,  3rd rdg - ,2012-03-20 00:00:00,other,35,0,0
+id,2012,lower,H 572,IDV00001447,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 574,IDV00001191,upper,  3rd rdg - ,2012-03-02 00:00:00,other,33,0,2
+id,2012,lower,H 575,IDV00001538,upper,  3rd rdg - ,2012-03-27 00:00:00,other,32,0,3
+id,2012,lower,H 576,IDV00001448,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 577,IDV00001514,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 579,IDV00001196,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,lower,H 582,IDV00001341,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 583,IDV00001483,upper,  3rd rdg - ,2012-03-23 00:00:00,other,35,0,0
+id,2012,lower,H 584,IDV00001484,upper,  3rd rdg - ,2012-03-23 00:00:00,other,29,5,1
+id,2012,lower,H 590,IDV00001342,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 591,IDV00001449,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 593,IDV00001416,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 595,IDV00001208,upper,  3rd rdg - ,2012-03-15 00:00:00,other,30,3,2
+id,2012,lower,H 598,IDV00001210,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 599,IDV00001515,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 600,IDV00001213,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 601,IDV00001215,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 602,IDV00001217,upper,  3rd rdg - ,2012-03-08 00:00:00,other,32,0,3
+id,2012,lower,H 603,IDV00001417,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 604,IDV00001343,upper,  3rd rdg - ,2012-03-20 00:00:00,other,33,0,2
+id,2012,lower,H 607,IDV00001418,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 608,IDV00001450,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 609,IDV00001345,upper,  3rd rdg - ,2012-03-20 00:00:00,other,35,0,0
+id,2012,lower,H 611,IDV00001539,upper,  3rd rdg - ,2012-03-27 00:00:00,other,33,0,2
+id,2012,lower,H 613,IDV00001451,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 615,IDV00001226,upper,  3rd rdg - ,2012-03-15 00:00:00,other,32,0,3
+id,2012,lower,H 616,IDV00001228,upper,  3rd rdg - ,2012-03-15 00:00:00,other,29,3,3
+id,2012,lower,H 617,IDV00001230,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 618,IDV00001232,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 619,IDV00001485,upper,  3rd rdg - ,2012-03-23 00:00:00,other,26,9,0
+id,2012,lower,H 621,IDV00001235,upper,  3rd rdg - ,2012-03-15 00:00:00,other,33,0,2
+id,2012,lower,H 622,IDV00001237,upper,  3rd rdg - ,2012-03-16 00:00:00,other,33,0,2
+id,2012,lower,H 624,IDV00001540,upper,  3rd rdg - ,2012-03-27 00:00:00,other,28,6,1
+id,2012,lower,H 626,IDV00001419,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 631,IDV00001516,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 632,IDV00001421,upper,  3rd rdg - ,2012-03-21 00:00:00,other,34,0,1
+id,2012,lower,H 633,IDV00001422,upper,  3rd rdg - ,2012-03-21 00:00:00,other,35,0,0
+id,2012,lower,H 634,IDV00001486,upper,  3rd rdg - ,2012-03-23 00:00:00,other,35,0,0
+id,2012,lower,H 635,IDV00001452,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 636,IDV00001346,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 637,IDV00001347,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 638,IDV00001348,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 639,IDV00001563,upper,  Rls susp - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,lower,H 641,IDV00001349,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 642,IDV00001350,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 643,IDV00001351,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 644,IDV00001352,upper,  3rd rdg - ,2012-03-19 00:00:00,other,35,0,0
+id,2012,lower,H 645,IDV00001424,upper,  3rd rdg - ,2012-03-21 00:00:00,other,34,0,1
+id,2012,lower,H 648,IDV00001487,upper,  3rd rdg - ,2012-03-23 00:00:00,other,35,0,0
+id,2012,lower,H 649,IDV00001541,upper,  3rd rdg - ,2012-03-27 00:00:00,other,26,8,1
+id,2012,lower,H 651,IDV00001517,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 653,IDV00001564,upper,  3rd rdg - ,2012-03-28 00:00:00,other,35,0,0
+id,2012,lower,H 654,IDV00001453,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 655,IDV00001454,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 657,IDV00001455,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 658,IDV00001456,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 659,IDV00001457,upper,  3rd rdg - ,2012-03-22 00:00:00,other,34,0,1
+id,2012,lower,H 660,IDV00001580,upper,  Rls susp - ,2012-03-29 00:00:00,other,34,0,1
+id,2012,lower,H 661,IDV00001542,upper,  3rd rdg - ,2012-03-27 00:00:00,other,33,0,2
+id,2012,lower,H 662,IDV00001589,upper,  Rls susp - ,2012-03-29 00:00:00,other,35,0,0
+id,2012,lower,H 664,IDV00001458,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 665,IDV00001459,upper,  3rd rdg - ,2012-03-22 00:00:00,other,33,0,2
+id,2012,lower,H 668,IDV00001518,upper,  3rd rdg - ,2012-03-26 00:00:00,other,32,2,1
+id,2012,lower,H 669,IDV00001519,upper,  3rd rdg - ,2012-03-26 00:00:00,other,32,1,2
+id,2012,lower,H 672,IDV00001567,upper,  3rd rdg - ,2012-03-28 00:00:00,other,35,0,0
+id,2012,lower,H 674,IDV00001520,upper,  3rd rdg - ,2012-03-26 00:00:00,other,34,0,1
+id,2012,lower,H 675,IDV00001521,upper,  3rd rdg - ,2012-03-26 00:00:00,other,34,0,1
+id,2012,lower,H 676,IDV00001522,upper,  3rd rdg - ,2012-03-26 00:00:00,other,35,0,0
+id,2012,lower,H 677,IDV00001543,upper,  3rd rdg - ,2012-03-27 00:00:00,other,32,0,3
+id,2012,lower,H 678,IDV00001544,upper,  3rd rdg - ,2012-03-27 00:00:00,other,32,0,3
+id,2012,lower,H 679,IDV00001545,upper,  3rd rdg - ,2012-03-27 00:00:00,other,31,0,4
+id,2012,lower,H 680,IDV00001546,upper,  3rd rdg - ,2012-03-27 00:00:00,other,30,0,5
+id,2012,lower,H 681,IDV00001547,upper,  3rd rdg - ,2012-03-27 00:00:00,other,31,0,4
+id,2012,lower,H 682,IDV00001523,upper,  3rd rdg - ,2012-03-26 00:00:00,other,29,4,2
+id,2012,lower,H 684,IDV00001568,upper,  3rd rdg - ,2012-03-28 00:00:00,other,35,0,0
+id,2012,lower,H 685,IDV00001569,upper,  3rd rdg - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,lower,H 686,IDV00001570,upper,  3rd rdg - ,2012-03-28 00:00:00,other,35,0,0
+id,2012,lower,H 687,IDV00001571,upper,  Rls susp - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,lower,H 691,IDV00001572,upper,  Rls susp - ,2012-03-28 00:00:00,other,31,3,1
+id,2012,lower,H 693,IDV00001581,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,lower,H 695,IDV00001573,upper,  Rls susp - ,2012-03-28 00:00:00,other,23,11,1
+id,2012,lower,H 696,IDV00001574,upper,  Rls susp - ,2012-03-28 00:00:00,other,34,0,1
+id,2012,lower,H 697,IDV00001582,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,lower,H 698,IDV00001590,upper,  Rls susp - ,2012-03-29 00:00:00,other,28,7,0
+id,2012,lower,H 701,IDV00001592,upper,  Rls susp - ,2012-03-29 00:00:00,other,33,0,2
+id,2012,lower,H 702,IDV00001594,upper,  Rls susp - ,2012-03-29 00:00:00,other,35,0,0
+id,2012,lower,H 703,IDV00001596,upper,  Rls susp - ,2012-03-29 00:00:00,other,35,0,0
+id,2012,lower,HCR 29,IDV00001267,upper,  Rls susp - ,2012-01-09 00:00:00,other,29,0,6
+id,2012,lower,HCR 34,IDV00001271,upper,  10th Ord - ,2012-03-06 00:00:00,other,34,0,1
+id,2012,lower,HCR 47,IDV00001527,upper,  10th Ord - ,2012-03-26 00:00:00,other,28,7,0
+id,2012,lower,HJM 13,IDV00001490,upper,  10th Ord - ,2012-03-23 00:00:00,other,29,6,0
+id,2012,lower,HJR 2,IDV00001549,upper,  Rls susp - ,2012-03-27 00:00:00,other,31,3,1
+id,2013,lower,H 42,IDV00001799,upper,  Read third time in full - ,2013-02-28 00:00:00,other,33,0,2
+id,2013,lower,H 1,IDV00001601,lower,"  Rules Suspended: Ayes 66 Nays 0 Abs/Excd 4, read three times - ",2013-01-17 00:00:00,other,67,0,3
+id,2013,lower,H 1,IDV00001605,upper,  Read third time in full - ,2013-01-28 00:00:00,other,35,0,0
+id,2013,lower,H 2,IDV00001602,lower,  Read Third Time in Full - ,2013-01-24 00:00:00,other,65,1,4
+id,2013,lower,H 3,IDV00001603,lower,  Read Third Time in Full - ,2013-01-24 00:00:00,other,66,0,4
+id,2013,lower,H 4,IDV00001604,lower,  Read Third Time in Full - ,2013-01-24 00:00:00,other,65,0,5
+id,2013,lower,H 5,IDV00001606,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,69,0,1
+id,2013,lower,H 12,IDV00001607,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,69,0,1
+id,2013,lower,H 14,IDV00001608,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,69,0,1
+id,2013,lower,H 15,IDV00001609,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,69,0,1
+id,2013,lower,H 16,IDV00001613,lower,  Read Third Time in Full - ,2013-01-30 00:00:00,other,70,0,0
+id,2013,lower,H 19,IDV00001614,lower,  Read Third Time in Full - ,2013-01-31 00:00:00,other,68,0,2
+id,2013,lower,H 20,IDV00001615,lower,  Read Third Time in Full - ,2013-01-31 00:00:00,other,68,0,2
+id,2013,lower,H 21,IDV00001616,lower,  Read Third Time in Full - ,2013-01-31 00:00:00,other,68,0,2
+id,2013,lower,H 22,IDV00001610,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,69,0,1
+id,2013,lower,H 23,IDV00001611,lower,  Read Third Time in Full - ,2013-01-28 00:00:00,other,66,2,2
+id,2013,lower,H 37,IDV00001617,lower,  Read Third Time in Full - ,2013-01-31 00:00:00,other,68,0,2
+id,2013,lower,H 47,IDV00001800,upper,  Read third time in full - ,2013-02-28 00:00:00,other,33,0,2
+id,2013,lower,H 48,IDV00001801,upper,  Read third time in full - ,2013-02-28 00:00:00,other,31,1,3
+id,2013,lower,H 66,IDV00001647,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 73,IDV00001648,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,56,13,1
+id,2013,lower,H 81,IDV00001649,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 82,IDV00001650,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 83,IDV00001651,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 84,IDV00001652,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,68,1,1
+id,2013,lower,H 85,IDV00001653,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 87,IDV00001654,lower,  Read Third Time in Full - ,2013-02-07 00:00:00,other,69,0,1
+id,2013,lower,H 10,IDV00001666,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,56,14,0
+id,2013,lower,H 12,IDV00001699,upper,  Read third time as amended in the Senate - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 15,IDV00001678,upper,  Read third time in full - ,2013-02-13 00:00:00,other,32,0,3
+id,2013,lower,H 17,IDV00001667,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,70,0,0
+id,2013,lower,H 19,IDV00001688,upper,  Read third time in full - ,2013-02-14 00:00:00,other,34,0,1
+id,2013,lower,H 20,IDV00001689,upper,  Read third time in full - ,2013-02-14 00:00:00,other,34,0,1
+id,2013,lower,H 21,IDV00001700,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 22,IDV00001679,upper,  Read third time in full - ,2013-02-13 00:00:00,other,32,0,3
+id,2013,lower,H 29,IDV00001668,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,70,0,0
+id,2013,lower,H 43,IDV00001669,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,70,0,0
+id,2013,lower,H 72,IDV00001670,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,70,0,0
+id,2013,lower,H 76,IDV00001671,lower,  Read Third Time in Full - ,2013-02-11 00:00:00,other,70,0,0
+id,2013,upper,S 1007,IDV00001618,upper,  Read third time in full - ,2013-02-01 00:00:00,other,35,0,0
+id,2013,upper,S 1008,IDV00001619,upper,  Read third time in full - ,2013-02-01 00:00:00,other,33,2,0
+id,2012,upper,S 1214,IDV00000791,lower,  3rd rdg - ,2012-03-13 00:00:00,other,63,0,7
+id,2012,upper,S 1215,IDV00000793,lower,  3rd rdg - ,2012-03-13 00:00:00,other,63,0,7
+id,2012,upper,S 1219,IDV00000795,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,0,3
+id,2012,upper,S 1222,IDV00000797,lower,  3rd rdg - ,2012-02-14 00:00:00,other,68,0,2
+id,2012,upper,S 1223,IDV00000799,lower,  3rd rdg - ,2012-02-07 00:00:00,other,70,0,0
+id,2012,upper,S 1224,IDV00000801,lower,  3rd rdg - ,2012-01-30 00:00:00,other,68,0,2
+id,2012,upper,S 1225,IDV00000803,lower,  3rd rdg - ,2012-03-13 00:00:00,other,57,6,7
+id,2012,upper,S 1226,IDV00000805,lower,  3rd rdg - ,2012-03-13 00:00:00,other,62,1,7
+id,2012,upper,S 1227,IDV00000807,lower,  3rd rdg - ,2012-03-13 00:00:00,other,62,0,8
+id,2012,upper,S 1228,IDV00000809,lower,  3rd rdg - ,2012-03-13 00:00:00,other,63,0,7
+id,2012,upper,S 1231,IDV00001363,lower,  3rd rdg - ,2012-03-21 00:00:00,other,63,0,7
+id,2012,upper,S 1232,IDV00000812,lower,  3rd rdg - ,2012-03-12 00:00:00,other,61,0,9
+id,2012,upper,S 1236,IDV00000815,lower,  3rd rdg - ,2012-03-13 00:00:00,other,55,9,6
+id,2012,upper,S 1237,IDV00000817,lower,  3rd rdg - ,2012-02-09 00:00:00,other,70,0,0
+id,2012,upper,S 1243,IDV00001298,lower,  3rd rdg as amen - ,2012-03-19 00:00:00,other,51,16,3
+id,2012,upper,S 1253,IDV00000820,lower,  3rd rdg - ,2012-03-12 00:00:00,other,63,0,7
+id,2012,upper,S 1255,IDV00001364,lower,  3rd rdg - ,2012-03-21 00:00:00,other,66,2,2
+id,2012,upper,S 1256,IDV00001426,lower,  3rd rdg as amen - ,2012-03-22 00:00:00,other,38,29,3
+id,2012,upper,S 1257,IDV00000824,lower,  3rd rdg - ,2012-02-07 00:00:00,other,64,6,0
+id,2012,upper,S 1258,IDV00000826,lower,  3rd rdg - ,2012-02-07 00:00:00,other,63,7,0
+id,2012,upper,S 1259,IDV00000828,lower,  3rd rdg - ,2012-03-13 00:00:00,other,52,13,5
+id,2012,upper,S 1260,IDV00001299,lower,  3rd rdg - ,2012-03-19 00:00:00,other,64,0,6
+id,2012,upper,S 1261,IDV00001300,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,0,5
+id,2012,upper,S 1262,IDV00001301,lower,  3rd rdg - ,2012-03-19 00:00:00,other,64,0,6
+id,2012,upper,S 1265,IDV00000834,lower,  3rd rdg - ,2012-03-12 00:00:00,other,63,0,7
+id,2012,upper,S 1266,IDV00000836,lower,  3rd rdg - ,2012-03-12 00:00:00,other,61,1,8
+id,2012,upper,S 1267,IDV00000838,lower,  3rd rdg - ,2012-02-07 00:00:00,other,70,0,0
+id,2012,upper,S 1268,IDV00000840,lower,  3rd rdg - ,2012-03-13 00:00:00,other,57,6,7
+id,2012,upper,S 1269,IDV00001302,lower,  3rd rdg as amen - ,2012-03-19 00:00:00,other,59,8,3
+id,2012,upper,S 1270,IDV00001427,lower,  3rd rdg - ,2012-03-22 00:00:00,other,70,0,0
+id,2012,upper,S 1271,IDV00001365,lower,  3rd rdg - ,2012-03-21 00:00:00,other,61,0,9
+id,2012,upper,S 1272,IDV00000845,lower,  3rd rdg - ,2012-03-13 00:00:00,other,63,0,7
+id,2012,upper,S 1273,IDV00001303,lower,  3rd rdg - ,2012-03-19 00:00:00,other,62,0,8
+id,2012,upper,S 1274,IDV00001304,lower,  3rd rdg as amen - ,2012-03-20 00:00:00,other,53,17,0
+id,2012,upper,S 1277,IDV00000850,lower,  3rd rdg - ,2012-03-13 00:00:00,other,65,0,5
+id,2012,upper,S 1278,IDV00000852,lower,  3rd rdg - ,2012-03-13 00:00:00,other,65,0,5
+id,2012,upper,S 1279,IDV00001366,lower,  3rd rdg - ,2012-03-21 00:00:00,other,60,0,10
+id,2012,upper,S 1280,IDV00001428,lower,  3rd rdg - ,2012-03-22 00:00:00,other,69,1,0
+id,2012,upper,S 1286,IDV00001367,lower,  3rd rdg - ,2012-03-21 00:00:00,other,44,24,2
+id,2012,upper,S 1289,IDV00001305,lower,  3rd rdg - ,2012-03-19 00:00:00,other,67,0,3
+id,2012,upper,S 1290,IDV00001306,lower,  3rd rdg - ,2012-03-19 00:00:00,other,67,0,3
+id,2012,upper,S 1291,IDV00001284,lower,  3rd rdg - ,2012-03-19 00:00:00,other,56,12,2
+id,2012,upper,S 1292,IDV00000862,lower,  3rd rdg - ,2012-03-13 00:00:00,other,63,2,5
+id,2012,upper,S 1293,IDV00001368,lower,  3rd rdg - ,2012-03-21 00:00:00,other,64,0,6
+id,2012,upper,S 1294,IDV00001369,lower,  3rd rdg - ,2012-03-21 00:00:00,other,62,0,8
+id,2012,upper,S 1295,IDV00001429,lower,  3rd rdg - ,2012-03-22 00:00:00,other,39,29,2
+id,2012,upper,S 1298,IDV00001307,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,0,5
+id,2012,upper,S 1299,IDV00001308,lower,  3rd rdg - ,2012-03-19 00:00:00,other,66,0,4
+id,2012,upper,S 1301,IDV00000869,lower,  3rd rdg - ,2012-03-13 00:00:00,other,59,7,4
+id,2012,upper,S 1303,IDV00001551,lower,  Rls susp - ,2012-03-28 00:00:00,other,64,2,4
+id,2012,upper,S 1304,IDV00001370,lower,  3rd rdg - ,2012-03-21 00:00:00,other,65,3,2
+id,2012,upper,S 1307,IDV00001309,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,1,4
+id,2012,upper,S 1308,IDV00000875,lower,  3rd rdg - ,2012-03-13 00:00:00,other,65,0,5
+id,2012,upper,S 1309,IDV00001371,lower,  3rd rdg - ,2012-03-21 00:00:00,other,56,7,7
+id,2012,upper,S 1312,IDV00000879,lower,  3rd rdg - ,2012-03-13 00:00:00,other,65,0,5
+id,2012,upper,S 1313,IDV00001372,lower,  3rd rdg - ,2012-03-21 00:00:00,other,64,1,5
+id,2012,upper,S 1314,IDV00001285,lower,  3rd rdg - ,2012-03-19 00:00:00,other,66,1,3
+id,2012,upper,S 1319,IDV00001310,lower,  3rd rdg - ,2012-03-19 00:00:00,other,64,1,5
+id,2012,upper,S 1321,IDV00001373,lower,  3rd rdg - ,2012-03-21 00:00:00,other,40,30,0
+id,2012,upper,S 1323,IDV00001311,lower,  3rd rdg - ,2012-03-19 00:00:00,other,63,1,6
+id,2012,upper,S 1324,IDV00000888,lower,  3rd rdg - ,2012-03-13 00:00:00,other,65,0,5
+id,2012,upper,S 1326,IDV00001374,lower,  3rd rdg - ,2012-03-21 00:00:00,other,53,12,5
+id,2012,upper,S 1327,IDV00001375,lower,  3rd rdg - ,2012-03-21 00:00:00,other,53,15,2
+id,2012,upper,S 1328,IDV00001376,lower,  3rd rdg - ,2012-03-21 00:00:00,other,62,6,2
+id,2012,upper,S 1329,IDV00001377,lower,  3rd rdg - ,2012-03-21 00:00:00,other,65,3,2
+id,2012,upper,S 1330,IDV00001430,lower,  3rd rdg - ,2012-03-22 00:00:00,other,69,0,1
+id,2012,upper,S 1332,IDV00001312,lower,  3rd rdg - ,2012-03-19 00:00:00,other,66,0,4
+id,2012,upper,S 1333,IDV00000897,lower,  3rd rdg - ,2012-03-07 00:00:00,other,59,9,2
+id,2012,upper,S 1335,IDV00001313,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,0,5
+id,2012,upper,S 1337,IDV00001378,lower,  3rd rdg - ,2012-03-21 00:00:00,other,69,0,1
+id,2012,upper,S 1338,IDV00001379,lower,  3rd rdg - ,2012-03-21 00:00:00,other,63,2,5
+id,2012,upper,S 1340,IDV00001314,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,1,4
+id,2012,upper,S 1341,IDV00001380,lower,  3rd rdg - ,2012-03-21 00:00:00,other,64,1,5
+id,2012,upper,S 1343,IDV00001491,lower,  3rd rdg - ,2012-03-26 00:00:00,other,65,0,5
+id,2012,upper,S 1344,IDV00001381,lower,  3rd rdg - ,2012-03-21 00:00:00,other,58,5,7
+id,2012,upper,S 1346,IDV00001286,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,0,5
+id,2012,upper,S 1348,IDV00001584,lower,  3rd rdg - ,2012-03-28 00:00:00,other,58,11,1
+id,2012,upper,S 1350,IDV00000908,lower,  3rd rdg - ,2012-03-16 00:00:00,other,46,19,5
+id,2012,upper,S 1351,IDV00000910,lower,  3rd rdg - ,2012-03-16 00:00:00,other,64,0,6
+id,2012,upper,S 1352,IDV00000912,lower,  3rd rdg - ,2012-03-16 00:00:00,other,66,0,4
+id,2012,upper,S 1353,IDV00000914,lower,  3rd rdg - ,2012-03-16 00:00:00,other,66,0,4
+id,2012,upper,S 1354,IDV00000916,lower,  3rd rdg - ,2012-03-16 00:00:00,other,53,12,5
+id,2012,upper,S 1356,IDV00001382,lower,  3rd rdg - ,2012-03-21 00:00:00,other,66,1,3
+id,2012,upper,S 1357,IDV00001553,lower,  3rd rdg - ,2012-03-28 00:00:00,other,67,0,3
+id,2012,upper,S 1359,IDV00000921,lower,  3rd rdg - ,2012-03-16 00:00:00,other,42,23,5
+id,2012,upper,S 1360,IDV00001316,lower,  3rd rdg - ,2012-03-20 00:00:00,other,65,3,2
+id,2012,upper,S 1361,IDV00000924,lower,  3rd rdg - ,2012-03-16 00:00:00,other,54,10,6
+id,2012,upper,S 1363,IDV00001492,lower,  3rd rdg - ,2012-03-26 00:00:00,other,67,0,3
+id,2012,upper,S 1365,IDV00001493,lower,  3rd rdg - ,2012-03-26 00:00:00,other,67,0,3
+id,2012,upper,S 1366,IDV00001494,lower,  3rd rdg - ,2012-03-26 00:00:00,other,67,0,3
+id,2012,upper,S 1367,IDV00000930,lower,  3rd rdg - ,2012-03-16 00:00:00,other,61,3,6
+id,2012,upper,S 1368,IDV00001287,lower,  3rd rdg - ,2012-03-19 00:00:00,other,63,0,7
+id,2012,upper,S 1369,IDV00001431,lower,  3rd rdg - ,2012-03-22 00:00:00,other,36,34,0
+id,2012,upper,S 1370,IDV00001383,lower,  3rd rdg - ,2012-03-21 00:00:00,other,60,0,10
+id,2012,upper,S 1371,IDV00000935,lower,  Rls susp - ,2012-03-09 00:00:00,other,66,0,4
+id,2012,upper,S 1373,IDV00001495,lower,  3rd rdg - ,2012-03-26 00:00:00,other,53,14,3
+id,2012,upper,S 1375,IDV00001288,lower,  3rd rdg - ,2012-03-19 00:00:00,other,60,3,7
+id,2012,upper,S 1376,IDV00001289,lower,  3rd rdg - ,2012-03-19 00:00:00,other,60,5,5
+id,2012,upper,S 1377,IDV00001290,lower,  3rd rdg - ,2012-03-19 00:00:00,other,65,1,4
+id,2012,upper,S 1381,IDV00001291,lower,  3rd rdg - ,2012-03-19 00:00:00,other,56,9,5
+id,2012,upper,S 1382,IDV00001292,lower,  3rd rdg - ,2012-03-19 00:00:00,other,59,6,5
+id,2012,upper,S 1383,IDV00001496,lower,  Rls susp - ,2012-03-26 00:00:00,other,63,6,1
+id,2012,upper,S 1384,IDV00001293,lower,  3rd rdg - ,2012-03-19 00:00:00,other,61,4,5
+id,2012,upper,S 1386,IDV00001554,lower,  Rls susp - ,2012-03-28 00:00:00,other,63,2,5
+id,2012,upper,S 1388,IDV00001385,lower,  3rd rdg - ,2012-03-21 00:00:00,other,64,0,6
+id,2012,upper,S 1389,IDV00001386,lower,  3rd rdg - ,2012-03-21 00:00:00,other,60,4,6
+id,2012,upper,S 1390,IDV00001529,lower,  Rls susp - ,2012-03-27 00:00:00,other,69,0,1
+id,2012,upper,S 1391,IDV00001388,lower,  3rd rdg - ,2012-03-21 00:00:00,other,53,9,8
+id,2012,upper,S 1392,IDV00001389,lower,  3rd rdg - ,2012-03-21 00:00:00,other,60,4,6
+id,2012,upper,S 1393,IDV00001469,lower,  Rls susp - ,2012-03-23 00:00:00,other,64,0,6
+id,2012,upper,S 1394,IDV00001470,lower,  Rls susp - ,2012-03-23 00:00:00,other,65,0,5
+id,2012,upper,S 1395,IDV00001530,lower,  Rls susp - ,2012-03-27 00:00:00,other,69,0,1
+id,2012,upper,S 1396,IDV00001471,lower,  Rls susp - ,2012-03-23 00:00:00,other,66,0,4
+id,2012,upper,S 1397,IDV00001472,lower,  Rls susp - ,2012-03-23 00:00:00,other,63,0,7
+id,2012,upper,S 1398,IDV00001473,lower,  Rls susp - ,2012-03-23 00:00:00,other,61,0,9
+id,2012,upper,S 1399,IDV00001474,lower,  Rls susp - ,2012-03-23 00:00:00,other,48,18,4
+id,2012,upper,S 1400,IDV00001475,lower,  Rls susp - ,2012-03-23 00:00:00,other,64,0,6
+id,2012,upper,S 1401,IDV00001498,lower,  Rls susp - ,2012-03-26 00:00:00,other,64,5,1
+id,2012,upper,S 1402,IDV00001499,lower,  Rls susp - ,2012-03-26 00:00:00,other,60,8,2
+id,2012,upper,S 1403,IDV00001500,lower,  Rls susp - ,2012-03-26 00:00:00,other,62,3,5
+id,2012,upper,S 1404,IDV00001501,lower,  Rls susp - ,2012-03-26 00:00:00,other,53,16,1
+id,2012,upper,S 1405,IDV00001502,lower,  Rls susp - ,2012-03-26 00:00:00,other,63,6,1
+id,2012,upper,S 1406,IDV00001531,lower,  Rls susp - ,2012-03-27 00:00:00,other,63,6,1
+id,2012,upper,S 1407,IDV00001532,lower,  Rls susp - ,2012-03-27 00:00:00,other,67,0,3
+id,2012,upper,S 1408,IDV00001533,lower,  Rls susp - ,2012-03-27 00:00:00,other,66,0,4
+id,2012,upper,S 1409,IDV00001534,lower,  Rls susp - ,2012-03-27 00:00:00,other,59,10,1
+id,2012,upper,S 1410,IDV00001535,lower,  Rls susp - ,2012-03-27 00:00:00,other,54,15,1
+id,2012,upper,S 1412,IDV00001556,lower,  Rls susp - ,2012-03-28 00:00:00,other,59,5,6
+id,2012,upper,S 1413,IDV00001558,lower,  Rls susp - ,2012-03-28 00:00:00,other,61,6,3
+id,2012,upper,S 1414,IDV00001560,lower,  Rls susp - ,2012-03-28 00:00:00,other,62,5,3
+id,2012,upper,S 1415,IDV00001577,lower,  Rls susp - ,2012-03-29 00:00:00,other,61,4,5
+id,2012,upper,S 1416,IDV00001578,lower,  Rls susp - ,2012-03-29 00:00:00,other,62,0,8
+id,2012,upper,SCR 112,IDV00001398,lower,  3rd rdg - ,2012-03-21 00:00:00,other,61,0,9
+id,2012,upper,SCR 114,IDV00001399,lower,  3rd rdg - ,2012-03-21 00:00:00,other,59,0,11
+id,2012,upper,SCR 115,IDV00001400,lower,  3rd rdg - ,2012-03-21 00:00:00,other,55,4,11
+id,2012,upper,SCR 117,IDV00001401,lower,  3rd rdg - ,2012-03-21 00:00:00,other,51,6,13
+id,2012,upper,SCR 118,IDV00001402,lower,  3rd rdg - ,2012-03-21 00:00:00,other,61,1,8
+id,2012,upper,SCR 119,IDV00001403,lower,  3rd rdg - ,2012-03-21 00:00:00,other,61,0,9
+id,2012,upper,SCR 120,IDV00001404,lower,  3rd rdg - ,2012-03-21 00:00:00,other,62,0,8
+id,2012,upper,SCR 121,IDV00001405,lower,  3rd rdg - ,2012-03-21 00:00:00,other,61,0,9
+id,2012,upper,SCR 122,IDV00001406,lower,  3rd rdg - ,2012-03-21 00:00:00,other,59,0,11
+id,2012,upper,SCR 123,IDV00001438,lower,  3rd rdg - ,2012-03-22 00:00:00,other,66,4,0
+id,2012,upper,SCR 128,IDV00001407,lower,  3rd rdg - ,2012-03-21 00:00:00,other,60,0,10
+id,2012,upper,SCR 129,IDV00001408,lower,  3rd rdg - ,2012-03-21 00:00:00,other,59,0,11
+id,2012,upper,SCR 131,IDV00001477,lower,  3rd rdg - ,2012-03-23 00:00:00,other,67,0,3
+id,2012,upper,SJM 104,IDV00001478,lower,  3rd rdg - ,2012-03-23 00:00:00,other,51,16,3
+id,2012,upper,SJM 105,IDV00001479,lower,  3rd rdg - ,2012-03-23 00:00:00,other,57,10,3
+id,2012,upper,SJR 102,IDV00000952,lower,  3rd rdg - ,2012-02-01 00:00:00,other,65,3,2
+id,2012,lower,H 355,IDV00000955,lower,  3rd rdg - ,2012-01-17 00:00:00,other,69,0,1
+id,2012,lower,H 356,IDV00000957,lower,  3rd rdg - ,2012-01-23 00:00:00,other,68,0,2
+id,2012,lower,H 357,IDV00000959,lower,  3rd rdg - ,2012-01-23 00:00:00,other,68,0,2
+id,2012,lower,H 358,IDV00000961,lower,  3rd rdg - ,2012-01-23 00:00:00,other,68,0,2
+id,2012,lower,H 358,IDV00000963,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 360,IDV00000964,lower,  3rd rdg - ,2012-01-23 00:00:00,other,68,0,2
+id,2012,lower,H 361,IDV00000966,lower,  3rd rdg - ,2012-01-24 00:00:00,other,69,0,1
+id,2012,lower,H 362,IDV00000968,lower,  3rd rdg - ,2012-01-23 00:00:00,other,60,8,2
+id,2012,lower,H 363,IDV00000970,lower,  3rd rdg - ,2012-01-25 00:00:00,other,68,0,2
+id,2012,lower,H 364,IDV00000972,lower,  3rd rdg - ,2012-01-25 00:00:00,other,68,0,2
+id,2012,lower,H 365,IDV00000974,lower,  3rd rdg - ,2012-01-25 00:00:00,other,68,0,2
+id,2012,lower,H 367,IDV00000976,lower,  3rd rdg - ,2012-02-02 00:00:00,other,67,1,2
+id,2012,lower,H 368,IDV00000978,lower,  3rd rdg as amen - ,2012-02-14 00:00:00,other,68,0,2
+id,2012,lower,H 369,IDV00000979,lower,  3rd rdg - ,2012-02-02 00:00:00,other,68,0,2
+id,2012,lower,H 371,IDV00000981,lower,  3rd rdg - ,2012-02-06 00:00:00,other,49,21,0
+id,2012,lower,H 372,IDV00000982,lower,  3rd rdg - ,2012-02-15 00:00:00,other,64,1,5
+id,2012,lower,H 374,IDV00000983,lower,  3rd rdg - ,2012-02-06 00:00:00,other,65,4,1
+id,2012,lower,H 375,IDV00000985,lower,  3rd rdg - ,2012-02-06 00:00:00,other,69,0,1
+id,2012,lower,H 376,IDV00000987,lower,  3rd rdg - ,2012-02-22 00:00:00,other,47,22,1
+id,2012,lower,H 379,IDV00000988,lower,  3rd rdg - ,2012-02-14 00:00:00,other,65,2,3
+id,2012,lower,H 382,IDV00000990,lower,  3rd rdg - ,2012-02-02 00:00:00,other,68,0,2
+id,2012,lower,H 383,IDV00000992,lower,  3rd rdg - ,2012-02-06 00:00:00,other,65,5,0
+id,2012,lower,H 384,IDV00000994,lower,  3rd rdg - ,2012-02-02 00:00:00,other,68,0,2
+id,2012,lower,H 385,IDV00000996,lower,  3rd rdg - ,2012-02-06 00:00:00,other,69,0,1
+id,2012,lower,H 386,IDV00000998,lower,  3rd rdg - ,2012-02-06 00:00:00,other,61,8,1
+id,2012,lower,H 386,IDV00000999,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,64,0,6
+id,2012,lower,H 387,IDV00001000,lower,  3rd rdg as amen - ,2012-02-14 00:00:00,other,67,0,3
+id,2012,lower,H 388,IDV00001001,lower,  3rd rdg as amen - ,2012-02-14 00:00:00,other,31,37,2
+id,2012,lower,H 389,IDV00001002,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,1,2
+id,2012,lower,H 391,IDV00001004,lower,  3rd rdg - ,2012-02-08 00:00:00,other,56,12,2
+id,2012,lower,H 393,IDV00001006,lower,  3rd rdg as amen - ,2012-02-14 00:00:00,other,66,2,2
+id,2012,lower,H 394,IDV00001008,lower,  3rd rdg - ,2012-02-07 00:00:00,other,68,0,2
+id,2012,lower,H 395,IDV00001010,lower,  3rd rdg - ,2012-01-25 00:00:00,other,68,0,2
+id,2012,lower,H 396,IDV00001012,lower,  3rd rdg - ,2012-02-23 00:00:00,other,61,7,2
+id,2012,lower,H 397,IDV00001014,lower,  3rd rdg - ,2012-02-22 00:00:00,other,67,0,3
+id,2012,lower,H 398,IDV00001016,lower,  3rd rdg - ,2012-02-22 00:00:00,other,57,11,2
+id,2012,lower,H 399,IDV00001017,lower,  3rd rdg - ,2012-02-22 00:00:00,other,66,0,4
+id,2012,lower,H 400,IDV00001019,lower,  3rd rdg - ,2012-02-22 00:00:00,other,67,0,3
+id,2012,lower,H 401,IDV00001021,lower,  3rd rdg - ,2012-02-22 00:00:00,other,67,0,3
+id,2012,lower,H 402,IDV00001023,lower,  3rd rdg - ,2012-02-01 00:00:00,other,68,0,2
+id,2012,lower,H 403,IDV00001025,lower,  3rd rdg - ,2012-02-28 00:00:00,other,40,27,3
+id,2012,lower,H 404,IDV00001027,lower,  3rd rdg - ,2012-01-26 00:00:00,other,54,16,0
+id,2012,lower,H 404,IDV00001029,lower,  Rls susp - ,2012-02-17 00:00:00,other,51,14,5
+id,2012,lower,H 405,IDV00001030,lower,  3rd rdg - ,2012-02-02 00:00:00,other,68,0,2
+id,2012,lower,H 407,IDV00001032,lower,  3rd rdg - ,2012-02-14 00:00:00,other,66,0,4
+id,2012,lower,H 408,IDV00001034,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,0,3
+id,2012,lower,H 409,IDV00001036,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,1,2
+id,2012,lower,H 412,IDV00001038,lower,  3rd rdg - ,2012-02-01 00:00:00,other,68,0,2
+id,2012,lower,H 414,IDV00001295,lower,  3rd rdg - ,2012-03-19 00:00:00,other,56,10,4
+id,2012,lower,H 417,IDV00001040,lower,  3rd rdg - ,2012-02-01 00:00:00,other,69,0,1
+id,2012,lower,H 418,IDV00001042,lower,  3rd rdg - ,2012-02-06 00:00:00,other,70,0,0
+id,2012,lower,H 419,IDV00001044,lower,  3rd rdg - ,2012-02-22 00:00:00,other,61,0,9
+id,2012,lower,H 420,IDV00001046,lower,  3rd rdg - ,2012-03-01 00:00:00,other,67,0,3
+id,2012,lower,H 421,IDV00001048,lower,  3rd rdg - ,2012-03-01 00:00:00,other,67,0,3
+id,2012,lower,H 422,IDV00001049,lower,  3rd rdg - ,2012-03-01 00:00:00,other,64,0,6
+id,2012,lower,H 426,IDV00001050,lower,  3rd rdg - ,2012-02-09 00:00:00,other,58,12,0
+id,2012,lower,H 426,IDV00001480,lower,  Rls susp - ,2012-03-23 00:00:00,other,59,6,5
+id,2012,lower,H 437,IDV00001051,lower,  3rd rdg - ,2012-02-06 00:00:00,other,66,3,1
+id,2012,lower,H 438,IDV00001052,lower,  3rd rdg - ,2012-02-06 00:00:00,other,69,0,1
+id,2012,lower,H 439,IDV00001054,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,64,0,6
+id,2012,lower,H 439,IDV00001508,lower,  Rls susp - ,2012-03-26 00:00:00,other,66,1,3
+id,2012,lower,H 440,IDV00001055,lower,  3rd rdg - ,2012-03-07 00:00:00,other,64,0,6
+id,2012,lower,H 441,IDV00001056,lower,  3rd rdg - ,2012-02-21 00:00:00,other,64,0,6
+id,2012,lower,H 442,IDV00001058,lower,  3rd rdg - ,2012-02-21 00:00:00,other,64,0,6
+id,2012,lower,H 443,IDV00001060,lower,  3rd rdg - ,2012-02-13 00:00:00,other,64,0,6
+id,2012,lower,H 446,IDV00001061,lower,  3rd rdg - ,2012-02-13 00:00:00,other,67,0,3
+id,2012,lower,H 447,IDV00001063,lower,  3rd rdg - ,2012-02-28 00:00:00,other,24,42,4
+id,2012,lower,H 448,IDV00001064,lower,  3rd rdg - ,2012-02-21 00:00:00,other,40,27,3
+id,2012,lower,H 449,IDV00001065,lower,  3rd rdg - ,2012-02-13 00:00:00,other,42,24,4
+id,2012,lower,H 450,IDV00001066,lower,  3rd rdg - ,2012-02-20 00:00:00,other,57,11,2
+id,2012,lower,H 450,IDV00001410,lower,  3rd rdg as amen - ,2012-03-20 00:00:00,other,44,21,5
+id,2012,lower,H 452,IDV00001068,lower,  3rd rdg - ,2012-02-23 00:00:00,other,68,0,2
+id,2012,lower,H 455,IDV00001069,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,0,3
+id,2012,lower,H 457,IDV00001071,lower,  3rd rdg - ,2012-02-24 00:00:00,other,62,0,8
+id,2012,lower,H 457,IDV00001326,lower,  Rls susp - ,2012-03-20 00:00:00,other,65,1,4
+id,2012,lower,H 458,IDV00001073,lower,  3rd rdg - ,2012-03-16 00:00:00,other,66,0,4
+id,2012,lower,H 459,IDV00001074,lower,  3rd rdg - ,2012-02-24 00:00:00,other,62,0,8
+id,2012,lower,H 460,IDV00001076,lower,  3rd rdg - ,2012-02-15 00:00:00,other,64,3,3
+id,2012,lower,H 461,IDV00001078,lower,  3rd rdg - ,2012-02-24 00:00:00,other,62,0,8
+id,2012,lower,H 462,IDV00001080,lower,  3rd rdg - ,2012-02-15 00:00:00,other,67,0,3
+id,2012,lower,H 463,IDV00001082,lower,  3rd rdg - ,2012-02-15 00:00:00,other,64,3,3
+id,2012,lower,H 464,IDV00001084,lower,  3rd rdg - ,2012-02-17 00:00:00,other,54,13,3
+id,2012,lower,H 465,IDV00001086,lower,  3rd rdg - ,2012-02-28 00:00:00,other,66,0,4
+id,2012,lower,H 466,IDV00001088,lower,  3rd rdg - ,2012-02-22 00:00:00,other,61,0,9
+id,2012,lower,H 467,IDV00001090,lower,  3rd rdg - ,2012-02-22 00:00:00,other,62,0,8
+id,2012,lower,H 468,IDV00001092,lower,  3rd rdg - ,2012-02-22 00:00:00,other,64,1,5
+id,2012,lower,H 469,IDV00001094,lower,  3rd rdg - ,2012-02-14 00:00:00,other,59,9,2
+id,2012,lower,H 472,IDV00001096,lower,  3rd rdg - ,2012-02-27 00:00:00,other,53,5,12
+id,2012,lower,H 473,IDV00001098,lower,  3rd rdg - ,2012-02-14 00:00:00,other,67,0,3
+id,2012,lower,H 475,IDV00001100,lower,  3rd rdg - ,2012-02-14 00:00:00,other,68,0,2
+id,2012,lower,H 477,IDV00001579,lower,  Rls susp - ,2012-03-29 00:00:00,other,36,29,5
+id,2012,lower,H 478,IDV00001102,lower,  3rd rdg - ,2012-03-05 00:00:00,other,26,43,1
+id,2012,lower,H 479,IDV00001103,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 480,IDV00001104,lower,  3rd rdg - ,2012-02-23 00:00:00,other,41,27,2
+id,2012,lower,H 481,IDV00001105,lower,  3rd rdg - ,2012-02-27 00:00:00,other,49,19,2
+id,2012,lower,H 482,IDV00001107,lower,  3rd rdg - ,2012-02-23 00:00:00,other,68,0,2
+id,2012,lower,H 484,IDV00001109,lower,  3rd rdg - ,2012-02-23 00:00:00,other,69,0,1
+id,2012,lower,H 485,IDV00001111,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 486,IDV00001411,lower,  Rls susp - ,2012-03-20 00:00:00,other,39,30,1
+id,2012,lower,H 487,IDV00001112,lower,  3rd rdg - ,2012-03-09 00:00:00,other,66,0,4
+id,2012,lower,H 488,IDV00001113,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 489,IDV00001114,lower,  3rd rdg - ,2012-02-24 00:00:00,other,64,0,6
+id,2012,lower,H 490,IDV00001116,lower,  3rd rdg - ,2012-02-21 00:00:00,other,62,1,7
+id,2012,lower,H 491,IDV00001117,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 492,IDV00001118,lower,  3rd rdg - ,2012-02-28 00:00:00,other,67,0,3
+id,2012,lower,H 494,IDV00001120,lower,  3rd rdg - ,2012-02-28 00:00:00,other,64,1,5
+id,2012,lower,H 495,IDV00001121,lower,  3rd rdg - ,2012-03-05 00:00:00,other,66,3,1
+id,2012,lower,H 496,IDV00001122,lower,  3rd rdg - ,2012-03-06 00:00:00,other,49,21,0
+id,2012,lower,H 497,IDV00001123,lower,  3rd rdg - ,2012-02-21 00:00:00,other,63,0,7
+id,2012,lower,H 497,IDV00001413,lower,  3rd rdg as amen - ,2012-03-21 00:00:00,other,67,0,3
+id,2012,lower,H 498,IDV00001125,lower,  3rd rdg - ,2012-02-22 00:00:00,other,68,0,2
+id,2012,lower,H 499,IDV00001127,lower,  3rd rdg - ,2012-02-23 00:00:00,other,68,0,2
+id,2012,lower,H 500,IDV00001129,lower,  3rd rdg - ,2012-02-23 00:00:00,other,69,0,1
+id,2012,lower,H 501,IDV00001131,lower,  3rd rdg - ,2012-02-23 00:00:00,other,67,0,3
+id,2012,lower,H 502,IDV00001133,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 503,IDV00001134,lower,  3rd rdg - ,2012-02-27 00:00:00,other,64,0,6
+id,2012,lower,H 506,IDV00001135,lower,  3rd rdg - ,2012-02-21 00:00:00,other,47,18,5
+id,2012,lower,H 507,IDV00001136,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,43,22,5
+id,2012,lower,H 511,IDV00001137,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,61,3,6
+id,2012,lower,H 511,IDV00001331,lower,  Rls susp - ,2012-03-20 00:00:00,other,65,1,4
+id,2012,lower,H 512,IDV00001139,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,57,8,5
+id,2012,lower,H 513,IDV00001141,lower,  3rd rdg - ,2012-02-27 00:00:00,other,54,11,5
+id,2012,lower,H 514,IDV00001143,lower,  3rd rdg - ,2012-02-28 00:00:00,other,67,0,3
+id,2012,lower,H 515,IDV00001144,lower,  Rls susp - ,2012-03-14 00:00:00,other,67,0,3
+id,2012,lower,H 516,IDV00001145,lower,  3rd rdg - ,2012-02-14 00:00:00,other,66,0,4
+id,2012,lower,H 517,IDV00001147,lower,  3rd rdg - ,2012-02-22 00:00:00,other,66,0,4
+id,2012,lower,H 518,IDV00001149,lower,  3rd rdg - ,2012-03-06 00:00:00,other,68,1,1
+id,2012,lower,H 519,IDV00001150,lower,  3rd rdg - ,2012-02-23 00:00:00,other,57,12,1
+id,2012,lower,H 520,IDV00001151,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,63,0,7
+id,2012,lower,H 521,IDV00001152,lower,  3rd rdg - ,2012-02-23 00:00:00,other,68,0,2
+id,2012,lower,H 522,IDV00001154,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,64,0,6
+id,2012,lower,H 523,IDV00001155,lower,  3rd rdg as amen - ,2012-03-05 00:00:00,other,68,0,2
+id,2012,lower,H 525,IDV00001156,lower,  3rd rdg - ,2012-02-24 00:00:00,other,63,0,7
+id,2012,lower,H 526,IDV00001158,lower,  3rd rdg - ,2012-02-15 00:00:00,other,58,9,3
+id,2012,lower,H 532,IDV00001160,lower,  3rd rdg - ,2012-02-22 00:00:00,other,67,0,3
+id,2012,lower,H 534,IDV00001161,lower,  3rd rdg - ,2012-02-23 00:00:00,other,68,0,2
+id,2012,lower,H 536,IDV00001163,lower,  3rd rdg - ,2012-02-27 00:00:00,other,64,3,3
+id,2012,lower,H 539,IDV00001164,lower,  3rd rdg - ,2012-02-28 00:00:00,other,67,0,3
+id,2012,lower,H 540,IDV00001165,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 541,IDV00001167,lower,  3rd rdg - ,2012-02-29 00:00:00,other,65,0,5
+id,2012,lower,H 542,IDV00001169,lower,  3rd rdg as amen - ,2012-03-15 00:00:00,other,48,21,1
+id,2012,lower,H 543,IDV00001170,lower,  3rd rdg - ,2012-02-24 00:00:00,other,62,1,7
+id,2012,lower,H 546,IDV00001172,lower,  3rd rdg - ,2012-02-27 00:00:00,other,63,2,5
+id,2012,lower,H 549,IDV00001174,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 550,IDV00001175,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 551,IDV00001176,lower,  3rd rdg - ,2012-03-15 00:00:00,other,66,2,2
+id,2012,lower,H 553,IDV00001177,lower,  3rd rdg - ,2012-03-05 00:00:00,other,67,1,2
+id,2012,lower,H 555,IDV00001178,lower,  3rd rdg - ,2012-02-27 00:00:00,other,55,12,3
+id,2012,lower,H 556,IDV00001179,lower,  3rd rdg - ,2012-02-28 00:00:00,other,64,0,6
+id,2012,lower,H 558,IDV00001181,lower,  3rd rdg - ,2012-03-02 00:00:00,other,66,0,4
+id,2012,lower,H 559,IDV00001296,lower,  3rd rdg - ,2012-03-19 00:00:00,other,48,21,1
+id,2012,lower,H 562,IDV00001182,lower,  3rd rdg as amen - ,2012-03-07 00:00:00,other,48,22,0
+id,2012,lower,H 563,IDV00001183,lower,  3rd rdg - ,2012-03-01 00:00:00,other,49,20,1
+id,2012,lower,H 564,IDV00001184,lower,  3rd rdg as amen - ,2012-02-29 00:00:00,other,47,16,7
+id,2012,lower,H 564,IDV00001537,lower,  Rls susp - ,2012-03-27 00:00:00,other,59,9,2
+id,2012,lower,H 566,IDV00001185,lower,  3rd rdg as amen - ,2012-03-09 00:00:00,other,66,1,3
+id,2012,lower,H 569,IDV00001186,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 570,IDV00001187,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 572,IDV00001188,lower,  3rd rdg - ,2012-03-06 00:00:00,other,70,0,0
+id,2012,lower,H 573,IDV00001189,lower,  3rd rdg as amen - ,2012-03-09 00:00:00,other,54,13,3
+id,2012,lower,H 574,IDV00001190,lower,  3rd rdg - ,2012-02-24 00:00:00,other,64,0,6
+id,2012,lower,H 575,IDV00001192,lower,  3rd rdg - ,2012-03-05 00:00:00,other,67,0,3
+id,2012,lower,H 576,IDV00001193,lower,  3rd rdg - ,2012-03-07 00:00:00,other,66,0,4
+id,2012,lower,H 577,IDV00001194,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 578,IDV00001415,lower,  Rls susp - ,2012-03-20 00:00:00,other,35,35,0
+id,2012,lower,H 579,IDV00001195,lower,  3rd rdg - ,2012-03-01 00:00:00,other,67,0,3
+id,2012,lower,H 582,IDV00001197,lower,  3rd rdg - ,2012-03-06 00:00:00,other,69,1,0
+id,2012,lower,H 583,IDV00001198,lower,  Rls susp - ,2012-03-08 00:00:00,other,63,2,5
+id,2012,lower,H 584,IDV00001199,lower,  Rls susp - ,2012-03-14 00:00:00,other,64,3,3
+id,2012,lower,H 585,IDV00001200,lower,  3rd rdg as amen - ,2012-03-15 00:00:00,other,32,36,2
+id,2012,lower,H 587,IDV00001201,lower,  Rls susp - ,2012-03-08 00:00:00,other,59,6,5
+id,2012,lower,H 588,IDV00001202,lower,  3rd rdg - ,2012-03-05 00:00:00,other,56,13,1
+id,2012,lower,H 590,IDV00001203,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 591,IDV00001204,lower,  3rd rdg - ,2012-03-06 00:00:00,other,69,0,1
+id,2012,lower,H 593,IDV00001205,lower,  3rd rdg - ,2012-03-06 00:00:00,other,68,0,2
+id,2012,lower,H 594,IDV00001206,lower,  3rd rdg as amen - ,2012-03-16 00:00:00,other,40,27,3
+id,2012,lower,H 595,IDV00001207,lower,  3rd rdg - ,2012-03-05 00:00:00,other,55,13,2
+id,2012,lower,H 598,IDV00001209,lower,  3rd rdg - ,2012-03-01 00:00:00,other,66,0,4
+id,2012,lower,H 599,IDV00001211,lower,  3rd rdg - ,2012-03-07 00:00:00,other,65,0,5
+id,2012,lower,H 600,IDV00001212,lower,  3rd rdg - ,2012-03-02 00:00:00,other,61,5,4
+id,2012,lower,H 601,IDV00001214,lower,  3rd rdg - ,2012-03-02 00:00:00,other,60,5,5
+id,2012,lower,H 602,IDV00001216,lower,  3rd rdg - ,2012-03-02 00:00:00,other,65,0,5
+id,2012,lower,H 603,IDV00001218,lower,  Rls susp - ,2012-03-12 00:00:00,other,62,1,7
+id,2012,lower,H 604,IDV00001219,lower,  3rd rdg - ,2012-03-06 00:00:00,other,65,0,5
+id,2012,lower,H 606,IDV00001344,lower,  Rls susp - ,2012-03-20 00:00:00,other,62,6,2
+id,2012,lower,H 607,IDV00001220,lower,  Rls susp - ,2012-03-09 00:00:00,other,65,0,5
+id,2012,lower,H 608,IDV00001221,lower,  3rd rdg - ,2012-03-08 00:00:00,other,62,0,8
+id,2012,lower,H 609,IDV00001222,lower,  Rls susp - ,2012-03-08 00:00:00,other,65,0,5
+id,2012,lower,H 611,IDV00001223,lower,  3rd rdg - ,2012-03-13 00:00:00,other,62,0,8
+id,2012,lower,H 613,IDV00001224,lower,  Rls susp - ,2012-03-14 00:00:00,other,68,0,2
+id,2012,lower,H 615,IDV00001225,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 616,IDV00001227,lower,  3rd rdg - ,2012-03-05 00:00:00,other,50,18,2
+id,2012,lower,H 617,IDV00001229,lower,  3rd rdg - ,2012-03-05 00:00:00,other,69,0,1
+id,2012,lower,H 618,IDV00001231,lower,  3rd rdg - ,2012-03-05 00:00:00,other,65,0,5
+id,2012,lower,H 619,IDV00001233,lower,  3rd rdg as amen - ,2012-03-15 00:00:00,other,56,10,4
+id,2012,lower,H 621,IDV00001234,lower,  3rd rdg - ,2012-03-06 00:00:00,other,67,0,3
+id,2012,lower,H 622,IDV00001236,lower,  3rd rdg - ,2012-03-06 00:00:00,other,59,9,2
+id,2012,lower,H 624,IDV00001238,lower,  3rd rdg - ,2012-03-16 00:00:00,other,40,27,3
+id,2012,lower,H 626,IDV00001239,lower,  Rls susp - ,2012-03-12 00:00:00,other,63,0,7
+id,2012,lower,H 628,IDV00001420,lower,  Rls susp - ,2012-03-20 00:00:00,other,53,14,3
+id,2012,lower,H 631,IDV00001240,lower,  3rd rdg as amen - ,2012-03-15 00:00:00,other,66,0,4
+id,2012,lower,H 632,IDV00001241,lower,  3rd rdg - ,2012-03-12 00:00:00,other,59,7,4
+id,2012,lower,H 633,IDV00001242,lower,  Rls susp - ,2012-03-12 00:00:00,other,62,0,8
+id,2012,lower,H 634,IDV00001243,lower,  Rls susp - ,2012-03-13 00:00:00,other,61,0,9
+id,2012,lower,H 635,IDV00001244,lower,  Rls susp - ,2012-03-08 00:00:00,other,54,10,6
+id,2012,lower,H 636,IDV00001245,lower,  Rls susp - ,2012-03-08 00:00:00,other,63,0,7
+id,2012,lower,H 637,IDV00001246,lower,  3rd rdg - ,2012-03-09 00:00:00,other,49,18,3
+id,2012,lower,H 638,IDV00001247,lower,  Rls susp - ,2012-03-08 00:00:00,other,62,0,8
+id,2012,lower,H 639,IDV00001423,lower,  Rls susp - ,2012-03-20 00:00:00,other,68,0,2
+id,2012,lower,H 641,IDV00001248,lower,  Rls susp - ,2012-03-09 00:00:00,other,50,18,2
+id,2012,lower,H 642,IDV00001249,lower,  Rls susp - ,2012-03-09 00:00:00,other,65,1,4
+id,2012,lower,H 643,IDV00001250,lower,  Rls susp - ,2012-03-09 00:00:00,other,68,0,2
+id,2012,lower,H 644,IDV00001251,lower,  Rls susp - ,2012-03-09 00:00:00,other,67,0,3
+id,2012,lower,H 645,IDV00001252,lower,  Rls susp - ,2012-03-13 00:00:00,other,39,22,9
+id,2012,lower,H 647,IDV00001253,lower,  Rls susp - ,2012-03-16 00:00:00,other,54,7,9
+id,2012,lower,H 648,IDV00001254,lower,  3rd rdg - ,2012-03-16 00:00:00,other,64,0,6
+id,2012,lower,H 649,IDV00001255,lower,  3rd rdg - ,2012-03-16 00:00:00,other,53,13,4
+id,2012,lower,H 650,IDV00001256,lower,  Rls susp - ,2012-03-14 00:00:00,other,64,4,2
+id,2012,lower,H 651,IDV00001257,lower,  3rd rdg - ,2012-03-16 00:00:00,other,50,13,7
+id,2012,lower,H 653,IDV00001258,lower,  Rls susp - ,2012-03-14 00:00:00,other,68,0,2
+id,2012,lower,H 654,IDV00001259,lower,  Rls susp - ,2012-03-14 00:00:00,other,68,0,2
+id,2012,lower,H 655,IDV00001260,lower,  Rls susp - ,2012-03-14 00:00:00,other,51,16,3
+id,2012,lower,H 657,IDV00001261,lower,  3rd rdg - ,2012-03-16 00:00:00,other,55,11,4
+id,2012,lower,H 658,IDV00001262,lower,  3rd rdg - ,2012-03-16 00:00:00,other,55,13,2
+id,2012,lower,H 659,IDV00001263,lower,  3rd rdg - ,2012-03-16 00:00:00,other,58,9,3
+id,2012,lower,H 660,IDV00001565,lower,  3rd rdg - ,2012-03-28 00:00:00,other,46,22,2
+id,2012,lower,H 661,IDV00001264,lower,  Rls susp - ,2012-03-16 00:00:00,other,61,0,9
+id,2012,lower,H 662,IDV00001566,lower,  Rls susp - ,2012-03-28 00:00:00,other,50,19,1
+id,2012,lower,H 664,IDV00001265,lower,  Rls susp - ,2012-03-16 00:00:00,other,59,2,9
+id,2012,lower,H 665,IDV00001266,lower,  Rls susp - ,2012-03-16 00:00:00,other,60,0,10
+id,2012,lower,H 668,IDV00001353,lower,  3rd rdg - ,2012-03-20 00:00:00,other,67,1,2
+id,2012,lower,H 669,IDV00001354,lower,  3rd rdg - ,2012-03-20 00:00:00,other,69,0,1
+id,2012,lower,H 672,IDV00001488,lower,  Rls susp - ,2012-03-23 00:00:00,other,63,4,3
+id,2012,lower,H 674,IDV00001355,lower,  Rls susp - ,2012-03-20 00:00:00,other,61,7,2
+id,2012,lower,H 675,IDV00001356,lower,  Rls susp - ,2012-03-20 00:00:00,other,64,4,2
+id,2012,lower,H 676,IDV00001357,lower,  Rls susp - ,2012-03-20 00:00:00,other,64,3,3
+id,2012,lower,H 677,IDV00001358,lower,  Rls susp - ,2012-03-20 00:00:00,other,67,0,3
+id,2012,lower,H 678,IDV00001359,lower,  Rls susp - ,2012-03-20 00:00:00,other,68,1,1
+id,2012,lower,H 679,IDV00001360,lower,  Rls susp - ,2012-03-20 00:00:00,other,65,1,4
+id,2012,lower,H 680,IDV00001361,lower,  Rls susp - ,2012-03-20 00:00:00,other,64,2,4
+id,2012,lower,H 681,IDV00001362,lower,  Rls susp - ,2012-03-20 00:00:00,other,64,1,5
+id,2012,lower,H 682,IDV00001425,lower,  Rls susp - ,2012-03-21 00:00:00,other,52,14,4
+id,2012,lower,H 684,IDV00001460,lower,  3rd rdg - ,2012-03-22 00:00:00,other,69,1,0
+id,2012,lower,H 685,IDV00001461,lower,  3rd rdg - ,2012-03-22 00:00:00,other,68,2,0
+id,2012,lower,H 686,IDV00001462,lower,  3rd rdg - ,2012-03-22 00:00:00,other,68,0,2
+id,2012,lower,H 687,IDV00001463,lower,  3rd rdg - ,2012-03-22 00:00:00,other,67,0,3
+id,2012,lower,H 689,IDV00001489,lower,  Rls susp - ,2012-03-23 00:00:00,other,55,12,3
+id,2012,lower,H 691,IDV00001464,lower,  3rd rdg - ,2012-03-22 00:00:00,other,59,10,1
+id,2012,lower,H 693,IDV00001548,lower,  Rls susp - ,2012-03-27 00:00:00,other,55,14,1
+id,2012,lower,H 694,IDV00001524,lower,  Rls susp - ,2012-03-26 00:00:00,other,53,15,2
+id,2012,lower,H 695,IDV00001525,lower,  Rls susp - ,2012-03-26 00:00:00,other,53,16,1
+id,2012,lower,H 696,IDV00001526,lower,  Rls susp - ,2012-03-26 00:00:00,other,65,4,1
+id,2012,lower,H 697,IDV00001575,lower,  Rls susp - ,2012-03-28 00:00:00,other,48,21,1
+id,2012,lower,H 698,IDV00001583,lower,  Rls susp - ,2012-03-29 00:00:00,other,59,9,2
+id,2012,lower,H 701,IDV00001591,lower,  Rls susp - ,2012-03-29 00:00:00,other,54,12,4
+id,2012,lower,H 702,IDV00001593,lower,  Rls susp - ,2012-03-29 00:00:00,other,65,1,4
+id,2012,lower,H 703,IDV00001595,lower,  Rls susp - ,2012-03-29 00:00:00,other,51,16,3
+id,2012,lower,HCR 31,IDV00001597,lower,  3rd rdg - ,2012-02-06 00:00:00,other,67,3,0
+id,2012,lower,HCR 33,IDV00001269,lower,  3rd rdg - ,2012-02-20 00:00:00,other,64,0,6
+id,2012,lower,HCR 34,IDV00001270,lower,  3rd rdg - ,2012-02-28 00:00:00,other,56,9,5
+id,2012,lower,HCR 37,IDV00001272,lower,  3rd rdg - ,2012-02-28 00:00:00,other,64,0,6
+id,2012,lower,HCR 38,IDV00001273,lower,  3rd rdg - ,2012-02-28 00:00:00,other,54,11,5
+id,2012,lower,HCR 40,IDV00001274,lower,  3rd rdg as amen - ,2012-03-05 00:00:00,other,54,14,2
+id,2012,lower,HCR 42,IDV00001275,lower,  3rd rdg - ,2012-02-28 00:00:00,other,63,0,7
+id,2012,lower,HCR 43,IDV00001276,lower,  3rd rdg - ,2012-02-28 00:00:00,other,62,0,8
+id,2012,lower,HCR 45,IDV00001277,lower,  3rd rdg - ,2012-03-12 00:00:00,other,49,13,8
+id,2012,lower,HCR 47,IDV00001278,lower,  3rd rdg - ,2012-03-13 00:00:00,other,61,3,6
+id,2012,lower,HJM 4,IDV00001279,lower,  3rd rdg - ,2012-01-30 00:00:00,other,47,21,2
+id,2012,lower,HJM 8,IDV00001280,lower,  3rd rdg - ,2012-02-28 00:00:00,other,63,0,7
+id,2012,lower,HJM 10,IDV00001281,lower,  3rd rdg - ,2012-02-23 00:00:00,other,53,15,2
+id,2012,lower,HJM 11,IDV00001282,lower,  3rd rdg - ,2012-03-06 00:00:00,other,20,50,0
+id,2012,lower,HJM 13,IDV00001297,lower,  3rd rdg - ,2012-03-19 00:00:00,other,56,10,4
+id,2012,lower,HJR 1,IDV00001528,lower,  Rls susp - ,2012-03-22 00:00:00,other,37,33,0
+id,2012,lower,HJR 2,IDV00001465,lower,  Rls susp - ,2012-03-22 00:00:00,other,63,4,3
+id,2012,lower,HR 3,IDV00001283,lower,  3rd rdg - ,2012-01-12 00:00:00,other,66,0,4
+id,2013,upper,S 1001,IDV00001644,upper,  Read third time in full - ,2013-02-07 00:00:00,other,32,0,3
+id,2013,upper,S 1003,IDV00001717,upper,  Read third time in full as amended - ,2013-02-19 00:00:00,other,30,4,1
+id,2013,upper,S 1004,IDV00001645,upper,  Read third time in full - ,2013-02-07 00:00:00,other,32,0,3
+id,2013,upper,S 1006,IDV00001675,upper,  Read third time in full as amended - ,2013-02-13 00:00:00,other,31,2,2
+id,2013,upper,S 1009,IDV00001612,upper,  Read third time in full - ,2013-01-29 00:00:00,other,35,0,0
+id,2013,upper,S 1009,IDV00001711,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,69,0,1
+id,2013,upper,S 1010,IDV00001655,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,upper,S 1013,IDV00001693,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1016,IDV00001632,upper,  Read third time in full - ,2013-02-05 00:00:00,other,35,0,0
+id,2013,upper,S 1017,IDV00001633,upper,  Read third time in full - ,2013-02-05 00:00:00,other,35,0,0
+id,2013,upper,S 1024,IDV00001656,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,upper,S 1025,IDV00001676,upper,  Read third time in full - ,2013-02-13 00:00:00,other,28,4,3
+id,2013,upper,S 1027,IDV00001646,upper,  Read third time in full - ,2013-02-07 00:00:00,other,32,0,3
+id,2013,upper,S 1028,IDV00001694,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1031,IDV00001695,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1032,IDV00001657,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,upper,S 1033,IDV00001722,upper,  Read third time in full as amended - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,upper,S 1043,IDV00001658,upper,  Read third time in full - ,2013-02-08 00:00:00,other,32,1,2
+id,2013,upper,S 1044,IDV00001659,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,upper,S 1044,IDV00001784,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,68,0,2
+id,2013,upper,S 1049,IDV00001718,upper,  Read third time in full - ,2013-02-19 00:00:00,other,35,0,0
+id,2013,upper,S 1050,IDV00001696,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1055,IDV00001719,upper,  Read third time in full - ,2013-02-19 00:00:00,other,35,0,0
+id,2013,upper,S 1070,IDV00001723,upper,  Read third time in full - ,2013-02-20 00:00:00,other,13,21,1
+id,2013,upper,S 1076,IDV00001697,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1076,IDV00001724,lower,  Read Third Time in Full - ,2013-02-20 00:00:00,other,68,0,2
+id,2013,upper,S 1077,IDV00001698,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,upper,S 1077,IDV00001725,lower,  Read Third Time in Full - ,2013-02-20 00:00:00,other,68,0,2
+id,2013,upper,SCR 103,IDV00001642,upper,  Read in full - ,2013-02-06 00:00:00,other,28,6,1
+id,2013,lower,H 2,IDV00001626,upper,  Read third time in full - ,2013-02-04 00:00:00,other,34,0,1
+id,2013,lower,H 3,IDV00001627,upper,  Read third time in full - ,2013-02-04 00:00:00,other,34,0,1
+id,2013,lower,H 4,IDV00001634,upper,  Read third time in full - ,2013-02-05 00:00:00,other,35,0,0
+id,2013,lower,H 5,IDV00001660,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,lower,H 7,IDV00001661,lower,  Read Third Time in Full - ,2013-02-08 00:00:00,other,63,0,7
+id,2013,lower,H 8,IDV00001662,lower,  Read Third Time in Full - ,2013-02-08 00:00:00,other,48,14,8
+id,2013,lower,H 9,IDV00001663,lower,  Read Third Time in Full - ,2013-02-08 00:00:00,other,60,3,7
+id,2013,lower,H 11,IDV00001620,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 14,IDV00001677,upper,  Read third time in full - ,2013-02-13 00:00:00,other,32,0,3
+id,2013,lower,H 16,IDV00001664,upper,  Read third time in full - ,2013-02-08 00:00:00,other,33,0,2
+id,2013,lower,H 17,IDV00001726,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 23,IDV00001680,upper,  Read third time in full - ,2013-02-13 00:00:00,other,32,0,3
+id,2013,lower,H 24,IDV00001621,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 24,IDV00001690,upper,  Read third time in full - ,2013-02-14 00:00:00,other,34,0,1
+id,2013,lower,H 25,IDV00001622,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 25,IDV00001701,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 26,IDV00001635,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,70,0,0
+id,2013,lower,H 28,IDV00001636,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,68,1,1
+id,2013,lower,H 32,IDV00001623,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 32,IDV00001702,upper,  Read third time in full - ,2013-02-15 00:00:00,other,31,4,0
+id,2013,lower,H 33,IDV00001624,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 33,IDV00001703,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 34,IDV00001628,lower,  Read Third Time in Full - ,2013-02-04 00:00:00,other,37,30,3
+id,2013,lower,H 35,IDV00001629,lower,  Read Third Time in Full - ,2013-02-04 00:00:00,other,67,0,3
+id,2013,lower,H 35,IDV00001704,upper,  Read third time in full - ,2013-02-15 00:00:00,other,34,1,0
+id,2013,lower,H 36,IDV00001630,lower,  Read Third Time in Full - ,2013-02-04 00:00:00,other,54,13,3
+id,2013,lower,H 37,IDV00001681,upper,  Read third time in full - ,2013-02-13 00:00:00,other,33,0,2
+id,2013,lower,H 39,IDV00001637,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,70,0,0
+id,2013,lower,H 39,IDV00001705,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 40,IDV00001638,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,70,0,0
+id,2013,lower,H 40,IDV00001727,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 41,IDV00001643,lower,  Read Third Time in Full - ,2013-02-06 00:00:00,other,64,5,1
+id,2013,lower,H 42,IDV00001639,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,70,0,0
+id,2013,lower,H 44,IDV00001665,lower,  Read Third Time in Full - ,2013-02-08 00:00:00,other,62,1,7
+id,2013,lower,H 46,IDV00001640,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,69,0,1
+id,2013,lower,H 47,IDV00001712,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,69,0,1
+id,2013,lower,H 48,IDV00001682,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,62,7,1
+id,2013,lower,H 49,IDV00001683,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,69,0,1
+id,2013,lower,H 50,IDV00001713,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,68,1,1
+id,2013,lower,H 52,IDV00001625,lower,  Read Third Time in Full - ,2013-02-01 00:00:00,other,65,0,5
+id,2013,lower,H 52,IDV00001691,upper,  Read third time in full - ,2013-02-14 00:00:00,other,33,1,1
+id,2013,lower,H 53,IDV00001631,lower,  Read Third Time in Full - ,2013-02-04 00:00:00,other,67,0,3
+id,2013,lower,H 54,IDV00001684,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,65,4,1
+id,2013,lower,H 55,IDV00001685,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,65,5,0
+id,2013,lower,H 62,IDV00001672,lower,  Read Third Time in Full - ,2013-02-12 00:00:00,other,58,12,0
+id,2013,lower,H 65,IDV00001720,lower,  Read Third Time in Full - ,2013-02-19 00:00:00,other,69,0,1
+id,2013,lower,H 81,IDV00001728,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 83,IDV00001729,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 84,IDV00001730,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 85,IDV00001706,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 86,IDV00001707,lower,  Read Third Time in Full - ,2013-02-15 00:00:00,other,58,9,3
+id,2013,lower,H 87,IDV00001708,upper,  Read third time in full - ,2013-02-15 00:00:00,other,35,0,0
+id,2013,lower,H 88,IDV00001692,lower,  Read Third Time in Full - ,2013-02-14 00:00:00,other,62,7,1
+id,2013,lower,H 89,IDV00001709,lower,  Read Third Time in Full - ,2013-02-15 00:00:00,other,67,0,3
+id,2013,lower,H 100,IDV00001710,lower,  Read Third Time in Full - ,2013-02-15 00:00:00,other,59,8,3
+id,2013,lower,H 110,IDV00001731,lower,  Read Third Time in Full - ,2013-02-20 00:00:00,other,68,0,2
+id,2013,lower,H 112,IDV00001732,lower,  Read Third Time in Full - ,2013-02-20 00:00:00,other,68,0,2
+id,2013,lower,H 115,IDV00001673,lower,  Read Third Time in Full - ,2013-02-12 00:00:00,other,70,0,0
+id,2013,lower,H 115,IDV00001733,upper,  Read third time in full - ,2013-02-19 00:00:00,other,34,0,1
+id,2013,lower,H 122,IDV00001686,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,69,0,1
+id,2013,lower,H 123,IDV00001687,lower,  Read Third Time in Full - ,2013-02-13 00:00:00,other,67,2,1
+id,2013,lower,H 127,IDV00001714,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,65,4,1
+id,2013,lower,H 137,IDV00001734,lower,  Read Third Time in Full - ,2013-02-20 00:00:00,other,69,0,1
+id,2013,lower,H 166,IDV00001715,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,58,11,1
+id,2013,lower,H 174,IDV00001716,lower,  Read Third Time in Full - ,2013-02-18 00:00:00,other,69,0,1
+id,2013,lower,H 180,IDV00001721,lower,  Read Third Time in Full - ,2013-02-19 00:00:00,other,48,21,1
+id,2013,lower,HCR 3,IDV00001674,lower,  Read Third Time in Full - ,2013-02-12 00:00:00,other,68,2,0
+id,2013,lower,HR 1,IDV00001600,lower,  Read Third Time in Full - ,2013-01-10 00:00:00,other,66,0,4
+id,2013,lower,HR 2,IDV00001641,lower,  Read Third Time in Full - ,2013-02-05 00:00:00,other,61,9,0
+id,2013,upper,S 1010,IDV00001735,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,61,6,3
+id,2013,upper,S 1014,IDV00001771,upper,  Read third time in full - ,2013-02-26 00:00:00,other,35,0,0
+id,2013,upper,S 1016,IDV00001757,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,67,0,3
+id,2013,upper,S 1017,IDV00001758,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,67,0,3
+id,2013,upper,S 1028,IDV00001742,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,61,1,8
+id,2013,upper,S 1034,IDV00001743,upper,  Read third time in full - ,2013-02-22 00:00:00,other,34,0,1
+id,2013,upper,S 1035,IDV00001744,upper,  Read third time in full - ,2013-02-22 00:00:00,other,21,14,0
+id,2013,upper,S 1042,IDV00001736,upper,  Read third time in full - ,2013-02-21 00:00:00,other,23,12,0
+id,2013,upper,S 1048,IDV00001785,upper,  Read third time in full as amended - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,upper,S 1058,IDV00001772,upper,  Read third time in full - ,2013-02-26 00:00:00,other,35,0,0
+id,2013,upper,S 1061,IDV00001759,upper,  Read third time in full - ,2013-02-25 00:00:00,other,30,4,1
+id,2013,upper,S 1062,IDV00001786,upper,  Read third time in full as amended - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,upper,S 1063,IDV00001787,upper,  Read third time in full - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,upper,S 1065,IDV00001760,upper,  Read third time in full - ,2013-02-25 00:00:00,other,34,0,1
+id,2013,upper,S 1072,IDV00001788,upper,  Read third time in full as amended - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,upper,S 1074,IDV00001789,upper,  ,2013-02-27 00:00:00,other,27,8,0
+id,2013,upper,S 1081,IDV00001761,upper,  Read third time in full - ,2013-02-25 00:00:00,other,34,0,1
+id,2013,upper,S 1083,IDV00001773,upper,  Read third time in full - ,2013-02-26 00:00:00,other,35,0,0
+id,2013,upper,S 1089,IDV00001774,upper,  Read third time in full - ,2013-02-26 00:00:00,other,29,6,0
+id,2013,upper,S 1092,IDV00001762,upper,  Read third time in full - ,2013-02-25 00:00:00,other,34,0,1
+id,2013,upper,S 1093,IDV00001790,upper,  Read third time in full - ,2013-02-27 00:00:00,other,34,0,1
+id,2013,upper,S 1100,IDV00001775,upper,  Read third time in full - ,2013-02-26 00:00:00,other,34,1,0
+id,2013,upper,S 1101,IDV00001745,upper,  Read third time in full - ,2013-02-22 00:00:00,other,34,0,1
+id,2013,upper,S 1102,IDV00001746,upper,  Read third time in full - ,2013-02-22 00:00:00,other,34,0,1
+id,2013,upper,S 1103,IDV00001747,upper,  Read third time in full - ,2013-02-22 00:00:00,other,18,16,1
+id,2013,upper,S 1104,IDV00001748,upper,  Read third time in full - ,2013-02-22 00:00:00,other,34,0,1
+id,2013,upper,S 1113,IDV00001791,upper,  Read third time in full - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,upper,SCR 112,IDV00001763,upper,  Read in full - ,2013-02-25 00:00:00,other,29,5,1
+id,2013,upper,SJM 101,IDV00001764,upper,  Read in full - ,2013-02-25 00:00:00,other,13,21,1
+id,2013,lower,H 12,IDV00001749,lower,  Read third time in full as amended in Senate - ,2013-02-22 00:00:00,other,63,0,7
+id,2013,lower,H 29,IDV00001776,upper,  Read third time in full - ,2013-02-26 00:00:00,other,35,0,0
+id,2013,lower,H 49,IDV00001802,upper,  Read third time in full - ,2013-02-28 00:00:00,other,32,0,3
+id,2013,lower,H 50,IDV00001803,upper,  Read third time in full - ,2013-02-28 00:00:00,other,34,0,1
+id,2013,lower,H 72,IDV00001792,upper,  Read third time in full - ,2013-02-27 00:00:00,other,35,0,0
+id,2013,lower,H 82,IDV00001804,upper,  Read third time in full - ,2013-02-28 00:00:00,other,33,0,2
+id,2013,lower,H 89,IDV00001805,upper,  Read third time in full - ,2013-02-28 00:00:00,other,34,0,1
+id,2013,lower,H 93,IDV00001765,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,67,0,3
+id,2013,lower,H 96,IDV00001750,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,63,1,6
+id,2013,lower,H 97,IDV00001751,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,34,30,6
+id,2013,lower,H 102,IDV00001806,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,H 103,IDV00001793,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,40,28,2
+id,2013,lower,H 105,IDV00001807,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,H 107,IDV00001737,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,47,19,4
+id,2013,lower,H 109,IDV00001738,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,67,0,3
+id,2013,lower,H 117,IDV00001777,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,69,0,1
+id,2013,lower,H 118,IDV00001778,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,49,20,1
+id,2013,lower,H 121,IDV00001779,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,66,2,2
+id,2013,lower,H 122,IDV00001808,upper,  Read third time in full - ,2013-02-28 00:00:00,other,32,0,3
+id,2013,lower,H 123,IDV00001809,upper,  Read third time in full - ,2013-02-28 00:00:00,other,32,0,3
+id,2013,lower,H 125,IDV00001810,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,H 128,IDV00001766,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,67,0,3
+id,2013,lower,H 129,IDV00001767,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,41,26,3
+id,2013,lower,H 130,IDV00001768,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,67,0,3
+id,2013,lower,H 131,IDV00001811,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,H 132,IDV00001769,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,60,7,3
+id,2013,lower,H 139,IDV00001770,lower,  Read Third Time in Full - ,2013-02-25 00:00:00,other,65,2,3
+id,2013,lower,H 140,IDV00001739,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,64,3,3
+id,2013,lower,H 141,IDV00001740,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,52,15,3
+id,2013,lower,H 142,IDV00001794,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,53,15,2
+id,2013,lower,H 153,IDV00001752,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,60,2,8
+id,2013,lower,H 159,IDV00001780,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,51,19,0
+id,2013,lower,H 161,IDV00001753,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,64,0,6
+id,2013,lower,H 162,IDV00001812,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,62,6,2
+id,2013,lower,H 163,IDV00001741,lower,  Read Third Time in Full - ,2013-02-21 00:00:00,other,67,0,3
+id,2013,lower,H 166,IDV00001813,upper,  Read third time in full - ,2013-02-28 00:00:00,other,33,0,2
+id,2013,lower,H 167,IDV00001781,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,57,11,2
+id,2013,lower,H 168,IDV00001795,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,68,0,2
+id,2013,lower,H 169,IDV00001754,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,64,0,6
+id,2013,lower,H 174,IDV00001814,upper,  Read third time in full - ,2013-02-28 00:00:00,other,33,0,2
+id,2013,lower,H 175,IDV00001782,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,69,0,1
+id,2013,lower,H 177,IDV00001755,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,52,10,8
+id,2013,lower,H 178,IDV00001815,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,61,7,2
+id,2013,lower,H 180,IDV00001816,upper,  Read third time in full - ,2013-02-28 00:00:00,other,31,2,2
+id,2013,lower,H 183,IDV00001817,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,66,2,2
+id,2013,lower,H 184,IDV00001796,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,68,0,2
+id,2013,lower,H 185,IDV00001783,lower,  Read Third Time in Full - ,2013-02-26 00:00:00,other,69,0,1
+id,2013,lower,H 187,IDV00001797,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,68,0,2
+id,2013,lower,H 192,IDV00001818,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,H 197,IDV00001819,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,58,10,2
+id,2013,lower,H 203,IDV00001798,lower,  Read Third Time in Full - ,2013-02-27 00:00:00,other,56,12,2
+id,2013,lower,H 205,IDV00001820,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,66,2,2
+id,2013,lower,H 210,IDV00001821,lower,  Read Third Time in Full - ,2013-02-28 00:00:00,other,68,0,2
+id,2013,lower,HCR 7,IDV00001756,lower,  Read Third Time in Full - ,2013-02-22 00:00:00,other,63,0,7

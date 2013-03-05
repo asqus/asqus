@@ -1,0 +1,566 @@
+state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+ne,103,upper,LB 1,NEV00000901,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 2,NEV00000902,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 16,NEV00000903,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 35,NEV00000905,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 72,NEV00000906,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 87,NEV00000907,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 91,NEV00000908,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 100,NEV00000909,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,47,0,2
+ne,103,upper,LB 102,NEV00000910,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 111,NEV00000911,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 112,NEV00000912,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 113,NEV00000913,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 125,NEV00000914,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,44,4,1
+ne,103,upper,LB 146,NEV00000915,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,48,0,1
+ne,103,upper,LB 155,NEV00000916,upper,Shall the bill pass?,2013-02-11 00:00:00,passage,48,0,1
+ne,102,upper,LR 355,NEV00000674,upper,Shall the bill pass notwithstanding the objections of the Governor?,2011-05-25 00:00:00,passage,20,19,10
+ne,102,upper,LB 1,NEV00000351,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 2,NEV00000352,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 3,NEV00000353,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 4,NEV00000354,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 5,NEV00000355,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 6,NEV00000356,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 7,NEV00000357,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 8,NEV00000358,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 9,NEV00000359,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 10,NEV00000360,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 11,NEV00000361,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 12,NEV00000362,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 14,NEV00000363,upper,Shall the bill pass?,2012-04-11 00:00:00,passage,39,9,1
+ne,102,upper,LB 15,NEV00000364,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 17,NEV00000365,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 18,NEV00000366,upper,Shall the bill pass with the emergency clause attached?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 19,NEV00000367,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 20,NEV00000368,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 22,NEV00000369,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,37,7,5
+ne,102,upper,LB 23,NEV00000370,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 24,NEV00000371,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 25,NEV00000372,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 26,NEV00000373,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 27,NEV00000374,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,42,0,7
+ne,102,upper,LB 28,NEV00000375,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 29,NEV00000376,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,47,0,2
+ne,102,upper,LB 30,NEV00000377,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 31,NEV00000378,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,42,0,7
+ne,102,upper,LB 32,NEV00000379,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,42,0,7
+ne,102,upper,LB 34,NEV00000380,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,43,0,6
+ne,102,upper,LB 35,NEV00000381,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 36,NEV00000382,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,41,0,8
+ne,102,upper,LB 40,NEV00000383,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 41,NEV00000384,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 42,NEV00000385,upper,Shall the bill pass?,2012-03-27 00:00:00,passage,46,0,3
+ne,102,upper,LB 43,NEV00000386,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 45,NEV00000387,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 46,NEV00000388,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 47,NEV00000389,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 54,NEV00000390,upper,Shall the bill pass?,2011-04-28 00:00:00,passage,46,0,3
+ne,102,upper,LB 56,NEV00000391,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 59,NEV00000392,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 61,NEV00000393,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 62,NEV00000394,upper,Shall the bill pass?,2011-03-07 00:00:00,passage,40,5,4
+ne,102,upper,LB 66,NEV00000395,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 67,NEV00000396,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 68,NEV00000397,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 70,NEV00000398,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 72,NEV00000399,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 73,NEV00000400,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 74,NEV00000401,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 75,NEV00000402,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 76,NEV00000403,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 77,NEV00000404,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 78,NEV00000405,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 81,NEV00000406,upper,Shall the bill pass with the emergency clause attached?,2011-03-09 00:00:00,passage,37,4,8
+ne,102,upper,LB 84,NEV00000407,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,33,10,6
+ne,102,upper,LB 90,NEV00000408,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 90A,NEV00000409,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 94,NEV00000410,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 98,NEV00000411,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 100,NEV00000412,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,42,2,5
+ne,102,upper,LB 105,NEV00000413,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,41,2,6
+ne,102,upper,LB 106,NEV00000414,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,43,3,3
+ne,102,upper,LB 107,NEV00000415,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 108,NEV00000416,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 111,NEV00000417,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 112,NEV00000418,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 114,NEV00000419,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,41,1,7
+ne,102,upper,LB 121,NEV00000420,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 122,NEV00000421,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,45,3,1
+ne,102,upper,LB 124,NEV00000422,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 131,NEV00000423,upper,Shall the bill pass with the emergency clause attached?,2012-03-27 00:00:00,passage,43,1,5
+ne,102,upper,LB 134,NEV00000424,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,47,0,2
+ne,102,upper,LB 135,NEV00000425,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,45,0,4
+ne,102,upper,LB 137,NEV00000426,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 142,NEV00000427,upper,Shall the bill pass?,2011-05-20 00:00:00,passage,44,0,5
+ne,102,upper,LB 146,NEV00000428,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 151,NEV00000429,upper,Shall the bill pass with the emergency clause attached?,2011-05-19 00:00:00,passage,45,0,4
+ne,102,upper,LB 152,NEV00000430,upper,Shall the bill pass?,2011-05-24 00:00:00,passage,46,0,3
+ne,102,upper,LB 154,NEV00000431,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 155,NEV00000432,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 156,NEV00000433,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 157,NEV00000434,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 157A,NEV00000435,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 158,NEV00000436,upper,Shall the bill pass?,2011-02-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 159,NEV00000437,upper,Shall the bill pass with the emergency clause attached?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 160,NEV00000438,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 162,NEV00000439,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 163,NEV00000440,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 163A,NEV00000441,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 164,NEV00000442,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,47,0,2
+ne,102,upper,LB 165,NEV00000443,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,42,1,6
+ne,102,upper,LB 167,NEV00000444,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 170,NEV00000445,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,44,0,5
+ne,102,upper,LB 176,NEV00000446,upper,Shall the bill pass?,2011-05-10 00:00:00,passage,43,0,6
+ne,102,upper,LB 177,NEV00000447,upper,Shall the bill pass?,2011-04-28 00:00:00,passage,47,0,2
+ne,102,upper,LB 178,NEV00000448,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 178A,NEV00000449,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 179,NEV00000450,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 181,NEV00000451,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 181A,NEV00000452,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 191,NEV00000453,upper,Shall the bill pass with the emergency clause attached?,2011-03-10 00:00:00,passage,45,0,4
+ne,102,upper,LB 197,NEV00000454,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 200,NEV00000455,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,22,18,9
+ne,102,upper,LB 200,NEV00000456,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,30,16,3
+ne,102,upper,LB 200,NEV00000895,upper,Shall the bill pass notwithstanding the objections of the Governor?,2011-05-25 00:00:00,passage,20,19,10
+ne,102,upper,LB 200A,NEV00000457,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,40,4,5
+ne,102,upper,LB 204,NEV00000458,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,30,12,7
+ne,102,upper,LB 204,NEV00000896,upper,Shall the bill pass notwithstanding the objections of the Governor?,2011-05-03 00:00:00,passage,21,20,8
+ne,102,upper,LB 204A,NEV00000459,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,39,2,8
+ne,102,upper,LB 207,NEV00000460,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,43,0,6
+ne,102,upper,LB 208,NEV00000461,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 209,NEV00000462,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 210,NEV00000463,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 210A,NEV00000464,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 211,NEV00000465,upper,Shall the bill pass?,2011-02-16 00:00:00,passage,48,0,1
+ne,102,upper,LB 212,NEV00000466,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 215,NEV00000467,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 216,NEV00000468,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,46,1,2
+ne,102,upper,LB 216A,NEV00000469,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,47,0,2
+ne,102,upper,LB 218,NEV00000470,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,38,5,6
+ne,102,upper,LB 225,NEV00000471,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 226,NEV00000472,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,40,5,4
+ne,102,upper,LB 228,NEV00000473,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 229,NEV00000474,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,39,5,5
+ne,102,upper,LB 229A,NEV00000475,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,41,2,6
+ne,102,upper,LB 230,NEV00000476,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,43,0,6
+ne,102,upper,LB 234,NEV00000477,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 235,NEV00000478,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,41,2,6
+ne,102,upper,LB 237,NEV00000479,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,42,0,7
+ne,102,upper,LB 241,NEV00000480,upper,Shall the bill pass with the emergency clause attached?,2011-02-16 00:00:00,passage,49,0,0
+ne,102,upper,LB 243,NEV00000481,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 248,NEV00000482,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,41,0,8
+ne,102,upper,LB 252,NEV00000483,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,42,4,3
+ne,102,upper,LB 254,NEV00000484,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,41,0,8
+ne,102,upper,LB 255,NEV00000485,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,30,12,7
+ne,102,upper,LB 255,NEV00000486,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,23,19,7
+ne,102,upper,LB 256,NEV00000487,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,27,18,4
+ne,102,upper,LB 256,NEV00000897,upper,Shall the bill pass notwithstanding the objections of the Governor?,2011-05-25 00:00:00,passage,21,23,5
+ne,102,upper,LB 257,NEV00000488,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 259,NEV00000489,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,39,2,8
+ne,102,upper,LB 260,NEV00000490,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,43,0,6
+ne,102,upper,LB 261,NEV00000491,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 264,NEV00000492,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 265,NEV00000493,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 269,NEV00000494,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 274,NEV00000495,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 277,NEV00000496,upper,Shall the bill pass?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 278,NEV00000497,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 279,NEV00000498,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 281,NEV00000499,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,42,6,1
+ne,102,upper,LB 283,NEV00000500,upper,Shall the bill pass?,2011-04-28 00:00:00,passage,27,19,3
+ne,102,upper,LB 283,NEV00000898,upper,Shall the bill pass notwithstanding the objections of the Governor?,2011-05-11 00:00:00,passage,24,20,5
+ne,102,upper,LB 284,NEV00000501,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 286,NEV00000502,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,45,0,4
+ne,102,upper,LB 289,NEV00000503,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 289A,NEV00000504,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 292,NEV00000505,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 297,NEV00000506,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 303,NEV00000507,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 305,NEV00000508,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,43,1,5
+ne,102,upper,LB 305A,NEV00000509,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,43,0,6
+ne,102,upper,LB 308,NEV00000510,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 309,NEV00000511,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,41,0,8
+ne,102,upper,LB 310,NEV00000512,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,42,0,7
+ne,102,upper,LB 311,NEV00000513,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 314,NEV00000514,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,47,0,2
+ne,102,upper,LB 315,NEV00000515,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 326,NEV00000516,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 329,NEV00000517,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 331,NEV00000518,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 332,NEV00000519,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 333,NEV00000520,upper,Shall the bill pass with the emergency clause attached?,2011-03-09 00:00:00,passage,44,0,5
+ne,102,upper,LB 334,NEV00000521,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 335,NEV00000522,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 337,NEV00000523,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 342,NEV00000524,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,43,0,6
+ne,102,upper,LB 345,NEV00000525,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,47,2,0
+ne,102,upper,LB 345A,NEV00000526,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,47,2,0
+ne,102,upper,LB 347,NEV00000527,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 357,NEV00000528,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,30,15,4
+ne,102,upper,LB 360,NEV00000529,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 366,NEV00000530,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 368,NEV00000531,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 370,NEV00000532,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,48,1,0
+ne,102,upper,LB 373,NEV00000533,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,41,0,8
+ne,102,upper,LB 374,NEV00000534,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 375,NEV00000535,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 376,NEV00000536,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 377,NEV00000537,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,42,1,6
+ne,102,upper,LB 378,NEV00000538,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 379,NEV00000539,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 380,NEV00000540,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 382,NEV00000541,upper,Shall the bill pass with the emergency clause attached?,2011-04-28 00:00:00,passage,43,0,6
+ne,102,upper,LB 382A,NEV00000542,upper,Shall the bill pass with the emergency clause attached?,2011-04-28 00:00:00,passage,43,0,6
+ne,102,upper,LB 383,NEV00000543,upper,Shall the bill pass with the emergency clause attached?,2011-03-04 00:00:00,passage,36,9,4
+ne,102,upper,LB 384,NEV00000544,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,36,11,2
+ne,102,upper,LB 384A,NEV00000545,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,44,2,3
+ne,102,upper,LB 385,NEV00000546,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 386,NEV00000547,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 387,NEV00000549,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 387A,NEV00000550,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 388,NEV00000551,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 388A,NEV00000552,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 389,NEV00000553,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 389A,NEV00000554,upper,Shall the bill pass with the emergency clause attached?,2011-05-18 00:00:00,passage,48,0,1
+ne,102,upper,LB 390,NEV00000555,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,47,0,2
+ne,102,upper,LB 391,NEV00000556,upper,Shall the bill pass with the emergency clause attached?,2012-03-30 00:00:00,passage,43,0,6
+ne,102,upper,LB 394,NEV00000557,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,42,0,7
+ne,102,upper,LB 396,NEV00000558,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,46,0,3
+ne,102,upper,LB 397,NEV00000559,upper,Shall the bill pass?,2011-05-25 00:00:00,passage,48,0,1
+ne,102,upper,LB 398,NEV00000560,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 399,NEV00000561,upper,Shall the bill pass with the emergency clause attached?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 400,NEV00000562,upper,Shall the bill pass?,2011-05-25 00:00:00,passage,47,1,1
+ne,102,upper,LB 401,NEV00000564,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 404,NEV00000565,upper,Shall the bill pass?,2011-05-10 00:00:00,passage,44,0,5
+ne,102,upper,LB 406,NEV00000566,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,46,0,3
+ne,102,upper,LB 407,NEV00000567,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 410,NEV00000568,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 410A,NEV00000569,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,43,0,6
+ne,102,upper,LB 413,NEV00000570,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 415,NEV00000571,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,46,0,3
+ne,102,upper,LB 421,NEV00000572,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,41,5,3
+ne,102,upper,LB 423,NEV00000573,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 424,NEV00000574,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 426,NEV00000575,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 427,NEV00000576,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,45,3,1
+ne,102,upper,LB 431,NEV00000577,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 446,NEV00000578,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 449,NEV00000579,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 453,NEV00000580,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,44,0,5
+ne,102,upper,LB 454,NEV00000581,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 455,NEV00000582,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 458,NEV00000583,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,1,1
+ne,102,upper,LB 459,NEV00000584,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,47,0,2
+ne,102,upper,LB 462,NEV00000585,upper,Shall the bill pass?,2011-03-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 463,NEV00000586,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,46,2,1
+ne,102,upper,LB 463A,NEV00000587,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 464,NEV00000588,upper,Shall the bill pass with the emergency clause attached?,2011-04-28 00:00:00,passage,42,2,5
+ne,102,upper,LB 465,NEV00000589,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,33,8,8
+ne,102,upper,LB 468,NEV00000590,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,34,10,5
+ne,102,upper,LB 470,NEV00000591,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 471,NEV00000592,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 473,NEV00000593,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,32,11,6
+ne,102,upper,LB 474,NEV00000594,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 477,NEV00000595,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 479,NEV00000596,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 480,NEV00000597,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 490,NEV00000598,upper,Shall the bill pass?,2011-05-20 00:00:00,passage,44,0,5
+ne,102,upper,LB 494,NEV00000599,upper,Shall the bill pass with the emergency clause attached?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 498,NEV00000600,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 499,NEV00000601,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,45,0,4
+ne,102,upper,LB 500,NEV00000602,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 502,NEV00000603,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,46,0,3
+ne,102,upper,LB 503,NEV00000604,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,47,0,2
+ne,102,upper,LB 507,NEV00000605,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 509,NEV00000606,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 512,NEV00000607,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,43,0,6
+ne,102,upper,LB 521,NEV00000608,upper,Shall the bill pass?,2011-05-23 00:00:00,passage,38,9,2
+ne,102,upper,LB 524,NEV00000609,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,45,0,4
+ne,102,upper,LB 525,NEV00000610,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 525A,NEV00000611,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 526,NEV00000612,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 535,NEV00000613,upper,Shall the bill pass?,2011-05-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 536,NEV00000614,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,40,0,9
+ne,102,upper,LB 541,NEV00000615,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 542,NEV00000616,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 543,NEV00000617,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,42,0,7
+ne,102,upper,LB 544,NEV00000618,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,42,0,7
+ne,102,upper,LB 546,NEV00000619,upper,Shall the bill pass?,2011-04-08 00:00:00,passage,31,9,9
+ne,102,upper,LB 549,NEV00000620,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 549A,NEV00000621,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,44,0,5
+ne,102,upper,LB 550,NEV00000622,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 556,NEV00000623,upper,Shall the bill pass?,2011-03-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 558,NEV00000624,upper,Shall the bill pass?,2011-04-20 00:00:00,passage,42,0,7
+ne,102,upper,LB 563,NEV00000625,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 573,NEV00000626,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 575,NEV00000627,upper,Shall the bill pass?,2011-05-10 00:00:00,passage,43,0,6
+ne,102,upper,LB 575A,NEV00000628,upper,Shall the bill pass?,2011-05-10 00:00:00,passage,43,0,6
+ne,102,upper,LB 576,NEV00000629,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 585,NEV00000631,upper,Shall the bill pass with the emergency clause attached?,2011-05-11 00:00:00,passage,43,0,6
+ne,102,upper,LB 589,NEV00000632,upper,Shall the bill pass with the emergency clause attached?,2011-05-19 00:00:00,passage,45,0,4
+ne,102,upper,LB 590,NEV00000633,upper,Shall the bill pass?,2011-05-23 00:00:00,passage,48,0,1
+ne,102,upper,LB 590A,NEV00000634,upper,Shall the bill pass?,2011-05-23 00:00:00,passage,48,0,1
+ne,102,upper,LB 591,NEV00000635,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,47,0,2
+ne,102,upper,LB 599,NEV00000636,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,31,15,3
+ne,102,upper,LB 600,NEV00000637,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,44,1,4
+ne,102,upper,LB 600A,NEV00000638,upper,Shall the bill pass with the emergency clause attached?,2011-04-20 00:00:00,passage,45,0,4
+ne,102,upper,LB 612,NEV00000639,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 617,NEV00000640,upper,Shall the bill pass with the emergency clause attached?,2011-05-19 00:00:00,passage,45,0,4
+ne,102,upper,LB 621,NEV00000641,upper,Shall the bill pass with the emergency clause attached?,2011-04-08 00:00:00,passage,44,0,5
+ne,102,upper,LB 628,NEV00000642,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,43,1,5
+ne,102,upper,LB 629,NEV00000643,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,47,0,2
+ne,102,upper,LB 633,NEV00000644,upper,Shall the bill pass with the emergency clause attached?,2012-02-28 00:00:00,passage,42,0,7
+ne,102,upper,LB 637,NEV00000645,upper,Shall the bill pass with the emergency clause attached?,2011-04-28 00:00:00,passage,48,0,1
+ne,102,upper,LB 637A,NEV00000646,upper,Shall the bill pass with the emergency clause attached?,2011-04-28 00:00:00,passage,48,0,1
+ne,102,upper,LB 641,NEV00000647,upper,Shall the bill pass?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 642,NEV00000648,upper,Shall the bill pass with the emergency clause attached?,2011-05-23 00:00:00,passage,37,4,8
+ne,102,upper,LB 646,NEV00000649,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 648,NEV00000650,upper,Shall the bill pass?,2011-04-28 00:00:00,passage,44,0,5
+ne,102,upper,LB 665,NEV00000651,upper,Shall the bill pass with the emergency clause attached?,2011-05-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 667,NEV00000652,upper,Shall the bill pass?,2011-05-24 00:00:00,passage,46,0,3
+ne,102,upper,LB 667A,NEV00000653,upper,Shall the bill pass?,2011-05-24 00:00:00,passage,46,0,3
+ne,102,upper,LB 669,NEV00000654,upper,Shall the bill pass with the emergency clause attached?,2011-05-23 00:00:00,passage,47,0,2
+ne,102,upper,LB 670,NEV00000655,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 673,NEV00000656,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 675,NEV00000657,upper,Shall the bill pass?,2011-05-20 00:00:00,passage,46,0,3
+ne,102,upper,LB 677,NEV00000658,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,45,0,4
+ne,102,upper,LB 684,NEV00000659,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,48,0,1
+ne,102,upper,LB 684A,NEV00000660,upper,Shall the bill pass?,2011-05-18 00:00:00,passage,49,0,0
+ne,102,upper,LB 686,NEV00000661,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,43,2,4
+ne,102,upper,LB 687,NEV00000662,upper,Shall the bill pass with the emergency clause attached?,2011-05-12 00:00:00,passage,48,0,1
+ne,102,upper,LB 690,NEV00000663,upper,Shall the bill pass?,2011-05-26 00:00:00,passage,41,6,2
+ne,102,upper,LB 699,NEV00000664,upper,Shall the bill pass with the emergency clause attached?,2011-05-20 00:00:00,passage,45,0,4
+ne,102,upper,LB 700,NEV00000665,upper,Shall the bill pass with the emergency clause attached?,2011-05-25 00:00:00,passage,47,0,2
+ne,102,upper,LB 701,NEV00000666,upper,Shall the bill pass with the emergency clause attached?,2011-05-25 00:00:00,passage,47,0,2
+ne,102,upper,LB 702,NEV00000667,upper,Shall the bill pass with the emergency clause attached?,2011-05-25 00:00:00,passage,47,0,2
+ne,102,upper,LB 703,NEV00000668,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,39,7,3
+ne,102,upper,LB 703,NEV00000669,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,37,9,3
+ne,102,upper,LB 704,NEV00000670,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,31,15,3
+ne,102,upper,LB 704,NEV00000671,upper,Shall the bill pass with the emergency clause attached?,2011-05-26 00:00:00,passage,35,11,3
+ne,102,upper,LR 19CA,NEV00000672,upper,Shall the resolution pass?,2012-03-01 00:00:00,passage,45,0,4
+ne,102,upper,LR 40CA,NEV00000673,upper,Shall the resolution pass?,2012-03-27 00:00:00,passage,41,3,5
+ne,102,upper,LB 66A,NEV00000675,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 209A,NEV00000676,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 541A,NEV00000677,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 599A,NEV00000678,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,34,9,6
+ne,102,upper,LB 705,NEV00000679,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 706,NEV00000680,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 707,NEV00000681,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 708,NEV00000682,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 709,NEV00000683,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 710,NEV00000684,upper,Shall the bill pass?,2012-02-07 00:00:00,passage,45,0,4
+ne,102,upper,LB 711,NEV00000685,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,42,0,7
+ne,102,upper,LB 714,NEV00000686,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 715,NEV00000687,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 719,NEV00000688,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 721,NEV00000689,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 722,NEV00000690,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 723,NEV00000691,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 725,NEV00000692,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 727,NEV00000693,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 729,NEV00000694,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 733,NEV00000695,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 734,NEV00000696,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 735,NEV00000697,upper,Shall the bill pass?,2012-03-27 00:00:00,passage,47,0,2
+ne,102,upper,LB 737,NEV00000698,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 738,NEV00000699,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 739,NEV00000700,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,45,0,4
+ne,102,upper,LB 740,NEV00000701,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 742,NEV00000702,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 743,NEV00000703,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 745,NEV00000704,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 750,NEV00000705,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 751,NEV00000706,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,45,0,4
+ne,102,upper,LB 751A,NEV00000707,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 759,NEV00000708,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,41,2,6
+ne,102,upper,LB 760,NEV00000709,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 761,NEV00000710,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 766,NEV00000711,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 768,NEV00000712,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 770,NEV00000713,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 771,NEV00000714,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 772,NEV00000715,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 773,NEV00000716,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 779,NEV00000717,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 780,NEV00000718,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 782,NEV00000719,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,42,0,7
+ne,102,upper,LB 786,NEV00000720,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 788,NEV00000721,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 790,NEV00000722,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,38,8,3
+ne,102,upper,LB 793,NEV00000723,upper,Shall the bill pass?,2012-04-10 00:00:00,passage,47,1,1
+ne,102,upper,LB 793A,NEV00000724,upper,Shall the bill pass?,2012-04-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 794,NEV00000725,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 795,NEV00000726,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 799,NEV00000727,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 800,NEV00000728,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 801,NEV00000729,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 804,NEV00000730,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 805,NEV00000731,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 806,NEV00000732,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,26,18,5
+ne,102,upper,LB 806,NEV00000899,upper,Shall the bill pass notwithstanding the objections of the Governor?,2012-04-18 00:00:00,passage,28,20,1
+ne,102,upper,LB 806A,NEV00000733,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,29,12,8
+ne,102,upper,LB 807,NEV00000734,upper,Shall the bill pass with the emergency clause attached?,2012-04-18 00:00:00,passage,48,1,0
+ne,102,upper,LB 810,NEV00000736,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,43,0,6
+ne,102,upper,LB 811,NEV00000737,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 817,NEV00000738,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 817A,NEV00000739,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 819,NEV00000740,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,47,0,2
+ne,102,upper,LB 820,NEV00000741,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 820A,NEV00000742,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 821,NEV00000743,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 821A,NEV00000744,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 822,NEV00000745,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 823,NEV00000746,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 824,NEV00000747,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,37,6,6
+ne,102,upper,LB 825,NEV00000748,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,38,4,7
+ne,102,upper,LB 825A,NEV00000749,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,46,2,1
+ne,102,upper,LB 828,NEV00000750,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 830,NEV00000751,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,49,0,0
+ne,102,upper,LB 831,NEV00000752,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,1,2
+ne,102,upper,LB 834,NEV00000753,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 836,NEV00000754,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 841,NEV00000755,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 842,NEV00000756,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,45,0,4
+ne,102,upper,LB 845,NEV00000757,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 849,NEV00000758,upper,Shall the bill pass with the emergency clause attached?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 851,NEV00000759,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,41,0,8
+ne,102,upper,LB 852,NEV00000760,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 853,NEV00000761,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 854,NEV00000762,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 858,NEV00000763,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 860,NEV00000764,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 861,NEV00000765,upper,Shall the bill pass?,2012-03-27 00:00:00,passage,44,0,5
+ne,102,upper,LB 862,NEV00000766,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 862A,NEV00000767,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 863,NEV00000768,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,44,0,5
+ne,102,upper,LB 865,NEV00000769,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 867,NEV00000770,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 869,NEV00000771,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 870,NEV00000772,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 871,NEV00000773,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 872,NEV00000774,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,46,1,2
+ne,102,upper,LB 873,NEV00000775,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 878,NEV00000776,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 879,NEV00000777,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 880,NEV00000778,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 881,NEV00000779,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 882,NEV00000780,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 886,NEV00000781,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 887,NEV00000782,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 890,NEV00000783,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 896,NEV00000784,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 897,NEV00000785,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 898,NEV00000786,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 899,NEV00000787,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 902,NEV00000788,upper,Shall the bill pass with the emergency clause attached?,2012-03-30 00:00:00,passage,44,0,5
+ne,102,upper,LB 904,NEV00000789,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,46,0,3
+ne,102,upper,LB 905,NEV00000790,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 905A,NEV00000791,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 907,NEV00000792,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 911,NEV00000793,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 916,NEV00000794,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 928,NEV00000795,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,49,0,0
+ne,102,upper,LB 928A,NEV00000796,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,49,0,0
+ne,102,upper,LB 933,NEV00000797,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,44,0,5
+ne,102,upper,LB 936,NEV00000798,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 941,NEV00000799,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 942,NEV00000800,upper,Shall the bill pass?,2012-03-01 00:00:00,passage,49,0,0
+ne,102,upper,LB 943,NEV00000801,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 946,NEV00000802,upper,Shall the bill pass with the emergency clause attached?,2012-02-07 00:00:00,passage,46,0,3
+ne,102,upper,LB 949,NEV00000803,upper,Shall the bill pass with the emergency clause attached?,2012-04-03 00:00:00,passage,48,0,1
+ne,102,upper,LB 949A,NEV00000804,upper,Shall the bill pass with the emergency clause attached?,2012-04-03 00:00:00,passage,48,0,1
+ne,102,upper,LB 950,NEV00000805,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 950A,NEV00000806,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 959,NEV00000807,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 961,NEV00000808,upper,Shall the bill pass with the emergency clause attached?,2012-04-03 00:00:00,passage,48,0,1
+ne,102,upper,LB 962,NEV00000809,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,44,0,5
+ne,102,upper,LB 963,NEV00000810,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,46,0,3
+ne,102,upper,LB 965,NEV00000811,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,43,1,5
+ne,102,upper,LB 968,NEV00000812,upper,Shall the bill pass with the emergency clause attached?,2012-03-27 00:00:00,passage,45,2,2
+ne,102,upper,LB 969,NEV00000813,upper,Shall the bill pass with the emergency clause attached?,2012-03-27 00:00:00,passage,44,3,2
+ne,102,upper,LB 970,NEV00000814,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,39,9,1
+ne,102,upper,LB 972,NEV00000815,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 979,NEV00000816,upper,Shall the bill pass?,2012-04-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 983,NEV00000817,upper,Shall the bill pass?,2012-04-02 00:00:00,passage,47,0,2
+ne,102,upper,LB 985,NEV00000818,upper,Shall the bill pass with the emergency clause attached?,2012-03-30 00:00:00,passage,38,0,11
+ne,102,upper,LB 985A,NEV00000819,upper,Shall the bill pass with the emergency clause attached?,2012-03-30 00:00:00,passage,41,0,8
+ne,102,upper,LB 993,NEV00000820,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 993A,NEV00000821,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 995,NEV00000822,upper,Shall the bill pass with the emergency clause attached?,2012-03-30 00:00:00,passage,45,0,4
+ne,102,upper,LB 996,NEV00000823,upper,Shall the bill pass?,2012-04-03 00:00:00,passage,28,20,1
+ne,102,upper,LB 997,NEV00000824,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 998,NEV00000825,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 998A,NEV00000826,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 1001,NEV00000827,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,48,0,1
+ne,102,upper,LB 1005,NEV00000828,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1018,NEV00000829,upper,Shall the bill pass?,2012-03-27 00:00:00,passage,47,0,2
+ne,102,upper,LB 1020,NEV00000830,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,32,15,2
+ne,102,upper,LB 1020,NEV00000900,upper,Shall the bill pass notwithstanding the objections of the Governor?,2012-04-18 00:00:00,passage,27,21,1
+ne,102,upper,LB 1020A,NEV00000831,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,34,0,15
+ne,102,upper,LB 1026,NEV00000832,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1030,NEV00000833,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1031,NEV00000834,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 1035,NEV00000835,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,43,0,6
+ne,102,upper,LB 1038,NEV00000836,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1039,NEV00000837,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,45,0,4
+ne,102,upper,LB 1042,NEV00000838,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,43,0,6
+ne,102,upper,LB 1043,NEV00000839,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 1049,NEV00000840,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,1,4
+ne,102,upper,LB 1051,NEV00000841,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1053,NEV00000842,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 1053A,NEV00000843,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 1054,NEV00000844,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1054A,NEV00000845,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,43,0,6
+ne,102,upper,LB 1057,NEV00000846,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1057A,NEV00000847,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1058,NEV00000848,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 1062,NEV00000849,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1063,NEV00000850,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,44,0,5
+ne,102,upper,LB 1064,NEV00000851,upper,Shall the bill pass?,2012-03-08 00:00:00,passage,47,0,2
+ne,102,upper,LB 1072,NEV00000852,upper,Shall the bill pass with the emergency clause attached?,2012-03-27 00:00:00,passage,42,4,3
+ne,102,upper,LB 1077,NEV00000853,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1079,NEV00000854,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,42,4,3
+ne,102,upper,LB 1079A,NEV00000855,upper,Shall the bill pass with the emergency clause attached?,2012-04-02 00:00:00,passage,45,0,4
+ne,102,upper,LB 1080,NEV00000856,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,44,2,3
+ne,102,upper,LB 1082,NEV00000857,upper,Shall the bill pass with the emergency clause attached?,2012-04-10 00:00:00,passage,48,0,1
+ne,102,upper,LB 1083,NEV00000858,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1087,NEV00000859,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,43,0,6
+ne,102,upper,LB 1087A,NEV00000860,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1090,NEV00000861,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,33,11,5
+ne,102,upper,LB 1090A,NEV00000862,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,32,1,16
+ne,102,upper,LB 1091,NEV00000863,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,44,0,5
+ne,102,upper,LB 1091A,NEV00000864,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,42,0,7
+ne,102,upper,LB 1097,NEV00000865,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,43,0,6
+ne,102,upper,LB 1101,NEV00000866,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1104,NEV00000867,upper,Shall the bill pass?,2012-04-03 00:00:00,passage,44,0,5
+ne,102,upper,LB 1106,NEV00000868,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1113,NEV00000869,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,47,0,2
+ne,102,upper,LB 1114,NEV00000870,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 1115,NEV00000871,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,49,0,0
+ne,102,upper,LB 1116,NEV00000872,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1118,NEV00000873,upper,Shall the bill pass with the emergency clause attached?,2012-03-01 00:00:00,passage,48,0,1
+ne,102,upper,LB 1121,NEV00000874,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,42,0,7
+ne,102,upper,LB 1122,NEV00000875,upper,Shall the bill pass with the emergency clause attached?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1125,NEV00000876,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,49,0,0
+ne,102,upper,LB 1126,NEV00000877,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1128,NEV00000878,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,41,0,8
+ne,102,upper,LB 1128A,NEV00000879,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,42,0,7
+ne,102,upper,LB 1130,NEV00000880,upper,Shall the bill pass?,2012-03-30 00:00:00,passage,44,1,4
+ne,102,upper,LB 1140,NEV00000881,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1141,NEV00000882,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,44,0,5
+ne,102,upper,LB 1145,NEV00000883,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 1145A,NEV00000884,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,46,0,3
+ne,102,upper,LB 1148,NEV00000885,upper,Shall the bill pass?,2012-04-04 00:00:00,passage,45,0,4
+ne,102,upper,LB 1155,NEV00000886,upper,Shall the bill pass?,2012-04-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 1158,NEV00000887,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,48,0,1
+ne,102,upper,LB 1160,NEV00000888,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,45,0,4
+ne,102,upper,LB 1160A,NEV00000889,upper,Shall the bill pass with the emergency clause attached?,2012-04-05 00:00:00,passage,43,0,6
+ne,102,upper,LB 1161,NEV00000890,upper,Shall the bill pass with the emergency clause attached?,2012-04-11 00:00:00,passage,44,5,0
+ne,102,upper,LR 358CA,NEV00000891,upper,Shall the resolution pass?,2012-04-04 00:00:00,passage,31,14,4
+ne,102,upper,LR 373CA,NEV00000892,upper,Shall the resolution pass?,2012-04-04 00:00:00,passage,31,15,3
+ne,102S1,upper,LB 1,NEV00000347,upper,Shall the bill pass with the emergency clause attached?,2011-11-22 00:00:00,passage,48,0,1
+ne,102S1,upper,LB 2,NEV00000348,upper,Shall the bill pass with the emergency clause attached?,2011-11-22 00:00:00,passage,48,0,1
+ne,102S1,upper,LB 4,NEV00000349,upper,Shall the bill pass with the emergency clause attached?,2011-11-22 00:00:00,passage,46,0,3
+ne,102S1,upper,LB 4A,NEV00000350,upper,Shall the bill pass with the emergency clause attached?,2011-11-22 00:00:00,passage,46,0,3
+ne,103,upper,LB 30,NEV00000904,upper,Shall the bill pass with the emergency clause attached?,2013-02-11 00:00:00,passage,49,0,0
+ne,103,upper,LB 408,NEV00000917,upper,Shall the bill pass with the emergency clause attached?,2013-02-22 00:00:00,passage,48,0,1

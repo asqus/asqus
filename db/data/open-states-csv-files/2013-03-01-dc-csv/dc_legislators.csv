@@ -1,0 +1,18 @@
+leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
+DCL000001,Kwame R Brown,Kwame,R,Brown,,,False,dc,,,,,,2011-11-09 02:43:16.888000,2012-06-13 17:21:38.290000
+DCL000004,Michael A Brown,Michael,A,Brown,,,False,dc,,,,,,2011-11-09 02:43:16.945000,2013-01-07 21:05:07.043000
+DCL000006,Sekou Biddle,Sekou,,Biddle,,,False,dc,,,,,,2011-02-17 22:43:55.803000,2012-06-13 17:17:15.837000
+DCL000013,Harry Thomas Jr.,Harry,,Thomas,Jr.,,False,dc,,,,,,2011-02-17 22:43:55.816000,2012-07-09 22:20:33.999000
+DCL000021,Anita Bonds,Anita,,Bonds,,,True,dc,upper,At-Large,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/AAA_small.jpg,2013-01-07 21:05:06.973000,2013-03-01 02:09:46.142000
+DCL000005,Phil Mendelson,Phil,,Mendelson,,,True,dc,upper,Chairman,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/mendelson.jpg,2011-02-17 22:43:55.802000,2013-03-01 02:07:19.865000
+DCL000020,David Grosso,David,,Grosso,,,True,dc,upper,At-Large,Independent,,http://dccouncil.us/files/user_uploads/member_photos/david_grosso_color__small.jpg,2013-01-07 21:05:06.938000,2013-03-01 02:09:46.150000
+DCL000010,Yvette Alexander,Yvette,,Alexander,,,True,dc,upper,Ward 7,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/alexander_dec2011.jpg,2011-02-17 22:43:55.811000,2013-03-01 02:09:46.140000
+DCL000008,Tommy Wells,Tommy,,Wells,,,True,dc,upper,Ward 6,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/wells2.jpg,2011-02-17 22:43:55.807000,2013-03-01 02:09:46.062000
+DCL000014,Vincent Orange,Vincent,,Orange,,,True,dc,upper,At-Large,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/orange.jpg,2011-05-12 02:08:19.741000,2013-03-01 02:09:46.162000
+DCL000011,Muriel Bowser,Muriel,,Bowser,,,True,dc,upper,Ward 4,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/Bowser_Official_Photo_2012_small.jpg,2011-02-17 22:43:55.812000,2013-03-01 02:09:46.044000
+DCL000003,David Catania,David,,Catania,,,True,dc,upper,At-Large,Independent,,http://dccouncil.us/files/user_uploads/member_photos/catania.jpg,2011-02-17 22:43:55.798000,2013-03-01 02:09:46.160000
+DCL000017,Kenyan McDuffie,Kenyan,,McDuffie,,,True,dc,upper,Ward 5,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/Councilmember_Kenyan_R._McDuffie_Official_Photograph_small.jpg,2012-05-31 02:28:23.798000,2013-03-01 02:09:46.060000
+DCL000009,Jack Evans,Jack,,Evans,,,True,dc,upper,Ward 2,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/evans.jpg,2011-02-17 22:43:55.809000,2013-03-01 02:09:46.052000
+DCL000007,Jim Graham,Jim,,Graham,,,True,dc,upper,Ward 1,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/graham.jpg,2011-02-17 22:43:55.805000,2013-03-01 02:09:46.056000
+DCL000002,Mary M Cheh,Mary,M,Cheh,,,True,dc,upper,Ward 3,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/cheh.jpg,2011-02-17 22:43:55.796000,2013-03-01 02:09:46.042000
+DCL000012,Marion Barry,Marion,,Barry,,,True,dc,upper,Ward 8,Democratic,,http://dccouncil.us/files/user_uploads/member_photos/barry.jpg,2011-02-17 22:43:55.814000,2013-03-01 02:09:46.127000

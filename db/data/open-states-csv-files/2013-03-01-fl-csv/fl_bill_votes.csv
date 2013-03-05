@@ -1,0 +1,1238 @@
+state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+fl,2011,upper,S 2,FLV00000001,upper,Third Reading,2011-03-09 00:00:00,other,29,10,1
+fl,2011,upper,S 84,FLV00000002,upper,Third Reading,2011-03-24 00:00:00,other,38,0,2
+fl,2011,upper,S 94,FLV00000003,upper,Third Reading,2011-03-30 00:00:00,other,37,0,3
+fl,2011,upper,S 138,FLV00000004,upper,Third Reading,2011-04-06 00:00:00,other,37,0,3
+fl,2011,upper,S 142,FLV00000005,upper,Third Reading,2011-03-16 00:00:00,other,28,12,0
+fl,2011,upper,S 146,FLV00000006,upper,Third Reading,2011-03-24 00:00:00,other,39,0,1
+fl,2011,upper,S 170,FLV00000007,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 228,FLV00000008,upper,Third Reading,2011-03-24 00:00:00,other,38,0,2
+fl,2011,upper,S 240,FLV00000009,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 244,FLV00000010,upper,Third Reading,2011-04-06 00:00:00,other,37,1,2
+fl,2011,upper,S 246,FLV00000011,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 248,FLV00000012,upper,Third Reading,2011-03-16 00:00:00,other,40,0,0
+fl,2011,upper,S 298,FLV00000013,upper,Third Reading,2011-03-16 00:00:00,other,40,0,0
+fl,2011,upper,S 312,FLV00000014,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 330,FLV00000015,upper,Third Reading,2011-04-06 00:00:00,other,37,0,3
+fl,2011,upper,S 344,FLV00000016,upper,Third Reading,2011-03-24 00:00:00,other,38,0,2
+fl,2011,upper,S 382,FLV00000017,upper,Third Reading,2011-04-06 00:00:00,other,38,0,2
+fl,2011,upper,S 400,FLV00000018,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 410,FLV00000019,upper,Third Reading,2011-03-30 00:00:00,other,37,1,2
+fl,2011,upper,S 444,FLV00000020,upper,Third Reading,2011-03-24 00:00:00,other,37,0,3
+fl,2011,upper,S 462,FLV00000021,upper,Third Reading,2011-04-06 00:00:00,other,37,1,2
+fl,2011,upper,S 478,FLV00000022,upper,Third Reading,2011-03-24 00:00:00,other,38,0,2
+fl,2011,upper,S 618,FLV00000023,upper,Third Reading,2011-03-30 00:00:00,other,38,0,2
+fl,2011,upper,S 702,FLV00000024,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 736,FLV00000025,upper,Third Reading,2011-03-10 00:00:00,other,26,12,2
+fl,2011,upper,S 736,FLV00000026,lower,Quorum,2011-03-15 00:00:00,other,116,2,2
+fl,2011,upper,S 782,FLV00000027,upper,Third Reading,2011-04-06 00:00:00,other,37,0,3
+fl,2011,upper,S 916,FLV00000028,upper,Third Reading,2011-03-09 00:00:00,other,39,0,1
+fl,2011,upper,S 916,FLV00000029,lower,Passage,2011-03-10 00:00:00,other,118,0,2
+fl,2011,upper,S 924,FLV00000030,upper,Third Reading,2011-03-09 00:00:00,other,39,0,1
+fl,2011,upper,S 924,FLV00000031,lower,Passage,2011-03-10 00:00:00,other,118,0,2
+fl,2011,upper,S 944,FLV00000032,upper,Third Reading,2011-03-09 00:00:00,other,39,0,1
+fl,2011,upper,S 944,FLV00000033,lower,Passage,2011-03-10 00:00:00,other,119,0,1
+fl,2011,upper,S 946,FLV00000034,upper,Third Reading,2011-03-09 00:00:00,other,38,0,2
+fl,2011,upper,S 946,FLV00000035,lower,Passage,2011-03-10 00:00:00,other,118,0,2
+fl,2011,upper,S 958,FLV00000036,upper,Third Reading,2011-03-15 00:00:00,other,27,13,0
+fl,2011,upper,S 960,FLV00000037,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 968,FLV00000038,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 1012,FLV00000039,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1012,FLV00000040,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1014,FLV00000041,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1014,FLV00000042,lower,Passage,2011-04-06 00:00:00,other,114,0,5
+fl,2011,upper,S 1016,FLV00000043,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1016,FLV00000044,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1018,FLV00000045,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1020,FLV00000047,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1020,FLV00000048,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1022,FLV00000049,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1022,FLV00000050,lower,Passage,2011-04-06 00:00:00,other,115,0,4
+fl,2011,upper,S 1024,FLV00000051,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1024,FLV00000052,lower,Passage,2011-04-06 00:00:00,other,115,0,4
+fl,2011,upper,S 1026,FLV00000053,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1026,FLV00000054,lower,Passage,2011-04-06 00:00:00,other,117,0,2
+fl,2011,upper,S 1028,FLV00000055,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1028,FLV00000056,lower,Passage,2011-04-06 00:00:00,other,117,0,2
+fl,2011,upper,S 1030,FLV00000057,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1030,FLV00000058,lower,Passage,2011-04-06 00:00:00,other,115,0,4
+fl,2011,upper,S 1032,FLV00000059,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1032,FLV00000060,lower,Passage,2011-04-06 00:00:00,other,118,0,1
+fl,2011,upper,S 1034,FLV00000061,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1034,FLV00000062,lower,Passage,2011-04-06 00:00:00,other,118,0,1
+fl,2011,upper,S 1036,FLV00000063,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1036,FLV00000064,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1038,FLV00000065,upper,Trust Fund Bill,2011-03-15 00:00:00,other,39,0,1
+fl,2011,upper,S 1038,FLV00000066,lower,Passage,2011-04-06 00:00:00,other,118,0,1
+fl,2011,upper,S 1040,FLV00000067,upper,Trust Fund Bill,2011-03-15 00:00:00,other,39,0,1
+fl,2011,upper,S 1042,FLV00000069,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1042,FLV00000070,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1044,FLV00000071,upper,Trust Fund Bill,2011-03-15 00:00:00,other,40,0,0
+fl,2011,upper,S 1044,FLV00000072,lower,Passage,2011-04-06 00:00:00,other,115,0,4
+fl,2011,upper,S 1142,FLV00000073,upper,Third Reading,2011-04-06 00:00:00,other,39,0,1
+fl,2011,upper,S 1202,FLV00000074,upper,Second Reading,2011-03-08 00:00:00,other,37,0,3
+fl,2011,upper,S 1204,FLV00000075,upper,Third Reading,2011-03-08 00:00:00,other,37,0,3
+fl,2011,upper,S 1204,FLV00000076,lower,Passage,2011-03-10 00:00:00,other,96,20,4
+fl,2011,upper,S 1292,FLV00000077,upper,Third Reading,2011-04-07 00:00:00,other,39,0,1
+fl,2011,upper,S 1314,FLV00000078,upper,Third Reading,2011-04-07 00:00:00,other,38,0,2
+fl,2011,upper,S 1314,FLV00000079,lower,Passage,2011-04-07 00:00:00,other,117,0,2
+fl,2011,upper,S 1738,FLV00000080,upper,Third Reading,2011-04-07 00:00:00,other,39,0,1
+fl,2011,upper,S 1738,FLV00000081,lower,Passage,2011-04-07 00:00:00,other,118,0,1
+fl,2011,upper,S 1970,FLV00000082,upper,Third Reading,2011-03-24 00:00:00,other,39,0,1
+fl,2011,upper,S 1970,FLV00000083,lower,Passage,2011-04-14 00:00:00,other,110,6,3
+fl,2011,upper,S 410,FLV00000084,lower,Quorum,2011-04-20 00:00:00,other,116,0,3
+fl,2011,upper,S 410,FLV00000085,lower,Passage,2011-04-20 00:00:00,other,92,24,3
+fl,2011,upper,S 782,FLV00000086,lower,Passage,2011-04-20 00:00:00,other,115,0,4
+fl,2011,upper,S 146,FLV00000087,lower,Passage,2011-04-27 00:00:00,other,116,0,3
+fl,2011,upper,S 400,FLV00000088,lower,Passage,2011-04-26 00:00:00,other,117,1,1
+fl,2011,upper,S 408,FLV00000089,upper,A3 - 173446,2011-04-27 00:00:00,other,12,20,8
+fl,2011,upper,S 408,FLV00000090,upper,A8 - 407132,2011-04-27 00:00:00,other,16,14,10
+fl,2011,upper,S 1654,FLV00000091,upper,Second Reading,2011-04-27 00:00:00,other,39,0,1
+fl,2011,upper,S 4,FLV00000092,upper,Motion to Co-Sponsor,2011-04-28 00:00:00,other,27,0,13
+fl,2011,upper,S 4,FLV00000093,upper,Second Reading,2011-04-28 00:00:00,other,31,7,2
+fl,2011,upper,S 234,FLV00000094,upper,Third Reading,2011-04-28 00:00:00,other,26,11,3
+fl,2011,upper,S 408,FLV00000095,upper,Third Reading,2011-04-28 00:00:00,other,25,12,3
+fl,2011,upper,S 650,FLV00000096,upper,Third Reading,2011-04-28 00:00:00,other,39,0,1
+fl,2011,upper,S 652,FLV00000097,upper,Third Reading,2011-04-28 00:00:00,other,38,0,2
+fl,2011,upper,S 704,FLV00000098,upper,Motion to Co-Sponsor,2011-04-28 00:00:00,other,38,0,2
+fl,2011,upper,S 704,FLV00000099,upper,Third Reading,2011-04-28 00:00:00,other,39,0,1
+fl,2011,upper,S 900,FLV00000100,upper,Third Reading,2011-04-28 00:00:00,other,39,0,1
+fl,2011,upper,S 954,FLV00000101,upper,Second Reading,2011-04-28 00:00:00,other,38,0,2
+fl,2011,upper,S 1150,FLV00000102,upper,Third Reading,2011-04-28 00:00:00,other,38,0,2
+fl,2011,upper,S 1466,FLV00000103,upper,Third Reading,2011-04-28 00:00:00,other,38,1,1
+fl,2011,upper,S 1546,FLV00000104,upper,Third Reading,2011-04-28 00:00:00,other,31,8,1
+fl,2011,upper,S 1992,FLV00000105,upper,Third Reading,2011-04-28 00:00:00,other,39,0,1
+fl,2011,upper,S 88,FLV00000106,upper,Third Reading,2011-04-29 00:00:00,other,38,1,1
+fl,2011,upper,S 502,FLV00000107,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 512,FLV00000108,upper,Third Reading,2011-04-29 00:00:00,other,38,0,2
+fl,2011,upper,S 714,FLV00000109,upper,Third Reading,2011-04-29 00:00:00,other,37,0,3
+fl,2011,upper,S 720,FLV00000110,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 726,FLV00000111,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 726,FLV00000112,upper,Motion to Co-Sponsor,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 844,FLV00000113,upper,Third Reading,2011-04-29 00:00:00,other,38,0,2
+fl,2011,upper,S 846,FLV00000114,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 926,FLV00000115,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 978,FLV00000116,upper,Third Reading,2011-04-29 00:00:00,other,36,0,4
+fl,2011,upper,S 1086,FLV00000117,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 1140,FLV00000118,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 1196,FLV00000119,upper,Third Reading,2011-04-29 00:00:00,other,38,0,2
+fl,2011,upper,S 1206,FLV00000120,upper,Third Reading,2011-04-29 00:00:00,other,34,5,1
+fl,2011,upper,S 1312,FLV00000121,upper,Third Reading,2011-04-29 00:00:00,other,37,0,3
+fl,2011,upper,S 1346,FLV00000122,upper,Third Reading,2011-04-29 00:00:00,other,38,0,2
+fl,2011,upper,S 1884,FLV00000123,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 1990,FLV00000124,upper,Third Reading,2011-04-29 00:00:00,other,38,0,2
+fl,2011,upper,S 2168,FLV00000125,upper,Third Reading,2011-04-29 00:00:00,other,39,0,1
+fl,2011,upper,S 106,FLV00000126,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 224,FLV00000127,upper,Third Reading,2011-05-02 00:00:00,other,37,0,3
+fl,2011,upper,S 224,FLV00000128,upper,Reconsideration,2011-05-02 00:00:00,other,38,0,2
+fl,2011,upper,S 504,FLV00000129,upper,Third Reading,2011-05-02 00:00:00,other,38,0,2
+fl,2011,upper,S 592,FLV00000130,upper,Third Reading,2011-05-02 00:00:00,other,38,0,2
+fl,2011,upper,S 664,FLV00000131,upper,Third Reading,2011-05-02 00:00:00,other,37,0,3
+fl,2011,upper,S 670,FLV00000132,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 786,FLV00000133,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 898,FLV00000134,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 1128,FLV00000135,upper,Third Reading,2011-05-02 00:00:00,other,33,4,3
+fl,2011,upper,S 1254,FLV00000136,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 1366,FLV00000137,upper,Third Reading,2011-05-02 00:00:00,other,36,0,4
+fl,2011,upper,S 1590,FLV00000138,upper,SA2 - 831356,2011-05-02 00:00:00,other,26,13,1
+fl,2011,upper,S 1590,FLV00000139,upper,A15 - 730546,2011-05-02 00:00:00,other,22,17,1
+fl,2011,upper,S 1696,FLV00000140,upper,A8 - 945922,2011-05-02 00:00:00,other,15,21,4
+fl,2011,upper,S 1954,FLV00000141,upper,Third Reading,2011-05-02 00:00:00,other,15,21,4
+fl,2011,upper,S 90,FLV00000142,upper,Third Reading,2011-05-03 00:00:00,other,37,0,3
+fl,2011,upper,S 118,FLV00000143,upper,Third Reading,2011-05-03 00:00:00,other,35,1,4
+fl,2011,upper,S 238,FLV00000145,upper,Third Reading,2011-05-03 00:00:00,other,32,5,3
+fl,2011,upper,S 242,FLV00000146,upper,Third Reading,2011-05-03 00:00:00,other,37,0,3
+fl,2011,upper,S 418,FLV00000148,upper,Third Reading,2011-05-03 00:00:00,other,35,2,3
+fl,2011,upper,S 450,FLV00000149,upper,Third Reading,2011-05-03 00:00:00,other,38,0,2
+fl,2011,upper,S 490,FLV00000150,upper,Third Reading,2011-05-03 00:00:00,other,38,0,2
+fl,2011,upper,S 722,FLV00000151,upper,Third Reading,2011-05-03 00:00:00,other,39,0,1
+fl,2011,upper,S 762,FLV00000152,upper,Third Reading,2011-05-03 00:00:00,other,33,6,1
+fl,2011,upper,S 886,FLV00000153,upper,Third Reading,2011-05-03 00:00:00,other,16,20,4
+fl,2011,upper,S 890,FLV00000154,upper,Third Reading,2011-05-03 00:00:00,other,38,0,2
+fl,2011,upper,S 1226,FLV00000156,upper,Third Reading,2011-05-03 00:00:00,other,32,0,8
+fl,2011,upper,S 1372,FLV00000157,upper,Third Reading,2011-05-03 00:00:00,other,36,0,4
+fl,2011,upper,S 1390,FLV00000158,upper,Third Reading,2011-05-03 00:00:00,other,37,1,2
+fl,2011,upper,S 1430,FLV00000159,upper,Third Reading,2011-05-03 00:00:00,other,38,1,1
+fl,2011,upper,S 1574,FLV00000160,upper,Third Reading,2011-05-03 00:00:00,other,39,0,1
+fl,2011,upper,S 1584,FLV00000161,upper,Third Reading,2011-05-03 00:00:00,other,33,0,7
+fl,2011,upper,S 1586,FLV00000162,upper,Third Reading,2011-05-03 00:00:00,other,39,0,1
+fl,2011,upper,S 1676,FLV00000163,upper,Third Reading,2011-05-03 00:00:00,other,38,0,2
+fl,2011,upper,S 1788,FLV00000164,upper,Third Reading,2011-05-03 00:00:00,other,36,2,2
+fl,2011,upper,S 1816,FLV00000165,upper,Third Reading,2011-05-03 00:00:00,other,38,0,2
+fl,2011,upper,S 1824,FLV00000166,upper,Third Reading,2011-05-03 00:00:00,other,35,3,2
+fl,2011,upper,S 1850,FLV00000167,upper,Third Reading,2011-05-02 00:00:00,other,39,0,1
+fl,2011,upper,S 1974,FLV00000168,upper,D1 - 682466,2011-05-03 00:00:00,other,20,19,1
+fl,2011,upper,S 2040,FLV00000169,upper,AA1 - 928878,2011-05-03 00:00:00,other,16,23,1
+fl,2011,upper,S 2064,FLV00000170,upper,Third Reading,2011-05-03 00:00:00,other,39,0,1
+fl,2011,upper,S 2,FLV00000171,lower,Passage,2011-05-04 00:00:00,other,80,37,2
+fl,2011,upper,S 46,FLV00000172,upper,Third Reading,2011-05-04 00:00:00,other,39,0,1
+fl,2011,upper,S 84,FLV00000173,lower,Passage,2011-05-04 00:00:00,other,113,1,5
+fl,2011,upper,S 88,FLV00000174,lower,Passage,2011-05-04 00:00:00,other,115,2,2
+fl,2011,upper,S 142,FLV00000175,lower,A1 - 591225,2011-05-03 00:00:00,other,76,39,4
+fl,2011,upper,S 142,FLV00000176,lower,Passage,2011-05-04 00:00:00,other,80,35,4
+fl,2011,upper,S 146,FLV00000177,upper,Returning Message,2011-05-04 00:00:00,other,39,0,1
+fl,2011,upper,S 170,FLV00000178,lower,Passage,2011-05-04 00:00:00,other,115,0,4
+fl,2011,upper,S 224,FLV00000179,lower,Passage,2011-05-04 00:00:00,other,116,0,3
+fl,2011,upper,S 228,FLV00000180,lower,Passage,2011-05-04 00:00:00,other,101,15,3
+fl,2011,upper,S 234,FLV00000181,lower,Motion,2011-05-04 00:00:00,other,88,28,3
+fl,2011,upper,S 234,FLV00000182,lower,Passage,2011-05-04 00:00:00,other,99,17,3
+fl,2011,upper,S 240,FLV00000183,lower,Passage,2011-05-04 00:00:00,other,112,0,7
+fl,2011,upper,S 298,FLV00000184,lower,Passage,2011-05-04 00:00:00,other,116,0,3
+fl,2011,upper,S 330,FLV00000185,lower,Passage,2011-05-04 00:00:00,other,111,4,4
+fl,2011,upper,S 344,FLV00000186,lower,Passage,2011-05-04 00:00:00,other,115,0,4
+fl,2011,upper,S 408,FLV00000187,lower,AA1 - 877895,2011-05-03 00:00:00,other,48,61,10
+fl,2011,upper,S 408,FLV00000189,lower,Passage,2011-05-04 00:00:00,other,85,33,1
+fl,2011,upper,S 410,FLV00000190,upper,Returning Message,2011-05-04 00:00:00,other,38,0,2
+fl,2011,upper,S 444,FLV00000191,lower,Passage,2011-05-04 00:00:00,other,118,0,1
+fl,2011,upper,S 450,FLV00000192,lower,Passage,2011-05-04 00:00:00,other,118,0,1
+fl,2011,upper,S 462,FLV00000193,lower,Passage,2011-05-04 00:00:00,other,113,2,4
+fl,2011,upper,S 478,FLV00000194,lower,Passage,2011-05-04 00:00:00,other,114,0,5
+fl,2011,upper,S 504,FLV00000195,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 512,FLV00000196,lower,Passage,2011-05-04 00:00:00,other,115,1,3
+fl,2011,upper,S 584,FLV00000197,upper,A1 - 887754,2011-05-04 00:00:00,other,18,18,4
+fl,2011,upper,S 592,FLV00000199,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 650,FLV00000201,lower,Passage,2011-05-04 00:00:00,other,114,1,4
+fl,2011,upper,S 652,FLV00000202,lower,Passage,2011-05-04 00:00:00,other,115,0,4
+fl,2011,upper,S 664,FLV00000203,lower,Passage,2011-05-04 00:00:00,other,118,0,1
+fl,2011,upper,S 670,FLV00000204,lower,Passage,2011-05-04 00:00:00,other,115,0,4
+fl,2011,upper,S 702,FLV00000205,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 722,FLV00000206,lower,Passage,2011-05-04 00:00:00,other,99,17,3
+fl,2011,upper,S 844,FLV00000207,lower,Passage,2011-05-04 00:00:00,other,115,1,3
+fl,2011,upper,S 898,FLV00000208,lower,Passage,2011-05-04 00:00:00,other,118,0,1
+fl,2011,upper,S 926,FLV00000209,lower,Passage,2011-05-04 00:00:00,other,106,11,2
+fl,2011,upper,S 958,FLV00000210,lower,Passage,2011-05-04 00:00:00,other,78,40,1
+fl,2011,upper,S 960,FLV00000211,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 1052,FLV00000212,upper,Third Reading,2011-05-04 00:00:00,other,38,0,2
+fl,2011,upper,S 1128,FLV00000214,lower,Passage,2011-05-04 00:00:00,other,80,35,4
+fl,2011,upper,S 1142,FLV00000215,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 1150,FLV00000216,lower,AA3 - 165875,2011-05-03 00:00:00,other,64,49,6
+fl,2011,upper,S 1150,FLV00000217,lower,Passage,2011-05-04 00:00:00,other,116,0,3
+fl,2011,upper,S 1312,FLV00000219,lower,Passage,2011-05-04 00:00:00,other,115,1,3
+fl,2011,upper,S 1316,FLV00000220,upper,Third Reading,2011-05-04 00:00:00,other,39,0,1
+fl,2011,upper,S 1346,FLV00000221,lower,Passage,2011-05-04 00:00:00,other,102,8,9
+fl,2011,upper,S 1366,FLV00000222,lower,Passage,2011-05-04 00:00:00,other,116,0,3
+fl,2011,upper,S 1430,FLV00000223,lower,Passage,2011-05-04 00:00:00,other,117,0,2
+fl,2011,upper,S 1676,FLV00000226,lower,Passage,2011-05-04 00:00:00,other,109,8,2
+fl,2011,upper,S 1770,FLV00000227,upper,A2 - 696880,2011-05-04 00:00:00,other,19,20,1
+fl,2011,upper,S 1816,FLV00000228,lower,Passage,2011-05-04 00:00:00,other,116,0,3
+fl,2011,upper,S 1884,FLV00000229,lower,Passage,2011-05-04 00:00:00,other,116,1,2
+fl,2011,upper,S 1902,FLV00000231,upper,Third Reading,2011-05-04 00:00:00,other,39,0,1
+fl,2011,upper,S 1992,FLV00000232,lower,Passage,2011-05-04 00:00:00,other,106,0,13
+fl,2011,upper,S 2040,FLV00000233,upper,Third Reading,2011-05-04 00:00:00,other,23,16,1
+fl,2011,upper,S 42,FLV00000234,upper,Third Reading,2011-05-05 00:00:00,other,29,3,8
+fl,2011,upper,S 88,FLV00000235,upper,Returning Message,2011-05-05 00:00:00,other,37,0,3
+fl,2011,upper,S 408,FLV00000236,lower,AA11 - 376165,2011-05-04 00:00:00,other,79,37,3
+fl,2011,upper,S 408,FLV00000237,upper,SA3 - 527646,2011-05-05 00:00:00,other,18,20,2
+fl,2011,upper,S 408,FLV00000238,upper,Returning Message,2011-05-05 00:00:00,other,26,11,3
+fl,2011,upper,S 702,FLV00000240,upper,Returning Message,2011-05-05 00:00:00,other,34,0,6
+fl,2011,upper,S 1122,FLV00000241,upper,Third Reading,2011-05-05 00:00:00,other,30,9,1
+fl,2011,upper,S 1128,FLV00000242,lower,A1 - 313805,2011-05-04 00:00:00,other,53,63,3
+fl,2011,upper,S 1398,FLV00000243,upper,Third Reading,2011-05-05 00:00:00,other,33,3,4
+fl,2011,upper,S 88,FLV00000244,lower,AA1 - 257371,2011-05-05 00:00:00,other,60,55,4
+fl,2011,upper,S 88,FLV00000245,lower,Passage,2011-05-05 00:00:00,other,113,2,4
+fl,2011,upper,S 88,FLV00000246,upper,Returning Message,2011-05-06 00:00:00,other,39,0,1
+fl,2011,upper,S 1246,FLV00000247,upper,Third Reading,2011-05-06 00:00:00,other,25,10,5
+fl,2011,upper,S 1314,FLV00000248,upper,Conference Committee Report,2011-05-06 00:00:00,other,37,0,3
+fl,2011,upper,S 1738,FLV00000249,upper,Conference Committee Report,2011-05-06 00:00:00,other,36,0,4
+fl,2011,upper,S 404,FLV00000250,upper,Third Reading,2011-05-06 00:00:00,other,38,1,1
+fl,2011,upper,S 1314,FLV00000252,lower,Passage,2011-05-07 00:00:00,other,117,0,2
+fl,2011,upper,S 1316,FLV00000253,lower,Passage,2011-05-06 00:00:00,other,116,1,2
+fl,2011,upper,S 1738,FLV00000254,lower,Passage,2011-05-07 00:00:00,other,94,24,1
+fl,2011,upper,S 1196,FLV00000255,lower,Passage,2011-05-04 00:00:00,other,118,0,1
+fl,2011,upper,S 584,FLV00000256,upper,A2 - 807680,2011-05-04 00:00:00,other,18,18,4
+fl,2011,upper,S 584,FLV00000257,upper,Third Reading,2011-05-05 00:00:00,other,19,18,3
+fl,2011,upper,S 1040,FLV00000258,lower,Passage,2011-04-06 00:00:00,other,116,0,3
+fl,2011,upper,S 1018,FLV00000259,lower,Passage,2011-04-06 00:00:00,other,114,0,5
+fl,2011,upper,S 1884,FLV00000260,upper,Returning Message,2011-05-04 00:00:00,other,38,0,2
+fl,2011,upper,S 1546,FLV00000261,lower,Passage,2011-05-04 00:00:00,other,87,27,5
+fl,2011,upper,S 1546,FLV00000262,upper,Returning Message,2011-05-04 00:00:00,other,33,6,1
+fl,2011,upper,S 404,FLV00000263,lower,Passage,2011-05-06 00:00:00,other,118,1,0
+fl,2011,upper,S 618,FLV00000264,lower,Passage,2011-05-04 00:00:00,other,114,0,5
+fl,2012B,upper,S 2B,FLV00000444,upper,SA5 - 655266,2012-03-22 00:00:00,other,20,15,5
+fl,2012B,upper,S 2B,FLV00000445,upper,Third Reading,2012-03-22 00:00:00,other,31,6,3
+fl,2012B,upper,S 2B,FLV00000446,lower,A1 - 724771,2012-03-27 00:00:00,other,36,72,11
+fl,2012B,upper,S 2B,FLV00000447,lower,Quorum,2012-03-27 00:00:00,other,108,0,11
+fl,2012B,upper,S 2B,FLV00000448,lower,Passage,2012-03-27 00:00:00,other,61,47,11
+fl,2012,upper,S 2,FLV00000265,upper,Third Reading,2012-01-10 00:00:00,other,39,1,0
+fl,2012,upper,S 2,FLV00000328,lower,Passage,2012-02-24 00:00:00,other,107,5,8
+fl,2012,upper,S 2,FLV00000353,upper,Returning Message,2012-03-01 00:00:00,other,38,1,1
+fl,2012,upper,S 4,FLV00000266,upper,Third Reading,2012-01-10 00:00:00,other,37,2,1
+fl,2012,upper,S 4,FLV00000364,lower,Passage,2012-03-05 00:00:00,other,107,7,5
+fl,2012,upper,S 4,FLV00000377,upper,Returning Message,2012-03-07 00:00:00,other,36,4,0
+fl,2012,upper,S 4,FLV00000415,lower,Passage,2012-03-08 00:00:00,other,110,7,2
+fl,2012,upper,S 4,FLV00000428,upper,Returning Message,2012-03-08 00:00:00,other,36,3,1
+fl,2012,upper,S 22,FLV00000378,upper,Third Reading,2012-03-07 00:00:00,other,35,5,0
+fl,2012,upper,S 40,FLV00000379,upper,Third Reading,2012-03-07 00:00:00,other,33,4,3
+fl,2012,upper,S 80,FLV00000416,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,upper,S 98,FLV00000280,upper,Third Reading,2012-02-01 00:00:00,other,31,8,1
+fl,2012,upper,S 98,FLV00000354,lower,Quorum,2012-03-01 00:00:00,other,113,0,6
+fl,2012,upper,S 98,FLV00000454,lower,Passage,2012-03-01 00:00:00,other,88,27,4
+fl,2012,upper,S 116,FLV00000296,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 116,FLV00000380,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 140,FLV00000297,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 140,FLV00000381,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 148,FLV00000429,upper,Third Reading,2012-03-09 00:00:00,other,37,1,2
+fl,2012,upper,S 186,FLV00000309,upper,Third Reading,2012-02-14 00:00:00,other,39,0,1
+fl,2012,upper,S 186,FLV00000382,lower,Passage,2012-03-07 00:00:00,other,116,2,1
+fl,2012,upper,S 198,FLV00000356,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 198,FLV00000365,lower,Passage,2012-03-05 00:00:00,other,109,0,10
+fl,2012,upper,S 206,FLV00000310,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 226,FLV00000311,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 226,FLV00000383,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 244,FLV00000329,upper,Third Reading,2012-02-29 00:00:00,other,36,1,3
+fl,2012,upper,S 260,FLV00000267,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 266,FLV00000357,upper,Third Reading,2012-03-02 00:00:00,other,36,3,1
+fl,2012,upper,S 268,FLV00000330,upper,Third Reading,2012-02-29 00:00:00,other,29,4,7
+fl,2012,upper,S 268,FLV00000384,lower,Passage,2012-03-07 00:00:00,other,112,6,1
+fl,2012,upper,S 276,FLV00000312,upper,Third Reading,2012-02-13 00:00:00,other,40,0,0
+fl,2012,upper,S 276,FLV00000385,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 278,FLV00000298,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 278,FLV00000386,lower,Passage,2012-03-07 00:00:00,other,117,1,1
+fl,2012,upper,S 282,FLV00000387,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,upper,S 296,FLV00000388,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,upper,S 316,FLV00000331,upper,Third Reading,2012-02-29 00:00:00,other,37,0,3
+fl,2012,upper,S 326,FLV00000299,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 326,FLV00000389,lower,Passage,2012-03-07 00:00:00,other,115,0,4
+fl,2012,upper,S 332,FLV00000358,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 334,FLV00000390,upper,Third Reading,2012-03-07 00:00:00,other,38,1,1
+fl,2012,upper,S 346,FLV00000313,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 362,FLV00000366,upper,Third Reading,2012-03-05 00:00:00,other,34,0,6
+fl,2012,upper,S 364,FLV00000268,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 364,FLV00000391,lower,Passage,2012-03-07 00:00:00,other,116,1,2
+fl,2012,upper,S 364,FLV00000417,upper,Returning Message,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 366,FLV00000332,upper,Third Reading,2012-02-29 00:00:00,other,37,0,3
+fl,2012,upper,S 368,FLV00000269,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 368,FLV00000392,lower,Passage,2012-03-07 00:00:00,other,81,35,3
+fl,2012,upper,S 374,FLV00000281,upper,Third Reading,2012-02-01 00:00:00,other,38,0,2
+fl,2012,upper,S 374,FLV00000393,lower,Passage,2012-03-07 00:00:00,other,116,0,3
+fl,2012,upper,S 390,FLV00000300,upper,Third Reading,2012-02-08 00:00:00,other,37,1,2
+fl,2012,upper,S 408,FLV00000333,upper,Third Reading,2012-02-29 00:00:00,other,38,1,1
+fl,2012,upper,S 434,FLV00000270,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 436,FLV00000314,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 436,FLV00000394,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 440,FLV00000334,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,upper,S 446,FLV00000282,upper,Third Reading,2012-02-01 00:00:00,other,38,0,2
+fl,2012,upper,S 446,FLV00000395,lower,Passage,2012-03-07 00:00:00,other,116,1,2
+fl,2012,upper,S 452,FLV00000301,upper,Third Reading,2012-02-08 00:00:00,other,37,0,3
+fl,2012,upper,S 488,FLV00000335,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,upper,S 510,FLV00000369,upper,Third Reading,2012-03-06 00:00:00,other,37,0,3
+fl,2012,upper,S 520,FLV00000302,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 520,FLV00000396,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 524,FLV00000271,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 524,FLV00000397,lower,Passage,2012-03-07 00:00:00,other,114,1,4
+fl,2012,upper,S 524,FLV00000418,upper,Returning Message,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 528,FLV00000315,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 534,FLV00000419,upper,Third Reading,2012-03-08 00:00:00,other,33,0,7
+fl,2012,upper,S 536,FLV00000370,upper,Third Reading,2012-03-06 00:00:00,other,37,0,3
+fl,2012,upper,S 538,FLV00000359,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 544,FLV00000371,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,upper,S 570,FLV00000283,upper,Third Reading,2012-02-01 00:00:00,other,38,0,2
+fl,2012,upper,S 570,FLV00000398,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 582,FLV00000360,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 584,FLV00000303,upper,Third Reading,2012-02-08 00:00:00,other,39,0,1
+fl,2012,upper,S 600,FLV00000316,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 608,FLV00000272,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 608,FLV00000399,lower,Passage,2012-03-07 00:00:00,other,116,0,3
+fl,2012,upper,S 634,FLV00000273,upper,Third Reading,2012-01-10 00:00:00,other,40,0,0
+fl,2012,upper,S 634,FLV00000279,lower,Passage,2012-01-25 00:00:00,other,115,0,5
+fl,2012,upper,S 638,FLV00000304,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 638,FLV00000400,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 678,FLV00000361,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 692,FLV00000327,upper,Third Reading,2012-02-23 00:00:00,other,37,2,1
+fl,2012,upper,S 692,FLV00000401,lower,Passage,2012-03-07 00:00:00,other,104,13,2
+fl,2012,upper,S 692,FLV00000420,upper,Returning Message,2012-03-08 00:00:00,other,39,0,1
+fl,2012,upper,S 694,FLV00000336,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,upper,S 694,FLV00000402,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 694,FLV00000421,upper,Returning Message,2012-03-08 00:00:00,other,39,0,1
+fl,2012,upper,S 704,FLV00000363,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,upper,S 704,FLV00000367,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,upper,S 730,FLV00000337,upper,Third Reading,2012-02-29 00:00:00,other,38,0,2
+fl,2012,upper,S 730,FLV00000403,lower,Passage,2012-03-07 00:00:00,other,80,35,4
+fl,2012,upper,S 730,FLV00000422,upper,Returning Message,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 730,FLV00000430,lower,Passage,2012-03-08 00:00:00,other,82,37,0
+fl,2012,upper,S 780,FLV00000317,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 792,FLV00000294,upper,Motion to Co-Sponsor,2012-02-07 00:00:00,other,40,0,0
+fl,2012,upper,S 792,FLV00000305,upper,Third Reading,2012-02-08 00:00:00,other,39,0,1
+fl,2012,upper,S 792,FLV00000404,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 800,FLV00000306,upper,Third Reading,2012-02-08 00:00:00,other,38,0,2
+fl,2012,upper,S 800,FLV00000405,lower,Passage,2012-03-07 00:00:00,other,113,2,4
+fl,2012,upper,S 800,FLV00000423,upper,Returning Message,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 878,FLV00000338,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,upper,S 878,FLV00000443,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 922,FLV00000277,upper,Motion to Co-Sponsor,2012-01-24 00:00:00,other,40,0,0
+fl,2012,upper,S 922,FLV00000278,upper,Third Reading,2012-01-24 00:00:00,other,40,0,0
+fl,2012,upper,S 922,FLV00000407,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 922,FLV00000424,upper,Returning Message,2012-03-08 00:00:00,other,39,0,1
+fl,2012,upper,S 924,FLV00000307,upper,Third Reading,2012-02-08 00:00:00,other,39,0,1
+fl,2012,upper,S 924,FLV00000408,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 990,FLV00000318,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 990,FLV00000409,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,upper,S 1040,FLV00000362,upper,Third Reading,2012-03-02 00:00:00,other,33,7,0
+fl,2012,upper,S 1040,FLV00000368,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,upper,S 1050,FLV00000339,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,upper,S 1050,FLV00000410,lower,Passage,2012-03-07 00:00:00,other,116,0,3
+fl,2012,upper,S 1092,FLV00000411,upper,Third Reading,2012-03-07 00:00:00,other,39,1,0
+fl,2012,upper,S 1174,FLV00000274,upper,Third Reading,2012-01-17 00:00:00,other,34,6,0
+fl,2012,upper,S 1174,FLV00000284,lower,D1 - 832579,2012-02-02 00:00:00,other,114,2,4
+fl,2012,upper,S 1174,FLV00000285,lower,D1 - 832579,2012-02-02 00:00:00,other,80,39,1
+fl,2012,upper,S 1174,FLV00000290,lower,Quorum,2012-02-03 00:00:00,other,117,0,3
+fl,2012,upper,S 1174,FLV00000291,lower,Passage,2012-02-03 00:00:00,other,80,37,3
+fl,2012,upper,S 1174,FLV00000319,upper,Returning Message,2012-02-09 00:00:00,other,32,5,3
+fl,2012,upper,S 1176,FLV00000275,upper,Motion to Read Third Time,2012-01-17 00:00:00,other,27,12,1
+fl,2012,upper,S 1176,FLV00000276,upper,Third Reading,2012-01-17 00:00:00,other,34,6,0
+fl,2012,upper,S 1176,FLV00000286,lower,A1 - 601757,2012-02-02 00:00:00,other,115,0,5
+fl,2012,upper,S 1176,FLV00000455,lower,A1 - 601757,2012-02-02 00:00:00,other,116,0,4
+fl,2012,upper,S 1176,FLV00000456,lower,A1 - 601757,2012-02-02 00:00:00,other,80,39,1
+fl,2012,upper,S 1176,FLV00000457,lower,A2 - 756455,2012-02-02 00:00:00,other,0,118,2
+fl,2012,upper,S 1176,FLV00000458,lower,Quorum,2012-02-03 00:00:00,other,116,0,4
+fl,2012,upper,S 1176,FLV00000459,lower,Passage,2012-02-03 00:00:00,other,80,37,3
+fl,2012,upper,S 1176,FLV00000460,upper,Returning Message,2012-02-09 00:00:00,other,31,7,2
+fl,2012,upper,S 1286,FLV00000425,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 1346,FLV00000431,upper,A1 - 134088,2012-03-09 00:00:00,other,25,15,0
+fl,2012,upper,S 1382,FLV00000432,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,upper,S 1392,FLV00000372,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,upper,S 1474,FLV00000433,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,upper,S 1516,FLV00000426,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 1626,FLV00000427,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,upper,S 1718,FLV00000434,upper,A2 - 938018,2012-03-08 00:00:00,other,21,19,0
+fl,2012,upper,S 1718,FLV00000435,upper,A5 - 475000,2012-03-08 00:00:00,other,18,22,0
+fl,2012,upper,S 1718,FLV00000436,upper,A6 - 958994,2012-03-08 00:00:00,other,19,21,0
+fl,2012,upper,S 1718,FLV00000437,upper,A9 - 679266,2012-03-08 00:00:00,other,22,18,0
+fl,2012,upper,S 1718,FLV00000438,upper,A12 - 628308,2012-03-08 00:00:00,other,19,21,0
+fl,2012,upper,S 1718,FLV00000439,upper,A13 - 415328,2012-03-08 00:00:00,other,23,17,0
+fl,2012,upper,S 1718,FLV00000440,upper,Third Reading,2012-03-09 00:00:00,other,20,20,0
+fl,2012,upper,S 1724,FLV00000308,upper,Third Reading,2012-02-08 00:00:00,other,39,0,1
+fl,2012,upper,S 1724,FLV00000412,lower,Passage,2012-03-07 00:00:00,other,117,0,2
+fl,2012,upper,S 1778,FLV00000295,upper,Second Reading,2012-02-07 00:00:00,other,27,12,1
+fl,2012,upper,S 1778,FLV00000340,lower,Second Reading,2012-02-29 00:00:00,other,76,32,11
+fl,2012,upper,S 1822,FLV00000341,lower,Second Reading,2012-02-29 00:00:00,other,72,32,15
+fl,2012,upper,S 1856,FLV00000321,upper,Third Reading,2012-02-14 00:00:00,other,39,0,1
+fl,2012,upper,S 1856,FLV00000413,lower,Passage,2012-03-07 00:00:00,other,115,0,4
+fl,2012,upper,S 1860,FLV00000373,upper,SA4 - 230376,2012-03-06 00:00:00,other,24,15,1
+fl,2012,upper,S 1860,FLV00000374,upper,SA4 - 230376,2012-03-06 00:00:00,other,24,14,2
+fl,2012,upper,S 1860,FLV00000375,upper,SA4 - 230376,2012-03-06 00:00:00,other,22,18,0
+fl,2012,upper,S 1886,FLV00000376,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,upper,S 2038,FLV00000322,upper,SA7 - 728526,2012-02-13 00:00:00,other,22,18,0
+fl,2012,upper,S 2038,FLV00000323,upper,D6 - 344440,2012-02-13 00:00:00,other,19,21,0
+fl,2012,upper,S 2038,FLV00000324,upper,A17 - 257150,2012-02-13 00:00:00,other,17,22,1
+fl,2012,upper,S 2038,FLV00000325,upper,Third Reading,2012-02-14 00:00:00,other,19,21,0
+fl,2012,upper,S 2058,FLV00000326,upper,Third Reading,2012-02-14 00:00:00,other,40,0,0
+fl,2012,upper,S 2058,FLV00000414,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,lower,H 5703,FLV00000342,lower,Passage,2012-02-09 00:00:00,other,105,10,5
+fl,2012,lower,H 7087,FLV00000343,lower,A1 - 551297,2012-02-14 00:00:00,other,39,78,3
+fl,2012,lower,H 7087,FLV00000344,lower,AA2 - 862619,2012-02-14 00:00:00,other,79,39,2
+fl,2012,lower,H 7087,FLV00000345,lower,AA3 - 953785,2012-02-14 00:00:00,other,37,77,6
+fl,2012,lower,H 7087,FLV00000346,lower,AA4 - 066951,2012-02-14 00:00:00,other,79,37,4
+fl,2012,lower,H 7087,FLV00000347,lower,AA7 - 383063,2012-02-14 00:00:00,other,78,38,4
+fl,2012,lower,H 7087,FLV00000348,lower,A9 - 839095,2012-02-14 00:00:00,other,111,0,9
+fl,2012,lower,H 7087,FLV00000349,lower,AA10 - 810471,2012-02-14 00:00:00,other,79,36,5
+fl,2012,lower,H 7087,FLV00000350,lower,AA11 - 211059,2012-02-14 00:00:00,other,79,37,4
+fl,2012,lower,H 7087,FLV00000351,lower,Passage,2012-02-15 00:00:00,other,92,22,6
+fl,2012,lower,H 7087,FLV00000441,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 7087,FLV00000442,lower,Passage,2012-03-09 00:00:00,other,117,1,1
+fl,2012,lower,H 7089,FLV00000352,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,upper,S 1210,FLV00000461,upper,Motion to Co-Sponsor,2012-02-29 00:00:00,other,40,0,0
+fl,2012,upper,S 1396,FLV00000462,upper,Motion to Co-Sponsor,2012-02-01 00:00:00,other,39,0,1
+fl,2012,upper,S 1958,FLV00000463,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1958,FLV00000464,lower,Passage,2012-02-27 00:00:00,other,89,22,8
+fl,2012,upper,S 1958,FLV00000465,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,upper,S 1958,FLV00000466,lower,Passage,2012-03-09 00:00:00,other,82,32,5
+fl,2012,upper,S 1960,FLV00000467,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1960,FLV00000468,lower,Passage,2012-02-27 00:00:00,other,107,3,9
+fl,2012,upper,S 1960,FLV00000469,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,upper,S 1960,FLV00000470,lower,Passage,2012-03-09 00:00:00,other,115,0,4
+fl,2012,upper,S 1964,FLV00000471,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1964,FLV00000472,lower,Passage,2012-02-27 00:00:00,other,102,10,7
+fl,2012,upper,S 1964,FLV00000473,upper,Conference Committee Report,2012-03-09 00:00:00,other,39,0,1
+fl,2012,upper,S 1964,FLV00000474,lower,Passage,2012-03-09 00:00:00,other,110,5,4
+fl,2012,upper,S 1968,FLV00000475,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1968,FLV00000476,lower,Passage,2012-02-27 00:00:00,other,100,11,8
+fl,2012,upper,S 1968,FLV00000477,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,upper,S 1968,FLV00000478,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,upper,S 1986,FLV00000479,upper,Third Reading,2012-02-23 00:00:00,other,32,7,1
+fl,2012,upper,S 1986,FLV00000480,upper,Conference Committee Report,2012-03-09 00:00:00,other,34,6,0
+fl,2012,upper,S 1986,FLV00000481,lower,Passage,2012-03-09 00:00:00,other,117,0,2
+fl,2012,upper,S 1990,FLV00000482,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1990,FLV00000483,lower,Passage,2012-02-27 00:00:00,other,88,23,8
+fl,2012,upper,S 1994,FLV00000484,upper,Third Reading,2012-02-23 00:00:00,other,35,4,1
+fl,2012,upper,S 1994,FLV00000485,lower,Passage,2012-02-27 00:00:00,other,101,10,8
+fl,2012,upper,S 1994,FLV00000486,upper,Conference Committee Report,2012-03-09 00:00:00,other,36,4,0
+fl,2012,upper,S 1994,FLV00000487,lower,Passage,2012-03-09 00:00:00,other,86,31,2
+fl,2012,upper,S 1996,FLV00000488,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1996,FLV00000489,lower,Passage,2012-02-27 00:00:00,other,103,8,8
+fl,2012,upper,S 1996,FLV00000490,upper,Conference Committee Report,2012-03-09 00:00:00,other,38,0,2
+fl,2012,upper,S 1996,FLV00000491,lower,Passage,2012-03-09 00:00:00,other,106,11,2
+fl,2012,upper,S 1998,FLV00000492,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,upper,S 1998,FLV00000493,lower,Passage,2012-02-27 00:00:00,other,105,6,8
+fl,2012,upper,S 1998,FLV00000494,upper,Conference Committee Report,2012-03-09 00:00:00,other,38,2,0
+fl,2012,upper,S 1998,FLV00000495,lower,Passage,2012-03-09 00:00:00,other,85,29,5
+fl,2012,upper,S 2126,FLV00000496,upper,Second Reading,2012-02-23 00:00:00,other,40,0,0
+fl,2012,lower,H 1,FLV00000497,lower,Passage,2012-01-05 00:00:00,other,120,0,0
+fl,2012,lower,H 3,FLV00000498,lower,Passage,2012-03-01 00:00:00,other,72,43,4
+fl,2012,lower,H 5,FLV00000499,lower,Passage,2012-02-29 00:00:00,other,104,12,3
+fl,2012,lower,H 13,FLV00000500,lower,Passage,2012-02-29 00:00:00,other,111,0,8
+fl,2012,lower,H 13,FLV00000501,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 15,FLV00000502,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 19,FLV00000503,lower,Passage,2012-02-29 00:00:00,other,108,7,4
+fl,2012,lower,H 31,FLV00000504,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 31,FLV00000505,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 37,FLV00000506,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 37,FLV00000507,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 43,FLV00000508,lower,Passage,2012-03-05 00:00:00,other,107,7,5
+fl,2012,lower,H 45,FLV00000509,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 45,FLV00000510,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 55,FLV00000511,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 59,FLV00000512,lower,Passage,2012-02-23 00:00:00,other,112,0,8
+fl,2012,lower,H 59,FLV00000513,upper,Third Reading,2012-03-05 00:00:00,other,30,0,10
+fl,2012,lower,H 87,FLV00000514,lower,Passage,2012-02-15 00:00:00,other,80,36,4
+fl,2012,lower,H 87,FLV00000515,upper,Third Reading,2012-02-23 00:00:00,other,29,6,5
+fl,2012,lower,H 93,FLV00000516,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 93,FLV00000517,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 95,FLV00000518,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 95,FLV00000519,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 95,FLV00000520,lower,Passage,2012-03-09 00:00:00,other,118,0,1
+fl,2012,lower,H 99,FLV00000521,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 99,FLV00000522,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 103,FLV00000523,lower,Passage,2012-02-03 00:00:00,other,115,0,5
+fl,2012,lower,H 103,FLV00000524,upper,Third Reading,2012-03-07 00:00:00,other,36,1,3
+fl,2012,lower,H 107,FLV00000525,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 107,FLV00000526,upper,Third Reading,2012-02-29 00:00:00,other,35,0,5
+fl,2012,lower,H 119,FLV00000527,lower,Passage,2012-03-02 00:00:00,other,85,30,4
+fl,2012,lower,H 119,FLV00000528,upper,Third Reading,2012-03-07 00:00:00,other,39,1,0
+fl,2012,lower,H 119,FLV00000529,lower,AA5 - 806441,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 119,FLV00000530,lower,AA5 - 806441,2012-03-09 00:00:00,other,40,77,2
+fl,2012,lower,H 119,FLV00000531,lower,AA6 - 050289,2012-03-09 00:00:00,other,37,77,5
+fl,2012,lower,H 119,FLV00000532,lower,Passage,2012-03-09 00:00:00,other,80,34,5
+fl,2012,lower,H 119,FLV00000533,upper,Returning Message,2012-03-09 00:00:00,other,21,19,0
+fl,2012,lower,H 119,FLV00000534,upper,Returning Message,2012-03-09 00:00:00,other,22,17,1
+fl,2012,lower,H 133,FLV00000535,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 135,FLV00000536,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 157,FLV00000537,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 169,FLV00000538,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 169,FLV00000539,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 171,FLV00000540,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 171,FLV00000541,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 173,FLV00000542,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 173,FLV00000543,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,lower,H 177,FLV00000544,lower,Passage,2012-03-01 00:00:00,other,112,4,3
+fl,2012,lower,H 177,FLV00000545,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 189,FLV00000546,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 189,FLV00000547,upper,Third Reading,2012-03-07 00:00:00,other,39,0,1
+fl,2012,lower,H 213,FLV00000548,lower,Passage,2012-02-29 00:00:00,other,94,17,8
+fl,2012,lower,H 221,FLV00000549,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 227,FLV00000550,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 227,FLV00000551,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 231,FLV00000552,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 231,FLV00000553,upper,Third Reading,2012-03-02 00:00:00,other,38,1,1
+fl,2012,lower,H 231,FLV00000554,lower,Passage,2012-03-06 00:00:00,other,115,0,4
+fl,2012,lower,H 233,FLV00000555,lower,Passage,2012-02-29 00:00:00,other,117,0,2
+fl,2012,lower,H 233,FLV00000556,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 241,FLV00000557,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 243,FLV00000558,lower,Passage,2012-02-24 00:00:00,other,77,34,9
+fl,2012,lower,H 243,FLV00000559,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 245,FLV00000560,lower,Passage,2012-02-03 00:00:00,other,66,48,6
+fl,2012,lower,H 245,FLV00000561,upper,A4 - 455938,2012-03-05 00:00:00,other,21,18,1
+fl,2012,lower,H 245,FLV00000562,upper,Third Reading,2012-03-06 00:00:00,other,26,8,6
+fl,2012,lower,H 245,FLV00000563,lower,Motion,2012-03-06 00:00:00,other,52,63,4
+fl,2012,lower,H 249,FLV00000564,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 249,FLV00000565,upper,Third Reading,2012-03-08 00:00:00,other,38,0,2
+fl,2012,lower,H 267,FLV00000566,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 267,FLV00000567,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 273,FLV00000568,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 277,FLV00000569,lower,Quorum,2012-03-01 00:00:00,other,112,0,7
+fl,2012,lower,H 277,FLV00000570,lower,Passage,2012-03-01 00:00:00,other,78,33,8
+fl,2012,lower,H 285,FLV00000571,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 285,FLV00000572,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 289,FLV00000573,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 291,FLV00000574,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 291,FLV00000575,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 293,FLV00000576,lower,Passage,2012-03-05 00:00:00,other,105,8,6
+fl,2012,lower,H 293,FLV00000577,upper,Third Reading,2012-03-07 00:00:00,other,35,4,1
+fl,2012,lower,H 293,FLV00000578,lower,Passage,2012-03-08 00:00:00,other,110,8,1
+fl,2012,lower,H 307,FLV00000579,lower,Passage,2012-01-25 00:00:00,other,113,2,5
+fl,2012,lower,H 307,FLV00000580,upper,Third Reading,2012-03-08 00:00:00,other,36,1,3
+fl,2012,lower,H 307,FLV00000581,lower,Passage,2012-03-08 00:00:00,other,97,20,2
+fl,2012,lower,H 309,FLV00000582,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 309,FLV00000583,upper,Third Reading,2012-03-06 00:00:00,other,38,0,2
+fl,2012,lower,H 313,FLV00000584,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 313,FLV00000585,upper,Third Reading,2012-03-07 00:00:00,other,38,1,1
+fl,2012,lower,H 319,FLV00000586,lower,Passage,2012-02-29 00:00:00,other,114,1,4
+fl,2012,lower,H 329,FLV00000587,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 331,FLV00000588,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 337,FLV00000589,lower,Passage,2012-03-05 00:00:00,other,95,20,4
+fl,2012,lower,H 347,FLV00000590,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 347,FLV00000591,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 357,FLV00000592,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 357,FLV00000593,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 363,FLV00000594,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 363,FLV00000595,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 373,FLV00000596,lower,Passage,2012-02-23 00:00:00,other,110,5,5
+fl,2012,lower,H 377,FLV00000597,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 377,FLV00000598,upper,Third Reading,2012-03-02 00:00:00,other,37,0,3
+fl,2012,lower,H 379,FLV00000599,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 387,FLV00000600,lower,Passage,2012-02-03 00:00:00,other,115,0,5
+fl,2012,lower,H 387,FLV00000601,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 393,FLV00000602,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 393,FLV00000603,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 401,FLV00000604,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 401,FLV00000605,upper,Third Reading,2012-03-08 00:00:00,other,34,6,0
+fl,2012,lower,H 409,FLV00000606,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 413,FLV00000607,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 413,FLV00000608,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 429,FLV00000609,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 429,FLV00000610,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 431,FLV00000611,lower,Passage,2012-03-01 00:00:00,other,115,0,4
+fl,2012,lower,H 435,FLV00000612,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 435,FLV00000613,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 437,FLV00000614,lower,Passage,2012-02-16 00:00:00,other,117,2,1
+fl,2012,lower,H 437,FLV00000615,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 437,FLV00000616,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 449,FLV00000617,lower,Passage,2012-02-23 00:00:00,other,112,0,8
+fl,2012,lower,H 449,FLV00000618,upper,Third Reading,2012-03-02 00:00:00,other,39,0,1
+fl,2012,lower,H 451,FLV00000619,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 455,FLV00000620,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 457,FLV00000621,lower,Passage,2012-03-05 00:00:00,other,105,7,7
+fl,2012,lower,H 457,FLV00000622,upper,Third Reading,2012-03-07 00:00:00,other,35,2,3
+fl,2012,lower,H 457,FLV00000623,lower,Passage,2012-03-08 00:00:00,other,109,8,2
+fl,2012,lower,H 457,FLV00000624,upper,Returning Message,2012-03-09 00:00:00,other,34,3,3
+fl,2012,lower,H 463,FLV00000625,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 463,FLV00000626,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 465,FLV00000627,lower,Passage,2012-02-23 00:00:00,other,114,1,5
+fl,2012,lower,H 465,FLV00000628,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 473,FLV00000629,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 473,FLV00000630,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 479,FLV00000631,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 479,FLV00000632,upper,Third Reading,2012-03-07 00:00:00,other,39,0,1
+fl,2012,lower,H 481,FLV00000633,lower,Passage,2012-02-29 00:00:00,other,117,0,2
+fl,2012,lower,H 483,FLV00000634,lower,Passage,2012-02-03 00:00:00,other,116,0,4
+fl,2012,lower,H 483,FLV00000635,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 497,FLV00000636,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 499,FLV00000637,lower,Second Reading,2012-02-29 00:00:00,other,96,13,10
+fl,2012,lower,H 503,FLV00000638,lower,Passage,2012-02-23 00:00:00,other,112,0,8
+fl,2012,lower,H 503,FLV00000639,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 509,FLV00000640,lower,A2 - 835879,2012-02-15 00:00:00,other,4,104,12
+fl,2012,lower,H 509,FLV00000641,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 509,FLV00000642,upper,Third Reading,2012-03-07 00:00:00,other,36,1,3
+fl,2012,lower,H 517,FLV00000643,lower,A1 - 471157,2012-02-02 00:00:00,other,70,47,3
+fl,2012,lower,H 517,FLV00000644,lower,Passage,2012-02-03 00:00:00,other,90,26,4
+fl,2012,lower,H 517,FLV00000645,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 517,FLV00000646,lower,Passage,2012-03-08 00:00:00,other,88,29,2
+fl,2012,lower,H 521,FLV00000647,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 521,FLV00000648,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 531,FLV00000649,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 541,FLV00000650,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 541,FLV00000651,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 549,FLV00000652,lower,Passage,2012-02-23 00:00:00,other,83,30,7
+fl,2012,lower,H 565,FLV00000653,lower,Passage,2012-03-06 00:00:00,other,82,35,2
+fl,2012,lower,H 575,FLV00000654,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 575,FLV00000655,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 577,FLV00000656,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 577,FLV00000657,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 579,FLV00000658,lower,Passage,2012-03-05 00:00:00,other,107,6,6
+fl,2012,lower,H 579,FLV00000659,upper,Third Reading,2012-03-07 00:00:00,other,34,3,3
+fl,2012,lower,H 579,FLV00000660,lower,Passage,2012-03-08 00:00:00,other,111,7,1
+fl,2012,lower,H 579,FLV00000661,upper,Returning Message,2012-03-09 00:00:00,other,29,3,8
+fl,2012,lower,H 591,FLV00000662,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 593,FLV00000663,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 593,FLV00000664,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 599,FLV00000665,lower,Passage,2012-02-23 00:00:00,other,99,17,4
+fl,2012,lower,H 599,FLV00000666,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 599,FLV00000667,lower,Passage,2012-03-09 00:00:00,other,93,20,6
+fl,2012,lower,H 601,FLV00000668,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 601,FLV00000669,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 605,FLV00000670,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 605,FLV00000671,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 609,FLV00000672,lower,A1 - 680919,2012-02-29 00:00:00,other,40,74,5
+fl,2012,lower,H 609,FLV00000673,lower,D3 - 094285,2012-02-29 00:00:00,other,38,76,5
+fl,2012,lower,H 609,FLV00000674,lower,Quorum,2012-02-29 00:00:00,other,101,0,18
+fl,2012,lower,H 609,FLV00000675,lower,Passage,2012-02-29 00:00:00,other,77,38,4
+fl,2012,lower,H 611,FLV00000676,lower,Second Reading,2012-02-28 00:00:00,other,76,35,8
+fl,2012,lower,H 619,FLV00000677,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 619,FLV00000678,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 621,FLV00000679,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 625,FLV00000680,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 629,FLV00000681,lower,Passage,2012-02-16 00:00:00,other,114,2,4
+fl,2012,lower,H 629,FLV00000682,upper,Third Reading,2012-03-07 00:00:00,other,39,1,0
+fl,2012,lower,H 631,FLV00000683,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 637,FLV00000684,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 637,FLV00000685,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 639,FLV00000686,lower,Passage,2012-02-23 00:00:00,other,113,1,6
+fl,2012,lower,H 639,FLV00000687,upper,Third Reading,2012-03-09 00:00:00,other,38,0,2
+fl,2012,lower,H 643,FLV00000688,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 643,FLV00000689,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 645,FLV00000690,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 645,FLV00000691,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 653,FLV00000692,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 653,FLV00000693,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 655,FLV00000694,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 655,FLV00000695,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,lower,H 663,FLV00000696,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 665,FLV00000697,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 665,FLV00000698,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 667,FLV00000699,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 667,FLV00000700,upper,Third Reading,2012-03-02 00:00:00,other,39,1,0
+fl,2012,lower,H 671,FLV00000701,lower,Passage,2012-03-05 00:00:00,other,101,14,4
+fl,2012,lower,H 681,FLV00000702,lower,Passage,2012-02-29 00:00:00,other,109,6,4
+fl,2012,lower,H 689,FLV00000703,lower,Passage,2012-03-01 00:00:00,other,91,24,4
+fl,2012,lower,H 691,FLV00000704,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 691,FLV00000705,upper,Third Reading,2012-02-28 00:00:00,other,38,0,2
+fl,2012,lower,H 691,FLV00000706,upper,A1 - 658964,2012-02-28 00:00:00,other,38,0,2
+fl,2012,lower,H 691,FLV00000707,lower,Passage,2012-03-07 00:00:00,other,118,0,1
+fl,2012,lower,H 693,FLV00000708,lower,Passage,2012-02-03 00:00:00,other,116,0,4
+fl,2012,lower,H 693,FLV00000709,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 693,FLV00000710,lower,Passage,2012-03-09 00:00:00,other,118,0,1
+fl,2012,lower,H 697,FLV00000711,lower,Passage,2012-03-05 00:00:00,other,106,7,6
+fl,2012,lower,H 697,FLV00000712,upper,Third Reading,2012-03-07 00:00:00,other,34,6,0
+fl,2012,lower,H 697,FLV00000713,lower,Passage,2012-03-08 00:00:00,other,111,8,0
+fl,2012,lower,H 697,FLV00000714,upper,Returning Message,2012-03-09 00:00:00,other,36,4,0
+fl,2012,lower,H 699,FLV00000715,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 699,FLV00000716,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 701,FLV00000717,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 701,FLV00000718,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,lower,H 701,FLV00000719,upper,Returning Message,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 711,FLV00000720,lower,Passage,2012-03-02 00:00:00,other,114,0,5
+fl,2012,lower,H 711,FLV00000721,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 711,FLV00000722,lower,Passage,2012-03-07 00:00:00,other,108,9,2
+fl,2012,lower,H 715,FLV00000723,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 715,FLV00000724,upper,Third Reading,2012-03-08 00:00:00,other,35,0,5
+fl,2012,lower,H 725,FLV00000725,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 725,FLV00000726,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 729,FLV00000727,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 729,FLV00000728,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 733,FLV00000729,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 733,FLV00000730,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 737,FLV00000731,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 737,FLV00000732,upper,Third Reading,2012-02-23 00:00:00,other,36,2,2
+fl,2012,lower,H 749,FLV00000733,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 749,FLV00000734,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 751,FLV00000735,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 763,FLV00000736,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 763,FLV00000737,upper,Third Reading,2012-03-09 00:00:00,other,28,0,12
+fl,2012,lower,H 769,FLV00000738,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 769,FLV00000739,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 777,FLV00000740,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 777,FLV00000741,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 785,FLV00000742,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 787,FLV00000743,lower,Passage,2012-02-23 00:00:00,other,89,23,8
+fl,2012,lower,H 787,FLV00000744,upper,Third Reading,2012-03-09 00:00:00,other,28,10,2
+fl,2012,lower,H 787,FLV00000745,lower,Passage,2012-03-09 00:00:00,other,80,33,6
+fl,2012,lower,H 789,FLV00000746,lower,Passage,2012-02-16 00:00:00,other,97,20,3
+fl,2012,lower,H 799,FLV00000747,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 799,FLV00000748,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 799,FLV00000749,lower,Passage,2012-03-09 00:00:00,other,117,0,2
+fl,2012,lower,H 799,FLV00000750,upper,Returning Message,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 801,FLV00000751,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 801,FLV00000752,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 803,FLV00000753,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 803,FLV00000754,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 809,FLV00000755,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 809,FLV00000756,upper,Third Reading,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 813,FLV00000757,lower,Passage,2012-03-01 00:00:00,other,80,31,8
+fl,2012,lower,H 827,FLV00000758,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 827,FLV00000759,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 843,FLV00000760,lower,Passage,2012-02-09 00:00:00,other,110,7,3
+fl,2012,lower,H 843,FLV00000761,upper,Third Reading,2012-02-23 00:00:00,other,26,10,4
+fl,2012,lower,H 843,FLV00000762,lower,Passage,2012-03-09 00:00:00,other,113,4,2
+fl,2012,lower,H 843,FLV00000763,upper,Conference Committee Report,2012-03-09 00:00:00,other,35,2,3
+fl,2012,lower,H 855,FLV00000764,lower,Passage,2012-03-05 00:00:00,other,106,7,6
+fl,2012,lower,H 855,FLV00000765,upper,Third Reading,2012-03-07 00:00:00,other,35,4,1
+fl,2012,lower,H 855,FLV00000766,lower,Passage,2012-03-08 00:00:00,other,110,8,1
+fl,2012,lower,H 859,FLV00000767,lower,A1 - 447835,2012-03-07 00:00:00,other,40,77,2
+fl,2012,lower,H 859,FLV00000768,lower,Passage,2012-03-07 00:00:00,other,92,24,3
+fl,2012,lower,H 859,FLV00000769,upper,Third Reading,2012-03-09 00:00:00,other,32,8,0
+fl,2012,lower,H 865,FLV00000770,lower,Passage,2012-03-05 00:00:00,other,92,21,6
+fl,2012,lower,H 865,FLV00000771,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 867,FLV00000772,lower,Passage,2012-02-29 00:00:00,other,114,1,4
+fl,2012,lower,H 867,FLV00000773,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 869,FLV00000774,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 869,FLV00000775,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 877,FLV00000776,lower,Passage,2012-03-05 00:00:00,other,105,8,6
+fl,2012,lower,H 877,FLV00000777,upper,Third Reading,2012-03-07 00:00:00,other,34,4,2
+fl,2012,lower,H 877,FLV00000778,lower,Passage,2012-03-08 00:00:00,other,106,8,5
+fl,2012,lower,H 877,FLV00000779,upper,Returning Message,2012-03-09 00:00:00,other,32,2,6
+fl,2012,lower,H 885,FLV00000780,lower,Passage,2012-03-05 00:00:00,other,112,0,7
+fl,2012,lower,H 885,FLV00000781,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 885,FLV00000782,lower,Passage,2012-03-09 00:00:00,other,114,0,5
+fl,2012,lower,H 887,FLV00000783,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 887,FLV00000784,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 891,FLV00000785,lower,Passage,2012-03-05 00:00:00,other,114,1,4
+fl,2012,lower,H 891,FLV00000786,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 897,FLV00000787,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 897,FLV00000788,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 903,FLV00000789,lower,A1 - 920555,2012-03-02 00:00:00,other,41,71,7
+fl,2012,lower,H 909,FLV00000790,lower,Passage,2012-03-05 00:00:00,other,107,7,5
+fl,2012,lower,H 909,FLV00000791,upper,Third Reading,2012-03-07 00:00:00,other,35,4,1
+fl,2012,lower,H 909,FLV00000792,lower,Passage,2012-03-08 00:00:00,other,109,8,2
+fl,2012,lower,H 909,FLV00000793,upper,Returning Message,2012-03-09 00:00:00,other,30,3,7
+fl,2012,lower,H 917,FLV00000794,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 917,FLV00000795,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 921,FLV00000796,lower,Passage,2012-02-29 00:00:00,other,92,21,6
+fl,2012,lower,H 931,FLV00000797,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 931,FLV00000798,upper,Third Reading,2012-03-08 00:00:00,other,37,3,0
+fl,2012,lower,H 935,FLV00000799,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 937,FLV00000800,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 937,FLV00000801,upper,Third Reading,2012-03-09 00:00:00,other,23,13,4
+fl,2012,lower,H 941,FLV00000802,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 941,FLV00000803,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 941,FLV00000804,lower,Passage,2012-03-09 00:00:00,other,99,16,4
+fl,2012,lower,H 943,FLV00000805,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 943,FLV00000806,upper,Third Reading,2012-03-07 00:00:00,other,39,0,1
+fl,2012,lower,H 945,FLV00000807,lower,Passage,2012-02-29 00:00:00,other,97,19,3
+fl,2012,lower,H 945,FLV00000808,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 947,FLV00000809,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 947,FLV00000810,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 949,FLV00000811,lower,Passage,2012-03-05 00:00:00,other,114,1,4
+fl,2012,lower,H 949,FLV00000812,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 959,FLV00000813,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 959,FLV00000814,upper,Third Reading,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 963,FLV00000815,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 965,FLV00000816,lower,Passage,2012-03-05 00:00:00,other,97,14,8
+fl,2012,lower,H 965,FLV00000817,upper,Third Reading,2012-03-07 00:00:00,other,32,4,4
+fl,2012,lower,H 967,FLV00000818,lower,Passage,2012-03-05 00:00:00,other,104,9,6
+fl,2012,lower,H 967,FLV00000819,upper,Third Reading,2012-03-07 00:00:00,other,36,3,1
+fl,2012,lower,H 967,FLV00000820,lower,Passage,2012-03-08 00:00:00,other,111,8,0
+fl,2012,lower,H 967,FLV00000821,upper,Returning Message,2012-03-09 00:00:00,other,36,3,1
+fl,2012,lower,H 971,FLV00000822,lower,Passage,2012-02-24 00:00:00,other,77,35,8
+fl,2012,lower,H 971,FLV00000823,upper,Third Reading,2012-03-07 00:00:00,other,24,14,2
+fl,2012,lower,H 975,FLV00000824,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 975,FLV00000825,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 979,FLV00000826,lower,Passage,2012-02-29 00:00:00,other,112,1,6
+fl,2012,lower,H 979,FLV00000827,upper,Third Reading,2012-03-08 00:00:00,other,36,3,1
+fl,2012,lower,H 979,FLV00000828,lower,Motion,2012-03-08 00:00:00,other,76,40,3
+fl,2012,lower,H 979,FLV00000829,lower,Passage,2012-03-08 00:00:00,other,87,31,1
+fl,2012,lower,H 989,FLV00000830,lower,Passage,2012-02-16 00:00:00,other,116,0,4
+fl,2012,lower,H 999,FLV00000831,lower,Passage,2012-02-29 00:00:00,other,105,11,3
+fl,2012,lower,H 1001,FLV00000832,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 1001,FLV00000833,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1003,FLV00000834,lower,Passage,2012-03-02 00:00:00,other,112,2,5
+fl,2012,lower,H 1003,FLV00000835,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1009,FLV00000836,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1011,FLV00000837,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1011,FLV00000838,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1013,FLV00000839,lower,Passage,2012-02-23 00:00:00,other,106,10,4
+fl,2012,lower,H 1013,FLV00000840,upper,Third Reading,2012-03-08 00:00:00,other,36,4,0
+fl,2012,lower,H 1015,FLV00000841,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 1015,FLV00000842,upper,Third Reading,2012-03-08 00:00:00,other,38,2,0
+fl,2012,lower,H 1021,FLV00000843,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 1023,FLV00000844,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 1033,FLV00000845,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 1033,FLV00000846,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1037,FLV00000847,lower,Passage,2012-02-15 00:00:00,other,89,27,4
+fl,2012,lower,H 1037,FLV00000848,upper,Third Reading,2012-03-09 00:00:00,other,38,0,2
+fl,2012,lower,H 1037,FLV00000849,lower,Passage,2012-03-09 00:00:00,other,115,0,4
+fl,2012,lower,H 1039,FLV00000850,lower,Passage,2012-03-05 00:00:00,other,106,6,7
+fl,2012,lower,H 1039,FLV00000851,upper,Third Reading,2012-03-07 00:00:00,other,33,4,3
+fl,2012,lower,H 1039,FLV00000852,lower,Passage,2012-03-08 00:00:00,other,110,7,2
+fl,2012,lower,H 1039,FLV00000853,upper,Returning Message,2012-03-09 00:00:00,other,33,5,2
+fl,2012,lower,H 1045,FLV00000854,lower,Passage,2012-03-01 00:00:00,other,111,0,8
+fl,2012,lower,H 1059,FLV00000855,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1065,FLV00000856,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 1081,FLV00000857,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1089,FLV00000858,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1089,FLV00000859,upper,Third Reading,2012-03-02 00:00:00,other,38,1,1
+fl,2012,lower,H 1097,FLV00000860,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 1097,FLV00000861,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 1099,FLV00000862,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 1099,FLV00000863,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1101,FLV00000864,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 1101,FLV00000865,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1115,FLV00000866,lower,Passage,2012-03-01 00:00:00,other,78,38,3
+fl,2012,lower,H 1117,FLV00000867,lower,Passage,2012-02-29 00:00:00,other,113,2,4
+fl,2012,lower,H 1117,FLV00000868,upper,Third Reading,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 1119,FLV00000869,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 1127,FLV00000870,lower,Passage,2012-02-23 00:00:00,other,89,25,6
+fl,2012,lower,H 1127,FLV00000871,upper,Third Reading,2012-03-09 00:00:00,other,38,0,2
+fl,2012,lower,H 1153,FLV00000872,lower,Passage,2012-03-02 00:00:00,other,115,0,4
+fl,2012,lower,H 1153,FLV00000873,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1163,FLV00000874,lower,Passage,2012-02-29 00:00:00,other,112,0,7
+fl,2012,lower,H 1163,FLV00000875,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1163,FLV00000876,lower,Passage,2012-03-08 00:00:00,other,119,0,0
+fl,2012,lower,H 1165,FLV00000877,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1165,FLV00000878,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1173,FLV00000879,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1175,FLV00000880,lower,Passage,2012-02-22 00:00:00,other,118,0,2
+fl,2012,lower,H 1175,FLV00000881,upper,Third Reading,2012-03-07 00:00:00,other,39,0,1
+fl,2012,lower,H 1175,FLV00000882,lower,Passage,2012-03-07 00:00:00,other,116,0,3
+fl,2012,lower,H 1175,FLV00000883,upper,Returning Message,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1177,FLV00000884,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1183,FLV00000885,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1183,FLV00000886,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1191,FLV00000887,lower,Passage,2012-03-01 00:00:00,other,80,34,5
+fl,2012,lower,H 1193,FLV00000888,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1193,FLV00000889,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 1195,FLV00000890,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 1197,FLV00000891,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1197,FLV00000892,upper,Third Reading,2012-03-06 00:00:00,other,38,1,1
+fl,2012,lower,H 1197,FLV00000893,upper,Third Reading,2012-03-06 00:00:00,other,33,3,4
+fl,2012,lower,H 1197,FLV00000894,lower,Passage,2012-03-06 00:00:00,other,109,5,5
+fl,2012,lower,H 1205,FLV00000895,lower,A3 - 200623,2012-03-02 00:00:00,other,79,37,3
+fl,2012,lower,H 1205,FLV00000896,lower,Passage,2012-03-02 00:00:00,other,79,37,3
+fl,2012,lower,H 1205,FLV00000897,upper,Third Reading,2012-03-09 00:00:00,other,26,14,0
+fl,2012,lower,H 1207,FLV00000898,lower,Passage,2012-03-02 00:00:00,other,112,0,7
+fl,2012,lower,H 1207,FLV00000899,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1209,FLV00000900,lower,Passage,2012-03-01 00:00:00,other,92,24,3
+fl,2012,lower,H 1211,FLV00000901,lower,Passage,2012-03-02 00:00:00,other,115,0,4
+fl,2012,lower,H 1223,FLV00000902,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1223,FLV00000903,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1227,FLV00000904,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1227,FLV00000905,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 1229,FLV00000906,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1229,FLV00000907,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 1237,FLV00000908,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1237,FLV00000909,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1239,FLV00000910,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1239,FLV00000911,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1249,FLV00000912,lower,Second Reading,2012-02-29 00:00:00,other,88,18,13
+fl,2012,lower,H 1253,FLV00000913,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 1253,FLV00000914,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1255,FLV00000915,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 1255,FLV00000916,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1261,FLV00000917,lower,Passage,2012-03-05 00:00:00,other,112,0,7
+fl,2012,lower,H 1261,FLV00000918,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1263,FLV00000919,lower,Passage,2012-03-02 00:00:00,other,86,28,5
+fl,2012,lower,H 1263,FLV00000920,upper,Third Reading,2012-03-09 00:00:00,other,31,9,0
+fl,2012,lower,H 1263,FLV00000921,lower,Passage,2012-03-09 00:00:00,other,86,29,4
+fl,2012,lower,H 1277,FLV00000922,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1277,FLV00000923,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1281,FLV00000924,lower,Quorum,2012-02-29 00:00:00,other,109,0,10
+fl,2012,lower,H 1281,FLV00000925,lower,Second Reading,2012-02-29 00:00:00,other,76,34,9
+fl,2012,lower,H 1287,FLV00000926,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1287,FLV00000927,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 1297,FLV00000928,lower,Passage,2012-03-02 00:00:00,other,114,0,5
+fl,2012,lower,H 1297,FLV00000929,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1299,FLV00000930,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 1299,FLV00000931,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1299,FLV00000932,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1301,FLV00000933,lower,Passage,2012-02-29 00:00:00,other,117,0,2
+fl,2012,lower,H 1301,FLV00000934,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1305,FLV00000935,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1305,FLV00000936,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 1323,FLV00000937,lower,Passage,2012-02-29 00:00:00,other,107,6,6
+fl,2012,lower,H 1323,FLV00000938,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1325,FLV00000939,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1325,FLV00000940,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1331,FLV00000941,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 1339,FLV00000942,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1343,FLV00000943,lower,Passage,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 1351,FLV00000944,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 1351,FLV00000945,lower,Cosponsor,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 1351,FLV00000946,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 1355,FLV00000947,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 1355,FLV00000948,upper,Third Reading,2012-03-08 00:00:00,other,35,4,1
+fl,2012,lower,H 1355,FLV00000949,lower,Passage,2012-03-08 00:00:00,other,117,0,2
+fl,2012,lower,H 1357,FLV00000950,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1357,FLV00000951,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1373,FLV00000952,lower,Passage,2012-03-01 00:00:00,other,116,0,3
+fl,2012,lower,H 1379,FLV00000953,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 1381,FLV00000954,lower,Passage,2012-03-05 00:00:00,other,113,1,5
+fl,2012,lower,H 1381,FLV00000955,upper,Local Bills,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1383,FLV00000956,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1383,FLV00000957,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 1389,FLV00000958,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 1389,FLV00000959,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 1389,FLV00000960,lower,Passage,2012-03-09 00:00:00,other,115,0,4
+fl,2012,lower,H 1399,FLV00000961,lower,Passage,2012-03-05 00:00:00,other,97,16,6
+fl,2012,lower,H 1401,FLV00000962,lower,Passage,2012-03-01 00:00:00,other,92,23,4
+fl,2012,lower,H 1403,FLV00000963,lower,Passage,2012-03-02 00:00:00,other,78,34,7
+fl,2012,lower,H 1403,FLV00000964,upper,Third Reading,2012-03-08 00:00:00,other,21,18,1
+fl,2012,lower,H 1417,FLV00000965,lower,Passage,2012-02-29 00:00:00,other,96,19,4
+fl,2012,lower,H 1417,FLV00000966,upper,Third Reading,2012-03-07 00:00:00,other,37,1,2
+fl,2012,lower,H 1419,FLV00000967,lower,Quorum,2012-02-28 00:00:00,other,111,0,8
+fl,2012,lower,H 1419,FLV00000968,lower,A3 - 246719,2012-02-28 00:00:00,other,62,51,6
+fl,2012,lower,H 1419,FLV00000969,lower,A5 - 241373,2012-02-28 00:00:00,other,65,44,10
+fl,2012,lower,H 1419,FLV00000970,lower,Passage,2012-02-29 00:00:00,other,114,1,4
+fl,2012,lower,H 1443,FLV00000971,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 1447,FLV00000972,lower,Motion,2012-02-29 00:00:00,other,38,67,14
+fl,2012,lower,H 1461,FLV00000973,lower,Passage,2012-03-05 00:00:00,other,113,0,6
+fl,2012,lower,H 1461,FLV00000974,upper,Third Reading,2012-03-08 00:00:00,other,36,2,2
+fl,2012,lower,H 1481,FLV00000975,lower,Passage,2012-02-29 00:00:00,other,117,0,2
+fl,2012,lower,H 1481,FLV00000976,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1483,FLV00000977,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 1483,FLV00000978,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1485,FLV00000979,lower,Passage,2012-03-05 00:00:00,other,106,7,6
+fl,2012,lower,H 1485,FLV00000980,upper,Third Reading,2012-03-07 00:00:00,other,33,3,4
+fl,2012,lower,H 1485,FLV00000981,lower,Passage,2012-03-08 00:00:00,other,112,7,0
+fl,2012,lower,H 1491,FLV00000982,lower,Passage,2012-02-23 00:00:00,other,97,15,8
+fl,2012,lower,H 1495,FLV00000983,lower,Passage,2012-02-29 00:00:00,other,116,0,3
+fl,2012,lower,H 1495,FLV00000984,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 1513,FLV00000985,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 1513,FLV00000986,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 4001,FLV00000987,lower,Passage,2012-03-01 00:00:00,other,82,34,3
+fl,2012,lower,H 4001,FLV00000988,upper,Third Reading,2012-03-08 00:00:00,other,31,5,4
+fl,2012,lower,H 4003,FLV00000989,lower,Passage,2012-01-25 00:00:00,other,85,32,3
+fl,2012,lower,H 4003,FLV00000990,upper,Third Reading,2012-03-06 00:00:00,other,35,2,3
+fl,2012,lower,H 4005,FLV00000991,lower,Passage,2012-02-16 00:00:00,other,116,1,3
+fl,2012,lower,H 4007,FLV00000992,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 4009,FLV00000993,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 4027,FLV00000994,lower,Passage,2012-01-25 00:00:00,other,105,9,6
+fl,2012,lower,H 4027,FLV00000995,upper,Third Reading,2012-03-06 00:00:00,other,38,1,1
+fl,2012,lower,H 4033,FLV00000996,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4035,FLV00000997,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 4037,FLV00000998,lower,Passage,2012-02-16 00:00:00,other,116,1,3
+fl,2012,lower,H 4039,FLV00000999,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 4039,FLV00001000,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 4041,FLV00001001,lower,Passage,2012-02-16 00:00:00,other,78,37,5
+fl,2012,lower,H 4043,FLV00001002,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4045,FLV00001003,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4047,FLV00001004,lower,Passage,2012-02-15 00:00:00,other,117,0,3
+fl,2012,lower,H 4047,FLV00001005,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 4055,FLV00001006,lower,Passage,2012-02-03 00:00:00,other,81,35,4
+fl,2012,lower,H 4059,FLV00001007,lower,Passage,2012-02-03 00:00:00,other,95,21,4
+fl,2012,lower,H 4061,FLV00001008,lower,Passage,2012-02-03 00:00:00,other,114,1,5
+fl,2012,lower,H 4061,FLV00001009,upper,Third Reading,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 4067,FLV00001010,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 4069,FLV00001011,lower,Passage,2012-02-15 00:00:00,other,117,0,3
+fl,2012,lower,H 4075,FLV00001012,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 4075,FLV00001013,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 4077,FLV00001014,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 4077,FLV00001015,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 4079,FLV00001016,lower,Passage,2012-02-03 00:00:00,other,117,0,3
+fl,2012,lower,H 4081,FLV00001017,lower,Passage,2012-02-15 00:00:00,other,117,0,3
+fl,2012,lower,H 4083,FLV00001018,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 4085,FLV00001019,lower,Passage,2012-01-25 00:00:00,other,114,0,6
+fl,2012,lower,H 4087,FLV00001020,lower,Passage,2012-02-03 00:00:00,other,118,0,2
+fl,2012,lower,H 4089,FLV00001021,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 4091,FLV00001022,lower,Passage,2012-02-03 00:00:00,other,118,0,2
+fl,2012,lower,H 4093,FLV00001023,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 4097,FLV00001024,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4101,FLV00001025,lower,Passage,2012-02-03 00:00:00,other,117,0,3
+fl,2012,lower,H 4103,FLV00001026,lower,Passage,2012-02-16 00:00:00,other,85,34,1
+fl,2012,lower,H 4105,FLV00001027,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 4115,FLV00001028,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4117,FLV00001029,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4121,FLV00001030,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 4123,FLV00001031,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 4123,FLV00001032,upper,Third Reading,2012-02-29 00:00:00,other,38,0,2
+fl,2012,lower,H 4125,FLV00001033,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 4133,FLV00001034,lower,Passage,2012-02-23 00:00:00,other,112,0,8
+fl,2012,lower,H 4137,FLV00001035,lower,Passage,2012-02-16 00:00:00,other,119,0,1
+fl,2012,lower,H 4139,FLV00001036,lower,Passage,2012-02-16 00:00:00,other,118,0,2
+fl,2012,lower,H 4139,FLV00001037,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 4141,FLV00001038,lower,Passage,2012-02-03 00:00:00,other,111,5,4
+fl,2012,lower,H 4143,FLV00001039,lower,Passage,2012-02-03 00:00:00,other,107,10,3
+fl,2012,lower,H 4145,FLV00001040,lower,Passage,2012-02-03 00:00:00,other,118,0,2
+fl,2012,lower,H 4149,FLV00001041,lower,Passage,2012-02-03 00:00:00,other,116,0,4
+fl,2012,lower,H 4153,FLV00001042,lower,Passage,2012-02-16 00:00:00,other,117,0,3
+fl,2012,lower,H 4155,FLV00001043,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 4157,FLV00001044,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 4163,FLV00001045,lower,Passage,2012-02-16 00:00:00,other,103,16,1
+fl,2012,lower,H 4163,FLV00001046,upper,Third Reading,2012-03-06 00:00:00,other,38,0,2
+fl,2012,lower,H 4169,FLV00001047,lower,Passage,2012-02-15 00:00:00,other,92,25,3
+fl,2012,lower,H 4171,FLV00001048,lower,Passage,2012-01-25 00:00:00,other,117,0,3
+fl,2012,lower,H 4175,FLV00001049,lower,Passage,2012-02-29 00:00:00,other,115,0,4
+fl,2012,lower,H 4175,FLV00001050,upper,Local Bills,2012-03-05 00:00:00,other,39,0,1
+fl,2012,lower,H 4179,FLV00001051,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 4181,FLV00001052,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 4187,FLV00001053,lower,Passage,2012-02-03 00:00:00,other,118,0,2
+fl,2012,lower,H 4189,FLV00001054,lower,Passage,2012-02-03 00:00:00,other,117,1,2
+fl,2012,lower,H 5001,FLV00001055,lower,AA9 - 990027,2012-02-08 00:00:00,other,79,38,3
+fl,2012,lower,H 5001,FLV00001056,lower,A9 - 990022,2012-02-08 00:00:00,other,84,31,5
+fl,2012,lower,H 5001,FLV00001057,lower,Quorum,2012-02-09 00:00:00,other,110,2,8
+fl,2012,lower,H 5001,FLV00001058,lower,Passage,2012-02-09 00:00:00,other,79,38,3
+fl,2012,lower,H 5001,FLV00001059,upper,Third Reading,2012-02-23 00:00:00,other,33,6,1
+fl,2012,lower,H 5001,FLV00001060,lower,Quorum,2012-03-09 00:00:00,other,113,0,6
+fl,2012,lower,H 5001,FLV00001061,lower,Passage,2012-03-09 00:00:00,other,80,37,2
+fl,2012,lower,H 5001,FLV00001062,upper,Conference Committee Report,2012-03-09 00:00:00,other,32,8,0
+fl,2012,lower,H 5003,FLV00001063,lower,Passage,2012-02-09 00:00:00,other,80,36,4
+fl,2012,lower,H 5003,FLV00001064,upper,Third Reading,2012-02-23 00:00:00,other,32,7,1
+fl,2012,lower,H 5003,FLV00001065,lower,Passage,2012-03-09 00:00:00,other,80,36,3
+fl,2012,lower,H 5003,FLV00001066,upper,Conference Committee Report,2012-03-09 00:00:00,other,34,6,0
+fl,2012,lower,H 5005,FLV00001067,lower,Passage,2012-02-09 00:00:00,other,78,36,6
+fl,2012,lower,H 5005,FLV00001068,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5005,FLV00001069,lower,Passage,2012-03-09 00:00:00,other,82,35,2
+fl,2012,lower,H 5005,FLV00001070,upper,Conference Committee Report,2012-03-09 00:00:00,other,34,2,4
+fl,2012,lower,H 5007,FLV00001071,lower,Passage,2012-02-09 00:00:00,other,81,35,4
+fl,2012,lower,H 5007,FLV00001072,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5007,FLV00001073,lower,Passage,2012-03-09 00:00:00,other,81,37,1
+fl,2012,lower,H 5007,FLV00001074,upper,Conference Committee Report,2012-03-09 00:00:00,other,35,1,4
+fl,2012,lower,H 5009,FLV00001075,lower,Passage,2012-02-09 00:00:00,other,114,1,5
+fl,2012,lower,H 5009,FLV00001076,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5009,FLV00001077,lower,Passage,2012-03-09 00:00:00,other,115,1,3
+fl,2012,lower,H 5009,FLV00001078,upper,Conference Committee Report,2012-03-09 00:00:00,other,20,20,0
+fl,2012,lower,H 5009,FLV00001079,upper,Motion to Reconsider,2012-03-09 00:00:00,other,22,16,2
+fl,2012,lower,H 5009,FLV00001080,upper,Conference Committee Report,2012-03-09 00:00:00,other,21,18,1
+fl,2012,lower,H 5011,FLV00001081,lower,Passage,2012-02-09 00:00:00,other,116,0,4
+fl,2012,lower,H 5011,FLV00001082,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5011,FLV00001083,lower,Passage,2012-03-09 00:00:00,other,117,0,2
+fl,2012,lower,H 5011,FLV00001084,upper,Conference Committee Report,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 5101,FLV00001085,lower,Passage,2012-02-09 00:00:00,other,80,36,4
+fl,2012,lower,H 5101,FLV00001086,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5101,FLV00001087,lower,Passage,2012-03-09 00:00:00,other,80,38,1
+fl,2012,lower,H 5101,FLV00001088,upper,Conference Committee Report,2012-03-09 00:00:00,other,35,4,1
+fl,2012,lower,H 5103,FLV00001089,lower,Passage,2012-02-09 00:00:00,other,85,34,1
+fl,2012,lower,H 5103,FLV00001090,upper,Third Reading,2012-02-23 00:00:00,other,38,1,1
+fl,2012,lower,H 5103,FLV00001091,lower,Passage,2012-03-09 00:00:00,other,82,32,5
+fl,2012,lower,H 5103,FLV00001092,upper,Conference Committee Report,2012-03-09 00:00:00,other,37,1,2
+fl,2012,lower,H 5201,FLV00001093,lower,Passage,2012-02-09 00:00:00,other,81,37,2
+fl,2012,lower,H 5201,FLV00001094,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5201,FLV00001095,lower,Passage,2012-03-09 00:00:00,other,77,33,9
+fl,2012,lower,H 5201,FLV00001096,upper,Conference Committee Report,2012-03-09 00:00:00,other,38,1,1
+fl,2012,lower,H 5203,FLV00001097,lower,Passage,2012-02-09 00:00:00,other,119,0,1
+fl,2012,lower,H 5203,FLV00001098,upper,Third Reading,2012-02-23 00:00:00,other,37,0,3
+fl,2012,lower,H 5203,FLV00001099,lower,Passage,2012-03-09 00:00:00,other,118,0,1
+fl,2012,lower,H 5203,FLV00001100,upper,Conference Committee Report,2012-03-09 00:00:00,other,36,1,3
+fl,2012,lower,H 5301,FLV00001101,lower,Passage,2012-02-09 00:00:00,other,79,39,2
+fl,2012,lower,H 5301,FLV00001102,upper,Third Reading,2012-02-23 00:00:00,other,31,5,4
+fl,2012,lower,H 5301,FLV00001103,lower,Passage,2012-03-09 00:00:00,other,73,36,10
+fl,2012,lower,H 5301,FLV00001104,upper,Conference Committee Report,2012-03-09 00:00:00,other,23,17,0
+fl,2012,lower,H 5303,FLV00001105,lower,Passage,2012-02-09 00:00:00,other,78,39,3
+fl,2012,lower,H 5303,FLV00001106,upper,Third Reading,2012-02-23 00:00:00,other,33,5,2
+fl,2012,lower,H 5303,FLV00001107,lower,Passage,2012-03-09 00:00:00,other,82,35,2
+fl,2012,lower,H 5303,FLV00001108,upper,Conference Committee Report,2012-03-09 00:00:00,other,38,2,0
+fl,2012,lower,H 5401,FLV00001109,lower,Passage,2012-02-09 00:00:00,other,118,0,2
+fl,2012,lower,H 5401,FLV00001110,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5401,FLV00001111,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 5401,FLV00001112,upper,Conference Committee Report,2012-03-09 00:00:00,other,38,1,1
+fl,2012,lower,H 5403,FLV00001113,lower,Passage,2012-02-09 00:00:00,other,93,23,4
+fl,2012,lower,H 5403,FLV00001114,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5403,FLV00001115,lower,Passage,2012-03-09 00:00:00,other,94,23,2
+fl,2012,lower,H 5403,FLV00001116,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 5405,FLV00001117,lower,Passage,2012-02-09 00:00:00,other,84,31,5
+fl,2012,lower,H 5405,FLV00001118,upper,Third Reading,2012-02-23 00:00:00,other,36,0,4
+fl,2012,lower,H 5501,FLV00001119,lower,Passage,2012-02-09 00:00:00,other,114,0,6
+fl,2012,lower,H 5501,FLV00001120,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5501,FLV00001121,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 5501,FLV00001122,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 5503,FLV00001123,lower,Passage,2012-02-09 00:00:00,other,116,0,4
+fl,2012,lower,H 5503,FLV00001124,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5503,FLV00001125,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 5503,FLV00001126,upper,Conference Committee Report,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 5505,FLV00001127,lower,Passage,2012-02-09 00:00:00,other,118,0,2
+fl,2012,lower,H 5505,FLV00001128,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5505,FLV00001129,lower,Passage,2012-03-09 00:00:00,other,82,34,3
+fl,2012,lower,H 5505,FLV00001130,upper,Conference Committee Report,2012-03-09 00:00:00,other,36,3,1
+fl,2012,lower,H 5507,FLV00001131,lower,Passage,2012-02-09 00:00:00,other,118,0,2
+fl,2012,lower,H 5507,FLV00001132,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5507,FLV00001133,lower,Passage,2012-03-09 00:00:00,other,115,1,3
+fl,2012,lower,H 5507,FLV00001134,upper,Conference Committee Report,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 5509,FLV00001135,lower,Passage,2012-02-09 00:00:00,other,118,0,2
+fl,2012,lower,H 5509,FLV00001136,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5509,FLV00001137,lower,Passage,2012-03-09 00:00:00,other,117,0,2
+fl,2012,lower,H 5509,FLV00001138,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 5511,FLV00001139,lower,Passage,2012-02-09 00:00:00,other,116,0,4
+fl,2012,lower,H 5511,FLV00001140,upper,Third Reading,2012-02-23 00:00:00,other,39,0,1
+fl,2012,lower,H 5511,FLV00001141,lower,Passage,2012-03-09 00:00:00,other,116,0,3
+fl,2012,lower,H 5511,FLV00001142,upper,Conference Committee Report,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 5601,FLV00001143,lower,Passage,2012-02-09 00:00:00,other,98,15,7
+fl,2012,lower,H 5601,FLV00001144,upper,Third Reading,2012-02-23 00:00:00,other,31,6,3
+fl,2012,lower,H 5601,FLV00001145,lower,Passage,2012-03-09 00:00:00,other,102,16,1
+fl,2012,lower,H 5601,FLV00001146,upper,Conference Committee Report,2012-03-09 00:00:00,other,34,6,0
+fl,2012,lower,H 5701,FLV00001147,lower,Passage,2012-02-09 00:00:00,other,116,0,4
+fl,2012,lower,H 5701,FLV00001148,upper,Third Reading,2012-02-23 00:00:00,other,38,0,2
+fl,2012,lower,H 5701,FLV00001149,lower,Passage,2012-03-09 00:00:00,other,114,0,5
+fl,2012,lower,H 5701,FLV00001150,upper,Conference Committee Report,2012-03-09 00:00:00,other,39,1,0
+fl,2012,lower,H 7003,FLV00001151,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 7003,FLV00001152,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 7005,FLV00001153,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 7005,FLV00001154,upper,Third Reading,2012-02-13 00:00:00,other,40,0,0
+fl,2012,lower,H 7007,FLV00001155,lower,Passage,2012-01-25 00:00:00,other,114,0,6
+fl,2012,lower,H 7007,FLV00001156,upper,Third Reading,2012-02-13 00:00:00,other,40,0,0
+fl,2012,lower,H 7009,FLV00001157,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 7009,FLV00001158,upper,Third Reading,2012-02-13 00:00:00,other,40,0,0
+fl,2012,lower,H 7011,FLV00001159,lower,Passage,2012-01-25 00:00:00,other,116,0,4
+fl,2012,lower,H 7011,FLV00001160,upper,Third Reading,2012-02-13 00:00:00,other,40,0,0
+fl,2012,lower,H 7013,FLV00001161,lower,Passage,2012-02-03 00:00:00,other,117,0,3
+fl,2012,lower,H 7013,FLV00001162,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 7015,FLV00001163,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 7015,FLV00001164,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 7017,FLV00001165,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7017,FLV00001166,upper,Third Reading,2012-03-02 00:00:00,other,40,0,0
+fl,2012,lower,H 7021,FLV00001167,lower,Passage,2012-02-15 00:00:00,other,115,0,5
+fl,2012,lower,H 7021,FLV00001168,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 7023,FLV00001169,lower,Passage,2012-02-03 00:00:00,other,95,19,6
+fl,2012,lower,H 7023,FLV00001170,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 7025,FLV00001171,lower,Passage,2012-02-23 00:00:00,other,112,0,8
+fl,2012,lower,H 7025,FLV00001172,upper,Third Reading,2012-03-07 00:00:00,other,38,0,2
+fl,2012,lower,H 7027,FLV00001173,lower,Passage,2012-02-03 00:00:00,other,116,0,4
+fl,2012,lower,H 7027,FLV00001174,upper,Third Reading,2012-03-08 00:00:00,other,39,1,0
+fl,2012,lower,H 7027,FLV00001175,lower,Motion,2012-03-08 00:00:00,other,97,22,0
+fl,2012,lower,H 7027,FLV00001176,lower,Passage,2012-03-08 00:00:00,other,108,11,0
+fl,2012,lower,H 7029,FLV00001177,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 7029,FLV00001178,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 7033,FLV00001179,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7033,FLV00001180,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 7035,FLV00001181,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7035,FLV00001182,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 7037,FLV00001183,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 7037,FLV00001184,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 7039,FLV00001185,lower,A1 - 854973,2012-02-22 00:00:00,other,77,38,5
+fl,2012,lower,H 7039,FLV00001186,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 7039,FLV00001187,upper,Third Reading,2012-02-29 00:00:00,other,38,0,2
+fl,2012,lower,H 7039,FLV00001188,lower,Passage,2012-03-06 00:00:00,other,117,0,2
+fl,2012,lower,H 7041,FLV00001189,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 7041,FLV00001190,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 7043,FLV00001191,lower,Passage,2012-02-23 00:00:00,other,96,19,5
+fl,2012,lower,H 7043,FLV00001192,upper,Third Reading,2012-03-08 00:00:00,other,38,1,1
+fl,2012,lower,H 7045,FLV00001193,lower,Passage,2012-02-15 00:00:00,other,116,0,4
+fl,2012,lower,H 7047,FLV00001194,lower,Passage,2012-02-29 00:00:00,other,117,0,2
+fl,2012,lower,H 7049,FLV00001195,lower,Passage,2012-02-24 00:00:00,other,111,0,9
+fl,2012,lower,H 7049,FLV00001196,upper,Third Reading,2012-03-08 00:00:00,other,38,0,2
+fl,2012,lower,H 7051,FLV00001197,lower,Passage,2012-02-03 00:00:00,other,118,0,2
+fl,2012,lower,H 7051,FLV00001198,upper,Third Reading,2012-02-09 00:00:00,other,38,0,2
+fl,2012,lower,H 7053,FLV00001199,lower,Passage,2012-02-09 00:00:00,other,111,0,9
+fl,2012,lower,H 7055,FLV00001200,lower,Passage,2012-03-02 00:00:00,other,81,33,5
+fl,2012,lower,H 7055,FLV00001201,upper,Third Reading,2012-03-09 00:00:00,other,29,11,0
+fl,2012,lower,H 7059,FLV00001202,lower,Passage,2012-03-05 00:00:00,other,82,33,4
+fl,2012,lower,H 7059,FLV00001203,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 7061,FLV00001204,lower,Passage,2012-02-09 00:00:00,other,113,0,7
+fl,2012,lower,H 7063,FLV00001205,lower,Passage,2012-03-06 00:00:00,other,100,16,3
+fl,2012,lower,H 7063,FLV00001206,upper,Third Reading,2012-03-09 00:00:00,other,36,3,1
+fl,2012,lower,H 7065,FLV00001207,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7067,FLV00001208,lower,Passage,2012-02-09 00:00:00,other,115,0,5
+fl,2012,lower,H 7069,FLV00001209,lower,Passage,2012-02-23 00:00:00,other,110,6,4
+fl,2012,lower,H 7075,FLV00001210,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 7075,FLV00001211,upper,Third Reading,2012-03-06 00:00:00,other,38,1,1
+fl,2012,lower,H 7075,FLV00001212,lower,Passage,2012-03-06 00:00:00,other,116,0,3
+fl,2012,lower,H 7079,FLV00001213,lower,Passage,2012-02-23 00:00:00,other,108,8,4
+fl,2012,lower,H 7079,FLV00001214,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 7081,FLV00001215,lower,Passage,2012-02-15 00:00:00,other,101,13,6
+fl,2012,lower,H 7081,FLV00001216,upper,Third Reading,2012-03-07 00:00:00,other,38,2,0
+fl,2012,lower,H 7085,FLV00001217,lower,Passage,2012-02-29 00:00:00,other,100,14,5
+fl,2012,lower,H 7093,FLV00001218,lower,Passage,2012-02-15 00:00:00,other,117,0,3
+fl,2012,lower,H 7093,FLV00001219,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 7093,FLV00001220,lower,Passage,2012-03-08 00:00:00,other,118,0,1
+fl,2012,lower,H 7095,FLV00001221,lower,Passage,2012-02-24 00:00:00,other,111,0,9
+fl,2012,lower,H 7095,FLV00001222,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 7097,FLV00001223,lower,A2 - 473475,2012-02-28 00:00:00,other,41,73,5
+fl,2012,lower,H 7097,FLV00001224,lower,A3 - 472515,2012-02-29 00:00:00,other,114,0,5
+fl,2012,lower,H 7097,FLV00001225,lower,Passage,2012-02-29 00:00:00,other,98,17,4
+fl,2012,lower,H 7097,FLV00001226,upper,Third Reading,2012-03-09 00:00:00,other,38,1,1
+fl,2012,lower,H 7097,FLV00001227,lower,Passage,2012-03-09 00:00:00,other,110,5,4
+fl,2012,lower,H 7099,FLV00001228,lower,Passage,2012-02-23 00:00:00,other,113,0,7
+fl,2012,lower,H 7099,FLV00001229,upper,Third Reading,2012-03-09 00:00:00,other,33,4,3
+fl,2012,lower,H 7099,FLV00001230,upper,Third Reading,2012-03-09 00:00:00,other,30,8,2
+fl,2012,lower,H 7099,FLV00001231,lower,Passage,2012-03-09 00:00:00,other,97,16,6
+fl,2012,lower,H 7103,FLV00001232,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7103,FLV00001233,upper,Third Reading,2012-02-29 00:00:00,other,39,0,1
+fl,2012,lower,H 7105,FLV00001234,lower,Passage,2012-02-23 00:00:00,other,115,0,5
+fl,2012,lower,H 7105,FLV00001235,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 7107,FLV00001236,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7107,FLV00001237,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 7109,FLV00001238,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 7109,FLV00001239,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 7111,FLV00001240,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 7111,FLV00001241,upper,Third Reading,2012-03-08 00:00:00,other,40,0,0
+fl,2012,lower,H 7113,FLV00001242,lower,Passage,2012-02-23 00:00:00,other,114,0,6
+fl,2012,lower,H 7115,FLV00001243,lower,Passage,2012-02-23 00:00:00,other,116,0,4
+fl,2012,lower,H 7115,FLV00001244,upper,Third Reading,2012-03-08 00:00:00,other,39,0,1
+fl,2012,lower,H 7117,FLV00001245,lower,Passage,2012-03-05 00:00:00,other,113,1,5
+fl,2012,lower,H 7117,FLV00001246,upper,Third Reading,2012-03-08 00:00:00,other,38,2,0
+fl,2012,lower,H 7117,FLV00001247,lower,Passage,2012-03-09 00:00:00,other,116,2,1
+fl,2012,lower,H 7121,FLV00001248,lower,Passage,2012-02-29 00:00:00,other,113,0,6
+fl,2012,lower,H 7121,FLV00001249,upper,Third Reading,2012-03-06 00:00:00,other,39,0,1
+fl,2012,lower,H 7125,FLV00001250,lower,Passage,2012-02-29 00:00:00,other,105,9,5
+fl,2012,lower,H 7125,FLV00001251,upper,Third Reading,2012-03-08 00:00:00,other,33,7,0
+fl,2012,lower,H 7127,FLV00001252,lower,Passage,2012-03-05 00:00:00,other,80,35,4
+fl,2012,lower,H 7127,FLV00001253,upper,Third Reading,2012-03-09 00:00:00,other,40,0,0
+fl,2012,lower,H 7127,FLV00001254,lower,Passage,2012-03-09 00:00:00,other,82,31,6
+fl,2012,lower,H 7129,FLV00001255,lower,Passage,2012-03-02 00:00:00,other,85,28,6
+fl,2012,lower,H 7129,FLV00001256,upper,Third Reading,2012-03-08 00:00:00,other,36,3,1
+fl,2012,lower,H 7131,FLV00001257,lower,Passage,2012-03-05 00:00:00,other,99,13,7
+fl,2012,lower,H 7131,FLV00001258,upper,Third Reading,2012-03-07 00:00:00,other,36,4,0
+fl,2012,lower,H 7131,FLV00001259,lower,Passage,2012-03-08 00:00:00,other,107,11,1
+fl,2012,lower,H 7131,FLV00001260,upper,Returning Message,2012-03-09 00:00:00,other,33,3,4
+fl,2012,lower,H 7133,FLV00001261,lower,Passage,2012-03-05 00:00:00,other,114,0,5
+fl,2012,lower,H 7133,FLV00001262,upper,Third Reading,2012-03-09 00:00:00,other,39,0,1
+fl,2012,lower,H 7135,FLV00001263,lower,Passage,2012-03-05 00:00:00,other,115,0,4
+fl,2012,lower,H 7135,FLV00001264,upper,Third Reading,2012-03-07 00:00:00,other,40,0,0
+fl,2012,lower,H 9013,FLV00001265,lower,Cosponsor,2012-02-08 00:00:00,other,117,0,3

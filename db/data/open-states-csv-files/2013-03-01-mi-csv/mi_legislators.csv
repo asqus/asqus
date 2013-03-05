@@ -1,0 +1,180 @@
+leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
+MIL000067,Tim Melton,Tim,,Melton,,,False,mi,,,,3ea61ca5184f48e0a76fcf3a10fffac6,,2011-04-07 20:15:35.688000,2012-06-05 16:04:50.115000
+MIL000048,Harvey Santana,Harvey,,Santana,,,False,mi,,,,39d165a80cf5464eb0ba32bfffde7e43,,2011-04-07 20:15:35.569000,2013-01-10 00:03:00.224000
+MIL000078,Charles Moss,Charles,,Moss,,,False,mi,,,,669fd3c8d0f44f95a1678a03cf5f3739,,2011-04-07 20:15:35.867000,2013-01-10 00:03:00.164000
+MIL000086,Richard Hammel,Richard E.,,Hammel,,,False,mi,,,,d55308c1d62c434fb5a1f1283327e7f7,,2011-04-07 20:15:35.897000,2013-01-10 00:03:00.227000
+MIL000106,Joan Bauer,Joan,,Bauer,,,False,mi,,,,0c876b4e8f52432f9ea727f7fff4016c,,2011-04-07 20:15:35.932000,2013-01-10 00:03:00.173000
+MIL000107,Mark Meadows,Mark S.,,Meadows,,,False,mi,,,,992abefd02dc41b9a4111c7b761e20c0,,2011-04-07 20:15:35.933000,2013-01-10 00:03:00.177000
+MIL000109,Deb Shaughnessy,Deb Lynn,,Shaughnessy,,,False,mi,,,,95c38afd8c104c76bb5b0c8abceb5da9,,2011-04-07 20:15:35.937000,2013-01-10 00:03:00.230000
+MIL000112,David Agema,David,,Agema,,,False,mi,,,,7b736af122e6411ea5bc62ab5330c888,,2011-04-07 20:15:35.942000,2013-01-10 00:03:00.172000
+MIL000056,Richard LeBlanc,Richard,,LeBlanc,,,False,mi,,,,4c9576409bd14962ae3ed88057bb3b7c,,2011-04-07 20:15:35.631000,2013-01-10 00:03:00.166000
+MIL000047,Shanelle Jackson,Shanelle,,Jackson,,,False,mi,,,,6e365ab8d5554216ac899831e766654e,,2011-04-07 20:15:35.567000,2013-01-10 00:03:00.167000
+MIL000116,Sharon Tyler,Sharon,,Tyler,,,False,mi,,,,9c956176a4844320b9e6195758b43353,,2011-04-07 20:15:35.949000,2013-01-10 00:03:00.169000
+MIL000066,Lesia Liss,Lesia,,Liss,,,False,mi,,,,cb1ef095398a42ada62926a2276b9af4,,2011-04-07 20:15:35.686000,2013-01-10 00:03:00.171000
+MIL000119,Judson Gilbert II,Judson S.,,Gilbert,II,,False,mi,,,,6a0ee303421b4837be53d0c2ede1f702,,2011-04-07 20:15:35.954000,2013-01-10 00:03:00.231000
+MIL000132,Kenneth Horn,Kenneth B.,,Horn,,,False,mi,,,,0be5ff8541c1434f8677792589afff59,,2011-04-07 20:15:35.977000,2013-01-10 00:03:00.232000
+MIL000147,Steven Lindberg,Steven,,Lindberg,,,False,mi,,,,65ec304119544db182f6d77fb90bdf85,,2011-04-07 20:15:36.003000,2013-01-10 00:03:00.180000
+MIL000027,John Gleason,John,,Gleason,,,False,mi,,,,ee69eaac9fa3451698b4b90ff2dc3d9d,,2011-04-07 20:15:35.294000,2013-01-10 00:03:00.223000
+MIL000079,Martin Knollenberg,Martin,,Knollenberg,,,False,mi,,,,acce50273bd94d8ba633678841f0628d,,2011-04-07 20:15:35.869000,2013-01-10 00:03:00.185000
+MIL000040,Lisa Howze,Lisa,,Howze,,,False,mi,,,,7d7040e8027440339d8ebb9e7e7eee9b,,2011-04-07 20:15:35.525000,2013-01-10 00:03:00.178000
+MIL000042,Maureen Stapleton,Maureen L.,,Stapleton,,,False,mi,,,,6ad2ba2195384da0bd554e0ec08701d0,,2011-04-07 20:15:35.556000,2013-01-10 00:03:00.197000
+MIL000131,Paul Opsommer,Paul E.,,Opsommer,,,False,mi,,,,15cc8dc0b1c249acac4bcc7e7571f5d5,,2011-04-07 20:15:35.975000,2013-01-10 00:03:00.201000
+MIL000114,Roy Schmidt,Roy,,Schmidt,,,False,mi,,,,2abe3c5ccdca4109ad59edf681231492,,2011-04-07 20:15:35.946000,2013-01-10 00:03:00.203000
+MIL000077,Lisa Brown,Lisa,,Brown,,,False,mi,,,,bff10b6e9f344e03baaec857648edb6c,,2011-04-07 20:15:35.865000,2013-01-10 00:03:00.208000
+MIL000054,Bob Constan,Bob,,Constan,,,False,mi,,,,31793d70bb084554abff58f99c2b415b,,2011-04-07 20:15:35.627000,2013-01-10 00:03:00.210000
+MIL000129,Holly Hughes,Holly,,Hughes,,,False,mi,,,,ef7fed7a25094551aaa3c153db76e117,,2011-04-07 20:15:35.971000,2013-01-10 00:03:00.212000
+MIL000148,Matt Huuki,Matt,,Huuki,,,False,mi,,,,5a7f28a634844bcbb0a437fc383e36cf,,2011-04-07 20:15:36.004000,2013-01-10 00:03:00.214000
+MIL000122,Kurt Damrow,Kurt,,Damrow,,,False,mi,,,,84abed43b8d044a0a9858d9ff0e92425,,2011-04-07 20:15:35.959000,2013-01-10 00:03:00.216000
+MIL000105,Barb Byrum,Barb,,Byrum,,,False,mi,,,,68e228f53f184cc6a67be5d87b4666b6,,2011-04-07 20:15:35.930000,2013-01-10 00:03:00.218000
+MIL000093,Rick Olson,Rick,,Olson,,,False,mi,,,,6ea3031f05fb429baedecb2e76dbad9f,,2011-04-07 20:15:35.909000,2013-01-10 00:03:00.220000
+MIL000090,Mark Ouimet,Mark,,Ouimet,,,False,mi,,,,569f90523ff54473966084c109273131,,2011-04-07 20:15:35.904000,2013-01-10 00:03:00.222000
+MIL000045,James Womack,James,,Womack,,,False,mi,,,,d603142e9d1b4ee2b511f716b3a03600,,2011-04-07 20:15:35.562000,2013-01-10 00:03:00.181000
+MIL000089,Paul Scott,Paul,,Scott,,,False,mi,,,,7bf1768e81344c128512eeb0a5da2eef,,2011-04-07 20:15:35.902000,2012-06-05 16:12:58.842000
+MIL000039,Timothy Bledsoe,Timothy,,Bledsoe,,,False,mi,,,,4eced2d0b6144f7fb441fd2813064b87,,2011-04-07 20:15:35.523000,2013-01-10 00:03:00.168000
+MIL000150,Tim Greimel,Tim,,Greimel,,,True,mi,lower,29,Democratic,60021d0609c04e5e8a85015ac747eca3,,2012-03-21 01:27:10.159000,2013-03-01 00:36:20.340000
+MIL000087,Jim Ananich,Jim,,Ananich,,,True,mi,lower,49,Democratic,4ecf90833a404e79bde175d57bb83966,,2011-04-07 20:15:35.899000,2013-03-01 00:36:20.371000
+MIL000098,Sean McCann,Sean,,McCann,,,True,mi,lower,60,Democratic,7177682ac36244ce95a5b2d3a441a649,,2011-04-07 20:15:35.918000,2013-03-01 00:36:19.945000
+MIL000229,Sam Singh,Sam,,Singh,,,True,mi,lower,69,Democratic,263d40b952124a698276d6310ba454e3,,2013-01-10 00:02:59.700000,2013-03-01 00:36:19.956000
+MIL000242,Tom Leonard,Tom,,Leonard,,,True,mi,lower,93,Republican,e626b320f14a451e90fe8855d86d856f,,2013-01-10 00:02:59.863000,2013-03-01 00:36:20.676000
+MIL000214,Martin Howrylak,Martin,,Howrylak,,,True,mi,lower,41,Republican,33dda3ad003948ac8461370743197c26,,2013-01-10 00:02:59.510000,2013-03-01 00:36:19.933000
+MIL000197,David Knezek,David,,Knezek,,,True,mi,lower,11,Democratic,66ac011191784c3fb60f8b4c44b0ab2b,,2013-01-10 00:02:59.288000,2013-03-01 00:36:20.369000
+MIL000239,Roger Victory,Roger,,Victory,,,True,mi,lower,88,Republican,054424021efc437ab71a2786d3a8ec39,,2013-01-10 00:02:59.829000,2013-03-01 00:36:20.656000
+MIL000237,Terry Brown,Terry,,Brown,,,True,mi,lower,84,Democratic,f6e19f95c70a48cb81a12d169bef6d97,,2013-01-10 00:02:59.802000,2013-03-01 00:36:19.939000
+MIL000111,Peter MacGregor,Peter,,MacGregor,,,True,mi,lower,73,Republican,b6f3bf93acea4ebca982db0218f4fbab,,2011-04-07 20:15:35.940000,2013-03-01 00:36:19.920000
+MIL000044,Frederick Durhal Jr.,Fred,,Durhal,Jr.,,True,mi,lower,5,Democratic,21bf75b05a4b4c7587ba06e823e616bf,,2011-04-07 20:15:35.560000,2013-03-01 00:36:19.943000
+MIL000097,Matthew Lori,Matt,,Lori,,,True,mi,lower,59,Republican,fb66633ac1844686b5a00da1080c5834,,2011-04-07 20:15:35.916000,2013-03-01 00:36:19.910000
+MIL000231,Rob VerHeulen,Rob,,VerHeulen,,,True,mi,lower,74,Republican,9510e4ee221b4a5791f5a0dc15ed950e,,2013-01-10 00:02:59.733000,2013-03-01 00:36:19.935000
+MIL000046,Thomas Stallworth III,Thomas,,Stallworth,,,True,mi,lower,7,Democratic,02fa82087f684b56bedefa79c9807fd5,,2011-04-07 20:15:35.565000,2013-03-01 00:36:20.375000
+MIL000053,George Darany,George,,Darany,,,True,mi,lower,15,Democratic,53f10ab9e29344dc9b85fe4d2b5eaae8,,2011-04-07 20:15:35.626000,2013-03-01 00:36:20.628000
+MIL000187,Brian Banks,Brian,,Banks,,,True,mi,lower,1,Democratic,58b2988ce7e24b99bcde047aae415f74,,2013-01-10 00:02:59.191000,2013-03-01 00:36:20.632000
+MIL000055,Phil Cavanagh,Phil,,Cavanagh,,,True,mi,lower,10,Democratic,9a3b7be0fcd3408e8bebbff3483fc5cf,,2011-04-07 20:15:35.629000,2013-03-01 00:36:20.448000
+MIL000202,Bill LaVoy,Bill,,LaVoy,,,True,mi,lower,17,Democratic,26fcb26949154232aa37525f58a070eb,,2013-01-10 00:02:59.326000,2013-03-01 00:36:20.821000
+MIL000203,Sarah Roberts,Sarah,,Roberts,,,True,mi,lower,18,Democratic,f322dd3d80f14e93986d299b9139332e,,2013-01-10 00:02:59.333000,2013-03-01 00:36:19.949000
+MIL000228,Andy Schor,Andy,,Schor,,,True,mi,lower,68,Democratic,ce4bb3935f70446798488147e93399b2,,2013-01-10 00:02:59.694000,2013-03-01 00:36:20.717000
+MIL000101,Jase Bolger,Jase,,Bolger,,,True,mi,lower,63,Republican,910418543c684471b82309582820ceab,,2011-04-07 20:15:35.923000,2013-03-01 00:34:29.052000
+MIL000082,Eileen Kowall,Eileen,,Kowall,,,True,mi,lower,44,Republican,2fa78d1490ed4cb6b0365a5c8aa53e27,,2011-04-07 20:15:35.890000,2013-03-01 00:36:19.908000
+MIL000060,Douglas Geiss,Douglas,,Geiss,,,True,mi,lower,12,Democratic,03db63a241a34098ad1e3c2608558a13,,2011-04-07 20:15:35.667000,2013-03-01 00:36:19.899000
+MIL000117,Al Pscholka,Al,,Pscholka,,,True,mi,lower,79,Republican,09557173879d4b5cb7bbd3784462f988,,2011-04-07 20:15:35.951000,2013-03-01 00:36:19.906000
+MIL000057,John Walsh,John,,Walsh,,,True,mi,lower,19,Republican,d3df55cb9e5f4e628a81067eaed07901,,2011-04-07 20:15:35.633000,2013-03-01 00:36:19.914000
+MIL000071,Ken Goike,Ken,,Goike,,,True,mi,lower,33,Republican,e18416bbc2014808bd18830e9d51e213,,2011-04-07 20:15:35.740000,2013-03-01 00:36:20.831000
+MIL000218,Pam Faris,Pam,,Faris,,,True,mi,lower,48,Democratic,43515926b2c24b1785620cfd993dd73e,,2013-01-10 00:02:59.556000,2013-03-01 00:36:19.953000
+MIL000220,Adam Zemke,Adam,,Zemke,,,True,mi,lower,55,Democratic,79d1a1bc527e4bc2bbc35ce16afe34df,,2013-01-10 00:02:59.606000,2013-03-01 00:36:19.954000
+MIL000102,Earl Poleski,Earl,,Poleski,,,True,mi,lower,64,Republican,ab8cea08ccb747deaed77eb87a1c19d0,,2011-04-07 20:15:35.925000,2013-03-01 00:36:20.257000
+MIL000136,Jim Stamas,Jim,,Stamas,,,True,mi,lower,98,Republican,8cbe44fa541b49568128c80fc607d7ad,,2011-04-07 20:15:35.984000,2013-03-01 00:36:20.606000
+MIL000128,Joseph Haveman,Joe,,Haveman,,,True,mi,lower,90,Republican,789bca72008c4e158e650cb391d1e0a3,,2011-04-07 20:15:35.970000,2013-03-01 00:36:19.904000
+MIL000134,Charles Brunner,Charles,,Brunner,,,True,mi,lower,96,Democratic,273cf322a3f34d85974185c05003ff6c,,2011-04-07 20:15:35.980000,2013-03-01 00:36:20.848000
+MIL000108,Rick Outman,Rick,,Outman,,,True,mi,lower,70,Republican,2c5765faa1d44510af49e8a48369cee0,,2011-04-07 20:15:35.935000,2013-03-01 00:36:20.243000
+MIL000124,Lisa Posthumus Lyons,Lisa Posthumus,,Lyons,,,True,mi,lower,86,Republican,817d0fa3ba97433e9c16b655b1a3a8d6,,2011-04-07 20:15:35.963000,2013-03-01 00:36:20.804000
+MIL000241,Collene Lamonte,Collene,,Lamonte,,,True,mi,lower,91,Democratic,148197fa2e724f81a71b1c4f1b3626de,,2013-01-10 00:02:59.849000,2013-03-01 00:36:20.323000
+MIL000133,Stacy Oakes,Stacy,,Oakes,,,True,mi,lower,95,Democratic,c3e2a5b7741a42bf90b6c7b8d855f4f7,,2011-04-07 20:15:35.978000,2013-03-01 00:36:20.325000
+MIL000103,Michael Shirkey,Mike,,Shirkey,,,True,mi,lower,65,Republican,cc61b0df5d304722934595e13a526049,,2011-04-07 20:15:35.926000,2013-03-01 00:36:20.486000
+MIL000232,Winnie Brinks,Winnie,,Brinks,,,True,mi,lower,76,Democratic,c74cf84f7a1e4d49a241db6650cfaa1b,,2013-01-10 00:02:59.746000,2013-03-01 00:36:20.377000
+MIL000085,Cynthia Denby,Cindy,,Denby,,,True,mi,lower,47,Republican,888fbde7cc8c40e0b88d30b52eaa4aad,,2011-04-07 20:15:35.895000,2013-03-01 00:36:20.689000
+MIL000043,John Olumba,John,,Olumba,,,True,mi,lower,3,Democratic,fbf2c3b5336c4280a7b276dc223df9a5,,2011-04-07 20:15:35.558000,2013-03-01 00:36:20.678000
+MIL000072,Woodrow Stanley,Woodrow,,Stanley,,,True,mi,lower,34,Democratic,dbbfa668388649239206329de4095f71,,2011-04-07 20:15:35.741000,2013-03-01 00:36:20.711000
+MIL000041,Alberta Talabi,Alberta,,Talabi,,,True,mi,lower,2,Democratic,ea503e7c67f144da995985896ab4918e,,2011-04-07 20:15:35.527000,2013-03-01 00:36:20.481000
+MIL000064,Jim Townsend,Jim,,Townsend,,,True,mi,lower,26,Democratic,b7e59400450545df91cb343670d60043,,2011-04-07 20:15:35.683000,2013-03-01 00:36:20.823000
+MIL000207,Henry Yanez,Henry,,Yanez,,,True,mi,lower,25,Democratic,8e53a046ea3d4c6fb032e75cc0af9b5e,,2013-01-10 00:02:59.378000,2013-03-01 00:36:20.634000
+MIL000249,John Kivela,John,,Kivela,,,True,mi,lower,109,Democratic,c42c55387129475f95b03afe2dfc8712,,2013-01-10 00:02:59.973000,2013-03-01 00:36:20.851000
+MIL000230,Theresa Abed,Theresa,,Abed,,,True,mi,lower,71,Democratic,177d3d5a80694023b3ac84ae3b74777c,,2013-01-10 00:02:59.713000,2013-03-01 00:36:20.709000
+MIL000250,Scott Dianda,Scott,,Dianda,,,True,mi,lower,110,Democratic,bba88611b35740118f32b8d22dc2ca1c,,2013-01-10 00:02:59.980000,2013-03-01 00:36:20.880000
+MIL000126,Robert Genetski II,Bob,,Genetski,,,True,mi,lower,80,Republican,5d68418897cc4f3f9f6c96d699c65fea,,2011-04-07 20:15:35.966000,2013-03-01 00:36:20.838000
+MIL000243,Tim Kelly,Tim,,Kelly,,,True,mi,lower,94,Republican,,,2013-01-10 00:02:59.869000,2013-03-01 00:36:20.813000
+MIL000075,Vicki Barnett,Vicki,,Barnett,,,True,mi,lower,37,Democratic,a0785116ad014dc7b82c5fe8be8a029b,,2011-04-07 20:15:35.840000,2013-03-01 00:36:20.815000
+MIL000234,Dave Pagel,Dave,,Pagel,,,True,mi,lower,78,Republican,c2ed4938c78f438fb3325cf38032278e,,2013-01-10 00:02:59.759000,2013-03-01 00:36:20.844000
+MIL000213,Michael McCready,Michael,,McCready,,,True,mi,lower,40,Republican,670bedcfde5043719508a9c16854d79d,,2013-01-10 00:02:59.504000,2013-03-01 00:36:20.876000
+MIL000219,Gretchen Driskell,Gretchen,,Driskell,,,True,mi,lower,52,Democratic,2381633a771b4a2faba9fae271315425,,2013-01-10 00:02:59.587000,2013-03-01 00:36:20.883000
+MIL000063,Jon Switalski,Jon,,Switalski,,,True,mi,lower,28,Democratic,723c5eedaa0d48559db41f545f60432a,,2011-04-07 20:15:35.681000,2013-03-01 00:36:20.817000
+MIL000130,Marcia Hovey-Wright,Marcia,,Hovey-Wright,,,True,mi,lower,92,Democratic,eafde426fca4472a9add932250187a82,,2011-04-07 20:15:35.973000,2013-03-01 00:36:20.248000
+MIL000121,Paul Muxlow,Paul,,Muxlow,,,True,mi,lower,83,Republican,f775308846bd4937aeac4c111f793369,,2011-04-07 20:15:35.958000,2013-03-01 00:36:19.925000
+MIL000091,Jeff Irwin,Jeff,,Irwin,,,True,mi,lower,53,Democratic,68bd496031c14cd392b2bf16d35db0d1,,2011-04-07 20:15:35.906000,2013-03-01 00:36:20.452000
+MIL000104,William Rogers,Bill,,Rogers,,,True,mi,lower,42,Republican,e13afb060a4f4fcc9deece72ca822784,,2011-04-07 20:15:35.928000,2013-03-01 00:36:19.912000
+MIL000201,Robert Kosowski,Robert,,Kosowski,,,True,mi,lower,16,Democratic,d7ef97c388ce4c688e935d77498cba98,,2013-01-10 00:02:59.320000,2013-03-01 00:36:20.846000
+MIL000195,Harvey Santana,Harvey,,Santana,,,True,mi,lower,9,Democratic,39d165a80cf5464eb0ba32bfffde7e43,,2013-01-10 00:02:59.275000,2013-03-01 00:36:20.625000
+MIL000052,Paul Clemente,Paul,,Clemente,,,True,mi,lower,14,Democratic,f67f73688cda4bccae72a92cb1cccb25,,2011-04-07 20:15:35.593000,2013-03-01 00:36:20.591000
+MIL000059,Dian Slavens,Dian,,Slavens,,,True,mi,lower,21,Democratic,51fabf19438b4d2daae6ce10a227866d,,2011-04-07 20:15:35.636000,2013-03-01 00:36:20.630000
+MIL000083,Tom McMillin,Tom,,McMillin,,,True,mi,lower,45,Republican,e553a8c8ef0d4eba8f516c11d25ef95c,,2011-04-07 20:15:35.892000,2013-03-01 00:36:20.691000
+MIL000088,Charles Smiley,Charles,,Smiley,,,True,mi,lower,50,Democratic,ed3d52eba259400ba95a1254dfe402e9,,2011-04-07 20:15:35.900000,2013-03-01 00:36:20.887000
+MIL000110,Ken Yonker,Ken,,Yonker,,,True,mi,lower,72,Republican,12f453a32d5b478393a900a34702315d,,2011-04-07 20:15:35.939000,2013-03-01 00:36:20.697000
+MIL000137,Kevin Cotter,Kevin,,Cotter,,,True,mi,lower,99,Republican,7f5c76bd8eb545abbeea7dcc0484106d,,2011-04-07 20:15:35.985000,2013-03-01 00:36:20.728000
+MIL000138,Jon Bumstead,Jon,,Bumstead,,,True,mi,lower,100,Republican,cfa8f2552b3f47ab9e5b547d12f6c340,,2011-04-07 20:15:35.987000,2013-03-01 00:36:19.916000
+MIL000125,Mike Callton,Mike,,Callton,,,True,mi,lower,87,Republican,e8fcd393eb5d4785b70f1aa2809f4d45,,2011-04-07 20:15:35.965000,2013-03-01 00:36:20.347000
+MIL000123,Ben Glardon,Ben,,Glardon,,,True,mi,lower,85,Republican,47c1ff4de1214cf9b3bab813869bed46,,2011-04-07 20:15:35.961000,2013-03-01 00:36:20.858000
+MIL000118,Aric Nesbitt,Aric,,Nesbitt,,,True,mi,lower,66,Republican,f7a4cbc1ac5949a99ecbd14fd6d77d74,,2011-04-07 20:15:35.952000,2013-03-01 00:36:20.806000
+MIL000058,Kurt Heise,Kurt,,Heise,,,True,mi,lower,20,Republican,7de42a652c4a47a9b919fd5bddfe7a27,,2011-04-07 20:15:35.634000,2013-03-01 00:36:20.864000
+MIL000127,Amanda Price,Amanda,,Price,,,True,mi,lower,89,Republican,76aff5561bad4a8db1397bd43c034d72,,2011-04-07 20:15:35.968000,2013-03-01 00:36:20.809000
+MIL000135,Joel Johnson,Joel,,Johnson,,,True,mi,lower,97,Republican,439c9d06aead40dda4bd77800c51ac2d,,2011-04-07 20:15:35.982000,2013-03-01 00:36:20.652000
+MIL000065,Ellen Lipton,Ellen,,Lipton,,,True,mi,lower,27,Democratic,60fcfdfc40774b58855c4d9b11d9ff5b,,2011-04-07 20:15:35.685000,2013-03-01 00:36:20.450000
+MIL000120,Kevin Daley,Kevin,,Daley,,,True,mi,lower,82,Republican,a8ee68fabc434cb3aaac3d5473caf0d0,,2011-04-07 20:15:35.956000,2013-03-01 00:36:20.862000
+MIL000139,Ray Franz,Ray,,Franz,,,True,mi,lower,101,Republican,be68d4db1d724982b5d53efb423ab72e,,2011-04-07 20:15:35.989000,2013-03-01 00:36:20.608000
+MIL000100,Kate Segal,Kate,,Segal,,,True,mi,lower,62,Democratic,2e94a8087baf46189b7e4d0d82e21468,,2011-04-07 20:15:35.921000,2013-03-01 00:36:20.599000
+MIL000081,Gail Haines,Gail,,Haines,,,True,mi,lower,43,Republican,daa760cecf544b3e8d803f741d5cd6d2,,2011-04-07 20:15:35.872000,2013-03-01 00:36:20.611000
+MIL000096,Kenneth Kurtz,Kenneth,,Kurtz,,,True,mi,lower,58,Republican,3fac28888aa045f9abb1b17a94a6d83f,,2011-04-07 20:15:35.914000,2013-03-01 00:36:20.613000
+MIL000115,Thomas Hooker,Tom,,Hooker,,,True,mi,lower,77,Republican,7cb420ddda1040c08b44107c3f8b43bf,,2011-04-07 20:15:35.947000,2013-03-01 00:36:20.616000
+MIL000094,Dale Zorn,Dale,,Zorn,,,True,mi,lower,56,Republican,b40f6f4d45004817b8cdc6d24d2a9e3e,,2011-04-07 20:15:35.911000,2013-03-01 00:36:20.620000
+MIL000070,Andrea LaFontaine,Andrea,,LaFontaine,,,True,mi,lower,32,Republican,1c8aebed40824a5a9e1347d49cba5aec,,2011-04-07 20:15:35.693000,2013-03-01 00:36:20.693000
+MIL000146,Ed McBroom,Ed,,McBroom,,,True,mi,lower,108,Republican,f101c938baae44179daf47ac07155999,,2011-04-07 20:15:36.001000,2013-03-01 00:36:20.687000
+MIL000190,Rose Mary Robinson,Rose Mary,,Robinson,,,True,mi,lower,4,Democratic,47d24d2bb9514b6f84c76ee5fdd83526,,2013-01-10 00:02:59.244000,2013-03-01 00:36:20.680000
+MIL000141,Bruce Rendon,Bruce,,Rendon,,,True,mi,lower,103,Republican,3700be8a55de44ee8e4bcae86e1e0e09,,2011-04-07 20:15:35.992000,2013-03-01 00:36:20.841000
+MIL000145,Frank Foster,Frank,,Foster,,,True,mi,lower,107,Republican,983bca14f01f417191b57d072ca1be7a,,2011-04-07 20:15:35.999000,2013-03-01 00:36:20.793000
+MIL000061,Pat Somerville,Pat,,Somerville,,,True,mi,lower,23,Republican,6b0522ac08dd4639acbdb75bd1d03cda,,2011-04-07 20:15:35.670000,2013-03-01 00:36:20.811000
+MIL000142,Wayne Schmidt,Wayne,,Schmidt,,,True,mi,lower,104,Republican,7329271c7fac40a38100ebe65d5204bf,,2011-04-07 20:15:35.994000,2013-03-01 00:36:20.856000
+MIL000084,Bradford Jacobsen,Bradford,,Jacobsen,,,True,mi,lower,46,Republican,93a15d4f55d74ea5a67a7d075d5cfc4c,,2011-04-07 20:15:35.894000,2013-03-01 00:36:20.866000
+MIL000099,Margaret O'Brien,Margaret,,O'Brien,,,True,mi,lower,61,Republican,6a7f5d0b40bd4d87a4328cd1caf9fffa,,2011-04-07 20:15:35.919000,2013-03-01 00:36:20.869000
+MIL000069,Marilyn Lane,Marilyn,,Lane,,,True,mi,lower,31,Democratic,f5a2bab07b284dd78490e30bb04dc365,,2011-04-07 20:15:35.692000,2013-03-01 00:36:20.878000
+MIL000092,David Rutledge,David,,Rutledge,,,True,mi,lower,54,Democratic,7482e26842274f0a815e31a49ff251f1,,2011-04-07 20:15:35.907000,2013-03-01 00:36:20.882000
+MIL000227,Tom Cochran,Tom,,Cochran,,,True,mi,lower,67,Democratic,fc81e237b0984601bccb28916989fa87,,2013-01-10 00:02:59.687000,2013-03-01 00:36:20.885000
+MIL000049,David Nathan,David,,Nathan,,,True,mi,lower,8,Democratic,1ce5a12fe2b244eca3db7f18856f86a2,,2011-04-07 20:15:35.571000,2013-03-01 00:36:20.715000
+MIL000062,Anthony Forlini,Anthony,,Forlini,,,True,mi,lower,24,Republican,7aebe9cb8ce948f0a6484e1ca7bcbc8b,,2011-04-07 20:15:35.680000,2013-03-01 00:36:19.918000
+MIL000074,Peter Lund,Pete,,Lund,,,True,mi,lower,36,Republican,cce487be1f34435baaf9d79d5da0da4e,,2011-04-07 20:15:35.838000,2013-03-01 00:36:20.381000
+MIL000095,Nancy Jenkins,Nancy,,Jenkins,,,True,mi,lower,57,Republican,97612b6e74e74fe783e92da473fb5c31,,2011-04-07 20:15:35.913000,2013-03-01 00:36:19.924000
+MIL000050,Rashida Tlaib,Rashida,,Tlaib,,,True,mi,lower,6,Democratic,07a550e0192e46359b78d9d1f44201fa,,2011-04-07 20:15:35.572000,2013-03-01 00:36:19.937000
+MIL000143,Greg MacMaster,Greg,,MacMaster,,,True,mi,lower,105,Republican,fc51b874cf404c67b6b9c2f1487f15f5,,2011-04-07 20:15:35.996000,2013-03-01 00:36:19.922000
+MIL000140,Phil Potvin,Phil,,Potvin,,,True,mi,lower,102,Republican,4449a62b410d4be6b51aeabb237897b7,,2011-04-07 20:15:35.991000,2013-03-01 00:36:19.929000
+MIL000113,Brandon Dillon,Brandon,,Dillon,,,True,mi,lower,75,Democratic,26ecb04191394f1da0eabe341c1059cc,,2011-04-07 20:15:35.944000,2013-03-01 00:36:19.947000
+MIL000068,Jeff Farrington,Jeff,,Farrington,,,True,mi,lower,30,Republican,18d65012d12041469fcd2f2e6ccdd43a,,2011-04-07 20:15:35.690000,2013-03-01 00:36:20.722000
+MIL000076,Hugh Crawford,Hugh D.,,Crawford,,,True,mi,lower,38,Republican,18903adcef5b475a8372ad7f71e2095a,,2011-04-07 20:15:35.863000,2013-03-01 00:36:20.833000
+MIL000080,Harold Haugh,Harold,,Haugh,,,True,mi,lower,22,Democratic,c3fbaa41973b4aae9554125cb925d9d3,,2011-04-07 20:15:35.870000,2013-03-01 00:36:20.819000
+MIL000051,Andrew Kandrevas,Andrew,,Kandrevas,,,True,mi,lower,13,Democratic,2c4f09f15343417bbce9e9974887f3bd,,2011-04-07 20:15:35.574000,2013-03-01 00:36:19.950000
+MIL000073,Rudy Hobbs,Rudy,,Hobbs,,,True,mi,lower,35,Democratic,93c029375f7e455b852461ec578def94,,2011-04-07 20:15:35.836000,2013-03-01 00:36:20.338000
+MIL000144,Peter Pettalia,Peter,,Pettalia,,,True,mi,lower,106,Republican,03775901880542c681dc1f6301a5d3e6,,2011-04-07 20:15:35.997000,2013-03-01 00:36:20.871000
+MIL000151,Joseph Graves,Joseph,,Graves,,,True,mi,lower,51,Republican,e7fd5726156a405f9207fc2e201a5b91,,2012-03-21 01:27:10.307000,2013-03-01 00:36:20.623000
+MIL000212,Klint Kesto,Klint,,Kesto,,,True,mi,lower,39,Republican,9ebeed060af3480183dd71c5bc9c605c,,2013-01-10 00:02:59.497000,2013-03-01 00:36:20.701000
+MIL000236,Dan Lauwers,Dan,,Lauwers,,,True,mi,lower,81,Republican,480de37400794ebc96ef716a25e584d3,,2013-01-10 00:02:59.780000,2013-03-01 00:36:20.873000
+MIL000011,Jack Brandenburg,Jack,,Brandenburg,,,True,mi,upper,11,Republican,176ce5433612491eb5cc98060ffdd574,,2011-04-07 20:15:35.196000,2013-03-01 00:36:19.773000
+MIL000029,Dave Hildenbrand,Dave,,Hildenbrand,,,True,mi,upper,29,Republican,9210070ac8ba4df7b9425d1b16fa860c,,2011-04-07 20:15:35.435000,2013-03-01 00:36:19.717000
+MIL000024,Rick Jones,Rick,,Jones,,,True,mi,upper,24,Republican,01aa7f66c99742838d3360087b12084e,,2011-04-07 20:15:35.282000,2013-03-01 00:36:19.753000
+MIL000017,Randy Richardville,Randy,,Richardville,,,True,mi,upper,17,Republican,531754ee94b3468193ff563740b19734,,2011-04-07 20:15:35.206000,2013-03-01 00:36:19.555000
+MIL000023,Gretchen Whitmer,Gretchen,,Whitmer,,,True,mi,upper,23,Democratic,ebee08eaab0b4f1aabd5b159be7f7cd8,,2011-04-07 20:15:35.280000,2013-03-01 00:36:19.562000
+MIL000005,Tupac A. Hunter,Tupac A.,,Hunter,,,True,mi,upper,5,Democratic,f774986c3ebd4afaa627709fe24090ab,,2011-04-07 20:15:34.973000,2013-03-01 00:36:19.563000
+MIL000038,Tom Casperson,Tom,,Casperson,,,True,mi,upper,38,Republican,4f401169138648c2a6a20c3535685538,,2011-04-07 20:15:35.517000,2013-03-01 00:36:19.769000
+MIL000015,Mike Kowall,Mike,,Kowall,,,True,mi,upper,15,Republican,098c34e93ec4483bb2053fd0b82d470e,,2011-04-07 20:15:35.203000,2013-03-01 00:36:19.771000
+MIL000032,Roger Kahn,Roger,,Kahn,,,True,mi,upper,32,Republican,8419cee6c4c1469c95a0fe737a1526e2,,2011-04-07 20:15:35.495000,2013-03-01 00:36:19.593000
+MIL000009,Steven M Bieda,Steven M,,Bieda,,,True,mi,upper,9,Democratic,768b9122b2224d15a384951287b26688,,2011-04-07 20:15:35.192000,2013-03-01 00:36:19.725000
+MIL000016,Bruce Caswell,Bruce,,Caswell,,,True,mi,upper,16,Republican,8ff71856961d4f1699a359c91359f2dc,,2011-04-07 20:15:35.204000,2013-03-01 00:36:19.423000
+MIL000019,Mike Nofs,Mike,,Nofs,,,True,mi,upper,19,Republican,5d5aaca4d77544508da513ac4ed08f48,,2011-04-07 20:15:35.246000,2013-03-01 00:36:19.528000
+MIL000030,Arlan B Meekhof,Arlan B,,Meekhof,,,True,mi,upper,30,Republican,dc15e593056a4554ae21d2ea6fde690f,,2011-04-07 20:15:35.437000,2013-03-01 00:36:19.756000
+MIL000037,Howard Walker,Howard,,Walker,,,True,mi,upper,37,Republican,d71ce64ab096442885825023e431966d,,2011-04-07 20:15:35.515000,2013-03-01 00:36:19.513000
+MIL000035,Darwin L Booher,Darwin L,,Booher,,,True,mi,upper,35,Republican,7a9775c664424077bedf7a84cb6e53f3,,2011-04-07 20:15:35.511000,2013-03-01 00:36:19.597000
+MIL000031,Mike Green,Mike,,Green,,,True,mi,upper,31,Republican,f744ec2c168443bab7764af307f3822a,,2011-04-07 20:15:35.464000,2013-03-01 00:36:19.658000
+MIL000033,Judy K Emmons,Judy K,,Emmons,,,True,mi,upper,33,Republican,21841fbe63114a8982a937a9990b37b4,,2011-04-07 20:15:35.497000,2013-03-01 00:36:19.795000
+MIL000014,Vincent Gregory,Vincent,,Gregory,,,True,mi,upper,14,Democratic,64bd3d1250d046baa96153fbe7f6f2c3,,2011-04-07 20:15:35.201000,2013-03-01 00:36:19.797000
+MIL000020,Tonya Schuitmaker,Tonya,,Schuitmaker,,,True,mi,upper,20,Republican,05cdc330651e47a69c30ea15f0fa4c96,,2011-04-07 20:15:35.247000,2013-03-01 00:36:19.633000
+MIL000010,Tory Rocca,Tory,,Rocca,,,True,mi,upper,10,Republican,a312994f3c1941f781e63d9a2ef07e87,,2011-04-07 20:15:35.194000,2013-03-01 00:36:19.751000
+MIL000003,Morris W Hood III,Morris W,,Hood,III,,True,mi,upper,3,Democratic,e2660a142b3549e9a435c9695f93b00d,,2011-04-07 20:15:34.908000,2013-03-01 00:36:19.783000
+MIL000012,Jim Marleau,Jim,,Marleau,,,True,mi,upper,12,Republican,76f3c34adf14453589f06a81b48b28e9,,2011-04-07 20:15:35.197000,2013-03-01 00:36:19.719000
+MIL000036,John Moolenaar,John,,Moolenaar,,,True,mi,upper,36,Republican,6ece3d788f9347878a478155ad5240f0,,2011-04-07 20:15:35.513000,2013-03-01 00:36:19.790000
+MIL000021,John Proos,John,,Proos,,,True,mi,upper,21,Republican,7d548da3170a4ed99e7f5329bfa1f308,,2011-04-07 20:15:35.268000,2013-03-01 00:36:19.723000
+MIL000002,Bert Johnson,Bert,,Johnson,,,True,mi,upper,2,Democratic,3c71e57c03e64909afa64a795d7350cc,,2011-04-07 20:15:34.884000,2013-03-01 00:36:19.762000
+MIL000028,Mark Jansen,Mark,,Jansen,,,True,mi,upper,28,Republican,967308f6c309464ebc14a0d84852babf,,2011-04-07 20:15:35.354000,2013-03-01 00:36:19.734000
+MIL000007,Patrick Colbeck,Patrick,,Colbeck,,,True,mi,upper,7,Republican,c2ef2ad23a12452fb8f2c2f2c8607112,,2011-04-07 20:15:35.162000,2013-03-01 00:36:19.736000
+MIL000026,David B Robertson,David B,,Robertson,,,True,mi,upper,26,Republican,,,2011-04-07 20:15:35.289000,2013-03-01 00:36:19.742000
+MIL000001,Coleman Young II,Coleman,,Young,II,,True,mi,upper,1,Democratic,76d034bb861a43eda76f50379c978171,,2011-04-07 20:15:34.806000,2013-03-01 00:36:19.744000
+MIL000025,Phil Pavlov,Phil,,Pavlov,,,True,mi,upper,25,Republican,bbc19c22e97c402494b5038498a36c0d,,2011-04-07 20:15:35.283000,2013-03-01 00:36:19.775000
+MIL000018,Rebekah Warren,Rebekah,,Warren,,,True,mi,upper,18,Democratic,2651c602cb054f6aaafb122e9baa1003,,2011-04-07 20:15:35.208000,2013-03-01 00:36:19.785000
+MIL000022,Joe Hune,Joe,,Hune,,,True,mi,upper,22,Republican,29b09e663abf49938bbbc92b9909b3dc,,2011-04-07 20:15:35.278000,2013-03-01 00:36:19.754000
+MIL000006,Glenn Anderson,Glenn,,Anderson,,,True,mi,upper,6,Democratic,dd5c053cec0844b6a3acb79be9b8c52f,,2011-04-07 20:15:35.160000,2013-03-01 00:36:19.440000
+MIL000013,John Pappageorge,John,,Pappageorge,,,True,mi,upper,13,Republican,d2f857505b464cd38a516a63b5bdc560,,2011-04-07 20:15:35.199000,2013-03-01 00:36:19.792000
+MIL000034,Goeff Hansen,Goeff,,Hansen,,,True,mi,upper,34,Republican,b6ef05cd37cb4aec8df2515406f74d09,,2011-04-07 20:15:35.510000,2013-03-01 00:36:19.777000
+MIL000004,Virgil Smith,Virgil,,Smith,,,True,mi,upper,4,Democratic,f2f8bdc4e3de455ca3c6912cd9b549f2,,2011-04-07 20:15:34.910000,2013-03-01 00:36:19.799000
+MIL000008,Hoon-Yung Hopgood,Hoon-Yung,,Hopgood,,,True,mi,upper,8,Democratic,7c388a9439574487970acbb6ceebc6ba,,2011-04-07 20:15:35.164000,2013-03-01 00:36:19.708000
