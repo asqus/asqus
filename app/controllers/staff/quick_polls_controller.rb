@@ -1,6 +1,6 @@
 class Staff::QuickPollsController < Staff::BaseController
-  # GET /quick_polls
-  # GET /quick_polls.json
+  # GET /staff/quick_polls
+  # GET /staff/quick_polls.json
   def index
     @quick_polls = QuickPoll.all
 
@@ -10,8 +10,8 @@ class Staff::QuickPollsController < Staff::BaseController
     end
   end
 
-  # GET /quick_polls/1
-  # GET /quick_polls/1.json
+  # GET /staff/quick_polls/1
+  # GET /staff/quick_polls/1.json
   def show
     @quick_poll = QuickPoll.find(params[:id])
 
@@ -21,8 +21,8 @@ class Staff::QuickPollsController < Staff::BaseController
     end
   end
 
-  # GET /quick_polls/new
-  # GET /quick_polls/new.json
+  # GET /staff/quick_polls/new
+  # GET /staff/quick_polls/new.json
   def new
 
     @quick_poll = QuickPoll.new
@@ -38,7 +38,7 @@ class Staff::QuickPollsController < Staff::BaseController
     end
   end
 
-  # GET /quick_polls/1/edit
+  # GET /staff/quick_polls/1/edit
   def edit
     @quick_poll = QuickPoll.find(params[:id])
     @poller_type = @quick_poll.issue.poller_type
@@ -47,8 +47,8 @@ class Staff::QuickPollsController < Staff::BaseController
 
   end
 
-  # POST /quick_polls
-  # POST /quick_polls.json
+  # POST /staff/quick_polls
+  # POST /staff/quick_polls.json
   def create
 
     logger.info params[:quick_poll]
@@ -58,7 +58,7 @@ class Staff::QuickPollsController < Staff::BaseController
 
     respond_to do |format|
       if @quick_poll.save
-        format.html { redirect_to @quick_poll, notice: 'Quick poll was successfully created.' }
+        format.html { redirect_to staff_quick_poll_path(@quick_poll), notice: 'Quick poll was successfully created.' }
         format.json { render json: @quick_poll, status: :created, location: @quick_poll }
       else
         logger.debug @quick_poll.errors.full_messages
@@ -71,14 +71,14 @@ class Staff::QuickPollsController < Staff::BaseController
     end
   end
 
-  # PUT /quick_polls/1
-  # PUT /quick_polls/1.json
+  # PUT /staff/quick_polls/1
+  # PUT /staff/quick_polls/1.json
   def update
     @quick_poll = QuickPoll.find(params[:id])
 
     respond_to do |format|
       if @quick_poll.update_attributes(params[:quick_poll])
-        format.html { redirect_to @quick_poll, notice: 'Quick poll was successfully updated.' }
+        format.html { redirect_to staff_quick_poll_path(@quick_poll), notice: 'Quick poll was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -87,14 +87,14 @@ class Staff::QuickPollsController < Staff::BaseController
     end
   end
 
-  # DELETE /quick_polls/1
-  # DELETE /quick_polls/1.json
+  # DELETE /staff/quick_polls/1
+  # DELETE /staff/quick_polls/1.json
   def destroy
     @quick_poll = QuickPoll.find(params[:id])
     @quick_poll.destroy
 
     respond_to do |format|
-      format.html { redirect_to quick_polls_url }
+      format.html { redirect_to staff_quick_polls_url }
       format.json { head :no_content }
     end
   end

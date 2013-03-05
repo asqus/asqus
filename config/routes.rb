@@ -1,63 +1,27 @@
 Asqus::Application.routes.draw do
   
 
-
-  resources :quick_poll_types
-
-
   resources :quick_poll_responses
 
   resources :quick_poll_results
 
-  resources :quick_polls
-
-
-  resources :standard_poll_options
-
-
-  resources :standard_poll_option_sets
-
-
   resources :tags
-
-
-  resources :issues
-
-
-  resources :nations
-
 
   resources :poll_options
 
-
-  resources :quick_poll_options
-
-
   resources :user_groups
-
 
   resources :poll_responses
 
-
   resources :poll_questions
-
-
-
 
   resources :offices, :only => [:index, :show]
 
-
   resources :state_senate_districts
 
-
   resources :state_house_districts
-
-
-  resources :counties
-
-
+  
   resources :congressional_districts
-
 
   resources :municipalities do
     resources :wards
@@ -66,14 +30,20 @@ Asqus::Application.routes.draw do
   namespace :admin do
     resources :officials
     resources :offices
-    resources :official_tenures
-    resources :states
+    resources :states, :only => [:index, :show, :edit, :update]
     resources :users
+    resources :standard_poll_option_sets
+    resources :counties
   end
   
-
-  resources :poll_workflow_states
-  resources :polls
+  
+  namespace :staff do
+    resources :quick_poll_options
+    resources :quick_polls
+    resources :issues
+  
+  end
+  
   resources :officials, :only => [:index, :show]
 
  

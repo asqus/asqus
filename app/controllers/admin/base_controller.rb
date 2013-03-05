@@ -7,7 +7,7 @@ protected
 
 def admin_before
   authenticate_user!
-  
+  raise AccessDenied unless current_user.has_role? :admin
 end
   
 end

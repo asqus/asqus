@@ -7,15 +7,7 @@
   <%= @quick_poll.body %>
 
   <p>
-  <% if @quick_poll.issue.poller_type == 'Office' %>
-    <% official = Office::incumbent_officials(@quick_poll.issue.poller_id).first %>
-    <% unless official.nil? %>
-      (Asqed by <%= link_to official.name, official %>)
-    <% end %>
-  <% end %>
 
-
-  <p>
   <div class="form-actions">
   <div class="btn-group btn-group-vertical">
     <% @quick_poll.quick_poll_options.each do |option| %>

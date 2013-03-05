@@ -2,6 +2,7 @@ class Admin::OfficialsController < Admin::BaseController
   # GET /officials
   # GET /officials.json
   def index
+      
     @officials = Official.all
 
     respond_to do |format|

@@ -2,6 +2,16 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :before_all
 
+  class AccessDenied < StandardError
+  end
+  
+  rescue_from AccessDenied, :with => :access_denied
+
+  def access_denied(exception)
+    flash[:notice] = "That page does not exist, or you do not have permission to access it."
+    redirect_to root_path
+  end
+  
   #rescue_from CanCan::AccessDenied do |exception|
   #  redirect_to root_path, :alert => exception.message
   #end
