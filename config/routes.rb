@@ -55,7 +55,7 @@ Asqus::Application.routes.draw do
 
   match '/admin' => 'home#admin'
 
-  devise_for :users, :path => '/admin'
+  devise_for :users
 
   match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications, :only => [:index,:create,:destroy]
