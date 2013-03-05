@@ -287,9 +287,9 @@ create unique index users_roles_uidx on users_roles(user_id,role_id);
 create table authentications (
 	id			serial primary key,
 	user_id		integer not null references users,
-	provider 	varchar(40) not null,
-	uid 		varchar(40) not null,
-	token		varchar(64) not null,
+	provider 	varchar(64) not null,
+	uid 		varchar(64) not null,
+	token		text not null,
 	created_at	timestamp not null default now(),
 	updated_at	timestamp not null default now()
 );
