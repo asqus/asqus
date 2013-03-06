@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 SDL000139,Tad Perry,Tad,,Perry,,,False,sd,,,,a4e69af276bc4e36bea13dd210bf627e,http://legis.state.sd.us/sessions/2011/perry.jpg,2011-01-14 22:24:08.362000,2013-01-09 00:48:35.330000
 SDL000113,Elizabeth Kraus,Elizabeth,,Kraus,,,False,sd,,,,c42e9a1228534479adacaa47da4068ea,http://legis.state.sd.us/sessions/2011/kraus.jpg,2011-01-14 22:24:08.377000,2013-01-09 00:48:35.379000
 SDL000078,Eldon E Nygaard,Eldon,E,Nygaard,,,False,sd,,,,360ab15bf1fa4828bbed0ff8c249013b,http://legis.state.sd.us/sessions/2009/Nygaard.jpg,2010-07-31 03:33:51.846000,2013-01-09 00:48:35.376000

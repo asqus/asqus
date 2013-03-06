@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 NML000113,Lisa K. Curtis,Lisa K.,,Curtis,,,False,nm,,,,82448383d97144b79ce00b76f46c5837,http://www.nmlegis.gov/lcs/graphics/photos/SCURT.jpg,2012-01-20 00:30:42.622000,2013-01-15 15:51:48.565000
 NML000018,Mark Boitano,Mark L.,,Boitano,,,False,nm,,,,efad9e1c08b640b7b6114d98588d3398,http://www.nmlegis.gov/lcs/graphics/photos/SBOIT.jpg,2011-08-05 16:10:18.434000,2013-01-15 15:51:48.569000
 NML000078,Andy Nuñez,Andy,,Nuñez,,,False,nm,,,,,http://www.nmlegis.gov/lcs/graphics/photos/HNUNE.jpg,2011-08-05 16:10:18.668000,2013-01-15 15:51:48.553000

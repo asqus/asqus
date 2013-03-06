@@ -6,7 +6,7 @@ class Office < ActiveRecord::Base
   has_many :issues, :as => :poller
   has_many :joined_official_terms
 
-  attr_accessible :name, :office_type_id, :polity_id, :polity_type, :timestamps
+  attr_accessible :name, :office_type_id, :polity_id, :polity_type, :district, :timestamps
 
   validates :office_type_id,:presence => true 
   validates :polity_type, :presence => true
@@ -14,7 +14,7 @@ class Office < ActiveRecord::Base
 
   validates_associated :office_type, :polity
   
-  default_scope :order => "polity_type, polity_id, office_type_id, seat_discriminator"
+  default_scope :order => "polity_type, polity_id, office_type_id, district"
 
   def full_name
     self.office_type.name

@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 NVL000002,Shirley A Breeden,Shirley,A,Breeden,,,False,nv,,,,2186a6a4cbc648b2a9f5e1bfda58c7e2,http://www.leg.state.nv.us/Senate/Current/Senators/Images/Breeden.jpg,2010-09-01 16:27:46.963000,2013-01-09 22:29:27.948000
 NVL000001,Mark E Amodei,Mark,E,Amodei,,,False,nv,,,,8500e14fe6414f42a6434ac8ce619380,http://www.leg.state.nv.us/73rd/Legislators/senators/Images/Amodei.jpg,2010-09-01 16:27:46.961000,2011-01-10 23:44:48.987000
 NVL000008,Warren B Hardy II,Warren,B,Hardy II,,,False,nv,,,,1a34b63790d14a37acfdb3781a5b2f6f,http://www.leg.state.nv.us/73rd/legislators/senators/Images/Hardy.jpg,2010-09-01 16:27:46.973000,2011-01-10 23:44:48.987000

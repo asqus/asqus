@@ -38,8 +38,8 @@
 <% @us_rep_offices.each do |office| %>
   <% incumbent = Office.incumbent_officials(office.id).first %>
   <tr>
-	<% if office.seat_discriminator > 0 %>
-	  <td><%= office.office_type.name + ", District " + office.seat_discriminator.to_s %></td>
+	<% if office.district.to_i > 0 %>
+	  <td><%= office.office_type.name + ", District " + office.district %></td>
 	<% else %> 
 	  <td><%= office.office_type.name + " at Large" %><td>
 	<% end %>

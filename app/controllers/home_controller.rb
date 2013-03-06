@@ -20,7 +20,7 @@ class HomeController < ApplicationController
         @us_house_offices = Office.where(:office_type_id => OfficeType::US_REP.id, 
                                         :polity_type => 'State', 
                                         :polity_id => current_user.state_id, 
-                                        :seat_discriminator => current_user.congressional_district_number )
+                                        :district => current_user.congressional_district_number.to_s )
       end      
     end
     

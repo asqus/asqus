@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 UTL000104,Holly J. Richardson,Holly,J.,Richardson,,,False,ut,,,,887fe543962346bcb6656612ec3c011d,http://le.utah.gov/images/legislator/richahj.jpg,2011-02-01 00:17:55.119000,2012-07-11 20:50:46.928000
 UTL000043,Fred C Cox,Fred,C,Cox,,,False,ut,,,,,http://le.utah.gov/images/legislator/coxfc.jpg,2011-01-14 22:24:08.172000,2013-01-11 00:17:26.403000
 UTL000107,Brian Doughty,Brian,,Doughty,,,False,ut,,,,682e688ebf5840b4b8aa2bc7ec31fece,http://le.utah.gov/images/legislator/doughb.jpg,2011-07-25 17:27:06.662000,2013-01-11 00:17:26.399000

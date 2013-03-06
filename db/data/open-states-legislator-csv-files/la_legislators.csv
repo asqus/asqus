@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 LAL000150,Nick Gautreaux,Nick,,Gautreaux,,,False,la,,,,5565cf98305c47e6a9bbb2ce018eb5ce,,2010-08-26 01:34:23.007000,2011-04-25 21:25:04.395000
 LAL000122,"Jr., Chris Roy Jr.",Chris,,Roy,Jr.,,False,la,,,,dfeec44f58584b9d911385e05684b0e1,http://house.louisiana.gov/H_Reps/RepPics09/rep25.jpg,2010-07-12 17:05:43.818000,2011-04-25 21:25:04.264000
 LAL000125,"M.J. Smiley, Jr.",M.J.,,Smiley,Jr.,Mert,False,la,,,,f69ea4a8daa7480eb108a9df2cf46ba4,http://house.louisiana.gov/H_Reps/RepPics09/rep88.jpg,2010-07-12 17:05:43.840000,2011-04-25 21:25:04.350000

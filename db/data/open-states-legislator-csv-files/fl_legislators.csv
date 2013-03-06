@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 FLL000030,Nan H Rich,Nan,H,Rich,,,False,fl,,,,db40bf852c2f4764bb8258734fca7ad3,http://www.flsenate.gov/userContent/Senators/2010-2012/photos/s034.jpg,2011-03-02 21:41:52.169000,2012-12-05 20:07:55.916000
 FLL000004,Michael S Bennett,Michael,S,Bennett,,Mike,False,fl,,,,6cea3b6dde4a4a798943dd7863cd86e5,http://www.flsenate.gov/userContent/Senators/2010-2012/photos/s021.jpg,2011-03-02 21:41:52.089000,2012-12-05 20:07:55.896000
 FLL000011,Paula Dockery,Paula,,Dockery,,,False,fl,,,,3ee0aa4aee8a44d0b6f530b73ee79683,http://www.flsenate.gov/userContent/Senators/2010-2012/photos/s015.jpg,2011-03-02 21:41:52.112000,2012-12-05 20:07:55.672000

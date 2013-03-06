@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 CAL000004,Sam Aanestad,Sam,,Aanestad,,,False,ca,,,,c1c45d37633a4c0b8a9ec6a6c9693489,http://votesmart.org/canphoto/16523.jpg,2010-07-09 17:19:48.773000,2011-01-11 18:52:18.260000
 CAL000012,Abel Maldonado,Abel,,Maldonado,,,False,ca,,,,4b9419e695b5455bb006d3d6a363d47c,http://upload.wikimedia.org/wikipedia/commons/3/30/Abel_Maldonado.jpg,2010-07-09 17:19:48.785000,2011-01-11 18:52:18.256000
 CAL000013,George Runner,George,,Runner,,,False,ca,,,,53d01883d79d49c9b4307caf1a83e70c,http://cssrc.us/lib/uploads/17/090105_Runner_LR.jpg,2010-07-09 17:19:48.787000,2012-06-01 16:41:43.837000

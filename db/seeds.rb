@@ -134,7 +134,7 @@ house_districts.each_pair do |st, num_districts|
     )
     office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
     Office.create( 
-      { :office_type_id => office_type_id, :polity_id => state.id, :polity_type => 'State', :seat_discriminator => district_number },
+      { :office_type_id => office_type_id, :polity_id => state.id, :polity_type => 'State', :district => district_number },
       :without_protection => true
     )    
   end
@@ -157,7 +157,7 @@ senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
     office = Office.create(
-      { :office_type_id => 'US_SENATOR', :polity_id => state.id, :polity_type => 'State', :seat_discriminator => class_num },
+      { :office_type_id => 'US_SENATOR', :polity_id => state.id, :polity_type => 'State', :district => class_num },
       :without_protection => true
     )
   end
@@ -166,9 +166,9 @@ end
 puts 'CREATING OTHER OFFICES'
 
 Office.create([
-    { :office_type_id => 'MAYOR', :polity_id => 1, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 'MAYOR', :polity_id => 2, :polity_type => 'Municipality', :seat_discriminator => 1 },
-    { :office_type_id => 'MAYOR', :polity_id => 3, :polity_type => 'Municipality', :seat_discriminator => 1 }
+    { :office_type_id => 'MAYOR', :polity_id => 1, :polity_type => 'Municipality', :district => 1 },
+    { :office_type_id => 'MAYOR', :polity_id => 2, :polity_type => 'Municipality', :district => 1 },
+    { :office_type_id => 'MAYOR', :polity_id => 3, :polity_type => 'Municipality', :district => 1 }
 ], :without_protection => true)
 
 
@@ -189,7 +189,7 @@ imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
   office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
-  office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.district).first
+  office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :district => imp.district.to_s).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -209,7 +209,7 @@ imps = ImportedSunlightSenator.find(:all)
 imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
-  office = Office.where( :office_type_id => 'US_SENATOR', :polity_type => 'State', :polity_id => state.id, :seat_discriminator => imp.senate_class).first
+  office = Office.where( :office_type_id => 'US_SENATOR', :polity_type => 'State', :polity_id => state.id, :district => imp.senate_class.to_s).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,

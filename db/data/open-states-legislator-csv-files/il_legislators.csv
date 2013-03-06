@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 ILL000003,Larry K. Bomke,Larry,K.,Bomke,,,False,il,,,,cc7059228c3e41c48a553c28d3d5872c,http://ilga.gov/images/members/{8D2A4110-3D08-47EF-A4A8-CB5F04F6175E}.jpg,2011-08-23 15:06:26.957000,2013-01-12 00:09:23.325000
 ILL000006,Annazette R. Collins,Annazette,R.,Collins,,,False,il,,,,d98f2cf523d041daafb569d7643f3ee5,http://ilga.gov/images/members/{6D1A5EE2-0E5C-4CD0-9A87-85AC039A7A6E}.jpg,2011-08-23 15:06:27.005000,2013-01-12 00:09:23.324000
 ILL000008,M. Maggie Crotty,M. Maggie,,Crotty,,,False,il,,,,c941be4de70f45f584e4f4aae55d60ea,http://ilga.gov/images/members/{58D3432E-1209-4C6F-AB2A-05E07F55009F}.jpg,2011-08-23 15:06:27.085000,2013-01-12 00:09:23.262000

@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 NHL000072,Daniel P Carr,Daniel,P,Carr,,,False,nh,,,,cfaee27ec17d4e68a639404cd7896411,,2011-06-21 18:49:56.956000,2013-01-04 00:08:31.547000
 NHL000288,Leo P Pepino,Leo,P,Pepino,,,False,nh,,,,36b1684c5f244790ba3969533c47c7bc,,2011-06-21 18:49:57.553000,2013-01-04 00:08:31.836000
 NHL000299,James F Powers,James,F,Powers,,,False,nh,,,,00991080efff4e4c8b03325b08e39216,,2011-06-21 18:49:57.647000,2012-06-05 18:57:35.685000

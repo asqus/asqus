@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 VAL000068,David L Englin,David,L,Englin,,,False,va,,,,107bec8ef9064eadbb381d5eaface807,http://dela.state.va.us/dela/MemBios.nsf/a7b082ef6ed01eac85256c0d00515644/97ec7f4306b4197d85257535005773dc/Photo/0.84?OpenElement&FieldElemFormat=jpg,2010-12-02 07:04:38.458000,2013-01-04 14:55:53.534000
 VAL000020,Yvonne B Miller,Yvonne,B,Miller,,,False,va,,,,41db75f6b6a444769a6dd1036bfb9e52,http://sov.state.va.us/images/Miller05.jpg,2010-12-02 07:04:38.328000,2013-01-04 14:48:33.005000
 VAL000008,R. Edward Houck,R. Edward,,Houck,,,False,va,,,,d069be7bf59c4b1b927f8ef4ad315a14,http://sov.state.va.us/images/Houck17.jpg,2010-12-02 07:04:38.294000,2012-01-16 21:13:31.013000

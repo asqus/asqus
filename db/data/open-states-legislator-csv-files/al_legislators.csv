@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 ALL000068,Blaine Galliher,Blaine,,Galliher,,,False,al,,,,15936478684f4f64bf12b765a35af3a5,http://www.legislature.state.al.us/graphics/housepics/galliher_b.jpeg,2011-12-07 21:20:44.826000,2013-01-04 14:59:52.565000
 ALL000128,Elwyn Thomas,Elwyn,,Thomas,,,False,al,,,,0c41713b22874b608e4f18b8d666acf8,http://www.legislature.state.al.us/graphics/housepics/thomas_e.jpeg,2011-12-07 21:20:45.512000,2013-01-04 15:01:02.757000
 ALL000039,Jim Barton,Jim,,Barton,,,True,al,lower,104,Republican,76cf918a1a694e938f283858e0dcf26c,http://www.legislature.state.al.us/graphics/housepics/barton_j.jpeg,2011-12-07 21:20:44.469000,2013-03-01 00:35:24.219000

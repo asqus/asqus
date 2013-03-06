@@ -1,4 +1,3 @@
-leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,created_at,updated_at
 WAL000156,Dino Rossi,Dino,,Rossi,,,False,wa,,,,,http://www.leg.wa.gov/senate/senators/publishingimages/rossi.jpg,2012-07-11 07:54:29.551000,2013-01-10 00:22:37.040000
 WAL000037,Craig Pridemore,Craig,,Pridemore,,,False,wa,,,,e030766d2f84481787bfeed6c7f13413,http://www.leg.wa.gov/senate/senators/publishingimages/pridemore.jpg,2011-02-25 17:48:48.166000,2013-01-10 00:22:37.029000
 WAL000023,Jim Kastama,Jim,,Kastama,,,False,wa,,,,99f0c648b18749bd8fd2536ca95c6fc6,http://www.leg.wa.gov/senate/senators/publishingimages/kastama.jpg,2011-02-25 17:48:48.039000,2013-01-10 00:22:37.031000
