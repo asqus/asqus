@@ -19,6 +19,8 @@ class Admin::StatesController < Admin::BaseController
     @state = State.find(params[:id])
     @us_senator_offices = []
     @us_rep_offices = []
+    @state_senator_offices = []
+    @state_rep_offices = []
     @state.offices.each do |o|
       case o.office_type.id
         when 'US_SENATOR'
@@ -27,6 +29,10 @@ class Admin::StatesController < Admin::BaseController
           @us_rep_offices.push(o)
         when 'HOUSE_DELEGATE'
           @us_rep_offices.push(o)
+        when 'STATE_SENATOR'
+          @state_senator_offices.push(o)
+        when 'STATE_REP'
+          @state_rep_offices.push(o)
       end
     end
       

@@ -53,6 +53,50 @@
 </table>
 
 
+<h4>State Senators</h4>
+
+<table width=400>
+  <tr>
+    <th>Office</th><th>Incumbent</th>
+  </tr>
+<% @state_senator_offices.each do |office| %>
+  <% incumbent = Office.incumbent_officials(office.id).first %>
+  <tr>
+    <td><%= office.office_type.name + ", District " + office.district %></td>
+    <td><%= if incumbent
+              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
+            end            
+         %>
+   </td>
+  </tr>
+<% end %>
+</table>
+
+
+<h4>State Representatives</h4>
+
+<table width=400>
+  <tr>
+    <th>Office</th><th>Incumbent</th>
+  </tr>
+<% @state_rep_offices.each do |office| %>
+  <% incumbent = Office.incumbent_officials(office.id).first %>
+  <tr>
+	<td><%= office.office_type.name + ", District " + office.district %></td>
+    <td><%= if incumbent
+              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
+            end            
+         %>
+   </td>
+  </tr>
+<% end %>
+</table>
+
+
+
+
+
+
 <p>
 <ul>
 <li><%= link_to "Municipalities", municipalities_path( :state_id => @state.id ) %></li>
@@ -62,7 +106,7 @@
 
 
 
-<h4>To do: something for state legislative offices</h4>
+
 
 
 <%= link_to 'Back', admin_states_path %>
