@@ -24,7 +24,7 @@ ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_SENATOR','U.S. Senator','State','Senator','Sen.')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','State','Senator','Rep.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','State','Representative','Rep.')"
 )
 ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('GOVERNOR','Governor','State','Governor','Gov.')"
@@ -178,7 +178,9 @@ Term.create([
   { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 'US_SENATOR', :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
   { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 'US_SENATOR', :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
   { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 'US_SENATOR', :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
-  { :name => "Governor 2011-2015", :office_type_id => 'GOVERNOR', :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true }
+  { :name => "Governor 2011-2015", :office_type_id => 'GOVERNOR', :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true },
+  { :name => "State legislature 2013-2015", :office_type_id => "STATE_REP", :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true },
+  { :name => "State legislature 2013-2015", :office_type_id => "STATE_SENATOR", :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true }
 ], :without_protection => true)
 
 
@@ -225,11 +227,39 @@ imps.each do |imp|
   end
 end
 
+
+
+puts 'PROCESSING OPEN STATES LEGISLATOR DATA'
+
+imps = ImportedOpenStatesLegislator.find(:all)
+imps.each do |imp|
+  state = State.find_by_abbreviation(imp.state.upcase) 
+  party = Party.find_by_name(imp.party)
+  official = Official.create( { first_name: imp.first_name, last_name: imp.last_name, middle_name: imp.middle_name,
+                                name_suffix: imp.suffixes, nickname: imp.nickname, party: party,
+                                transparencydata_id: imp.transparencydata_id, external_photo_url: imp.photo_url,
+                                source_created_at: imp.source_created_at, source_updated_at: imp.source_updated_at,
+                                open_states_leg_id: imp.leg_id }, :without_protection => true )
+  if (imp.active)  
+    office_type_id = ''
+    if (imp.chamber == 'upper')
+      office_type_id = 'STATE_SENATOR'
+    else      
+      office_type_id = 'STATE_REP'
+    end
+    discriminator = Office.where( polity_id: state.id, office_type_id: office_type_id, district: imp.district ).size.to_s
+    term = Term.find(7)
+    office = Office.create({ office_type_id: office_type_id, polity: state, district: imp.district, discriminator: discriminator }, :without_protection => true )
+    OfficialTerm.create( {official: official, office: office, term: term }, :without_protection => true)
+  end
+
+end
+
+
 puts 'CREATING ROLES'
 Role.create([
   { :name => 'admin' }, 
   { :name => 'user' }, 
-  { :name => 'VIP' }
 ], :without_protection => true)
 
 

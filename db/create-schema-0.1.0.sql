@@ -119,13 +119,14 @@ create table offices (
 	office_type_id	varchar(20) not null references office_types,
 	polity_type		text not null references polity_types,
 	polity_id		integer not null,
-	district		varchar(32) not null default '0',
+	district		varchar(48) not null default '0',
+	discriminator   varchar(32) not null default '0',
 	created_at		timestamp not null default now(),
 	updated_at		timestamp not null default now(),
 	foreign key 	(office_type_id, polity_type) references office_types(id, polity_type)
 );
 
-create unique index offices_uidx on offices(polity_type, polity_id, office_type_id, district);
+create unique index offices_uidx on offices(polity_type, polity_id, office_type_id, district,discriminator);
 	
 create table parties (
 	id					integer primary key,
@@ -174,7 +175,9 @@ create table officials (
 	rss					varchar(256),
 	open_states_leg_id	varchar(20),
 	external_photo_url	varchar(255),
-	transparencydata_id varchar(20),
+	transparencydata_id varchar(32),
+	source_created_at	timestamp,
+	source_updated_at	timestamp,
 	created_at			timestamp not null default now(),
 	updated_at			timestamp not null default now()
 );
@@ -184,7 +187,7 @@ create unique index officials_bioguide_uidx on officials(bioguide_id);
 create unique index officials_votesmart_uidx on officials(votesmart_id);
 create unique index officials_facebook_uidx on officials(facebook_id);
 create unique index officials_open_states_leg_uidx on officials(open_states_leg_id);
-create unique index officials_transparencydata_uidx on officials(transparencydata_id);	
+	
 			
 create table terms (
 	id				serial primary key,
@@ -443,6 +446,7 @@ create view joined_official_terms_view as
 	       	offices.polity_type,
 	       	offices.polity_id,
 	       	offices.district as district,
+	        offices.discriminator as discriminator,
 	       	terms.from_date as from_date,
 	       	terms.to_date as to_date,
 	       	office_types.name as office_type_name,
@@ -473,6 +477,9 @@ create view joined_official_terms_view as
 	     	officials.eventful_id as official_eventful_id,
 	     	officials.photo_extension as official_photo_extension,
 	     	officials.rss as official_rss,
+		    officials.open_states_leg_id as official_open_states_leg_id,
+		    officials.external_photo_url as official_external_photo_url,
+		    officials.transparencydata_id as official_transparencydata_id,
 	        states.id as state_id,
 	        states.name as state_name,
 	        states.abbreviation as state_abbreviation,
@@ -500,6 +507,7 @@ create view joined_official_terms_view as
 	       	offices.polity_type,
 	       	offices.polity_id,
 	       	offices.district as district,
+		    offices.discriminator as discriminator,
 	       	terms.from_date as from_date,
 	       	terms.to_date as to_date,
 	       	office_types.name as office_type_name,
@@ -530,6 +538,9 @@ create view joined_official_terms_view as
 	     	officials.eventful_id as official_eventful_id,
 	     	officials.photo_extension as official_photo_extension,
 	     	officials.rss as official_official_rss,
+		    officials.open_states_leg_id as official_open_states_leg_id,
+		    officials.external_photo_url as official_external_photo_url,
+		    officials.transparencydata_id as official_transparencydata_id,
 	        states.id as state_id,
 	        states.name as state_name,
 			states.abbreviation as state_abbreviation,
@@ -558,6 +569,7 @@ create view joined_official_terms_view as
 		    offices.polity_type,
 		    offices.polity_id,
 		    offices.district as district,
+			offices.discriminator as discriminator,
 		    terms.from_date as from_date,
 		    terms.to_date as to_date,
 		    office_types.name as office_type_name,
@@ -588,6 +600,9 @@ create view joined_official_terms_view as
 		    officials.eventful_id as official_eventful_id,
 		    officials.photo_extension as official_photo_extension,
 		    officials.rss as official_official_rss,
+		    officials.open_states_leg_id as official_open_states_leg_id,
+		    officials.external_photo_url as official_external_photo_url,
+		    officials.transparencydata_id as official_transparencydata_id,
 		    states.id as state_id,
 		    states.name as state_name,
 		    states.abbreviation as state_abbreviation,
@@ -749,7 +764,7 @@ where
 
 \copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'data/sunlight-congress.csv' delimiters ',' CSV;
 
-create table open_states_legislator_import(
+create table imported_open_states_legislators(
 	leg_id		text,
 	full_name	text,
 	first_name	text,
@@ -768,58 +783,57 @@ create table open_states_legislator_import(
 	source_updated_at	timestamp
 );
 
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ak_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/al_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ar_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/az_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ca_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/co_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ct_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/dc_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/de_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/fl_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ga_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/hi_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ia_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/id_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/il_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/in_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ks_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ky_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/la_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ma_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/md_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/me_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mi_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mn_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mo_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ms_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mt_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nc_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nd_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ne_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nh_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nj_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nm_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nv_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ny_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/oh_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ok_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/or_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/pa_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/pr_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ri_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/sc_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/sd_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/tn_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/tx_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ut_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/va_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/vt_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wa_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wi_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wv_legislators.csv' delimiters ',' CSV;
-\copy open_states_legislator_import(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wy_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ak_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/al_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ar_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/az_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ca_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/co_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ct_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/de_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/fl_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ga_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/hi_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ia_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/id_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/il_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/in_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ks_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ky_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/la_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ma_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/md_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/me_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mi_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mn_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mo_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ms_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/mt_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nc_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nd_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ne_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nh_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nj_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nm_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/nv_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ny_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/oh_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ok_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/or_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/pa_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/pr_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ri_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/sc_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/sd_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/tn_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/tx_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ut_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/va_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/vt_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wa_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wi_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wv_legislators.csv' delimiters ',' CSV;
+\copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/wy_legislators.csv' delimiters ',' CSV;
 
 
 
