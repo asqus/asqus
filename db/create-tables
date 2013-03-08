@@ -1,2 +1,13 @@
-psql -U postgres -d asqus_dev --file create-schema-0.1.0.sql 
-# cat create-schema-0.1.0.sql  | psql -U asqme asqus_dev
+#!/bin/bash
+
+h=$(hostname)
+
+if [ "$h" = "elric" ] ; then
+  # for rob
+  sudo su -c "dropdb asqus_dev; createdb asqus_dev;" postgres
+  cat create-schema-0.1.0.sql  | psql -U asqme asqus_dev
+else
+  # for everyone else
+  psql -U postgres -d asqus_dev --file create-schema-0.1.0.sql 
+fi;
+

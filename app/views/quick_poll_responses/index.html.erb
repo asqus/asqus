@@ -1,5 +1,11 @@
 <script type="text/javascript">
 $(function () {
+//Ensures there will be no 'console is undefined' errors
+window.console = window.console || (function(){
+    var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+    return c;
+})();
+
     function getGraphData(json) {
       var data = [];
       results = json['results'];
@@ -57,7 +63,8 @@ $(function () {
                         color: '#000000',
                         connectorColor: '#000000',
                         formatter: function() {
-                            return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+                            percent=Math.round(this.percentage*100.0)/100;
+                            return '<b>'+ this.point.name +'</b>: '+ percent +' %';
                         }
                     }
                 }
