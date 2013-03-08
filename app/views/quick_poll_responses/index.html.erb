@@ -6,28 +6,52 @@ window.console = window.console || (function(){
     return c;
 })();
 
-    function getGraphData(json) {
+    function getGraphType(json) {
+      var graphType="PIE_CHART";
+
+      poll = json['poll'];
+      graphType = poll['graph_type_id'];
+
+      return graphType;
+    } // getGraphType
+
+    function getPieGraphData(json) {
       var data = [];
       results = json['results'];
 
-      sum=0.0
-      for (residx in results) {
-         res = results[ residx ];
-         console.log( "res=" + res );
-         sum=sum + res['value'];
-      }
-      console.log( "sum=" + sum );
+      //sum=0.0
+      //for (residx in results) {
+      //   res = results[ residx ];
+      //  console.log( "res=" + res );
+      //   sum=sum + res['value'];
+      //}
+      //console.log( "sum=" + sum );
 
       for (residx in results) {
-         res = results[ residx ];
-         percent=Math.round((res['value'] / sum)*100.0*100)/100;
+         var res = results[ residx ];
+         //percent=Math.round((res['value'] / sum)*100.0*100)/100;
+         var percent=parseFloat(res['percentage'])
          console.log( res['name'] + "=" + percent );
          data.push( { name: res['name'], y: percent } );
       }
       return data;
-    }
+    } // getPieGraphData
 
-    function renderChart(graphTitle, graphData) {
+    function getBarGraphData(json) {
+      var data = [];
+      results = json['results'];
+
+      for (residx in results) {
+         var res = results[ residx ];
+         console.log( res['name'] + "=" + res['value'] );
+         data.push( { name: res['name'], data: [ parseFloat(res['value']) ] } );
+      }
+      return data;
+    } // getBarGraphData
+
+    function renderPieChart(graphTitle, json) {
+      graphData = getPieGraphData( json ); 
+
     	// Radialize the colors
 		  Highcharts.getOptions().colors = Highcharts.map(Highcharts.getOptions().colors, function(color) {
 		    return {
@@ -52,7 +76,7 @@ window.console = window.console || (function(){
             },
             tooltip: {
         	    pointFormat: '{series.name}: <b>{point.percentage}%</b>',
-            	percentageDecimals: 1
+            	percentageDecimals: 2
             },
             plotOptions: {
                 pie: {
@@ -75,28 +99,90 @@ window.console = window.console || (function(){
                 data: graphData
             }]
         });  // new Highcharts.Chart
-    } // renderChart
+    } // renderPieChart
+
+    function renderBarChart(graphTitle, json) {
+      graphData = getBarGraphData( json ); 
+      //graphData = [
+      //                {name: 'Tokyo', data: [14.5]},
+      //                {name: 'New York', data: [14.5]},
+      //                {name: 'Ann Arbor', data: [14.5]},
+      //                {name: 'Detroit', data: [14.5]},
+      //                {name: 'Dexter', data: [42.0]}
+      //             ];
+
+
+    	// Radialize the colors
+		  Highcharts.getOptions().colors = Highcharts.map(Highcharts.getOptions().colors, function(color) {
+		    return {
+		        radialGradient: { cx: 0.5, cy: 0.3, r: 0.7 },
+		        stops: [
+		            [0, color],
+		            [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+		        ]
+		    };
+		  }); // Highcharts.getOptions
+		
+		  // Build the chart
+      chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'column'
+            },
+            title: {
+                text: graphTitle
+            },
+            xAxis: {
+               categories: [ 'Results' ]
+            },
+            yAxis: {
+               min: 0,
+               title: { text: 'Votes' }
+            },
+            legend: {
+               layout: 'vertical',
+               backgroundColor: null,
+               align: 'left',
+               verticalAlign: 'top',
+               x: 100,
+               y: 70,
+               floating: true,
+               shadow: true
+           },
+            tooltip: {
+              formatter: function() {
+                           return '' + this.x +': <b>'+this.y+'</b> votes';
+                         }
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+               }
+            },
+            series: graphData 
+         }); // new Highcharts.Chart
+    } // renderBarChart
 
     var chart;
     var graphData=[];
     $(document).ready(function() {
 
-      graphTitle = "<%= @quick_poll.title %>";
-      //json = {"poll":{"body":"Should $3.7 gazillion dollars be spent on a bridge to Canada?","created_at":"2013-02-07T03:35:54Z","end_time":"2013-01-01T05:00:00Z","id":1,"issue_id":1,"poll_workflow_state_id":2,"quick_poll_type_id":1,"start_time":"2012-01-01T05:00:00Z","title":"Should the bridge to Canada be built?","updated_at":"2013-02-07T03:35:54Z"},"results":[{"name":"Agree Strongly","value":1,"count":231},{"name":"Agree Somewhat","value":2,"count":342},{"name":"Neutral/Undecided","value":3,"count":453},{"name":"Disagree Somewhat","value":4,"count":676},{"name":"Disagree Strongly","value":5,"count":301}]};
-      // graphData         [
-      //               {
-      //                  name: 'Yes',
-      //                  y: 89.7,
-      //                  sliced: true,
-      //                  selected: true
-      //              },
-      //              ['No',    10.3]
-      //          ];
-
+      var graphTitle = "<%= @quick_poll.title %>";
+      var graphType = "PIE_CHART"
 
      $.get( "/quick_poll_results/<%= @quick_poll.id %>.json", function (json, status) {
-          graphData = getGraphData( json ); 
-          renderChart( graphTitle, graphData );
+          //graphData = getGraphData( json ); 
+          graphType = getGraphType( json );
+
+          if ( graphType == "BAR_CHART") {
+             renderBarChart( graphTitle, json );
+          } else {
+             renderPieChart( graphTitle, json );
+          }
      } );
     	
     });  // $(document).ready
