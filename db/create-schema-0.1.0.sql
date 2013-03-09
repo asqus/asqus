@@ -1,3 +1,5 @@
+begin;
+
 create table sessions
 (
 	id			serial primary key,
@@ -762,8 +764,6 @@ where
 
 
 
-\copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'data/sunlight-congress.csv' delimiters ',' CSV;
-
 create table imported_open_states_legislators(
 	leg_id		text,
 	full_name	text,
@@ -782,6 +782,15 @@ create table imported_open_states_legislators(
 	source_created_at	timestamp,
 	source_updated_at	timestamp
 );
+
+
+end;
+
+
+
+\copy sunlight_congress_import(title,firstname,middlename,lastname,name_suffix,nickname,party,state,district,in_office,gender,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,fec_id,govtrack_id,crp_id,twitter_id,congresspedia_url,youtube_url,facebook_id,official_rss,senate_class,birthdate) from 'data/sunlight-congress.csv' delimiters ',' CSV;
+
+
 
 \copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/ak_legislators.csv' delimiters ',' CSV;
 \copy imported_open_states_legislators(leg_id,full_name,first_name,middle_name,last_name,suffixes,nickname,active,state,chamber,district,party,transparencydata_id,photo_url,source_created_at,source_updated_at) from 'data/open-states-legislator-csv-files/al_legislators.csv' delimiters ',' CSV;

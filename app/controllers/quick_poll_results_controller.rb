@@ -38,7 +38,8 @@ class QuickPollResultsController < ApplicationController
                r.quick_poll_id = #{quick_poll_id}               
            group by 
                o.text, r.value) blargh
-       group by name, value" )
+       group by name, value
+       order by value asc" )
   
     
     total_responses = 0    
