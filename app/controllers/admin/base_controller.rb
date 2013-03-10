@@ -6,7 +6,7 @@ protected
 
 def admin_before
   authenticate_user!
-  raise AccessDenied unless current_user.site_role == 'admin'
+  raise AccessDenied unless current_user.site_role_id == 'ADMIN'
 end
   
 end
