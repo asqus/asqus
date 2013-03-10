@@ -14,13 +14,12 @@ class HomeController < ApplicationController
 
 
     if (current_user.state_id)
-      @governor_office = Office.where(:office_type_id => OfficeType::GOVERNOR.id, :polity_type => 'State', :polity_id => current_user.state_id).first
-      @us_senate_offices = Office.where(:office_type_id => OfficeType::US_SENATOR.id, :polity_type => 'State', :polity_id => current_user.state_id)
-      if (current_user.congressional_district_number)
+      @governor_office = Office.where(:office_type_id => OfficeType::GOVERNOR.id, :state_id => current_user.state_id).first
+      @us_senate_offices = Office.where(:office_type_id => OfficeType::US_SENATOR.id, :state_id => current_user.state_id)
+      if (current_user.congressional_district_no)
         @us_house_offices = Office.where(:office_type_id => OfficeType::US_REP.id, 
-                                        :polity_type => 'State', 
-                                        :polity_id => current_user.state_id, 
-                                        :district => current_user.congressional_district_number.to_s )
+                                        :state_id => current_user.state_id, 
+                                        :congressional_district_no => current_user.congressional_district_no)
       end      
     end
     

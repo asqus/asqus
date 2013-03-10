@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "bcrypt-ruby", :require => "bcrypt"
 gem "bootstrap-will_paginate", "0.0.6"
+gem "composite_primary_keys", "~>5.0.12"
 gem "devise", ">= 2.1.2"
 gem "govkit"
 gem "highcharts-rails", "~> 2.3.0"

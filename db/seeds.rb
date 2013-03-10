@@ -21,10 +21,10 @@ ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('VPOTUS','Vice President','Nation','Vice President','V.P.')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_SENATOR','U.S. Senator','State','Senator','Sen.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_SENATOR','U.S. Senator','SenateSeat','Senator','Sen.')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','State','Representative','Rep.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','CongressionalDistrict','Representative','Rep.')"
 )
 ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('GOVERNOR','Governor','State','Governor','Gov.')"
@@ -33,16 +33,16 @@ ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('LT_GOVERNOR','Lieutenant Governor','State','Lieutenant Governor','Lt. Gov.')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_SENATOR','State Senator','State','Senator','Sen.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_SENATOR','State Senator','StateSenateDistrict','Senator','Sen.')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_REP','State Representative','State','Representative','Rep.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_REP','State Representative','StateHouseDistrict','Representative','Rep.')"
 )
 ActiveRecord::Base.connection.execute(
   "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('MAYOR','Mayor','Municipality','Mayor','Mayor')"
 )
 ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_HOUSE_DELEGATE','U.S. House Delegate','State','Delegate','Del.')"
+  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_HOUSE_DELEGATE','U.S. House Delegate','CongressionalDistrict','Delegate','Del.')"
 )
 
 
@@ -130,11 +130,11 @@ house_districts.each_pair do |st, num_districts|
     # if there is only one district in state/territory, convention is to number it zero
     district_number = num_districts > 1 ? i : 0
     district = CongressionalDistrict.create(
-      { :state_id => state.id, :district_number => district_number }, :without_protection => true
+      { :state => state, :district => district_number }, :without_protection => true
     )
     office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
     Office.create( 
-      { :office_type_id => office_type_id, :polity_id => state.id, :polity_type => 'State', :district => district_number },
+      { :office_type_id => office_type_id, :state_id => state.id, :congressional_district_no => district_number },
       :without_protection => true
     )    
   end
@@ -157,20 +157,11 @@ senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
     office = Office.create(
-      { :office_type_id => 'US_SENATOR', :polity_id => state.id, :polity_type => 'State', :district => class_num },
+      { :office_type_id => 'US_SENATOR', :state_id => state.id, :us_senate_class => class_num },
       :without_protection => true
     )
   end
 end  
-
-puts 'CREATING OTHER OFFICES'
-
-Office.create([
-    { :office_type_id => 'MAYOR', :polity_id => 1, :polity_type => 'Municipality', :district => 1 },
-    { :office_type_id => 'MAYOR', :polity_id => 2, :polity_type => 'Municipality', :district => 1 },
-    { :office_type_id => 'MAYOR', :polity_id => 3, :polity_type => 'Municipality', :district => 1 }
-], :without_protection => true)
-
 
 puts 'CREATING TERMS'
 Term.create([
@@ -191,7 +182,7 @@ imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
   office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
-  office = Office.where( :office_type_id => office_type_id, :polity_type => 'State', :polity_id => state.id, :district => imp.district.to_s).first
+  office = Office.where( :office_type_id => office_type_id, :state_id => state.id, :congressional_district_no => imp.district).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -211,7 +202,7 @@ imps = ImportedSunlightSenator.find(:all)
 imps.each do |imp|
   state = State.find_by_abbreviation(imp.state)
   party = Party.find_by_abbreviation(imp.party)
-  office = Office.where( :office_type_id => 'US_SENATOR', :polity_type => 'State', :polity_id => state.id, :district => imp.senate_class.to_s).first
+  office = Office.where( :office_type_id => 'US_SENATOR', :state_id => state.id, :us_senate_class => imp.senate_class).first
   official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
                               :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
                               :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
@@ -241,16 +232,24 @@ imps.each do |imp|
                                 source_created_at: imp.source_created_at, source_updated_at: imp.source_updated_at,
                                 open_states_leg_id: imp.leg_id }, :without_protection => true )
   if (imp.active)  
-    office_type_id = ''
-    if (imp.chamber == 'upper')
-      office_type_id = 'STATE_SENATOR'
-    else      
-      office_type_id = 'STATE_REP'
-    end
-    discriminator = Office.where( polity_id: state.id, office_type_id: office_type_id, district: imp.district ).size.to_s
     term = Term.find(7)
-    office = Office.create({ office_type_id: office_type_id, polity: state, district: imp.district, discriminator: discriminator }, :without_protection => true )
-    OfficialTerm.create( {official: official, office: office, term: term }, :without_protection => true)
+    office = nil
+    if (imp.chamber == 'upper')
+      district = StateSenateDistrict.where( state_id: state.id, district: imp.district).first
+      if(!district)
+        district = StateSenateDistrict.create( { state_id: state.id, district: imp.district }, :without_protection => true )
+      end
+      discriminator = Office.where( state_id: state.id, office_type_id: 'STATE_SENATOR', state_senate_district_key: imp.district ).size.to_s    
+      office = Office.create({ state_id: state.id, office_type_id: 'STATE_SENATOR',  state_senate_district_key: imp.district, discriminator: discriminator }, :without_protection => true )
+    else
+      district = StateHouseDistrict.where( state_id: state.id, district: imp.district).first
+      if(!district)
+        district = StateHouseDistrict.create( { state_id: state.id, district: imp.district }, :without_protection => true )
+      end      
+      discriminator = Office.where( state_id: state.id, office_type_id: 'STATE_REP', state_house_district_key: imp.district ).size.to_s    
+      office = Office.create({ state_id: state.id, office_type_id: 'STATE_REP', state_house_district_key: imp.district, discriminator: discriminator }, :without_protection => true )
+    end
+     OfficialTerm.create( {official: official, office: office, term: term }, :without_protection => true)
   end
 
 end
@@ -265,41 +264,41 @@ Role.create([
 
 puts 'SETTING UP DEFAULT USER LOGIN'
 
-user1 = User.create! :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>14
+user1 = User.create! :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>14
 puts 'New user created: ' << user1.name
 
-user2 = User.create! :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 13
+user2 = User.create! :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 13
 puts 'New user created: ' << user2.name
 
-user3 = User.create! :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>12
+user3 = User.create! :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>12
 puts 'New user created: ' << user3.name
 
-user4 = User.create! :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 11
+user4 = User.create! :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 11
 puts 'New user created: ' << user4.name
 
-user5 = User.create! :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 10
+user5 = User.create! :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 10
 puts 'New user created: ' << user5.name
 
-user6 = User.create! :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 9
+user6 = User.create! :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 9
 puts 'New user created: ' << user6.name
 
-user7 = User.create! :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 8
+user7 = User.create! :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 8
 puts 'New user created: ' << user7.name
 
-user8 = User.create! :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number => 7
+user8 = User.create! :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 7
 puts 'New user created: ' << user8.name
 
-user9 = User.create! :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number =>6
+user9 = User.create! :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>6
 puts 'New user created: ' << user9.name
 
-user10 = User.create! :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_number=> 5
+user10 = User.create! :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 5
 puts 'New user created: ' << user10.name
 
 user1.add_role :admin
 user2.add_role :VIP
  
 michigan = State.find_by_abbreviation('MI')
-admin_office = Office.where( :office_type_id => 'US_REP', :polity_id => michigan.id ).first
+admin_office = Office.where( :office_type_id => 'US_REP', :state_id => michigan.id ).first
  
 UserGroup.create([
   { :user_id => 1, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' },
@@ -417,7 +416,7 @@ ActiveRecord::Base.connection.execute(
 )
 
 ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_polity_idx on joined_official_terms(polity_type, polity_id)"
+"create index joined_official_terms_state_idx on joined_official_terms(state_id)"
 )
 
 ActiveRecord::Base.connection.execute(

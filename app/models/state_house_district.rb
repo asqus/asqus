@@ -1,5 +1,8 @@
 class StateHouseDistrict < ActiveRecord::Base
-  has_many :offices, :as => :polity
+
+  set_primary_keys :state_id, :district 
+  has_many :offices, :foreign_key => [ :state_id, :state_house_district_key]
+
   belongs_to :state
 
   attr_accessible :district, :state_id
@@ -7,7 +10,7 @@ class StateHouseDistrict < ActiveRecord::Base
   validates :state_id, :numericality => { :only_integer => true }
   validates :district, :presence => true
   
-  validates_uniqueness_of :district_number, :scope => :state_id
+  validates_uniqueness_of :district, :scope => :state_id
 
   def to_s
     return state.name + " state house district " + district_number.to_s()

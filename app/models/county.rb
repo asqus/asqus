@@ -1,6 +1,8 @@
 class County < ActiveRecord::Base
-  has_many :offices, :as => :polity
+  set_primary_keys :state_id, :ansi_code
+  has_many :offices, :foreign_key => [ :state_id, :county_ansi_code]
   belongs_to :state
+  
   attr_accessible :name, :state_id
 
   validates :state_id, :presence => true, :numericality => { :only_integer => true }

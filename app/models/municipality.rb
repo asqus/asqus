@@ -1,6 +1,8 @@
 class Municipality < ActiveRecord::Base
-  has_many :offices, :as => :polity
-  has_many :wards
+  
+  set_primary_keys :state_id, :ansi_code
+  has_many :offices, :foreign_key => [ :state_id, :municipality_ansi_code]
+  has_many :wards, :foreign_key => [ :state_id, :municipality_ansi_code]
   belongs_to :state
   attr_accessible :name, :state_id
 

@@ -1,16 +1,17 @@
 class CongressionalDistrict < ActiveRecord::Base
-  has_many :offices, :as => :polity
+  set_primary_keys :state_id, :district 
+  has_many :offices, :foreign_key => [ :state_id, :congressional_district]
   belongs_to :state
 
-  attr_accessible :district_number, :state_id
+  attr_accessible :district, :state_id
 
   validates :state_id, :presence => :true, :numericality => { :only_integer => true }
-  validates :district_number, :presence => :true, :numericality => { :only_integer => true }
-  validates_uniqueness_of :district_number, :scope => :state_id
+  validates :district, :presence => :true, :numericality => { :only_integer => true }
+  validates_uniqueness_of :district, :scope => :state_id
   validates_associated :state
 
   def to_s
-    return state.name + " District " + district_number.to_s()
+    return state.name + " District " + district.to_s()
   end
 
 end

@@ -38,8 +38,8 @@
 <% @us_rep_offices.each do |office| %>
   <% incumbent = Office.incumbent_officials(office.id).first %>
   <tr>
-	<% if office.district.to_i > 0 %>
-	  <td><%= office.office_type.name + ", District " + office.district %></td>
+	<% if office.congressional_district_no > 0 %>
+	  <td><%= office.office_type.name + ", District " + office.congressional_district_no.to_s %></td>
 	<% else %> 
 	  <td><%= office.office_type.name + " at Large" %><td>
 	<% end %>
@@ -62,7 +62,7 @@
 <% @state_senator_offices.each do |office| %>
   <% incumbent = Office.incumbent_officials(office.id).first %>
   <tr>
-    <td><%= office.office_type.name + ", District " + office.district %></td>
+    <td><%= office.office_type.name + ", District " + office.state_senate_district_key %></td>
     <td><%= if incumbent
               link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
             end            
@@ -82,7 +82,7 @@
 <% @state_rep_offices.each do |office| %>
   <% incumbent = Office.incumbent_officials(office.id).first %>
   <tr>
-	<td><%= office.office_type.name + ", District " + office.district %></td>
+	<td><%= office.office_type.name + ", District " + office.state_house_district_key %></td>
     <td><%= if incumbent
               link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
             end            

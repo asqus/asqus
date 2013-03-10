@@ -1,5 +1,7 @@
 class StateSenateDistrict < ActiveRecord::Base
-  has_many :offices, :as => :polity
+  set_primary_keys :state_id, :district 
+  has_many :offices, :foreign_key => [ :state_id, :state_senate_district_key]
+
   belongs_to :state
 
   attr_accessible :district, :state_id

@@ -1,5 +1,5 @@
 class Official < ActiveRecord::Base
-  has_many :offices, :through => :official_tenures
+  has_many :offices, :through => :official_terms
   has_many :users, :through => :user_groups, :as => :group
   has_many :official_issue_comments
   has_many :joined_official_terms

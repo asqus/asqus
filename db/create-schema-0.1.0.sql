@@ -15,8 +15,13 @@ create table polity_types (
 
 insert into polity_types(type) values ('Nation');
 insert into polity_types(type) values ('State');
+insert into polity_types(type) values ('SenateSeat');
+insert into polity_types(type) values ('CongressionalDistrict');
+insert into polity_types(type) values ('StateSenateDistrict');
+insert into polity_types(type) values ('StateHouseDistrict');
 insert into polity_types(type) values ('County');
 insert into polity_types(type) values ('Municipality');
+insert into polity_types(type) values ('Ward');
 
 create table taggable_types (
 	type varchar(32) primary key
@@ -40,69 +45,64 @@ create unique index states_name_uidx on states(name);
 create unique index states_abbreviation_uidx on states(abbreviation);
 	
 create table congressional_districts (
-	id				serial primary key,
-	district_number	integer not null,
 	state_id		integer not null references states,
+	district    	integer not null,
 	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	updated_at		timestamp not null default now(),
+	primary key		(state_id, district)
 );
 
-create unique index congressional_districts_uidx on congressional_districts( state_id, district_number);
-	
+create unique index congressional_districts_uidx on congressional_districts( state_id, district);
+
+
 create table counties (
-	id 				serial primary key,
+	state_id		integer not null references states,
 	ansi_code		integer not null,
 	name			varchar(32) not null,
-	state_id		integer not null references states,
 	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	updated_at		timestamp not null default now(),
+	primary key		(state_id, ansi_code)
 );
 
 create unique index counties_uidx on counties(state_id, name);
-create unique index counties_ansi_uidx on counties(state_id,ansi_code);
 	
 create table municipalities (
-	id				serial primary key,
-	ansi_code		integer not null,
+	state_id		integer not null references states,
+	ansi_code		integer not null,	
 	name			varchar(32) not null,
-    state_id		integer not null references states,
 	created_at		timestamp not null default now(),
-	updated_at 		timestamp not null default now()
+	updated_at 		timestamp not null default now(),
+	primary key		(state_id, ansi_code)
 );
 
-create unique index municipalities_uidx on municipalities(state_id, name);
 create unique index municipalities_ansi_uidx on municipalities(ansi_code);
 
 create table wards (
-	id				serial primary key,
-	municipality_id	integer not null references municipalities,
-	ward			varchar(32) not null,
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+    state_id				integer not null references states,
+    municipality_ansi_code	integer not null,
+	ward					varchar(32) not null,
+	created_at				timestamp not null default now(),
+	updated_at				timestamp not null default now(),
+	primary key				(state_id, municipality_ansi_code, ward),
+	foreign key				(state_id,municipality_ansi_code) references municipalities(state_id,ansi_code)
 );
-
-create unique index wards_uidx on wards(municipality_id, ward);
 	
 create table state_house_districts (
-	id				serial primary key,
 	state_id		integer references states,
-	district		varchar(32) not null,
+	district		varchar(64) not null,
 	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	updated_at		timestamp not null default now(),
+	primary key		(state_id,district)
 );
 	
-create unique index state_house_districts_uidx on state_house_districts(state_id,district);
 	
 create table state_senate_districts (
-	id				serial primary key,
 	state_id		integer references states,
-	district		varchar(32) not null,
+	district		varchar(64) not null,
 	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	updated_at		timestamp not null default now(),
+	primary key		(state_id,district)
 );
-
-create unique index state_senate_districts_uidx on state_senate_districts(state_id,district);
-	
 		
 create table office_types (
 	id				  varchar(20) primary key,
@@ -115,20 +115,37 @@ create table office_types (
 );
 
 create unique index office_types_polity_type_uidx on office_types(id, polity_type);
+	
 		
 create table offices (
-	id				serial primary key,
-	office_type_id	varchar(20) not null references office_types,
-	polity_type		text not null references polity_types,
-	polity_id		integer not null,
-	district		varchar(48) not null default '0',
-	discriminator   varchar(32) not null default '0',
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now(),
-	foreign key 	(office_type_id, polity_type) references office_types(id, polity_type)
+	id							serial primary key,
+	office_type_id				varchar(20) not null references office_types,
+	state_id					integer references states,
+	us_senate_class				integer,
+	congressional_district_no   integer,
+	county_ansi_code			integer,
+	municipality_ansi_code		integer,
+	state_senate_district_key  	varchar(64),
+	state_house_district_key   	varchar(64),
+	ward						varchar(32),
+	discriminator   			varchar(32) not null default '0',
+	created_at					timestamp not null default now(),
+	updated_at					timestamp not null default now(),
+    foreign key					(state_id, congressional_district_no) references congressional_districts(state_id,district),
+    foreign key					(state_id, county_ansi_code) references counties(state_id,ansi_code),
+    foreign key					(state_id, municipality_ansi_code) references municipalities(state_id,ansi_code),
+    foreign key				    (state_id, state_senate_district_key) references state_senate_districts(state_id,district),
+    foreign key					(state_id, state_house_district_key) references state_house_districts(state_id,district),
+    foreign key					(state_id, municipality_ansi_code, ward) references wards(state_id,municipality_ansi_code,ward),
+	check						(us_senate_class in (null, 1, 2, 3))
 );
 
-create unique index offices_uidx on offices(polity_type, polity_id, office_type_id, district,discriminator);
+create unique index offices_us_senate_uidx on offices(state_id, us_senate_class);
+create unique index offices_congress_uidx on offices(state_id, congressional_district_no);
+create unique index offices_state_house_uidx on offices(state_id, state_house_district_key, discriminator);
+create unique index offices_state_senate_uidx on offices(state_id, state_senate_district_key, discriminator);
+
+
 	
 create table parties (
 	id					integer primary key,
@@ -244,11 +261,12 @@ create table users (
 	state					varchar(2),
 	zip						varchar(10),
 	state_id				integer references states,
-	municipality_id			integer references municipalities,
-	county_id				integer references counties,
-	congressional_district_number	integer,
-	state_senate_district	varchar(32), 
-	state_house_district	varchar(32),
+	municipality_ansi_code	integer,
+	ward_key				varchar(32),
+	county_ansi_code	    integer,
+	congressional_district_no	integer,
+	state_senate_district_key	varchar(64), 
+	state_house_district_key	varchar(64),
 	latitude				numeric(10,7),
 	longitude				numeric(10,7),
 	staff_official_id		integer references officials,
@@ -257,9 +275,13 @@ create table users (
 	sex						sex,
 	created_at				timestamp not null default now(),
 	updated_at				timestamp not null default now(),
-	foreign key 	        (state_id, congressional_district_number) references congressional_districts(state_id, district_number),
-	foreign key				(state_id, state_senate_district) references state_senate_districts(state_id, district),
-	foreign key	            (state_id, state_house_district) references state_house_districts(state_id, district)
+	foreign key 	        (state_id, congressional_district_no) references congressional_districts(state_id, district),
+	foreign key				(state_id, state_senate_district_key) references state_senate_districts(state_id, district),
+	foreign key	            (state_id, state_house_district_key) references state_house_districts(state_id, district),
+    foreign key				(state_id, county_ansi_code) references counties(state_id, ansi_code),	
+	foreign key				(state_id, municipality_ansi_code) references municipalities(state_id, ansi_code),
+	foreign key				(state_id, municipality_ansi_code,ward_key) references wards(state_id,municipality_ansi_code,ward)
+	
 );
 
 create unique index users_email_uidx on users(email);
@@ -445,10 +467,7 @@ create view joined_official_terms_view as
 	       	terms.id as term_id,
 	       	office_types.id as office_type_id,
 	       	parties.id as party_id,
-	       	offices.polity_type,
-	       	offices.polity_id,
-	       	offices.district as district,
-	        offices.discriminator as discriminator,
+			offices.discriminator as office_discriminator,
 	       	terms.from_date as from_date,
 	       	terms.to_date as to_date,
 	       	office_types.name as office_type_name,
@@ -485,143 +504,24 @@ create view joined_official_terms_view as
 	        states.id as state_id,
 	        states.name as state_name,
 	        states.abbreviation as state_abbreviation,
-	        null::integer as municipality_id,
-	        null::text as municipality_name,
-	        null::integer county_id,
-	        null::text county_name
-	   from 
-	       official_terms join officials on official_terms.official_id = officials.id
-	                      join terms on official_terms.term_id = terms.id
-	                      join offices on official_terms.office_id = offices.id
-	                      join parties on officials.party_id = parties.id
-	                      join office_types on offices.office_type_id = office_types.id
-			      		  join states on offices.polity_id = states.id
-	   where
-	        offices.polity_type = 'State'
-	union all
-	   select
-	       	official_terms.id as official_term_id,
-	       	offices.id as office_id,
-	       	officials.id as official_id,
-	       	terms.id as term_id,
-	       	office_types.id as office_type_id,
-	       	parties.id as party_id,
-	       	offices.polity_type,
-	       	offices.polity_id,
-	       	offices.district as district,
-		    offices.discriminator as discriminator,
-	       	terms.from_date as from_date,
-	       	terms.to_date as to_date,
-	       	office_types.name as office_type_name,
-	       	office_types.title as office_type_title,
-	       	office_types.abbreviated_title as office_type_abbreviated_title,
-	       	parties.name as party_name,
-	       	parties.member_noun as party_member_noun,
-	       	parties.abbreviation as party_abbreviation,
-	       	officials.first_name as official_first_name,
-			officials.middle_name as official_middle_name,
-	     	officials.last_name as official_last_name,
-	     	officials.nickname as official_nickname,
-	     	officials.name_suffix as official_name_suffix,
-	     	officials.birth_date as official_birth_date,
-	     	officials.gender as official_gender,
-	     	officials.congress_office as official_congress_office,
-	     	officials.phone as official_phone,
-	     	officials.website as official_website,
-	     	officials.webform as official_webform,
-	     	officials.twitter_id as official_twitter_id,
-	     	officials.congresspedia_url as official_congresspedia_url,
-	     	officials.youtube_url as official_youtube_url,
-	     	officials.facebook_id as official_facebook_id,
-	     	officials.fax as official_fax,
-	     	officials.votesmart_id as official_votesmart_id,
-	     	officials.govtrack_id as official_govtrack_id,
-	     	officials.bioguide_id as official_bioguide_id,
-	     	officials.eventful_id as official_eventful_id,
-	     	officials.photo_extension as official_photo_extension,
-	     	officials.rss as official_official_rss,
-		    officials.open_states_leg_id as official_open_states_leg_id,
-		    officials.external_photo_url as official_external_photo_url,
-		    officials.transparencydata_id as official_transparencydata_id,
-	        states.id as state_id,
-	        states.name as state_name,
-			states.abbreviation as state_abbreviation,
-	        municipalities.id as municipality_id,
+	        offices.us_senate_class as us_senate_class,
+	        offices.congressional_district_no as congressional_district,
+			offices.state_house_district_key as state_house_district,
+	    	offices.state_senate_district_key as state_senate_district,
+	        counties.name as county_name,
+	        counties.ansi_code as county_ansi_code,
 	        municipalities.name as municipality_name,
-		    null as county_id,
-		    null as county_name
+	        municipalities.ansi_code as municipality_ansi_code,
+			offices.ward as ward
 	   from 
 	       official_terms join officials on official_terms.official_id = officials.id
 	                      join terms on official_terms.term_id = terms.id
 	                      join offices on official_terms.office_id = offices.id
 	                      join parties on officials.party_id = parties.id
 	                      join office_types on offices.office_type_id = office_types.id
-			              join municipalities on offices.polity_id = municipalities.id
-						  join states on municipalities.state_id = states.id
-	   where
-	        offices.polity_type = 'Municipality'
-	union all
-	   select
-		    official_terms.id as official_term_id,
-		    offices.id as office_id,
-		    officials.id as official_id,
-		    terms.id as term_id,
-		    office_types.id as office_type_id,
-		    parties.id as party_id,
-		    offices.polity_type,
-		    offices.polity_id,
-		    offices.district as district,
-			offices.discriminator as discriminator,
-		    terms.from_date as from_date,
-		    terms.to_date as to_date,
-		    office_types.name as office_type_name,
-		    office_types.title as office_type_title,
-		    office_types.abbreviated_title as office_type_abbreviated_title,
-		    parties.name as party_name,
-		    parties.member_noun as party_member_noun,
-		    parties.abbreviation as party_abbreviation,
-		    officials.first_name as official_first_name,
-		    officials.middle_name as official_middle_name,
-		    officials.last_name as official_last_name,
-		    officials.nickname as official_nickname,
-		    officials.name_suffix as official_name_suffix,
-		    officials.birth_date as official_birth_date,
-		    officials.gender as official_gender,
-		    officials.congress_office as official_congress_office,
-		    officials.phone as official_phone,
-		    officials.website as official_website,
-		    officials.webform as official_webform,
-		    officials.twitter_id as official_twitter_id,
-		    officials.congresspedia_url as official_congresspedia_url,
-		    officials.youtube_url as official_youtube_url,
-		    officials.facebook_id as official_facebook_id,
-		    officials.fax as official_fax,
-		    officials.votesmart_id as official_votesmart_id,
-		    officials.govtrack_id as official_govtrack_id,
-		    officials.bioguide_id as official_bioguide_id,
-		    officials.eventful_id as official_eventful_id,
-		    officials.photo_extension as official_photo_extension,
-		    officials.rss as official_official_rss,
-		    officials.open_states_leg_id as official_open_states_leg_id,
-		    officials.external_photo_url as official_external_photo_url,
-		    officials.transparencydata_id as official_transparencydata_id,
-		    states.id as state_id,
-		    states.name as state_name,
-		    states.abbreviation as state_abbreviation,
-		    null as municipality_id,
-		    null as municipality_name,
-		    counties.id as county_id,
-		    counties.name as county_name
-		 from 
-		    official_terms 	join officials on official_terms.official_id = officials.id
-		                   	join terms on official_terms.term_id = terms.id
-		                   	join offices on official_terms.office_id = offices.id
-		                   	join parties on officials.party_id = parties.id
-		                   	join office_types on offices.office_type_id = office_types.id
-							join counties on offices.polity_id = counties.id
-							join states on counties.state_id = states.id
-		 where
-		    offices.polity_type = 'County';
+			      		  join states on offices.state_id = states.id
+					      left outer join municipalities on offices.state_id = municipalities.state_id and offices.municipality_ansi_code = municipalities.ansi_code
+						  left outer join counties on offices.state_id = counties.state_id and offices.county_ansi_code = counties.ansi_code;
 	
 
 create table questions (

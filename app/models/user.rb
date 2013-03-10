@@ -8,12 +8,15 @@ class User < ActiveRecord::Base
 
   has_many :authentications, :dependent => :delete_all
   has_many :groups, :through => :user_groups
-
+  belongs_to :municipality, :foreign_key => [:state_id, :municipality_ansi_code]
+  belongs_to :county, :foreign_key => [:state_id, :county_ansi_code]
+  belongs_to :congressional_district, :foreign_key => [:state_id, :congressional_district]
+  
   attr_accessible :role_ids, :as => :admin
   attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me
   attr_accessible :current_location, :birth_date, :sex
-  attr_accessible :state_id, :congressional_district_number, :county_id, :municipality_id
-  attr_accessible :state_house_district_id, :state_senate_district_id
+  attr_accessible :state_id, :congressional_district_no, :county_ansi_code, :municipality_ansi_code
+  attr_accessible :state_house_district_key, :state_senate_district_key
 
   include ActiveModel::Validations
 
