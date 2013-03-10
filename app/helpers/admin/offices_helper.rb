@@ -1,2 +1,0 @@
-module Admin::OfficesHelper
-end

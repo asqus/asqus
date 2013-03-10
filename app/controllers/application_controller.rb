@@ -11,18 +11,13 @@ class ApplicationController < ActionController::Base
     flash[:notice] = "That page does not exist, or you do not have permission to access it."
     redirect_to root_path
   end
-  
-  #rescue_from CanCan::AccessDenied do |exception|
-  #  redirect_to root_path, :alert => exception.message
-  #end
+
 
 protected
 
   def before_all
-    if user_signed_in?
-      @current_user_groups = UserGroup.where( :user_id => current_user.id )
-    end
     mobile_before_logic
+    
   end
 
 private 

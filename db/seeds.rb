@@ -262,12 +262,13 @@ Role.create([
 ], :without_protection => true)
 
 
-puts 'SETTING UP DEFAULT USER LOGIN'
+puts 'SETTING UP USERS'
 
-user1 = User.create! :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>14
+user1 = User.create({ :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>14, :site_role => SiteRole::ADMIN}, :without_protection => true )
 puts 'New user created: ' << user1.name
 
-user2 = User.create! :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 13
+official = Official.find(1000)
+user2 = User.create({ :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 13, :staff_official => official }, :without_protection => true )
 puts 'New user created: ' << user2.name
 
 user3 = User.create! :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>12
@@ -294,21 +295,11 @@ puts 'New user created: ' << user9.name
 user10 = User.create! :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 5
 puts 'New user created: ' << user10.name
 
-user1.add_role :admin
-user2.add_role :VIP
- 
+
 michigan = State.find_by_abbreviation('MI')
 admin_office = Office.where( :office_type_id => 'US_REP', :state_id => michigan.id ).first
  
-UserGroup.create([
-  { :user_id => 1, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' },
-  { :user_id => 2, :group_type => "Office", :group_id => admin_office.id, :role => 'Staff' }
-  
-], :without_protection => true)
- 
- 
-official = Official.find(1000)
-user2.add_role :staff, official
+
 
 puts 'CREATING ISSUES'
 
@@ -417,6 +408,10 @@ ActiveRecord::Base.connection.execute(
 
 ActiveRecord::Base.connection.execute(
 "create index joined_official_terms_state_idx on joined_official_terms(state_id)"
+)
+
+ActiveRecord::Base.connection.execute(
+"create view incumbents as select * from joined_official_terms where from_date < now() and to_date > now()"
 )
 
 ActiveRecord::Base.connection.execute(

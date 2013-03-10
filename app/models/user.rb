@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
 
   has_many :authentications, :dependent => :delete_all
   has_many :groups, :through => :user_groups
+  belongs_to :site_role
+  belongs_to :staff_official, :class_name => :Official
   belongs_to :municipality, :foreign_key => [:state_id, :municipality_ansi_code]
   belongs_to :county, :foreign_key => [:state_id, :county_ansi_code]
   belongs_to :congressional_district, :foreign_key => [:state_id, :congressional_district]

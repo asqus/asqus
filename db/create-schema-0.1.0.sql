@@ -238,6 +238,12 @@ create index official_terms_official_idx on official_terms(official_id);
 create index official_terms_office_idx on official_terms(office_id);
 create index official_terms_term_idx on official_terms(term_id);
 
+create table site_roles (
+	id	varchar(20) primary key
+);
+
+insert into site_roles(id) values ('USER');
+insert into site_roles(id) values ('ADMIN');
 
 create type sex as enum ('Male','Female');
 	
@@ -269,10 +275,11 @@ create table users (
 	state_house_district_key	varchar(64),
 	latitude				numeric(10,7),
 	longitude				numeric(10,7),
-	staff_official_id		integer references officials,
 	facebook_current_location	text,
 	birth_date				date,
 	sex						sex,
+    site_role_id			varchar(20) not null default 'USER' references site_roles,
+    staff_official_id		integer references officials,
 	created_at				timestamp not null default now(),
 	updated_at				timestamp not null default now(),
 	foreign key 	        (state_id, congressional_district_no) references congressional_districts(state_id, district),
@@ -280,14 +287,14 @@ create table users (
 	foreign key	            (state_id, state_house_district_key) references state_house_districts(state_id, district),
     foreign key				(state_id, county_ansi_code) references counties(state_id, ansi_code),	
 	foreign key				(state_id, municipality_ansi_code) references municipalities(state_id, ansi_code),
-	foreign key				(state_id, municipality_ansi_code,ward_key) references wards(state_id,municipality_ansi_code,ward)
-	
+	foreign key				(state_id, municipality_ansi_code,ward_key) references wards(state_id,municipality_ansi_code,ward)	
 );
 
 create unique index users_email_uidx on users(email);
 create unique index users_reset_password_token_uidx on users(reset_password_token);
+create index users_staff_official_idx on users(staff_official_id);
+create index users_site_role_idx on users(site_role_id);
 	
-
 
 create table roles (
 	id				serial primary key,
@@ -446,18 +453,6 @@ create unique index tags_uidx on tags(tag,context,taggable_type,taggable_id);
 create index tags_taggable_idx on tags( taggable_type, taggable_id );
 	
 
-create table user_groups (
-	id				serial primary key,
-	user_id			integer not null,
-	group_type		text not null,
-	group_id		integer not null,
-	role			text not null default 'member',
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
-);
-
-create unique index user_groups_uidx on user_groups(user_id, group_type, group_id, role);
-create index user_groups_group_idx on user_groups(group_id);
 
 create view joined_official_terms_view as
 	   select

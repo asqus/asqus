@@ -1,19 +1,4 @@
 
-<% user_office = current_user.get_offices.first %>
-<% if !user_office.nil? %>
-<b>Administration: <%= user_office.full_name %></b>
-<ul>
-<% new_i_path = new_staff_issue_path + "?poller_type=Office&poller_id=" + user_office.id.to_s %>
-<li><a href="<%=new_i_path %>">New Issue</a>
-<% new_qp_path = new_staff_quick_poll_path + "?poller_type=Office&poller_id=" + user_office.id.to_s %>
-<li><a href="<%=new_qp_path %>">New Quick Poll</a>
-</ul>
-
-<% end %>
-
-
-<h4>Your elected officials</h4>
-
 <%# todo: fix up this horribly inefficient code %>
 
 <table width=400>

@@ -7,7 +7,7 @@
     <li>
     <%= link_to current_user.email, edit_user_registration_path %>
     </li>
-    <% if current_user.has_role? :admin %>
+    <% if current_user.site_role_id == 'admin' %>
       <li>
       <%= link_to 'Admin', '/admin' %>
       </li>

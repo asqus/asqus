@@ -12,6 +12,10 @@ class HomeController < ApplicationController
     
     # todo: fix up this horribly inefficient code
 
+    @staff_incumbent = nil
+    if (current_user.staff_official)
+      @staff_incumbent = Incumbent.where( :official_id => current_user.staff_official )
+    end
 
     if (current_user.state_id)
       @governor_office = Office.where(:office_type_id => OfficeType::GOVERNOR.id, :state_id => current_user.state_id).first
