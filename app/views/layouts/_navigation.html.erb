@@ -12,6 +12,11 @@
       <%= link_to 'Admin', '/admin' %>
       </li>
     <% end %>
+    <% if current_user.staff_official_id %>
+      <li>
+      <%= link_to 'Staff', '/staff' %>
+      </li>
+    <% end %>
   <% else %>
     <li>
     <%= link_to 'Sign up', new_user_registration_path %>

@@ -15,7 +15,6 @@ gem "omniauth-facebook"
 gem 'pg'
 gem "quiet_assets", ">= 1.0.1", :group => :development
 gem 'rails', '3.2.9'
-gem "rolify", ">= 3.2.0"
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
 gem 'will_paginate', '3.0.3'
 gem "simple_form", ">= 2.0.4"

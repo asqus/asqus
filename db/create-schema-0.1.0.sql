@@ -295,28 +295,6 @@ create unique index users_reset_password_token_uidx on users(reset_password_toke
 create index users_staff_official_idx on users(staff_official_id);
 create index users_site_role_idx on users(site_role_id);
 	
-
-create table roles (
-	id				serial primary key,
-	name			varchar(20),
-	resource_id 	integer,
-	resource_type	text,
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
-);
-
-create index roles_resource_id_resource_type_name_idx on roles(resource_id, resource_type, name);
-create index roles_name_idx on roles(name);
-	
-create table users_roles (
-	id				serial primary key,
-	user_id			integer not null references users,
-	role_id			integer not null references roles,
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
-);
-
-create unique index users_roles_uidx on users_roles(user_id,role_id);
 		
 create table authentications (
 	id			serial primary key,

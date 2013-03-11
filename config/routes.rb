@@ -52,9 +52,9 @@ Asqus::Application.routes.draw do
   end
   root :to => "home#index"
  
-
-  match '/admin' => 'home#admin'
-
+  match '/admin' => "admin/home#index"
+  match '/staff' => "staff/home#index"
+  
   devise_for :users
 
   match '/auth/:provider/callback' => 'authentications#create'

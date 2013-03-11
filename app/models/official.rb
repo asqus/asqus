@@ -4,9 +4,7 @@ class Official < ActiveRecord::Base
   has_many :official_issue_comments
   has_many :joined_official_terms
   belongs_to :party
-  
-  resourcify  #rolify 
-
+ 
   attr_accessible :first_name, :middle_name, :last_name, :nickname, :name_suffix, :as => :admin
   attr_accessible :gender, :phone, :email, :website, :webform, :twitter_id, :congresspedia_url, :as => :admin
   attr_accessible :youtube_url, :facebook_id, :fax, :bioguide_id, :eventful_id, :rss, :as => :admin
