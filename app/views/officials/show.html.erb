@@ -1,70 +1,6 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
-  <%= @official.name %> (<%= @official.party.member_noun %>)
-</p>
-
-<p>
-	<b>Office:</b>
-	<%= @official.congress_office %>
-</p>
-
-<p>
-	<b>Phone:</b>
-	<%= @official.phone %>
-</p>
-
-<p>
-	<b>Fax:</b>
-	<%= @official.fax %>
-</p>
-
-<% if @official.website %>
-<p>
-	<b>Web site:</b>
-	<a href = '<%= @official.website %>', target = 'blah'><%= @official.website %></a>
-</p>
-<% end %>
-
-<% if @official.webform %>
-<p>
-	<b>Web contact form:</b>
-	<a href = '<%= @official.webform %>', target = 'blah'><%= @official.webform %></a>
-	
-</p>
-<% end %>
-
-<% if @official.twitter_id %>
-<p>
-	<b>Twitter:</b>
-    <a href = 'http://twitter.com/<%= @official.twitter_id %>', target = 'blah'>@<%= @official.twitter_id %></a>
-</p>
-<% end %>
-
-<% if @official.facebook_id %>
-<p>
-	<b>Facebook:</b>
-    <a href = 'http://facebook.com/<%= @official.facebook_id %>', target = 'blah'><%= @official.facebook_id %></a>
-</p>
-<% end %>
-
-<% if @official.congresspedia_url %>
-<p>
-	<b>Open Congress:</b>
-	<a href = '<%= @official.congresspedia_url %>', target = 'blah'><%= @official.congresspedia_url %></a>
-</p>
-<% end %>
-
-
-<% if @official.youtube_url %>
-<p>
-	<b>Youtube:</b>
-	<a href = '<%= @official.youtube_url %>', target = 'blah'><%= @official.youtube_url %></a>
-</p>
-<% end %>
-
-<p>
 	<b>Photo:</b>
 	  <% if @official.has_photo? %>
 	    <%= image_tag @official.photo_path %>
@@ -72,5 +8,69 @@
 	    No photo.
 	  <% end %>
 </p>
+
+<table>
+<tr>
+  <td colspan=2><b><%= @official.name %> (<%= @official.party.member_noun %>)</b></td>
+</tr>
+<% if @official.congress_office %>
+<tr>
+	<td>Congressional Office:</td>
+	<td><%= @official.congress_office %></td>
+</tr>
+<% end %>
+<% if @official.phone %>
+<tr>
+	<td>phone:</td>
+	<td><%= @official.phone %></tr>
+</tr>
+<% end %>
+<% if @official.fax %>
+  <tr>
+	<td>Fax:</td>
+	<td><%= @official.fax %></td>
+  </tr>
+<% end %>
+<% if @official.website %>
+  <tr>
+	<td>Web site:</td>
+	<td><a href = '<%= @official.website %>', target = 'blah'><%= @official.website %></a></td>
+  </tr>
+<% end %>
+<% if @official.webform %>
+  <tr>
+	<td>Web contact form:</td>
+	<td><a href = '<%= @official.webform %>', target = 'blah'><%= @official.webform %></a></td>
+	
+  </tr>
+<% end %>
+<% if @official.twitter_id %>
+  <tr>
+	<td>Twitter:</td>
+    <td><a href = 'http://twitter.com/<%= @official.twitter_id %>', target = 'twit'>@<%= @official.twitter_id %></a></td>
+  </tr>
+<% end %>
+
+<% if @official.facebook_id %>
+  <tr>
+	<td>Facebook:</td>
+    <td><a href = 'http://facebook.com/<%= @official.facebook_id %>', target = 'blah'><%= @official.facebook_id %></a></td>
+  </tr>
+<% end %>
+
+<% if @official.congresspedia_url %>
+  <tr>
+	<td>Open Congress:</td>
+	<td><a href = '<%= @official.congresspedia_url %>', target = 'blah'><%= @official.congresspedia_url %></a></td>
+  </tr>
+<% end %>
+<% if @official.youtube_url %>
+  <tr>
+	<td>Youtube:</td>
+	<td><a href = '<%= @official.youtube_url %>', target = 'blah'><%= @official.youtube_url %></a></td>
+  </tr>
+<% end %>
+</table>
+
 
 <%= link_to 'Back', root_path %>

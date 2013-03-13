@@ -33,6 +33,20 @@ class QuickPollResponsesController < ApplicationController
 
     @quick_poll_response = QuickPollResponse.new
     @quick_poll = QuickPoll.find(params[:quick_poll_id])
+    
+    max_len = 0
+    @quick_poll.quick_poll_options.each do |o|
+      logger.info( "o.text = (%s) %s " % [ o.text.length, o.text ] )
+      if o.text.length > max_len
+         max_len = o.text.length
+      end
+    end
+    
+    # Approximately 33.33 pixs per chars looks good.   
+    logger.info( "Hello Robbie Dob!" )
+    @quick_poll_options_width_px =  max_len * 33.33
+    logger.info( "@quick_poll_options_width_px = %s" % [ @quick_poll_options_width_px ] )
+    
 
     logger.info( "Hello Robbie Dob! %s" % [ @quick_poll.quick_poll_options.length ] )
 

@@ -255,44 +255,38 @@ imps.each do |imp|
 end
 
 
-puts 'CREATING ROLES'
-Role.create([
-  { :name => 'admin' }, 
-  { :name => 'user' }, 
-], :without_protection => true)
-
 
 puts 'SETTING UP USERS'
 
-user1 = User.create({ :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>14, :site_role => SiteRole::ADMIN}, :without_protection => true )
+user1 = User.create({ :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>14, :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3', :site_role => SiteRole::ADMIN}, :without_protection => true )
 puts 'New user created: ' << user1.name
 
 official = Official.find(1000)
-user2 = User.create({ :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 13, :staff_official => official }, :without_protection => true )
+user2 = User.create({ :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 13,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3', :staff_official => official }, :without_protection => true )
 puts 'New user created: ' << user2.name
 
-user3 = User.create! :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>12
+user3 = User.create({ :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>12,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3' }, :without_protection => true )
 puts 'New user created: ' << user3.name
 
-user4 = User.create! :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 11
+user4 = User.create({ :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 11,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3' }, :without_protection => true )
 puts 'New user created: ' << user4.name
 
-user5 = User.create! :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 10
+user5 = User.create({ :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 10 }, :without_protection => true )
 puts 'New user created: ' << user5.name
 
-user6 = User.create! :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 9
+user6 = User.create({ :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 9 }, :without_protection => true )
 puts 'New user created: ' << user6.name
 
-user7 = User.create! :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 8
+user7 = User.create({ :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 8 }, :without_protection => true )
 puts 'New user created: ' << user7.name
 
-user8 = User.create! :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 7
+user8 = User.create({ :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 7 }, :without_protection => true )
 puts 'New user created: ' << user8.name
 
-user9 = User.create! :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no =>6
+user9 = User.create({ :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>6 }, :without_protection => true )
 puts 'New user created: ' << user9.name
 
-user10 = User.create! :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :state_id => 26, :congressional_district_no => 5
+user10 = User.create({ :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 5 }, :without_protection => true )
 puts 'New user created: ' << user10.name
 
 
@@ -368,7 +362,7 @@ QuickPollResponse.create([
   { :quick_poll_id => 1, :user_id => 7, :value => 1 },
   { :quick_poll_id => 1, :user_id => 8, :value => 2 }, 
   { :quick_poll_id => 1, :user_id => 9, :value => 2 }, 
-  { :quick_poll_id => 1, :user_id => 10, :value => 2 }, 
+  { :quick_poll_id => 1, :user_id => 10,:value => 2 }, 
   { :quick_poll_id => 2, :user_id => 1, :value => 1 },
   { :quick_poll_id => 2, :user_id => 2, :value => 2 },
   { :quick_poll_id => 2, :user_id => 3, :value => 3 },

@@ -1,5 +1,23 @@
-<h3>User</h3>
-<p>User: <%= @user.name %></p>
-<p>Email: <%= @user.email if @user.email %></p>
-<p>Birth Date: <%= @user.birth_date if @user.birth_date %></p>
-<p>Sex: <%= @user.sex if @user.sex %></p>
+<h4>User</h4>
+<table>
+<tr><td>User:</td><td><%= @user.name %></td></tr>
+<tr><td>Email:</td><td> <%= @user.email if @user.email %></td></tr>
+<tr><td>Birth Date:</td><td><%= @user.birth_date if @user.birth_date %><td>
+<tr><td>Sex:</td><td><%= @user.sex if @user.sex %></td></tr>
+<tr><td>Address:</td></td><td><%= @user.address1 %></td></tr>
+<% if @user.address2 %>
+<tr><td></td></td><td><%= @user.address2 %></td></tr>
+<% end %>
+<tr><td></td><td><%= @user.city %> <%= @user.state %> <%= @user.zip %></td></tr>
+<tr><td>Rep State:</td><td><%= @user.rep_state.name unless !@user.rep_state %></td></tr>
+<tr><td>Rep Congressional District:</td><td><%= @user.rep_congressional_district.district.to_s unless !@user.rep_congressional_district %>
+<tr><td>Rep County:</td><td><%= @user.rep_county.name unless !@user.rep_county %></td></tr>
+<tr><td>Rep Municipality:</td><td><%= @user.rep_municipality.name unless !@user.rep_municipality %></td></tr>
+<tr><td>Rep State Senate District:</td><td><%= @user.rep_state_senate_district_key unless !@user.rep_state_senate_district_key %>
+<tr><td>Rep State House District:</td><td><%= @user.rep_state_house_district_key unless !@user.rep_state_house_district_key %>
+</table>
+
+
+
+</table>	
+

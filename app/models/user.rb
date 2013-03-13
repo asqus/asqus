@@ -10,9 +10,12 @@ class User < ActiveRecord::Base
   has_many :groups, :through => :user_groups
   belongs_to :site_role
   belongs_to :staff_official, :class_name => :Official
-  belongs_to :municipality, :foreign_key => [:state_id, :municipality_ansi_code]
-  belongs_to :county, :foreign_key => [:state_id, :county_ansi_code]
-  belongs_to :congressional_district, :foreign_key => [:state_id, :congressional_district]
+  belongs_to :rep_state, :class_name => 'State', :foreign_key => :rep_state_id
+  belongs_to :rep_municipality, :class_name => 'Municipality', :foreign_key => [:rep_state_id, :rep_municipality_ansi_code]
+  belongs_to :rep_county, :class_name => 'County', :foreign_key => [:rep_state_id, :rep_county_ansi_code]
+  belongs_to :rep_congressional_district, :class_name => 'CongressionalDistrict', :foreign_key => [:rep_state_id, :rep_congressional_district_no]
+  belongs_to :rep_state_house_district, :class_name => 'StateHouseDistrict', :foreign_key => [:rep_state_id, :rep_state_house_district_key]
+  belongs_to :rep_state_senate_district, :class_name => 'StateSenateDistrict', :foreign_key => [:rep_state_id, :rep_state_senate_district_key]
   
   attr_accessible :role_ids, :as => :admin
   attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me

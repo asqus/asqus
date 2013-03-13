@@ -38,10 +38,8 @@ Asqus::Application.routes.draw do
   
   
   namespace :staff do
-    resources :quick_poll_options
     resources :quick_polls
     resources :issues
-  
   end
   
   resources :officials, :only => [:index, :show]

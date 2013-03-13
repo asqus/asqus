@@ -1,19 +1,9 @@
 class Staff::QuickPollsController < Staff::BaseController
-  # GET /staff/quick_polls
-  # GET /staff/quick_polls.json
-  def index
-    @quick_polls = QuickPoll.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @quick_polls }
-    end
-  end
-
+  before_filter :find_quick_poll_and_check_perms, :only=>[:show, :edit, :update, :destroy]  
+    
   # GET /staff/quick_polls/1
   # GET /staff/quick_polls/1.json
   def show
-    @quick_poll = QuickPoll.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -40,7 +30,7 @@ class Staff::QuickPollsController < Staff::BaseController
 
   # GET /staff/quick_polls/1/edit
   def edit
-    @quick_poll = QuickPoll.find(params[:id])
+
     @poller_type = @quick_poll.issue.poller_type
     @poller_id = @quick_poll.issue.poller_id
     @issues = Issue.where( :poller_type => @poller_type, :poller_id => @poller_id )
@@ -51,8 +41,9 @@ class Staff::QuickPollsController < Staff::BaseController
   # POST /staff/quick_polls.json
   def create
 
-    logger.info params[:quick_poll]
     qp = params[:quick_poll]
+    issue = Issue.find(qp[:issue_id])
+    raise AccessDenied unless Office::check_staff_permission(issue.poller_id, current_user.staff_official_id)    
     qp[:poll_workflow_state_id] = 1
     @quick_poll = QuickPoll.new(qp)
 
@@ -74,8 +65,10 @@ class Staff::QuickPollsController < Staff::BaseController
   # PUT /staff/quick_polls/1
   # PUT /staff/quick_polls/1.json
   def update
-    @quick_poll = QuickPoll.find(params[:id])
 
+    qp = params[:quick_poll]
+    qp[:poll_workflow_state_id] = 1
+    
     respond_to do |format|
       if @quick_poll.update_attributes(params[:quick_poll])
         format.html { redirect_to staff_quick_poll_path(@quick_poll), notice: 'Quick poll was successfully updated.' }
@@ -90,13 +83,22 @@ class Staff::QuickPollsController < Staff::BaseController
   # DELETE /staff/quick_polls/1
   # DELETE /staff/quick_polls/1.json
   def destroy
-    @quick_poll = QuickPoll.find(params[:id])
+
     @quick_poll.destroy
 
     respond_to do |format|
       format.html { redirect_to staff_quick_polls_url }
       format.json { head :no_content }
     end
+  end
+  
+  
+  def find_quick_poll_and_check_perms
+    @quick_poll = QuickPoll.find(params[:id])
+    if (@quick_poll.issue.poller_type != 'Office')
+      raise AccessDenied
+    end
+    raise AccessDenied unless Office::check_staff_permission( @quick_poll.issue.poller_id, current_user.staff_official_id)
   end
 
   

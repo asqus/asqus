@@ -1,22 +1,11 @@
 class Staff::IssuesController < Staff::BaseController
-  # GET /issues
-  # GET /issues.json
-  def index
+  before_filter :find_issue_and_check_perms, :only=>[:show, :edit, :update, :destroy]  
 
-    @poller = eval(params[:poller_type]).find(params[:poller_id])    
-    @issues = Issue.where( :poller_type => params[:poller_type], :poller_id => params[:poller_id] );
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @issues }
-    end
-  end
 
   # GET /issues/1
   # GET /issues/1.json
   def show
-
-    @issue = Issue.find(params[:id])
 
     # concatenate all tags into a single editable field
 
@@ -47,8 +36,7 @@ class Staff::IssuesController < Staff::BaseController
 
   # GET /issues/1/edit
   def edit
-    @issue = Issue.find(params[:id])
-
+    
     # concatenate all the tags into a single string for editing
 
     @issue.tag_string = ""
@@ -65,27 +53,27 @@ class Staff::IssuesController < Staff::BaseController
   def create
 
     issue_hash = params[:issue]
-
-    logger.debug issue_hash
-
-    logger.info "new issue: " + issue_hash.to_s
-    @issue = Issue.new(issue_hash)
-
+    raise AccessDenied unless Office::check_staff_permission( issue_hash[:poller_id], current_user.staff_official_id)
+    
+    issue = Issue.new(issue_hash.except(:poller_type, :poller_id))
+    issue.poller_type = issue_hash[:poller_type]
+    issue.poller_id = issue_hash[:poller_id]
+    
     tags = issue_hash[:tag_string].split(' ')
     tags.each do |tag|
-      @issue.tags.build( :tag => tag )
+      issue.tags.build( :tag => tag )
     end 
 
-    logger.info "trying to save issue: " + @issue.to_s
+    logger.info "trying to save issue: " + issue.to_s
     respond_to do |format|
-      if @issue.save!
-        logger.info "saving issue " + @issue.to_s
-        format.html { redirect_to staff_issues_path(:poller_type=>issue_hash[:poller_type], :poller_id =>issue_hash[:poller_id]), notice: 'Issue was successfully created.' }
-        format.json { render json: @issue, status: :created, location: @issue }
+      if issue.save!
+        logger.info "saving issue " + issue.to_s
+        format.html { redirect_to staff_path, notice: 'Issue was successfully created.' }
+        format.json { render json: issue, status: :created, location: @issue }
       else
-        logger.info @issue.errors.to_s 
+        logger.info issue.errors.to_s 
         format.html { render action: "new" }
-        format.json { render json: @issue.errors, status: :unprocessable_entity }
+        format.json { render json: issue.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -93,11 +81,21 @@ class Staff::IssuesController < Staff::BaseController
   # PUT /issues/1
   # PUT /issues/1.json
   def update
-    @issue = Issue.find(params[:id])
+
+    issue_hash = params[:issue]   
+    
+    tags = issue_hash[:tag_string].split(' ')
+    @issue.tags.each do |t|
+      t.mark_for_destruction
+    end
+    @issue.save
+    tags.each do |tag|
+      @issue.tags.build( :tag => tag )
+    end
 
     respond_to do |format|
-      if @issue.update_attributes(params[:issue])
-        format.html { redirect_to staff_issue_path(@issue), notice: 'Issue was successfully updated.' }
+      if @issue.update_attributes(issue_hash.except(:poller_type, :poller_id))
+        format.html { redirect_to staff_path, notice: 'Issue was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -117,4 +115,16 @@ class Staff::IssuesController < Staff::BaseController
       format.json { head :no_content }
     end
   end
+  
+  protected
+  
+
+  def find_issue_and_check_perms
+    @issue = Issue.find(params[:id])
+    if (@issue.poller_type != 'Office')
+      raise AccessDenied
+    end
+    raise AccessDenied unless Office::check_staff_permission( @issue.poller_id, current_user.staff_official_id)
+  end
+  
 end

@@ -3,6 +3,6 @@ class PollWorkflowState < ActiveRecord::Base
   attr_accessible :description
 
   def to_s
-    return description
+    return name
   end
 end

@@ -5,7 +5,7 @@
 <tr><th>Office</th><th>Incumbent</th><th></th></tr>
 
 <% if @governor_office %>
-<% governor = Office.incumbent_officials(@governor_office.id) %>
+<% governor = Office.incumbent_official(@governor_office.id) %>
 <tr>
 	<td>Governor</td>
 	<td><%= link_to governor.name, governor if !@governor.nil? %></td>
@@ -23,7 +23,7 @@
 
 <% if @us_senate_offices %>
   <% @us_senate_offices.each do |office| %>
-  <% senator = Office.incumbent_officials(office.id).first %>
+  <% senator = Office.incumbent_official(office.id) %>
   <tr>
 	<td><%= office.office_type.name %></td>
 	<td><%= link_to senator.name, senator if !senator.nil? %></td>
@@ -42,7 +42,7 @@
 
 <% if @us_house_offices %>
   <% @us_house_offices.each do |office| %>
-  <% congressperson = Office.incumbent_officials(office.id).first %>
+  <% congressperson = Office.incumbent_official(office.id) %>
   <tr>
   	<td><%= office.office_type.name %></td>
 	<td><%= link_to congressperson.name, congressperson if !congressperson.nil? %></td>
@@ -58,6 +58,46 @@
   </tr>
   <% end %>
 <% end %>
+
+<% if @state_senate_offices %>
+  <% @state_senate_offices.each do |office| %>
+  <% official = Office.incumbent_official(office.id) %>
+  <tr>
+  	<td><%= office.office_type.name %></td>
+	<td><%= link_to official.name, official if !official.nil? %></td>
+	<td>
+	  <% if !official.nil? %>
+	    <% if official.has_photo? %>
+	      <%= image_tag official.photo_path, :height => 125, :width => 100 %>
+	    <% else %>
+	      No photo.
+	    <% end %>
+	  <% end %>
+	</td>	
+  </tr>
+  <% end %>
+<% end %>
+
+
+<% if @state_house_offices %>
+  <% @state_house_offices.each do |office| %>
+  <% official = Office.incumbent_official(office.id) %>
+  <tr>
+  	<td><%= office.office_type.name %></td>
+	<td><%= link_to official.name, official if !official.nil? %></td>
+	<td>
+	  <% if !official.nil? %>
+	    <% if official.has_photo? %>
+	      <%= image_tag official.photo_path, :height => 125, :width => 100 %>
+	    <% else %>
+	      No photo.
+	    <% end %>
+	  <% end %>
+	</td>	
+  </tr>
+  <% end %>
+<% end %>
+
 
 </table>
 

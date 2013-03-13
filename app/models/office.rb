@@ -26,8 +26,13 @@ class Office < ActiveRecord::Base
     self.office_type.name
   end
   
-  def self.incumbent_officials(office_id)  
-    return Official.where("id in (select official_id from official_terms o, terms t where o.term_id = t.id and o.office_id = ? and t.from_date <= ? and t.to_date >= ?)", office_id, DateTime.now, DateTime.now)
+  def self.incumbent_official(office_id)  
+    return Official.where("id in (select official_id from official_terms o, terms t where o.term_id = t.id and o.office_id = ? and t.from_date <= now() and t.to_date >= now())", office_id).first
+  end
+    
+  def self.check_staff_permission(office_id, official_id)
+    incumbent = Incumbent.find_by_office_id(office_id)
+    return official_id == incumbent.official_id
   end
 
 end
