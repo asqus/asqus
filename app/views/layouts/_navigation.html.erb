@@ -27,11 +27,11 @@
   <% end %>
   <% if mobile_site? %>
     <li>
-    <%= link_to "Full Site", :mobile => 0 %>
+    <%= link_to "Full Site",  request.parameters.merge({:mobile => 0}) %>
     </li>
   <% else %>
     <li>
-    <%= link_to "Mobile Site", :mobile => 1 %>
+    <%= link_to "Mobile Site", request.parameters.merge({:mobile => 1}) %>
     </li>
   <%end %>
 
