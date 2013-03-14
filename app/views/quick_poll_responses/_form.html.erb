@@ -1,8 +1,9 @@
+<div class="container">
 <%= simple_form_for(@quick_poll_response) do |f| %>
   <%= f.error_notification %>
   <%= f.hidden_field :quick_poll_id, :value => @quick_poll.id %>
 
-  <h3>Asq.us Poll: <%= @quick_poll.title %></h3> 
+  <h4>Asq.us Poll: <%= @quick_poll.title %></h4> 
 
   <%= image_tag 'asqus-16px-height.png' %> <%= @quick_poll.body %>
 
@@ -17,3 +18,5 @@
  </div>
 
 <% end %>
+</div>
+
