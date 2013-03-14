@@ -178,11 +178,12 @@ window.console = window.console || (function(){
           //graphData = getGraphData( json ); 
           graphType = getGraphType( json );
 
-          if ( graphType == "BAR_CHART") {
-             renderBarChart( graphTitle, json );
-          } else {
+         // b-rad only wants Pie Charts for the demo
+         // if ( graphType == "BAR_CHART") {
+         //    renderBarChart( graphTitle, json );
+         // } else {
              renderPieChart( graphTitle, json );
-          }
+         // }
      } );
     	
     });  // $(document).ready
@@ -193,6 +194,17 @@ window.console = window.console || (function(){
 
 <h5>Issue: <%= @quick_poll.issue.title %></h5>
 
+<p><%= @quick_poll.issue.comment %> <%= image_tag 'asqus-16px-height.png' %></p>
+
+<hr/>
+
+<div id="container" style="min-width: 400px; height: 400px; margin:0 auto"></div>
+<hr/>
+<div class="row">
+<div id="pollBody" class="span8">
+<%= @quick_poll.body %>
+</div> <!-- pollBody -->
+<div id="pollSponsor" class="span4">
 <% if @jot %>
 
 Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jot.official_id) %>
@@ -203,16 +215,9 @@ Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jo
     <%= @jot.photo_filename %>
 <% end %>
 
-<%= @quick_poll.issue.comment %>
 <% end %>
-
-<hr/>
-
-<div id="container" style="min-width: 400px; height: 400px; margin:0 auto"></div>
-<hr/>
-<%= @quick_poll.body %>
-
-<br />
+</div> <!-- pollSponsor -->
+</div> <!-- row -->
 <p>
 <div id="disqus_thread"></div>
     <script type="text/javascript">

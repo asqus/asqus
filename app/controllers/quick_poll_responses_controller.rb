@@ -59,7 +59,7 @@ class QuickPollResponsesController < ApplicationController
     end
     
     # Approximately 33.33 pixs per chars looks good.   
-    @quick_poll_options_width_px =  max_len * 33.33
+    @quick_poll_options_width_px =  40.0 + max_len * 10.0
     logger.info( "@quick_poll_options_width_px = %s" % [ @quick_poll_options_width_px ] )
 
     respond_to do |format|

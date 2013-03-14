@@ -320,7 +320,7 @@ puts 'CREATING QUICK POLLS'
 QuickPoll.create([
   { :issue_id => 1, :quick_poll_type_id => 'PUBLIC', :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'PIE_CHART' },
-  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Taxes and the Deficit", :body => "How much to you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
+  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Taxes and the Deficit", :body => "How much do you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'BAR_CHART' }
 ], :without_protection => true )
 

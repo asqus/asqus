@@ -1,4 +1,4 @@
-<%= link_to "Asq.us", root_path, :class => 'brand' %>
+<a href="<%= url_for(root_path) %>" class='brand'><%= image_tag('asqus-16px-height.png') %>&nbsp;Asq.us</a>
 <ul class="nav">
   <% if user_signed_in? %>
     <li>

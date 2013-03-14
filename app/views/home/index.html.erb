@@ -7,7 +7,7 @@ Welcome to Asq.us, the town hall for the 21st century. You may log in or sign up
 <table width=400>
 <% @open_quick_polls.each do |poll| %>
 <% path = new_quick_poll_response_path + "?quick_poll_id=" + poll.id.to_s %>
-<tr><td><a href=<%=path%> ><%= poll.title %></td></tr>
+<tr><td><a href=<%=path%> ><%= image_tag 'asqus-16px-height.png' %>&nbsp;<%= poll.title %> </td></tr>
 <% end %>
 </table>
 
@@ -16,6 +16,6 @@ Welcome to Asq.us, the town hall for the 21st century. You may log in or sign up
 <table width=400>
 <% @answered_quick_polls.each do |poll| %>
 <% path = quick_poll_responses_path + "?quick_poll_id=" + poll.id.to_s %>
-<tr><td><a href=<%=path%> ><%= poll.title %></td></tr>
+<tr><td><a href=<%=path%> ><%= image_tag 'asqus-16px-height.png' %>&nbsp;<%= poll.title %> </td></tr>
 <% end %>
 </table>
