@@ -389,6 +389,10 @@ ActiveRecord::Base.connection.execute(
 )
 
 ActiveRecord::Base.connection.execute(
+"create index joined_official_terms_uidx on joined_official_terms(official_term_id)"
+)
+
+ActiveRecord::Base.connection.execute(
 "create index joined_official_terms_office_idx on joined_official_terms(office_id)"
 )
 
@@ -401,12 +405,21 @@ ActiveRecord::Base.connection.execute(
 )
 
 ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_state_idx on joined_official_terms(state_id)"
+"create index joined_official_terms_term_idx on joined_official_terms(term_id)"
+)
+
+ActiveRecord::Base.connection.execute(
+"create index joined_official_terms_municipality_idx on joined_official_terms(state_id, municipality_ansi_code)"
+)
+
+ActiveRecord::Base.connection.execute(
+"create index joined_official_terms_county_idx on joined_official_terms(state_id, county_ansi_code)"
 )
 
 ActiveRecord::Base.connection.execute(
 "create view incumbents as select * from joined_official_terms where from_date < now() and to_date > now()"
 )
+
 
 ActiveRecord::Base.connection.execute(
 "create or replace function joined_official_terms_refresh_row( id integer ) 
@@ -414,10 +427,176 @@ returns void
 security definer 
 language 'plpgsql' as $$ 
 begin 
-  delete from joined_official_terms jot where jot.id = id; 
-  insert into joined_official_terms select *, false, null from joined_official_terms_view jot where jot.id = id; 
+  delete from joined_official_terms jot where jot.official_term_id = id; 
+  insert into joined_official_terms select *, false from joined_official_terms_view jot where jot.official_term_id = id; 
   end 
 $$")
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_official_terms_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  if old.id = new.id then
+    perform joined_official_terms_refresh_row(new.official_term_id);
+  else
+    perform joined_official_terms_refresh_row(old.official_term_id);
+    perform joined_official_terms_refresh_row(new.official_term_id);
+  end if;
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_official_terms_update_trigger 
+  after update on official_terms
+    for each row execute procedure jot_official_terms_update_trigger();
+")
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_official_terms_insert_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(new.official_term_id);
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_official_terms_insert_trigger 
+  after insert on official_terms
+    for each row execute procedure jot_official_terms_insert_trigger();
+")
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_official_terms_delete_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(old.official_term_id);
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_official_terms_delete_trigger 
+  after delete on official_terms
+    for each row execute procedure jot_official_terms_delete_trigger();
+")
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_officials_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.official_id = new.id;
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_officials_update_trigger 
+  after update on officials
+    for each row execute procedure jot_officials_update_trigger();
+")
+
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_offices_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.office_id = new.id;
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_offices_update_trigger 
+  after update on offices
+    for each row execute procedure jot_offices_update_trigger();
+")
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_terms_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.term_id= new.id;
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_terms_update_trigger 
+  after update on terms
+    for each row execute procedure jot_terms_update_trigger();
+")
+
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_office_types_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.office_type_id = new.id;
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_office_types_update_trigger 
+  after update on office_types
+    for each row execute procedure jot_office_types_update_trigger();
+")
+
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_municipalities_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.state_id = new.state_id and jot.municipality_ansi_code = new.ansi_code; 
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_municipalities_update_trigger 
+  after update on municipalities
+    for each row execute procedure jot_municipalities_update_trigger();
+")
+
+
+ActiveRecord::Base.connection.execute("
+create or replace function jot_counties_update_trigger()
+returns trigger 
+security definer language 'plpgsql' as $$
+begin
+  perform joined_official_terms_refresh_row(jot.official_term_id)
+    from joined_official_terms jot
+    where jot.state_id = new.state_id and jot.county_ansi_code = new.ansi_code; 
+  return null;
+end
+$$")
+
+ActiveRecord::Base.connection.execute("
+create trigger jot_counties_update_trigger 
+  after update on counties
+    for each row execute procedure jot_counties_update_trigger();
+")
+
 
 
 

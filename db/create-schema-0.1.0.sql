@@ -478,9 +478,9 @@ create view joined_official_terms_view as
 	        states.name as state_name,
 	        states.abbreviation as state_abbreviation,
 	        offices.us_senate_class as us_senate_class,
-	        offices.congressional_district_no as congressional_district,
-			offices.state_house_district_key as state_house_district,
-	    	offices.state_senate_district_key as state_senate_district,
+	        offices.congressional_district_no as congressional_district_no,
+			offices.state_house_district_key as state_house_district_key,
+	    	offices.state_senate_district_key as state_senate_district_key,
 	        counties.name as county_name,
 	        counties.ansi_code as county_ansi_code,
 	        municipalities.name as municipality_name,
@@ -496,6 +496,11 @@ create view joined_official_terms_view as
 					      left outer join municipalities on offices.state_id = municipalities.state_id and offices.municipality_ansi_code = municipalities.ansi_code
 						  left outer join counties on offices.state_id = counties.state_id and offices.county_ansi_code = counties.ansi_code;
 	
+
+
+
+
+
 
 create table questions (
 	id			serial primary key,

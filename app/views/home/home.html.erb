@@ -23,57 +23,46 @@
 </tr>
 <% end %>
 
-<% if @us_senate_offices %>
-  <% @us_senate_offices.each do |office| %>
-  <% senator = Office.incumbent_official(office.id) %>
+<% if @us_senators %>
+  <% @us_senators.each do |senator| %>
   <tr>
-	<td><%= office.office_type.name %></td>
-	<td><%= link_to senator.name, senator if !senator.nil? %></td>
+	<td><%= senator.office_type_name %></td>
+	<td><%= link_to senator.official_name, official_path(senator.official_id) %></td>
 	<td>
-	  <% if !senator.nil? %>
-	    <% if senator.has_photo? %>
+	  <% if senator.has_photo? %>
+	    <%= image_tag senator.photo_path, :height => 125, :width => 100 %>
+	  <% else %>
+	    No photo.
+      <% end %>
+	</td>	
+  </tr>
+  <% end %>
+<% end %>
+
+<% if @us_rep %>
+  <tr>
+  	<td><%= @us_rep.office_type_name %></td>
+	<td><%= link_to @us_rep.official_name, official_path(@us_rep.official_id) %></td>
+	<td>
+      <% if @us_rep.has_photo? %>
+	    <%= image_tag @us_rep.photo_path, :height => 125, :width => 100 %>
+	  <% else %>
+	    No photo.
+	  <% end %>
+	</td>	
+  </tr>
+<% end %>
+
+<% if @state_senators %>
+  <% @state_senators.each do |senator| %>
+  <tr>
+  	<td><%= senator.office_type_name %></td>
+	<td><%= link_to senator.official_name, official_path(senator.official_id) %></td>
+	<td>
+	  <% if senator.has_photo? %>
 	      <%= image_tag senator.photo_path, :height => 125, :width => 100 %>
-	    <% else %>
+	  <% else %>
 	      No photo.
-	    <% end %>
-	  <% end %>
-	</td>	
-  </tr>
-  <% end %>
-<% end %>
-
-<% if @us_house_offices %>
-  <% @us_house_offices.each do |office| %>
-  <% congressperson = Office.incumbent_official(office.id) %>
-  <tr>
-  	<td><%= office.office_type.name %></td>
-	<td><%= link_to congressperson.name, congressperson if !congressperson.nil? %></td>
-	<td>
-	  <% if !congressperson.nil? %>
-	    <% if congressperson.has_photo? %>
-	      <%= image_tag congressperson.photo_path, :height => 125, :width => 100 %>
-	    <% else %>
-	      No photo.
-	    <% end %>
-	  <% end %>
-	</td>	
-  </tr>
-  <% end %>
-<% end %>
-
-<% if @state_senate_offices %>
-  <% @state_senate_offices.each do |office| %>
-  <% official = Office.incumbent_official(office.id) %>
-  <tr>
-  	<td><%= office.office_type.name %></td>
-	<td><%= link_to official.name, official if !official.nil? %></td>
-	<td>
-	  <% if !official.nil? %>
-	    <% if official.has_photo? %>
-	      <%= image_tag official.photo_path, :height => 125, :width => 100 %>
-	    <% else %>
-	      No photo.
-	    <% end %>
 	  <% end %>
 	</td>	
   </tr>
@@ -81,19 +70,16 @@
 <% end %>
 
 
-<% if @state_house_offices %>
-  <% @state_house_offices.each do |office| %>
-  <% official = Office.incumbent_official(office.id) %>
+<% if @state_reps %>
+  <% @state_reps.each do |rep| %>
   <tr>
-  	<td><%= office.office_type.name %></td>
-	<td><%= link_to official.name, official if !official.nil? %></td>
+  	<td><%= rep.office_type_name %></td>
+	<td><%= link_to rep.official_name, official_path(rep.official_id)%></td>
 	<td>
-	  <% if !official.nil? %>
-	    <% if official.has_photo? %>
-	      <%= image_tag official.photo_path, :height => 125, :width => 100 %>
-	    <% else %>
-	      No photo.
-	    <% end %>
+	  <% if rep.has_photo? %>
+	    <%= image_tag rep.photo_path, :height => 125, :width => 100 %>
+	  <% else %>
+	    No photo.
 	  <% end %>
 	</td>	
   </tr>
