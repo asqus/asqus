@@ -23,7 +23,7 @@ end
 
 
 def photo_path
-  Official::photo_path(official_id, official_photo_extension)
+  Official::photo_path(official_id, official_photo_extension,official_external_photo_url)
 end
 
 

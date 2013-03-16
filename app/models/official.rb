@@ -36,7 +36,11 @@ class Official < ActiveRecord::Base
   after_save :store_photo
     
   def has_photo?
-    File.exists? photo_filename
+    if File.exists? photo_filename
+      true
+    else
+      external_photo_url
+    end
   end
   
   def photo=(file_data)
@@ -56,12 +60,16 @@ class Official < ActiveRecord::Base
     Official::photo_filename(id, photo_extension)
   end
   
-  def self.photo_path(id, photo_extension)
-    "/official_photo_store/#{id}.#{photo_extension}"
+  def self.photo_path(id, photo_extension, external_photo_url)
+    if File.exists? photo_filename(id, photo_extension)
+       "/official_photo_store/#{id}.#{photo_extension}"
+    else
+       external_photo_url
+    end
   end
   
   def photo_path
-    Official::photo_path(id, photo_extension)
+    Official::photo_path(id, photo_extension, external_photo_url)
   end
   
   def name
