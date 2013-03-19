@@ -17,13 +17,12 @@
   </tr>
 
 <% @us_senator_offices.each do |office| %>
-  <% incumbent = Office.incumbent_official(office.id) %>
   <tr>
     <td><%= office.office_type.name %></td>
-    <td><%= if !incumbent.nil?
-              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
-            end            
-         %>
+    <td>
+    <% office.incumbents.each do  |incumbent| %>	              
+       <%= link_to incumbent.official_name, admin_official_path(incumbent.official_id, :state_id => @state.id ) %>
+    <% end %>           
    </td>
   </tr>
 <% end %>
@@ -36,17 +35,16 @@
     <th>Office</th><th>Incumbent</th>
   </tr>
 <% @us_rep_offices.each do |office| %>
-  <% incumbent = Office.incumbent_official(office.id) %>
   <tr>
 	<% if office.congressional_district_no > 0 %>
 	  <td><%= office.office_type.name + ", District " + office.congressional_district_no.to_s %></td>
 	<% else %> 
 	  <td><%= office.office_type.name + " at Large" %><td>
 	<% end %>
-    <td><%= if incumbent
-              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
-            end            
-         %>
+    <td>
+    <% office.incumbents.each do |incumbent| %>
+       <%= link_to incumbent.official_name, admin_official_path(incumbent.official_id, :state_id => @state.id) %>
+    <% end %>
    </td>
   </tr>
 <% end %>
@@ -60,13 +58,14 @@
     <th>Office</th><th>Incumbent</th>
   </tr>
 <% @state_senator_offices.each do |office| %>
-  <% incumbent = Office.incumbent_official(office.id) %>
   <tr>
-    <td><%= office.office_type.name + ", District " + office.state_senate_district_key %></td>
-    <td><%= if incumbent
-              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
-            end            
-         %>
+    <td>
+    <%= office.office_type.name + ", District " + office.state_senate_district_key %>
+    </td>
+    <td>
+      <% office.incumbents.each do |incumbent| %>
+        <%= link_to incumbent.official_name, admin_official_path(incumbent.official_id, :state_id => @state.id) %>
+      <% end %>
    </td>
   </tr>
 <% end %>
@@ -80,13 +79,12 @@
     <th>Office</th><th>Incumbent</th>
   </tr>
 <% @state_rep_offices.each do |office| %>
-  <% incumbent = Office.incumbent_official(office.id) %>
   <tr>
 	<td><%= office.office_type.name + ", District " + office.state_house_district_key %></td>
-    <td><%= if incumbent
-              link_to incumbent.name, admin_official_path(incumbent, :state_id => @state.id )
-            end            
-         %>
+    <td>
+	  <% office.incumbents.each do |incumbent| %>
+	    <%= link_to incumbent.official_name, admin_official_path(incumbent.official_id, :state_id => @state.id) %>
+	  <% end %>
    </td>
   </tr>
 <% end %>

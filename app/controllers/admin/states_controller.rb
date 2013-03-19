@@ -16,7 +16,7 @@ class Admin::StatesController < Admin::BaseController
   def show
     
     @states = State.find(:all)
-    @state = State.find(params[:id])
+    @state = State.find(params[:id], :include => [ { :offices => :office_type }, {:offices => :incumbents }])
     @us_senator_offices = []
     @us_rep_offices = []
     @state_senator_offices = []

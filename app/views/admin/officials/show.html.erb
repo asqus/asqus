@@ -100,12 +100,15 @@
 </p>
 <% end %>
 
-<% if @official.rss %>
+<% if @official.open_states_leg_id %>
 <p>
-	<b>RSS:</b>
-	<<%= @official.rss %></a>
+	<b>Open States Leg. ID:</b>
+	<%= @official.open_states_leg_id %>
 </p>
 <% end %>
+
+
+
 
 <p>
 	<b>Photo:</b>

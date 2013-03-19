@@ -13,6 +13,7 @@ class Office < ActiveRecord::Base
   has_many :users, :through => :user_groups, :as => :group
   has_many :issues, :as => :poller
   has_many :joined_official_terms
+  has_many :incumbents
 
   attr_accessible :name, :office_type_id, :timestamps
 
