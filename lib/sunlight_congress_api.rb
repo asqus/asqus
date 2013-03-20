@@ -1,5 +1,5 @@
 
-class SunlightCongressAPI
+module SunlightCongressAPI
   
   BaseURL = 'http://congress.api.sunlightfoundation.com'
     

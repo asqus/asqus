@@ -1,5 +1,5 @@
 
-class OpenStatesAPI
+module OpenStatesAPI
   
   BaseURL = 'http://openstates.org/api/v1'
     
