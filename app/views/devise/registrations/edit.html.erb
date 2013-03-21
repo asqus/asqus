@@ -6,7 +6,7 @@
   <%= f.input :address1 %>
   <%= f.input :address2 %>
   <%= f.input :city %>
-  <%= f.association :rep_state %>
+  <%= f.association :rep_state, :label => 'State' %>
   <%= f.input :zip %>
   <%= f.input :email, :required => true %>
   <%= f.input :password, :autocomplete => "off", :hint => "leave it blank if you don't want to change it", :required => false %>

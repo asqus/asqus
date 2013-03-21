@@ -5,6 +5,10 @@ def update
    user_hash = params[:user]
    
    # todo check to see if address has changed before locating reps again
+
+   user_hash[:rep_state_house_district_key] = nil
+   user_hash[:rep_state_senate_district_key] = nil 
+   user_hash[:rep_congressional_district_no] = nil
    
    if (user_hash[:rep_state_id] && user_hash[:address1] && user_hash[:city])
      state = State.find(user_hash[:rep_state_id].to_i)
@@ -27,8 +31,7 @@ def update
        #
        # try to find congress members & therefore congressional district
        #
-       
-       user_hash[:rep_congressional_district_no] = nil
+
        cong = SunlightCongressAPI::legislatorsLocate(user_hash[:latitude], user_hash[:longitude])
        if (cong[:http_response_code] == 200)
          cong[:legislators].each do |leg|
@@ -41,7 +44,7 @@ def update
        #
        # try to find state legislators and therefore state house, senate districts
        #
-       
+
        legis = OpenStatesAPI::legislatorsGeo(user_hash[:latitude],user_hash[:longitude])
        legis[:legislators].each do |leg|
          if (leg[:chamber] == 'upper')
