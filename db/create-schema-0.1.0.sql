@@ -157,11 +157,11 @@ create table parties (
 insert into parties(id, name, member_noun, abbreviation ) values (0, 'Independent', 'Independent', 'I');
 insert into parties(id, name, member_noun, abbreviation ) values (1, 'Democratic', 'Democrat', 'D');
 insert into parties(id, name, member_noun, abbreviation ) values (2, 'Republican', 'Republican', 'R');
-insert into parties(id, name, member_noun, abbreviation ) values (3, 'Green', 'Green', 'G')
+insert into parties(id, name, member_noun, abbreviation ) values (3, 'Green', 'Green', 'G');
 insert into parties(id, name, member_noun, abbreviation ) values (4, 'Progressive', 'Progressive', 'P');
 insert into parties(id, name, member_noun, abbreviation ) values (5, 'Democratic-Farmer-Labor','Democratic-Farmer-Labor', 'DFL');
-insert into parties(id, name, member_noun, abbreviation ) values (6, 'Partido Nuevo Progresista','Partido Nuevo Progresista','PNG')
-insert into parties(id, name, member_noun, abbreviation ) values (6, 'Partido Popular Democrático','Partido Popular Democrático','PPD')
+insert into parties(id, name, member_noun, abbreviation ) values (6, 'Partido Nuevo Progresista','Partido Nuevo Progresista','PNG');
+insert into parties(id, name, member_noun, abbreviation ) values (7, 'Partido Popular Democrático','Partido Popular Democrático','PPD');
 
 	
 CREATE SEQUENCE officials_id_seq
