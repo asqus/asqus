@@ -1,31 +1,17 @@
 Asqus::Application.routes.draw do
   
-
+  resources :municipalities do
+    resources :wards
+  end
+    
   resources :quick_poll_responses
 
   resources :quick_poll_results
 
   resources :tags
 
-  resources :poll_options
-
-  resources :user_groups
-
-  resources :poll_responses
-
-  resources :poll_questions
-
   resources :offices, :only => [:index, :show]
-
-  resources :state_senate_districts
-
-  resources :state_house_districts
-  
-  resources :congressional_districts
-
-  resources :municipalities do
-    resources :wards
-  end
+  resources :officials, :only => [:show]
 
   namespace :admin do
     resources :officials
@@ -53,7 +39,7 @@ Asqus::Application.routes.draw do
   match '/admin' => "admin/home#index"
   match '/staff' => "staff/home#index"
   
-  devise_for :users
+  devise_for :users, :path_prefix => 'd', :controllers => {:registrations => 'registrations'}
 
   match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications, :only => [:index,:create,:destroy]

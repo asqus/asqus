@@ -67,7 +67,11 @@ class Staff::IssuesController < Staff::BaseController
     logger.info "trying to save issue: " + issue.to_s
     respond_to do |format|
       if issue.save!
-        logger.info "saving issue " + issue.to_s
+        disqus_thread_id = createDisqusThread(issue.id, issue.title)
+        if (disqus_thread_id)
+          issue.disqus_thread_id = disqus_thread_id
+          issue.save!
+        end
         format.html { redirect_to staff_path, notice: 'Issue was successfully created.' }
         format.json { render json: issue, status: :created, location: @issue }
       else
@@ -125,6 +129,23 @@ class Staff::IssuesController < Staff::BaseController
       raise AccessDenied
     end
     raise AccessDenied unless Office::check_staff_permission( @issue.poller_id, current_user.staff_official_id)
+  end
+  
+  def createDisqusThread(issue_id, title)
+    logger.info "new issue calling disqus to create a thread"
+    response = DisqusAPI.threadCreate(DisqusAPI::ISSUES_FORUM,title,{:identifier => issue_id.to_s })
+    if (!response[:exception])
+      if (response[:http_response_code] == 200)
+        thread_id = response[:thread][:id]
+        logger.info "new issue created disqus thread #{thread_id}"
+        return thread_id
+      else
+        logger.info "new issue got http response code #{response[:http_response_code]}"
+        return nil
+      end
+    else
+      return nil
+    end    
   end
   
 end

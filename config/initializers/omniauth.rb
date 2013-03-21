@@ -1,5 +1,5 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :facebook, PRIVATE_CONFIG['oauth_facebook_key'], PRIVATE_CONFIG['oauth_facebook_secret'], {:scope => 'email, read_stream, read_friendlists, friends_likes, friends_status, offline_access, user_location'}
+  provider :facebook, PRIVATE_CONFIG['facebook']['oauth_key'], PRIVATE_CONFIG['facebook']['oauth_secret'], {:scope => 'email, read_stream, read_friendlists, friends_likes, friends_status, offline_access, user_location'}
  
   # To do: add twitter and ?
 

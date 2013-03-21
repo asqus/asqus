@@ -223,7 +223,7 @@ Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jo
 <p>
 <div id="disqus_thread"></div>
     <script type="text/javascript">
-        var disqus_shortname = 'asqus'; 
+        var disqus_shortname = '<%= @disqus_forum %>'; 
         var disqus_identifier = '<%= @quick_poll.issue.id %>';
         var disqus_title = '<%= @quick_poll.issue.title %>';
         /* * * DON'T EDIT BELOW THIS LINE * * */

@@ -182,7 +182,7 @@ create table officials (
 	birth_date			date,
 	gender				char(1),
 	party_id			integer references parties,
-	congress_office		text,
+	congress_office		varchar(256),
 	phone				varchar(20),
 	email				varchar(256),
 	website				varchar(256),
@@ -212,7 +212,7 @@ create unique index officials_bioguide_uidx on officials(bioguide_id);
 create unique index officials_votesmart_uidx on officials(votesmart_id);
 create unique index officials_facebook_uidx on officials(facebook_id);
 create unique index officials_open_states_leg_uidx on officials(open_states_leg_id);
-	
+
 			
 create table terms (
 	id				serial primary key,
@@ -270,7 +270,6 @@ create table users (
 	address1				varchar(128),
 	address2				varchar(128),
 	city					varchar(32),
-	state					varchar(2) references states(abbreviation),
 	zip						varchar(10),
 	rep_state_id					integer references states,
 	rep_congressional_district_no	integer,
@@ -318,13 +317,13 @@ create index authentications_user_id_idx on authentications(user_id);
 
 
 create table issues (
-	id				serial primary key,
-	title			varchar(64) not null,
-	comment			text,
-	poller_type		text not null,
-	poller_id		integer not null,
-	created_at		timestamp not null default now(),
-	updated_at		timestamp not null default now()
+	id					serial primary key,
+	title				varchar(64) not null,
+	comment				text,
+	poller_type			text not null,
+	poller_id			integer not null,
+	created_at			timestamp not null default now(),
+	updated_at			timestamp not null default now()
 );
 
 create unique index issues_uidx on issues(poller_type, poller_id, title);

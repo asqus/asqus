@@ -1,9 +1,9 @@
 module DisqusAPI
 
   BASE_URL = 'https://disqus.com/api/3.0'
-  API_SECRET = PRIVATE_CONFIG['disqus_api_secret'] 
-  ACCESS_TOKEN = PRIVATE_CONFIG['disqus_access_token']
-  ISSUES_FORUM = PRIVATE_CONFIG['disqus_issues_forum']
+  API_SECRET = PRIVATE_CONFIG['disqus']['api_secret'] 
+  ACCESS_TOKEN = PRIVATE_CONFIG['disqus']['access_token']
+  ISSUES_FORUM = PRIVATE_CONFIG['disqus']['issues_forum']
   SOCKET_ERROR = 'SocketError'
 
  
