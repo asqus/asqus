@@ -223,9 +223,9 @@ Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jo
 <p>
 <div id="disqus_thread"></div>
     <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'asqus'; // required: replace example with your forum shortname
-
+        var disqus_shortname = 'asqus'; 
+        var disqus_identifier = '<%= @quick_poll.issue.id %>';
+        var disqus_title = '<%= @quick_poll.issue.title %>';
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
