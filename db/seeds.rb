@@ -298,8 +298,8 @@ admin_office = Office.where( :office_type_id => 'US_REP', :state_id => michigan.
 puts 'CREATING ISSUES'
 
 Issue.create([
-  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal to build a bridge to Canada blah blah blah...' },
-  { :title => "Fiscal Cliff", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'Scary fiscal cliff is scary blah blah blah...' }
+  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The bridge from Detroit to Canada is a significant investment that must be considere carefully.' },
+  { :title => "Parking Lot Skating Rink", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal involves installing and maintaining a public skating rink on top of the underground parking lot adjacent to the Library.' }
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL TYPES'
@@ -309,7 +309,7 @@ ActiveRecord::Base.connection.execute(
 )  
 ActiveRecord::Base.connection.execute(
   "insert into quick_poll_types( id, name) values ('PRIVATE','Private')"
-)  
+)
 ActiveRecord::Base.connection.execute(
   "insert into quick_poll_types( id, name) values ('ANONYMOUS','Anonymous')"
 )  
@@ -318,9 +318,9 @@ ActiveRecord::Base.connection.execute(
 puts 'CREATING QUICK POLLS'
 
 QuickPoll.create([
-  { :issue_id => 1, :quick_poll_type_id => 'PUBLIC', :title => "Should the bridge to Canada be built?", :body => "Should $3.7 gazillion dollars be spent on a bridge to Canada?",
+  { :issue_id => 1, :quick_poll_type_id => 'PUBLIC', :title => "Detroit to Canada Bridge", :body => "Do you agree with the proposed bridge from Detroit to Canada?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'PIE_CHART' },
-  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Taxes and the Deficit", :body => "How much do you agree or disagree with the following: It is more important to cut the budget deficit than to keep taxes from rising.",
+  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Public Skating Rink", :body => "Should Ann Arbor have a skating rink on top of the Downtown Public Library Lot?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'BAR_CHART' }
 ], :without_protection => true )
 

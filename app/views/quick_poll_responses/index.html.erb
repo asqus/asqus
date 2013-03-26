@@ -196,7 +196,7 @@ window.console = window.console || (function(){
 
 <h5><%= image_tag 'asqus-16px-height.png' %>&nbsp;Issue: <%= @quick_poll.issue.title %></h5>
 
-<p><%= @quick_poll.issue.comment %> </p>
+<p><%= @quick_poll.body %> </p>
 
 <hr/>
 
@@ -204,7 +204,7 @@ window.console = window.console || (function(){
 <hr/>
 <div class="row">
 <div id="pollBody" class="span8">
-<%= @quick_poll.body %>
+<%= @quick_poll.issue.comment %>
 </div> <!-- pollBody -->
 <div id="pollSponsor" class="span4">
 <% if @jot %>
