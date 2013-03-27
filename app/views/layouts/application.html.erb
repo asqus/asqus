@@ -15,14 +15,22 @@
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
+    <link href="http://xacte.com/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="http://xacte.com/fontawesome/css/font-awesome.css" rel="stylesheet"/>
+    <!-- style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style -->
+    <link href="http://xacte.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"/>
   </head>
   <body>
     <header class="navbar navbar-fixed-top">
-      <nav class="navbar-inner">
+      <div class="navbar-inner">
         <div class="container">
           <%= render 'layouts/navigation' %>
         </div>
-      </nav>
+      </div>
     </header>
     <div id="main" role="main">
       <div class="container">
@@ -33,10 +41,27 @@
               <%= yield %>
             </div>
           </div>
-          <footer>
-          </footer>
+          <!-- footer>
+          </footer -->
         </div>
       </div> <!--! end of .container -->
     </div> <!--! end of #main -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://xacte.com/jss/jquery.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-transition.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-alert.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-modal.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-dropdown.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-scrollspy.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-tab.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-tooltip.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-popover.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-button.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-collapse.js"></script>
+    <script src="http://xacte.com/jss/bootstrap-carousel.js"></script>
+
   </body>
 </html>

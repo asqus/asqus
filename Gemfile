@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "bcrypt-ruby", :require => "bcrypt"
-gem "bootstrap-will_paginate", "0.0.6"
+#gem "bootstrap-will_paginate", "0.0.6"
 gem "composite_primary_keys", "~>5.0.12"
 gem "devise", ">= 2.1.2"
 gem "govkit"
@@ -30,7 +30,7 @@ group :assets do
   gem "less-rails", ">= 2.2.6"
   gem 'sass-rails',   '~> 3.2.3'
   gem "therubyracer", ">= 0.10.2", :platform => :ruby
-  gem "twitter-bootstrap-rails", "2.2.6"
+  #gem "twitter-bootstrap-rails", "2.2.6"
   gem 'uglifier', '>= 1.0.3'
 end
 
