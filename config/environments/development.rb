@@ -34,4 +34,7 @@ Asqus::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # compile the bootstrap.css.scss file
+  # config.assets.precompile += %w( bootstrap.css )
 end
