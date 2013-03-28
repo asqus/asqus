@@ -10,11 +10,14 @@
   <p>
 
   <div class="form-actions">
-  <div class="btn-group btn-group-vertical">
+  <!-- div class="btn-group btn-group-vertical" -->
+  <div class="span8">
     <% @quick_poll.quick_poll_options.each do |option| %>
-      <input type=submit class="btn btn-info" value='<%= option.text %>' name = <%= option.value %> style="width: <%= @quick_poll_options_width_px %>px;">
+      <input type=submit class="btn btn-primary" value='<%= option.text %>' name = <%= option.value %> style="width: <%= @quick_poll_options_width_px %>px; margin-top:2px; margin-bottom:2px;">
+      <br />
     <% end %>
- </div>
+  </div> <!-- span8 -->
+  <!-- /div -->
  </div>
 
 <% end %>
