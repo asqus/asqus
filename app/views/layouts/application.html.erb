@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,12 +16,12 @@
     <style type="text/css">
 <% if mobile_site? %>
     <% else %>
-#main {
-  margin-left:20px;
-}
-body {
-  padding-top:40px;
-}
+//#main {
+//  margin-left:20px;
+//}
+//body {
+//  padding-top:40px;
+//}
 <% end %>
     </style>
     <%= javascript_include_tag "application" %>
@@ -37,6 +37,15 @@ body {
     <!-- link href="http://xacte.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"/ -->
   </head>
   <body >
+<script type="text/javascript">
+$(function () {
+//Ensures there will be no 'console is undefined' errors
+window.console = window.console || (function(){
+    var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+    return c;
+})();
+</script>
+
     <header class="navbar navbar-fixed-top">
       <div class="navbar-inner" >
         <div class="container">
@@ -46,8 +55,20 @@ body {
     </header>
     <div id="main" role="main">
       <div class="container">
-        <div class="content">
+        <div id="primary-content" class="content"  style="padding: 20px;">
+           <!-- div class="row phone-hidden">
+              &nbsp;
+           </div>
+           <div class="row phone-hidden">
+              &nbsp;
+           </div>
+           <div class="row phone-hidden">
+              &nbsp;
+           </div>
            <div class="row">
+            <div class="span1 phone-hidden">
+              &nbsp;
+            </div -->
             <div class="span12">
               <%= render 'layouts/messages' %>
               <%= yield %>
@@ -74,6 +95,19 @@ body {
     <script src="http://xacte.com/jss/bootstrap-button.js"></script>
     <script src="http://xacte.com/jss/bootstrap-collapse.js"></script>
     <script src="http://xacte.com/jss/bootstrap-carousel.js"></script -->
+
+<script type="text/javascript">
+$(document).ready(function() {
+  w = $(window).width();
+
+  console.log("browser.width="+w);
+
+  if ( w > 970 ) {
+    $('#primary-content').css('padding','40px');
+  }
+
+});      
+</script>
 
   </body>
 </html>
