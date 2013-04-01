@@ -4,46 +4,51 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+
+
+ActiveRecord::Base.transaction do
+
+
+puts 'CREATING SITE ROLES'
+
+site_role_user = SiteRole.create( {:name => 'User'}, :without_protection => true )
+site_role_admin = SiteRole.create( {:name => 'Admin'}, :without_protection => true )
+
+puts 'SITE ROLE: ' + site_role_admin.id.to_s
+
+
 puts 'CREATING POLL WORKFLOW STATES'
-PollWorkflowState.create([
-  { :name => 'Start' },
-  { :name => 'Published' },
-  { :name => 'Closed' }
-], :without_protection => true)
+poll_workflow_state_start = PollWorkflowState.create( {:name => 'Start'}, :without_protection => true )
+poll_workflow_state_published = PollWorkflowState.create( {:name => 'Published'}, :without_protection => true )
+poll_workflow_state_closed = PollWorkflowState.create( {:name => 'Closed'}, :without_protection => true )
+
+
+puts 'CREATING POLITY TYPES'
+
+polity_type_nation = PolityType.create( { :name => 'Nation'}, :without_protection => true )
+polity_type_state = PolityType.create( { :name => 'State'}, :without_protection => true )
+polity_type_senate_seat = PolityType.create( { :name => 'SenateSeat'}, :without_protection => true )
+polity_type_congressional_district = PolityType.create( { :name => 'CongressionalDistrict'}, :without_protection => true )
+polity_type_state_senate_district = PolityType.create( { :name => 'StateSenateDistrict'}, :without_protection => true )
+polity_type_state_house_district = PolityType.create( { :name => 'StateHouseDistrict'}, :without_protection => true )
+polity_type_county = PolityType.create( { :name => 'County'}, :without_protection => true )
+polity_type_municipality = PolityType.create( { :name => 'Municipality'}, :without_protection => true )
+polity_type_ward = PolityType.create( { :name => 'Ward'}, :without_protection => true )
+
+
 
 puts 'CREATING OFFICE TYPES'
 
-
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('POTUS','President','Nation','President','President')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('VPOTUS','Vice President','Nation','Vice President','V.P.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_SENATOR','U.S. Senator','SenateSeat','Senator','Sen.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_REP','U.S. Representative','CongressionalDistrict','Representative','Rep.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('GOVERNOR','Governor','State','Governor','Gov.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('LT_GOVERNOR','Lieutenant Governor','State','Lieutenant Governor','Lt. Gov.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_SENATOR','State Senator','StateSenateDistrict','Senator','Sen.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('STATE_REP','State Representative','StateHouseDistrict','Representative','Rep.')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('MAYOR','Mayor','Municipality','Mayor','Mayor')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into office_types( id, name, polity_type, title, abbreviated_title) values ('US_HOUSE_DELEGATE','U.S. House Delegate','CongressionalDistrict','Delegate','Del.')"
-)
+office_type_POTUS = OfficeType.create( { :ukey => 'POTUS', :name => 'President', :polity_type => polity_type_nation, :title => 'President', :abbreviated_title => 'President'}, :without_protection => true )
+office_type_VPOTUS = OfficeType.create( { :ukey => 'VPOTUS', :name => 'Vice President', :polity_type => polity_type_nation, :title => 'Vice President', :abbreviated_title => 'V.P.'}, :without_protection => true )
+office_type_US_SENATOR = OfficeType.create( { :ukey => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => polity_type_senate_seat, :title => 'Senator', :abbreviated_title => 'Sen.'}, :without_protection => true )
+office_type_US_REP = OfficeType.create( { :ukey => 'US_REP', :name => 'U.S. Representative', :polity_type => polity_type_congressional_district, :title => 'Representative', :abbreviated_title => 'Rep.'}, :without_protection => true )
+office_type_GOVERNOR = OfficeType.create( { :ukey => 'GOVERNOR', :name => 'Governor', :polity_type => polity_type_state, :title => 'Governor', :abbreviated_title => 'Gov.'}, :without_protection => true )
+office_type_LT_GOVERNOR = OfficeType.create( { :ukey => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => polity_type_state, :title => 'Lieutenant Governor', :abbreviated_title => 'Lt. Gov.'}, :without_protection => true )
+office_type_STATE_SENATOR = OfficeType.create( { :ukey => 'STATE_SENATOR', :name => 'State Senator', :polity_type => polity_type_state_senate_district, :title => 'Senator', :abbreviated_title => 'Sen.'}, :without_protection => true )
+office_type_STATE_REP = OfficeType.create( { :ukey => 'STATE_REP', :name => 'State Representative', :polity_type => polity_type_state_house_district , :title => 'Representative', :abbreviated_title => 'Rep.'}, :without_protection => true )
+office_type_MAYOR = OfficeType.create( { :ukey => 'MAYOR', :name => 'Mayor', :polity_type => polity_type_municipality, :title => 'Mayor', :abbreviated_title => 'Mayor'}, :without_protection => true )
+office_type_US_HOUSE_DELEGATE = OfficeType.create( { :ukey => 'US_HOUSE_DELEGATE', :name => 'House Delegate', :polity_type => polity_type_congressional_district, :title => 'Delegate', :abbreviated_title => 'Del'}, :without_protection => true )
 
 
 puts 'CREATING STATES'
@@ -132,9 +137,9 @@ house_districts.each_pair do |st, num_districts|
     district = CongressionalDistrict.create(
       { :state => state, :district => district_number }, :without_protection => true
     )
-    office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
+    office_type = state.is_state ? office_type_US_REP : office_type_US_HOUSE_DELEGATE
     Office.create( 
-      { :office_type_id => office_type_id, :state_id => state.id, :congressional_district_no => district_number },
+      { :office_type => office_type, :state_id => state.id, :congressional_district_no => district_number },
       :without_protection => true
     )    
   end
@@ -157,445 +162,156 @@ senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
     office = Office.create(
-      { :office_type_id => 'US_SENATOR', :state_id => state.id, :us_senate_class => class_num },
-      :without_protection => true
+      { :office_type => office_type_US_SENATOR, :state_id => state.id, :us_senate_class => class_num },
+        :without_protection => true
     )
   end
 end  
 
 puts 'CREATING TERMS'
 Term.create([
-  { :name => "U.S. House of Representatives 2013-15", :office_type_id => 'US_REP', :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type_id => 'US_SENATOR', :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type_id => 'US_SENATOR', :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
-  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type_id => 'US_SENATOR', :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
-  { :name => "Governor 2011-2015", :office_type_id => 'GOVERNOR', :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true },
-  { :name => "State legislature 2013-2015", :office_type_id => "STATE_REP", :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true },
-  { :name => "State legislature 2013-2015", :office_type_id => "STATE_SENATOR", :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true }
+  { :name => "U.S. House of Representatives 2013-15", :office_type => office_type_US_REP, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type => office_type_US_SENATOR, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type => office_type_US_SENATOR, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
+  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type => office_type_US_SENATOR, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
+  { :name => "Governor 2011-2015", :office_type => office_type_GOVERNOR, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true },
+  { :name => "State legislature 2013-2015", :office_type =>  office_type_STATE_REP, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true },
+  { :name => "State legislature 2013-2015", :office_type =>  office_type_STATE_SENATOR, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true }
 ], :without_protection => true)
-
-
-puts 'PROCESSING HOUSE MEMBER SUNLIGHT DATA'
-
-imps = ImportedSunlightHouseMember.find(:all)
-imps.each do |imp|
-  state = State.find_by_abbreviation(imp.state)
-  party = Party.find_by_abbreviation(imp.party)
-  office_type_id = state.is_state ? 'US_REP' : 'US_HOUSE_DELEGATE'
-  office = Office.where( :office_type_id => office_type_id, :state_id => state.id, :congressional_district_no => imp.district).first
-  official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
-                              :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
-                              :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
-                              :phone => imp.phone, :fax => imp.fax, :website => imp.website, :webform => imp.webform,
-                              :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
-                              :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
-                              :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss, :photo_extension => 'jpg' }, :without_protection => true
-                            )                             
-  OfficialTerm.create( {:official_id => official.id, :term_id => 1, :office_id => office.id}, :without_protection => true )
-end
-
-
-puts 'PROCESSING US SENATOR SUNLIGHT DATA'
-
-imps = ImportedSunlightSenator.find(:all)
-imps.each do |imp|
-  state = State.find_by_abbreviation(imp.state)
-  party = Party.find_by_abbreviation(imp.party)
-  office = Office.where( :office_type_id => 'US_SENATOR', :state_id => state.id, :us_senate_class => imp.senate_class).first
-  official = Official.create({:first_name => imp.first_name, :middle_name => imp.middle_name, :last_name => imp.last_name,
-                              :nickname => imp.nickname, :name_suffix => imp.name_suffix, :birth_date => imp.birth_date,
-                              :gender => imp.gender, :party_id => party.id, :congress_office => imp.congress_office,
-                              :phone => imp.phone, :fax => imp.fax, :website => imp.website, :webform => imp.webform,
-                              :twitter_id => imp.twitter_id, :congresspedia_url => imp.congresspedia_url,
-                              :youtube_url => imp.youtube_url, :facebook_id => imp.facebook_id, :fax => imp.fax,
-                              :votesmart_id => imp.votesmart_id, :govtrack_id => imp.govtrack_id, :bioguide_id => imp.bioguide_id,
-                              :rss => imp.official_rss, :photo_extension => 'jpg' }, :without_protection => true)
-  if (official)                                                    
-    OfficialTerm.create( {:official_id => official.id, :term_id => 2, :office_id => office.id}, :without_protection => true )
-  else
-    puts 'ERROR CREATING OFFICIAL ' + imp.first_name + ' ' + imp.last_name
-  end
-end
-
-
-
-puts 'PROCESSING OPEN STATES LEGISLATOR DATA'
-
-imps = ImportedOpenStatesLegislator.find(:all)
-imps.each do |imp|
-  state = State.find_by_abbreviation(imp.state.upcase) 
-  party = Party.find_by_name(imp.party)
-  official = Official.create( { first_name: imp.first_name, last_name: imp.last_name, middle_name: imp.middle_name,
-                                name_suffix: imp.suffixes, nickname: imp.nickname, party: party,
-                                transparencydata_id: imp.transparencydata_id, external_photo_url: imp.photo_url,
-                                source_created_at: imp.source_created_at, source_updated_at: imp.source_updated_at,
-                                open_states_leg_id: imp.leg_id }, :without_protection => true )
-  if (imp.active)  
-    term = Term.find(7)
-    office = nil
-    if (imp.chamber == 'upper')
-      district = StateSenateDistrict.where( state_id: state.id, district: imp.district).first
-      if(!district)
-        district = StateSenateDistrict.create( { state_id: state.id, district: imp.district }, :without_protection => true )
-      end
-      discriminator = Office.where( state_id: state.id, office_type_id: 'STATE_SENATOR', state_senate_district_key: imp.district ).size.to_s    
-      office = Office.create({ state_id: state.id, office_type_id: 'STATE_SENATOR',  state_senate_district_key: imp.district, discriminator: discriminator }, :without_protection => true )
-    else
-      district = StateHouseDistrict.where( state_id: state.id, district: imp.district).first
-      if(!district)
-        district = StateHouseDistrict.create( { state_id: state.id, district: imp.district }, :without_protection => true )
-      end      
-      discriminator = Office.where( state_id: state.id, office_type_id: 'STATE_REP', state_house_district_key: imp.district ).size.to_s    
-      office = Office.create({ state_id: state.id, office_type_id: 'STATE_REP', state_house_district_key: imp.district, discriminator: discriminator }, :without_protection => true )
-    end
-     OfficialTerm.create( {official: official, office: office, term: term }, :without_protection => true)
-  end
-
-end
-
 
 
 puts 'SETTING UP USERS'
 
-user1 = User.create({ :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>14, :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3', :site_role => SiteRole::ADMIN}, :without_protection => true )
+user1 = User.create({ :first_name => 'Joe', :last_name => 'Admin', :email => 'joe@admin.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_admin }, :without_protection => true )
 puts 'New user created: ' << user1.name
 
-official = Official.find(1000)
-user2 = User.create({ :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 13,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3', :staff_official => official }, :without_protection => true )
+user2 = User.create({ :first_name => 'Jane', :last_name => 'Staff', :email => 'jane@staff.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user2.name
 
-user3 = User.create({ :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>12,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3' }, :without_protection => true )
+user3 = User.create({ :first_name => 'Bob', :last_name => 'User', :email => 'bob@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user3.name
 
-user4 = User.create({ :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 11,  :rep_state_senate_district_key => '2', :rep_state_house_district_key => '3' }, :without_protection => true )
+user4 = User.create({ :first_name => 'Cindy', :last_name => 'User', :email => 'cindy@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user4.name
 
-user5 = User.create({ :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 10 }, :without_protection => true )
+user5 = User.create({ :first_name => 'Jane' , :last_name => 'User', :email => 'jane@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user5.name
 
-user6 = User.create({ :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 9 }, :without_protection => true )
+user6 = User.create({ :first_name => 'Frank', :last_name => 'User', :email => 'frank@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user6.name
 
-user7 = User.create({ :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 8 }, :without_protection => true )
+user7 = User.create({ :first_name => 'Michael', :last_name => 'User', :email => 'michael@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user7.name
 
-user8 = User.create({ :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 7 }, :without_protection => true )
+user8 = User.create({ :first_name => 'Jill', :last_name => 'User', :email => 'jill@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user8.name
 
-user9 = User.create({ :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no =>6 }, :without_protection => true )
+user9 = User.create({ :first_name => 'Fred', :last_name => 'User', :email => 'fred@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user9.name
 
-user10 = User.create({ :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :rep_congressional_district_no => 5 }, :without_protection => true )
+user10 = User.create({ :first_name => 'Alice', :last_name => 'User', :email => 'alice@user.com', :password => 'please', :password_confirmation => 'please', :rep_state_id => 26, :site_role => site_role_user }, :without_protection => true )
 puts 'New user created: ' << user10.name
 
 
 michigan = State.find_by_abbreviation('MI')
-admin_office = Office.where( :office_type_id => 'US_REP', :state_id => michigan.id ).first
+admin_office = Office.where( :office_type_id => office_type_US_REP.id, :state_id => michigan.id ).first
  
-
 
 puts 'CREATING ISSUES'
 
-Issue.create([
-  { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The bridge from Detroit to Canada is a significant investment that must be considere carefully.' },
-  { :title => "Parking Lot Skating Rink", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal involves installing and maintaining a public skating rink on top of the underground parking lot adjacent to the Library.' }
-], :without_protection => true )
+issue1 = Issue.create( { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The bridge from Detroit to Canada is a significant investment that must be considere carefully.' }, :without_protection => true )
+issue2 = Issue.create( { :title => "Parking Lot Skating Rink", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal involves installing and maintaining a public skating rink on top of the underground parking lot adjacent to the Library' }, :without_protection => true )
+  
+graph_type_pie = GraphType.create({:name => 'Pie Chart'}, :without_protection => true )
+graph_type_bar = GraphType.create({:name => 'Bar'}, :without_protection => true )
+
 
 puts 'CREATING QUICK POLL TYPES'
 
-ActiveRecord::Base.connection.execute(
-  "insert into quick_poll_types( id, name) values ('PUBLIC','Public')"
-)  
-ActiveRecord::Base.connection.execute(
-  "insert into quick_poll_types( id, name) values ('PRIVATE','Private')"
-)
-ActiveRecord::Base.connection.execute(
-  "insert into quick_poll_types( id, name) values ('ANONYMOUS','Anonymous')"
-)  
 
+quick_poll_type_public = QuickPollType.create( { :name => 'Public'}, :without_protection => true )
+quick_poll_type_private = QuickPollType.create( { :name => 'Private'}, :without_protection => true )
+quick_poll_type_anonymous = QuickPollType.create( { :name => 'Anonymous'}, :without_protection => true )
 
 puts 'CREATING QUICK POLLS'
 
-QuickPoll.create([
-  { :issue_id => 1, :quick_poll_type_id => 'PUBLIC', :title => "Detroit to Canada Bridge", :body => "Do you agree with the proposed bridge from Detroit to Canada?",
-    :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'PIE_CHART' },
-  { :issue_id => 2, :quick_poll_type_id => 'PUBLIC', :title => "Public Skating Rink", :body => "Should Ann Arbor have a skating rink on top of the Downtown Public Library Lot?",
-    :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state_id => 2, :graph_type_id => 'BAR_CHART' }
-], :without_protection => true )
+
+poll1 = QuickPoll.create(
+  { :issue => issue1, :quick_poll_type => quick_poll_type_public, :title => "Detroit to Canada Bridge", :body => "Do you agree with the proposed bridge from Detroit to Canada?",
+    :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state => poll_workflow_state_published , :graph_type => graph_type_pie }, :without_protection => true )
+
+
+poll2 = QuickPoll.create(
+  { :issue => issue2, :quick_poll_type => quick_poll_type_public, :title => "Public Skating Rink", :body => "Should Ann Arbor have a skating rink on top of the Downtown Public Library Lot?",
+    :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state => poll_workflow_state_published, :graph_type => graph_type_pie }, :without_protection => true )
+
+
+puts 'CREATING QUICK POLL OPTIONS'
 
 QuickPollOption.create([
-  { :quick_poll_id => 1, :text => "Yes", :value => 1 },
-  { :quick_poll_id => 1, :text => "No", :value => 2 },
-  { :quick_poll_id => 2, :text => "Agree Strongly", :value => 1 },
-  { :quick_poll_id => 2, :text => "Agree Somewhat", :value => 2 },
-  { :quick_poll_id => 2, :text => "Neutral/Undecided", :value => 3 },
-  { :quick_poll_id => 2, :text => "Disagree Somewhat", :value => 4 },
-  { :quick_poll_id => 2, :text => "Disagree Strongly", :value => 5 }  
+  { :quick_poll => poll1, :text => "Yes", :value => 1 },
+  { :quick_poll => poll1, :text => "No", :value => 2 },
+  { :quick_poll => poll2, :text => "Agree Strongly", :value => 1 },
+  { :quick_poll => poll2, :text => "Agree Somewhat", :value => 2 },
+  { :quick_poll => poll2, :text => "Neutral/Undecided", :value => 3 },
+  { :quick_poll => poll2, :text => "Disagree Somewhat", :value => 4 },
+  { :quick_poll => poll2, :text => "Disagree Strongly", :value => 5 }  
 ], :without_protection => true )
 
 puts 'CREATING STANDARD POLL OPTIONS'
-StandardPollOptionSet.create([
-  { :name => "Yes or No" },
-  { :name => "Degrees of Agreement" }
-], :without_protection => true )
+std_poll_option_set_yn = StandardPollOptionSet.create({ :name => "Yes or No" }, :without_protection => true)
+std_poll_option_set_degrees = StandardPollOptionSet.create({ :name => "Degrees of Agreement" }, :without_protection => true)
 
 StandardPollOption.create([
-  { :standard_poll_option_set_id => 1, :text => 'Yes', :value => 1 },
-  { :standard_poll_option_set_id => 1, :text => 'No', :value => 2 },
-  { :standard_poll_option_set_id => 2, :text => 'Agree Strongly', :value => 1 },
-  { :standard_poll_option_set_id => 2, :text => 'Agree Somewhat', :value => 2 },
-  { :standard_poll_option_set_id => 2, :text => 'Neutral/Undecided', :value => 3 },
-  { :standard_poll_option_set_id => 2, :text => 'Disagree Somewhat', :value => 4 },
-  { :standard_poll_option_set_id => 2, :text => 'Disagree Strongly', :value => 5 },
+  { :standard_poll_option_set => std_poll_option_set_yn, :text => 'Yes', :value => 1 },
+  { :standard_poll_option_set => std_poll_option_set_yn, :text => 'No', :value => 2 },
+  { :standard_poll_option_set => std_poll_option_set_degrees, :text => 'Agree Strongly', :value => 1 },
+  { :standard_poll_option_set => std_poll_option_set_degrees, :text => 'Agree Somewhat', :value => 2 },
+  { :standard_poll_option_set => std_poll_option_set_degrees, :text => 'Neutral/Undecided', :value => 3 },
+  { :standard_poll_option_set => std_poll_option_set_degrees, :text => 'Disagree Somewhat', :value => 4 },
+  { :standard_poll_option_set => std_poll_option_set_degrees, :text => 'Disagree Strongly', :value => 5 },
 ], :without_protection => true )
 
 puts 'CREATING QUICK POLL RESPONSES'
 
 QuickPollResponse.create([
-  { :quick_poll_id => 1, :user_id => 1, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 2, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 3, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 4, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 5, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 6, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 7, :value => 1 },
-  { :quick_poll_id => 1, :user_id => 8, :value => 2 }, 
-  { :quick_poll_id => 1, :user_id => 9, :value => 2 }, 
-  { :quick_poll_id => 1, :user_id => 10,:value => 2 }, 
-  { :quick_poll_id => 2, :user_id => 1, :value => 1 },
-  { :quick_poll_id => 2, :user_id => 2, :value => 2 },
-  { :quick_poll_id => 2, :user_id => 3, :value => 3 },
-  { :quick_poll_id => 2, :user_id => 4, :value => 4 },
-  { :quick_poll_id => 2, :user_id => 5, :value => 5 },
-  { :quick_poll_id => 2, :user_id => 6, :value => 2 },
-  { :quick_poll_id => 2, :user_id => 7, :value => 3 },
-  { :quick_poll_id => 2, :user_id => 8, :value => 2 }, 
-  { :quick_poll_id => 2, :user_id => 9, :value => 3 }, 
-  { :quick_poll_id => 2, :user_id => 10, :value => 5 }
-])
+  { :quick_poll => poll1, :user => user1, :value => 1 },
+  { :quick_poll => poll1, :user => user2, :value => 1 },
+  { :quick_poll => poll1, :user => user3, :value => 1 },
+  { :quick_poll => poll1, :user => user4, :value => 1 },
+  { :quick_poll => poll1, :user => user5, :value => 1 },
+  { :quick_poll => poll1, :user => user6, :value => 1 },
+  { :quick_poll => poll1, :user => user7, :value => 1 },
+  { :quick_poll => poll1, :user => user8, :value => 2 }, 
+  { :quick_poll => poll1, :user => user9, :value => 2 }, 
+  { :quick_poll => poll1, :user => user10,:value => 2 }, 
+  { :quick_poll => poll2, :user => user1, :value => 1 },
+  { :quick_poll => poll2, :user => user2, :value => 2 },
+  { :quick_poll => poll2, :user => user3, :value => 3 },
+  { :quick_poll => poll2, :user => user4, :value => 4 },
+  { :quick_poll => poll2, :user => user5, :value => 5 },
+  { :quick_poll => poll2, :user => user6, :value => 2 },
+  { :quick_poll => poll2, :user => user7, :value => 3 },
+  { :quick_poll => poll2, :user => user8, :value => 2 }, 
+  { :quick_poll => poll2, :user => user9, :value => 3 }, 
+  { :quick_poll => poll2, :user => user10, :value => 5 }
+], :without_protection => true)
+
+puts 'CREATING PARTIES'
+
+Party.create( { :id => 0, :name => 'Independent', :member_noun => 'Independent', :abbreviation => 'I'}, :without_protection => true )
+Party.create( { :id => 1, :name => 'Democratic', :member_noun => 'Democrat', :abbreviation => 'D'}, :without_protection => true )
+Party.create( { :id => 2, :name => 'Republican', :member_noun => 'Republican',:abbreviation => 'R'}, :without_protection => true )
+Party.create( { :id => 3, :name => 'Green', :member_noun => 'Green', :abbreviation => 'G'}, :without_protection => true )
+Party.create( { :id => 4, :name => 'Progressive', :member_noun => 'Progressive',:abbreviation => 'P'}, :without_protection => true )
+Party.create( { :id => 5, :name => 'Democratic-Farmer-Labor', :member_noun => 'Democratic-Farmer-Labor', :abbreviation => 'DFL'}, :without_protection => true )
+Party.create( { :id => 6, :name => 'Partido Nuevo Progresista', :member_noun => 'Partido Nuevo Progresista', :abbreviation => 'PNP'}, :without_protection => true )
+Party.create( { :id => 7, :name => 'Partido Popular Democratico', :member_noun => 'Partido Popular Democratico', :abbreviation => 'PPD'}, :without_protection => true )
 
 
-puts 'CREATING MATERIALIZED VIEWS'
 
-
-ActiveRecord::Base.connection.execute(
-"create table joined_official_terms as
-  select 
-    *,
-    false as dirty
-  from
-    joined_official_terms_view"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_uidx on joined_official_terms(official_term_id)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_office_idx on joined_official_terms(office_id)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_official_idx on joined_official_terms(official_id)"
-)
-
-ActiveRecord::Base.connection.execute( 
-"create index joined_official_terms_office_type_idx on joined_official_terms(office_type_id)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_term_idx on joined_official_terms(term_id)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_municipality_idx on joined_official_terms(state_id, municipality_ansi_code)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create index joined_official_terms_county_idx on joined_official_terms(state_id, county_ansi_code)"
-)
-
-ActiveRecord::Base.connection.execute(
-"create view incumbents as select * from joined_official_terms where from_date < now() and to_date > now()"
-)
-
-
-ActiveRecord::Base.connection.execute(
-"create or replace function joined_official_terms_refresh_row( id integer ) 
-returns void 
-security definer 
-language 'plpgsql' as $$ 
-begin 
-  delete from joined_official_terms jot where jot.official_term_id = id; 
-  insert into joined_official_terms select *, false from joined_official_terms_view jot where jot.official_term_id = id; 
-  end 
-$$")
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_official_terms_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  if old.id = new.id then
-    perform joined_official_terms_refresh_row(new.official_term_id);
-  else
-    perform joined_official_terms_refresh_row(old.official_term_id);
-    perform joined_official_terms_refresh_row(new.official_term_id);
-  end if;
-  return null;
 end
-$$")
 
-ActiveRecord::Base.connection.execute("
-create trigger jot_official_terms_update_trigger 
-  after update on official_terms
-    for each row execute procedure jot_official_terms_update_trigger();
-")
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_official_terms_insert_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(new.official_term_id);
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_official_terms_insert_trigger 
-  after insert on official_terms
-    for each row execute procedure jot_official_terms_insert_trigger();
-")
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_official_terms_delete_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(old.official_term_id);
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_official_terms_delete_trigger 
-  after delete on official_terms
-    for each row execute procedure jot_official_terms_delete_trigger();
-")
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_officials_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.official_id = new.id;
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_officials_update_trigger 
-  after update on officials
-    for each row execute procedure jot_officials_update_trigger();
-")
-
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_offices_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.office_id = new.id;
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_offices_update_trigger 
-  after update on offices
-    for each row execute procedure jot_offices_update_trigger();
-")
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_terms_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.term_id= new.id;
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_terms_update_trigger 
-  after update on terms
-    for each row execute procedure jot_terms_update_trigger();
-")
-
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_office_types_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.office_type_id = new.id;
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_office_types_update_trigger 
-  after update on office_types
-    for each row execute procedure jot_office_types_update_trigger();
-")
-
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_municipalities_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.state_id = new.state_id and jot.municipality_ansi_code = new.ansi_code; 
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_municipalities_update_trigger 
-  after update on municipalities
-    for each row execute procedure jot_municipalities_update_trigger();
-")
-
-
-ActiveRecord::Base.connection.execute("
-create or replace function jot_counties_update_trigger()
-returns trigger 
-security definer language 'plpgsql' as $$
-begin
-  perform joined_official_terms_refresh_row(jot.official_term_id)
-    from joined_official_terms jot
-    where jot.state_id = new.state_id and jot.county_ansi_code = new.ansi_code; 
-  return null;
-end
-$$")
-
-ActiveRecord::Base.connection.execute("
-create trigger jot_counties_update_trigger 
-  after update on counties
-    for each row execute procedure jot_counties_update_trigger();
-")
 
 
 
