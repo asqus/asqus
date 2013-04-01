@@ -7,7 +7,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :authentications, :dependent => :delete_all
-  has_many :groups, :through => :user_groups
   belongs_to :site_role
   belongs_to :staff_official, :class_name => :Official
   belongs_to :rep_state, :class_name => 'State', :foreign_key => :rep_state_id

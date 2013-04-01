@@ -17,7 +17,7 @@
     <li>
     <%= link_to current_user.email, edit_user_registration_path %>
     </li>
-    <% if current_user.site_role_id == 'ADMIN' %>
+    <% if current_user.site_role.name == 'Admin' %>
       <li>
       <%= link_to 'Admin', '/admin' %>
       </li>

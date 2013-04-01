@@ -22,7 +22,7 @@ class Admin::StatesController < Admin::BaseController
     @state_senator_offices = []
     @state_rep_offices = []
     @state.offices.each do |o|
-      case o.office_type.id
+      case o.office_type.ukey
         when 'US_SENATOR'
           @us_senator_offices.push(o)
         when 'US_REP'
