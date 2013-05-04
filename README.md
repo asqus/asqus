@@ -29,20 +29,15 @@ You will need to:
   * [Install RubyGems](http://rubyforge.org/projects/rubygems/) 1.8.x or newer, a tool for managing software packages for Ruby.
   * [Install Postgresql](http://www.postgresql.org/), a relational database. Your operating system may already have it installed or offer it as a pre-built package. We recommend installing it NOT from source, but from a package installer. (details below)
   * [Install Bundler](http://gembundler.com/), a Ruby dependency management tool. You should run `gem install bundler` as root or an administrator after installing Ruby and RubyGems.
-  * Checkout the source code. Run `git clone git://github.com/asqus/asqus.git`. (Don't use eclipse because it will forget it checked out the source for you.)
-  * Install Bundler-managed gems, the actual libraries that this application uses, like Ruby on Rails. You should run `bundle`, which may take a long time to complete.
+  * Checkout the source code. Run `git clone git://github.com/asqus/asqus.git`. (Don't use eclipse because it will forget it checked out the source for you.) We put in a directory called 'asqus'.
   
  
 Ruby Project Setup
 -------------------
-# GIT clone the project
-cd asqus
-bundle install    # Install the ruby project deps.
 
-# Create a database.yml file. See below for an example.
-
-sudo bundle install
-sudo bundle update
+ * cd asqus
+ * bundle install    # Install the ruby project deps.
+ * bundle update
  
 Postgresql
 ----------
