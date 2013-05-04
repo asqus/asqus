@@ -45,14 +45,14 @@ Postgresql
  * Create database.yml file in config
  
 development:
-  	adapter: postgresql
-  	database: asqus_dev
-  	pool: 5
-  	timeout: 5000
-  	username: asqme
-  	password: asqussorocks
-  	host: localhost
-  	port: 5432
+    adapter: postgresql
+    database: asqus_dev
+    pool: 5
+    timeout: 5000
+    username: asqme
+    password: asqussorocks
+    host: localhost
+    port: 5432
   	
  * You need to create a database, a user, and grant that user privileges to database.
  * [good instructions](http://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
