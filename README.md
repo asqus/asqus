@@ -36,8 +36,7 @@ Ruby Project Setup
 -------------------
 
  * cd asqus
- * bundle install    # Install the ruby project deps.
- * bundle update
+ * bundle install    
  
 Postgresql
 ----------
@@ -45,7 +44,13 @@ Postgresql
  * Create database.yml file in config (copy the config/database.yml.sample)  	
  * You need to create a database, a user, and grant that user privileges to database.
  * [good instructions](http://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
+
  
+Running the code
+----------------
+
+  * asqus> rails server
+
 License
 -------
 
