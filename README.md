@@ -30,7 +30,14 @@ You will need to:
   * [Install Postgresql](http://www.postgresql.org/), a relational database. Your operating system may already have it installed or offer it as a pre-built package. We recommend installing it NOT from source, but from a package installer. (details below)
   * [Install Bundler](http://gembundler.com/), a Ruby dependency management tool. You should run `gem install bundler` as root or an administrator after installing Ruby and RubyGems.
   * Checkout the source code. Run `git clone git://github.com/asqus/asqus.git`. (Don't use eclipse because it will forget it checked out the source for you.) We put in a directory called 'asqus'.
-  
+ 
+Postgresql
+----------
+
+ * Create database.yml file in config (copy the config/database.yml.sample)   
+ * You need to create a database, a user, and grant that user privileges to database.
+ * [good instructions](http://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
+
  
 Ruby Project Setup
 -------------------
@@ -38,18 +45,17 @@ Ruby Project Setup
  * cd asqus
  * bundle install    
  
-Postgresql
-----------
-
- * Create database.yml file in config (copy the config/database.yml.sample)  	
- * You need to create a database, a user, and grant that user privileges to database.
- * [good instructions](http://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
-
  
 Running the code
 ----------------
 
   * asqus> rails server
+  * 
+
+Linux Notes
+-----------
+
+  * installing ruby, and ruby-dev ( %> sudo apt-get/yum install ruby ruby-dev )
 
 License
 -------
