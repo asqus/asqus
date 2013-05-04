@@ -14,9 +14,9 @@ RUNNING THE CODE
 
 Requirements
 ------------
-Ruby 1.9.3
-rubygems
-postgresql 
+  * Ruby 1.9.3
+  * rubygems
+  * postgresql 
 
 
 Install the Dependencies
