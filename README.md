@@ -44,20 +44,22 @@ Ruby Project Setup
 -------------------
 
  * cd asqus
- * bundle install    
+ * bundle install
+ * bundle update
  
  
 Running the code
 ----------------
 
+  * asqus> rake db:migrate
   * asqus> rails server
-  * 
 
 Linux Notes
 -----------
 
-  * installing ruby, and ruby-dev ( %> sudo apt-get/yum install ruby ruby-dev )
-
+  * installing ruby, and ruby-dev 
+  * %> sudo apt-get/yum install ruby ruby-dev libpq-dev build-essential
+  
 License
 -------
 
