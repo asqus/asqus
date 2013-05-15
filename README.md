@@ -47,12 +47,21 @@ Ruby Project Setup
  * bundle install
  * bundle update
  
- 
-Running the code
-----------------
-
+Creating the asqus database
+---------------------------
+  * asqus> rake db:create
   * asqus> rake db:migrate
-  * asqus> rails server
+  * asqus> rake db:seed
+  * asqus> psql -U (postgres user) -d (database name) --file db/import-officials.sql
+  * asqus> bundle exec rails runner "eval(File.read 'db/import-officials.rb)"
+  * asqus> bundle exec rails runner "eval(File.read 'db/populate-congress-photos.rb')"
+
+  * the importation of officials and their photos may take some time
+
+Obtain a private config file
+----------------------------
+
+  * obtain a /config/private/config.yml file
 
 Linux Notes
 -----------
