@@ -5,7 +5,8 @@ gem "bcrypt-ruby", :require => "bcrypt"
 gem "composite_primary_keys", "~>5.0.12"
 gem "devise", ">= 2.1.2"
 gem "govkit"
-gem "highcharts-rails", "~> 2.3.0"
+#gem "highcharts-rails", "~> 2.3.0"
+gem "highcharts-rails", "~> 3.0.0"
 gem "httparty"
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
 gem 'jquery-rails'
