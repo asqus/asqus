@@ -1,0 +1,48 @@
+development:
+
+  signed_cookie_token: abcdefghijklmnopqrstuvwxyz 
+  sunlight_api_key: abcdefghijklmnopqrstuvwxyz
+  mapquest_api_key: abcdefghijklmnopqrstuvwxyz
+
+  facebook:
+    oauth_key: abcdefghijklmnopqrstuvwxyz
+    oauth_secret: abcdefghijklmnopqrstuvwxyz
+
+  disqus:
+    api_key: abcdefghijklmnopqrstuvwxyz
+    api_secret: abcdefghijklmnopqrstuvwxyz
+    access_token: abcdefghijklmnopqrstuvwxyz
+    issues_forum: abcdefghijklmnopqrstuvwxyz
+      
+test:
+    
+    signed_cookie_token: abcdefghijklmnopqrstuvwxyz
+    sunlight_api_key: abcdefghijklmnopqrstuvwxyz
+    mapquest_api_key: abcdefghijklmnopqrstuvwxyz
+
+    facebook:
+      oauth_key: abcdefghijklmnopqrstuvwxyz
+      oauth_secret: abcdefghijklmnopqrstuvwxyz
+
+    disqus:
+      api_key: abcdefghijklmnopqrstuvwxyz
+      api_secret: abcdefghijklmnopqrstuvwxyz
+      access_token: abcdefghijklmnopqrstuvwxyz
+      issues_forum: abcdefghijklmnopqrstuvwxyz
+
+production:
+    
+    signed_cookie_token: abcdefghijklmnopqrstuvwxyz
+    sunlight_api_key: abcdefghijklmnopqrstuvwxyz
+    mapquest_api_key: abcdefghijklmnopqrstuvwxyz
+
+    facebook:
+      oauth_key: abcdefghijklmnopqrstuvwxyz
+      oauth_secret: abcdefghijklmnopqrstuvwxyz
+
+    disqus:
+      api_key: abcdefghijklmnopqrstuvwxyz
+      api_secret: abcdefghijklmnopqrstuvwxyz
+      access_token: abcdefghijklmnopqrstuvwxyz
+      issues_forum: abcdefghijklmnopqrstuvwxyz
+

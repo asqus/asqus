@@ -44,20 +44,32 @@ Ruby Project Setup
 -------------------
 
  * cd asqus
- * bundle install    
+ * bundle install
+ * bundle update
  
- 
-Running the code
-----------------
+Creating the asqus database
+---------------------------
+  * asqus> rake db:create
+  * asqus> rake db:migrate
+  * asqus> rake db:seed
+  * cd db
+  * asqus/db> ./import-officials (first edit this file with the correct database name & user)
+                                 (warning: can take 10 minutes or so to run)
+  * asqus/db> bundle exec rails runner "eval(File.read 'db/populate-congress-photos.rb')"
 
-  * asqus> rails server
-  * 
+
+
+Obtain a private config file
+----------------------------
+
+  * obtain a /config/private/config.yml file
 
 Linux Notes
 -----------
 
-  * installing ruby, and ruby-dev ( %> sudo apt-get/yum install ruby ruby-dev )
-
+  * installing ruby, and ruby-dev 
+  * %> sudo apt-get/yum install ruby ruby-dev libpq-dev build-essential
+  
 License
 -------
 
