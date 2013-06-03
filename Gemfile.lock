@@ -38,6 +38,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    cocaine (0.4.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -72,7 +73,8 @@ GEM
       json (>= 1.4.3)
       nokogiri (~> 1.5.5)
     hashie (2.0.5)
-    highcharts-rails (2.3.5)
+    highcharts-rails (3.0.1.5)
+      cocaine (~> 0.4.0)
       railties (>= 3.1)
     hike (1.2.2)
     httparty (0.11.0)
@@ -204,7 +206,7 @@ DEPENDENCIES
   devise (>= 2.1.2)
   email_spec (>= 1.4.0)
   govkit
-  highcharts-rails (~> 2.3.0)
+  highcharts-rails (~> 3.0.0)
   httparty
   hub (>= 1.10.2)
   jquery-rails
