@@ -5,7 +5,7 @@ class SiteRole < ActiveRecord::Base
     return self.id
   end
 
-  USER = SiteRole.find_by_name('USER')
-  ADMIN = SiteRole.find_by_name('ADMIN')
+  USER = SiteRole.find_by_name('User')
+  ADMIN = SiteRole.find_by_name('Admin')
   
 end

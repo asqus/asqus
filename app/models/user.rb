@@ -36,6 +36,12 @@ class User < ActiveRecord::Base
   validates :last_name, :presence => true, :length => { :minimum => 2, :maximum => 20 }
   validates :email, :presence => true, :uniqueness => true, :email => true, :length => { :maximum => 255 }
 
+  before_create :default_values
+  def default_values
+    if self.site_role_id.nil?
+      self.site_role_id = SiteRole::USER.id
+    end
+  end
 
   def apply_omniauth(auth)
     info = auth['extra']['raw_info']
