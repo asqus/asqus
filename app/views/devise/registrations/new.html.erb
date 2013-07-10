@@ -3,6 +3,8 @@
   <%= f.error_notification %>
   <%= f.input :first_name, :autofocus => true, :required => true %>
   <%= f.input :last_name, :autofocus => true, :required => true %> 
+  <%= f.input :city, :required => true %>
+  <%= f.collection_select(:rep_state_id, State.all, :id, :name, {include_blank: 'Other'} ) %>
   <%= f.input :email, :required => true %>
   <%= f.input :password, :required => true %>
   <%= f.input :password_confirmation, :required => true %>
