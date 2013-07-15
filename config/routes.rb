@@ -11,7 +11,7 @@ Asqus::Application.routes.draw do
   resources :tags
 
   resources :offices, :only => [:index, :show]
-  resources :officials, :only => [:show]
+  resources :officials, :only => [:index, :show]
 
   namespace :admin do
     resources :officials
@@ -20,17 +20,17 @@ Asqus::Application.routes.draw do
     resources :users
     resources :standard_poll_option_sets
     resources :counties
+    resources :delayed_jobs
   end
   
   
   namespace :staff do
     resources :quick_polls
     resources :issues
+    resources :official_mailings    
   end
   
-  resources :officials, :only => [:index, :show]
 
- 
   authenticated :user do
     root :to => 'home#home'
   end

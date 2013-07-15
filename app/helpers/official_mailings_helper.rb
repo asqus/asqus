@@ -1,0 +1,2 @@
+module OfficialMailingsHelper
+end

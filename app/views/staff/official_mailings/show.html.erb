@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <table>
+  <tr><td><b>Mailing:</b></td><td><%= @mailing.id %></td></tr>
+  <tr><td><b>Requested:</b></td><td><%= @mailing.created_at %></td></tr> 
+  <tr><td><b>Status:</b></td><td><%= @mailing.mailing_status.name %></td></tr> 
+  <tr><td><b>Started At:</b></td><td><%= @mailing.mailing_start_time %></td></tr> 
+  <tr><td><b>Finished At:</b></td><td><%= @mailing.mailing_end_time %></td></tr> 
+  </table>
+</p>
+
+<p>
+  <b>Polls:</b>
+  <ul>
+  <% @mailing.quick_polls.each do |poll| %>
+    <li><%= poll.title %></li>
+  <% end %>
+  </ul>
+</p>
+
+
+<%= link_to 'Back', staff_official_mailings_path %>

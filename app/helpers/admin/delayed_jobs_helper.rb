@@ -1,0 +1,2 @@
+module Admin::DelayedJobsHelper
+end

@@ -44,7 +44,7 @@ class Staff::QuickPollsController < Staff::BaseController
     qp = params[:quick_poll]
     issue = Issue.find(qp[:issue_id])
     raise AccessDenied unless Office::check_staff_permission(issue.poller_id, current_user.staff_official_id)    
-    qp[:poll_workflow_state_id] = 1
+    qp[:poll_workflow_state_id] = PollWorkflowState::PUBLISHED.id
     @quick_poll = QuickPoll.new(qp)
 
     respond_to do |format|

@@ -10,6 +10,7 @@ class Office < ActiveRecord::Base
   
   
   has_many :officials, :through => :official_terms
+  has_many :incumbent_officials, :class_name => "Official", :through => :incumbents
   has_many :users, :through => :user_groups, :as => :group
   has_many :issues, :as => :poller
   has_many :joined_official_terms

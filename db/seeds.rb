@@ -19,8 +19,16 @@ puts 'SITE ROLE: ' + site_role_admin.id.to_s
 
 puts 'CREATING POLL WORKFLOW STATES'
 poll_workflow_state_start = PollWorkflowState.create( {:name => 'Start'}, :without_protection => true )
+poll_workflow_state_approved = PollWorkflowState.create( {:name => 'Approved'}, :without_protection => true )
 poll_workflow_state_published = PollWorkflowState.create( {:name => 'Published'}, :without_protection => true )
 poll_workflow_state_closed = PollWorkflowState.create( {:name => 'Closed'}, :without_protection => true )
+
+
+mailing_status_initial = MailingStatus.create( {:id => 1, :name => 'Initial'})
+mailing_status_ready = MailingStatus.create( {:id => 2, :name => 'Ready'})
+mailing_status_sending = MailingStatus.create( {:id => 3, :name => 'Sending'})
+mailing_status_complete = MailingStatus.create( {:id => 4, :name => 'Complete'})
+mailing_status_error = MailingStatus.create( {:id => 5, :name => 'Error'})
 
 
 puts 'CREATING POLITY TYPES'

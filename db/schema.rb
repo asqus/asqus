@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130602185621) do
+ActiveRecord::Schema.define(:version => 20130701024857) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id",                  :null => false
@@ -54,6 +54,22 @@ ActiveRecord::Schema.define(:version => 20130602185621) do
   end
 
   add_index "counties", ["state_id", "name"], :name => "counties_uidx", :unique => true
+
+  create_table "delayed_jobs", :force => true do |t|
+    t.integer  "priority",   :default => 0
+    t.integer  "attempts",   :default => 0
+    t.text     "handler"
+    t.text     "last_error"
+    t.datetime "run_at"
+    t.datetime "locked_at"
+    t.datetime "failed_at"
+    t.string   "locked_by"
+    t.string   "queue"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
 
   create_table "graph_types", :force => true do |t|
     t.string "name", :limit => 32, :null => false
@@ -156,6 +172,10 @@ ActiveRecord::Schema.define(:version => 20130602185621) do
   add_index "joined_official_terms", ["state_id", "municipality_ansi_code"], :name => "joined_official_terms_municipality_idx"
   add_index "joined_official_terms", ["term_id"], :name => "joined_official_terms_term_idx"
 
+  create_table "mailing_statuses", :force => true do |t|
+    t.string "name", :limit => 32, :null => false
+  end
+
   create_table "municipalities", :id => false, :force => true do |t|
     t.integer  "state_id",                 :null => false
     t.integer  "ansi_code",                :null => false
@@ -203,6 +223,24 @@ ActiveRecord::Schema.define(:version => 20130602185621) do
   add_index "offices", ["state_id", "state_house_district_key", "discriminator"], :name => "offices_state_house_uidx", :unique => true
   add_index "offices", ["state_id", "state_senate_district_key", "discriminator"], :name => "offices_state_senate_uidx", :unique => true
   add_index "offices", ["state_id", "us_senate_class"], :name => "offices_us_senate_uidx", :unique => true
+
+  create_table "official_mailing_recipients", :id => false, :force => true do |t|
+    t.integer "id",                  :null => false
+    t.integer "official_mailing_id", :null => false
+    t.integer "user_id",             :null => false
+  end
+
+  add_index "official_mailing_recipients", ["official_mailing_id"], :name => "official_mailing_recipients_mailing_idx"
+
+  create_table "official_mailings", :force => true do |t|
+    t.integer  "mailing_status_id", :null => false
+    t.integer  "official_id",       :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  add_index "official_mailings", ["mailing_status_id"], :name => "official_mailings_status_idx"
+  add_index "official_mailings", ["official_id"], :name => "official_mailings_official_idx"
 
   create_table "official_terms", :force => true do |t|
     t.integer  "official_id", :null => false
@@ -294,6 +332,14 @@ ActiveRecord::Schema.define(:version => 20130602185621) do
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
   end
+
+  create_table "quick_poll_mailings", :force => true do |t|
+    t.integer "quick_poll_id",       :null => false
+    t.integer "official_mailing_id", :null => false
+  end
+
+  add_index "quick_poll_mailings", ["official_mailing_id"], :name => "quick_poll_mailings_idx"
+  add_index "quick_poll_mailings", ["quick_poll_id"], :name => "quick_poll_mailings_poll_idx"
 
   create_table "quick_poll_options", :force => true do |t|
     t.string   "text",          :limit => 32, :null => false

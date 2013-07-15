@@ -1,0 +1,11 @@
+<h3>Create Poll Mailing</h3>
+
+<% if @polls.length > 0 %>
+  <%= render 'form' %>
+<% else %>
+There are no polls requiring notification at this time.
+<p>
+<% end %>
+
+<%= link_to 'Back', staff_path %>
+

@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Job ID:</b>
+  <%= @delayed_job.id %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @delayed_job.priority %>
+</p>
+
+<p>
+  <b>Attempts:</b>
+  <%= @delayed_job.attempts %>
+</p>
+
+<p>
+  <b>Handler:</b>
+  <%= @delayed_job.handler %>
+</p>
+
+<p>
+  <b>Last error:</b>
+  <%= @delayed_job.last_error %>
+</p>
+
+
+<p>
+  <b>Run at:</b>
+  <%= @delayed_job.run_at %>
+</p>
+
+<p>
+  <b>Locked at:</b>
+  <%= @delayed_job.locked_at %>
+</p>
+
+<p>
+  <b>Failed at:</b>
+  <%= @delayed_job.failed_at %>
+</p>
+
+<p>
+  <b>Locked by:</b>
+  <%= @delayed_job.locked_by %>
+</p>
+
+<p>
+  <b>Queue:</b>
+  <%= @delayed_job.queue %>
+</p>
+
+
+
+<%= link_to 'Back', admin_delayed_jobs_path %>

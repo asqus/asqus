@@ -110,5 +110,6 @@ class Admin::OfficesController < Admin::BaseController
         format.json { head :no_content }
       end
     end
-  end
+    
 end
+

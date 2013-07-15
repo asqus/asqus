@@ -7,6 +7,7 @@ class QuickPoll < ActiveRecord::Base
 
   has_many :quick_poll_options
   has_many :quick_poll_responses
+  has_many :official_mailings, :through => :quick_poll_mailings
 
   attr_accessible :body, :end_time, :issue_id, :poll_workflow_state_id, :start_time, :title
   attr_accessible :quick_poll_type_id, :quick_poll_options_attributes, :poller_type, :poller_id
@@ -28,5 +29,17 @@ class QuickPoll < ActiveRecord::Base
 public
  
 
+  
 
+  def self.get_unnotified_polls_for_official(official_id)
+
+    return QuickPoll.where("poll_workflow_state_id = ? and start_time < ? and end_time > ? and
+                              issue_id in (select id from issues where poller_type = 'Office' and poller_id in (select office_id from incumbents where official_id = ?)) and
+                              not exists (select * from quick_poll_mailings where quick_poll_id = quick_polls.id)",
+             PollWorkflowState::PUBLISHED, Time.now(),Time.now(), official_id)
+    
+    
+  end
+  
+  
 end

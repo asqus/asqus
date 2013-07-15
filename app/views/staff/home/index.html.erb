@@ -17,6 +17,7 @@
 	<th>Start time</th>
 	<th>End time</th>
 	<th>Poll workflow state</th>
+	<th>Email Notification Status</th>
 	<th></th>
 	<th></th>
 	<th></th>
@@ -35,3 +36,5 @@
   <% end %>
 </table>
 <b><%= link_to 'New Quick Poll', new_staff_quick_poll_path(:poller_type => :Office, :poller_id => @incumbent.office_id.to_s) %></b>
+<p>
+<b><%= link_to 'Send Poll Notifications', new_staff_official_mailing_path() %></b>

@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem "bcrypt-ruby", :require => "bcrypt"
 #gem "bootstrap-will_paginate", "0.0.6"
 gem "composite_primary_keys", "~>5.0.12"
+gem "daemons"
+gem "delayed_job_active_record"
 gem "devise", ">= 2.1.2"
 gem "govkit"
 #gem "highcharts-rails", "~> 2.3.0"
@@ -17,8 +19,10 @@ gem 'pg'
 gem "quiet_assets", ">= 1.0.1", :group => :development
 gem 'rails', '3.2.9'
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
-gem 'will_paginate', '3.0.3'
 gem "simple_form", ">= 2.0.4"
+gem 'will_paginate', '3.0.3'
+
+
 
 group :test do
   gem "capybara", ">= 1.1.3"

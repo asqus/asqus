@@ -1,0 +1,22 @@
+<h1>Delayed Job Queue</h1>
+<p>
+<% row = 0 %>
+<table border=1>
+  <tr style="background-color:lightblue"><th>Job ID</th><th>Handler</th><th></th></tr>
+  <% @delayed_jobs.each do |delayed_job| %>
+    <% background = "lightcyan" %>
+    <% if row.even? %>
+      <% background = "white" %>
+    <% end %>
+    <tr style="background-color:<%= background %>">
+      <td><%= delayed_job.id %></td>
+      <td><%= delayed_job.handler %></td>	
+	  <td><%= link_to 'Show', admin_delayed_job_path(delayed_job) %></td>
+    </tr>
+    <% row += 1 %>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'Back', admin_path %>
