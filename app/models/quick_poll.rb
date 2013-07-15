@@ -22,9 +22,20 @@ class QuickPoll < ActiveRecord::Base
   validates :title, :presence => true, :length => { :minimum => 3, :maximim => 64 }
   validates :body, :presence => true, :length => { :minimum => 3, :maximum => 256 }
 
+  validate :end_after_start_time
+
+  def end_after_start_time
+    if end_time <= start_time
+      errors.add :end_time, "End date must be after start date"
+    end
+  end
+  
+      
   def to_s
     return title
   end
+
+
 
 public
  

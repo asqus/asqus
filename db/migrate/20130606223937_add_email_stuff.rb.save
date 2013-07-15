@@ -12,6 +12,7 @@ class AddEmailStuff < ActiveRecord::Migration
         id serial primary key,
         mailing_status_id integer not null references mailing_statuses,
         official_id integer not null references officials,
+        rep_message text,
         mailing_start_time timestamp,
         mailing_end_time timestamp,
         created_at      timestamp not null default now(),
