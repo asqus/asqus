@@ -19,7 +19,7 @@ class AddEmailStuff < ActiveRecord::Migration
         updated_at      timestamp not null default now()    
       );
            
-      create index official_mailings_status_idx on official_mailings(status_id);
+      create index official_mailings_status_idx on official_mailings(mailing_status_id);
       create index official_mailings_official_idx on official_mailings(official_id);
           
       create table quick_poll_mailings (
