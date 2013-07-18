@@ -6,7 +6,7 @@ class AddMailingStatuses < ActiveRecord::Migration
       insert into mailing_statuses(id, name) values (3, 'Sending');
       insert into mailing_statuses(id, name) values (4, 'Complete');
       insert into mailing_statuses(id, name) values (5, 'Error');
-      )"
+      ")
                             
   end
 
