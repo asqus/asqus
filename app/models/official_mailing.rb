@@ -14,7 +14,7 @@ class OfficialMailing < ActiveRecord::Base
     incumbent = Incumbent.find_by_official_id(official_id)
     
     unless incumbent.nil?
-       logger.debug "send_notification using incumbent " + incumbent.id
+       logger.debug "send_notification using incumbent " + incumbent.id.to_s
        unless quick_polls.empty?
         logger.debug "send_notification quick polls found"
         case incumbent.office_type_ukey
