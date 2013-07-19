@@ -14,16 +14,24 @@ class OfficialMailing < ActiveRecord::Base
     incumbent = Incumbent.find_by_official_id(official_id)
     
     unless incumbent.nil?
+       logger.debug "send_notification using incumbent " + incumbent.id
        unless quick_polls.empty?
+        logger.debug "send_notification quick polls found"
         case incumbent.office_type_ukey
           when OfficeType::US_SENATOR
+            logger.debug "send_notification incumbent is a US senator"
             users = User.where("rep_state_id = ?",incumbent.state_id)
           when OfficeType::US_REP
+            logger.debug "send_notification incumbent is a US representative"
             users = User.where("rep_state_id = ? and rep_congressional_district_no = ?", incumbent.state_id, incumbent.congressional_district_no)
           when OfficeType::STATE_SENATOR
+            logger.debug "send_notification incumbent is a state senator"
             users = User.where("rep_state_id = ? and rep_state_senate_district_key = ?", incumbent.state_id, incumbent.state_senate_district_key)
           when OfficeType::STATE_REP
+            logger.debug "send_notification incumbent is a state representative"
             users = User.where("rep_state_id = ? and rep_state_house_district_key = ?", incumbent.state_id, incumbents.state_house_district_key)
+          else
+            logger.debug "send_notification incumbent is an invalid official type"
         end
         users.each do |user|
           logger.debug "send_notifications sending mail to user " + user.email
