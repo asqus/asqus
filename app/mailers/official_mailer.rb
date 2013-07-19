@@ -1,9 +1,10 @@
 class OfficialMailer < ActionMailer::Base
-  default from: "notifications@asq.us"
+  default from: "info@asq.us"
   
-  def poll_notification_mailer(user, quick_polls)
+  def poll_notification_mailer(user, quick_polls, rep_message)
     @user = user
     @quick_polls = quick_polls
+    @rep_message = rep_message
     mail(to: @user.email, subject: 'New Polls on Asq.us')
   end
   

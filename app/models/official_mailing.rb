@@ -12,6 +12,7 @@ class OfficialMailing < ActiveRecord::Base
     users = []
     quick_polls = []
     incumbent = Incumbent.find_by_official_id(official_id)
+    
     unless incumbent.nil?
        unless quick_polls.empty?
         case incumbent.office_type_ukey
@@ -25,9 +26,10 @@ class OfficialMailing < ActiveRecord::Base
             users = User.where("rep_state_id = ? and rep_state_house_district_key = ?", incumbent.state_id, incumbents.state_house_district_key)
         end
         users.each do |user|
-          OfficialMailer.poll_notification_email(users,quick_polls).deliver
+          logger.debug "send_notifications sending mail to user " + user.email
+          OfficialMailer.poll_notification_email(user,quick_polls,rep_message).deliver
         end
-        self.official_mailing_status = MailingStatus::COMPLETE
+        official_mailing_status = MailingStatus::COMPLETE
         save()                        
       end
     end

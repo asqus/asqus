@@ -67,7 +67,8 @@ class Staff::OfficialMailingsController < ApplicationController
           mailing.quick_polls.push(poll)
         end      
         success = mailing.save      
-        mailing.delay.send_notifications
+        # mailing.delay.send_notifications
+        mailing.send_notifications
       end
       
     end
