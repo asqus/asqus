@@ -1,0 +1,13 @@
+<%= @user.name %>, new polls are open on Asq.us!
+
+<% unless @rep_message.nil? or @rep_message == ""%>
+  <%= @rep_message %>
+<% end %>
+
+<% @quick_polls.each do |quick_poll| %>
+  <%= quick_poll.name %>
+<% end %>
+
+Log into Asq.us now and make your voice heard.
+
+	

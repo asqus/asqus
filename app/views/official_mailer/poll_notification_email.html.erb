@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1><%= @user.name %>, new polls are open on Asq.us</h1>
+    <% unless @rep_message.nil? or @rep_message == ""%>
+      <p>
+	    <%= @rep_message %>
+	  </p>
+	<% end %>
+	<p><ul>
+	<% @quick_polls.each do |quick_poll| %>
+	  <li><%= quick_poll.name %></li>
+	<% end %>
+	</ul></p>
+	<p>
+	Log in to Asq.us now and make your voice heard!	
+  </body>
+</html>
