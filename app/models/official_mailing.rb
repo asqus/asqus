@@ -35,7 +35,7 @@ class OfficialMailing < ActiveRecord::Base
         end
         users.each do |user|
           logger.debug "send_notifications sending mail to user " + user.email
-          OfficialMailer.poll_notification_email(user,quick_polls,rep_message).deliver
+          OfficialMailer.poll_notification_email(user,incumbent,quick_polls,rep_message).deliver
         end
         self.mailing_status= MailingStatus::COMPLETE
         save!                     
