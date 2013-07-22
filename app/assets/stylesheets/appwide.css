@@ -1,0 +1,12 @@
+.recordsTable {
+	background-color:AliceBlue;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+.recordsTable th {
+	background-color:LightBlue;
+
+	
+}
