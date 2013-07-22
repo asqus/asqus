@@ -7,11 +7,10 @@
 <h3><%= @state.name %></h3>
 
 
-
 <p>
 <h4>United States Senators</h4>
 
-<table width=400>
+<table class="recordTable" width=600>
   <tr>
     <th>Office</th><th>Incumbent</th>
   </tr>
@@ -27,10 +26,12 @@
   </tr>
 <% end %>
 </table>
+</p>
 
+<p>
 <h4>United States Representatives</h4>
 
-<table width=400>
+<table class="recordsTable" width=600>
   <tr>
     <th>Office</th><th>Incumbent</th>
   </tr>
@@ -39,7 +40,7 @@
 	<% if office.congressional_district_no > 0 %>
 	  <td><%= office.office_type.name + ", District " + office.congressional_district_no.to_s %></td>
 	<% else %> 
-	  <td><%= office.office_type.name + " at Large" %><td>
+	  <td><%= office.office_type.name + " at Large" %></td>
 	<% end %>
     <td>
     <% office.incumbents.each do |incumbent| %>
@@ -49,11 +50,11 @@
   </tr>
 <% end %>
 </table>
-
-
+</p>
+<p>
 <h4>State Senators</h4>
 
-<table width=400>
+<table class="recordsTable" width=600>
   <tr>
     <th>Office</th><th>Incumbent</th>
   </tr>
@@ -70,11 +71,12 @@
   </tr>
 <% end %>
 </table>
-
+</p>
+<p>
 
 <h4>State Representatives</h4>
 
-<table width=400>
+<table class="recordsTable" width=600>
   <tr>
     <th>Office</th><th>Incumbent</th>
   </tr>
@@ -89,7 +91,7 @@
   </tr>
 <% end %>
 </table>
-
+</p>
 
 
 
@@ -100,6 +102,7 @@
 <li><%= link_to "Municipalities", municipalities_path( :state_id => @state.id ) %></li>
 <li><%= link_to "Counties", admin_counties_path( :state_id => @state.id ) %></li>
 </ul>
+</p>
 
 
 
@@ -107,4 +110,4 @@
 
 
 
-<%= link_to 'Back', admin_states_path %>
+<%= link_to '<<Back', admin_states_path %>

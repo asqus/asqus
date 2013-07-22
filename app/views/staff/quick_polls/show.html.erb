@@ -12,22 +12,22 @@
 
 <p>
   <b>Start time:</b>
-  <%= @quick_poll.start_time %>
+  <%= @quick_poll.start_time.to_s(:short) %>
 </p>
 
 <p>
   <b>End time:</b>
-  <%= @quick_poll.end_time %>
+  <%= @quick_poll.end_time.to_s(:short) %>
 </p>
 
 <p>
   <b>Issue:</b>
-  <%= @quick_poll.issue_id %>
+  <%= @quick_poll.issue.title %>
 </p>
 
 <p>
   <b>Poll workflow state:</b>
-  <%= @quick_poll.poll_workflow_state_id %>
+  <%= @quick_poll.poll_workflow_state.name %>
 </p>
 
 
