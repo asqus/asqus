@@ -1,10 +1,11 @@
+<script src="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" type="text/javascript"></script>
 <script type="text/javascript">
-$(function () {
 //Ensures there will be no 'console is undefined' errors
 window.console = window.console || (function(){
     var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
     return c;
-})();
+  });
+});
 
     function getGraphType(json) {
       var graphType="PIE_CHART";
@@ -106,7 +107,7 @@ window.console = window.console || (function(){
     } // renderPieChart
 
     function renderBarChart(graphTitle, json) {
-      graphData = getBarGraphData( json ); 
+      rGraphData = getBarGraphData( json ); 
       //graphData = [
       //                {name: 'Tokyo', data: [14.5]},
       //                {name: 'New York', data: [14.5]},
@@ -114,7 +115,32 @@ window.console = window.console || (function(){
       //                {name: 'Detroit', data: [14.5]},
       //                {name: 'Dexter', data: [42.0]}
       //             ];
+      data = [];
 
+      // TODO: hack in dataLabels attribute into data points to support a 
+      // bar graph with Labels.
+      for (var idx = 0; idx < rGraphData.length; idx++) {
+        data.push( rGraphData[ idx ].data[0] ); 
+
+      }
+
+      graphData = [ 
+        { name: 'Results',
+          data: data,
+          dataLabels: { enabled: true,
+                                      rotation: -90,
+                                      color: '#FFFFFF',
+                                      align: 'right',
+                                      x: 4,
+                                      y: 10,
+                                      style: {
+                                       fontSize: '13px',
+                                       fontFamily: 'Verdana, sans-serif'
+                                      }
+                                    }
+        } 
+      ];
+      //alert( JSON.stringify(graphData) );
 
     	// Radialize the colors
 		  Highcharts.getOptions().colors = Highcharts.map(Highcharts.getOptions().colors, function(color) {
@@ -137,25 +163,52 @@ window.console = window.console || (function(){
                 type: 'column'
             },
             title: {
-                text: graphTitle
+                text: "" // graphTitle
             },
             xAxis: {
-               categories: [ 'Results' ]
+               categories: [ 'Strongly Agree', 'Agree', 'Agree Somewhat', 'Neutral/Undecided', 'Somewhat Disagree', 'Disagree Strongly'],
+               labels: {
+                 rotation: -45,
+                 align: 'right',
+                 style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif'
+                 }
+               }
             },
             yAxis: {
                min: 0,
                title: { text: 'Votes' }
             },
             legend: {
-               layout: 'vertical',
-               backgroundColor: null,
-               align: 'left',
-               verticalAlign: 'top',
-               x: 100,
-               y: 70,
-               floating: true,
-               shadow: true
+               enabled: false //,
+            //   layout: 'vertical',
+            //   backgroundColor: null,
+            //   align: 'left',
+            //   verticalAlign: 'top',
+            //   x: 100,
+            //   y: 70,
+            //   floating: true,
+            //   shadow: true
            },
+            dataLabels: {
+                enabled: true,
+                rotation: -90,
+                color: '#FFFFFFF',
+                align: 'right',
+                x: 4,
+                y: 10,
+                style: {
+                  fontSize: '13px',
+                  fontFamily: 'Verdana, sans-serif'
+                }
+            },
+            //    connectorColor: '#000000',
+            //    formatter: function() {
+            //        percent=Math.round(this.percentage*100.0)/100;
+            //       return '<b>'+ this.point.name +'</b>: '+ percent +' %';
+            //   }
+            //},
             tooltip: {
               formatter: function() {
                            return '' + this.x +': <b>'+this.y+'</b> votes';
@@ -184,9 +237,9 @@ window.console = window.console || (function(){
 
          // b-rad only wants Pie Charts for the demo
          // if ( graphType == "BAR_CHART") {
-         //    renderBarChart( graphTitle, json );
+             renderBarChart( graphTitle, json );
          // } else {
-             renderPieChart( graphTitle, json );
+         //    renderPieChart( graphTitle, json );
          // }
      } );
     	
