@@ -3,8 +3,12 @@ class Municipality < ActiveRecord::Base
   set_primary_keys :state_id, :ansi_code
   has_many :offices, :foreign_key => [ :state_id, :municipality_ansi_code]
   has_many :wards, :foreign_key => [ :state_id, :municipality_ansi_code]
+  has_many :zip_codes, :foreign_key => [ :state_id, :municipality_ansi_code]  
   belongs_to :state
+  belongs_to :municipality_type
+
   attr_accessible :name, :state_id
+
 
   validates :state_id, :presence => true, :numericality => { :only_integer => true }
   validates :name, :presence => true, :length => { :minimum => 1, :maximum => 32 }

@@ -36,5 +36,40 @@ class Office < ActiveRecord::Base
     incumbent = Incumbent.find_by_office_id(office_id)
     return official_id == incumbent.official_id
   end
+    
+
+  def get_constituents(mailable_only=true)
+    users = []
+    mailable_sql = ""
+ 
+    if mailable_only
+      mailable_sql = " and email is not null and email_kill_switch = false"
+    end
+      
+   case office_type.id
+      when OfficeType::US_SENATOR.id, OfficeType::GOVERNOR.id
+        logger.debug "get_all_constituents for a governor or US senator"
+        users = User.where("rep_state_id = ?" + mailable_sql,@state_id)
+      when OfficeType::US_REP.id
+        logger.debug "get_all_constituents for a US representative"
+        users = User.where("rep_state_id = ? and rep_congressional_district_no = ?" + mailable_sql, state.id, congressional_district_no)
+      when OfficeType::STATE_SENATOR.id
+        logger.debug "get_constituents for a state senator"
+        users = User.where("rep_state_id = ? and rep_state_senate_district_key = ? + mailable_sql", state.id, state_senate_district_key)
+      when OfficeType::STATE_REP.id
+        logger.debug "get_constituents for a state representative"
+        users = User.where("rep_state_id = ? and rep_state_house_district_key = ? + mailable_sql", state.id, state_house_district_key)
+      else
+        logger.debug "send_notification incumbent is an invalid official type"
+    end
+    
+    return users
+    
+  end
+    
+  
+    
+    
+
 
 end

@@ -1,0 +1,3 @@
+psql -U postgres -d asqus_dev --file import-census-places.sql
+psql -U postgres -d asqus_dev --file import-zip-codes.sql
+bundle exec rails runner "eval(File.read 'db/imports/initial-municipalities-and-zips/import-municipalities.rb')"

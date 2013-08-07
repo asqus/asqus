@@ -48,5 +48,16 @@ class AddEmailStuff < ActiveRecord::Migration
   end
 
   def down
+    
+    ActiveRecord::Base.connection.execute("
+    
+      drop table official_mailing_recipients;
+      drop table quick_poll_mailings;
+      drop table official_mailings;
+      drop table mailing_statuses;
+      alter table users drop column email_kill_switch;
+    
+    ")
+       
   end
 end

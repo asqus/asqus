@@ -1,5 +1,8 @@
 class Incumbent < ActiveRecord::Base
 
+belongs_to :office
+belongs_to :official
+
 
 def official_name
   name = official_first_name

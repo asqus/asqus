@@ -1,0 +1,3 @@
+psql -U postgres -d asqus_dev --file import-officials.sql
+bundle exec rails runner "eval(File.read 'db/imports/initial-officials/import-officials.rb')"
+
