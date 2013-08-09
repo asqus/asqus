@@ -27,9 +27,16 @@ def create
     flash[:notice] = t(:authentication_successful)
     redirect_to authentications_url
   else
-    logger.debug "Auth not found. Creating a new one and a new user too"
+    logger.debug "Auth not found. Creating a new one and possibly a new user too"
     # Authentication not found. Create new user.
-    user = User.new
+    email = auth['extra']['raw_info']['email']
+    user = nil
+    unless email.nil? or email == ""
+      user = User.find_by_email(email)
+    end
+    if user.nil?   
+      user = User.new
+    end
     user.apply_omniauth(auth)
     if user.save(:validate => false)
       logger.debug "User created successfully. Signing in and redirecting."
