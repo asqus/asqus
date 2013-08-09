@@ -1,11 +1,11 @@
-<script src="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" type="text/javascript"></script>
+<!--script src="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" type="text/javascript"></script-->
 <script type="text/javascript">
 //Ensures there will be no 'console is undefined' errors
 window.console = window.console || (function(){
     var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
     return c;
   });
-});
+
 
     function getGraphType(json) {
       var graphType="PIE_CHART";
@@ -237,16 +237,14 @@ window.console = window.console || (function(){
 
          // b-rad only wants Pie Charts for the demo
          // if ( graphType == "BAR_CHART") {
-             renderBarChart( graphTitle, json );
+         //   renderBarChart( graphTitle, json );
          // } else {
-         //    renderPieChart( graphTitle, json );
+             renderPieChart( graphTitle, json );
          // }
      } );
     	
     });  // $(document).ready
     
-}); // $(function () {
-
 </script>
 
 <div class="container">
