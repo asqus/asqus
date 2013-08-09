@@ -12,6 +12,7 @@ gem "highcharts-rails", "~> 3.0.0"
 gem "httparty"
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
 gem 'jquery-rails'
+gem 'koala'
 gem "oauth2"
 gem "omniauth"
 gem "omniauth-facebook"

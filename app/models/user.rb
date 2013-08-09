@@ -41,6 +41,7 @@ class User < ActiveRecord::Base
     if self.site_role_id.nil?
       self.site_role_id = SiteRole::USER.id
     end
+    @facebook = nil
   end
 
   def apply_omniauth(auth)
@@ -60,5 +61,47 @@ class User < ActiveRecord::Base
   def name
     return first_name + " " + last_name
   end
+
+
+  def self.send_thanks_for_voting_email(user_id)
+    
+    user = User.find(user_id)
+    if user.nil?
+      logger.error "send_thanks_for_voting_email could not find user id " + user_id.to_s
+    else
+      UserMailer.thanks_for_voting_email(user).deliver
+    end
+           
+  end
+
+  def facebook
+    
+    if @facebook.nil?
+      facebook_token = nil
+      authentications.each do |auth|
+        if auth.provider == 'facebook'
+          facebook_token = auth.token
+        end
+      end  
+      unless facebook_token.nil?
+        @facebook ||= Koala::Facebook::API.new(facebook_token)
+      end
+    end
+    
+    return @facebook
+
+  end
+  
+  def post_to_facebook_wall(message)
+  
+    f = facebook
+    unless f.nil?
+      f.put_wall_post(message)
+    end
+  rescue OAuthException
+    logger.debug "OAuthException in User::post_to_facebook_wall"   
+  end
+  
+ 
 
 end

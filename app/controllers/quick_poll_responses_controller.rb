@@ -96,6 +96,8 @@ class QuickPollResponsesController < ApplicationController
         response[:user_id] = current_user.id
         quick_poll_response = QuickPollResponse.new(response)
         quick_poll_response.save
+        # User.delay.send_thanks_for_voting_email(current_user.id)
+        User.send_thanks_for_voting_email(current_user.id)
       else
         response[:uid] = get_poll_uid()      
         if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)

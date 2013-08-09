@@ -36,8 +36,7 @@ class AddZipCodes < ActiveRecord::Migration
          ansi_code  integer,
          place_type       varchar,
          type_code  varchar,
-         counties   varchar,
-         primary key(state_code,ansi_code)       
+         counties   varchar      
        );
        
        create table temp_imp_zip_codes (
