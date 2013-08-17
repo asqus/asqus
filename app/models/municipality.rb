@@ -5,7 +5,7 @@ class Municipality < ActiveRecord::Base
   has_many :wards, :foreign_key => [ :state_id, :municipality_ansi_code]
   has_many :zip_codes, :foreign_key => [ :state_id, :municipality_ansi_code]  
   belongs_to :state
-  belongs_to :municipality_type
+
 
   attr_accessible :name, :state_id
 

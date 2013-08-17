@@ -1,0 +1,2 @@
+psql -U postgres -d asqus_dev --file import-zip-codes.sql
+bundle exec rails runner "eval(File.read 'db/imports/initial-zip-codes/import-zip-codes.rb')"

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130701024857) do
+ActiveRecord::Schema.define(:version => 20130816195311) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id",                  :null => false
@@ -184,7 +184,13 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
     t.datetime "updated_at",               :null => false
   end
 
-  add_index "municipalities", ["ansi_code"], :name => "municipalities_ansi_uidx", :unique => true
+  add_index "municipalities", ["name"], :name => "municipalities_name_idx"
+  add_index "municipalities", ["state_id", "name"], :name => "municipalities_state_idx"
+
+  create_table "municipality_categories", :id => false, :force => true do |t|
+    t.integer "id",                  :null => false
+    t.string  "name", :limit => nil, :null => false
+  end
 
   create_table "nations", :id => false, :force => true do |t|
     t.integer "id",   :null => false
@@ -233,10 +239,13 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
   add_index "official_mailing_recipients", ["official_mailing_id"], :name => "official_mailing_recipients_mailing_idx"
 
   create_table "official_mailings", :force => true do |t|
-    t.integer  "mailing_status_id", :null => false
-    t.integer  "official_id",       :null => false
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.integer  "mailing_status_id",  :null => false
+    t.integer  "official_id",        :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.datetime "mailing_start_time"
+    t.datetime "mailing_end_time"
+    t.text     "rep_message"
   end
 
   add_index "official_mailings", ["mailing_status_id"], :name => "official_mailings_status_idx"
@@ -309,6 +318,11 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
 
   create_table "poll_workflow_states", :force => true do |t|
     t.string "name", :limit => 32, :null => false
+  end
+
+  create_table "postal_cities", :id => false, :force => true do |t|
+    t.integer "state_id",               :null => false
+    t.string  "name",     :limit => 32, :null => false
   end
 
   create_table "question_votes", :force => true do |t|
@@ -487,6 +501,15 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
   add_index "tags", ["tag", "context", "taggable_type", "taggable_id"], :name => "tags_uidx", :unique => true
   add_index "tags", ["taggable_type", "taggable_id"], :name => "tags_taggable_idx"
 
+  create_table "temp_imp_zip_codes", :id => false, :force => true do |t|
+    t.string  "id",                 :limit => nil,                                :null => false
+    t.string  "state_abbreviation", :limit => nil
+    t.decimal "latitude",                          :precision => 10, :scale => 7
+    t.decimal "longitude",                         :precision => 10, :scale => 7
+    t.string  "name",               :limit => nil
+    t.string  "state_name",         :limit => nil
+  end
+
   create_table "terms", :force => true do |t|
     t.string   "name",           :limit => 40
     t.date     "from_date",                    :null => false
@@ -501,6 +524,10 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
   add_index "terms", ["office_type_id"], :name => "terms_office_type_idx"
   add_index "terms", ["to_date"], :name => "terms_to_date_idx"
 
+  create_table "test", :id => false, :force => true do |t|
+    t.integer "id"
+  end
+
 # Could not dump table "users" because of following StandardError
 #   Unknown type 'sex' for column 'sex'
 
@@ -510,6 +537,14 @@ ActiveRecord::Schema.define(:version => 20130701024857) do
     t.string   "ward",                   :limit => 32, :null => false
     t.datetime "created_at",                           :null => false
     t.datetime "updated_at",                           :null => false
+  end
+
+  create_table "zip_codes", :id => false, :force => true do |t|
+    t.string  "id",               :limit => 5,                                  :null => false
+    t.integer "state_id",                                                       :null => false
+    t.string  "postal_city_name", :limit => nil,                                :null => false
+    t.decimal "latitude",                        :precision => 10, :scale => 7
+    t.decimal "longitude",                       :precision => 10, :scale => 7
   end
 
 end

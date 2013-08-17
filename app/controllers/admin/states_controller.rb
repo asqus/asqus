@@ -1,7 +1,7 @@
 class Admin::StatesController < Admin::BaseController
   
-  # GET /states
-  # GET /states.json
+  # GET admin/states
+  # GET admin/states.json
   def index
     @states = State.all
 
@@ -11,8 +11,8 @@ class Admin::StatesController < Admin::BaseController
     end
   end
 
-  # GET /states/1
-  # GET /states/1.json
+  # GET admin/states/1
+  # GET admin/states/1.json
   def show
     
     @states = State.find(:all)
@@ -42,13 +42,13 @@ class Admin::StatesController < Admin::BaseController
     end
   end
 
-  # GET /states/1/edit
+  # GET admin/states/1/edit
   def edit
     @state = State.find(params[:id])
   end
 
-  # PUT /states/1
-  # PUT /states/1.json
+  # PUT admin/states/1
+  # PUT admin/states/1.json
   def update
     @state = State.find(params[:id])
 

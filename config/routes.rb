@@ -1,33 +1,45 @@
 Asqus::Application.routes.draw do
   
-  resources :municipalities do
-    resources :wards
-  end
-    
-  resources :quick_poll_responses
-
-  resources :quick_poll_results
-
-  resources :tags
-
   resources :offices, :only => [:index, :show]
   resources :officials, :only => [:index, :show]
+  resources :quick_poll_responses
+  resources :quick_poll_results
+
+  resources :states do
+    resources :municipalities do
+      resources :wards
+    end
+    resources :postal_cities
+
+  end
+  
+  resources :tags
+  resources :zip_codes, :only => [:index, :show]
+  
+  
 
   namespace :admin do
-    resources :officials
-    resources :offices
-    resources :states, :only => [:index, :show, :edit, :update]
-    resources :users
-    resources :standard_poll_option_sets
     resources :counties
     resources :delayed_jobs
+    resources :officials
+    resources :offices
+
+    resources :standard_poll_option_sets
+    resources :states do
+      resources :municipalities do
+        resources :wards
+      end
+    end
+    
+    resources :users
+    
   end
   
   
   namespace :staff do
-    resources :quick_polls
     resources :issues
-    resources :official_mailings    
+    resources :official_mailings
+    resources :quick_polls
   end
   
 

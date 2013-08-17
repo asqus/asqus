@@ -11,5 +11,4 @@
 </p>
 
 
-<%= link_to 'Edit', edit_municipality_path(@municipality) %> |
-<%= link_to 'Back', municipalities_path(:state_id => @municipality.state_id) %>
+<%= link_to 'Back', state_municipalities_path(:state_id => @municipality.state_id) %>

@@ -1,0 +1,17 @@
+<h3><%= @state.name %>Postal Cities</h3>
+
+<table width=400>
+  <tr>
+    <th>Name</th>
+    <th>State</th>
+  </tr>
+
+<% @cities.each do |city| %>
+  <tr>
+    <td><%= city.name %></td>
+    <td><%= city.state.name %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

@@ -74,6 +74,10 @@ class User < ActiveRecord::Base
            
   end
 
+  #
+  # Facebook-API-related functions
+  # 
+  
   def facebook
     
     if @facebook.nil?
@@ -92,11 +96,19 @@ class User < ActiveRecord::Base
 
   end
   
-  def post_to_facebook_wall(message)
+  def get_facebook_permissions
+    perms = nil
+    fb = facebook
+    unless fb.nil?
+      perms = fb.get_connection("me","permissions") 
+    end
+    return perms   
+  end
   
-    f = facebook
+  def post_to_facebook_wall(message)
+    fb = facebook
     unless f.nil?
-      f.put_wall_post(message)
+      fb.put_wall_post(message)
     end
   rescue OAuthException
     logger.debug "OAuthException in User::post_to_facebook_wall"   
@@ -104,4 +116,5 @@ class User < ActiveRecord::Base
   
  
 
+  
 end

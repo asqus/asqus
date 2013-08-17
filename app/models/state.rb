@@ -6,6 +6,7 @@ class State < ActiveRecord::Base
   has_many :counties
   has_many :municipalities
   has_many :offices
+  has_many :postal_cities
   
   attr_accessible :abbreviation, :name
 
