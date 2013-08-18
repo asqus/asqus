@@ -88,11 +88,13 @@ class User < ActiveRecord::Base
           facebook_token = auth.token
         end
       end  
-      unless facebook_token.nil?
+      if facebook_token.nil?
+        logger.debug "User::facebook failed to find find auth token"
+      else        
         logger.debug "User::facebook auth token found, creating connection"
         @facebook ||= Koala::Facebook::API.new(facebook_token)
       end
-      logger.debug "User::facebook failed to find find auth token"
+
     end
     
     return @facebook
@@ -112,11 +114,12 @@ class User < ActiveRecord::Base
   def post_to_facebook_wall(message)
   logger.debug "User::post_to_facebook_wall called"
     fb = facebook
-    unless f.nil?
+    unless fb.nil?
+      logger.debug "User::post_to_facebook_wall found connection, posting to wall"
       fb.put_wall_post(message)
     end
-  rescue OAuthException
-    logger.debug "OAuthException in User::post_to_facebook_wall"   
+  rescue
+    logger.debug "Exception in User::post_to_facebook_wall"   
   end
   
  
