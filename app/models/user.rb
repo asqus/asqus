@@ -79,8 +79,9 @@ class User < ActiveRecord::Base
   # 
   
   def facebook
-    
+    logger.debug "User::facebook called"
     if @facebook.nil?
+      logger.debug "User::facebook @facebook is nill, trying to find token"
       facebook_token = nil
       authentications.each do |auth|
         if auth.provider == 'facebook'
@@ -88,8 +89,10 @@ class User < ActiveRecord::Base
         end
       end  
       unless facebook_token.nil?
+        logger.debug "User::facebook auth token found, creating connection"
         @facebook ||= Koala::Facebook::API.new(facebook_token)
       end
+      logger.debug "User::facebook failed to find find auth token"
     end
     
     return @facebook
@@ -97,6 +100,7 @@ class User < ActiveRecord::Base
   end
   
   def get_facebook_permissions
+    logged.debug "User::get_facebook_permissions called"
     perms = nil
     fb = facebook
     unless fb.nil?
@@ -106,6 +110,7 @@ class User < ActiveRecord::Base
   end
   
   def post_to_facebook_wall(message)
+  logger.debug "User::post_to_facebook_wall called"
     fb = facebook
     unless f.nil?
       fb.put_wall_post(message)

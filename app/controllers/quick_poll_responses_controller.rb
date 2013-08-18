@@ -98,6 +98,7 @@ class QuickPollResponsesController < ApplicationController
         quick_poll_response.save
         # User.delay.send_thanks_for_voting_email(current_user.id)
         User.send_thanks_for_voting_email(current_user.id)
+        User.post_to_facebook_wall(user.first_name + " voted in an Asq.us poll")
       else
         response[:uid] = get_poll_uid()      
         if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)
