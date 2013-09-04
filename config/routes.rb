@@ -1,5 +1,6 @@
 Asqus::Application.routes.draw do
   
+  resources :authentications, :only => [:index,:create,:destroy]
   resources :offices, :only => [:index, :show]
   resources :officials, :only => [:index, :show]
   resources :quick_poll_responses
@@ -54,7 +55,7 @@ Asqus::Application.routes.draw do
   devise_for :users, :path_prefix => 'd', :controllers => {:registrations => 'registrations'}
 
   match '/auth/:provider/callback' => 'authentications#create'
-  resources :authentications, :only => [:index,:create,:destroy]
+
   match '/auth/failure' => 'authentications#auth_failure'
 
 
