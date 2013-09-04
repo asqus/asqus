@@ -34,4 +34,11 @@ Asqus::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.smtp_settings = { :address => "dev.xamin.us" }
+  config.action_mailer.default_options = { :from => "info@asq.us", :reply_to => "info@asq.us" }
+
+
 end

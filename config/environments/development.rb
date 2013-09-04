@@ -37,4 +37,9 @@ Asqus::Application.configure do
 
   # compile the bootstrap.css.scss file
   # config.assets.precompile += %w( bootstrap.css )
+
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.smtp_settings = { :address => "dev.xamin.us" }
+  
+
 end
