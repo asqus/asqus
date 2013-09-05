@@ -17,7 +17,7 @@ protected
 
   def before_all
     mobile_before_logic
-    
+    ActionMailer::Base.default_url_options[:host] = request.host_with_port
   end
 
 private 
