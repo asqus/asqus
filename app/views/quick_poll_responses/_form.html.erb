@@ -1,7 +1,16 @@
 <div class="container">
-<%= simple_form_for(@quick_poll_response) do |f| %>
+<%= simple_form_for(@quick_poll_response, :html=>{:onsubmit=>" return get_fingerprint();" }) do |f| %>
   <%= f.error_notification %>
   <%= f.hidden_field :quick_poll_id, :value => @quick_poll.id %>
+  <%= f.hidden_field :browser_fingerprint %>
+
+  <script type="text/javascript">
+    function get_fingerprint() {
+       var elem = document.getElementById("quick_poll_response_browser_fingerprint");
+	    elem.value = new Fingerprint().get();
+        return true; // return false to cancel form action
+    }
+  </script>
 
   <h4>Asq.us Poll: <%= @quick_poll.title %></h4> 
 

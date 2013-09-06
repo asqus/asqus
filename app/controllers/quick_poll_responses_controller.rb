@@ -81,6 +81,9 @@ class QuickPollResponsesController < ApplicationController
 
     response = params[:quick_poll_response]
     quick_poll_id = response[:quick_poll_id]
+    browser_fingerprint = response[:browser_fingerprint]
+    
+    logger.info("browser fingerprint = " + browser_fingerprint)
     
     options = QuickPollOption.find_all_by_quick_poll_id(quick_poll_id)
     value = nil
@@ -101,7 +104,7 @@ class QuickPollResponsesController < ApplicationController
         current_user.post_to_facebook_wall(current_user.first_name + " voted in an Asq.us poll")
       else
         response[:uid] = get_poll_uid()      
-        if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and uid = ?", response[:quick_poll_id], response[:uid]).first == nil)
+        if (QuickPollUnregisteredResponse.where("quick_poll_id = ? and browser_fingerprint = ?", response[:quick_poll_id], response[:browser_fingerprint]).first == nil)
           qp_unregistered_response = QuickPollUnregisteredResponse.new(response)
           qp_unregistered_response.save
         end        

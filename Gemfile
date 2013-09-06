@@ -6,6 +6,7 @@ gem "composite_primary_keys", "~>5.0.12"
 gem "daemons"
 gem "delayed_job_active_record"
 gem "devise", ">= 2.1.2"
+gem 'fingerprintjs-rails' 
 gem "govkit"
 #gem "highcharts-rails", "~> 2.3.0"
 gem "highcharts-rails", "~> 3.0.0"
