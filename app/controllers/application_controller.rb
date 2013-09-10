@@ -37,15 +37,15 @@ private
     session[:mobile_site] = params[:mobile] if params[:mobile]
   end
   
-  #def get_poll_uid
+  def get_poll_uid
     # Temporary hack to generate a unique cookie to identify a browser for unregistered
     # poll responses. 
-    #if (cookies[:poll_uid])
-    #  cookies[:poll_uid]
-    #else
-    #  plain = request.headers['REMOTE_ADDR'] + Time.now.to_s
-    #  cookies[:poll_uid] = plain
-    # end
-  #end
+    if (cookies[:poll_uid])
+      cookies[:poll_uid]
+    else
+      plain = request.headers['REMOTE_ADDR'] + Time.now.to_s
+      cookies[:poll_uid] = plain
+    end
+  end
   
 end

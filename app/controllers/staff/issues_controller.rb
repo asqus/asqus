@@ -87,14 +87,19 @@ class Staff::IssuesController < Staff::BaseController
   def update
 
     issue_hash = params[:issue]   
+    tags = []
     
-    tags = issue_hash[:tag_string].split(' ')
-    @issue.tags.each do |t|
-      t.mark_for_destruction
+    unless params[:issue][:tag_string].nil?
+      tags = params[:issue][:tag_string].split(' ')
+      @issue.tags.each do |t|
+        t.mark_for_destruction
+      end
     end
     @issue.save
-    tags.each do |tag|
-      @issue.tags.build( :tag => tag )
+    unless params[:issue][:tag_string].nil?
+      tags.each do |tag|
+        @issue.tags.build( :tag => tag )
+      end
     end
 
     respond_to do |format|

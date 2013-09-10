@@ -259,19 +259,22 @@ window.console = window.console || (function(){
 <hr/>
 <div class="row">
 <div id="pollBody" class="span8">
-<%= @quick_poll.issue.comment %>
+<% if @user_is_issue_admin %>	
+  <%= best_in_place [:staff, @quick_poll.issue], :comment, type: :textarea %>
+<% else %>
+  <%= @quick_poll.issue.comment %>
+<% end %>
 </div> <!-- pollBody -->
 <div id="pollSponsor" class="span4">
 <% if @jot %>
 
 Asqed by <%= link_to @jot.official_name_with_abbreviated_title, official_url(@jot.official_id) %>
 <p>
-<% if @jot.has_photo? %>
-	<%= image_tag @jot.photo_path, :length => 125, :width => 100 %>
-<% else %>
+  <% if @jot.has_photo? %>
+  	<%= image_tag @jot.photo_path, :length => 125, :width => 100 %>
+  <% else %>
     <%= @jot.photo_filename %>
-<% end %>
-
+  <% end %>
 <% end %>
 </div> <!-- pollSponsor -->
 </div> <!-- row -->

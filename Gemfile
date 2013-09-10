@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "bcrypt-ruby", :require => "bcrypt"
+gem "best_in_place"
 #gem "bootstrap-will_paginate", "0.0.6"
 gem "composite_primary_keys", "~>5.0.12"
 gem "daemons"
