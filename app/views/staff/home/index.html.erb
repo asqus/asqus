@@ -14,6 +14,7 @@
 <table class="recordsTable" width=600>
   <tr>
     <th>Title</th>
+    <th>Issue</th>
 	<th>Start time</th>
 	<th>End time</th>
 	<th>Poll workflow state</th>
@@ -26,6 +27,7 @@
   <% @quick_polls.each do |quick_poll| %>
     <tr>
 	  <td><%= quick_poll.title %></td>
+	  <td><%= quick_poll.issue.title %>
 	  <td><%= quick_poll.start_time.to_s(:short) %></td>
 	  <td><%= quick_poll.end_time.to_s(:short) %></td>
 	  <td><%= quick_poll.poll_workflow_state %></td>

@@ -9,56 +9,6 @@
 ActiveRecord::Base.transaction do
 
 
-puts 'CREATING SITE ROLES'
-
-site_role_user = SiteRole.create( {:name => 'User'}, :without_protection => true )
-site_role_admin = SiteRole.create( {:name => 'Admin'}, :without_protection => true )
-
-puts 'SITE ROLE: ' + site_role_admin.id.to_s
-
-
-puts 'CREATING POLL WORKFLOW STATES'
-poll_workflow_state_start = PollWorkflowState.create( {:name => 'Start'}, :without_protection => true )
-poll_workflow_state_approved = PollWorkflowState.create( {:name => 'Approved'}, :without_protection => true )
-poll_workflow_state_published = PollWorkflowState.create( {:name => 'Published'}, :without_protection => true )
-poll_workflow_state_closed = PollWorkflowState.create( {:name => 'Closed'}, :without_protection => true )
-
-
-mailing_status_initial = MailingStatus.create( {:id => 1, :name => 'Initial'})
-mailing_status_ready = MailingStatus.create( {:id => 2, :name => 'Ready'})
-mailing_status_sending = MailingStatus.create( {:id => 3, :name => 'Sending'})
-mailing_status_complete = MailingStatus.create( {:id => 4, :name => 'Complete'})
-mailing_status_error = MailingStatus.create( {:id => 5, :name => 'Error'})
-
-
-puts 'CREATING POLITY TYPES'
-
-polity_type_nation = PolityType.create( { :name => 'Nation'}, :without_protection => true )
-polity_type_state = PolityType.create( { :name => 'State'}, :without_protection => true )
-polity_type_senate_seat = PolityType.create( { :name => 'SenateSeat'}, :without_protection => true )
-polity_type_congressional_district = PolityType.create( { :name => 'CongressionalDistrict'}, :without_protection => true )
-polity_type_state_senate_district = PolityType.create( { :name => 'StateSenateDistrict'}, :without_protection => true )
-polity_type_state_house_district = PolityType.create( { :name => 'StateHouseDistrict'}, :without_protection => true )
-polity_type_county = PolityType.create( { :name => 'County'}, :without_protection => true )
-polity_type_municipality = PolityType.create( { :name => 'Municipality'}, :without_protection => true )
-polity_type_ward = PolityType.create( { :name => 'Ward'}, :without_protection => true )
-
-
-
-puts 'CREATING OFFICE TYPES'
-
-office_type_POTUS = OfficeType.create( { :ukey => 'POTUS', :name => 'President', :polity_type => polity_type_nation, :title => 'President', :abbreviated_title => 'President'}, :without_protection => true )
-office_type_VPOTUS = OfficeType.create( { :ukey => 'VPOTUS', :name => 'Vice President', :polity_type => polity_type_nation, :title => 'Vice President', :abbreviated_title => 'V.P.'}, :without_protection => true )
-office_type_US_SENATOR = OfficeType.create( { :ukey => 'US_SENATOR', :name => 'U.S. Senator', :polity_type => polity_type_senate_seat, :title => 'Senator', :abbreviated_title => 'Sen.'}, :without_protection => true )
-office_type_US_REP = OfficeType.create( { :ukey => 'US_REP', :name => 'U.S. Representative', :polity_type => polity_type_congressional_district, :title => 'Representative', :abbreviated_title => 'Rep.'}, :without_protection => true )
-office_type_GOVERNOR = OfficeType.create( { :ukey => 'GOVERNOR', :name => 'Governor', :polity_type => polity_type_state, :title => 'Governor', :abbreviated_title => 'Gov.'}, :without_protection => true )
-office_type_LT_GOVERNOR = OfficeType.create( { :ukey => 'LT_GOVERNOR', :name => 'Lieutenant Governor', :polity_type => polity_type_state, :title => 'Lieutenant Governor', :abbreviated_title => 'Lt. Gov.'}, :without_protection => true )
-office_type_STATE_SENATOR = OfficeType.create( { :ukey => 'STATE_SENATOR', :name => 'State Senator', :polity_type => polity_type_state_senate_district, :title => 'Senator', :abbreviated_title => 'Sen.'}, :without_protection => true )
-office_type_STATE_REP = OfficeType.create( { :ukey => 'STATE_REP', :name => 'State Representative', :polity_type => polity_type_state_house_district , :title => 'Representative', :abbreviated_title => 'Rep.'}, :without_protection => true )
-office_type_MAYOR = OfficeType.create( { :ukey => 'MAYOR', :name => 'Mayor', :polity_type => polity_type_municipality, :title => 'Mayor', :abbreviated_title => 'Mayor'}, :without_protection => true )
-office_type_US_HOUSE_DELEGATE = OfficeType.create( { :ukey => 'US_HOUSE_DELEGATE', :name => 'House Delegate', :polity_type => polity_type_congressional_district, :title => 'Delegate', :abbreviated_title => 'Del'}, :without_protection => true )
-
-
 puts 'CREATING STATES'
 State.create([
   { :id => 1, :name => 'Alabama', :abbreviation => 'AL'},
@@ -145,7 +95,7 @@ house_districts.each_pair do |st, num_districts|
     district = CongressionalDistrict.create(
       { :state => state, :district => district_number }, :without_protection => true
     )
-    office_type = state.is_state ? office_type_US_REP : office_type_US_HOUSE_DELEGATE
+    office_type = state.is_state ? OfficeType::US_REP : OfficeType::US_HOUSE_DELEGATE
     Office.create( 
       { :office_type => office_type, :state_id => state.id, :congressional_district_no => district_number },
       :without_protection => true
@@ -170,7 +120,7 @@ senate_classes.each_pair do |st, classes|
   state = State.find_by_abbreviation(st)
   classes.each do |class_num|
     office = Office.create(
-      { :office_type => office_type_US_SENATOR, :state_id => state.id, :us_senate_class => class_num },
+      { :office_type => OfficeType::US_SENATOR, :state_id => state.id, :us_senate_class => class_num },
         :without_protection => true
     )
   end
@@ -178,13 +128,13 @@ end
 
 puts 'CREATING TERMS'
 Term.create([
-  { :name => "U.S. House of Representatives 2013-15", :office_type => office_type_US_REP, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type => office_type_US_SENATOR, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
-  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type => office_type_US_SENATOR, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
-  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type => office_type_US_SENATOR, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
-  { :name => "Governor 2011-2015", :office_type => office_type_GOVERNOR, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true },
-  { :name => "State legislature 2013-2015", :office_type =>  office_type_STATE_REP, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true },
-  { :name => "State legislature 2013-2015", :office_type =>  office_type_STATE_SENATOR, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true }
+  { :name => "U.S. House of Representatives 2013-15", :office_type => OfficeType::US_REP, :from_date => "2013-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2009-2015 (Class 2)", :office_type => OfficeType::US_SENATOR, :from_date => "2009-01-03", :to_date => "2015-01-03", :standard => true },
+  { :name => "U.S. Senate 2011-2017 (Class 3)", :office_type => OfficeType::US_SENATOR, :from_date => "2011-01-03", :to_date => "2017-01-03", :standard => true },
+  { :name => "U.S. Senate 2013-2019 (Class 1)", :office_type => OfficeType::US_SENATOR, :from_date => "2013-01-03", :to_date => "2019-01-03", :standard => true },
+  { :name => "Governor 2011-2015", :office_type => OfficeType::GOVERNOR, :from_date => "2011-01-01", :to_date => "2015-01-01", :standard => true },
+  { :name => "State legislature 2013-2015", :office_type =>  OfficeType::STATE_REP, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true },
+  { :name => "State legislature 2013-2015", :office_type =>  OfficeType::STATE_SENATOR, :from_date => "2013-01-01", :to_date => '2015-01-01', :standard => true }
 ], :without_protection => true)
 
 
@@ -222,7 +172,7 @@ puts 'New user created: ' << user10.name
 
 
 michigan = State.find_by_abbreviation('MI')
-admin_office = Office.where( :office_type_id => office_type_US_REP.id, :state_id => michigan.id ).first
+admin_office = Office.where( :office_type_id => OfficeType::US_REP.id, :state_id => michigan.id ).first
  
 
 puts 'CREATING ISSUES'
@@ -230,27 +180,16 @@ puts 'CREATING ISSUES'
 issue1 = Issue.create( { :title => "Bridge to Canada", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The bridge from Detroit to Canada is a significant investment that must be considere carefully.' }, :without_protection => true )
 issue2 = Issue.create( { :title => "Parking Lot Skating Rink", :poller_type => 'Office', :poller_id => admin_office.id, :comment => 'The proposal involves installing and maintaining a public skating rink on top of the underground parking lot adjacent to the Library' }, :without_protection => true )
   
-graph_type_pie = GraphType.create({:name => 'Pie Chart'}, :without_protection => true )
-graph_type_bar = GraphType.create({:name => 'Bar'}, :without_protection => true )
-
-
-puts 'CREATING QUICK POLL TYPES'
-
-
-quick_poll_type_public = QuickPollType.create( { :name => 'Public'}, :without_protection => true )
-quick_poll_type_private = QuickPollType.create( { :name => 'Private'}, :without_protection => true )
-quick_poll_type_anonymous = QuickPollType.create( { :name => 'Anonymous'}, :without_protection => true )
-
 puts 'CREATING QUICK POLLS'
 
 
 poll1 = QuickPoll.create(
-  { :issue => issue1, :quick_poll_type => quick_poll_type_public, :title => "Detroit to Canada Bridge", :body => "Do you agree with the proposed bridge from Detroit to Canada?",
+  { :issue => issue1, :quick_poll_type => QuickPollType::PUBLIC, :title => "Detroit to Canada Bridge", :body => "Do you agree with the proposed bridge from Detroit to Canada?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state => poll_workflow_state_published , :graph_type => graph_type_pie }, :without_protection => true )
 
 
 poll2 = QuickPoll.create(
-  { :issue => issue2, :quick_poll_type => quick_poll_type_public, :title => "Public Skating Rink", :body => "Should Ann Arbor have a skating rink on top of the Downtown Public Library Lot?",
+  { :issue => issue2, :quick_poll_type => QuickPollType::PUBLIC, :title => "Public Skating Rink", :body => "Should Ann Arbor have a skating rink on top of the Downtown Public Library Lot?",
     :start_time => Date.parse("01 Jan 2012"), :end_time => Date.parse('01 Jan 2013'), :poll_workflow_state => poll_workflow_state_published, :graph_type => graph_type_pie }, :without_protection => true )
 
 

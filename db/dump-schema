@@ -1,0 +1,2 @@
+pg_dump asqus_dev -U postgres --schema-only >schema.sql
+pg_dump asqus_dev -U postgres --data-only -t schema_migrations -t site_roles -t poll_workflow_states -t mailing_statuses -t municipality_types -t polity_types -t office_types -t graph_types -t quick_poll_types >migrations_and_domain_values.sql
